@@ -1,0 +1,36 @@
+<html>
+  <head>
+  <link rel="stylesheet" type="text/css" href="/css/serious.css">
+  <link rel="stylesheet" type="text/css" href="/css/application.css">
+  <link rel="stylesheet" type="text/css" href="/css/coderay.css">
+  
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src="/mediaelement/mediaelement-and-player.min.js"></script>
+  <link rel="stylesheet" href="/mediaelement/mediaelementplayer.min.css" />
+  
+  <link rel="alternate" type="application/atom+xml" title="<%= Serious.title %>" href="<%= Serious.feed_url %>" />
+  <title><%= @article ? @article.title + " - " : "" %><%= Serious.title %></title>
+  </head>
+  
+  <body>
+    <div id="header">
+      <h1><a href="/"><%= Serious.title %></a></h1>
+      <nav><%= render_nav Serious::Page.all %></nav>
+    </div>
+
+    
+    <div id="container">
+      <%= yield.force_utf8 %>
+    </div>
+    
+    <div id="footer">
+      <p>
+        This blog is <a href="http://github.com/colszowka/serious">serious</a>.
+      </p>
+    </div>
+    
+    <%= render_partial :google_analytics if Serious.google_analytics %> 
+    <%= render_partial :mediaelementplayer %> 
+  </body>
+</html>
+

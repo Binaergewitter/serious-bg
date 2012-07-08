@@ -1,0 +1,9 @@
+<ul id="articles">
+  <% @recent.each do |article| %>
+    <li>
+      <%= render_article article, true %>
+    </li>
+  <% end %>
+</ul>
+<h3><a href="/archives">Older posts</a></h3>
+<%= render_archived @archived %>

@@ -1,0 +1,136 @@
+/* WARNING: DO NOT MODIFY THIS FILE! 
+   It will be overwritten on updates your stylesheets from the serious gem.
+   Please use application.css for your local changes unless you want to completely change
+   the styles established here! */
+
+body {
+  margin: 0 auto;
+  font-family: 'Junction', 'Baskerville', Georgia, Times, serif;
+  font-size: 20px;
+  line-height: 30px;
+  width: 800px;
+}
+
+div, p {
+  font-family: Georgia, Times, serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Helvetica", "Arial", "Verdana", sans-serif;
+  padding: 0;
+  margin: 0;
+  line-height: 120%;
+}
+
+
+.CodeRay, pre, code {
+  font-size: 14px;
+  font-family: 'Consolas', 'Inconsolata', 'Monaco', 'Courier New', 'Terminal', monospace;
+  line-height: 1.4;
+}
+
+.date {
+  font-style: italic;
+  color: #666;
+}
+
+.right {
+  float: right;
+}
+
+.author {
+  color: #666;
+  font-size: 14px;
+}
+
+#header {
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 30px;
+  text-align: center;
+  border-bottom: 2px solid #BE2805;
+}
+
+#header h1 {
+  font-size: 28px;
+}
+
+#header a {
+  color: #666;
+  text-decoration: none;
+}
+
+#container a {
+  color: black;
+  text-decoration: none;
+}
+
+#container a:hover {
+  color: #BE2805;
+  text-decoration: none;
+}
+
+#container ul {
+  list-style: none;
+  padding: 0; 
+  margin; 0;
+}
+
+#container ul li {
+  padding: 0; 
+  margin; 0;
+}
+
+#container ul.archives li {
+  margin-left: 25px;
+}
+
+#container .article {
+  margin-bottom: 80px;
+}
+
+.body h1, .body h2, .body h3, .body h4, .body h5 {
+  padding-top: 20px;
+  font-size: 95%;
+}
+
+#container .body a {
+  color: #BE2805;
+}
+
+#container .body a:hover {
+  color: black;
+}
+
+#container blockquote {
+  background-color: #fafafa;
+  margin: 0 0 25px 0;
+  padding: 25px;
+}
+
+#disqus_thread {
+  padding-top: 25px;
+}
+
+#disqus_thread h3 {
+  padding: 15px 0px;
+  font-size: 20px;
+}
+
+#footer {
+  margin-top: 50px;
+  color: #666;
+  text-align: right;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+#footer a {
+  text-decoration: none;
+  color: black;
+}
+
+#footer p {
+  margin: 0;
+  padding: 0;
+}

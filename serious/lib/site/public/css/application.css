@@ -1,0 +1,6 @@
+/* Use this for your blog-specific css rules */
+nav ul li {
+	list-style: none;
+    display: inline;
+    margin: 0.4em; padding: 0;
+}

@@ -1,0 +1,19 @@
+<% unless article.audioformats.empty? %>
+        <div class="podcast_downloads">
+          <p>
+          <% article.audioformats.each_pair do |audio_format, audio_url| %>
+            <a href="<%= audio_url %>"><img src="/img/audio_<%= audio_format %>_button.png"/></a>
+          <% end %>
+          </p>
+        </div>
+        <div class="podcast_player">
+          <p>
+            <audio controls="controls">
+              <% article.audioformats.each_pair do |audio_format, audio_url| %>
+                <source src="<%= audio_url %>" type="audio/<%= audio_format %>" />
+              <% end %>
+              Your browser does not support the audio element.
+            </audio>
+          </p>
+        </div>
+<% end %>

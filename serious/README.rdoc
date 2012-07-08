@@ -1,0 +1,368 @@
+= Serious
+
+Serious is a blog engine inspired by other filesystem-based engines like jekyll (http://jekyllrb.com/) 
+and toto (http://cloudhead.io/toto) and is based upon Sinatra and rack, thus can be hosted
+very easily (and for free) on heroku (http://heroku.com). 
+
+The articles are stored in plain text files with an opinionated naming scheme which is used for
+getting the date and permalink of your article: <code>articles/2010-02-14-will-you-be-my-valentine.txt</code>
+
+The actual content of the article is lazy-loaded only when accessed, so things don't get messy when a lot
+of articles has to be maintained. Articles consist of a YAML front, an optional summary and the body,
+so a basic article looks something like this:
+
+  title: My shiny article
+  author: Christoph Olszowka
+  
+  Some nice summary.
+  ~
+  ## Some content. You can use markdown in your articles, and also <%= "erb" %>
+  <% highlight do %>
+    puts "it will also syntax-highlight your codes"
+  <% end %>
+  
+There are quite a few assumptions made by this format: You have to specify your title in yaml format
+upfront. You can also specify an author for this article. If you don't, it will fall-back to the
+default one (see configuration). Then two newlines must follow to separate the yaml from the actual
+content. After this, you can type your blog post. If you want a summary, add in the summary/body
+delimiter "~", so Serious knows what you want.
+  
+Serious makes use of StupidFormatter (http://github.com/colszowka/stupid_formatter) for formatting
+your articles, so you get ERb, Markdown and Coderay syntax highlighting for free and can customize
+the processing chain to your liking, add custom ERb helpers and so on. See the documentation of
+stupid_formatter (http://rdoc.info/projects/colszowka/stupid_formatter) to learn how to 
+customize the formatting.
+
+Articles with a date in the future will not appear on the site, thus allowing you to draft or schedule 
+posts. Note that you can also create a folder to store your drafts and once they are ready to be 
+published just move it to the <code>articles</code> folder (this folder name can be changed in your 
+configuration).
+
+== Getting started
+
+Install the gem:
+  
+  sudo gem install serious
+
+You can use the supplied generator using the <code>serious</code> executable provided with the gem.
+Type <code>serious</code> in your shell to see the available options.
+
+By default the generator will create the app with gem-based public and views directories and initialize
+a git repository. To host your app on heroku instantly, supply the --heroku option, which will use
+the heroku gem to create your app and push it to heroku via git. Type:
+
+  serious my-fancy-blog --heroku
+  
+And you can go to http://my-fancy-blog.heroku.com to see your new blog!
+
+== The setup
+
+The directory basic directory structure of your Serious site would be something like this:
+
+  serious_blog/
+  - articles
+    - 2010-02-14-will-you-be-my-valentine.txt
+  - pages
+    - about.txt
+  - config.ru
+  - Gemfile
+  - Rakefile
+  
+The config.ru is pretty straight-forward if you want to stick to the defaults:
+
+  require 'rubygems'
+  require 'bundler'
+  Bundler.require
+  Serious.set :title, "My Sweet Little Blog"
+  Serious.set :author, "Christoph Olszowka"
+  Serious.set :url, 'http://mysweetlittleblog.heroku.com'
+  run Serious
+  
+The Gemfile to resolve dependencies (i.e. when hosting on heroku)
+
+  source :rubygems
+  gem "serious"
+  
+The Rakefile, which is obviously totally optional but highly recommended looks like this:
+
+  require 'serious'
+  require 'serious/tasks'
+  
+== Supported Rubies
+
+The gem tests are run against 1.8.7, REE, 1.9.1 and 1.9.2, so Serious should run fine at least
+on those interpreters - it is highly recommended to go with 1.9.2 though.
+  
+== Creating heroku app manually
+
+Assuming you've got the heroku gem installed and set up and you've set up git for your blog with
+<code>git init</code> or sticked with the generator, which created your git repo, you can now do:
+  
+  heroku create mysweetlittleblog
+  git push heroku master
+  
+Point your browser to the url, and bang, you're ready!
+
+== Running locally
+
+You might also want to test your blog locally. Use the <code>rake server</code> command inside
+your site's directory.
+
+You can also use thin (<code>sudo gem install thin</code>) with:
+
+  thin -R config.ru start
+  
+Go to <code>localhost:3000</code> and enjoy.
+
+== Archives
+
+The whole archives can be accessed at <code>/archives</code>. Archives by year, month and date
+are available at <code>/2009</code> (all of 2009), <code>/2009/05</code> (May 2009), 
+<code>/2009/05/15</code> (May 15th 2009).
+
+== Static pages
+
+Static pages are quite similar to blog articles, in that their formatting and processing is the same.
+They have a yaml front matter, content that gets piped through the StupidFormatter and so on.
+The filename sans the extension serves as the permalink, pages can be reached via 
+<code>/pages/PERMALINK</code>, so the content in pages/about.txt will be served at 
+<code>/pages/about</code>
+
+== Rake tasks
+
+If you've set up the Rakefile in your site's main directory like mentioned above (this happens 
+automatically when generating with the <code>serious</code> executable), you have the following 
+tasks available:
+
+  rake article:create    # Creates a new article
+  rake article:validate  # Validates all articles, making sure they can be processed correctly
+  rake server            # Runs a server hosting your site on localhost:3000 using rackup
+
+The default is article:create, so to create a new article, just type <code>rake</code>,
+specify your title and optionally a date and you're ready to go!
+
+It's highly recommended that you run the <code>article:validate</code> task before publishing,
+since it will make sure everything gets processed correctly.
+
+Please be aware that you have to run the Rake tasks from the top level directory (where your
+<code>config.ru</code> file resides) since the config.ru file will be loaded to reflect your
+settings.
+
+== Creating routes by extending Serious
+
+If you'd like to create your own routes or use other features from Sinatra you can do that by 
+extending Serious. Create a ruby file in the root of your Serious blog. We'll create our own 
+class that extends Serious. Name the file and class however you like. For the following example 
+we'll go with a filename of app.rb and a class named MyApp.
+
+  require 'serious'
+    
+    class MyApp < Serious
+      # define your custom routes
+    end
+    
+  end
+
+From there all that is left is to update the config.ru file with the following:
+
+  require 'serious'
+  require './app'
+  
+  # Serious config overrides here if any...
+  
+  run MyApp
+
+== Comments with disqus
+
+You can activate comments for articles very easily with disqus (http://disqus.com) by setting
+the <code>disqus</code> property to your disqus-id (e.g. 'myfancysite'). Disqus developer mode will
+be automatically activated for requests served by http://localhost so you can preview your settings
+and layout properly.
+
+  Serious.set :disqus, 'yourid'
+  
+== Google Analytics
+
+You can activate Google Analytics by setting the <code>google_analytics</code> property to your 
+tracker id (something like 'UA-123123-5'). The required code will then be included to your site.
+For requests served from http://localhost, the inclusion is skipped.
+
+  Serious.set :google_analytics, 'UA-123123-5'
+
+== Configuration options
+
+Inside your config.ru, you can customize the settings for your Serious site.
+
+=== Custom view templates or public folder
+
+==== Changing the path to the public folder
+  
+Say you want to stick with the default view templates, but are willing to customize the css
+to make things prettier. You can do so. Get the provided css from <code>lib/serious/site/public</code>
+and point Serious to your new public folder, which assumingly lies in the current working directory
+(which is where your config.ru file is)
+  
+  Serious.set :public, File.join(Dir.getwd, 'public')
+  
+Serious will now serve the public directory from your custom location, but still get the views
+provided with the gem.
+
+==== Changing the path to the views
+
+Accordingly, if you want to stick with the default css, but want to customize the templates (would anyone
+want to do this?), specify the views path and get the provided ones from the gem as a starting point.
+
+  Serious.set :views, File.join(Dir.getwd, 'views')
+  
+==== Setting the root
+
+The most likely case though will surely be that you want to move both <code>public</code> and 
+<code>views</code> into your site. Again, just copy over the provided assets from the gems
+<code>lib/serious/site/</code> folder into your own site and modify them to your liking.
+You'll have to specify a new root for your site, set to the current working directory, where
+your config.ru resides:
+
+  Serious.set :root, Dir.getwd
+  
+Note that you do not have to specify the views and public folders separately, they'll be hosted
+from the roots views and public subdirectory.
+
+=== Setting the articles path
+
+You want your articles hosted from your home directory or fancy a different folder name?
+Use the :articles property, which defaults to the articles subdirectory of the current
+working directory (a.k.a. where your config.ru sits)
+
+  Serious.set :articles, '/home/youruser/myblogposts'
+  
+=== Setting the pages path
+
+Similarly to the articles path, the pages will be served from your sites working directory's
+subdirectory <code>pages</code>. Customize this with:
+
+  Serious.set :pages, '/home/youruser/mystaticpages'
+  
+=== The title
+
+The title is used for your atom feed, the site name and so on. It defaults to 'Serious' and you 
+can specify it with:
+
+  Serious.set :title, "My Sweet Little Blog"
+
+=== The author
+
+If you don't want to specify the author for each article separately in the YAML front matter,
+you can define the blog author, which will be used as a fall-back when no custom article author
+is given in the YAML. It defaults to 'unknown'
+
+  Serious.set :author, "Christoph Olszowka"
+  
+=== The url
+
+Well, your site has to know where it lives to provide proper links in your atom feed. Configure this
+with the url setting, which defaults to 'http://localhost:3000'
+  
+  Serious.set :url, 'http://localhost:3000'
+
+=== The date format
+
+There is a helper in the Date class for formatting dates according to the configuration specified
+in Serious.date_format and which is used in the front-end. It defaults to "%B %o %Y", which expands
+to (i.e.) 'December 24th, 2009'. Notice that %o is a custom flag that is not built-in in the default
+<code>strftime</code> method of Date. It returns the ordinal name of the day. Customize with:
+
+  Serious.set :date_format, "%Y-%m-%d"
+  
+=== Disqus comments
+
+To enable disqus comments, specify your disqus id with the disqus property. Disqus is disabled 
+by default. See section above for more information on disqus and comments.
+
+  Serious.set :disqus, 'yourdisqusid'
+  
+=== Google Analytics
+
+To enable google analytics, specify your tracker id at the property <code>google_analytics</code>.
+See section above for more information on Google Analytics.
+
+  Serious.set :google_analytics, 'UA-123123-5'
+  
+=== Custom feed url in layout
+
+If you want to specify a different feed url for the head link tag, for example to point your readers
+to Feedburner, you can do so by specifying the <code>feed_url</code> option and setting up your
+feed to be burned by feedburner based upon <code>http://yoururl.com/atom.xml</code>.
+
+  Serious.set :feed_url, 'http://feeds.feedburner.com/myfeedurl'  
+  
+=== Displayed items
+
+You can specify how many items you want displayed across your site:
+
+==== Amount of feed items
+
+To customize the amount of items in your atom feed (living under /atom.xml), set the 
+items_in_feed property to an integer. This defaults to 25.
+  
+  Serious.set :items_in_feed, 50
+  
+==== Amount of items with summary on index
+
+On your index page, the most recent items will be displayed including the summary (or the whole
+post if you did not use the summary/body delimiter). This defaults to 3 items, but can be customized:
+
+  Serious.set :items_on_index, 5
+  
+==== Amount of archive items on index
+
+Below the items with summaries on your main page, there's also a list of 'archived' items, which
+only includes the title and date. This defaults to 10 items, but can be customized as well:
+
+  Serious.set :archived_on_index, 10
+  
+=== Cache timeout
+
+All pages served are automatically getting a Cache-Control header, so they get cached in your
+visitor's browsers as well as in Varnish on Heroku (http://docs.heroku.com/http-caching) 
+(or some similar tool when you host yourself). The timeout is set to 300 seconds by default, but
+can be customized with:
+
+  Serious.set :cache_timeout, 300
+  
+=== Article formatting
+
+You can define the formatting chain for StupidFormatter with:
+
+  StupidFormatter.chain = [StupidFormatter::RDiscount]
+
+You'll surely want to read the documentation of StupidFormatter (http://github.com/colszowka/stupid_formatter)
+to learn how to add your own formatters or erb helpers.
+
+== TODO
+
+* unescaped special chars in yaml front matter can lead to errors
+* text not readable in android
+* valid xhtml in demo setup
+* make summary delimiter configurable
+* improve caching
+* make it possible to host in subdirectories
+* allow for choice between erb/haml templates
+
+== Note on Patches/Pull Requests
+ 
+* Fork the project.
+* Make your feature addition or bug fix.
+* Add tests for it. This is important so I don't break it in a
+  future version unintentionally.
+* Commit, do not mess with rakefile, version, or history.
+  (if you want to have your own version, that is fine but bump version in a commit by itself I can ignore when I pull)
+* Send me a pull request. Bonus points for topic branches.
+
+== Thanks
+
+Alexis Sellier for toto, the main inspiration for this gem
+Ryan Bates for the great coderay css
+
+== Copyright
+
+Copyright (c) 2010 Christoph Olszowka. See LICENSE for details.
