@@ -64,6 +64,13 @@ class Serious < Sinatra::Base
     @articles = Article.all(:limit => Serious.items_in_feed)
     builder :atom
   end
+
+  get '/podcast_feed/*/*/atom.xml' do
+    @articles = Article.all(:limit => Serious.items_in_feed)
+    broadcast_format, audio_codec = params[:splat]
+    @articles.select!{|article| article.audioformats.key?(audio_codec) && article.categories.include?(broadcast_format) }    
+    builder :atom
+  end
   
   # Specific article route
   get %r{^/(\d{4})/(\d{1,2})/(\d{1,2})/([^\/]+)} do

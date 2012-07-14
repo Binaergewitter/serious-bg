@@ -71,6 +71,11 @@ class Serious::Article
   def audioformats
     @audio ||= yaml["audioformats"] || {}
   end
+
+  # Lazy-loading audioformats accessor
+  def categories
+    @categories ||= yaml["categories"] || []
+  end
   
   # Lazy-loading author accessor with fallback to Serious.author
   def author
