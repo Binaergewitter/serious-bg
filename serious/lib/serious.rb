@@ -69,6 +69,7 @@ class Serious < Sinatra::Base
     @articles = Article.all(:limit => Serious.items_in_feed)
     broadcast_format, audio_codec = params[:splat]
     @articles.select!{|article| article.audioformats.key?(audio_codec) && article.categories.include?(broadcast_format) }    
+    @selected_audio_codec = audio_codec
     builder :atom
   end
   
