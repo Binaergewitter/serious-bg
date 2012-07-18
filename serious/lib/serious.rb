@@ -115,6 +115,10 @@ StupidFormatter.chain = [StupidFormatter::Erb, StupidFormatter::RDiscount]
 Serious.set :root, File.join(File.dirname(__FILE__), 'site')
 Serious.set :title, "Serious"
 Serious.set :author, "unknown"
+Serious.set :owner, "unkown"
+Serious.set :email, "owner@example.org"
+Serious.set :image, "http://example.org/cover.png"
+Serious.set :category, "Technology"
 Serious.set :url, 'http://localhost:3000'
 Serious.set :items_in_feed, 25 # Number of items to display in atom feed
 Serious.set :items_on_index, 3 # Number of items to display with summary on main page
