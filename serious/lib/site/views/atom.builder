@@ -9,11 +9,11 @@ xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
   xml.tag!("itunes:author", Serious.author)
   xml.tag!("itunes:explicit", "no")
   
-  xml.tag!("itunes:image", {"href" => "http://blog.binaergewitter.de/images/binaergewitter_logo.png"})
-  xml.tag!("itunes:category", {"text" => "Technology"})
+  xml.tag!("itunes:image", {"href" => Serious.image})
+  xml.tag!("itunes:category", {"text" => Serious.category})
   xml.tag!("itunes:owner"){
-    xml.tag!("itunes:name", "Binärgewitter Crew")
-    xml.tag!("itunes:email", "info@binaergewitter.de")
+    xml.tag!("itunes:name", Serious.owner)
+    xml.tag!("itunes:email", Serious.email)
   }
     
 
