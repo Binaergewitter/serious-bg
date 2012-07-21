@@ -15,6 +15,7 @@
       <% if article.instance_of?(Serious::Article) %>
       <%= render_controls article %>
       <span class="author right">Written by <%= article.author %></span>   
+        <%= render_flattr(article) if Serious.flattr %>
         <%= render_partial :disqus if Serious.disqus %> 
       <% end %>
     <% end %>

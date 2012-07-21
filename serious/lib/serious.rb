@@ -43,6 +43,10 @@ class Serious < Sinatra::Base
     def render_controls(article)
       render :erb, :"_podcast_controls", :locals => { :article => article }, :layout => false
     end
+
+    def render_flattr(article)
+      render :erb, :"_flattr", :locals => { :article => article }, :layout => false
+    end
     
     def render_article(article, summary_only=false)
       render :erb, :'_article', :locals => { :article => article, :summary_only => summary_only }, :layout => !summary_only
@@ -125,4 +129,5 @@ Serious.set :environment, :test
 Serious.set :date_format, "%B %o %Y"
 Serious.set :disqus, false
 Serious.set :google_analytics, false
+Serious.set :flattr, false
 Serious.set :feed_url, '/atom.xml'

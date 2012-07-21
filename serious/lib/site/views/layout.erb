@@ -31,6 +31,22 @@
     
     <%= render_partial :google_analytics if Serious.google_analytics %> 
     <%= render_partial :mediaelementplayer %> 
+    <% if Serious.flattr %>
+    <script type="text/javascript">
+    /* <![CDATA[ */
+    (function() {
+      var s = document.createElement('script');
+      var t = document.getElementsByTagName('script')[0];
+
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = '//api.flattr.com/js/0.6/load.js?mode=auto';
+
+      t.parentNode.insertBefore(s, t);
+    })();
+    /* ]]> */
+    </script>
+    <% end %>
   </body>
 </html>
 
