@@ -7,6 +7,7 @@
     <% if summary_only %>
       <%= article.summary.formatted %>
       <%= render_controls article %> 
+      <%= render_flattr(article) if Serious.flattr %>
       <% if article.summary.length != article.body.length %>
         <span class="right date"><a href="<%= article.url %>">read on...</a></span>
       <% end %>
