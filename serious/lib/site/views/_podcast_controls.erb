@@ -10,7 +10,7 @@
           <p>
             <audio controls="controls">
               <% article.audioformats.each_pair do |audio_format, audio_url| %>
-                <source src="<%= audio_url %>" type="audio/<%= audio_format %>" />
+                <source src="<%= audio_url %>" type="audio/<%= audio_format %>" preload="metadata" />
               <% end %>
               Your browser does not support the audio element.
             </audio>
