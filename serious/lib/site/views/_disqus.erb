@@ -1,6 +1,9 @@
-<% if request.url =~ %r{http://localhost} %>
-<script type="text/javascript">  var disqus_developer = true; </script> 
-<% end %>
+<script type="text/javascript">
+  <% if request.url =~ %r{http://localhost} %>
+  var disqus_developer = true;
+  <% end %>
+  var disqus_url = '<%= Serious.url %>/blog/<%= article.date.strftime("%Y/%m/%d")%>/<%= article.permalink %>/';
+</script> 
 <div id="disqus_thread" style="clear:both;"></div>
 <script type="text/javascript" src="http://disqus.com/forums/<%= Serious.disqus %>/embed.js"></script>
 <noscript>

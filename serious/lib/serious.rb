@@ -44,6 +44,10 @@ class Serious < Sinatra::Base
       render :erb, :"_podcast_controls", :locals => { :article => article }, :layout => false
     end
 
+    def render_disqus(article)
+      render :erb, :"_disqus", :locals => { :article => article }, :layout => false
+    end
+
     def render_flattr(article)
       render :erb, :"_flattr", :locals => { :article => article }, :layout => false
     end
