@@ -53,8 +53,7 @@ Das muss man wirklich wissen, ist man nun bei 0 Grad Kelvin ganz tot? Neben den 
    * [Bildvergleich](http://i.imgur.com/TmUj2.jpg )
 * [Shell Crowdsources Ads - "Let's Go!"]( http://arcticready.com/social/gallery )
     * [... ist ein gut gemachter Hoax von Green Peace]( http://www.upi.com/blog/2012/07/17/Shell-Lets-Go-campaign-a-brilliant-elaborate-hoax-UPDATED/5651342541859/#!/2/ )
-* [UTF-8 URLs]( http://موقع.وزارة-الاتصالات.مصر/ )
-    * [Punycode]( http://en.wikipedia.org/wiki/Punycode )
+* [Punycode]( http://en.wikipedia.org/wiki/Punycode )
     
 ## Lesefoo
 * [Glenn Vanderburg - Software Engineering Doesn't Work!]( http://www.youtube.com/watch?v=NCns726nBhQ#t=9m42s )
