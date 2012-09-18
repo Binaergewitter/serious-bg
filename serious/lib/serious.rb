@@ -107,8 +107,8 @@ class Serious < Sinatra::Base
     erb :archives
   end
   
-  get "/blog/:actual_path" do
-    redirect to('/' + param[:actual_path])
+  get "/blog/*" do
+    redirect "/#{params[:splat][0]}"
   end
   
   get "/pages/:page" do
