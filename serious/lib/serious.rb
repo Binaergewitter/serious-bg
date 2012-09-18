@@ -107,6 +107,10 @@ class Serious < Sinatra::Base
     erb :archives
   end
   
+  get "/blog/:actual_path" do
+    redirect to('/' + param[:actual_path])
+  end
+  
   get "/pages/:page" do
     halt 404 unless @article = Page.find(params[:page])
     render_article @article
