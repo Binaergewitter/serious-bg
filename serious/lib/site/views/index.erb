@@ -1,9 +1,9 @@
-<ul id="articles">
+<section id="articles">
   <% @recent.each do |article| %>
-    <li>
+    <div>
       <%= render_article article, true %>
-    </li>
+    </div>
   <% end %>
-</ul>
+</section>
 <h3><a href="/archives">Older posts</a></h3>
 <%= render_archived @archived %>

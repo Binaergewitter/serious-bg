@@ -1,6 +1,6 @@
-<html>
-  <head>
-  <link rel="stylesheet" type="text/css" href="/css/serious.css">
+<!DOCTYPE html>
+<html lang="de">
+<head>
   <link rel="stylesheet" type="text/css" href="/css/application.css">
   <link rel="stylesheet" type="text/css" href="/css/coderay.css">
   
@@ -10,29 +10,38 @@
   
   <link rel="alternate" type="application/atom+xml" title="<%= Serious.title %>" href="<%= Serious.feed_url %>" />
   <title><%= @article ? @article.title + " - " : "" %><%= Serious.title %></title>
-  </head>
+</head>
   
-  <body>
-    <div id="header">
+<body>
+  <header class="page-header">
+    <div class="container-fluid">
       <h1><a href="/"><%= Serious.title %></a></h1>
-      <nav><%= render_nav Serious::Page.all %></nav>
+      <p class="lead">Now with more Internet!</p>
     </div>
-
-    
-    <div id="container">
-      <%= yield.force_utf8 %>
+  </header>
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span3">
+        <div class="well sidebar-nav">
+          <%= render_nav Serious::Page.all %>
+        </div>
+      </div>
+      <div class="span9">
+        <section id="global">
+        <%= yield.force_utf8 %>
+      </section>
+      </div>
     </div>
+  </div>
+  <div id="footer">
+    <p>
+    </p>
+  </div>
     
-    <div id="footer">
-      <p>
-        This blog is <a href="http://github.com/colszowka/serious">serious</a>.
-      </p>
-    </div>
-    
-    <%= render_partial :google_analytics if Serious.google_analytics %> 
-    <%= render_partial :mediaelementplayer %> 
-    <% if Serious.flattr %>
-    <script type="text/javascript">
+  <%= render_partial :google_analytics if Serious.google_analytics %> 
+  <%= render_partial :mediaelementplayer %> 
+  <% if Serious.flattr %>
+  <script type="text/javascript">
     /* <![CDATA[ */
     (function() {
       var s = document.createElement('script');
@@ -45,8 +54,8 @@
       t.parentNode.insertBefore(s, t);
     })();
     /* ]]> */
-    </script>
-    <% end %>
-  </body>
+  </script>
+  <% end %>
+</body>
 </html>
 
