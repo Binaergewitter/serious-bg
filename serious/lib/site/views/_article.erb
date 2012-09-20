@@ -17,11 +17,8 @@
     <%= article.body.formatted %>
     <% if article.instance_of?(Serious::Article) %>
     <%= render_controls article %>
-    <div class="metainformatiom">
-      <span class="author right">Written by <%= article.author %></span>   
-      <%= render_flattr(article) if Serious.flattr %>
-      <%= render_disqus(article) if Serious.disqus %> 
-    </div>
+    <%= render_flattr(article) if Serious.flattr %>
+    <%= render_disqus(article) if Serious.disqus %> 
     <% end %>
     <% end %>
   </div>
