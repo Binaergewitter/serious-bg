@@ -1,3 +1,6 @@
+require 'rubygems'
+require 'bundler'
+require 'bundler/setup'
 require 'serious'
 Serious.set :title, 'Binaergewitter'
 Serious.set :author, 'Binaergewitter Team'
