@@ -24,12 +24,17 @@
       <div class="span3">
         <div class="well sidebar-nav">
           <%= render_nav Serious::Page.all %>
+          <% if Serious.flattr %>
+          <div class="flattr-button nav-list">
+            <iframe src="http://api.flattr.com/button/view/?url=<%= Serious.url %>%2F&amp;title=<%= Serious.title %>&amp;description=Ein%20Podcast%2C%20der%20sich%20mit%20dem%20Web%2C%20Technologie%20und%20Open%20Source%20Software%20auseinander%20setzt&amp;uid=<%= Serious.flattr_uid%>&amp;category=<%= Serious.flattr_category %>&amp;tags=<%= Array(Serious.flattr_tags).join('%2C') %>&amp;" class="FlattrButton" width="55" height="62" frameborder="0" scrolling="no" border="0" marginheight="0" marginwidth="0" allowtransparency="true"></iframe>
+          </div>
+          <% end %>
         </div>
       </div>
       <div class="span9">
         <section id="global">
-        <%= yield.force_utf8 %>
-      </section>
+          <%= yield.force_utf8 %>
+        </section>
       </div>
     </div>
   </div>
