@@ -157,8 +157,13 @@ class Serious::Article
     #
     def load!
       return true if @yaml and @content
-      yaml, @content = File.read(path).split(/\n\n/, 2)
+      begin
+        yaml, @content = File.read(path).split(/\n\n/, 2)
+      rescue StandardError => e
+        raise "Failed parsing file: #{path.inspect}. Original message: '#{e.message}'"
+      end
       @yaml = YAML.load(yaml)
+      
     end
     
     # Cached lazy-loading yaml config
