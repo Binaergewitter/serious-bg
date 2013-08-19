@@ -25,8 +25,8 @@ xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
         xml.enclosure "url" => article.audioformats[@selected_audio_codec], 'length' => "", 'type' => "audio/x-#{@selected_audio_codec}"
       end
       xml.id article.full_url
-      xml.published article.date.to_s
-      xml.updated article.date.to_s
+      xml.published article.date.strftime('%FT%T')
+      xml.updated article.date.strftime('%FT%T')
       xml.author { xml.name article.author }
       xml.summary article.summary.formatted, "type" => "html"
       xml.content article.body.formatted, "type" => "html"
