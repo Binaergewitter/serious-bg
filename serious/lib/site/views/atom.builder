@@ -2,7 +2,7 @@ xml.instruct! :xml, :version=>"1.0", :encoding=>"UTF-8"
 xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
   xml.title Serious.title
   xml.id Serious.url
-  xml.updated @articles.first.date.to_s unless @articles.empty?
+  xml.updated @articles.first.date.strftime('%FT%T') unless @articles.empty?
   xml.author { xml.name Serious.author }
   
   xml.tag!("itunes:summary", "")
