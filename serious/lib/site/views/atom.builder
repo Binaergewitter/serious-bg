@@ -1,5 +1,5 @@
 xml.instruct! :xml, :version=>"1.0", :encoding=>"UTF-8"
-xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
+xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd",  "xmlns:media" => "http://search.yahoo.com/mrss/",  :version => "2.0" do
   xml.title Serious.title
   xml.id Serious.url
   xml.updated @articles.first.date.strftime('%FT%TZ') unless @articles.empty?
