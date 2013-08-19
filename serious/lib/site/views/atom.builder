@@ -2,7 +2,7 @@ xml.instruct! :xml, :version=>"1.0", :encoding=>"UTF-8"
 xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
   xml.title Serious.title
   xml.id Serious.url
-  xml.updated @articles.first.date.strftime('%FT%T') unless @articles.empty?
+  xml.updated @articles.first.date.strftime('%FT%TZ') unless @articles.empty?
   xml.author { xml.name Serious.author }
   
   xml.tag!("itunes:summary", "")
@@ -25,8 +25,8 @@ xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
         xml.enclosure "url" => article.audioformats[@selected_audio_codec], 'length' => "", 'type' => "audio/x-#{@selected_audio_codec}"
       end
       xml.id article.full_url
-      xml.published article.date.strftime('%FT%T')
-      xml.updated article.date.strftime('%FT%T')
+      xml.published article.date.strftime('%FT%TZ')
+      xml.updated article.date.strftime('%FT%TZ')
       xml.author { xml.name article.author }
       xml.summary article.summary.formatted, "type" => "html"
       xml.content article.body.formatted, "type" => "html"
