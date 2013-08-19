@@ -4,11 +4,9 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd",  "xmlns:
     xml.link Serious.url
     # xml.description ''
     xml.language 'de'
-    xml.pubDate @articles.first.date.strftime('%FT%TZ') unless @articles.empty?
-    xml.lastBuildDate @articles.first.date.strftime('%FT%TZ') unless @articles.empty?    
+    xml.pubDate @articles.first.date.to_s(:rfc822) unless @articles.empty?
+    xml.lastBuildDate @articles.first.date.to_s(:rfc822) unless @articles.empty?    
     xml.author { xml.name Serious.author }
-
-    
     xml.tag!("itunes:summary", "")
     xml.tag!("itunes:author", Serious.author)
     xml.tag!("itunes:explicit", "no")
@@ -24,13 +22,13 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd",  "xmlns:
     @articles.each do |article|
       xml.item do
         xml.title article.title
-        xml.pubDate article.date.strftime('%FT%TZ')
+        xml.pubDate article.date.to_s(:rfc822)
         xml.link "rel" => "alternate", "href" => article.full_url
         if @selected_audio_codec
           xml.enclosure "url" => article.audioformats[@selected_audio_codec], 'length' => "", 'type' => "audio/x-#{@selected_audio_codec}"
         end
         xml.id article.full_url
-        xml.updated article.date.strftime('%FT%TZ')
+        xml.updated article.date.to_s(:rfc822)
         xml.itunes :author, Serious.author
         xml.itunes :summary, article.summary.formatted, "type" => "html"
         xml.content article.body.formatted, "type" => "html"
