@@ -1,11 +1,13 @@
-xml.instruct! :xml, :version=>"1.0", :encoding=>"UTF-8"
 xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd",  "xmlns:media" => "http://search.yahoo.com/mrss/",  :version => "2.0" do
   xml.channel do
     xml.title Serious.title
-    xml.id Serious.url
-    xml.updated @articles.first.date.strftime('%FT%TZ') unless @articles.empty?
-    xml.author { xml.name Serious.author }
+    xml.link Serious.url
+    # xml.description ''
     xml.language 'de'
+    xml.pubDate @articles.first.date.strftime('%FT%TZ') unless @articles.empty?
+    xml.lastBuildDate @articles.first.date.strftime('%FT%TZ') unless @articles.empty?    
+    xml.author { xml.name Serious.author }
+
     
     xml.tag!("itunes:summary", "")
     xml.tag!("itunes:author", Serious.author)
