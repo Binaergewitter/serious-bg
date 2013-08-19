@@ -5,7 +5,7 @@ date: 2011-08-24 15:57
 comments: true
 categories: spezial
 audioformats:
-mp3: http://archiv.radiotux.de/sendungen/binaergewitter/2011-08-18.RadioTux.Binaergewitter.3.mp3
+  mp3: http://archiv.radiotux.de/sendungen/binaergewitter/2011-08-18.RadioTux.Binaergewitter.3.mp3
 ---
 
 <p>Diesmal ein gar nicht so technisches Thema, aber trotzdem f&uuml;r uns Geeks interessant. Es geht um die Hackerspaces, die Kultur und warum das Lernen und Arbeiten in solchen Umgebungen einfacherer ist als in der Schule und im Studium. Mit dabei sind diesmal pfleidi, Felix, Jan und hadez. Moderation: Ingo</p>

@@ -5,7 +5,7 @@ date: 2011-01-09 09:17
 comments: true
 categories: spezial
 audioformats:
-mp3: http://download.binaergewitter.de/2011-01-08.RadioTux.Binaergewitter.NoSQL.mp3
+  mp3: http://download.binaergewitter.de/2011-01-08.RadioTux.Binaergewitter.NoSQL.mp3
 ---
 # Binaergewitter #1 - NoSQL - Binärgewitter
 
