@@ -7,96 +7,84 @@ categories: spezial
 audioformats:
 mp3: http://download.binaergewitter.de/2011-01-08.RadioTux.Binaergewitter.NoSQL.mp3
 ---
-Die erste Ausgabe unseres neuen Formats beschäftigt sich mit Datenbanken und NoSQL. Diese neuen Datenbanken waren im Jahr 2010 schon Hype und werden uns sicher auch im Jahr 2011 stark begleiten. Warum soll man aber diese Datenbanken einsetzen? Welche gibt es und welche Stärken und Schwächen haben diese? Das versuchen <a href="http://twitter.com/ddeimeke" target="_blank">Dirk</a>, <a href="http://twitter.com/rb2k" target="_blank">Marc</a>, <a href="http://twitter.com/pfleidi" target="_blank">Sven</a> und <a href="http://twitter.com/radiotux" target="_blank">Ingo</a> in 2,75 Stunden zu klären.
+# Binaergewitter #1 - NoSQL - Binärgewitter
 
-<strong>Shownotes / Timeline und Links</strong>
-<div>
-  <ul id="internal-source-marker_0.9715123863425106">
-    <li>Vorstellung der Teilnehmer / Kurze Erklärung von NoSQL
-      <ul>
-        <li>Marc: Masterthesis: <a href="http://blog.marc-seeger.de/2010/12/09/my-thesis-building-blocks-of-a-scalable-webcrawler">building blocks of a scalable webcrawler</a></li>
-      </ul>
-    </li>
-    <li>Grundlegende Einsatzgebiete von Datenbanken
-      <ol>
-        <li>Persistenz von (Anwendungs)daten
-          <ol>
-            <li>Unterschied/Gemeinsamkeit Dateisystem &lt;--&gt; Datenbank</li>
-            <li>Datensicherheit - WP: <a href="http://en.wikipedia.org/wiki/ACID">ACID</a></li>
-            <li>Verteilung</li>
-          </ol>
-        </li>
-        <li>Suchen
-          <ol>
-            <li>Via Indexierung (<a href="http://de.wikipedia.org/wiki/B%2B-Baum" target="_blank">B+Tree</a>)</li>
-            <li>Volltextsuche</li>
-          </ol>
-        </li>
-        <li>Navigation über Daten (Joins)</li>
-        <li>Reporting</li>
-      </ol>
-    </li>
-    <li>Grundlegende Klärung der Bezeichnung NoSQL</li>
-    <li>Grenzen von DBs (<a href="http://de.wikipedia.org/wiki/CAP-Theorem" target="_blank">CAP-Theorem</a>)</li>
-    <li>Unterschiede SQL/NoSQL
-      <ol>
-        <li>Grober Unterschied</li>
-        <li>Zeilen/Spalten vs. Key-Value, Column-Stores, Dokumente, Graphen
-          <ol>
-            <li><a href="http://de.wikipedia.org/wiki/JSON">JSON</a></li>
-            <li><a href="http://de.wikipedia.org/wiki/Resource_Description_Framework">Resource Description Framework</a></li>
-            <li><a href="http://blog.radiotux.de/2010/12/13/sendung-graphdb/">Sendung über GraphDB</a></li>
-          </ol>
-        </li>
-      </ol>
-    </li>
-    <li>Patterns bei der Implementierung
-      <ol>
-        <li>Papers: Stonebreaker <a href="http://highscalability.com/blog/2009/4/16/paper-the-end-of-an-architectural-era-its-time-for-a-complet.html">Paper: “The End Of An Architectural Era</a>”, <a href="http://s3.amazonaws.com/AllThingsDistributed/sosp/amazon-dynamo-sosp2007.pdf" target="_blank">Amazon Dynamo</a> (KeyValue), <a href="http://static.googleusercontent.com/external_content/untrusted_dlcp/labs.google.com/en//papers/bigtable-osdi06.pdf " target="_blank">Google Bigtable</a> (ColumnStore), <a href="http://de.wikipedia.org/wiki/MapReduce" target="_blank">Map/Reduce</a>, <a href="http://www.google.com/research/pubs/pub36632.html" target="_blank">Dremel</a>, CAP, <a href="http://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf">Cassandra</a> …)</li>
-      </ol>
-    </li>
-    <li>Datenbanksysteme
-      <ol>
-        <li>Vor- und Nachteile (Datenschema, Zugriff)
-          <ol>
-            <li>Column Store: <a href="http://cassandra.apache.org/" target="_blank">Cassandra</a></li>
-            <li>Column Store: <a href="http://hbase.apache.org/" target="_blank">HBase</a> (BigTable)</li>
-            <li>Datastructure Store: <a href="http://redis.io/" target="_blank">Redis</a>
-              <ol>
-                <li><a href="http://www.pauladamsmith.com/articles/redis_under_the_hood.html">Redis: under the hood</a></li>
-                <li><a href="http://blog.mjrusso.com/2010/10/17/redis-from-the-ground-up.html">Redis, from the Ground Up</a></li>
-              </ol>
-            </li>
-            <li>DocumentStore: <a href="http://www.mongodb.org/" target="_blank">MongoDB</a>
-              <ol>
-                <li><a href="http://bsonspec.org/">BSON</a></li>
-                <li><a href="http://www.mongodb.org/display/DOCS/GridFS+Specification">GridFS</a></li>
-              </ol>
-            </li>
-            <li>DocumentStore/KV Store: <a href="http://couchdb.apache.org/" target="_blank">CouchDB </a>
-              <ol>
-                <li><a href="http://couchdb.apache.org/screenshots.html">Futon</a> + <a href="http://couchapp.org/page/index">CouchApps</a></li>
-                <li><a href="http://guide.couchdb.org/draft/notifications.html">_changes feed </a>+ Lucene/<a href="http://www.elasticsearch.com/">ElasticSearch</a></li>
-              </ol>
-            </li>
-            <li>Key Value Store: <a href="http://memcachedb.org/" target="_blank">MemcachedDB</a></li>
-            <li>Key Value Store: <a href="http://basho.com/Riak.html" target="_blank">Riak</a>
-              <ul>
-                <li><a href="http://www.basho.com/riaksearch.html">RiakSearch</a> API ist kompatibel zu: Apache <a href="http://lucene.apache.org/solr/" target="_blank">Solr</a>/<a href="http://lucene.apache.org/" target="_blank">Lucene</a></li>
-              </ul>
-            </li>
-            <li>Graph Database: <a href="http://neo4j.org">Neo4J</a> / <a href="http://www.sones.com/" target="_blank">GraphDB</a></li>
-          </ol>
-        </li>
-        <li>Einsatzgebiete
-          <ul>
-            <li>kkovacs.eu <a href="http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis" target="_blank">Vergleich der NoSQL Datenbanken</a></li>
-            <li>readwriteweb.com <a href="http://www.readwriteweb.com/cloud/2011/01/how-twitter-uses-nosql.php" target="_blank">NoSQL bei Twitter</a></li>
-          </ul>
-        </li>
-        <li><a href="http://codemonkeyism.com/nosql-polyglott-persistence/" target="_blank">Polyglot Persistence</a></li>
-      </ol>
-    </li>
-    <li>Ende</li>
-  </ul>
-</div>
+Die erste Ausgabe unseres neuen Formats beschäftigt sich mit Datenbanken und NoSQL. Diese neuen Datenbanken waren im Jahr 2010 schon Hype und werden uns sicher auch im Jahr 2011 stark begleiten. Warum soll man aber diese Datenbanken einsetzen? Welche gibt es und welche Stärken und Schwächen haben diese? Das versuchen [Dirk][1], [Marc][2], [Sven][3] und [Ingo][4] in 2,75 Stunden zu klären.
+
+**Shownotes / Timeline und Links**
+
+*   Vorstellung der Teilnehmer / Kurze Erklärung von NoSQL 
+*   Grundlegende Einsatzgebiete von Datenbanken 
+    1.  Persistenz von (Anwendungs)daten 
+        1.  Unterschied/Gemeinsamkeit Dateisystem  Datenbank
+        2.  Datensicherheit - WP: [ACID][5]
+        3.  Verteilung
+    2.  Suchen 
+        1.  Via Indexierung ([B%2BTree][6])
+        2.  Volltextsuche
+    3.  Navigation über Daten (Joins)
+    4.  Reporting
+*   Grundlegende Klärung der Bezeichnung NoSQL
+*   Grenzen von DBs ([CAP-Theorem][7])
+*   Unterschiede SQL/NoSQL 
+    1.  Grober Unterschied
+    2.  Zeilen/Spalten vs. Key-Value, Column-Stores, Dokumente, Graphen 
+        1.  [JSON][8]
+        2.  [Resource Description Framework][9]
+        3.  [Sendung über GraphDB][10]
+*   Patterns bei der Implementierung 
+    1.  Papers: Stonebreaker [Paper: “The End Of An Architectural Era][11]”, [Amazon Dynamo][12] (KeyValue), [Google Bigtable][13] (ColumnStore), [Map/Reduce][14], [Dremel][15], CAP, [Cassandra][16] …)
+*   Datenbanksysteme 
+    1.  Vor- und Nachteile (Datenschema, Zugriff) 
+        1.  Column Store: [Cassandra][17]
+        2.  Column Store: [HBase][18] (BigTable)
+        3.  Datastructure Store: [Redis][19] 
+            1.  [Redis: under the hood][20]
+            2.  [Redis, from the Ground Up][21]
+        4.  DocumentStore: [MongoDB][22] 
+            1.  [BSON][23]
+            2.  [GridFS][24]
+        5.  DocumentStore/KV Store: [CouchDB ][25] 
+            1.  [Futon][26] %2B [CouchApps][27]
+            2.  [_changes feed ][28]%2B Lucene/[ElasticSearch][29]
+        6.  Key Value Store: [MemcachedDB][30]
+        7.  Key Value Store: [Riak][31] 
+        8.  Graph Database: [Neo4J][32] / [GraphDB][33]
+    2.  Einsatzgebiete 
+    3.  [Polyglot Persistence][34]
+*   Ende
+
+ [1]: http://twitter.com/ddeimeke
+ [2]: http://twitter.com/rb2k
+ [3]: http://twitter.com/pfleidi
+ [4]: http://twitter.com/radiotux
+ [5]: http://en.wikipedia.org/wiki/ACID
+ [6]: http://de.wikipedia.org/wiki/B%2B-Baum
+ [7]: http://de.wikipedia.org/wiki/CAP-Theorem
+ [8]: http://de.wikipedia.org/wiki/JSON
+ [9]: http://de.wikipedia.org/wiki/Resource_Description_Framework
+ [10]: http://blog.radiotux.de/2010/12/13/sendung-graphdb/
+ [11]: http://highscalability.com/blog/2009/4/16/paper-the-end-of-an-architectural-era-its-time-for-a-complet.html
+ [12]: http://s3.amazonaws.com/AllThingsDistributed/sosp/amazon-dynamo-sosp2007.pdf
+ [13]: http://static.googleusercontent.com/external_content/untrusted_dlcp/labs.google.com/en//papers/bigtable-osdi06.pdf
+ [14]: http://de.wikipedia.org/wiki/MapReduce
+ [15]: http://www.google.com/research/pubs/pub36632.html
+ [16]: http://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf
+ [17]: http://cassandra.apache.org/
+ [18]: http://hbase.apache.org/
+ [19]: http://redis.io/
+ [20]: http://www.pauladamsmith.com/articles/redis_under_the_hood.html
+ [21]: http://blog.mjrusso.com/2010/10/17/redis-from-the-ground-up.html
+ [22]: http://www.mongodb.org/
+ [23]: http://bsonspec.org/
+ [24]: http://www.mongodb.org/display/DOCS/GridFS%2BSpecification
+ [25]: http://couchdb.apache.org/
+ [26]: http://couchdb.apache.org/screenshots.html
+ [27]: http://couchapp.org/page/index
+ [28]: http://guide.couchdb.org/draft/notifications.html
+ [29]: http://www.elasticsearch.com/
+ [30]: http://memcachedb.org/
+ [31]: http://basho.com/Riak.html
+ [32]: http://neo4j.org
+ [33]: http://www.sones.com/
+ [34]: http://codemonkeyism.com/nosql-polyglott-persistence/
