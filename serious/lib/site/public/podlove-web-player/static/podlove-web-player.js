@@ -1,6 +1,6 @@
 /*
  * ===========================================
- * Podlove Web Player v2.0.13
+ * Podlove Web Player v2.0.12
  * Licensed under The BSD 2-Clause License
  * http://opensource.org/licenses/BSD-2-Clause
  * ===========================================
@@ -181,13 +181,6 @@ function(){f.ajax({dataType:"html",url:d,success:function(e){c.find(".mejs-postr
 /*jslint browser: true, plusplus: true, white: true, unparam: true */
 /*global jQuery, console */
 
-if(typeof String.prototype.trim !== 'function') {
-	String.prototype.trim = function() {
-		"use strict";
-		return this.replace(/^\s+|\s+$/g, ''); 
-	};
-}
-
 (function ($) {
 	'use strict';
 	var startAtTime = false,
@@ -336,13 +329,13 @@ if(typeof String.prototype.trim !== 'function') {
 	handleCookies = {
 		getItem: function (sKey) {
 			if (!sKey || !this.hasItem(sKey)) {
-				return null;
+				return null
 			}
-			return window.unescape(document.cookie.replace(new RegExp("(?:^|.*;\\s*)" + window.escape(sKey).replace(/[\-\.\+\*]/g, "\\$&") + "\\s*\\=\\s*((?:[^;](?!;))*[^;]?).*"), "$1"));
+			return unescape(document.cookie.replace(new RegExp("(?:^|.*;\\s*)" + escape(sKey).replace(/[\-\.\+\*]/g, "\\$&") + "\\s*\\=\\s*((?:[^;](?!;))*[^;]?).*"), "$1"))
 		},
 		setItem: function (sKey, sValue, vEnd, sPath, sDomain, bSecure) {
 			if (!sKey || /^(?:expires|max\-age|path|domain|secure)$/.test(sKey)) {
-				return;
+				return
 			}
 			var sExpires = "";
 			if (vEnd) {
@@ -355,23 +348,23 @@ if(typeof String.prototype.trim !== 'function') {
 					break;
 				case "object":
 					if (vEnd.hasOwnProperty("toGMTString")) {
-						sExpires = "; expires=" + vEnd.toGMTString();
+						sExpires = "; expires=" + vEnd.toGMTString()
 					}
-					break;
+					break
 				}
 			}
-			document.cookie = window.escape(sKey) + "=" + window.escape(sValue) + sExpires + (sDomain ? "; domain=" + sDomain : "") + (sPath ? "; path=" + sPath : "") + (bSecure ? "; secure" : "");
+			document.cookie = escape(sKey) + "=" + escape(sValue) + sExpires + (sDomain ? "; domain=" + sDomain : "") + (sPath ? "; path=" + sPath : "") + (bSecure ? "; secure" : "")
 		},
 		removeItem: function (sKey) {
 			if (!sKey || !this.hasItem(sKey)) {
-				return;
+				return
 			}
 			var oExpDate = new Date();
 			oExpDate.setDate(oExpDate.getDate() - 1);
-			document.cookie = window.escape(sKey) + "=; expires=" + oExpDate.toGMTString() + "; path=/";
+			document.cookie = escape(sKey) + "=; expires=" + oExpDate.toGMTString() + "; path=/"
 		},
 		hasItem: function (sKey) {
-			return (new RegExp("(?:^|;\\s*)" + window.escape(sKey).replace(/[\-\.\+\*]/g, "\\$&") + "\\s*\\=")).test(document.cookie);
+			return (new RegExp("(?:^|;\\s*)" + escape(sKey).replace(/[\-\.\+\*]/g, "\\$&") + "\\s*\\=")).test(document.cookie)
 		}
 	};
 
@@ -568,8 +561,6 @@ if(typeof String.prototype.trim !== 'function') {
 			if (this.href !== undefined) {
 				if (this.href !== "") {
 					row.find('.chaptername').html('<span>' + this.code + '</span>' + ' <a href="' + this.href + '"></a>');
-				} else {
-					row.find('.chaptername').html('<span>' + this.code + '</span>');
 				}
 			} else {
 				row.find('.chaptername').html('<span>' + this.code + '</span>');
