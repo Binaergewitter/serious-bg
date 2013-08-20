@@ -8,12 +8,27 @@
         </div>
         <div class="podcast_player">
           <p>
-            <audio controls="controls">
+            <audio controls="controls" id="<%= article.permalink %>">
               <% article.audioformats.each_pair do |audio_format, audio_url| %>
                 <source src="<%= audio_url %>" type="audio/<%= audio_format %>" preload="metadata" />
               <% end %>
               Your browser does not support the audio element.
             </audio>
           </p>
+          <script>$('#<%= article.permalink %>').podlovewebplayer(
+            {
+                    poster: '/img/binaergewitter_logo.png',
+            				title: '<%= article.title %>',
+            				permalink: '<%= article.permalink %>',
+                    author: '<%= article.author %>',
+            				alwaysShowHours: false,
+            				startVolume: 0.8,
+            				width: 'auto',
+            				summaryVisible: false,
+            				timecontrolsVisible: false,
+            				sharebuttonsVisible: false,
+            				chaptersVisible: false
+          }
+          );</script>
         </div>
 <% end %>

@@ -4,10 +4,11 @@
   <link rel="stylesheet" type="text/css" href="/css/application.css">
   <link rel="stylesheet" type="text/css" href="/css/coderay.css">
   
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-  <script src="/mediaelement/mediaelement-and-player.min.js"></script>
-  <link rel="stylesheet" href="/mediaelement/mediaelementplayer.min.css" />
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   
+  <link href="/podlove-web-player/podlove-web-player.css" rel="stylesheet" media="screen" type="text/css" />
+  <script src="/podlove-web-player/podlove-web-player.js"></script>
+
   <link rel="alternate" type="application/atom+xml" title="<%= Serious.title %>" href="<%= Serious.feed_url %>" />
   <title><%= @article ? @article.title + " - " : "" %><%= Serious.title %></title>
 </head>
@@ -44,7 +45,6 @@
   </div>
     
   <%= render_partial :google_analytics if Serious.google_analytics %> 
-  <%= render_partial :mediaelementplayer %> 
   <% if Serious.flattr %>
   <script type="text/javascript">
     /* <![CDATA[ */
