@@ -1,2 +1,5 @@
-require 'serious'
-require 'serious/tasks'
+task :default => [:test]
+
+task :test do
+  puts "Nothing to see here so far!"
+end
