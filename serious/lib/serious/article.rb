@@ -158,12 +158,18 @@ class Serious::Article
     def load!
       return true if @yaml and @content
       begin
-        yaml, @content = File.read(path).split(/\n\n/, 2)
+        # stolen from jekyll:
+        # ---
+        # yaml stuff
+        # ---
+        # markdown stuff
+        if File.read(path) =~ /\A(---\s*\n.*?\n?)^(---\s*$\n?)(.*)/m
+          @yaml = YAML.load($1)
+          @content = $3
+        end        
       rescue StandardError => e
         raise "Failed parsing file: #{path.inspect}. Original message: '#{e.message}'"
-      end
-      @yaml = YAML.load(yaml)
-      
+      end      
     end
     
     # Cached lazy-loading yaml config
