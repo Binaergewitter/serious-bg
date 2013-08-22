@@ -19,6 +19,10 @@ Natürlich könnt ihr uns auch abonnieren. Wir sind schließlich ein Podcast. En
 
 [http://bitlove.org/binaergewitter/talk/feed](http://bitlove.org/binaergewitter/talk/feed )
 
+## Opus Feed
+
+[http://feeds.feedburner.com/binaergewitter-podcast-opus](http://feeds.feedburner.com/binaergewitter-podcast-opus)
+
 ## via iTunes
 
 [http://itunes.apple.com/de/podcast/binargewitter/id216877594](http://itunes.apple.com/de/podcast/binargewitter/id216877594)
