@@ -10,6 +10,12 @@
   <script src="/podlove-web-player/static/podlove-web-player.js"></script>
 
   <link rel="alternate" type="application/atom+xml" title="<%= Serious.title %>" href="<%= Serious.feed_url %>" />
+  
+  <meta property="og:url" content="<%= @article ? @article.full_url : Serious.url %>" />
+  <meta property="og:title" content="<%= @article ? @article.title + " - " : "" %><%= Serious.title %>" />
+  <meta property="og:locale" content="de_DE" />
+  <meta property="og:image" content="http://blog.binaergewitter.de/images/binaergewitter_logo.png" /> 
+  
   <title><%= @article ? @article.title + " - " : "" %><%= Serious.title %></title>
 </head>
   
