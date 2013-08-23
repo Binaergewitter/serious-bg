@@ -34,7 +34,6 @@ class SmokeTest < Test::Unit::TestCase
       get "/podcast_feed/all/mp3/atom.xml?feed_size=2&page=#{number}"
       assert last_response.ok?
       current_id_set = last_response.body.scan(/<id>\s*(.*)\s*<\/id>/i).flatten
-      puts current_id_set.inspect
       assert_empty current_id_set & last_id_set
       last_id_set = current_id_set
     end
