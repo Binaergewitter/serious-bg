@@ -13,10 +13,24 @@ class Serious::Article
     #
     def all(options={})
       options = {:limit => 10000, :offset => 0}.merge(options)
+      puts options.inspect
       now = DateTime.now
       articles = article_paths.map do |article_path|
         article = new(article_path)
-        article if article && (Serious.future || article.date <= now)
+        if options[:category]
+          matches_category = options[:category] == 'all' || Array(article.categories).include?(options[:category].to_s)
+        else
+          matches_category = true
+        end
+        
+        if options[:audioformat]
+          available_formats = article.audioformats.keys rescue []
+          matches_audioformat = available_formats.include?(options[:audioformat].to_s)
+        else
+          matches_audioformat = true
+        end
+        
+        article if article && (Serious.future || article.date <= now) && matches_category && matches_audioformat
       end.compact[options[:offset]...options[:limit]+options[:offset]]
       
       articles || []

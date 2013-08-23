@@ -4,6 +4,8 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd",  "xmlns:
   xml.channel do
     xml.title Serious.title
     xml.link Serious.url
+    xml.link(:rel => 'self', :href => @current_url) if @current_url
+    xml.link(:rel => 'next', :href => @next_url) if @next_url
     # xml.description ''
     xml.language 'de'
     xml.pubDate @articles.first.date.strftime('%FT%TZ') unless @articles.empty?

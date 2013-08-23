@@ -69,22 +69,49 @@ class Serious < Sinatra::Base
   end
   
   get '/atom.xml' do
-    @articles = Article.all(:limit => (params[:size] || Serious.items_in_feed).to_i)
+    feed_size = (params.delete('feed_size') || Serious.items_in_feed).to_i
+    @page = (params.delete('page') || 0).to_i    
+    @articles = Article.all(
+    :limit => feed_size,
+    :offset => @page * feed_size
+    )
+    
+    @current_url = request.url 
+    # If our current page is filled, ther is probably a next one too
+    # If it isn't, we'll serve an empty page... for now
+    if @articles.size == feed_size
+      parsed_uri = URI(request.url)
+      parsed_uri.query = parsed_uri.query.gsub(/[?&]page=\d+/,'')
+      parsed_uri.query += "&page=#{@page + 1}"
+      @next_url = parsed_uri.to_s
+    end
+    
     builder :atom
   end
 
   # /podcast_feed/talk/mp3/atom.xml
   get '/podcast_feed/*/*/atom.xml' do
-    @articles = Article.all
-    feed_size = params.delete('feed_size')
-    broadcast_format, audio_codec = params[:splat]
-    if broadcast_format == 'all'
-      @articles.select!{|article| article.audioformats && article.audioformats.key?(audio_codec)}
-    else
-      @articles.select!{|article| article.audioformats && article.categories && article.audioformats.key?(audio_codec) && article.categories.include?(broadcast_format) }
+    feed_size = (params.delete('feed_size') || Serious.items_in_feed).to_i
+    @page = (params.delete('page') || 0).to_i
+    category, audio_format = params[:splat]
+    @articles = Article.all(
+      :audioformat => audio_format,
+      :category => category,
+      :limit => feed_size,
+      :offset => @page * feed_size
+    )
+    @selected_audio_codec = audio_format
+    
+    @current_url = request.url 
+    # If our current page is filled, ther is probably a next one too
+    # If it isn't, we'll serve an empty page... for now    
+    if @articles.size == feed_size
+      parsed_uri = URI(request.url)
+      parsed_uri.query = parsed_uri.query.gsub(/[?&]page=\d+/,'')
+      parsed_uri.query += "&page=#{@page + 1}"
+      @next_url = parsed_uri.to_s
     end
-    @selected_audio_codec = audio_codec
-    @articles = @articles.first((feed_size || Serious.items_in_feed).to_i)
+    
     builder :atom
   end
   
