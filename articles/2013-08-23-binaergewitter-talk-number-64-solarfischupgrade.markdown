@@ -64,7 +64,7 @@ Die fantastischen Vier sind wieder unterwegs und die compliance Lampe glühte sc
 - [Linux USB suspend snafu]( https://plus.google.com/116960357493251979546/posts/RZpndv4BCCD )
 - [China hat versprochen ihren gefangenen keine Organe mehr zu entnehmen]( http://www.bbc.co.uk/news/world-asia-china-23722796 )
 - [Google Outage => 40% weniger internet traffic]( http://tech.slashdot.org/story/13/08/19/0147224/google-outage-internet-traffic-plunges-40 )
-   * http://www.crackajack.de/2013/08/18/google-goes-down-for-2-minutes-fucks-up-100-of-all-journalists/
+   * [Google goes down for 2 Minutes, fucks up 100% of all Journalists](http://www.crackajack.de/2013/08/18/google-goes-down-for-2-minutes-fucks-up-100-of-all-journalists/)
 
 ## Lesefoo
 
