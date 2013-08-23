@@ -69,13 +69,14 @@ class Serious < Sinatra::Base
   end
   
   get '/atom.xml' do
-    @articles = Article.all(:limit => Serious.items_in_feed)
+    @articles = Article.all(:limit => (params[:size] || Serious.items_in_feed).to_i)
     builder :atom
   end
 
   # /podcast_feed/talk/mp3/atom.xml
   get '/podcast_feed/*/*/atom.xml' do
     @articles = Article.all
+    feed_size = params.delete('feed_size')
     broadcast_format, audio_codec = params[:splat]
     if broadcast_format == 'all'
       @articles.select!{|article| article.audioformats && article.audioformats.key?(audio_codec)}
@@ -83,7 +84,7 @@ class Serious < Sinatra::Base
       @articles.select!{|article| article.audioformats && article.categories && article.audioformats.key?(audio_codec) && article.categories.include?(broadcast_format) }
     end
     @selected_audio_codec = audio_codec
-    @articles.first(Serious.items_in_feed)
+    @articles = @articles.first((feed_size || Serious.items_in_feed).to_i)
     builder :atom
   end
   
