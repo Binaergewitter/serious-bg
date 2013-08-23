@@ -12,4 +12,4 @@ Examples for the category feed generation:
     /podcast_feed/spezial/mp3/atom.xml
     /podcast_feed/talk/opus/atom.xml
 
-Note: You can also add a feed_size parameter to the URL ("?feed_size=4")
+Note: You can also add a feed_size parameter and a page parameter to the URL ("?feed_size=4&page=3")
