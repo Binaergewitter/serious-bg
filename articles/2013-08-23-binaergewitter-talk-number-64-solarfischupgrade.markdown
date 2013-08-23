@@ -27,6 +27,7 @@ Die fantastischen Vier sind wieder unterwegs und die compliance Lampe glühte sc
 ## Toter der Woche
 
 - [Ubuntu Edge]( http://www.indiegogo.com/projects/ubuntu-edge )
+    * [wäre Canonical ein profitables Unternehmen](http://www.golem.de/news/mark-shuttleworth-der-computer-desktop-hat-keine-zukunft-1308-100976.html )
     * [802.11ac]( http://en.wikipedia.org/wiki/802.11ac )
 - [Groklaw]( http://www.groklaw.net/article.php?story=20130818120421175 )
 
