@@ -13,7 +13,6 @@ class Serious::Article
     #
     def all(options={})
       options = {:limit => 10000, :offset => 0}.merge(options)
-      puts options.inspect
       now = DateTime.now
       articles = article_paths.map do |article_path|
         article = new(article_path)

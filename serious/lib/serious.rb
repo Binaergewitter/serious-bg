@@ -81,7 +81,7 @@ class Serious < Sinatra::Base
     # If it isn't, we'll serve an empty page... for now
     if @articles.size == feed_size
       parsed_uri = URI(request.url)
-      parsed_uri.query = parsed_uri.query.gsub(/[?&]page=\d+/,'')
+      parsed_uri.query = parsed_uri.query.to_s.gsub(/[?&]page=\d+/,'')
       parsed_uri.query += "&page=#{@page + 1}"
       @next_url = parsed_uri.to_s
     end
@@ -107,7 +107,7 @@ class Serious < Sinatra::Base
     # If it isn't, we'll serve an empty page... for now    
     if @articles.size == feed_size
       parsed_uri = URI(request.url)
-      parsed_uri.query = parsed_uri.query.gsub(/[?&]page=\d+/,'')
+      parsed_uri.query = parsed_uri.query.to_s.gsub(/[?&]page=\d+/,'')
       parsed_uri.query += "&page=#{@page + 1}"
       @next_url = parsed_uri.to_s
     end
