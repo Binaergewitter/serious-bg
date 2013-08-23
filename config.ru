@@ -14,6 +14,6 @@ Serious.set :flattr_category, 'audio'
 Serious.set :flattr_tags, ['podcast','tech','software']
 #2 weeks of caching. Will be purged by git push on heroku
 Serious.set :cache_timeout, 1209600
-Serious.set :items_in_feed, 40
+Serious.set :items_in_feed, 20
 
 run Serious
