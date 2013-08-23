@@ -20,6 +20,26 @@ class SmokeTest < Test::Unit::TestCase
     assert last_response.ok?
   end
 
+  def test_mp3_feed_works_with_feed_size
+    get "/podcast_feed/all/mp3/atom.xml?feed_size=2"
+    assert last_response.ok?
+    assert_equal 2, last_response.body.scan('<item>').size
+  end
+
+  def test_mp3_feed_works_with_feed_size_and_page_size
+    get "/podcast_feed/all/mp3/atom.xml?feed_size=2&page=2"
+    assert last_response.ok?
+    assert_equal 2, last_response.body.scan('<item>').size
+  end
+  
+  def test_mp3_feed_has_a_next_link
+    get "/podcast_feed/all/mp3/atom.xml?feed_size=2&page=2"
+    assert last_response.ok?
+    # There is a next link
+    assert_include last_response.body, '/podcast_feed/all/mp3/atom.xml?feed_size=2&amp;page=3'
+  end
+  
+
   def test_talk_category_feed_works
     get "/podcast_feed/talk/m4a/atom.xml"
     assert last_response.ok?
