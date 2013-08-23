@@ -78,9 +78,9 @@ class Serious < Sinatra::Base
     @articles = Article.all
     broadcast_format, audio_codec = params[:splat]
     if broadcast_format == 'all'
-      @articles.select!{|article| article.audioformats.key?(audio_codec)}
+      @articles.select!{|article| article.audioformats && article.audioformats.key?(audio_codec)}
     else
-      @articles.select!{|article| article.audioformats.key?(audio_codec) && article.categories.include?(broadcast_format) }
+      @articles.select!{|article| article.audioformats && article.categories && article.audioformats.key?(audio_codec) && article.categories.include?(broadcast_format) }
     end
     @selected_audio_codec = audio_codec
     @articles.first(Serious.items_in_feed)
