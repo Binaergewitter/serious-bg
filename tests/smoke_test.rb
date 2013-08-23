@@ -21,9 +21,11 @@ class SmokeTest < Test::Unit::TestCase
   end
 
   def test_mp3_feed_works_with_feed_size
-    get "/podcast_feed/all/mp3/atom.xml?feed_size=2"
-    assert last_response.ok?
-    assert_equal 2, last_response.body.scan('<item>').size
+    [1,2,3,4,5].each do |number|
+      get "/podcast_feed/all/mp3/atom.xml?feed_size=#{number}"
+      assert last_response.ok?
+      assert_equal number, last_response.body.scan('<item>').size
+    end
   end
 
   def test_mp3_feed_works_with_feed_size_and_page_size
