@@ -1,5 +1,9 @@
+require 'rake/testtask'
+
 task :default => [:test]
 
-task :test do
-  puts "Nothing to see here so far!"
+Rake::TestTask.new do |t|
+  t.libs << "test"
+  t.test_files = FileList['tests/*.rb']
+  t.verbose = true
 end
