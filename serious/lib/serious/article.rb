@@ -87,6 +87,13 @@ class Serious::Article
     return @summary if @summary
     @summary ||= content.split("~~", 2).first.chomp
   end
+
+  # Cached lazy-loading of the automatic summary
+  # We'll just grab anything before the first markdown headline
+  def automatic_summary
+    return @automatic_summary if @automatic_summary
+    @automatic_summary ||= content.split('##')[0]
+  end
   
   # Cached lazy-loading of body
   def body

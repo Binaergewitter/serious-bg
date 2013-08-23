@@ -62,7 +62,7 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd",  "xmlns:
         
         xml.updated article.date.strftime('%FT%TZ')
         xml.itunes :author, Serious.author
-        xml.itunes :summary, article.summary.formatted, "type" => "html"
+        xml.itunes :summary, article.automatic_summary.formatted, "type" => "html"
         xml.content article.body.formatted, "type" => "html"
       end
     end
