@@ -4,6 +4,15 @@
           <% article.audioformats.each_pair do |audio_format, audio_url| %>
             <a href="<%= audio_url %>"><img src="/img/audio_<%= audio_format %>_button.png"/></a>
           <% end %>
+          
+          <a id="bitlove-<%= article.permalink %>" href="#"><img src="/img/bitlove_button.png"/></a>
+          <script type="text/javascript">
+          torrentByEnclosure("<%= article.audioformats['mp3'] %>", function(info) {
+              if (info) {
+                $("#bitlove-<%= article.permalink %>").attr('href', info['sources']['0']['torrent']);
+              }
+          });          
+          </script>
           </p>
         </div>
         <div class="podcast_player" style="width: 50%">
