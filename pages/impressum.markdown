@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "impressum"
+title: "Impressum"
 comments: false
 sharing: false
 footer: true
@@ -18,7 +18,7 @@ Preis pro Minute von einem Festnetz-Anschluss der Deutschen Telekom AG von Monta
 gesetzlichen Feiertagen sowie am 24. Dezember und am 31. Dezember werden ganztägig 6,3 Cent fällig.
 Mobilfunkpreise können abweichen. Bitte erfragen Sie die Kosten bei Ihrem Provider.
 
-## ein Besonderes Danke an
+## Ein Besonderes Danke an
 
 * Andreas Tschirpke für die Logo Idee und Vorlage
 * Rene aka RMraiden für das Intro
