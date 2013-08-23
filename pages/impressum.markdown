@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Impressum"
+title: "impressum"
 comments: false
 sharing: false
 footer: true
@@ -8,11 +8,20 @@ footer: true
 ViSdP und verantwortlich für den Inhalt:
 
 Ingo Ebel  
-Katzenbachstr. 37  
-70563 Stuttgart
+Gietmannstr. 38  
+70565 Stuttgart
 
 Email: info@binaergewitter.de  
 Tel./Fax.: 0700 46463235
+
+Preis pro Minute von einem Festnetz-Anschluss der Deutschen Telekom AG von Montag bis Freitag in der Zeit zwischen 9 bis 18 Uhr 12,4 Cent übrigen Zeit und an Samstagen, Sonntagen, bundeseinheitlichen 
+gesetzlichen Feiertagen sowie am 24. Dezember und am 31. Dezember werden ganztägig 6,3 Cent fällig.
+Mobilfunkpreise können abweichen. Bitte erfragen Sie die Kosten bei Ihrem Provider.
+
+## ein Besonderes Danke an
+
+* Andreas Tschirpke für die Logo Idee und Vorlage
+* Rene aka RMraiden für das Intro
 
 ## Datenschutz
 
@@ -62,5 +71,4 @@ Quellenangabe: [Martin Herbst](http://www.brisoft.de/de/impressum/erklarung-zum-
 
 ## Lizenz
 
-Aller Redaktioneller Inhalt von Binaergewitter ist unter Creative Commons BY-NC-SA lizenziert. Die nichtkommerzielle Weiterverbreitung und Weiterbearbeitung ist gestattet wenn der Urheber genannt wird.
-
+Aller Redaktioneller Inhalt von Binaergewitter ist unter Creative Commons BY-SA lizenziert. Die Weiterbearbeitung und gleicher Lizenz ist gestattet wenn der Urheber genannt wird.
