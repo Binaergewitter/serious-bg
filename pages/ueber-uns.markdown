@@ -11,5 +11,5 @@ Binärgewitter umfasst eigentlich zwei verschiedene Podcasts. Einmal den wöchen
 
 Binärgewitter entstand bei [RadioTux](http://blog.radiotux.de/), dem Internetradio rund um Linux und Open Source. Die Talk-Sendung ist eine Weiterführung der bisdahin produzieren RadioTux Talk bzw. RadioTux@HoRadS-Show die 150 Folgen lang lief. Also wir sind nicht so neu im Geschäft und haben trotzdem immer noch Spaß daran :)
 
-![pfleidi und makefu bei der Podcast Aufnahme](../images/pfleidi_makefu_bei_aufnahme.jpg)
+![pfleidi und makefu bei der Podcast Aufnahme](../img/pfleidi_makefu_bei_aufnahme.jpg)
 
