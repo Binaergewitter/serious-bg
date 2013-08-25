@@ -48,6 +48,8 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd",  "xmlns:
         if @selected_audio_codec
           xml.enclosure "url" => article.audioformats[@selected_audio_codec], 'length' => "", 'type' => "audio/x-#{@selected_audio_codec}"
         end
+        # In case we fudged the initial release, we can set the parameter in the article and
+        # generate a new GUID which will trigger clients to redownload things
         if article.release
           xml.guid "#{article.full_url}-#{article.release}", 'isPermaLink'=> "false"
         else
@@ -68,7 +70,6 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd",  "xmlns:
           flattr_link << "tags=#{CGI::escape(Serious.flattr_tags.join(','))}"
           xml.link "rel" => 'payment', 'type' => 'text/html', 'href' => flattr_link
         end
-        
         
         xml.updated article.date.strftime('%FT%TZ')
         xml.itunes :author, Serious.author
