@@ -49,7 +49,8 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd",  "xmlns:
         
         if Serious.flattr
           flattr_link = 'https://flattr.com/submit/auto?url='
-          flattr_link << CGI::escape(article.full_url)
+          # Nasty hack to support our "old" flattr items. Stupid /blog/ ...
+          flattr_link << CGI::escape("#{Serious.url}/blog#{article.url}/")
           flattr_link << '&'
           flattr_link << "user_id=#{CGI::escape(Serious.flattr_uid)}"
           flattr_link << "&"
