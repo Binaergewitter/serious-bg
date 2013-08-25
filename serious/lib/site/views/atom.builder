@@ -45,7 +45,11 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd",  "xmlns:
         if @selected_audio_codec
           xml.enclosure "url" => article.audioformats[@selected_audio_codec], 'length' => "", 'type' => "audio/x-#{@selected_audio_codec}"
         end
-        xml.id article.full_url
+        if article.release
+          xml.guid "#{article.full_url}-#{article.release}"
+        else
+          xml.guid article.full_url
+        end
         
         if Serious.flattr
           flattr_link = 'https://flattr.com/submit/auto?url='

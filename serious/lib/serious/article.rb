@@ -80,6 +80,11 @@ class Serious::Article
     @title ||= yaml["title"]
   end
 
+  # Lazy-loading release accessor
+  def release
+    @release ||= yaml["release"]
+  end  
+
   # Lazy-loading audioformats accessor
   def audioformats
     @audio ||= yaml["audioformats"] || {}

@@ -2,6 +2,11 @@
 
 Oh hai!
 
+
+# Markdown syntax
+You can add a "release: 2" line to the article markdown in case you 
+fudged up a release and would like to increment the GUID in the feed after a fix
+
 # Feeds
 Feed with all items:
 
