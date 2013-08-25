@@ -29,7 +29,7 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd",  "xmlns:
     xml.tag!("itunes:author", Serious.author)
     xml.tag!("itunes:explicit", "no")
   
-    xml.tag!("itunes:image", {"href" => "http://blog.binaergewitter.de/images/binaergewitter_logo.png"})
+    xml.tag!("itunes:image", {"href" => "http://blog.binaergewitter.de/img/binaergewitter_logo.png"})
     xml.tag!("itunes:category", {"text" => "Technology"})
     xml.tag!("itunes:owner"){
       xml.tag!("itunes:name", "Binärgewitter Crew")
