@@ -13,6 +13,7 @@ class Serious::Article
     #
     def all(options={})
       options = {:limit => 10000, :offset => 0}.merge(options)
+      options[:audioformat] = ['m4a', 'mp3'] if options[:audioformat] == 'itunes'
       now = DateTime.now
       articles = article_paths.map do |article_path|
         article = new(article_path)
@@ -24,7 +25,9 @@ class Serious::Article
         
         if options[:audioformat]
           available_formats = article.audioformats.keys rescue []
-          matches_audioformat = available_formats.include?(options[:audioformat].to_s)
+          wanted_formats = Array(options[:audioformat])
+          
+          matches_audioformat = !(available_formats & wanted_formats).empty?
         else
           matches_audioformat = true
         end

@@ -46,7 +46,14 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd",  "xmlns:
         xml.pubDate article.date.strftime('%FT%TZ')
         xml.link "rel" => "alternate", "href" => article.full_url
         if @selected_audio_codec
-          xml.enclosure "url" => article.audioformats[@selected_audio_codec], 'length' => "", 'type' => "audio/x-#{@selected_audio_codec}"
+          if @selected_audio_codec.to_s.downcase == 'itunes'
+            selected_codec = (['m4a', 'mp3'] & article.audioformats.keys).first
+          else
+            selected_codec = @selected_audio_codec
+          end
+          url = article.audioformats[selected_codec]
+          type = "audio/x-#{selected_codec}"
+          xml.enclosure "url" => url, 'length' => "", 'type' => type
         end
         # In case we fudged the initial release, we can set the parameter in the article and
         # generate a new GUID which will trigger clients to redownload things

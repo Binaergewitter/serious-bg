@@ -17,4 +17,8 @@ Examples for the category feed generation:
     /podcast_feed/spezial/mp3/atom.xml
     /podcast_feed/talk/opus/atom.xml
 
+iTunes feed that uses m4a with a fallback to mp3 if there is no m4a for that episode
+
+    /podcast_feed/talk/itunes/atom.xml
+
 Note: You can also add a feed_size parameter and a page parameter to the URL ("?feed_size=4&page=3")
