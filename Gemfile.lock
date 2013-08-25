@@ -11,13 +11,13 @@ GEM
   specs:
     builder (3.2.2)
     coderay (1.0.9)
-    kgio (2.8.0)
+    daemons (1.1.9)
+    eventmachine (1.0.3)
     rack (1.5.2)
     rack-protection (1.5.0)
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
-    raindrops (0.11.0)
     rake (10.1.0)
     rdiscount (2.1.6)
     sinatra (1.4.3)
@@ -28,11 +28,11 @@ GEM
       coderay (>= 0.9.0)
       rdiscount (>= 1.5.0)
     test-unit (2.5.5)
+    thin (1.5.1)
+      daemons (>= 1.0.9)
+      eventmachine (>= 0.12.6)
+      rack (>= 1.0.0)
     tilt (1.4.1)
-    unicorn (4.6.3)
-      kgio (~> 2.6)
-      rack
-      raindrops (~> 0.7)
 
 PLATFORMS
   ruby
@@ -42,4 +42,4 @@ DEPENDENCIES
   rake
   serious!
   test-unit
-  unicorn
+  thin
