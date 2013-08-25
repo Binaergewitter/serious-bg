@@ -11,6 +11,7 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd",  "xmlns:
     xml.pubDate @articles.first.date.strftime('%FT%TZ') unless @articles.empty?
     xml.lastBuildDate @articles.first.date.strftime('%FT%TZ') unless @articles.empty?    
     xml.author { xml.name Serious.author }
+    xml.copyright "Creative Commons BY-NC-SA 3.0 DE"
     
     if Serious.flattr
       flattr_link = 'https://flattr.com/submit/auto?url='
@@ -25,7 +26,9 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd",  "xmlns:
       flattr_link << "tags=#{CGI::escape(Serious.flattr_tags.join(','))}"
       xml.link "rel" => 'payment', 'type' => 'text/html', 'href' => flattr_link
     end
+    xml.tag!("itunes:subtitle", "Web, Technologie und OpenSource Software")
     xml.tag!("itunes:summary", "Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt.")
+    xml.tag!("itunes:keywords", "technology, gadgets, web, opensource, krepel")
     xml.tag!("itunes:author", Serious.author)
     xml.tag!("itunes:explicit", "no")
   
