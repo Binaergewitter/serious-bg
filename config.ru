@@ -15,5 +15,6 @@ Serious.set :flattr_tags, ['podcast','tech','software']
 #5 minutes of caching. Will be purged by git push on heroku
 Serious.set :cache_timeout, 600
 Serious.set :items_in_feed, 20
+Serious.set :date_format, "%d.%m.%Y"
 
 run Serious
