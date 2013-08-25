@@ -25,7 +25,7 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd",  "xmlns:
       flattr_link << "tags=#{CGI::escape(Serious.flattr_tags.join(','))}"
       xml.link "rel" => 'payment', 'type' => 'text/html', 'href' => flattr_link
     end
-    xml.tag!("itunes:summary", "")
+    xml.tag!("itunes:summary", "Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt.")
     xml.tag!("itunes:author", Serious.author)
     xml.tag!("itunes:explicit", "no")
   
