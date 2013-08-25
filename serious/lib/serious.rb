@@ -141,8 +141,9 @@ class Serious < Sinatra::Base
     erb :archives
   end
   
+  # Add permanent redirects for all old /blog/ sites.
   get "/blog/*" do
-    redirect "/#{params[:splat][0]}"
+    redirect "/#{params[:splat][0]}", 301
   end
   
   get "/pages/:page" do
