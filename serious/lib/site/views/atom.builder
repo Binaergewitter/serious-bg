@@ -46,7 +46,16 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd",  "xmlns:
       xml.item do
         xml.title article.title
         xml.pubDate article.date.rfc2822
-        xml.link "rel" => "alternate", "href" => article.full_url
+        xml.itunes :author, Serious.author
+        xml.itunes :summary, article.automatic_summary.formatted
+        # In case we fudged the initial release, we can set the parameter in the article and
+        # generate a new GUID which will trigger clients to redownload things
+        if article.release
+          xml.guid "#{article.full_url}-#{article.release}", 'isPermaLink'=> "false"
+        else
+          xml.guid article.full_url
+        end
+        xml.content article.body.formatted, "type" => "html"
         if @selected_audio_codec
           if @selected_audio_codec.to_s.downcase == 'itunes'
             selected_codec = (['m4a', 'mp3'] & article.audioformats.keys).first
@@ -57,14 +66,6 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd",  "xmlns:
           type = "audio/x-#{selected_codec}"
           xml.enclosure "url" => url, 'length' => "", 'type' => type
         end
-        # In case we fudged the initial release, we can set the parameter in the article and
-        # generate a new GUID which will trigger clients to redownload things
-        if article.release
-          xml.guid "#{article.full_url}-#{article.release}", 'isPermaLink'=> "false"
-        else
-          xml.guid article.full_url
-        end
-        
         if Serious.flattr
           flattr_link = 'https://flattr.com/submit/auto?url='
           # Nasty hack to support our "old" flattr items. Stupid /blog/ ...
@@ -79,11 +80,6 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd",  "xmlns:
           flattr_link << "tags=#{CGI::escape(Serious.flattr_tags.join(','))}"
           xml.link "rel" => 'payment', 'type' => 'text/html', 'href' => flattr_link
         end
-        
-        xml.updated article.date.strftime('%FT%TZ')
-        xml.itunes :author, Serious.author
-        xml.itunes :summary, article.automatic_summary.formatted, "type" => "html"
-        xml.content article.body.formatted, "type" => "html"
       end
     end
   end
