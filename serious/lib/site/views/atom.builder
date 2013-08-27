@@ -12,7 +12,7 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd",  "xmlns:
     xml.language 'de'
     xml.pubDate @articles.first.date.rfc2822 unless @articles.empty?
     xml.lastBuildDate @articles.first.date.rfc2822 unless @articles.empty?    
-    xml.author { xml.name Serious.author }
+    xml.itunes :author, Serious.author
     xml.copyright "Creative Commons BY-NC-SA 3.0 DE"
     
     if Serious.flattr
@@ -28,14 +28,13 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd",  "xmlns:
       flattr_link << "tags=#{CGI::escape(Serious.flattr_tags.join(','))}"
       xml.link "rel" => 'payment', 'type' => 'text/html', 'href' => flattr_link
     end
-    xml.tag!("itunes:subtitle", "Web, Technologie und OpenSource Software")
-    xml.tag!("itunes:summary", "Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt.")
-    xml.tag!("itunes:keywords", "technology, gadgets, web, opensource, krepel")
-    xml.tag!("itunes:author", Serious.author)
-    xml.tag!("itunes:explicit", "no")
+    xml.itunes :subtitle, "Web, Technologie und OpenSource Software"
+    xml.itunes :summary, "Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt."
+    xml.itunes :keywords, "technology, gadgets, web, opensource, krepel"
+    xml.itunes :explicit, "no"
   
-    xml.tag!("itunes:image", {"href" => "http://blog.binaergewitter.de/img/binaergewitter_logo.png"})
-    xml.tag!("itunes:category", {"text" => "Technology"})
+    xml.itunes :image, {"href" => "http://blog.binaergewitter.de/img/binaergewitter_logo.png"}
+    xml.itunes :category, {"text" => "Technology"}
     xml.tag!("itunes:owner"){
       xml.tag!("itunes:name", "Binärgewitter Crew")
       xml.tag!("itunes:email", "info@binaergewitter.de")
