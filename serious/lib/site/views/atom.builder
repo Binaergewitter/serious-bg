@@ -5,7 +5,7 @@ description_text = "Ein Podcast, der sich mit dem Web, Technologie und Open Sour
 
 
 xml.instruct! :xml, :version=>"1.0", :encoding=>"UTF-8"
-xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd", "xmlns:atom" => "http://www.w3.org/2005/Atom", "xmlns:media" => "http://search.yahoo.com/mrss/",  :version => "2.0" do
+xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd", "xmlns:atom" => "http://www.w3.org/2005/Atom", "xmlns:content" => "http://purl.org/rss/1.0/modules/content/", "xmlns:media" => "http://search.yahoo.com/mrss/",  :version => "2.0" do
   xml.channel do
     xml.title Serious.title
     xml.link Serious.url
@@ -49,7 +49,7 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd", "xmlns:a
         xml.title article.title
         xml.pubDate article.date.rfc2822
         xml.itunes :author, Serious.author
-        xml.itunes :summary, article.automatic_summary.formatted
+        xml.itunes :summary, article.automatic_summary
         # In case we fudged the initial release, we can set the parameter in the article and
         # generate a new GUID which will trigger clients to redownload things
         if article.release
