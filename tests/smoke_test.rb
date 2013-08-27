@@ -1,5 +1,6 @@
 require 'test/unit'
 require "rack/test"
+require 'feed_validator/assertions'
 
 OUTER_APP = Rack::Builder.parse_file('config.ru').first
 
@@ -13,6 +14,11 @@ class SmokeTest < Test::Unit::TestCase
   def test_homepage_is_a_200
     get "/"
     assert last_response.ok?
+  end
+  
+  def test_feed_validates
+    get "/podcast_feed/all/itunes/atom.xml"
+    assert_valid_feed(last_response.body)
   end
 
   def test_mp3_feed_works

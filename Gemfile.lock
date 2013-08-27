@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/bandzoogle/feedvalidator.git
+  revision: 13f7361b632a26df217a394b7832492a550969e9
+  specs:
+    feedvalidator (0.2.0)
+
 PATH
   remote: ./serious
   specs:
@@ -38,6 +44,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  feedvalidator!
   rack-test
   rake
   serious!
