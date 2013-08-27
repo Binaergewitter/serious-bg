@@ -53,7 +53,9 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd", "xmlns:a
         # In case we fudged the initial release, we can set the parameter in the article and
         # generate a new GUID which will trigger clients to redownload things
         if article.release
-          xml.guid "#{article.full_url}-#{article.release}", 'isPermaLink'=> "false"
+          full_url = "#{article.full_url}-#{article.release}"
+          xml.guid full_url, 'isPermaLink'=> "false"
+          xml.link full_url
         else
           xml.guid article.full_url
         end
