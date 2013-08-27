@@ -5,12 +5,12 @@ description_text = "Ein Podcast, der sich mit dem Web, Technologie und Open Sour
 
 
 xml.instruct! :xml, :version=>"1.0", :encoding=>"UTF-8"
-xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd",  "xmlns:media" => "http://search.yahoo.com/mrss/",  :version => "2.0" do
+xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd", "xmlns:atom" => "http://www.w3.org/2005/Atom", "xmlns:media" => "http://search.yahoo.com/mrss/",  :version => "2.0" do
   xml.channel do
     xml.title Serious.title
     xml.link Serious.url
-    xml.link(:rel => 'self', :href => @current_url) if @current_url
-    xml.link(:rel => 'next', :href => @next_url) if @next_url
+    xml.tag!("atom:link", :rel => 'self', :href => @current_url) if @current_url
+    xml.tag!("atom:link", :rel => 'next', :href => @next_url) if @next_url
     xml.description description_text
     xml.language 'de'
     xml.pubDate @articles.first.date.rfc2822 unless @articles.empty?
@@ -29,7 +29,7 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd",  "xmlns:
       flattr_link << "category=audio"
       flattr_link << "&"
       flattr_link << "tags=#{CGI::escape(Serious.flattr_tags.join(','))}"
-      xml.link "rel" => 'payment', 'type' => 'text/html', 'href' => flattr_link
+      xml.tag!("atom:link", "rel" => 'payment', 'type' => 'text/html', 'href' => flattr_link)
     end
     xml.itunes :subtitle, "Web, Technologie und OpenSource Software"
     xml.itunes :summary, description_text
