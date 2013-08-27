@@ -68,51 +68,56 @@ class Serious < Sinatra::Base
     erb :index
   end
   
-  get '/atom.xml' do
-    feed_size = (params.delete('feed_size') || Serious.items_in_feed).to_i
-    @page = (params.delete('page') || 0).to_i    
-    @articles = Article.all(
-    :limit => feed_size,
-    :offset => @page * feed_size
-    )
+  ["/atom.xml", "/rss.xml"].each do |route|
+    get route do
+      feed_size = (params.delete('feed_size') || Serious.items_in_feed).to_i
+      @page = (params.delete('page') || 0).to_i    
+      @articles = Article.all(
+      :limit => feed_size,
+      :offset => @page * feed_size
+      )
     
-    @current_url = request.url 
-    # If our current page is filled, ther is probably a next one too
-    # If it isn't, we'll serve an empty page... for now
-    if @articles.size == feed_size
-      parsed_uri = URI(request.url)
-      parsed_uri.query = parsed_uri.query.to_s.gsub(/[?&]page=\d+/,'')
-      parsed_uri.query += "&page=#{@page + 1}"
-      @next_url = parsed_uri.to_s
+      @current_url = request.url 
+      # If our current page is filled, ther is probably a next one too
+      # If it isn't, we'll serve an empty page... for now
+      if @articles.size == feed_size
+        parsed_uri = URI(request.url)
+        parsed_uri.query = parsed_uri.query.to_s.gsub(/[?&]page=\d+/,'')
+        parsed_uri.query += "&page=#{@page + 1}"
+        @next_url = parsed_uri.to_s
+      end
+    
+      builder :rss
     end
-    
-    builder :atom
   end
 
+
   # /podcast_feed/talk/mp3/atom.xml
-  get '/podcast_feed/*/*/atom.xml' do
-    feed_size = (params.delete('feed_size') || Serious.items_in_feed).to_i
-    @page = (params.delete('page') || 0).to_i
-    category, audio_format = params[:splat]
-    @articles = Article.all(
+  ['/podcast_feed/*/*/atom.xml', '/podcast_feed/*/*/rss.xml'].each do |feed_url|
+    get feed_url do
+      feed_size = (params.delete('feed_size') || Serious.items_in_feed).to_i
+      @page = (params.delete('page') || 0).to_i
+      category, audio_format = params[:splat]
+      @articles = Article.all(
       :audioformat => audio_format,
       :category => category,
       :limit => feed_size,
       :offset => @page * feed_size
-    )
-    @selected_audio_codec = audio_format
+      )
+      @selected_audio_codec = audio_format
     
-    @current_url = request.url 
-    # If our current page is filled, ther is probably a next one too
-    # If it isn't, we'll serve an empty page... for now    
-    if @articles.size == feed_size
-      parsed_uri = URI(request.url)
-      parsed_uri.query = parsed_uri.query.to_s.gsub(/[?&]page=\d+/,'')
-      parsed_uri.query += "&page=#{@page + 1}"
-      @next_url = parsed_uri.to_s
+      @current_url = request.url 
+      # If our current page is filled, ther is probably a next one too
+      # If it isn't, we'll serve an empty page... for now    
+      if @articles.size == feed_size
+        parsed_uri = URI(request.url)
+        parsed_uri.query = parsed_uri.query.to_s.gsub(/[?&]page=\d+/,'')
+        parsed_uri.query += "&page=#{@page + 1}"
+        @next_url = parsed_uri.to_s
+      end
+    
+      builder :rss
     end
-    
-    builder :atom
   end
   
   # Specific article route
