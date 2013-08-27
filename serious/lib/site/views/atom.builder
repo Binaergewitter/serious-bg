@@ -1,4 +1,6 @@
 require 'cgi'
+require 'time'
+
 xml.instruct! :xml, :version=>"1.0", :encoding=>"UTF-8"
 xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd",  "xmlns:media" => "http://search.yahoo.com/mrss/",  :version => "2.0" do
   xml.channel do
@@ -8,7 +10,7 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd",  "xmlns:
     xml.link(:rel => 'next', :href => @next_url) if @next_url
     # xml.description ''
     xml.language 'de'
-    xml.pubDate @articles.first.date.strftime('%FT%TZ') unless @articles.empty?
+    xml.pubDate @articles.first.date.rfc2822 unless @articles.empty?
     xml.lastBuildDate @articles.first.date.strftime('%FT%TZ') unless @articles.empty?    
     xml.author { xml.name Serious.author }
     xml.copyright "Creative Commons BY-NC-SA 3.0 DE"
@@ -43,7 +45,7 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd",  "xmlns:
     @articles.each do |article|
       xml.item do
         xml.title article.title
-        xml.pubDate article.date.strftime('%FT%TZ')
+        xml.pubDate article.date.rfc2822
         xml.link "rel" => "alternate", "href" => article.full_url
         if @selected_audio_codec
           if @selected_audio_codec.to_s.downcase == 'itunes'
