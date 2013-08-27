@@ -92,7 +92,7 @@ class Serious < Sinatra::Base
   end
 
 
-  # /podcast_feed/talk/mp3/atom.xml
+  # /podcast_feed/talk/mp3/rss.xml
   ['/podcast_feed/*/*/atom.xml', '/podcast_feed/*/*/rss.xml'].each do |feed_url|
     get feed_url do
       feed_size = (params.delete('feed_size') || Serious.items_in_feed).to_i
@@ -178,4 +178,4 @@ Serious.set :date_format, "%B %o %Y"
 Serious.set :disqus, false
 Serious.set :google_analytics, false
 Serious.set :flattr, false
-Serious.set :feed_url, '/atom.xml'
+Serious.set :feed_url, '/rss.xml'

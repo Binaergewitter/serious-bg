@@ -17,18 +17,18 @@ class SmokeTest < Test::Unit::TestCase
   end
   
   def test_feed_validates
-    get "/podcast_feed/all/itunes/atom.xml"
+    get "/podcast_feed/all/itunes/rss.xml"
     assert_valid_feed(last_response.body)
   end
 
   def test_mp3_feed_works
-    get "/podcast_feed/all/mp3/atom.xml"
+    get "/podcast_feed/all/mp3/rss.xml"
     assert last_response.ok?
   end
 
   def test_mp3_feed_works_with_feed_size
     [1,2,3,4,5].each do |number|
-      get "/podcast_feed/all/mp3/atom.xml?feed_size=#{number}"
+      get "/podcast_feed/all/mp3/rss.xml?feed_size=#{number}"
       assert last_response.ok?
       assert_equal number, last_response.body.scan('<item>').size
     end
@@ -37,7 +37,7 @@ class SmokeTest < Test::Unit::TestCase
   def test_mp3_feed_works_with_feed_size_and_page_size
     last_id_set = []
     [1,2,3,4,5].each do |number|
-      get "/podcast_feed/all/mp3/atom.xml?feed_size=2&page=#{number}"
+      get "/podcast_feed/all/mp3/rss.xml?feed_size=2&page=#{number}"
       assert last_response.ok?
       current_id_set = last_response.body.scan(/<id>\s*(.*)\s*<\/id>/i).flatten
       assert_empty current_id_set & last_id_set
@@ -46,20 +46,20 @@ class SmokeTest < Test::Unit::TestCase
   end
   
   def test_mp3_feed_has_a_next_link
-    get "/podcast_feed/all/mp3/atom.xml?feed_size=2&page=2"
+    get "/podcast_feed/all/mp3/rss.xml?feed_size=2&page=2"
     assert last_response.ok?
     # There is a next link
-    assert_include last_response.body, '/podcast_feed/all/mp3/atom.xml?feed_size=2&amp;page=3'
+    assert_include last_response.body, '/podcast_feed/all/mp3/rss.xml?feed_size=2&amp;page=3'
   end
   
 
   def test_talk_category_feed_works
-    get "/podcast_feed/talk/m4a/atom.xml"
+    get "/podcast_feed/talk/m4a/rss.xml"
     assert last_response.ok?
   end
 
   def test_spezial_category_feed_works
-    get "/podcast_feed/spezial/m4a/atom.xml"
+    get "/podcast_feed/spezial/m4a/rss.xml"
     assert last_response.ok?
   end
 
