@@ -66,7 +66,9 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd", "xmlns:a
           end
           url = article.audioformats[selected_codec]
           type = "audio/x-#{selected_codec}"
-          xml.enclosure "url" => url, 'length' => "", 'type' => type
+          #According to the RSS Advisory Board's Best Practices Profile,
+          #when an enclosure's size cannot be determined, a publisher should use a length of 0.
+          xml.enclosure "url" => url, 'length' => "0", 'type' => type
         end
         if Serious.flattr
           flattr_link = 'https://flattr.com/submit/auto?url='
