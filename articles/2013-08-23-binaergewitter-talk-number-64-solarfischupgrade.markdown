@@ -56,7 +56,7 @@ Die fantastischen Vier sind wieder unterwegs und die compliance Lampe glühte sc
 - [Science! Zombie Wuermer in der Antarktis]( http://news.sciencemag.org/biology/2013/08/bone-eating-worms-found-antarctic-waters )
 - [Technical.io]( http://technical.io/ )
 - [Wikileaks verteilt unendlich viele Gigabyte 'Insurance' datei]( http://yro.slashdot.org/story/13/08/18/1641241/wikileaks-releases-a-massive-insurance-file-that-no-one-can-open )
-- [Festplatten von the Guardian]( www.harmbengen.de/toonpool/2013%2008%2020%20guardian-festplatten_2064485.jpg )
+- [Festplatten von the Guardian]( http://www.harmbengen.de/toonpool/2013%2008%2020%20guardian-festplatten_2064485.jpg )
 - [Tod in London](http://www.tagesschau.de/wirtschaft/banker112.html )
 - [Github Pages Gem]( https://github.com/github/pages-gem )
 - [BSI warnt vor Windows 8](http://www.golem.de/news/trusted-computing-bundesregierung-warnt-vor-windows-8-1308-101101.html ) [oder auch nicht](http://www.heise.de/newsticker/meldung/BSI-Trotz-kritischer-Aspekte-keine-Warnung-vor-Windows-8-1940081.html )
