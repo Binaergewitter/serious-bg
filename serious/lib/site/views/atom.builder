@@ -11,7 +11,7 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd",  "xmlns:
     # xml.description ''
     xml.language 'de'
     xml.pubDate @articles.first.date.rfc2822 unless @articles.empty?
-    xml.lastBuildDate @articles.first.date.strftime('%FT%TZ') unless @articles.empty?    
+    xml.lastBuildDate @articles.first.date.rfc2822 unless @articles.empty?    
     xml.author { xml.name Serious.author }
     xml.copyright "Creative Commons BY-NC-SA 3.0 DE"
     
