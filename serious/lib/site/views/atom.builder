@@ -57,7 +57,7 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd", "xmlns:a
         else
           xml.guid article.full_url
         end
-        xml.content article.body.formatted, "type" => "html"
+        xml.tag!("content:encoded", article.body.formatted)
         if @selected_audio_codec
           if @selected_audio_codec.to_s.downcase == 'itunes'
             selected_codec = (['m4a', 'mp3'] & article.audioformats.keys).first
@@ -82,7 +82,7 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd", "xmlns:a
           flattr_link << "category=audio"
           flattr_link << "&"
           flattr_link << "tags=#{CGI::escape(Serious.flattr_tags.join(','))}"
-          xml.link "rel" => 'payment', 'type' => 'text/html', 'href' => flattr_link
+          xml.tag!("atom:link", "rel" => 'payment', 'type' => 'text/html', 'href' => flattr_link)
         end
       end
     end
