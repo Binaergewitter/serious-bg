@@ -1,6 +1,9 @@
 require 'cgi'
 require 'time'
 
+description_text = "Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt."
+
+
 xml.instruct! :xml, :version=>"1.0", :encoding=>"UTF-8"
 xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd",  "xmlns:media" => "http://search.yahoo.com/mrss/",  :version => "2.0" do
   xml.channel do
@@ -8,7 +11,7 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd",  "xmlns:
     xml.link Serious.url
     xml.link(:rel => 'self', :href => @current_url) if @current_url
     xml.link(:rel => 'next', :href => @next_url) if @next_url
-    # xml.description ''
+    xml.description description_text
     xml.language 'de'
     xml.pubDate @articles.first.date.rfc2822 unless @articles.empty?
     xml.lastBuildDate @articles.first.date.rfc2822 unless @articles.empty?    
@@ -29,7 +32,7 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd",  "xmlns:
       xml.link "rel" => 'payment', 'type' => 'text/html', 'href' => flattr_link
     end
     xml.itunes :subtitle, "Web, Technologie und OpenSource Software"
-    xml.itunes :summary, "Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt."
+    xml.itunes :summary, description_text
     xml.itunes :keywords, "technology, gadgets, web, opensource, krepel"
     xml.itunes :explicit, "no"
   
