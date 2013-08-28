@@ -36,7 +36,7 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd", "xmlns:a
     xml.itunes :keywords, "technology, gadgets, web, opensource, krepel"
     xml.itunes :explicit, "no"
   
-    xml.itunes :image, {"href" => "http://blog.binaergewitter.de/img/binaergewitter_logo.png"}
+    xml.itunes :image, {"href" => "http://blog.binaergewitter.de/img/binaergewitter_logo_text.png"}
     xml.itunes :category, {"text" => "Technology"}
     xml.tag!("itunes:owner"){
       xml.tag!("itunes:name", "Binärgewitter Crew")
