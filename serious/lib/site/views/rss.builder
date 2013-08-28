@@ -16,7 +16,7 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd", "xmlns:a
     xml.pubDate @articles.first.date.rfc2822 unless @articles.empty?
     xml.lastBuildDate @articles.first.date.rfc2822 unless @articles.empty?    
     xml.itunes :author, Serious.author
-    xml.copyright "Creative Commons BY-NC-SA 3.0 DE"
+    xml.copyright "Creative Commons BY-SA 3.0 DE"
     
     if Serious.flattr
       flattr_link = 'https://flattr.com/submit/auto?url='
