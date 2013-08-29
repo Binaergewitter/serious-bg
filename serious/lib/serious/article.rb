@@ -26,7 +26,6 @@ class Serious::Article
         if options[:audioformat]
           available_formats = article.audioformats.keys rescue []
           wanted_formats = Array(options[:audioformat])
-          
           matches_audioformat = !(available_formats & wanted_formats).empty?
         else
           matches_audioformat = true
