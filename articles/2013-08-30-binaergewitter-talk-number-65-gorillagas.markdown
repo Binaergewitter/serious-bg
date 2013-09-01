@@ -68,7 +68,7 @@ Wir fordern die Atom Feeds abzuschalten und bereiten uns damit langsam auf die B
 - model m
 - [wasdkeyboards](http://www.wasdkeyboards.com/ )
 - [Apple Wireless Keybard]( http://www.apple.com/de/keyboard/ )
-- [Neo Belegung](http://de.wikipedia.org/wiki/Neo_(Tastaturbelegung) )
+- [Neo Belegung](http://de.wikipedia.org/wiki/Neo_(Tastaturbelegung\) )
 
 ## Mehr News
 
