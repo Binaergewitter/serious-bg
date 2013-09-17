@@ -107,7 +107,7 @@ Heute mal ohne Ingo, dafür aber mit 100% mehr horse_ebooks als sonst <3.
 
 - [HP N54L im Ausverkauf]( http://www.amazon.de/dp/B00AHQUX86/ref=asc_df_B00AHQUX8614735533?smid=A3JWKAKR8XB7XF&tag=krebsco-21 )
   - [HP Microserver G8 G1610T]( http://www.amazon.de/MicroServer-Celeron-G1610T-3-5Zoll-DualPort/dp/B00DJVRVFE/tag=krebsco-21 )
-  - [AES-NI]( http://de.wikipedia.org/wiki/AES_(Befehlssatzerweiterung) )
+  - [AES-NI]( http://de.wikipedia.org/wiki/AES_(Befehlssatzerweiterung)
 - [Pullup-bar]( http://amzn.to/1baz4Fj )
     * [Klimmzugstange]( http://amzn.to/1auz2VJ )
 - [Fastmail]( https://www.fastmail.fm/?STKI=11594185 )
