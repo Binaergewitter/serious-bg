@@ -106,7 +106,7 @@ Wir fordern die Atom Feeds abzuschalten und bereiten uns damit langsam auf die B
 ## Picks
 
 - [Readmill](https://readmill.com/ )
-- [Diktatorencheck]( http://www.diktatorcheck.de/test/ ) via @l33tname
+- [Diktatorencheck]( http://www.diktatorcheck.de/test/ ) via [@l33tname](https://twitter.com/@l33tname)
 - [Kenu Airframe]( http://www.kenu.com/products/airframe )
 - [Remote Controlled Flying Fuck]( http://www.amazon.com/gp/product/B002P4J2P8/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B002P4J2P8&linkCode=as2&tag=krebsco-20 )
 - [Dishwasher cooking]( http://www.npr.org/blogs/thesalt/2013/08/25/214799882/dishwasher-cooking-make-your-dinner-while-cleaning-the-plates )
@@ -118,7 +118,7 @@ Wir fordern die Atom Feeds abzuschalten und bereiten uns damit langsam auf die B
     * [Bundeswahlkompass](http://www.bundeswahlkompass.de/ )
 - [Showterm]( http://showterm.io/ )
     * [Github Repo]( https://github.com/ConradIrwin/showterm.io )
-    * [unix `script`]( http://de.wikipedia.org/wiki/Script_(Unix) )
+    * [unix `script`]( http://de.wikipedia.org/wiki/Script_\(Unix\) )
 - [Oh really, why is that? Web performance for the curious]( https://www.youtube.com/watch?v=kiPe7DPmEgE )
 - [Python Wikipedia API]( https://github.com/goldsmith/Wikipedia )
 
