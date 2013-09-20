@@ -42,7 +42,7 @@ Wir fordern die Atom Feeds abzuschalten und bereiten uns damit langsam auf die B
     * [aerocepter.eu]( http://www.aeroceptor.eu/ )
 - [Apple macht SSL gegen Plexconnect]( http://langui.sh/2013/08/27/appletv-ssl-plexconnect/ )
 - google handy ist fucking billig
-    * [Google Ball]( dailyappshow.s3.amazonaws.com/wp-content/uploads/2013/02/nexus-4-wireless-charger-2.jpg)
+    * [Google Ball]( https://dailyappshow.s3.amazonaws.com/wp-content/uploads/2013/02/nexus-4-wireless-charger-2.jpg)
 - [Erstes Brain2Brain Interface]( http://www.washington.edu/news/2013/08/27/researcher-controls-colleagues-motions-in-1st-human-brain-to-brain-interface/ )
 - [Holi Hippies]( http://www.express.de/koeln/festival-besucher-beschweren-sich-holi-farbe-laesst-sich-nicht-auswaschen-,2856,24109562.html )
 - [Google Hangout macht VP8]( http://arstechnica.com/gadgets/2013/08/google-hangouts-upgrading-to-hd-video-chat-switching-to-vp8-webrtc/ )
