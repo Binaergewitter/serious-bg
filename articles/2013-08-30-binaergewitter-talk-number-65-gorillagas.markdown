@@ -39,7 +39,7 @@ Wir fordern die Atom Feeds abzuschalten und bereiten uns damit langsam auf die B
     * [Nokia Handy mit einem Monat Akkulaufzeit](http://www.golem.de/news/nokia-515-handy-im-alugehaeuse-mit-einem-monat-akkulaufzeit-1308-101267.html )
     * [One Microsoft]( http://www.microsoft.com/en-us/news/press/2013/jul13/07-11onemicrosoft.aspx )
 - [Polizeidrohnen werden endlich bewaffnet]( https://netzpolitik.org/2013/bewaffnung-polizeilicher-drohnen-schreitet-voran-neues-zum-eu-forschungsprojekt-aeroceptor/ )
-    * [aerocepter.eu]( http://www.aeroceptor.eu/ )
+    * [aeroceptor.eu]( http://www.aeroceptor.eu/ )
 - [Apple macht SSL gegen Plexconnect]( http://langui.sh/2013/08/27/appletv-ssl-plexconnect/ )
 - google handy ist fucking billig
     * [Google Ball]( https://dailyappshow.s3.amazonaws.com/wp-content/uploads/2013/02/nexus-4-wireless-charger-2.jpg)
@@ -49,7 +49,7 @@ Wir fordern die Atom Feeds abzuschalten und bereiten uns damit langsam auf die B
 - [htc baut ein neues mobile os](http://www.go2android.de/htc-setzt-auf-eigenes-betriebssystem-in-china/ ) via rene
 - [Neuseeland verbannt Software Patente]( http://arstechnica.com/tech-policy/2013/08/in-historic-vote-new-zealand-bans-software-patents/ )
 - [OpenSSL PRNG is not fork safe]( http://emboss.github.io/blog/2013/08/21/openssl-prng-is-not-really-fork-safe/ )
-  * [Hanna Montana Linux (ist tot)]( http://hannahmontana.sourceforge.net/ )
+  * [Hannah Montana Linux (ist tot)]( http://hannahmontana.sourceforge.net/ )
 - [Feedbin ist OSS]( https://github.com/feedbin/feedbin )
 - [Rechts/Links-Hirn-Foo]( http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0071275 )
 - [Nftable als Ersatz für Netfilter]( http://lwn.net/SubscriberLink/564095/93f7a34c8887a6f9/ )
@@ -65,7 +65,7 @@ Wir fordern die Atom Feeds abzuschalten und bereiten uns damit langsam auf die B
 ### Tastaturen
 
 - [Code Keyboard](http://codekeyboards.com/ )
-- model m
+- IBM Model M
 - [wasdkeyboards](http://www.wasdkeyboards.com/ )
 - [Apple Wireless Keybard]( http://www.apple.com/de/keyboard/ )
 - [Neo Belegung](http://de.wikipedia.org/wiki/Neo_(Tastaturbelegung\) )
@@ -77,7 +77,7 @@ Wir fordern die Atom Feeds abzuschalten und bereiten uns damit langsam auf die B
 ## Lesefoo
 
 - [Overclocking your Bitcoin Miner]( http://hackaday.com/2013/08/05/overclocking-your-bitcoin-miner/ )
-- [Nintento]( http://ignorethecode.net/blog/2013/08/29/nintendo/ )
+- [Nintendo]( http://ignorethecode.net/blog/2013/08/29/nintendo/ )
 - [Alterts to threads in Europe]( http://www.goodreads.com/topic/show/926647-alerts-to-threats-in-europe-by-john-cleese )
 - [Looking into the (Drop)box]( https://www.usenix.org/system/files/conference/woot13/woot13-kholia.pdf )
 - [Confident Ruby]( http://devblog.avdi.org/2013/08/26/confident-ruby-is-finished/ )
