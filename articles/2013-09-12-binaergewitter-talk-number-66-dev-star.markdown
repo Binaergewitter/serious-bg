@@ -34,7 +34,7 @@ Heute mal ohne Ingo, dafür aber mit 100% mehr horse_ebooks als sonst <3.
 
 ## Horse_ebooks der Woche
 
-- [Campaign speec]( http://rubbercat.net/text/horse_ebooks-speech.html )
+- [Campaign speech]( http://rubbercat.net/text/horse_ebooks-speech.html )
 
 ## Tumblr der Woche
 
@@ -62,7 +62,7 @@ Heute mal ohne Ingo, dafür aber mit 100% mehr horse_ebooks als sonst <3.
 - [Mario Paint Daft Punk (video)]( http://www.youtube.com/watch?v=Ic01Vhiyrb4&feature=youtu.be )
 - [Keine Dotless TLDs (fuer google)]( http://www.icann.org/en/news/announcements/announcement-30aug13-en.htm )
     * underscore in subdomains (krepel)
-    * [rfc2181]( http://www.ietf.org/rfc/rfc2181.txt )
+    * [RFC2181]( http://www.ietf.org/rfc/rfc2181.txt )
     * [stackoverflow frage]( http://stackoverflow.com/questions/2180465/can-someone-have-a-subdomain-with-an-underscore-in-it )
 - [iOS7 GM]( http://www.reddit.com/r/ios7/comments/1m4gci/the_gm_seed_is_out/ )
 - Neue iPhone
