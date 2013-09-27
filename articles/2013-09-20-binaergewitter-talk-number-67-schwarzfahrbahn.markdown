@@ -112,4 +112,4 @@ Mehr mobile als sonst, denn Ingo steigt zwangsweise auf Android um außerdem Sel
 
 ## Abschließender Hinweis
 
-* geht wählen, aber nicht AFD
+* geht wählen, aber nicht AfD
