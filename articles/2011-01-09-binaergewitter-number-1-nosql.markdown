@@ -6,6 +6,7 @@ comments: true
 categories: spezial
 audioformats:
   mp3: http://download.binaergewitter.de/2011-01-08.RadioTux.Binaergewitter.NoSQL.mp3
+  ogg: http://download.binaergewitter.de/2011-01-08.RadioTux.Binaergewitter.NoSQL.ogg
 ---
 # Binaergewitter #1 - NoSQL - Binärgewitter
 
