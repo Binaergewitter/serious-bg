@@ -16,7 +16,7 @@ Ingo weilt im Urlaub und die 3er Bande rockt durch die vielen Themen und News de
 ## Toter der Woche
 
 - [Nicht Databecker !!!](http://www.wiwo.de/unternehmen/it/it-verlag-data-becker-wird-2014-geschlossen/8907086.html )
-    * [Typisches Databecker Buch Cover]( media1.yopi.de/product_images/580/580850/list_large/data-becker-gmbh-co-kg-hacker-s-dirty-tricks-pc-underground-gebundene-ausgabe.png )
+    * [Typisches Databecker Buch Cover](http://media1.yopi.de/product_images/580/580850/list_large/data-becker-gmbh-co-kg-hacker-s-dirty-tricks-pc-underground-gebundene-ausgabe.png )
 
 ## Despot der Woche
 
@@ -26,8 +26,7 @@ Ingo weilt im Urlaub und die 3er Bande rockt durch die vielen Themen und News de
 
 * [US shutdown bug]( https://github.com/WhiteHouse/fortyfour/issues/3 )
 
-* [Silk Road Master Mind wurde gepoppt]( 
-http://arstechnica.com/tech-policy/2013/10/internet-lobs-insults-at-fbis-silk-road-bitcoin-wallet/ )
+* [Silk Road Master Mind wurde gepoppt](http://arstechnica.com/tech-policy/2013/10/internet-lobs-insults-at-fbis-silk-road-bitcoin-wallet/ )
   * [Reuters Artikel]( http://www.reuters.com/article/2013/10/02/crime-silkroad-raid-idUSL1N0HS12C20131002 )
   * [NSA hat TOR noch net geknackt]( http://www.computerworld.com/s/article/9242992/Report_NSA_has_little_success_cracking_Tor )
   * [Dongcopter Pirate(video)]( http://vimeo.com/51852064 )
@@ -43,7 +42,7 @@ http://arstechnica.com/tech-policy/2013/10/internet-lobs-insults-at-fbis-silk-ro
 * [Twitter IPO, hart dumm gelaufen]( https://www.google.com/finance?q=twtr )
 * [Unfortunately I am the high king of Skyrim]( http://imgur.com/a/6Zl7k )
 * [Joblinter]( https://github.com/rowanmanning/joblint )
-* [Us Geheimdienste fuehlen sich missverstanden]( http://www.gulli.com/news/22480-us-geheimdienste-fuehlen-sich-missverstanden-2013-10-07 )
+* [US Geheimdienste fühlen sich missverstanden]( http://www.gulli.com/news/22480-us-geheimdienste-fuehlen-sich-missverstanden-2013-10-07 )
 * [Google Web Designer]( http://www.google.com/webdesigner/ )
     * [Sencha Architect]( http://www.sencha.com/products/architect/ )
 * [Fuck yeah iBeacon]( http://www.theverge.com/2013/9/25/4771222/apple-tv-enables-ibeacon-setup-by-tapping-iphone-ipad-against-it )
