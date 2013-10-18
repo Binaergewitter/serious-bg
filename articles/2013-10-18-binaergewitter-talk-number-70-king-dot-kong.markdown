@@ -47,7 +47,7 @@ In dieser Ausgabe präsentieren wir mehr Tote, mehr Irrsin, mehr Tumblers und me
 - [Marvel]( http://de.wikipedia.org/wiki/Marvel )
 - [DC]( http://de.wikipedia.org/wiki/DC_Comics )
 - [Rubinius X](http://x.rubini.us/ )
-        * [Blog Post]( http://rubini.us/2013/10/15/introducing-rubinius-x/ )
+  * [Blog Post]( http://rubini.us/2013/10/15/introducing-rubinius-x/ )
 - [NginX bekommt 10 Mio $ Kapital]( http://nginx.com/news/nginx-inc-raises-10m-series-b-round/ )
 - [Twitter lässt Spam zu](http://www.heise.de/newsticker/meldung/Twitter-laesst-Direktnachrichten-aller-Follower-zu-1979446.html )
 - [Oracle sagt Open-Source Projekte sind nicht Web Scale]( http://developers.slashdot.org/story/13/10/15/1828211/oracle-attacks-open-source-says-community-developed-code-is-inferior )
