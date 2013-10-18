@@ -21,9 +21,9 @@ In dieser Ausgabe präsentieren wir mehr Tote, mehr Irrsin, mehr Tumblers und me
 - USA
 - [wunderkit](http://www.wunderkit.com/ )
 - [DnT](http://www.heise.de/newsticker/meldung/Privatsphaere-im-Web-Do-not-Track-Standard-droht-das-Aus-1978057.html )
-    - [Ghostery]( www.ghostery.com )
-- [Lavabit kurzes aufleben - und endgueltiger tod]( http://www.zdnet.de/88172415/snowdens-e-mail-dienst-lavabit-bietet-kunden-kurzzeitig-moeglichkeit-zur-datensicherung/ )
-   - [video anhoerung]( )
+    - [Ghostery]( http://www.ghostery.com )
+- [Lavabit kurzes aufleben - und endgültiger tod]( http://www.zdnet.de/88172415/snowdens-e-mail-dienst-lavabit-bietet-kunden-kurzzeitig-moeglichkeit-zur-datensicherung/ )
+   - video anhörung
 - [neues Humble Bundle](https://www.humblebundle.com )
 
 # Tumblr der Woche
@@ -41,7 +41,7 @@ In dieser Ausgabe präsentieren wir mehr Tote, mehr Irrsin, mehr Tumblers und me
 - Ubuntu 13.10 „Saucy Salamander“
 - [Ubucon](http://ubucon.de )
 - [Retinacast](http://retinacast.de )
-- [die Ströhmung]( http://www.xn--die-strmung-xfb.de/ )
+- [Die Strömung]( http://www.xn--die-strmung-xfb.de/ )
 - [US Militär will Iron Man bauen]( http://www.bbc.co.uk/news/technology-24474336 )
     * [Startup will Jarvis Bauen]( http://www.forbes.com/sites/tonybradley/2013/10/14/one-startup-strives-to-make-iron-mans-j-a-r-v-i-s-a-reality/ )
 - [Marvel]( http://de.wikipedia.org/wiki/Marvel )
@@ -56,7 +56,7 @@ In dieser Ausgabe präsentieren wir mehr Tote, mehr Irrsin, mehr Tumblers und me
 - [Ist Bitcoin nur ein einziger riesiger Honeypot der Polizei]( http://ianso.blogspot.be/2013/10/bitcoin-as-law-enforcementnatsec.html )
 - [Schiffe Pwnen]( http://www.net-security.org/secworld.php?id=15781 )
     * [USS Enterprise]( http://en.wikipedia.org/wiki/USS_Enterprise_(CVN-65) )
-- [Snapchat kooperiert mit US-Behoerden]( http://www.gulli.com/news/22549-snapchat-kooperiert-mit-us-behoerden-2013-10-16 )
+- [Snapchat kooperiert mit US-Behörden]( http://www.gulli.com/news/22549-snapchat-kooperiert-mit-us-behoerden-2013-10-16 )
 - [Für TrueCrypt Audit Moneys Sammeln]( http://arstechnica.com/security/2013/10/new-effort-to-fully-audit-truecrypt-raises-over-16000-in-a-few-short-weeks/ )
 - [Keiner will mehr Amerikanisches Internet - China]( http://www.businessweek.com/articles/2013-10-14/chinas-state-press-calls-for-building-a-de-americanized-world )
 - [15 Jahre Amazon Liste]( http://www.welt.de/wirtschaft/webwelt/article120912124/Amazon-nennt-meistgekaufte-Produkte-aller-Zeiten.html )
@@ -72,7 +72,7 @@ In dieser Ausgabe präsentieren wir mehr Tote, mehr Irrsin, mehr Tumblers und me
 
 ## Lesefoo
 
-- [Schlechtes Interview ueber Bash als Hacktool]( http://www.forbes.com/sites/michaelvenables/2013/10/10/how-they-popped-the-penguin-the-linux-bash-attack-its-impact-on-user-data-security/ )
+- [Schlechtes Interview über Bash als Hacktool]( http://www.forbes.com/sites/michaelvenables/2013/10/10/how-they-popped-the-penguin-the-linux-bash-attack-its-impact-on-user-data-security/ )
 - [DNS - A Botnet dialect]( http://de.slideshare.net/ffranz/rootedcon2012-dns-a-botnet-dialect-carlos-diaz-francisco-j-gomez )
 - [AOSA Scalable Web Architecture and Distributed Systems]( http://aosabook.org/en/distsys.html )
 - [Elixir for Rubyists]( http://www.natescottwest.com/blog/2013/09/26/elixir-for-rubyists/ )
