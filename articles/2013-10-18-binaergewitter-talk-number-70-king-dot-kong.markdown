@@ -96,7 +96,7 @@ In dieser Ausgabe präsentieren wir mehr Tote, mehr Irrsin, mehr Tumblers und me
 - [Device Ständer]( http://www.amazon.de/dp/B00B2HXC1O?tag=pfleidi-21 )
 - [AsciiFlow]( http://www.asciiflow.com/#Draw )
 - [Mark Brandis Ikarus, Ikarus ...](http://www.amazon.de/gp/product/B00DYFCXWQ/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B00DYFCXWQ&linkCode=as2&tag=trektrip )
-- [RJ45 Kupplung]( http://www.amazon.dej/dp/B006XPC1YO?tag=pfleidi-21 )
+- [RJ45 Kupplung]( http://www.amazon.de/dp/B006XPC1YO?tag=pfleidi-21 )
 - [Jepsen Talk]( http://www.youtube.com/watch?v=NsI51Mo6r3o ) (video)
     * [Blog Post Reihe]( http://aphyr.com/tags/jepsen )
 - [NetGear GS105GE Gigabit Switch]( http://www.amazon.de/dp/B0000X5IQ8?tag=pfleidi-21 )
