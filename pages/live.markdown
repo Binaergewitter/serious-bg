@@ -10,10 +10,10 @@ Binärgewitter Talk läuft zur Zeit immer Donnerstag abends ab ca. 20 Uhr. Das k
 [http://streams.xenim.de/binaergewitter/](http://streams.xenim.de/binaergewitter/).
 Außerdem gibts von [@dansaviary](http://twitter.com/dansaviary) auch einen Opus Stream (im Ogg Container) in unterschiedlichen Qualitätsstufen. Ideal für Leute mit geringen Bandbreiten.
 
-* [Opus 32kbits](http://stream.xenim.imake.io/binaergewitter_32.ogg)
-* [Opus 24kbits](http://stream.xenim.imake.io/binaergewitter_24.ogg)
-* [Opus 12kbits](http://stream.xenim.imake.io/binaergewitter_12.ogg)
-* [Opus 6kbits](http://stream.xenim.imake.io/binaergewitter_6.ogg)
+* [Opus 32kbits](http://stream.xenim.imojo.de/binaergewitter_32.ogg)
+* [Opus 24kbits](http://stream.xenim.imojo.de/binaergewitter_24.ogg)
+* [Opus 12kbits](http://stream.xenim.imojo.de/binaergewitter_12.ogg)
+* [Opus 6kbits](http://stream.xenim.imojo.de/binaergewitter_6.ogg)
 
 Binärgewitter Spezial wird unregelmäßig produziert und ggf. auch live gestreamt. Die Termine werden vorher auch via [Twitter](http://twitter.com/binaergewitter) bekannt gegeben.
 
