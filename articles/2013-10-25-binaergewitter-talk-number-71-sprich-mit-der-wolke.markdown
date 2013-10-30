@@ -35,6 +35,7 @@ Okay okay wir haben doch auch über Apple geredet, aber dafür gibt es diesmal a
 - [Ghost]( https://ghost.org/ )
     * [Github Repository]( https://github.com/TryGhost/Ghost )
     * [OwnCloud 6]( https://owncloud.org/six/ )
+- [OwnCloud 6]( https://owncloud.org/six/ )
 - [US Navy Schiffe ab jetzt mit Linux](http://arstechnica.com/information-technology/2013/10/the-navys-newest-warship-is-powered-by-linux/ )
     * [USS Enterprise](http://de.wikipedia.org/wiki/USS_Enterprise_(CVN-65\) )
 - [CERN veröffentlicht Bilder unter CC]( http://home.web.cern.ch/about/updates/2013/10/cern-releases-photos-under-creative-commons-licence )
