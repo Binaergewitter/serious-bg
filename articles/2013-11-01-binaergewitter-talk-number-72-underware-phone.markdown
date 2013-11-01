@@ -42,12 +42,12 @@ Felix und Ingo präsentieren diese Woche den "wirhabendochkeineAhnung Talk", den
   - [Quelle Mozilla]( https://location.services.mozilla.com/ )
 - [NSA hängt sich zwischen Google und Yahoo Datacenter]( http://arstechnica.com/tech-policy/2013/10/new-docs-show-nsa-taps-google-yahoo-data-center-links/ )
   - [NSA Verfechter meinen, dass Transparenz den Zweck von Demokratie kaputt macht]( http://www.techdirt.com/articles/20131024/13173225006/nsa-defender-argues-that-too-much-transparency-defeats-purpose-democracy.shtml )
-- [Software tötet Menschen (toyota)]( http://tech.slashdot.org/story/13/10/29/208205/toyotas-killer-firmware )
+- [Software tötet Menschen (Toyota)]( http://tech.slashdot.org/story/13/10/29/208205/toyotas-killer-firmware )
 - [Pfefferspray-Meme-Cop bekommt 38k Dollar Entschädigung]( http://www.gulli.com/news/22625-pfefferspray-meme-cop-bekommt-38000-us-dollar-entschaedigung-2013-10-25 )
 - [Neue LinuxDistro](http://www.heise.de/open/meldung/Linux-fuer-Tastatur-Fans-Salix-Ratpoison-14-0-1-2036803.html )
 - [In Android 4.4 soll nfc card emulation für alles machen]( http://news.hitb.org/content/android-44-kitkat-will-reportedly-include-nfc-card-emulation-without-secure-element )
 - [Nexus 5 - Ein Unerwarteter Fehler ist aufgetreten]( https://play.google.com/store/devices/details?id=nexus_5_black_16gb )
-- ['Terroristen' dürfen nicht über angebliche Folter reden weil es verschlusssache ist]( http://www.allgov.com/news/controversies/911-suspects-cant-mention-being-tortured-during-trial-testimony-because-their-torture-is-classified-131028?news=851498 )
+- ['Terroristen' dürfen nicht über angebliche Folter reden weil es Verschlusssache ist]( http://www.allgov.com/news/controversies/911-suspects-cant-mention-being-tortured-during-trial-testimony-because-their-torture-is-classified-131028?news=851498 )
 
 ## Lesefoo
 - [Guten PHP Code]( https://github.com/sayakb/sticky-notes/blob/master/app/controllers/UserController.php )
