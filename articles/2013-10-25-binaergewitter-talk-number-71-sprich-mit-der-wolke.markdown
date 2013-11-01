@@ -34,7 +34,10 @@ Okay okay wir haben doch auch über Apple geredet, aber dafür gibt es diesmal a
 - [Phusion Passenger für Node.js wurde open sourced]( http://blog.phusion.nl/2013/10/23/phusion-passengers-node-js-support-has-been-open-sourced/ )
 - [Ghost]( https://ghost.org/ )
     * [Github Repository]( https://github.com/TryGhost/Ghost )
+<<<<<<< HEAD
     * [OwnCloud 6]( https://owncloud.org/six/ )
+=======
+>>>>>>> master
 - [OwnCloud 6]( https://owncloud.org/six/ )
 - [US Navy Schiffe ab jetzt mit Linux](http://arstechnica.com/information-technology/2013/10/the-navys-newest-warship-is-powered-by-linux/ )
     * [USS Enterprise](http://de.wikipedia.org/wiki/USS_Enterprise_(CVN-65\) )
@@ -65,7 +68,7 @@ Okay okay wir haben doch auch über Apple geredet, aber dafür gibt es diesmal a
 - [The Genius and Folly of MongoDB]( http://nyeggen.com/blog/2013/10/18/the-genius-and-folly-of-mongodb/ )
 - [Ruby's top self object]( http://www.sitepoint.com/rubys-top-self-object/ )
 - [How hipchat scales to 1 billion messages]( http://blog.hipchat.com/2013/10/16/how-hipchat-scales-to-1-billion-messages/ )
-- [Sorting Linkes in 5 Languages]( http://devblog.avdi.org/2013/10/16/sorting-lines-in-5-languages/ )
+- [Sorting Lines in 5 Languages]( http://devblog.avdi.org/2013/10/16/sorting-lines-in-5-languages/ )
 - [Ruby Tips]( http://globaldev.co.uk/2013/09/ruby-tips-part-1/ )
 - [How to stub external services in tests]( http://robots.thoughtbot.com/post/64474832169/how-to-stub-external-services-in-tests )
 - [Introducing Capybara 2.1]( http://www.elabs.se/blog/60-introducing-capybara-2-1 )
