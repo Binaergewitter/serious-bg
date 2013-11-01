@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Binärgewitter Talk #72 - Underware Phone"
-date: 2013-11-01 17:00
+date: 2013-11-01 20:00
 comments: true
 categories: talk
 sharing: true
@@ -14,7 +14,7 @@ audioformats:
 Felix und Ingo präsentieren diese Woche den "wirhabendochkeineAhnung Talk", denn so oder so ähnlich ist diese Sendung über riechende Notebooks, freigegebene H.264 Blops und andere News der letzten Woche.
 
 - [Plasma ist tot](http://www.heise.de/newsticker/meldung/Panasonic-baut-keine-Plasma-Fernseher-mehr-2036980.html )
- - [WP: Plasmabildschirm](http://de.wikipedia.org/wiki/Plasmabildschirm )
+  * [WP: Plasmabildschirm](http://de.wikipedia.org/wiki/Plasmabildschirm )
 - [Captchas sind nicht mehr sicher?!]( http://news.sciencemag.org/technology/2013/10/captcha-busted-ai-company-claims-have-broken-internets-favorite-protection-system )
 - [Google updatet reCaptcha]( http://www.v3.co.uk/v3-uk/news/2303350/google-updates-recaptcha-tool-to-beat-the-spambots )
 
@@ -23,7 +23,7 @@ Felix und Ingo präsentieren diese Woche den "wirhabendochkeineAhnung Talk", den
 
 ## News
 - [Mutmaßlicher Terrorist in Wolograd geschnapt](http://de.ria.ru/security_and_military/20131027/267161796.html )
-     http://www.spiegel.de/politik/ausland/russland-tote-und-verletzte-bei-busexplosion-in-wolgograd-a-929070.html
+    * [Busexplosion in Wolograd]( http://www.spiegel.de/politik/ausland/russland-tote-und-verletzte-bei-busexplosion-in-wolgograd-a-929070.html )
 - [Cisco gibt kostenlosen H.264 raus - als free open source binary blob](http://blogs.cisco.com/collaboration/open-source-h-264-removes-barriers-webrtc )
   - [Firefox bekommt H.264 für WebRTC]( https://brendaneich.com/2013/10/ciscos-h-264-good-news/ )
 - [Science! Marihuana natürlich in Muttermilch]( http://www.naturalnews.com/036526_cannabinoids_breast_milk_THC.html )
