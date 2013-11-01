@@ -33,7 +33,7 @@ Felix und Ingo präsentieren diese Woche den "wirhabendochkeineAhnung Talk", den
     - [Phone Bloks]( https://phonebloks.com/idea )
 - [Lenovo Will Ashton Kutcher als Product Engineer]( http://slashdot.org/topic/datacenter/kutcher-hire-shows-marketing-outranks-engineering-at-lenovo/ )
 - [BadBios - Hardcore Malware]( http://arstechnica.com/security/2013/10/meet-badbios-the-mysterious-mac-and-pc-malware-that-jumps-airgaps/ )
-- [PHP.net liefer Malware?]( http://www.csoonline.com/article/742008/php.net-flagged-for-malware-by-google-researchers-confirm-it-was-no-false-positive )
+- [PHP.net liefert Malware?]( http://www.csoonline.com/article/742008/php.net-flagged-for-malware-by-google-researchers-confirm-it-was-no-false-positive )
 - [Künstliches Blut aus Romänien für Transilvanien]( http://science.slashdot.org/story/13/10/31/1612237/artificial-blood-made-in-romania )
 - [Hands on Tizen](http://www.tizenexperts.com/2013/10/video-hands-tizen-z9005-redwood/ )
 - [Thorium als Zunkunfs Treibstoff]( http://www.bbc.co.uk/news/science-environment-24638816 )
