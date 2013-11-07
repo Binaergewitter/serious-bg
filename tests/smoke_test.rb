@@ -70,7 +70,7 @@ class SmokeTest < Test::Unit::TestCase
 
   def test_that_all_posts_work
     get "/archives"
-    last_response.body.scan(/a href="(.*)"/).each do |match|
+    last_response.body.scan(/a href="([^"])"/).each do |match|
       get match[0]
       assert last_response.ok?
     end
