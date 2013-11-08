@@ -13,6 +13,8 @@ audioformats:
 ---
 Felix und Ingo präsentieren diese Woche den "wirhabendochkeineAhnung Talk", denn so oder so ähnlich ist diese Sendung über riechende Notebooks, freigegebene H.264 Blops und andere News der letzten Woche.
 
+## Toter der Woche
+
 - [Plasma ist tot](http://www.heise.de/newsticker/meldung/Panasonic-baut-keine-Plasma-Fernseher-mehr-2036980.html )
   * [WP: Plasmabildschirm](http://de.wikipedia.org/wiki/Plasmabildschirm )
 - [Captchas sind nicht mehr sicher?!]( http://news.sciencemag.org/technology/2013/10/captcha-busted-ai-company-claims-have-broken-internets-favorite-protection-system )
