@@ -37,7 +37,7 @@ Wieder mal alle dabei bei der großen Party. Diesmal gehts wieder um Bitcoin, vi
 - [Friseurnamen]( http://friseurnamen.tumblr.com/ )
 - [Selfies at funerals]( http://selfiesatfunerals.tumblr.com/ )
 - [Pornhub comments on stock photos]( http://pornhubcommentsonstockphotos.tumblr.com/ )
-   - [Then i Took an arrow to the Knee --> Getting Married]( http://imgur.com/gallery/H2xcUOB (
+   - [Then i Took an arrow to the Knee --> Getting Married]( http://imgur.com/gallery/H2xcUOB )
 - [People taking pictures with iPads]( http://peopletakingpictureswithipads.tumblr.com/ )
 
 ## News
@@ -68,7 +68,7 @@ Wieder mal alle dabei bei der großen Party. Diesmal gehts wieder um Bitcoin, vi
 - [N(o|e)rdkorea baut Elektro-Puls Waffen]( http://www.smh.com.au/technology/sci-tech/north-korea-developing-electromagnetic-pulse-weapons-report-20131105-2wxy1.html )
 
 
-###Mobile 
+### Mobile 
 
 - [Dalvik Nachfolger](http://www.heise.de/newsticker/meldung/Dalvik-Nachfolger-Google-laedt-zum-Testen-der-neuen-Android-Runtime-ein-2041644.html )
 - [Apple und Microsoft greifen Android an](http://www.pro-linux.de/-0h214fd1 )
