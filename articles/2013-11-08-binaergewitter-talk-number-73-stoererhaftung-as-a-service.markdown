@@ -16,7 +16,7 @@ Wieder mal alle dabei bei der großen Party. Diesmal gehts wieder um Bitcoin, vi
 ## Party der Woche
 
 - [Drunken French teenagers abduct a circus llama and take him on a tram ride]( http://www.independent.co.uk/news/world/europe/drunken-french-teenagers-abduct-a-circus-llama-and-take-him-on-a-tram-ride-8920524.html )
-   - [Youtube Video]( http://www.youtube.com/watch?v=kL4Hz8Zv6k0 )
+   * [Youtube Video]( http://www.youtube.com/watch?v=kL4Hz8Zv6k0 )
 
 ## Toter der Woche
 
@@ -28,7 +28,7 @@ Wieder mal alle dabei bei der großen Party. Diesmal gehts wieder um Bitcoin, vi
 ##Kickstarter der Woche
 
 - [Lavabit's Dark Mail Initiative]( http://www.kickstarter.com/projects/ladar/lavabits-dark-mail-initiative )
-   - [XMPP Manifest zur verpflichtenden Verschlüsselung]( http://www.gulli.com/news/22694-manifest-zur-verpflichtenden-verschluesselung-von-xmppjabber-2013-11-05 )
+   * [XMPP Manifest zur verpflichtenden Verschlüsselung]( http://www.gulli.com/news/22694-manifest-zur-verpflichtenden-verschluesselung-von-xmppjabber-2013-11-05 )
        - [XMPP immer verschlüsselt]( http://www.heise.de/newsticker/meldung/XMPP-soll-durchgehend-verschluesselt-werden-2039759.html )
        - [XEP-016]( http://xmpp.org/extensions/xep-0116.html )
 
@@ -37,7 +37,7 @@ Wieder mal alle dabei bei der großen Party. Diesmal gehts wieder um Bitcoin, vi
 - [Friseurnamen]( http://friseurnamen.tumblr.com/ )
 - [Selfies at funerals]( http://selfiesatfunerals.tumblr.com/ )
 - [Pornhub comments on stock photos]( http://pornhubcommentsonstockphotos.tumblr.com/ )
-   - [Then i Took an arrow to the Knee --> Getting Married]( http://imgur.com/gallery/H2xcUOB )
+   * [Then i Took an arrow to the Knee --> Getting Married]( http://imgur.com/gallery/H2xcUOB )
 - [People taking pictures with iPads]( http://peopletakingpictureswithipads.tumblr.com/ )
 
 ## News
@@ -52,7 +52,7 @@ Wieder mal alle dabei bei der großen Party. Diesmal gehts wieder um Bitcoin, vi
 - [Bitcoin Foundation: Is Bitcoin Broken( spoiler: no)](https://bitcoinfoundation.org/blog/?p=310 )
 - [Leute koennen weiter Drogen im internet kaufen (post-Silk Road)]( http://arstechnica.com/business/2013/11/just-a-month-after-shutdown-silk-road-2-0-emerges/ )
 - [Domain Specific VPN Router]( https://github.com/dboyd13/DSVR )
-    - [OpenVPN kann dies auch einfach so]( https://forums.openvpn.net/topic8853.html )
+    * [OpenVPN kann dies auch einfach so]( https://forums.openvpn.net/topic8853.html )
 - [New Relic supported nun Node.js]( http://blog.newrelic.com/2013/10/24/node-joins-new-relic-family/ )
 - [6 Jahre Dropbox]( https://news.ycombinator.com/item?id=8863 )
 - [Dropbox gets Sold!]( http://appadvice.com/appnn/2013/11/easy-selling-startup-sold-gets-sold-to-dropbox-reportedly-tapped-for-new-product )
@@ -64,7 +64,7 @@ Wieder mal alle dabei bei der großen Party. Diesmal gehts wieder um Bitcoin, vi
 - [Buffer/MongoHQ wurden gehackt]( http://open.bufferapp.com/buffer-has-been-hacked-here-is-whats-going-on )
 - [Octane 2.0]( http://blog.chromium.org/2013/11/announcing-octane-20.html )
 - [Google Crawler SQLi'ed für dich]( http://arstechnica.com/security/2013/11/google-crawler-tricked-into-performing-sql-injection-attacks-using-decade-old-technique/ )
-   - [Phrack #57 Artikel]( http://www.phrack.org/issues.html?issue=57&id=10#article )
+   * [Phrack #57 Artikel]( http://www.phrack.org/issues.html?issue=57&id=10#article )
 - [N(o|e)rdkorea baut Elektro-Puls Waffen]( http://www.smh.com.au/technology/sci-tech/north-korea-developing-electromagnetic-pulse-weapons-report-20131105-2wxy1.html )
 
 
@@ -81,8 +81,8 @@ Wieder mal alle dabei bei der großen Party. Diesmal gehts wieder um Bitcoin, vi
 - [Jolla Store ist offen](http://www.jollausers.com/2013/11/jolla-harbour-and-jolla-store-are-open-to-developers/ )
     [...not]( https://harbour.jolla.com/ )
 - [Nexus 5 vom Felix]
-    - [Golem ueber Nexus 5]( http://www.golem.de/news/nexus-5-im-test-schlicht-schick-1311-102604.html )
-    - [Arstechnica ueber Nexus 5]( http://arstechnica.com/gadgets/2013/11/nexus-5-review-flagship-hardware-for-half-the-price/ )
+    * [Golem über Nexus 5]( http://www.golem.de/news/nexus-5-im-test-schlicht-schick-1311-102604.html )
+    * [Arstechnica über Nexus 5]( http://arstechnica.com/gadgets/2013/11/nexus-5-review-flagship-hardware-for-half-the-price/ )
 
 ### Vorhaben der neuen Regierung
 
@@ -116,7 +116,7 @@ Wieder mal alle dabei bei der großen Party. Diesmal gehts wieder um Bitcoin, vi
 - Munin auf nem RasPi
     * [Sensu]( http://sensuapp.org/ )
 - Kindle Mac App
-    -  [Send to Kindle]( http://www.amazon.com/gp/sendtokindle )
+    *  [Send to Kindle]( http://www.amazon.com/gp/sendtokindle )
 
 ## Picks
 
