@@ -44,7 +44,7 @@ Wieder mal alle dabei bei der großen Party. Diesmal gehts wieder um Bitcoin, vi
 
 - [Netty 4]( https://blog.twitter.com/2013/netty-4-at-twitter-reduced-gc-overhead )
 - [Adobe hat unendlich viele Passwrter verloren]( LINK ME )
-    * [XKCD dazu]( http://www.explainxkcd.com/wiki/index.php?title=1286 )
+    - [XKCD dazu]( http://www.explainxkcd.com/wiki/index.php?title=1286 )
 - [Bitcoin ist unendlich viel Geld wert]( http://bitcoinity.org/markets )
 - [Bitcoin wallet service inputs.io gepwned]( https://inputs.io/ )
 - [Dinge mit Bitcoin ersetzen, Heute: Zertifikats Authoritaeten]( http://www.theregister.co.uk/2013/11/03/crypto_boffins_propose_getting_rid_of_cas/ )
@@ -76,13 +76,13 @@ Wieder mal alle dabei bei der großen Party. Diesmal gehts wieder um Bitcoin, vi
 - [Tizen 3.0](http://www.mobilegeeks.de/samsung-tizen-3-0-wird-am-11-november-vorgestellt/ )
 - [Google+ Photo ID](http://www.mobilegeeks.de/google-profilfoto-wird-ab-2014-mit-telefonnummer-verlinkt/ )
 - [Android am schnellsten wachsende Technologie](http://www.mobilegeeks.de/android-ist-die-am-schnellsten-wachsende-technologie-aller-zeiten/ )
-    * [Tweet zum Thema]( https://twitter.com/thegrugq/status/392717615438639104 )
+    - [Tweet zum Thema]( https://twitter.com/thegrugq/status/392717615438639104 )
 - [Fernwartung plötzlich deaktiviert](http://www.golem.de/news/neue-play-dienste-google-deaktiviert-android-fernwartung-1311-102618.html )
 - [Jolla Store ist offen](http://www.jollausers.com/2013/11/jolla-harbour-and-jolla-store-are-open-to-developers/ )
     [...not]( https://harbour.jolla.com/ )
 - [Nexus 5 vom Felix]
-    - [Golem ueber Nexus 5]( http://www.golem.de/news/nexus-5-im-test-schlicht-schick-1311-102604.html )
-    - [Arstechnica ueber Nexus 5]( http://arstechnica.com/gadgets/2013/11/nexus-5-review-flagship-hardware-for-half-the-price/ )
+    - [Golem über Nexus 5]( http://www.golem.de/news/nexus-5-im-test-schlicht-schick-1311-102604.html )
+    - [Arstechnica über Nexus 5]( http://arstechnica.com/gadgets/2013/11/nexus-5-review-flagship-hardware-for-half-the-price/ )
 
 ### Vorhaben der neuen Regierung
 
@@ -104,7 +104,7 @@ Wieder mal alle dabei bei der großen Party. Diesmal gehts wieder um Bitcoin, vi
 - [What long hours really mean]( http://wearemammoth.com/2013/11/long-hours )
 - [I just dropped all my job titles]( https://medium.com/on-startups/e612beae3194 )
 - [Practical object oriented design in Ruby]( http://www.poodr.com/ )
-    * [Ruby Rogues Book Club]( http://rubyrogues.com/category/book-club/ )
+    - [Ruby Rogues Book Club]( http://rubyrogues.com/category/book-club/ )
 - [The Cheapest Generation]( http://www.theatlantic.com/magazine/archive/2012/09/the-cheapest-generation/309060/ )
 - [Capistrano Version 3]( https://medium.com/p/ba896a142ac )
 - [badBIOS doch nicht wahr?]( http://www.rootwyrm.com/2013/11/the-badbios-analysis-is-wrong/ )
@@ -114,7 +114,7 @@ Wieder mal alle dabei bei der großen Party. Diesmal gehts wieder um Bitcoin, vi
 ## Mimimi der Woche
 
 - Munin auf nem RasPi
-    * [Sensu]( http://sensuapp.org/ )
+    - [Sensu]( http://sensuapp.org/ )
 - Kindle Mac App
     -  [Send to Kindle]( http://www.amazon.com/gp/sendtokindle )
 
@@ -125,11 +125,11 @@ Wieder mal alle dabei bei der großen Party. Diesmal gehts wieder um Bitcoin, vi
 - [The Elegant gentleman's guide to knife fighting - animations]( http://www.youtube.com/watch?v=l-7IV2qryiQ# )
 - [The free lunch is over, again]( http://www.infoq.com/presentations/distributed-systems-challenges )
 - Herbst running gear
-    * [Regenhose]( http://www.amazon.de/dp/B0052JP2ZC?tag=pfleidi-21 )
-    * [Regenjacke]( http://www.amazon.de/dp/B0057LUZJS?tag=pfleidi-21 )
-    * [Reflektor Band]( http://www.amazon.de/dp/B001EDZV2Y?tag=pfleidi-21 )
-    * [Arschlampe]( http://www.amazon.de/dp/B001R4BPJ8?tag=pfleidi-21 )
-    * [Stirnlampe]( http://www.amazon.de/dp/B0027GVIOW?tag=pfleidi-21 ) 
+    - [Regenhose]( http://www.amazon.de/dp/B0052JP2ZC?tag=pfleidi-21 )
+    - [Regenjacke]( http://www.amazon.de/dp/B0057LUZJS?tag=pfleidi-21 )
+    - [Reflektor Band]( http://www.amazon.de/dp/B001EDZV2Y?tag=pfleidi-21 )
+    - [Arschlampe]( http://www.amazon.de/dp/B001R4BPJ8?tag=pfleidi-21 )
+    - [Stirnlampe]( http://www.amazon.de/dp/B0027GVIOW?tag=pfleidi-21 ) 
 - [Chef Installer]( http://www.opscode.com/chef/install/ )
-    * curl -L https://www.opscode.com/chef/install.sh | sudo bash
+    - curl -L https://www.opscode.com/chef/install.sh | sudo bash
 - [Technobabble Generator](http://phaser.gfxile.net/ligen/technobabble.php )
