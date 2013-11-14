@@ -55,7 +55,7 @@ In dieser Ausgabe präsentieren wir mehr Tote, mehr Irrsin, mehr Tumblers und me
     * [Hässliche OSS Seite von Oracle]( https://oss.oracle.com/ )
 - [Ist Bitcoin nur ein einziger riesiger Honeypot der Polizei]( http://ianso.blogspot.be/2013/10/bitcoin-as-law-enforcementnatsec.html )
 - [Schiffe Pwnen]( http://www.net-security.org/secworld.php?id=15781 )
-    * [USS Enterprise]( http://en.wikipedia.org/wiki/USS_Enterprise_(CVN-65) )
+    * [USS Enterprise]( http://en.wikipedia.org/wiki/USS_Enterprise_(CVN-65\))
 - [Snapchat kooperiert mit US-Behörden]( http://www.gulli.com/news/22549-snapchat-kooperiert-mit-us-behoerden-2013-10-16 )
 - [Für TrueCrypt Audit Moneys Sammeln]( http://arstechnica.com/security/2013/10/new-effort-to-fully-audit-truecrypt-raises-over-16000-in-a-few-short-weeks/ )
 - [Keiner will mehr Amerikanisches Internet - China]( http://www.businessweek.com/articles/2013-10-14/chinas-state-press-calls-for-building-a-de-americanized-world )
@@ -90,7 +90,7 @@ In dieser Ausgabe präsentieren wir mehr Tote, mehr Irrsin, mehr Tumblers und me
    - [yatse(android)]( https://play.google.com/store/apps/details?id=org.leetzone.android.yatsewidgetfree&hl=de )
 - [bundle gem]( http://bundler.io/v1.3/man/bundle.1.html )
     * [Mlk Gem]( https://github.com/pfleidi/mlk )
-- relaxxapi via pypi
+- [relaxxapi](https://pypi.python.org/pypi/relaxxapi) via pypi
 - [K@-Mail]( http://1gravity.com/ )
 - [pry-byebug]( https://github.com/deivid-rodriguez/pry-byebug )
 - [Device Ständer]( http://www.amazon.de/dp/B00B2HXC1O?tag=pfleidi-21 )
