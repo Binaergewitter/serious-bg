@@ -69,7 +69,7 @@ Diesmal sogar zu fünft, denn Mat verstärkt uns und daher seit langem auch mal 
 - [Popular coding conventions]( http://sideeffect.kr/popularconvention/#java )
 - [Root box made easy]( https://github.com/search?q=exec+sudo+%24_GET&type=Code )
 - [IBM JSONX]( http://pic.dhe.ibm.com/infocenter/wsdatap/v3r8m1/topic/xb60/convertingbetweenjsonandjsonx05.htm#wq4 )
-   * [Using JSLint for Evil(video)] ( http://www.youtube.com/watch?v=-hCimLnIsDA )
+   * [Using JSLint for Evil(video)]( http://www.youtube.com/watch?v=-hCimLnIsDA )
 - [How Github (no longer) works]( http://zachholman.com/talk/how-github-no-longer-works/ )
 - [Apple, GT Advanced and $578M worth of Sapphire Crystal]( http://techcrunch.com/2013/11/11/apple-fires-its-ion-cannons/ )
     * [Solar Ionen Kanone]( http://www.extremetech.com/extreme/122231-solar-panels-made-with-ion-cannon-are-cheap-enough-to-challenge-fossil-fuels )
@@ -77,7 +77,7 @@ Diesmal sogar zu fünft, denn Mat verstärkt uns und daher seit langem auch mal 
 ## Lesefoo
 
 - [Why Japanese Web Design is so diffrent]( http://randomwire.com/why-japanese-web-design-is-so-different/ )
-- [Remote] ( http://37signals.com/remote/ )
+- [Remote]( http://37signals.com/remote/ )
 - [Star Ship Troopers - einfach nur Missverstanden]( http://www.theatlantic.com/entertainment/archive/2013/11/-em-starship-troopers-em-one-of-the-most-misunderstood-movies-ever/281236/ )
 - [Culture shock: Programming for the enterprise]( http://symbo1ics.com/blog/?p=2119 )
 
