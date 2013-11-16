@@ -25,8 +25,8 @@ Diesmal sogar zu fünft, denn Mat verstärkt uns und daher seit langem auch mal 
 ##  Traugiste Geschichte der Woche
 
 - [SMS Umsätze gehen zurück](http://www.heise.de/newsticker/meldung/WhatsApp-Facebook-Co-Messenger-nagen-am-SMS-Umsatz-2046446.html )
-    - [Facebook Messenger](http://www.heise.de/newsticker/meldung/Facebook-Messenger-setzt-auf-Mobilnummer-2045918.html )
-    - [10 Jungs im knast]( http://arstechnica.com/gadgets/2013/11/ten-boys-arrested-for-child-porn-distribution-connected-to-snapchat/ )
+    * [Facebook Messenger](http://www.heise.de/newsticker/meldung/Facebook-Messenger-setzt-auf-Mobilnummer-2045918.html )
+    * [10 Jungs im knast]( http://arstechnica.com/gadgets/2013/11/ten-boys-arrested-for-child-porn-distribution-connected-to-snapchat/ )
 - [Wörterbuch verbannt in Schulen]( http://www.theguardian.com/books/2010/jan/25/oral-sex-dictionary-ban-us-schools )
 
 # JS-Port der Woche
@@ -37,7 +37,7 @@ Diesmal sogar zu fünft, denn Mat verstärkt uns und daher seit langem auch mal 
 ## Toter der Woche
 
 - [Netfilter](http://www.heise.de/newsticker/meldung/Neuer-Firewall-Code-fuer-Linux-3-13-aufgenommen-2045036.html )
-    - [NFTables Artikel von 2009]( https://lwn.net/Articles/324989/ )
+    * [NFTables Artikel von 2009]( https://lwn.net/Articles/324989/ )
 - [Jenkins plugin repos]( https://groups.google.com/forum/#!msg/jenkinsci-dev/-myjRIPcVwU/t4nkXONp8qgJ )
 - [Der Breitband-Ausbau, mal wieder.]( http://www.heise.de/newsticker/meldung/Grosse-Koalition-plant-keine-Verpflichtung-zu-Breitband-fuer-alle-2045408.html )
 
@@ -45,12 +45,12 @@ Diesmal sogar zu fünft, denn Mat verstärkt uns und daher seit langem auch mal 
 
 - [Jolla Phones kommen](http://www.mobilegeeks.de/jolla-smartphone-kommt-ab-27-november-vorbesteller-werden-noch-2013-beliefert/ )
 - [Fairphone ausverkauft](http://www.heise.de/newsticker/meldung/Fairphone-Erste-Charge-ist-ausverkauft-2045193.html )
-   - [Dual Sim]( http://en.wikipedia.org/wiki/Dual_SIM )
+   * [Dual Sim]( http://en.wikipedia.org/wiki/Dual_SIM )
 - [Moto G](http://www.heise.de/newsticker/meldung/Moto-G-Motorola-bringt-guenstiges-4-5-Zoll-Smartphone-mit-Android-2045052.html )
 - [Handys gewinnen](http://www.heise.de/newsticker/meldung/Erstmals-haben-mehr-Haushalte-ein-Handy-als-ein-Festnetz-Telefon-2044932.html )
 - [Fastmail macht Sachen neu]( http://blog.fastmail.fm/2013/11/13/increased-storage-quotas-and-other-service-level-changes/ )
 - [Keine Lambdas mehr in Python 3k]( http://lambda-the-ultimate.org/node/587 )
-    - [Source News Seite in Archive.org]( https://web.archive.org/web/20050727090414/http://tacojuice.org/plnews/ )
+    * [Source News Seite in Archive.org]( https://web.archive.org/web/20050727090414/http://tacojuice.org/plnews/ )
 - [AWS Workspaces]( http://aws.amazon.com/workspaces/ )
 - [AWS AppStream]( http://www.golem.de/news/appstream-amazon-steigt-ins-spiele-streaming-ein-1311-102743.html )
 - [Maria DB 10 beta]( https://blog.mariadb.org/mariadb-10-0-beta-launched-an-important-milestone/ )
@@ -69,7 +69,7 @@ Diesmal sogar zu fünft, denn Mat verstärkt uns und daher seit langem auch mal 
 - [Popular coding conventions]( http://sideeffect.kr/popularconvention/#java )
 - [Root box made easy]( https://github.com/search?q=exec+sudo+%24_GET&type=Code )
 - [IBM JSONX]( http://pic.dhe.ibm.com/infocenter/wsdatap/v3r8m1/topic/xb60/convertingbetweenjsonandjsonx05.htm#wq4 )
-   * [Using JSLint for Evil(video)]( http://www.youtube.com/watch?v=-hCimLnIsDA )
+   * [Using JSLint for Evil (video)]( http://www.youtube.com/watch?v=-hCimLnIsDA )
 - [How Github (no longer) works]( http://zachholman.com/talk/how-github-no-longer-works/ )
 - [Apple, GT Advanced and $578M worth of Sapphire Crystal]( http://techcrunch.com/2013/11/11/apple-fires-its-ion-cannons/ )
     * [Solar Ionen Kanone]( http://www.extremetech.com/extreme/122231-solar-panels-made-with-ion-cannon-are-cheap-enough-to-challenge-fossil-fuels )
@@ -107,4 +107,4 @@ Diesmal sogar zu fünft, denn Mat verstärkt uns und daher seit langem auch mal 
 - [What Does the Chameleon Say?](https://www.youtube.com/watch?v=VNkDJk5_9eU ) via [@schmittlauch](http://twitter.com/schmittlauch ) Video
 - [Ngrep]( http://ngrep.sourceforge.net/usage.html )
 - [Naturwunder Erde Vortragsreihe](http://www.markus-mauthe.de/pages/tourdaten.html )
-    - [BBC Planet Earth]( http://en.wikipedia.org/wiki/Planet_Earth_(TV_series) )
+    * [BBC Planet Earth]( http://en.wikipedia.org/wiki/Planet_Earth_(TV_series\) )
