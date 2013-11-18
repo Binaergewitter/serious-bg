@@ -26,7 +26,7 @@ Diesmal sogar zu fünft, denn Mat verstärkt uns und daher seit langem auch mal 
 
 - [SMS Umsätze gehen zurück](http://www.heise.de/newsticker/meldung/WhatsApp-Facebook-Co-Messenger-nagen-am-SMS-Umsatz-2046446.html )
     * [Facebook Messenger](http://www.heise.de/newsticker/meldung/Facebook-Messenger-setzt-auf-Mobilnummer-2045918.html )
-    * [10 Jungs im knast]( http://arstechnica.com/gadgets/2013/11/ten-boys-arrested-for-child-porn-distribution-connected-to-snapchat/ )
+    * [10 Jungs im Knast]( http://arstechnica.com/gadgets/2013/11/ten-boys-arrested-for-child-porn-distribution-connected-to-snapchat/ )
 - [Wörterbuch verbannt in Schulen]( http://www.theguardian.com/books/2010/jan/25/oral-sex-dictionary-ban-us-schools )
 
 # JS-Port der Woche
@@ -103,7 +103,7 @@ Diesmal sogar zu fünft, denn Mat verstärkt uns und daher seit langem auch mal 
 - [Duolingo]( http://www.duolingo.com/ )
     * "Habla ba-habla"
 - [Let's Enhance](http://www.youtube.com/watch?v=Vxq9yj2pVWk ) Video
-- [Dash]( http://kapeli.com/dash )- This is not the dash you are looking for
+- [Dash]( http://kapeli.com/dash ) - This is not the dash you are looking for
 - [What Does the Chameleon Say?](https://www.youtube.com/watch?v=VNkDJk5_9eU ) via [@schmittlauch](http://twitter.com/schmittlauch ) Video
 - [Ngrep]( http://ngrep.sourceforge.net/usage.html )
 - [Naturwunder Erde Vortragsreihe](http://www.markus-mauthe.de/pages/tourdaten.html )
