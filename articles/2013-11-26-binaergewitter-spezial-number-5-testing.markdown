@@ -46,19 +46,19 @@ Felix, Marc, Mat, Pfleidi und Ingo haben sich zusammen gefunden um über das Tes
 - Performance Testing
     *  [Tracer Bullet]( http://ninjasandrobots.com/rails-performance-help-tracer-bullets ) 
 - [Load Testing]( http://en.wikipedia.org/wiki/Load_testing )
-    * [Slowloris]( http://en.wikipedia.org/wiki/Slowloris )
+    * [Slowloris]( http://en.wikipedia.org/wiki/Slowloris )
 - "PWN Testing" (Neu! TM!)
 - (Code Metrics)
     * Komplexität
     * [Sandy Metz rules for developers]( http://robots.thoughtbot.com/sandi-metz-rules-for-developers )
-    * [SOLID Principle]( http://en.wikipedia.org/wiki/SOLID_(object-oriented_design) )
+    * [SOLID Principle]( http://en.wikipedia.org/wiki/SOLID_(object-oriented_design\) )
     * [Code-Coverage]( http://en.wikipedia.org/wiki/Code_coverage )
     * [Valgrind]( http://valgrind.org/ )
 
 ## Wie entwickelt man testgetrieben?
 
 - [Test-driven development (TDD) (inside out)]( http://de.wikipedia.org/wiki/Testgetriebene_Entwicklung )
-- [Behavior Driven Development (BDD) (outside in)] (http://de.wikipedia.org/wiki/Behavior_Driven_Development )
+- [Behavior Driven Development (BDD) (outside in)] ( http://de.wikipedia.org/wiki/Behavior_Driven_Development )
 - [Feature Driven Development (FDD)](http://de.wikipedia.org/wiki/Feature_Driven_Development )
 
 ## Stubs/Mocks/Fixtures
