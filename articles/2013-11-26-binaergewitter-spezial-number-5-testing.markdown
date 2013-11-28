@@ -131,7 +131,7 @@ Felix, Marc, Mat, Pfleidi und Ingo haben sich zusammen gefunden um über das Tes
 
 - Testing macht erst mit CI richtig Sinn / CI macht erst mit Testing richtig Sinn
     * [Jenkins CI]( http://jenkins-ci.org )
-    * Travis CI [Free]( travis-ci.org ) [Kommerz]( http://travis-ci.com/ )
+    * Travis CI [Free]( http://travis-ci.org ) [Kommerz]( http://travis-ci.com/ )
     * [Atlassian Bamboo]( https://www.atlassian.com/software/bamboo )
 - [Coveralls]( https://coveralls.io/ )
 - [Code Climate]( https://codeclimate.com/ )
