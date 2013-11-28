@@ -9,6 +9,7 @@ footer: true
 - Sven Pfleiderer ([@pfleidi](https://twitter.com/pfleidi)) ([blog](http://blog.roothausen.de/))
 - Felix Richter ([@makefoo](https://twitter.com/makefoo)) ([blog](http://euer.krebsco.de/))
 - Marc Seeger ([@rb2k](https://twitter.com/rb2k)) ([blog](http://blog.marc-seeger.de/))
+- Mattihas Wenz ([@ranterle](https://twitter.com/ranterle))
 
 ## Gäste
 
