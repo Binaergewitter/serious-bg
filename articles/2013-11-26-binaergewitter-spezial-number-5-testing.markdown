@@ -58,7 +58,7 @@ Felix, Marc, Mat, Pfleidi und Ingo haben sich zusammen gefunden um über das Tes
 ## Wie entwickelt man testgetrieben?
 
 - [Test-driven development (TDD) (inside out)]( http://de.wikipedia.org/wiki/Testgetriebene_Entwicklung )
-- [Behavior Driven Development (BDD) (outside in)] ( http://de.wikipedia.org/wiki/Behavior_Driven_Development )
+- [Behavior Driven Development (BDD) (outside in)]( http://de.wikipedia.org/wiki/Behavior_Driven_Development )
 - [Feature Driven Development (FDD)](http://de.wikipedia.org/wiki/Feature_Driven_Development )
 
 ## Stubs/Mocks/Fixtures
