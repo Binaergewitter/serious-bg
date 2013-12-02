@@ -76,7 +76,7 @@ Minimalbesetzung mit Staffelübergabe. Die letzte Sendung mit Marc im Studio und
 
 ## Mimimi der Woche
 - [Hatch]( http://www.hatchpet.com/ )
-- XBMC Movie Title Information
+- [XBMC]( http://xbmc.org/ ) Movie Title Information
     * [ViMediaManager]( http://mariusth.heliohost.org/vimediamanager/ )
     * [Plex]( http://plexapp.com )
 
