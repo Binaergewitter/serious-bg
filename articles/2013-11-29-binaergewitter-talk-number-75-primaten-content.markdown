@@ -60,7 +60,7 @@ Minimalbesetzung mit Staffelübergabe. Die letzte Sendung mit Marc im Studio und
     * [Blackboxen ab 2014 auch in Deutschland]( http://www.spiegel.de/auto/aktuell/autoversicherer-fuehrt-telematik-tarife-mit-blackbox-ein-a-933247.html )
 
 ## Lesefoo
-- [D-Link what's wrong with yout]( http://www.h725.co.vu/2013/11/d-link-whats-wrong-with-you.html )
+- [D-Link what's wrong with you]( http://www.h725.co.vu/2013/11/d-link-whats-wrong-with-you.html )
 - [5 winter coats that won't keep you warm]( http://www.reductress.com/5-winter-coats-wont-keep-warm/ )
 - [Eight things you can live without]( https://medium.com/i-m-h-o/29ed0479fb12 )    
 - [29 Dumb Things Finance People say]( http://www.businessinsider.com/29-dumb-things-finance-people-say-2013-11 )
