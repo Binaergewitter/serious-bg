@@ -24,7 +24,7 @@ Mat, pfleidi und Ingo auf Tour durch die News der letzten Woche und viel Lesefoo
 ## Toter der Woche
 
 - [Rare Iceland armed police operation leaves man dead]( http://www.bbc.co.uk/news/world-europe-25190119 )
-- [Ison](http://de.wikipedia.org/wiki/C/2012_S1_(ISON) )
+- [Ison](http://de.wikipedia.org/wiki/C/2012_S1_(ISON\) )
 
 ## News
 
@@ -38,7 +38,7 @@ Mat, pfleidi und Ingo auf Tour durch die News der letzten Woche und viel Lesefoo
     * [Amazon Howitzer Express]( http://www.der-postillon.com/2013/12/amazon-plant-pakete-mit-riesigen.html )
     * [DHL will auch]( http://www.heise.de/newsticker/meldung/DHL-will-in-Bonn-Paketdrohne-testen-2060348.html )
     * [Heise macht das schon]( http://www.heise.de/newsticker/meldung/c-t-testet-Heftlieferung-per-Drohne-2060778.html )
-    * [Amazon Strike]( d24w6bsrhbeh9d.cloudfront.net/photo/aeNQMwb_460s.jpg )
+    * [Amazon Strike]( http://d24w6bsrhbeh9d.cloudfront.net/photo/aeNQMwb_460s.jpg )
 - [How Too Many SMS Messages Can Shut Down Your Nexus Phone]( http://allthingsd.com/20131129/how-too-many-sms-messages-can-shut-down-your-nexus-phone/ )
 - [RocksDB]( http://rocksdb.org/ )
     * [Github Repo]( https://github.com/facebook/rocksdb )
