@@ -23,12 +23,12 @@ Full House bzw. Full Mumble. Denn Marc und unser Physik Experte Marcel waren uns
 ## Toter der Woche
 
 - [ISDN Karten](http://www.heise.de/newsticker/meldung/AVM-beendet-Produktion-seines-ersten-ISDN-Profi-Controllers-2063970.html )
-- [Graylog 2 Party Gorilla]( andreas-lehr.com/blog/wp-content/uploads/2011/12/graylog.png )
+- [Graylog 2 Party Gorilla]( http://andreas-lehr.com/blog/wp-content/uploads/2011/12/graylog.png )
     * [so sad]( http://graylog2.org )
 
 ## Untoter der Woche
 
-- [Magnetbaender]( http://www.heise.de/ix/meldung/Totgesagte-leben-laenger-Magnetbaender-sterben-noch-laengst-nicht-aus-2059211.html )
+- [Magnetbänder]( http://www.heise.de/ix/meldung/Totgesagte-leben-laenger-Magnetbaender-sterben-noch-laengst-nicht-aus-2059211.html )
 
 ## SQL Injection der Woche
 
@@ -58,15 +58,15 @@ Full House bzw. Full Mumble. Denn Marc und unser Physik Experte Marcel waren uns
 - [Das Universum ist nur eine Projektion!]( http://www.nature.com/news/simulations-back-up-theory-that-universe-is-a-hologram-1.14328 )
    * [Marcel](https://twitter.com/xartas )
    * [Allegory of the Cave]( http://en.wikipedia.org/wiki/Allegory_of_the_Cave )
-- [Android 4.4.2 fuer Nexus 5]( http://www.heise.de/newsticker/meldung/Android-4-4-2-Kleines-Update-fuer-Nexus-Geraete-2063426.html )
+- [Android 4.4.2 für Nexus 5]( http://www.heise.de/newsticker/meldung/Android-4-4-2-Kleines-Update-fuer-Nexus-Geraete-2063426.html )
 
 ## Themen
 
 ### Post
 
-* [Post will jetzt doch De-Mail](http://www.heise.de/newsticker/meldung/Bericht-Deutsche-Post-will-nun-auch-bei-De-Mail-einsteigen-2064609.html )
-* [Kanadas Post macht langsam dicht](http://www.heise.de/newsticker/meldung/Kanada-E-Mail-macht-Briefpost-teurer-und-schlechter-2064900.html )
-    - [Amazon und USPS: Sonntags]( http://blogs.wsj.com/digits/2013/11/25/a-peek-at-amazons-contract-with-the-postal-service/ )
+- [Post will jetzt doch De-Mail](http://www.heise.de/newsticker/meldung/Bericht-Deutsche-Post-will-nun-auch-bei-De-Mail-einsteigen-2064609.html )
+- [Kanadas Post macht langsam dicht](http://www.heise.de/newsticker/meldung/Kanada-E-Mail-macht-Briefpost-teurer-und-schlechter-2064900.html )
+    * [Amazon und USPS: Sonntags]( http://blogs.wsj.com/digits/2013/11/25/a-peek-at-amazons-contract-with-the-postal-service/ )
 
 
 ## Lesefoo
@@ -82,10 +82,10 @@ Full House bzw. Full Mumble. Denn Marc und unser Physik Experte Marcel waren uns
 ## Mimimi der Woche
 
 - Marcs NAS Platte ist tod :(
-    - [WD Red 3TB](http://www.amazon.de/gp/product/B008JJLW4M/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B008JJLW4M&linkCode=as2&tag=trektrip )
-    - [WD Green](http://www.amazon.de/gp/product/B008YAHW6I/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B008YAHW6I&linkCode=as2&tag=trektrip )
-    - [RadioTux Server](http://radiotux.de )
-- munin mit rrdcached
+    * [WD Red 3TB](http://www.amazon.de/gp/product/B008JJLW4M/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B008JJLW4M&linkCode=as2&tag=trektrip )
+    * [WD Green](http://www.amazon.de/gp/product/B008YAHW6I/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B008YAHW6I&linkCode=as2&tag=trektrip )
+    * [RadioTux Server](http://radiotux.de )
+- munin mit [rrdcached](http://munin-monitoring.org/wiki/rrdcached)
 - Such Bluetooth Lautsprecher mit Airplay und Wecker in tragbar
     * [Marc hatte mal]( http://www.amazon.de/gp/product/B009T33K7E/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B009T33K7E&linkCode=as2&tag=trektrip ) (gibts wesentlich billiger, aber ohne wecker)
 
