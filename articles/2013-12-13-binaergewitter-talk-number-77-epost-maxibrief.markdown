@@ -11,7 +11,7 @@ audioformats:
   m4a: http://download.binaergewitter.de/2013-12-12.Binaergewitter.Talk.77.m4a
   opus: http://download.binaergewitter.de/2013-12-12.Binaergewitter.Talk.77.opus
 ---
-Full House bzw. Full Mumble. Denn Marc und unser Physik Experte Marcel waren uns per VoIP zugeschaltet. Glückseelig Kekse futternd geht es durch die News der letzten Woche und um die Post.
+Full House bzw. Full Mumble. Denn Marc und unser Physik-Experte Marcel waren uns per VoIP zugeschaltet. Glückseelig Kekse futternd geht es durch die News der letzten Woche und um die Post.
 
 ## Kekse
 - Vielen Dank an [@tuxinaut](https://twitter.com/tuxinaut )
@@ -56,7 +56,7 @@ Full House bzw. Full Mumble. Denn Marc und unser Physik Experte Marcel waren uns
 - [Google Play Books selbst hochladen]( http://www.gulli.com/news/22953-google-play-update-ermoeglicht-hochladen-eigener-buecher-2013-12-12 )
     * [Readmill]( https://readmill.com/ )
 - [Das Universum ist nur eine Projektion!]( http://www.nature.com/news/simulations-back-up-theory-that-universe-is-a-hologram-1.14328 )
-   * [Marcel](https://twitter.com/xartas )
+   * [Marcel]( https://twitter.com/sirmarcel )
    * [Allegory of the Cave]( http://en.wikipedia.org/wiki/Allegory_of_the_Cave )
 - [Android 4.4.2 für Nexus 5]( http://www.heise.de/newsticker/meldung/Android-4-4-2-Kleines-Update-fuer-Nexus-Geraete-2063426.html )
 
