@@ -13,7 +13,7 @@ audioformats:
 ---
 Full House bzw. Full Mumble. Denn Marc und unser Physik Experte Marcel waren uns per VoIP zugeschaltet. Glückseelig Kekse futternd geht es durch die News der letzten Woche und um die Post.
 
-## Keckse
+## Kekse
 - Vielen Dank an [@tuxinaut](https://twitter.com/tuxinaut )
 
 ## Eierköpfe der Woche
@@ -48,7 +48,7 @@ Full House bzw. Full Mumble. Denn Marc und unser Physik Experte Marcel waren uns
 - [Gmail cached ALL die Bilder]( http://arstechnica.com/information-technology/2013/12/gmail-blows-up-e-mail-marketing-by-caching-all-images-on-google-servers/ )
 - [Open Source für München gewinnt hart]( http://www.cio.co.uk/news/change-management/munich-open-source-completed-successfully/ )
 - [Beta Steam Machines und Controller werden verschickt]( http://steamcommunity.com/groups/steamuniverse#announcements/detail/1930088300965516570 )
-- SteamOS kommt
+- [SteamOS kommt](http://store.steampowered.com/livingroom/SteamOS/?l=german )
 - [Ford Mustang Burnout Button]( http://www.motorauthority.com/news/1088999_2015-ford-mustangs-secret-feature-is-burnout-control-exclusive )
 - [Mäuse mit Fallschirmen aus dem Flugzeug werfen im Kampf gegen Schlangen]( http://usnews.nbcnews.com/_news/2013/12/02/21724382-two-thousand-mice-dropped-on-guam-by-parachute-to-kill-snakes )
 - [20 Jahre Doom](http://www.heise.de/newsticker/meldung/20-Jahre-Ballern-Happy-Birthday-Doom-2064533.html )
