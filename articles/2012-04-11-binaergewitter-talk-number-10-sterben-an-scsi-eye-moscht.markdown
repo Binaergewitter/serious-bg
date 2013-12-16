@@ -18,17 +18,18 @@ Kulturkampf in der Talk-Runde: Schwaben gegen Berliner oder so ähnlich. Neben d
 - [Jim Marshall - Father of Loud verstorben]( http://www.wochenblatt.de/nachrichten/altoetting/ueberregionales/Verstaerker-Erfinder-Jim-Marshall-tot;art5572,106046 )
 - [Ferdinand Alexander Porsche]( http://de.wikipedia.org/wiki/Ferdinand_Alexander_Porsche )
 ## Untoter der Woche
-* [Zombie Baby aus der Kaeltekammer]( http://www.rp-online.de/panorama/ausland/fruehchen-ueberlebt-stundenlang-in-kuehlraum-1.2787719 )
+- [Zombie Baby aus der Kältekammer]( http://www.rp-online.de/panorama/ausland/fruehchen-ueberlebt-stundenlang-in-kuehlraum-1.2787719 )
+
 ## News
-- [Instagram von Facebook gekauft fuer `ONE BILLION DOLLARS`]( http://www.businessinsider.com/instagram-billion-dollar-valuation-2012-4 )
-    - [Instagram Account loeschen bevor es bei Facebook landet]( https://instagram.com/accounts/remove/request/ )
-    - [Exportiere ALL DEINE BILDER]( http://instaport.me/ )
+- [Instagram von Facebook gekauft für `ONE BILLION DOLLARS`]( http://www.businessinsider.com/instagram-billion-dollar-valuation-2012-4 )
+    * [Instagram Account löschen bevor es bei Facebook landet]( https://instagram.com/accounts/remove/request/ )
+    * [Exportiere ALL DEINE BILDER]( http://instaport.me/ )
 - [Flashback Drive-By Virus auf jedem 100ten Mac - Worse than Conficker]( http://www.computerworld.com/s/article/9225937/Mac_Malware_Outbreak_Is_Bigger_than_39_Conficker_39_ )
 - [Samba Remote Code Execution als root](https://www.samba.org/samba/security/CVE-2012-1182 )
 - [Google Glasses in Q3]( https://plus.google.com/111626127367496192147/posts )
-    - [What it means to be human]( http://blog.bit9.com/bid/80774/Project-Glass-Google-s-Augmented-Reality-Changes-What-it-is-to-be-Human?utm_source=BLOG-Project-Glass-Google-s-Augmented-Reality-Changes-What-it-is-to-be-Human-4.9.2012 )
-    - [Windows Project Glass]( http://www.youtube.com/watch?v=ZwModZmOzDs )
-    - [Apple Fanboyism]( http://www.cultofmac.com/159453/why-apple-wont-turn-you-into-a-cyborg/ )
+    * [What it means to be human]( http://blog.bit9.com/bid/80774/Project-Glass-Google-s-Augmented-Reality-Changes-What-it-is-to-be-Human?utm_source=BLOG-Project-Glass-Google-s-Augmented-Reality-Changes-What-it-is-to-be-Human-4.9.2012 )
+    * [Windows Project Glass]( http://www.youtube.com/watch?v=ZwModZmOzDs )
+    * [Apple Fanboyism]( http://www.cultofmac.com/159453/why-apple-wont-turn-you-into-a-cyborg/ )
 - [House of Stark](https://p.twimg.com/AoNUIKYCIAA0eip.jpg )  
 - [CouchDB 1.2]( http://couchdb.apache.org/ )
 - [Agilebits fixt potentielle Schwachstellen in 1password]( http://blog.agilebits.com/2012/04/09/1password-ios-pbkdf2-goodness/ )
@@ -44,15 +45,16 @@ Kulturkampf in der Talk-Runde: Schwaben gegen Berliner oder so ähnlich. Neben d
     * [Minecraft]( http://www.minecraft.net/ )
     * [DCPU-16 Spezifikation]( http://0x10c.com/doc/dcpu-16.txt )
     * [VMs in JS, Haskell, Java, ...]( https://github.com/dcpu16 )
+
 ## Themen
 ### Automation
 
 - Scripten
     * Shell/Ruby/Python/Perl
-        * [viddl-rb]( https://github.com/rb2k/viddl-rb )
-        * [Advanved Bash Scripting Guide]( http://tldp.org/LDP/abs/html/ )
-        * [einzellne Konfigdateien syncron halten dann csync2](http://oss.linbit.com/csync2/ )
-        * [etckeeper](http://joey.kitenet.net/code/etckeeper/ )
+        - [viddl-rb]( https://github.com/rb2k/viddl-rb )
+        - [Advanved Bash Scripting Guide]( http://tldp.org/LDP/abs/html/ )
+        - [einzellne Konfigdateien syncron halten dann csync2](http://oss.linbit.com/csync2/ )
+        - [etckeeper](http://joey.kitenet.net/code/etckeeper/ )
     * Cron
     * [incron]( http://inotify.aiken.cz/?section=incron&page=doc&lang=en )
     * atd
@@ -91,6 +93,7 @@ Kulturkampf in der Talk-Runde: Schwaben gegen Berliner oder so ähnlich. Neben d
     * [ffmpeg](http://ffmpeg.org/)
     * [mplayer](http://www.mplayerhq.hu/)
     * [Handbrake](http://handbrake.fr/)
+
 ## Lesefoo
 - [Beginners guide to one modern web development stack]( http://coffeespoonsofcode.wordpress.com/2012/04/07/beginners-guide-to-one-modern-web-development-stack/ ) (pfleidi)
 - [How to count a billion disctinct objects in 1,5 KB of memory]( http://highscalability.com/blog/2012/4/5/big-data-counting-how-to-count-a-billion-distinct-objects-us.html ) (marc)
@@ -108,7 +111,7 @@ Kulturkampf in der Talk-Runde: Schwaben gegen Berliner oder so ähnlich. Neben d
 - sky2 - ethtool -K eth0 rx off (ingo)
 - Cacert und Chrome Warnungen
     * [StartSSL]( http://www.startssl.com/ )
-- [MP3/Ogg Chapter Support in die freien Player](https://plus.google.com/100883264249933714273/posts/GJM9D5VxX4G )(ingo)
+- [MP3/Ogg Chapter Support in die freien Player](https://plus.google.com/100883264249933714273/posts/GJM9D5VxX4G ) (ingo)
 
 ## Picks
 - [Texts from dog]( http://textfromdog.tumblr.com/ ) (marc)
