@@ -113,7 +113,7 @@ Mat, Felix und Ingo bestreiten die letzte Sendung für das Jahr 2013 und spreche
 
 
 ### Technik Krempel
-- [QI-Ladegeraet in guenstig (aliexpress)]( http://www.aliexpress.com/item/QI-Wireless-Mini-Power-Bank-Qi-Wireless-Mobile-Induction-Charging-Pad-Mat-for-Samsung-S3-S4/1503727279.html?src=ale&af=cj_1&cv=10887173&cn=&tp1=&tp2=datafeeds )
+- [QI-Ladegerät in günstig (aliexpress)]( http://www.aliexpress.com/item/QI-Wireless-Mini-Power-Bank-Qi-Wireless-Mobile-Induction-Charging-Pad-Mat-for-Samsung-S3-S4/1503727279.html?src=ale&af=cj_1&cv=10887173&cn=&tp1=&tp2=datafeeds )
     * [WP: QI]( http://de.wikipedia.org/wiki/Qi_(induktive_Energie%C3%BCbertragung\) )
 - [LG NP6630 Tragbarer Lautsprecher (AirPlay, Bluetooth, DLNA)](http://www.amazon.de/gp/product/B00C2O4062/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B00C2O4062&linkCode=as2&tag=trektrip )
 - Denon Cocoon Portable
@@ -130,7 +130,7 @@ Mat, Felix und Ingo bestreiten die letzte Sendung für das Jahr 2013 und spreche
 ### andere Dinge
 - [Bayerisches Kochbuch](http://www.amazon.de/gp/product/3920105044/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=3920105044&linkCode=as2&tag=trektrip )
     * [Leseband]( http://de.wikipedia.org/wiki/Leseband_(Buch\) )
-- [Deal Extreme Laserpointer fuer $6]( http://dx.com/p/5mw-532nm-green-laser-pointer-pen-with-dx-logo-2-aaa-44128?Utm_rid=93398939&Utm_source=affiliate )
+- [Deal Extreme Laserpointer für $6]( http://dx.com/p/5mw-532nm-green-laser-pointer-pen-with-dx-logo-2-aaa-44128?Utm_rid=93398939&Utm_source=affiliate )
 - [The Daily Zoo Year 2: Still Keeping the Doctor at Bay with a Drawing a Day](http://www.amazon.de/gp/product/1933492473/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=1933492473&linkCode=as2&tag=trektrip )
 - [Nespresso Kaffeemaschine (weil Pfleidi nicht da ist)]( http://www.amazon.de/gp/product/B004IZOAFO/tag=krebsco-21 )
     * [60 Euren Guthaben]( http://www.amazon.de/gp/feature.html?ie=UTF8&docId=1000677023 )
