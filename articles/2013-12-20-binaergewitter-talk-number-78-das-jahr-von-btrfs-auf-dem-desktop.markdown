@@ -37,7 +37,7 @@ Mat, Felix und Ingo bestreiten die letzte Sendung für das Jahr 2013 und spreche
 - [Ultimate Sexting App]( https://medium.com/editors-picks/9aadf906b45a )
 
 ## News
-- Google Zeitgeist ( http://google.de/zeitgeist )
+- [Google Zeitgeist]( http://google.de/zeitgeist )
    * [Kind singt wie Elvis (video)]( http://www.youtube.com/watch?v=G3gRK1IQWp4 )
    * [Youtube Rewind 2013 (video)]( http://www.youtube.com/watch?v=H7jtC8vjXw8 )
 - [Mailbox für iCloud und Yahoo Mail]( http://www.mailboxapp.com/blog/?p=1#mailbox-now-for-icloud-and-yahoo-mail )
@@ -70,25 +70,20 @@ Mat, Felix und Ingo bestreiten die letzte Sendung für das Jahr 2013 und spreche
     * [UISprech #9]( http://uisprech.de/9 )
 
 ## Jolla
-- http://jolla.com/guide/
-- Steuerung
+- [Jolla Guide](http://jolla.com/guide/ )
 - nur wenige Apps vorinstalliert (Foto, Store, Telefon, Nachrichten)
 - LTE per SoftwareUpdate später
     * [Motorola XOOM 4G Upgrade]( http://support.verizonwireless.com/support/faqs/Equipment/xoom_upgrade.html )
-- Tutorial erklärt erste Schritte und Gesten
-- schöne animation beim update
-- Android Apps - alternative Stores
-- Schlechte Lautsprecher
 - erste Basteleien:
-    http://talk.maemo.org/showpost.php?p=1397595&postcount=1
-- http://www.jollatides.com/forums/discussions
-- I2C Port
-- http://www.jollausers.com/2013/12/electrical-possibilities-of-the-jolla-other-half/
-- http://mynokiablog.com/2013/11/29/how-to-access-google-play-store-from-jolla-phone/
+    * [QI Ladefähigkeit nachrüsten](http://talk.maemo.org/showpost.php?p=1397595&postcount=1 )
+- [Jolla Community Forum](http://www.jollatides.com/forums/discussions )
+- [WP: I2C Port]( http://de.wikipedia.org/wiki/I%C2%B2C )
+  * [Anschlüsse auf dem Jolla]( http://www.jollausers.com/2013/12/electrical-possibilities-of-the-jolla-other-half/ )
+- [Google Play Store auf das Jolla bringen](http://mynokiablog.com/2013/11/29/how-to-access-google-play-store-from-jolla-phone/ )
 - alternative shops
-    - amazon app shop
-    - fdroid
-    - http://www.1mobile.com/
+    - [amazon app shop](http://www.amazon.de/gp/mas/get/android )
+    - [fdroid](http://fdroid.org )
+    - [1mobile](http://www.1mobile.com/ )
 - [Tricorder App]( http://android.pdassi.de/121173/Tricorder.html )
 - [Tricorder App DMCA Takedown]( http://www.geek.com/mobile/cbs-demands-removal-of-moonblinks-android-tricorder-app-1419251/ )
 
