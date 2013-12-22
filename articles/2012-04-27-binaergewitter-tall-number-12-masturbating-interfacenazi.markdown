@@ -85,7 +85,7 @@ Heute in kleiner Runde und auch mal etwas kürzer. Wir quatschen über Google Dr
 
 - Chrome Webinspektor will keine CSS3 Selektoren mehr
 - rm -rf macht nicht weiter (ingo)
-    * [Retinacast Folge über Heroes](http://retinacast.de/rtc-s02e03-heroes/ )
+- [Retinacast Folge über Heroes](http://retinacast.de/rtc-s02e03-heroes/ )
 - [Nokogiri CSS3 bug]( https://github.com/tenderlove/nokogiri/issues/451 ) (pfleidi)
 - Ausweis app Firefox fuckshit (oh!-ton Marc)
 
