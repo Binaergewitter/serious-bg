@@ -52,7 +52,7 @@ Heute in kleiner Runde und auch mal etwas kürzer. Wir quatschen über Google Dr
 ## Ubunbtu 12.04
 
 - [Ubuntu 12.04](http://releases.ubuntu.com/precise/ )
- - [Blog von Leszek über Ubuntu 12.04](http://leszekllelectronics.blogspot.de/2012/04/ubuntu-1204-das-aushangeschild-fur.html)
+- [Blog von Leszek über Ubuntu 12.04](http://leszekllelectronics.blogspot.de/2012/04/ubuntu-1204-das-aushangeschild-fur.html)
 
 ### Meteor
 
@@ -73,19 +73,19 @@ Heute in kleiner Runde und auch mal etwas kürzer. Wir quatschen über Google Dr
 
 - [Tagebuch der Apokalypse]( http://www.amazon.de/gp/product/3453527933/ref=as_li_ss_tl?ie=UTF8&tag=retinacast-21 ) (pfleidi)
 - [Richard Castle: Heat Wave - Hitzewelle](http://www.amazon.de/gp/product/3864250072/ref=as_li_ss_tl?ie=UTF8&tag=jitcreat-21&linkCode=as2&camp=1638&creative=19454&creativeASIN=3864250072 )
- * [Serie Castle](https://de.wikipedia.org/wiki/Castle_%28Fernsehserie%29 )
+- [Serie Castle](https://de.wikipedia.org/wiki/Castle_%28Fernsehserie%29 )
 - [DocHub]( http://dochub.io/ ) (pfleidi)
 - [Pwning a keylogger]( http://blog.spiderlabs.com/2012/04/pwning-a-spammers-keylogger.html ) (marc)
 - [Don't docwrite scripts]( http://www.stevesouders.com/blog/2012/04/10/dont-docwrite-scripts/ ) (pfleidi)
 - [Techcrunch Interview mit Linus](http://techcrunch.com/2012/04/19/an-interview-with-millenium-technology-prize-finalist-linus-torvalds/ ) (ingo)
-  * [deutsch]( http://ikhaya.ubuntuusers.de/2012/04/24/interview-mit-linus-torvalds/ )
+    * [deutsch]( http://ikhaya.ubuntuusers.de/2012/04/24/interview-mit-linus-torvalds/ )
 
 
 ## Mimimi der Woche
 
 - Chrome Webinspektor will keine CSS3 Selektoren mehr
 - rm -rf macht nicht weiter (ingo)
- * [Retinacast Folge über Heroes](http://retinacast.de/rtc-s02e03-heroes/ )
+    * [Retinacast Folge über Heroes](http://retinacast.de/rtc-s02e03-heroes/ )
 - [Nokogiri CSS3 bug]( https://github.com/tenderlove/nokogiri/issues/451 ) (pfleidi)
 - Ausweis app Firefox fuckshit (oh!-ton Marc)
 
