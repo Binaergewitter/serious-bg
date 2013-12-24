@@ -13,13 +13,13 @@ audioformats:
 ---
 Mat, Felix und Ingo bestreiten die letzte Sendung für das Jahr 2013 und sprechen über das Jolla Phone, die ALT Talks und Geschenke für Weihnachten.
 
-## Blast
+## Blast from the past
 - [Android App-Rechte]( http://www.heise.de/newsticker/meldung/Android-verbietet-Nutzern-Kontrolle-ueber-App-Rechte-2065505.html )
 
 ## Tumblr der Woche
 - [the coding love]( http://thecodinglove.com/ )
 
-## PHP WTF der Woche (v. Andreas Krohn)
+## PHP WTF der Woche via Andreas
 - [Der PHP-Function-Hashing-Algorithmus von PHP: strlen()]( http://news.php.net/php.internals/70691 )
 - [The year of FreeBSD on the server]( http://mxey.net/the-year-of-freebsd-on-the-server/ )
 
@@ -116,7 +116,7 @@ Mat, Felix und Ingo bestreiten die letzte Sendung für das Jahr 2013 und spreche
 - [QI-Ladegerät in günstig (aliexpress)]( http://www.aliexpress.com/item/QI-Wireless-Mini-Power-Bank-Qi-Wireless-Mobile-Induction-Charging-Pad-Mat-for-Samsung-S3-S4/1503727279.html?src=ale&af=cj_1&cv=10887173&cn=&tp1=&tp2=datafeeds )
     * [WP: QI]( http://de.wikipedia.org/wiki/Qi_(induktive_Energie%C3%BCbertragung\) )
 - [LG NP6630 Tragbarer Lautsprecher (AirPlay, Bluetooth, DLNA)](http://www.amazon.de/gp/product/B00C2O4062/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B00C2O4062&linkCode=as2&tag=trektrip )
-- Denon Cocoon Portable
+- [Denon Cocoon Portable](http://www.amazon.de/gp/product/B007Y3OCGE/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B007Y3OCGE&linkCode=as2&tag=trektrip )
 - [Laser Fahrrad Lichter(aliexpress)]( http://www.aliexpress.com/item/Bicycle-Cycling-Laser-Tail-Light-2-Laser-5-LED-Bike-safety-light-Free-Shipping/575961591.html?src=ale&af=cj_1&cv=10887173&cn=&tp1=&tp2=datafeeds ) [DealExtreme]( http://dx.com/p/soldier-sj-10237-a-bicycle-5-led-7-mode-red-laser-tail-light-black-red-2-x-aaa-255071 )
 - [Minitaschenlampe in Hardcore(ebay)]( http://www.ebay.com/itm/Practical-Powerful-Black-Adjustable-Focus-SK-68LED-300-Lumens-Flashlight-Torch-/281085162662?pt=UK_SportsLeisure_Camping_LightsLanternsTorches&hash=item4171fb34a6 ) [DealExtreme]( http://dx.com/p/sipik-sk68-cree-q3-wc-120-lumen-convex-lens-led-flashlight-black-1-aa-1-14500-39585 )
 - [Kenu Airframe]( http://www.amazon.de/gp/product/B00D901B4W/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B00D901B4W&linkCode=as2&tag=httprantde-21 )
@@ -129,7 +129,7 @@ Mat, Felix und Ingo bestreiten die letzte Sendung für das Jahr 2013 und spreche
 
 ### andere Dinge
 - [Bayerisches Kochbuch](http://www.amazon.de/gp/product/3920105044/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=3920105044&linkCode=as2&tag=trektrip )
-    * [Leseband]( http://de.wikipedia.org/wiki/Leseband_(Buch\) )
+    * [WP: Leseband]( http://de.wikipedia.org/wiki/Leseband_(Buch\) )
 - [Deal Extreme Laserpointer für $6]( http://dx.com/p/5mw-532nm-green-laser-pointer-pen-with-dx-logo-2-aaa-44128?Utm_rid=93398939&Utm_source=affiliate )
 - [The Daily Zoo Year 2: Still Keeping the Doctor at Bay with a Drawing a Day](http://www.amazon.de/gp/product/1933492473/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=1933492473&linkCode=as2&tag=trektrip )
 - [Nespresso Kaffeemaschine (weil Pfleidi nicht da ist)]( http://www.amazon.de/gp/product/B004IZOAFO/tag=krebsco-21 )
