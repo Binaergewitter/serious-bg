@@ -15,12 +15,12 @@ Felix gerade für sich bastelt.
 ## Toter der Woche
 
 - Ettliche Tiere an Dingen gestorben:
-    - [2 Seeadler an Gift verstorben](http://www.shz.de/nachrichten/top-thema/article/111/gift-attacke-seeadler-paar-liegt-tot-unter-baum.html ) - Jede Taube haette es ueberstanden
-    - Es passiert zu wenig in der Welt :[Kaetzchen Melina tot :(](
+    * [2 Seeadler an Gift verstorben](http://www.shz.de/nachrichten/top-thema/article/111/gift-attacke-seeadler-paar-liegt-tot-unter-baum.html ) - Jede Taube hätte es überstanden
+    * Es passiert zu wenig in der Welt: [Kätzchen Melina tot :(](
 http://www.rp-online.de/niederrhein-nord/emmerich/nachrichten/kaetzchen-melina-ist-tot-1.2804216 )
-    - [Katze Verursacht Unfall - geht es ihr noch gut?](
+    * [Katze Verursacht Unfall - geht es ihr noch gut?](
 http://www.oe24.at/oesterreich/chronik/tirol/Katze-verursacht-Radunfall-Tiroler-tot/63754260 )
-    - [Satire von Quer ueber Giftmord am Luchs](http://www.youtube.com/watch?v=jwXoA9KhGIY )
+    * [Satire von Quer über Giftmord am Luchs](http://www.youtube.com/watch?v=jwXoA9KhGIY )
 
 ## Untoter der Woche
 
@@ -35,8 +35,8 @@ http://www.oe24.at/oesterreich/chronik/tirol/Katze-verursacht-Radunfall-Tiroler-
 )(makefu)
 - [Chrome SSH Client using Native Client (direct Connect)](
 https://chrome.google.com/webstore/detail/pnhechapfaindjhompbnflcldabbghjo )
-    * Der Browser wird das, was das Operating System grade ist ... naemlich das OS, get Ready for the Chrome Book
-  - [Mozilla
+    * Der Browser wird das, was das Operating System grade ist ... nämlich das OS, get Ready for the Chrome Book
+    * [Mozilla
 Kilimanjaro](http://www.heise.de/newsticker/meldung/Mozilla-Kilimanjaro-Einheitlichkeit-fuer-Firefox-Co-1566498.html )
 - [TravisCI kann nun mit Pull Requests umgehen]( http://about.travis-ci.org/blog/announcing-pull-request-support/ )
 - [Facebook simplified User Experience(Password)]( http://www.labnol.org/internet/facebook-account-passwords/21241/ )
@@ -53,7 +53,7 @@ http://dev.opera.com/articles/view/opera-mobile-emulator-experimental-webkit-pre
 - [Google ZERG RUSH]( https://www.google.com/search?aq=f&sourceid=chrome&ie=UTF-8&q=zerg+rush )
 - [Apple rejected App weil sie Dropbox SDK nutzt](
 http://www.appleinsider.com/articles/12/05/02/dropbox_working_with_apple_to_resolve_app_rejection_issue.html )
-- [Windows wirbt mit : 'sick of taking orders from Apple' fuer ihr Phone](
+- [Windows wirbt mit : 'sick of taking orders from Apple' für ihr Phone](
 http://www.neowin.net/news/windows-phone-boost-as-carriers-sick-of-taking-orders-from-apple )
 - [PHP CGI Lücke](http://www.heise.de/newsticker/meldung/Gefahr-durch-offene-PHP-Luecke-1567433.html)
 - [Linuxtag Hacking Contest](http://www.linuxtag.org/2012/de/meldung/article/linuxtag-startet-erste-vorrunde-zum-hacking-contest.html)
@@ -63,14 +63,14 @@ http://www.neowin.net/news/windows-phone-boost-as-carriers-sick-of-taking-orders
 ## Distributed Redudant Secure RAID Backup Storage Cloud
 
 - Get ALL the accounts on ALL the cloud platforms:
-    - [getfreecloud](http://getfreecloud.com/)
-    - [owncube](https://owncube.com/)
-    - [mydrive](http://www.mydrive.net/)
-    - [hidrive](https://www.free-hidrive.com/)
-    - [tonline mediencenter](https://mediencenter.t-online.de/)
-    - gmx mediacenter
-    - [Dropbox](https://www.dropbox.com/)
-    - [skydrive](https://skydrive.live.com/)
+    * [getfreecloud](http://getfreecloud.com/)
+    * [owncube](https://owncube.com/)
+    * [mydrive](http://www.mydrive.net/)
+    * [hidrive](https://www.free-hidrive.com/)
+    * [tonline mediencenter](https://mediencenter.t-online.de/)
+    * [GMX MediaCenter](http://www.gmx.net/produkte/mediacenter/)
+    * [Dropbox](https://www.dropbox.com/)
+    * [skydrive](https://skydrive.live.com/)
 - Proposed Software Stack:
     * [Glusterfs](http://www.gluster.org/) (strip + re auf
     * [EncFS](http://www.arg0.net/encfs) auf
@@ -80,7 +80,7 @@ http://www.neowin.net/news/windows-phone-boost-as-carriers-sick-of-taking-orders
 
 - [Scaling Instagram Präsentation]( http://speakerdeck.com/u/mikeyk/p/scaling-instagram ) (pfleidi)
 - [Sopa Reloaded - WTF is CISPA]( http://allthingsd.com/20120501/wtf-is-cispa/ )
-    - [Mozilla gegen CISPA]( http://www.netzwelt.de/news/92080-cispa-mozilla-foundation-kritisiert-gesetzentwurf.html )
+    * [Mozilla gegen CISPA]( http://www.netzwelt.de/news/92080-cispa-mozilla-foundation-kritisiert-gesetzentwurf.html )
 - [Mahout in Action]( http://www.amazon.de/gp/product/1935182684/ref=as_li_ss_tl?ie=UTF8&tag=retinacast-21 ) (pfleidi)
     * [Programming collective intelligence](
 http://www.amazon.de/gp/product/0596529325/ref=as_li_ss_tl?ie=UTF8&tag=retinacast-21 )
@@ -89,10 +89,10 @@ http://www.amazon.de/gp/product/0596529325/ref=as_li_ss_tl?ie=UTF8&tag=retinacas
 
 ## Mimimi der Woche
 
-* ruby auf nas (ingo)
-    - [xkcd: Wisdom of the ancients]( http://xkcd.com/979/ )
-* apropos letzte Woche: rm / festplatte in nas kaputt und dann noch immutable (ingo)
-* [Glusterfs](http://www.gluster.org/) - lokal und xattr requirements
+- ruby auf nas (ingo)
+    * [xkcd: Wisdom of the ancients]( http://xkcd.com/979/ )
+- apropos letzte Woche: rm / festplatte in nas kaputt und dann noch immutable (ingo)
+- [Glusterfs](http://www.gluster.org/) - lokal und xattr requirements
 
 ## Picks
 - [Netgear GS105E]( http://www.amazon.de/dp/B002U08F2S/?tag=krebsco-21 )
@@ -104,7 +104,7 @@ http://www.amazon.de/gp/product/0596529325/ref=as_li_ss_tl?ie=UTF8&tag=retinacas
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting )
 - [How to quit emacs]( https://ccrma.stanford.edu/guides/package/emacs/emacs.html ) (pfleidi)
 - the avengers (ingo)
-    - [Watchmen Saturday Morning Breakfast Series](http://www.newgrounds.com/portal/view/485797 )
+    * [Watchmen Saturday Morning Breakfast Series](http://www.newgrounds.com/portal/view/485797 )
 - [whatweb](https://github.com/urbanadventurer/WhatWeb )
 - [Marvell vs. Capcom 2]( http://en.wikipedia.org/wiki/Marvel_Vs._Capcom_2 )
 
