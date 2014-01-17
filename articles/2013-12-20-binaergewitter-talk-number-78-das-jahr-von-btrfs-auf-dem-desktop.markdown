@@ -11,7 +11,7 @@ audioformats:
   m4a: http://download.binaergewitter.de/2013-12-19.Binaergewitter.Talk.78.m4a
   opus: http://download.binaergewitter.de/2013-12-19.Binaergewitter.Talk.78.opus
 ---
-Mat, Felix und Ingo bestreiten die letzte Sendung für das Jahr 2013 und sprechen über das Jolla Phone, die ALT Talks und Geschenke für Weihnachten.
+Mat, Felix und Ingo bestreiten die letzte Sendung für das Jahr 2013 und sprechen über das Jolla Phone, die Alt Tech Talks Berlin und Geschenke für Weihnachten.
 
 ## Blast from the past
 - [Android App-Rechte]( http://www.heise.de/newsticker/meldung/Android-verbietet-Nutzern-Kontrolle-ueber-App-Rechte-2065505.html )
