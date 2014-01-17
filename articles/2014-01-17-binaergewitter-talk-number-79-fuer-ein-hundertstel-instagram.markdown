@@ -18,7 +18,7 @@ Wir sind wieder zurück aus der Winter äh naja Sommerpause. Die erste Sendung 2
 - 30C3 
     * [Hilbilly Satelite Tracking]( http://events.ccc.de/congress/2013/Fahrplan/events/5463.html )
     * [Bullshit made in Germany]( http://media.ccc.de/browse/congress/2013/30C3_-_5210_-_de_-_saal_g_-_201312282030_-_bullshit_made_in_germany_-_linus_neumann.html )
-    * Binaergewitter Hörertreffen - Danke [l33tname]( http://twitter.com/l33tname )
+    * [Binaergewitter Hörertreffen](http://l33tname.github.io/BinaergewitterHoerertreffen/) - Danke [l33tname]( http://twitter.com/l33tname )
 - [Mediengewitter tut wieder!]( http://mediengewitter.de )
 - Danke an Hörer für Sensoren
 
@@ -69,7 +69,7 @@ Wir sind wieder zurück aus der Winter äh naja Sommerpause. Die erste Sendung 2
 - [Twitter kastriert Blocking-Mechanismus]( http://www.forbes.com/sites/kashmirhill/2013/12/12/blocking-people-on-twitter-now-just-mutes-them/ )
 - [vim.js]( http://coolwanglu.github.io/vim.js/web/vim.html )
     * [Vim.js Repo]( https://github.com/coolwanglu/vim.js )
-- [Travis unterstützt nun HipHopVM]( http://about.travis-ci.org/blog/2013-12-16-test-php-code-with-the-hiphop-vm/ )
+- [Travis unterstützt nun HipHop VM]( http://about.travis-ci.org/blog/2013-12-16-test-php-code-with-the-hiphop-vm/ )
 - [Goroutines in Ruby: Jo]( https://github.com/headius/jo )
 - [Nuke Option for LUKS in Kali Linux]( http://www.linuxtoday.com/upload/a-kali-linux-cryptsetup-patch-that-can-nuke-an-encrypted-disk-140109074004.html )
    - [Why is there no nuke option for LUKS (5.21)]( http://code.google.com/p/cryptsetup/wiki/FrequentlyAskedQuestions#5._Security_Aspects )
@@ -114,7 +114,7 @@ Wir sind wieder zurück aus der Winter äh naja Sommerpause. Die erste Sendung 2
 - [fuckingblocksyntax]( http://fuckingblocksyntax.com/ )
   - [UTF-8 Supercombiner]( http://sbp.so/supercombiner )
 - [OSX Recovery Mode]( http://www.apple.com/de/osx/recovery/ )
-- [What if Google was a guy]( www.collegehumor.com/video/6947898/google-is-a-guy )
+- [What if Google was a guy]( http://www.collegehumor.com/video/6947898/google-is-a-guy )
 - [TweetBot for Mac/Sync]( http://tapbots.com/software/tweetbot/ )
 - [Deckset]( http://www.decksetapp.com/ )
 - [Moom]( http://manytricks.com/moom/ )
