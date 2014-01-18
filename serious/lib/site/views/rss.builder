@@ -50,15 +50,15 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd", "xmlns:a
         xml.pubDate article.date.rfc2822
         xml.itunes :author, Serious.author
         xml.itunes :summary, article.automatic_summary
-        # In case we fudged the initial release, we can set the parameter in the article and
-        # generate a new GUID which will trigger clients to redownload things
+        # In case we fudged the initial release, we can set the parameter
+        # in the article and generate a new GUID which will trigger clients 
+        # to redownload things
         if article.release
-          full_url = "#{article.full_url}-#{article.release}"
-          xml.guid full_url, 'isPermaLink'=> "false"
-          xml.link full_url
+          xml.guid "#{article.full_url}-#{article.release}", 'isPermaLink'=> "false"
         else
           xml.guid article.full_url
         end
+        xml.link article.full_url
         xml.tag!("content:encoded", article.body.formatted)
         if @selected_audio_codec
           if @selected_audio_codec.to_s.downcase == 'itunes'
