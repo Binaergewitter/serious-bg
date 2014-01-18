@@ -5,6 +5,7 @@ date: 2014-17-20 11:00
 comments: true
 categories: talk
 sharing: true
+release: 2
 audioformats:
   mp3: http://download.binaergewitter.de/2014-01-16.Binaergewitter.Talk.79.mp3
   ogg: http://download.binaergewitter.de/2014-01-16.Binaergewitter.Talk.79.ogg
