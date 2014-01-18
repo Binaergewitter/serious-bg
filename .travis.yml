@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-  - 2.0.0
+  - 2.1.0
 deploy:
   provider: heroku
   api_key:
@@ -8,4 +8,4 @@ deploy:
   app: binaergewitter
   on:
     repo: Binaergewitter/serious-bg
-    rvm: 2.0.0
+    rvm: 2.1.0
