@@ -18,6 +18,7 @@ GEM
     builder (3.2.2)
     coderay (1.0.9)
     daemon_controller (1.1.5)
+    json (1.7.7)
     passenger (4.0.16)
       daemon_controller (>= 1.1.0)
       rack
@@ -44,6 +45,7 @@ PLATFORMS
 
 DEPENDENCIES
   feedvalidator!
+  json
   passenger
   rack-test
   rake

@@ -2,7 +2,7 @@
   <li><a href="/">Home</a></li>
   <li><a href="/archives">Archiv</a></li>
   
-<% articles.each do |article| %>
-    <li><a href="<%= article.url %>"><%= article.title %></a></li>
-<% end %>
+  <% articles.each do |article| %>
+      <li><a href="<%= article.url %>"><%= article.title %> <%= "(On Air)" if article.title == "Live" && is_live? %></a></li>
+  <% end %>
 </ul>
