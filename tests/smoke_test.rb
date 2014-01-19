@@ -93,11 +93,16 @@ class SmokeTest < Test::Unit::TestCase
     assert_equal(false, blog.helpers.is_live?)
   end
 
-   def test_the_xenim_api_is_offline
+  def test_the_xenim_api_is_offline
     stub_request(:get, "http://feeds.streams.xenim.de/live/binaergewitter/json/").to_return(:status => [404, "Not Found"])
     blog = Serious.new
 
     assert_equal(false, blog.helpers.is_live?)
   end
+  def test_the_xenim_api_timedout
+    stub_request(:get, "http://feeds.streams.xenim.de/live/binaergewitter/json").to_timeout
+    blog = Serious.new
 
+    assert_equal(false, blog.helpers.is_live?)
+  end
 end
