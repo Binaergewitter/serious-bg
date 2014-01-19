@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Date: Sat, 18 Jan 2014 10:25:51 GMT
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+Server: TwistedWeb/12.3.0
+Transfer-Encoding: chunked
+
+{"description": "Eine w\u00f6chentliche Geek-Talk-Runde mit 3-6 Leuten, die meistens aus dem Hackerspace in Stuttgart (Shackspace) sendet. Wir reden \u00fcber die News der letzten Woche und quatschen vornehmlich \u00fcber Entwicklung, Web und Mobilezeugs sowie Open Source. Talk-Show rund um IT, Entwicklung und Open Source", "feed_url": "http://feeds.streams.xenim.de/live/binaergewitter/json/", "title": "xsn Archive for Bin\u00e4rgewitter", "items": [], "language": "de-de", "link": "http://streams.xenim.de/binaergewitter/", "id": "http://streams.xenim.de/binaergewitter/", "icon": "http://media.streams.xenim.de/show-icons/binaergewitter_logo.png"}

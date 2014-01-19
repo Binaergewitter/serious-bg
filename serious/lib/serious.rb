@@ -12,6 +12,8 @@ require 'stupid_formatter'
 require 'yaml'
 require 'builder'
 require 'ruby_ext'
+require 'net/http'
+require 'json'
 
 puts "CUSTOM"
 
@@ -58,6 +60,18 @@ class Serious < Sinatra::Base
     
     def render_partial(name)
       render :erb, :"_#{name}", :layout => false
+    end
+
+    def is_live?
+      begin
+        url = "http://feeds.streams.xenim.de/live/binaergewitter/json/"
+        respons = Net::HTTP.get_response(URI.parse(url))
+        data = respons.body
+        result = JSON.parse(data)
+        !result["items"].empty?
+      rescue Exception => e
+        false
+      end
     end
   end
 
