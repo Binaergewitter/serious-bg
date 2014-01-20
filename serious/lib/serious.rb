@@ -64,9 +64,16 @@ class Serious < Sinatra::Base
 
     def is_live?
       begin
-        url = "http://feeds.streams.xenim.de/live/binaergewitter/json/"
-        respons = Net::HTTP.get_response(URI.parse(url))
+        #create connection
+        connection = Net::HTTP.new('feeds.streams.xenim.de')
+        connection.read_timeout = 5
+        connection.open_timeout = 5
+
+        #get data
+        respons = connection.get '/live/binaergewitter/json/'
         data = respons.body
+
+        #parse data
         result = JSON.parse(data)
         !result["items"].empty?
       rescue Exception => e
