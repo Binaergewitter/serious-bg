@@ -85,9 +85,6 @@ Wir sind wieder zurück aus der Winter äh naja Sommerpause. Die erste Sendung 2
 - [Node.js bekommt neuen Projektleiter und NPM wird eine Firma]( http://blog.nodejs.org/2014/01/15/the-next-phase-of-node-js/index.html )
 - [HP bringt zwei Phablets als Smartphone-Comeback]( http://www.computerbase.de/news/2014-01/hp-feiert-smartphone-comeback-mit-zwei-phablets/ )
 
-## Themen
-
-
 ## Lesefoo
 
 - [Spring AbstractSingletonProxyFactoryBean]( http://docs.spring.io/spring/docs/2.5.x/api/org/springframework/aop/framework/AbstractSingletonProxyFactoryBean.html )
