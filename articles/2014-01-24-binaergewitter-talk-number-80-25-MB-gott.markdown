@@ -52,7 +52,7 @@ Wir läuten das Jahr des Btrfs ein und reden über Gott und die News der letzten
 - [Chrome Microphone Bug]( http://bits.blogs.nytimes.com/2014/01/22/googles-chrome-browser-could-let-malicious-sites-listen-to-conversations/ )
     * [Heise-Artikel]( http://www.heise.de/security/meldung/Browser-Chrome-als-Abhoerzentrale-nutzbar-2094372.html )
 - [Apple will White Screen of Death fixen]( http://arstechnica.com/apple/2014/01/apple-random-ios-7-crashes-to-be-remedied-in-upcoming-software-update/ )
-- Gott (?!?) (!!) Ist tot!
+- [Internet ist Geschenk Gottes]( http://www.zeit.de/gesellschaft/zeitgeschehen/2014-01/papst-internet-geschenk-gottes )
 
 
 ### Mobil Kram
