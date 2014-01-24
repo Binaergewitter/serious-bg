@@ -37,7 +37,7 @@ Wir läuten das Jahr des Btrfs ein und reden über Gott und die News der letzten
 - [Philips steigt aus TP Vision aus]( http://www.newscenter.philips.com/main/standard/news/press/2014/20140120-Philips-to-transfer-remaining-30-percent-stake-in-television-joint-venture-TP-Vision-to-TPV.wpd#.UuDgLWSIXUZ )
     * [Hue]( http://www.meethue.com/ )
     * [Hue für GU10]( http://store.apple.com/de/product/HD394ZM/A/philips-hue-single-gu10-lampe?fnode=0001050701 )
-    * Android App von Johannes - Colourful - (https://play.google.com/store/apps/details?id=de.johanneslauber.android.hue )
+    * Android App für Hue - [Colourful](https://play.google.com/store/apps/details?id=de.johanneslauber.android.hue )
 - [Feedly klaut Page Views mit neuem URL-Shortener]( http://www.the-digital-reader.com/2014/01/18/feedly-found-new-way-steal-page-views-publishers/ )
 - [BSI fand 16 Mio. gestohlene "Identitäten"]( https://www.bsi.bund.de/DE/Presse/Pressemitteilungen/Presse2014/Mailtest_21012014.html )
     * [BSI-Sicherheitstest]( https://www.sicherheitstest.bsi.de/ )
@@ -60,7 +60,7 @@ Wir läuten das Jahr des Btrfs ein und reden über Gott und die News der letzten
 - [Firefox OS Tablet](http://www.heise.de/open/meldung/Mozilla-stellt-erstes-Tablet-mit-Firefox-OS-vor-2088312.html )
 - [Tizen Phone](http://www.areamobile.de/news/26258-zte-geek-mit-tizen-zum-mwc-2014 )
 - [Jolla jetzt auch auf dem Nexus 4](http://www.mobilegeeks.de/video-zeigt-sailfish-os-auf-dem-google-nexus-4/ )
-    - [Jolla Comunity Hub Together}( https://together.jolla.com )
+    - [Jolla Comunity Hub Together]( https://together.jolla.com )
     - [RadioTux Sendung über Jolla mit Hörer Schmittlauch](http://www.radiotux.de/index.php?/archives/7979-RadioTux-Sendung-Dezember-2013.html )
 
 ## Themen
@@ -69,7 +69,7 @@ Wir läuten das Jahr des Btrfs ein und reden über Gott und die News der letzten
 
 - [Btrfs Platz Rechner](http://carfax.org.uk/btrfs-usage/index.html )
 - Btrfs "Intensiv" Test
-     - opensuse 13.1
+    - opensuse 13.1
     - 2x 4TB - RAID 1
     - mount -o degraded /dev/sda1 /data
 
