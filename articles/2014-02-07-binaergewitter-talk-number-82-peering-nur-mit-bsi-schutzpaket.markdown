@@ -25,7 +25,7 @@ Während Felix $Dinge installiert unterhalten sich Marc, der sich via Mumble zug
 
 ## Toter der Woche
 
-- [PearOS entgültig](http://www.heise.de/newsticker/meldung/Endgueltiges-Aus-fuer-Pear-OS-2106897.html )
+- [PearOS entgültig tot](http://www.heise.de/newsticker/meldung/Endgueltiges-Aus-fuer-Pear-OS-2106897.html )
 
 ## Untoter der Woche
 
@@ -75,7 +75,6 @@ Während Felix $Dinge installiert unterhalten sich Marc, der sich via Mumble zug
     * [cgroups]( http://en.wikipedia.org/wiki/Cgroups )
     * [OpenVZ]( http://openvz.org/Main_Page )
     * [OpenVZ vs LXC]( http://www.janoszen.com/2013/01/22/lxc-vs-openvz/ )
-- [ ]
 
 ## Lesefoo
 
@@ -94,7 +93,7 @@ Während Felix $Dinge installiert unterhalten sich Marc, der sich via Mumble zug
 - Gelber Sack Kalender
     * [Stuttgart Waste Parser]( https://github.com/pfleidi/stuttgart-waste-parser )
     * [App Gelber Sack]( https://itunes.apple.com/de/app/gelber-sack/id583340377?l=en&mt=8 )
-    * [Ludwigsburg [flach](http://www.avl-ludwigsburg.de/main.php?set_id_menue=75 ) und [rund](http://www.avl-ludwigsburg.de/main.php?set_id_menue=76 )
+    * Ludwigsburg [flach](http://www.avl-ludwigsburg.de/main.php?set_id_menue=75 ) und [rund](http://www.avl-ludwigsburg.de/main.php?set_id_menue=76 )
 - zsh ssh agent arch
 - Windows 8
 - [iOS SDK: UITableViewDelegate - 
