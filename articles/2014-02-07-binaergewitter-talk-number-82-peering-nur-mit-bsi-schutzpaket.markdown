@@ -48,7 +48,7 @@ Während Felix $Dinge installiert unterhalten sich Marc, der sich via Mumble zug
 - [wieder ein UEFI Bug]( http://www.heise.de/newsticker/meldung/Fehlerhafte-UEFI-Firmware-Linux-killt-Thinkpads-2106149.html )
 - [Uebergewichtige bekommen 'motivational' SMS]( http://www.computerworlduk.com/news/public-sector/3500310/council-send-obese-people-motivational-texts/ )
 - [BBM braucht mehr Freunde, oder so]( http://techcrunch.com/2014/02/05/blackberry-wants-bbm-users-to-have-more-friends/ )
-- Threema kann endlich Gruppenchats unter Android
+- [Threema]( https://threema.ch/de/ ) kann endlich Gruppenchats unter Android
 - [Mozilla wechselt von obskurem Sync zu "username:passwort"]( http://news.cnet.com/8301-1023_3-57618219-93/mozilla-adopts-plain-vanilla-password-sign-in-for-firefox-sync/ )
 - IMSI Catcher
 - TLS 1.2
