@@ -44,8 +44,8 @@ Diesmal nur zu dritt, aber nicht minder lustig geht es natürlich um FlappyBird,
     * [Systemd broken by design]( http://ewontfix.com/14/ )
     * [System Management Facility]( http://docs.oracle.com/cd/E19253-01/816-5175/smf-5/index.html )
 - [Nokia Android Phone auf MWC]( http://www.heise.de/newsticker/meldung/Bericht-Nokia-zeigt-Android-Smartphone-auf-dem-MWC-2110355.html )
-- [Android auf Windows![( http://rss.slashdot.org/~r/Slashdot/slashdot/~3/dvys3k6XdR4/story01.htm )
-- [Windows auf Android!]( http://www.phoronix.com/scan.php?page=news_item&px=MTU5ODU )
+- [Android auf Windows](http://rss.slashdot.org/~r/Slashdot/slashdot/~3/dvys3k6XdR4/story01.htm )
+- [Windows auf Android](http://www.phoronix.com/scan.php?page=news_item&px=MTU5ODU )
 - [Ist Android unforkbar?]( http://arstechnica.com/information-technology/2014/02/neither-microsoft-nokia-nor-anyone-else-should-fork-android-its-unforkable/ )
 - [Drone.io]( http://blog.drone.io/2014/2/5/open-source-ci-docker.html ) 
 - [gitsh]( http://robots.thoughtbot.com/announcing-gitsh )
@@ -87,8 +87,7 @@ Diesmal nur zu dritt, aber nicht minder lustig geht es natürlich um FlappyBird,
 
 - KabelBW Login
     * [Easybell](http://www.easybell.de/ )
-    * [FritzBox mit 7490 WLAN AC]
- (http://www.amazon.de/gp/product/B00EO777DI/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B00EO777DI&linkCode=as2&tag=trektrip )
+    * [FritzBox mit 7490 WLAN AC](http://www.amazon.de/gp/product/B00EO777DI/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B00EO777DI&linkCode=as2&tag=trektrip )
 - Ubuntu Phone
 
 ## Picks
