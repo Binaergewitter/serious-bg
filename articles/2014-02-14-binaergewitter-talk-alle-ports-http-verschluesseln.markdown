@@ -50,24 +50,25 @@ Diesmal nur zu dritt, aber nicht minder lustig geht es natürlich um FlappyBird,
 - [Drone.io]( http://blog.drone.io/2014/2/5/open-source-ci-docker.html ) 
 - [gitsh]( http://robots.thoughtbot.com/announcing-gitsh )
 - [ElasticSearch 1.0]( http://www.elasticsearch.org/blog/1-0-0-released/ )
-- [Clash Of Clans FB gehackt - Umsaetze veroeffentlicht]( http://www.gulli.com/news/23280-fb-seite-von-clash-of-clans-gehackt-umsaetze-veroeffentlicht-2014-02-10 )
-- [Bitcoin Preis faellt weil MtGox retardierte Software gecodet hat]( http://arstechnica.com/security/2014/02/bitcoin-exchanges-buckle-under-strain-of-phantom-transactions/ )
+- [Clash Of Clans FB gehackt - Umsätze veröffentlicht]( http://www.gulli.com/news/23280-fb-seite-von-clash-of-clans-gehackt-umsaetze-veroeffentlicht-2014-02-10 )
+- [Bitcoin Preis fällt weil MtGox retardierte Software gecodet hat]( http://arstechnica.com/security/2014/02/bitcoin-exchanges-buckle-under-strain-of-phantom-transactions/ )
    * [MtGox sagt das BTC-Protokoll schuld ist (spoiler: ist es nicht)]( http://www.cryptocoinsnews.com/2014/02/10/mt-gox-blames-bitcoin-core-developer-greg-maxwell-responds/ )
 - [RedHat kauft CentOS]( http://beta.slashdot.org/story/198023 )
 - [RHEL](http://de.wikipedia.org/wiki/Red_Hat_Enterprise_Linux )
 - [NEWS: bessere Akkus (mal wieder)]( http://arstechnica.com/science/2014/02/no-more-laptop-fires-researchers-build-a-better-battery/ )
-- [Werbung im Mozilla Firefox?]( http://www.gulli.com/news/23300-kehrtwende-bei-mozilla-bald-werbung-in-firefox-2014-02-12 )[Mozilla Blog Artikel - "Publisher transformation with users at the center"]( https://blog.mozilla.org/advancingcontent/2014/02/11/publisher-transformation-with-users-at-the-center/ )
+- [Werbung im Mozilla Firefox?]( http://www.gulli.com/news/23300-kehrtwende-bei-mozilla-bald-werbung-in-firefox-2014-02-12 ) 
+    * [Mozilla Blog Artikel - "Publisher transformation with users at the center"]( https://blog.mozilla.org/advancingcontent/2014/02/11/publisher-transformation-with-users-at-the-center/ )
 
 ### Security
 
 - Fritzbox Lücke
 - [NTP Reflection Attacke](http://www.golem.de/news/ntp-reflection-cloudfare-meldet-massiven-ddos-angriff-1402-104491.html )
-    - [Fix it](http://blog.ip-projects.de/ntp-reflection-attack/ )
-- [Linksys Malware Attacke]( http://isc.sans.edu/diary.html?storyid=17630 )[Ars Technica artikel]( http://feeds.arstechnica.com/~r/arstechnica/index/~3/S2qE_9KOKHQ/story01.htm )
-- [CCC DNS verzeucht](http://www.heise.de/newsticker/meldung/DNS-Server-des-CCC-als-Werbeschleuder-missbraucht-2111501.html )
+    * [Fix it](http://blog.ip-projects.de/ntp-reflection-attack/ )
+- [Linksys Malware Attacke]( http://isc.sans.edu/diary.html?storyid=17630 ) [Ars Technica artikel]( http://feeds.arstechnica.com/~r/arstechnica/index/~3/S2qE_9KOKHQ/story01.htm )
+- [CCC DNS verseucht](http://www.heise.de/newsticker/meldung/DNS-Server-des-CCC-als-Werbeschleuder-missbraucht-2111501.html )
 - [Windows 98SE bei Flughafen Scannern]( http://www.heise.de/newsticker/meldung/Handgepaeckscanner-Mit-Windows-98SE-auf-Waffensuche-2111864.html )
 - [Telekom stellt auf SSL um](http://www.heise.de/newsticker/meldung/Telekom-stellt-E-Mail-flaechendeckend-auf-SSL-Verschluesselung-um-2109819.html )
-- [Von der NSA im eigenen Land abgehoert? Strom abstellen!]( http://www.gulli.com/news/23302-abgeordnete-wollen-nsa-hauptquartier-per-gesetz-vom-stromentz-trennen-2014-02-12 )
+- [Von der NSA im eigenen Land abgehört? Strom abstellen!]( http://www.gulli.com/news/23302-abgeordnete-wollen-nsa-hauptquartier-per-gesetz-vom-stromentz-trennen-2014-02-12 )
 
 ## Themen 
 
@@ -97,7 +98,7 @@ Diesmal nur zu dritt, aber nicht minder lustig geht es natürlich um FlappyBird,
 - [Drogenwaage]( http://amzn.to/1npjWYJ )
 - [Buff]( http://amzn.to/1bAWGi8 )
 - [i3 window manager]( http://i3wm.org/ )
-  * [RadioTux Juni 2012 mit i3 Interview](http://www.radiotux.de/index.php?/archives/7960-RadioTux-Sendung-Juni-2012.html )
+    * [RadioTux Juni 2012 mit i3 Interview](http://www.radiotux.de/index.php?/archives/7960-RadioTux-Sendung-Juni-2012.html )
 - [Flint]( http://giantcomet.com/flint/mac/ )
     * [Campfire]( https://campfirenow.com/ )
 - [Fastmail]( http://www.fastmail.fm/?STKI=11998353 )
