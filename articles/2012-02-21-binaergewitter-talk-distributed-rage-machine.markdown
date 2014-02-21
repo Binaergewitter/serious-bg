@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Binärgewitter Talk #84 - Distributed Rage Machine"
-date: 2014-02-21 22:00
+date: 2014-02-21 20:00
 comments: true
 categories: talk
 sharing: true
@@ -13,11 +13,11 @@ audioformats:
 ---
 Diese Woche rage und heulen sich pfleidi und Felix glücklich.
 
-# Blast from the Past
+## Blast from the Past
 
 - [Antwort auf 'sytemd: broken by design']( https://tim.siosm.fr/blog/2014/02/10/ewontfix-ecouldfix-systemd )
 
-# Tumblr der Woche
+## Tumblr der Woche
 
 - [Computer Dogs]( http://computerdogs.tumblr.com/ )
 - [One Ad to rule them all]( http://oneadtorulethemall.tumblr.com/ )
