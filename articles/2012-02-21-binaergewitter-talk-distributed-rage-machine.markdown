@@ -15,7 +15,7 @@ Diese Woche rage und heulen sich pfleidi und Felix glücklich.
 
 ## Blast from the Past
 
-- [Antwort auf 'sytemd: broken by design']( https://tim.siosm.fr/blog/2014/02/10/ewontfix-ecouldfix-systemd )
+- [Antwort auf sytemd: broken by design]( https://tim.siosm.fr/blog/2014/02/10/ewontfix-ecouldfix-systemd )
 
 ## Tumblr der Woche
 
@@ -57,7 +57,7 @@ Diese Woche rage und heulen sich pfleidi und Felix glücklich.
 - [Spendet geld fuer das digitale Kondom]( http://www.indiegogo.com/projects/digital-condom )
    - [USB Condoms]( http://www.usbcondoms.com/ )
 - [HNAP - Your Home Automation is probably insecure]( https://isc.sans.edu/diary/More+on+HNAP+-+What+is+it%2C+How+to+Use+it%2C+How+to+Find+it/17648 )
-- [WordPress two-factor login plugin bug bypasses 2-factor login]( ... )
+- WordPress two-factor login plugin bug bypasses 2-factor login
 - [Philips Supermarket LEDs verfuehren dich Kaese zu kaufen]( http://www.wired.co.uk/news/archive/2014-02/17/philips-supermarket-leds )
    * [LED Carpet]( http://www.wired.co.uk/news/archive/2013-11/20/philips-led-carpet/viewgallery/330563 )
 - [Valve scant dns cache um cheater zu finden]( http://arstechnica.com/gaming/2014/02/valve-dns-privacy-flap-exposes-the-murky-world-of-cheat-prevention/ )
@@ -84,5 +84,5 @@ Diese Woche rage und heulen sich pfleidi und Felix glücklich.
 - [Bfg Repo Cleaner]( http://rtyley.github.io/bfg-repo-cleaner/ ) (via [@elektrojunge]( https://twitter.com/elektrojunge ))
 - [Episodes 2]( http://the-skylab.de/episodes/ )
 - [Commit]( https://itunes.apple.com/de/app/commit/id473527073?l=en&mt=8 )
-- [shadyurl]( http://www.shadyurl.com/ ) (via l33tname)
+- [shadyurl]( http://www.shadyurl.com/ ) via l33tname
 - [vimdiff]( http://vimdoc.sourceforge.net/htmldoc/diff.html )
