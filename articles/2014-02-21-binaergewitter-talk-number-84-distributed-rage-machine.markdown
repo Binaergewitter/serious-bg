@@ -24,7 +24,7 @@ Diese Woche rage und heulen sich pfleidi und Felix glücklich.
 
 ## Untoter der Woche
 
-- [makefu's alten neuen blog]( http://euer.krebsco.de/ )[ - gerettet von archive.org]( https://web.archive.org/web/20120904064020/http://euer.krebsco.de/ )
+- [makefu's alten neuen blog]( http://euer.krebsco.de/ ) - [gerettet von archive.org]( https://web.archive.org/web/20120904064020/http://euer.krebsco.de/ )
    - [Revival Blog Post]( http://euer.krebsco.de/revive-this-blog.html )
 
 ## Toter der Woche
@@ -44,24 +44,24 @@ Diese Woche rage und heulen sich pfleidi und Felix glücklich.
   * [Try Ruby]( http://tryruby.org/ )
 - [Github rendert Prosa-Diffs]( https://github.com/blog/1784-rendered-prose-diffs )
 - [StarchLinux]( http://starchlinux.org/ )
-    * [Stali]( http://sta.li/ )
+  * [Stali]( http://sta.li/ )
 - [Plan 9 ist befreit]( http://beta.slashdot.org/story/198237 )
 - [Sind SD-Karten auf KitKat sinnlos?]( https://plus.google.com/+TodLiebeck/posts/gjnmuaDM8sn )
 - [Google kauft SlickLogin]( http://www.geektime.com/2014/02/16/google-acquires-slicklogin/ )
 - [Facebook kauft WhatsApp]( http://www.theverge.com/2014/2/19/5427332/facebook-is-buying-whatsapp ) [Wired Artikel]( http://www.wired.com/business/2014/02/facebook-whatsapp/ )
-    * [Snapchat fuer 3 Instagram]( http://www.stern.de/digital/computer/snapchat-gruender-evan-spiegel-der-mann-der-drei-milliarden-dollar-ablehnte-2081872.html )
+    * [Snapchat für 3 Instagram]( http://www.stern.de/digital/computer/snapchat-gruender-evan-spiegel-der-mann-der-drei-milliarden-dollar-ablehnte-2081872.html )
     * [WhatsApp Repo Takedown]( https://github.com/github/dmca/blob/master/2014-02-12-WhatsApp.md )
     * [The State of Secure Mobile Messaging]( http://missingm.co/2014/02/fighting-dishfire-the-state-of-mobile-cross-platform-encrypted-messaging/ )
     * [The current state of mobile XMPP]( http://fnanp.in-ulm.de/blog/2014/01/16/01-woes.html )
     * [Anonyme Messenger haben mehr Andrang]( http://www.gulli.com/news/23354-anonymer-messaging-dienst-auf-erfolgskurs-2014-02-20 )
-- [Spendet geld fuer das digitale Kondom]( http://www.indiegogo.com/projects/digital-condom )
-   - [USB Condoms]( http://www.usbcondoms.com/ )
+- [Spendet geld für das digitale Kondom]( http://www.indiegogo.com/projects/digital-condom )
+   * [USB Condoms]( http://www.usbcondoms.com/ )
 - [HNAP - Your Home Automation is probably insecure]( https://isc.sans.edu/diary/More+on+HNAP+-+What+is+it%2C+How+to+Use+it%2C+How+to+Find+it/17648 )
-- WordPress two-factor login plugin bug bypasses 2-factor login
-- [Philips Supermarket LEDs verfuehren dich Kaese zu kaufen]( http://www.wired.co.uk/news/archive/2014-02/17/philips-supermarket-leds )
-   * [LED Carpet]( http://www.wired.co.uk/news/archive/2013-11/20/philips-led-carpet/viewgallery/330563 )
-- [Valve scant dns cache um cheater zu finden]( http://arstechnica.com/gaming/2014/02/valve-dns-privacy-flap-exposes-the-murky-world-of-cheat-prevention/ )
-   - [Reddit Artikel]( http://www.reddit.com/r/gaming/comments/1y70ej/valve_vac_and_trust/ )
+- [WordPress two-factor login plugin bug bypasses 2-factor login]( https://www.duosecurity.com/blog/wordpress-multisite-vulnerability-in-two-factor-authentication )
+- [Philips Supermarket LEDs verführen dich Kaese zu kaufen]( http://www.wired.co.uk/news/archive/2014-02/17/philips-supermarket-leds )
+    * [LED Carpet]( http://www.wired.co.uk/news/archive/2013-11/20/philips-led-carpet/viewgallery/330563 )
+- [Valve scant DNS cache um cheater zu finden]( http://arstechnica.com/gaming/2014/02/valve-dns-privacy-flap-exposes-the-murky-world-of-cheat-prevention/ )
+    * [Reddit Artikel]( http://www.reddit.com/r/gaming/comments/1y70ej/valve_vac_and_trust/ )
 - [Mehr Thorium in Indien]( http://www.gulli.com/news/23325-indien-plant-thorium-basiertes-nuklearkraftwerk-2014-02-17 )
 - [Alle Leute spielen gleichzeitig pokemon]( http://arstechnica.com/gaming/2014/02/the-bizarre-mind-numbing-mesmerizing-beauty-of-twitch-plays-pokemon/ )
     * [Curling Cat]( http://img.pandawhale.com/103008-Olympic-Cat-Curling-gif-Purrli-FLv6.gif )
