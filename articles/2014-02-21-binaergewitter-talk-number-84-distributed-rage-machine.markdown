@@ -15,7 +15,7 @@ Diese Woche rage und heulen sich pfleidi und Felix glücklich.
 
 ## Blast from the Past
 
-- [Antwort auf sytemd: broken by design]( https://tim.siosm.fr/blog/2014/02/10/ewontfix-ecouldfix-systemd )
+- [Antwort auf systemd: broken by design]( https://tim.siosm.fr/blog/2014/02/10/ewontfix-ecouldfix-systemd )
 
 ## Tumblr der Woche
 
