@@ -22,6 +22,7 @@ Das Los entscheidet. Der Rechtsweg ist ausgeschlossen.
 
 Schreibt uns in die Kommentare warum gerade Ihr das Case haben wollt. 
 Für die Atom.io Einladung schreibt uns eine Email an info@binaergewitter.de.
+Einsendeschluss ist der 5.2.2014. Persönliche Daten werden nur zur Gewinnermittlung und Versand erhoben und nicht an Dritte weitergegeben.
 
 
 ## Tumblr der Woche
