@@ -39,7 +39,7 @@ Einsendeschluss ist der 5.3.2014. Persönliche Daten werden nur zur Gewinnermitt
 - MtGox is down
     * [coinbase Statement]( http://blog.coinbase.com/post/77766809700/joint-statement-regarding-mtgox )
     * [Laut mtgox.com noch da]( https://www.mtgox.com/ )
-    * [Mtgox Shutdown fuer immer]( http://beta.slashdot.org/story/198687 )
+    * [Mtgox Shutdown für immer]( http://beta.slashdot.org/story/198687 )
     * [Bitcoin Market]( https://bitcoinity.org/markets )
 
 # Untoter der Woche
@@ -71,7 +71,7 @@ Einsendeschluss ist der 5.3.2014. Persönliche Daten werden nur zur Gewinnermitt
  - [Messenger: Stiftung Warentest findet nur Threema unkritisch]( http://www.test.de/presse/pressemitteilungen/WhatsApp-Alternativen-Nur-Threema-ist-unkritisch-4674609-0/ )
      * [Threema Validation]( https://threema.ch/validation/ )
 - [$1.7M für Fake-JCVD Movie geraised]( http://www.theverge.com/2014/2/21/5434618/fbi-bust-fake-jean-claude-van-damme-movie )
-   - [Jean Claude Van Damme - The Epic Split]( http://www.youtube.com/watch?v=M7FIvfx5J10 )
+   * [Jean Claude Van Damme - The Epic Split]( http://www.youtube.com/watch?v=M7FIvfx5J10 )
 - [Dieser GEMA-Hinweis ist in deinem Land nicht verfügbar]( http://www.sueddeutsche.de/digital/rechtsstreit-um-sperrhinweise-gema-gewinnt-gegen-youtube-1.1898282 )
 
 ## Lesefoo
