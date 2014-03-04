@@ -17,7 +17,7 @@ Leider mit ein paar technischen Problemen daher fehlen die ersten paar Minuten d
 
 Das Los entscheidet. Der Rechtsweg ist ausgeschlossen.
 
-- [NFC Case fürs iPhone5]( http://www.incipio.com/cashwrap ) (Danke an [@ashtom]( https://twitter.com/ashtom )
+- [NFC Case fürs iPhone5]( http://www.incipio.com/cashwrap ) (Danke an [@ashtom]( https://twitter.com/ashtom )\)
 - [Atom.io Einladung Verlosung]( http://atom.io )
 
 Schreibt uns in die Kommentare warum gerade Ihr das Case haben wollt. 
