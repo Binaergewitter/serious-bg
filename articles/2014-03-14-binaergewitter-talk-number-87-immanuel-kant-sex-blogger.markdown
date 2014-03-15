@@ -37,8 +37,7 @@ Große Runde im Shackspace. Wir singen nicht Happy Birthday und unterhalten uns 
 - [Mt. Gox hat 100 Millionen veruntreut - sagen Hacker?]( http://www.forbes.com/sites/andygreenberg/2014/03/09/hackers-hit-mt-gox-exchanges-ceo-claim-to-publish-evidence-of-fraud/ )
 - [Peer review ramsch paper]( http://www.nature.com/news/publishers-withdraw-more-than-120-gibberish-papers-1.14763 )
 - [iOS 7.1 yay]( http://www.apple.com/ios/ios7-update/ )
-    - http://www.heise.de/newsticker/meldung/iOS-7-1-App-Beenden-laesst-Standortdienste-weiterlaufen-2143808.html
-    - iBeacon immer an
+    - [Ortungsdienst läuft weiter]http://www.heise.de/newsticker/meldung/iOS-7-1-App-Beenden-laesst-Standortdienste-weiterlaufen-2143808.html
 - [Git 2.0]( https://git.kernel.org/cgit/git/git.git/tree/Documentation/RelNotes/2.0.0.txt )
 - [Ruby 2.1.1 bug]( https://www.ruby-lang.org/en/news/2014/03/10/regression-of-hash-reject-in-ruby-2-1-1/ )
 - [25 Jahre Web]( http://home.web.cern.ch/about/updates/2014/03/world-wide-web-born-cern-25-years-ago )
@@ -81,7 +80,7 @@ Große Runde im Shackspace. Wir singen nicht Happy Birthday und unterhalten uns 
 ## Mimimi der Woche
 
 - Easybell/Telekom Fuckup
-- Netzwerk Interfacenamen unter Linux - enp0s25 - touch /etc/udev/rules.d/80-net-setup-link.rules
+- Netzwerk Interfacenamen unter Linux - z.B. enp0s25 - Lösung: touch /etc/udev/rules.d/80-net-setup-link.rules
 - Threema
 
 ## Picks
