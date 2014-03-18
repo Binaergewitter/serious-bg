@@ -24,8 +24,8 @@ Große Runde im Shackspace. Wir singen nicht Happy Birthday und unterhalten uns 
 
 - Harald Schmidt Show
 - [Mozilla stellt Persona Entwicklung ein]( http://www.golem.de/news/login-dienst-mozilla-stellt-persona-entwicklung-ein-1403-105030.html ) via Schmittlauch
-   - [Primaerquelle auf Hackernews]( https://news.ycombinator.com/item?id=7364465 )
-   - [Primaerquelle auf Mozilla Blog]( https://wiki.mozilla.org/Identity/Persona_AAR )
+   * [Primärquelle auf Hackernews]( https://news.ycombinator.com/item?id=7364465 )
+   * [Primärquelle auf Mozilla Blog]( https://wiki.mozilla.org/Identity/Persona_AAR )
 - [One Laptop Per Child]( http://blog.laptop.org/2014/03/12/olpc-concentrating-on-its-core-values-education/#.UyCXtz19oygresponse )
 
 ## Untoter der Woche
@@ -37,7 +37,7 @@ Große Runde im Shackspace. Wir singen nicht Happy Birthday und unterhalten uns 
 - [Mt. Gox hat 100 Millionen veruntreut - sagen Hacker?]( http://www.forbes.com/sites/andygreenberg/2014/03/09/hackers-hit-mt-gox-exchanges-ceo-claim-to-publish-evidence-of-fraud/ )
 - [Peer review ramsch paper]( http://www.nature.com/news/publishers-withdraw-more-than-120-gibberish-papers-1.14763 )
 - [iOS 7.1 yay]( http://www.apple.com/ios/ios7-update/ )
-    - [Ortungsdienst läuft weiter](http://www.heise.de/newsticker/meldung/iOS-7-1-App-Beenden-laesst-Standortdienste-weiterlaufen-2143808.html )
+    * [Ortungsdienst läuft weiter](http://www.heise.de/newsticker/meldung/iOS-7-1-App-Beenden-laesst-Standortdienste-weiterlaufen-2143808.html )
 - [Git 2.0]( https://git.kernel.org/cgit/git/git.git/tree/Documentation/RelNotes/2.0.0.txt )
 - [Ruby 2.1.1 bug]( https://www.ruby-lang.org/en/news/2014/03/10/regression-of-hash-reject-in-ruby-2-1-1/ )
 - [25 Jahre Web]( http://home.web.cern.ch/about/updates/2014/03/world-wide-web-born-cern-25-years-ago )
@@ -47,12 +47,12 @@ Große Runde im Shackspace. Wir singen nicht Happy Birthday und unterhalten uns 
 - [Ip-Addresse -> Telefonnumer Gateway]( http://torrentfreak.com/privacy-disaster-type-ip-address-get-internet-users-phone-number-140307/ )
 - [Popcorntime]( http://getpopcornti.me/ )
 - [Crowdfunding für neuen Blender Film]( http://www.heise.de/newsticker/meldung/Blender-Foundation-Crowdfunding-fuer-Open-Source-Langfilm-2140865.html )
-    - [Blender Spiel]( http://www.yofrankie.org/ )
+    * [Blender Spiel]( http://www.yofrankie.org/ )
 - [Baidu Heat Map]( http://www.techinasia.com/baidu-data-track-worlds-largest-human-movement-chinese-year-begins/ )
     * [last train home]( http://www.imdb.com/title/tt1512201/ )
     * [Schleimpilz kann total gut Pathfinding]( http://www.youtube.com/watch?v=BZUQQmcR5-g )
     * [Schleimpilz ist awesome]( http://www.wired.com/wiredscience/2010/01/slime-mold-grows-network-just-like-tokyo-rail-system/ )
-- [Anti-Spass Cloud fuer Vine]( http://arstechnica.com/business/2014/03/internet-is-a-little-less-for-porn-vine-bans-explicit-sexual-content/ )
+- [Anti-Spass Cloud für Vine]( http://arstechnica.com/business/2014/03/internet-is-a-little-less-for-porn-vine-bans-explicit-sexual-content/ )
     * [50 / 50]( http://www.reddit.com/r/FiftyFifty/ )
 - [FiftyThree Office]( http://www.fastcolabs.com/3027542/inside-fiftythrees-jaw-dropping-new-office-space )
 
@@ -86,15 +86,14 @@ Große Runde im Shackspace. Wir singen nicht Happy Birthday und unterhalten uns 
 ## Picks
 
 - [Hubic]( https://hubic.com/en/offers/ )
-  * [Google drive neue Tarife]( https://www.google.com/settings/storage )
+    * [Google drive neue Tarife]( https://www.google.com/settings/storage )
 - [Die Känguru-Offenbarung - direkt beim Verlag runterladen als MP3](
 http://hoerbuch-hamburg.hoebu.de/releases/360123?lang=de ) 
     * [oder CD bei Amazon](http://www.amazon.de/gp/product/3869091355/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=3869091355&linkCode=as2&tag=trektrip )
     * [Overdrive]( http://www.overdrive.com/ )
 - [neues Humblebundle](https://www.humblebundle.com/ )
 - [Is My Shift Key On or Not]( http://ismyshiftkeyonornot.com/ )
-- [2048]( http://gabrielecirulli.github.io/2048/ )
-    * von [Alvin auf Twitter]( https://twitter.com/althavin/status/443498698916765696 )
+- [2048]( http://gabrielecirulli.github.io/2048/ ) via [Alvin auf Twitter]( https://twitter.com/althavin/status/443498698916765696 )
 - [ODA - The Online Disassembler]( http://onlinedisassembler.com )
 - [Equalizer Gem]( https://github.com/dkubb/equalizer )
 - [Travis github deployer]( https://github.com/basvodde/travis_github_deployer )
