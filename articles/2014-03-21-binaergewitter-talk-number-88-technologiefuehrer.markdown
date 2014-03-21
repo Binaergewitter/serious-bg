@@ -27,7 +27,7 @@ Diesmal nur mit Mat und Ingo.
 * [iTunes lokaler sync](http://www.heise.de/newsticker/meldung/iTunes-Lokaler-Datenabgleich-mit-iOS-Geraeten-kehrt-zurueck-2149856.html )
 
 ##Mcafee der Woche
-- [](http://john.mcafee.usesthis.com/ )
+- [John McAfee uses this](http://john.mcafee.usesthis.com/ )
 
 ## News
 - [Nakamoto doch nicht der Bitcoin Erfinder]( http://www.golem.de/news/bitcoin-erfinder-dorian-nakamoto-dementiert-offiziell-1403-105188.html )
