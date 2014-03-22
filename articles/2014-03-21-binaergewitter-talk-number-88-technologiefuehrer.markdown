@@ -14,6 +14,7 @@ audioformats:
 Diesmal nur mit Mat und Ingo.
 
 ## Toter der Woche
+
 - [Popcorn Time]( http://getpopcornti.me/ )
     * [Turns out: untot! - Gulli-Link]( http://www.gulli.com/news/23508-popcorn-time-erst-eingestampft-jetzt-wieder-am-start-2014-03-17 )
 - [Full Disclosure ML](http://www.heise.de/newsticker/meldung/Mailingliste-Full-Disclosure-macht-dicht-2150127.html )
@@ -23,13 +24,16 @@ Diesmal nur mit Mat und Ingo.
     * [Ars Technica Artikel]( http://arstechnica.com/apple/2014/03/apple-resurrects-the-ipad-4-at-399-retires-the-ipad-2-at-long-last/ )
 
 ## Untoter der Woche
-* [Flappy Bird](http://www.heise.de/newsticker/meldung/Flappy-Bird-wohl-bald-wieder-erhaeltlich-2151155.html )
-* [iTunes lokaler sync](http://www.heise.de/newsticker/meldung/iTunes-Lokaler-Datenabgleich-mit-iOS-Geraeten-kehrt-zurueck-2149856.html )
+
+- [Flappy Bird](http://www.heise.de/newsticker/meldung/Flappy-Bird-wohl-bald-wieder-erhaeltlich-2151155.html )
+- [iTunes lokaler sync](http://www.heise.de/newsticker/meldung/iTunes-Lokaler-Datenabgleich-mit-iOS-Geraeten-kehrt-zurueck-2149856.html )
 
 ##Mcafee der Woche
+
 - [John McAfee uses this](http://john.mcafee.usesthis.com/ )
 
 ## News
+
 - [Nakamoto doch nicht der Bitcoin Erfinder]( http://www.golem.de/news/bitcoin-erfinder-dorian-nakamoto-dementiert-offiziell-1403-105188.html )
 - [btrfs wird standard in opensuse 13.2]( https://news.opensuse.org/2014/03/19/development-for-13-2-kicks-off/ )
 - [Twitter will @-Replies entfernen?!]( http://thenextweb.com/twitter/2014/03/20/twitter-latest-experiment-hints-that-it-will-remove-replies-from-its-service/ )
@@ -58,8 +62,9 @@ Diesmal nur mit Mat und Ingo.
 - [Diabolus - Taschenbuch](http://www.amazon.de/gp/product/3404157621/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=3404157621&linkCode=as2&tag=trektrip )
 
 ## Mimimi der Woche
+
 - mysql verschlüsseln - stunnel
-- veronica mars vod http://de.flixster.com/
+- [veronica mars vod]( http://de.flixster.com/ )
 - nexus 7 tot
 - iPhone-Headset-Kabel und Lightning-Port
 - Telekom Internet USA slow
