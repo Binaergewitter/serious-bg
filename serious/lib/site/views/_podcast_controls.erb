@@ -4,15 +4,17 @@
           <% article.audioformats.each_pair do |audio_format, audio_url| %>
             <a href="<%= audio_url %>"><img src="/img/audio_<%= audio_format %>_button.png"/></a>
           <% end %>
-          <a id="bitlove-<%= article.permalink %>" href="#"></a>
+          <a id="bitlove-<%= article.permalink %>" href="#"></a>          
           <script type="text/javascript">
-          torrentByEnclosure("<%= article.audioformats['mp3'] %>", function(info) {
-              if (info) {
-                bitlove_link = $("#bitlove-<%= article.permalink %>");
-                bitlove_link.append('<img src="/img/bitlove_button.png"/>');
-                bitlove_link.attr('href', info['sources']['0']['torrent']);
-              }
-          });          
+          head.ready('bitlove', function () {
+            torrentByEnclosure("<%= article.audioformats['mp3'] %>", function(info) {
+                if (info) {
+                  bitlove_link = $("#bitlove-<%= article.permalink %>");
+                  bitlove_link.append('<img src="/img/bitlove_button.png"/>');
+                  bitlove_link.attr('href', info['sources']['0']['torrent']);
+                }
+            });
+          });
           </script>
           </p>
         </div>
@@ -25,8 +27,9 @@
               Your browser does not support the audio element.
             </audio>
           </p>
-          <script>$('#<%= article.permalink %>').podlovewebplayer(
-            {
+          <script>
+          head.ready('podlove', function () {
+            $('#<%= article.permalink %>').podlovewebplayer({
                     poster: '/img/binaergewitter_logo.png',
             				title: '<%= article.title %>',
             				permalink: '<%= article.permalink %>',
@@ -38,7 +41,8 @@
             				timecontrolsVisible: false,
             				sharebuttonsVisible: false,
             				chaptersVisible: false
-          }
-          );</script>
+            });
+          });
+        </script>
         </div>
 <% end %>
