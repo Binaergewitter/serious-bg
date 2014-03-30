@@ -30,10 +30,10 @@ audioformats:
 
 ## News
 
-- [Windows Azure heißt jetzt nur noch Azure]( http://arstechnica.com/information-technology/2014/03/windows-azure-no-more-microsoft-renames-its-cloud-computing-service/ )
+- [Windows Azure heißt jetzt Microsoft Azure]( http://arstechnica.com/information-technology/2014/03/windows-azure-no-more-microsoft-renames-its-cloud-computing-service/ )
 - [Photo tagging in Twitter]( https://blog.twitter.com/2014/photos-just-got-more-social )
 - [Fucking Shellscripts]( http://fuckingshellscripts.org/ )
-- [Rust bekommt Package-Manager]( https://mail.mozilla.org/pipermail/rust-dev/2014-March/009090.html )
+- [Rust bekommt ein Package-Manager]( https://mail.mozilla.org/pipermail/rust-dev/2014-March/009090.html )
 - [Brendan Eich wird Mozilla CEO]( https://brendaneich.com/2014/03/mozilla-news/ )
     * [Gay developers protest]( http://arstechnica.com/business/2014/03/gay-firefox-developers-boycott-mozilla-to-protest-ceo-hire/ )
     * [Proposition 8 Spende]( http://projects.latimes.com/prop8/donation/8930/ )
@@ -48,11 +48,11 @@ audioformats:
     * [Blogpost von Notch]( http://notch.net/2014/03/virtual-reality-is-going-to-change-the-world/ )
     * [Refugio 3D]( http://www.bloculus.de/refugio-3d-diy-virtual-reality-fuer-20e/ )
 - [Python 3.4]( http://docs.python.org/3.4/whatsnew/3.4.html )
-  - [pip by default]( http://docs.python.org/3.4/whatsnew/3.4.html#whatsnew-pep-453 )
-  - [statistics]( http://docs.python.org/3.4/library/statistics.html#module-statistics )
-  - [isolated mode]( http://docs.python.org/3.4/whatsnew/3.4.html#whatsnew-isolated-mode )
-  - [ipaddress module]( http://docs.python.org/3.4/library/ipaddress.html#module-ipaddress )
-  - [asyncio]( http://docs.python.org/3.4/library/asyncio.html#module-asyncio )
+    * [pip by default]( http://docs.python.org/3.4/whatsnew/3.4.html#whatsnew-pep-453 )
+    * [statistics]( http://docs.python.org/3.4/library/statistics.html#module-statistics )
+    * [isolated mode]( http://docs.python.org/3.4/whatsnew/3.4.html#whatsnew-isolated-mode )
+    * [ipaddress module]( http://docs.python.org/3.4/library/ipaddress.html#module-ipaddress )
+    * [asyncio]( http://docs.python.org/3.4/library/asyncio.html#module-asyncio )
 - [HippyVM]( http://hippyvm.com/ )
     * [Topaz VM]( https://github.com/topazproject/topaz )
     * [Facebook Hack]( http://code.facebook.com/posts/264544830379293/hack-a-new-programming-language-for-hhvm/ )
@@ -82,7 +82,7 @@ audioformats:
 - [Battlefield Friends]( https://www.youtube.com/watch?v=s6I27mJyZi0 )
     * [BF4 Megalodon Easter Egg?]( https://www.youtube.com/watch?v=fk5fdlbwL34 )
     * [BF4 Yeti Easter Egg]( https://www.youtube.com/watch?v=bpU1kNQkF3o&list=UUw7FkXsC00lH2v2yB5LQoYA )
-    * [Why does CoD Suck?No Dinoaurs]( http://kotaku.com/5811215/embattlefield-3-reaches-out-to-4chan-withdinosaurs/all )
+    * [Why does CoD Suck? No Dinoaurs]( http://kotaku.com/5811215/embattlefield-3-reaches-out-to-4chan-withdinosaurs/all )
 - Do not disturb auf OS X
 - [vim.sexy]( http://vim.sexy/ )
 - [Howto Moonwalk (gif)]( https://lh5.googleusercontent.com/-lEZDY3Z9M5g/UzDoZd1C6CI/AAAAAAAAcgg/xh1EpfWNciw/w574-h851-no/14+-+1 )
