@@ -23,24 +23,24 @@ Die Sendung zum 1. April mit Mat, Felix und Ingo. Komplett in deutsch, aber aus 
 
 ## News
 - [automatische DMCA takedowns bei Dropbox-Shares]( http://arstechnica.com/tech-policy/2014/03/dropbox-clarifies-its-policy-on-reviewing-shared-files-for-dmca-issues/ )
-- http://www.heise.de/ct/artikel/Jugendschutz-Novelle-nimmt-soziale-Medien-ins-Visier-2153767.html
+- [Jugendschutz-Novelle nimmt soziale Medien ins Visier]( http://www.heise.de/ct/artikel/Jugendschutz-Novelle-nimmt-soziale-Medien-ins-Visier-2153767.html )
 - [$40m für imgur]( http://betabeat.com/2014/04/imgur-gets-40-million-investment-from-andreessen-horowitz/ )
 - [Mark Karpeles muss in die USA]( http://arstechnica.com/tech-policy/2014/04/bankruptcy-judge-orders-mt-gox-ceo-to-answer-questions-in-us-by-april-17/ )
 - [Ramverdoppler stable in Linux 3.14]( http://kernelnewbies.org/Linux_3.14 )
 - [USB-C]( http://arstechnica.com/gadgets/2014/04/usb-if-posts-first-photos-of-new-reversible-type-c-connector/ )
 - [Amazon Fire TV]( http://www.cnet.de/88128362/amazon-stellt-settop-box-amazon-fire-tv-vor/ )
-- [Zwei-Wege Uebersetzung fuer Delfinlaute]( http://www.gulli.com/news/23621-forscher-kurz-vor-zwei-wege-uebersetzung-von-delfin-lauten-2014-03-31 )
+- [Zwei-Wege Übersetzung für Delfinlaute]( http://www.gulli.com/news/23621-forscher-kurz-vor-zwei-wege-uebersetzung-von-delfin-lauten-2014-03-31 )
 - [Brendan Eich steps down as Mozilla CEO]( https://blog.mozilla.org/blog/2014/04/03/brendan-eich-steps-down-as-mozilla-ceo/ )
 - [Fake Base Stations in China]( http://www.ibtimes.co.uk/china-arrests-1500-people-sending-spam-text-messages-fake-mobile-base-stations-1442099 )
 - [OBS 2.5 mit github integration](http://www.pro-linux.de/news/1/20939/open-build-service-25-erschienen.html )
 - [Debian schmeißt CAcert raus](http://www.heise.de/open/meldung/Debian-verzichtet-auf-SSL-Root-Zertifikate-von-CAcert-2153353.html )
-    * startssl.com
-    * ssls.com
+    * [startssl.com]( https://startssl.com/ )
+    * [ssls.com]( http://www.ssls.com/ )
 - [Firechat nutzt iOS7 Mehrleute Verbindung]( http://www.wired.com/2014/03/apple-multipeer-connectivity/ )
     * [NSHipster: Multipeer Connectivity]( http://nshipster.com/multipeer-connectivity/ )
 - [Windows 8.1 Update 1 "Mouse and Keyboard friendly" whot?!]( http://arstechnica.com/gadgets/2014/04/mouse-and-keyboard-friendly-windows-8-1-update-arrives-april-8/ )
 - [Windows Phone 8.1 mit Cortana]( http://arstechnica.com/information-technology/2014/04/microsoft-announces-windows-phone-8-1-with-cortana-coming-in-april/ )
-- [Twitter Bann in Tuerkei fuer illegal vom Verfassungsgericht erklaert]( http://www.gulli.com/news/23638-tuerkei-verfassungsgericht-erklaert-twitter-sperre-fuer-illegal-2014-04-02 )
+- [Twitter Bann in der Türkei vom Verfassungsgericht für illegal erklärt]( http://www.gulli.com/news/23638-tuerkei-verfassungsgericht-erklaert-twitter-sperre-fuer-illegal-2014-04-02 )
     * [Twitter wieder freigegeben]( http://www.faz.net/aktuell/politik/tuerkei-hebt-twitter-verbot-auf-12878712.html )
 - [Quake3 auf dem Raspi]( http://www.raspberrypi.org/archives/6561 )
 - [WWDC 2014]( https://developer.apple.com/wwdc/ )
@@ -51,8 +51,8 @@ Die Sendung zum 1. April mit Mat, Felix und Ingo. Komplett in deutsch, aber aus 
 - [Rohrpostsystem in Berlin reaktiviert]( http://www.golem.de/news/nsa-skandal-rohrpostsystem-in-berlin-wird-reaktiviert-1404-105464.html )
 - [Microsoft Zahnspange]( http://blogs.technet.com/b/microsoft_presse/archive/2014/04/01/microsoft-pr-228-sentiert-betaversion-von-microsoft-braces.aspx )
 - Google Dinge
-  * [Google Pokemon Challenge]( )
-  * [Webseite -> Emoji Translator(video)]( https://www.youtube.com/watch?v=G3NXNnoGr3Y )
+  * [Google Pokemon Challenge]( https://www.youtube.com/watch?v=4YMD6xELI_k )
+  * [Webseite -> Emoji Translator (video)]( https://www.youtube.com/watch?v=G3NXNnoGr3Y )
   * [David Hasselhoff Photobomb]( http://googleblog.blogspot.de/2014/03/introducing-auto-awesome-photobombs.html )
 - [Basecamp goes back to basics]( http://signalvnoise.com/posts/3731-basecamp-goes-back-to-basics )
 - [Detelefon: DeMail bloß besser](http://www.detelefon.de/ )
