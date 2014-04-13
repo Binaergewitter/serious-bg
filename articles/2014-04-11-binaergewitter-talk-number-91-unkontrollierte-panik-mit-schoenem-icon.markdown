@@ -33,11 +33,11 @@ Das Internet ist kaputt. Und zwar so richtig. Darum treffen sich Mat, Felix, Pfl
 
 ## Untoter der Woche
 
-- [Fuer Dokumentation wird den Atari landfill oeffnen]( http://arstechnica.com/gaming/2014/04/xbox-has-landfill-dig-for-atari-games-approved/ )
+- [Für Dokumentation wird der Atari landfill geöffnet]( http://arstechnica.com/gaming/2014/04/xbox-has-landfill-dig-for-atari-games-approved/ )
 
 ## News
 
-- [Heart bleed]( http://heartbleed.com )
+- [Heartbleed]( http://heartbleed.com )
     * [Blog von Schneier](https://www.schneier.com/blog/archives/2014/04/heartbleed.html )
     * [Test Tool]( http://filippo.io/Heartbleed/ )
     * [Anderes Tool]( https://github.com/titanous/heartbleeder )
@@ -70,7 +70,7 @@ Das Internet ist kaputt. Und zwar so richtig. Darum treffen sich Mat, Felix, Pfl
 - [Carousel]( https://www.carousel.com/ )
     * [Dropbox Blog Announcement]( https://blog.dropbox.com/2014/04/a-home-for-life/ )
 - [Wie Cops gegen "Überwachung" in LA vorgehen]( http://arstechnica.com/tech-policy/2014/04/lapd-officers-monkey-wrenched-cop-monitoring-gear-in-patrol-cars/ )
-- [QR Codes fuer Kernel Panics]( http://www.phoronix.com/scan.php?page=news_item&px=MTY1NjI )
+- [QR Codes für Kernel Panics]( http://www.phoronix.com/scan.php?page=news_item&px=MTY1NjI )
 
 ## Themen
 
@@ -90,7 +90,8 @@ Das Internet ist kaputt. Und zwar so richtig. Darum treffen sich Mat, Felix, Pfl
 
 ## Picks
 
-// - macchanger
+// - [macchanger]( http://ftp.gnu.org/gnu/macchanger/ )
+
 - [Data tables GIF]( http://i.imgur.com/ZY8dKpA.gif )
 - [RMS](https://diasp.de/posts/df066c5ea2394a36 )
 - [TCO]( http://linuxwell.com/2014/03/30/tco/ )
