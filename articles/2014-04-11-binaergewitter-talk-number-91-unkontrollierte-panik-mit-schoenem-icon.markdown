@@ -63,7 +63,7 @@ Das Internet ist kaputt. Und zwar so richtig. Darum treffen sich Mat, Felix, Pfl
     * [SSL Labs SSL Test]( https://www.ssllabs.com/ssltest/ )
 - [Mal wieder E-Mail-Konten geklaut]( http://www.spiegel.de/netzwelt/web/datenklau-email-gehackt-bsi-will-dass-provider-warnen-a-962955.html )
 - [Vorratsdatenspeicherung von der EU gekippt]( http://www.spiegel.de/netzwelt/netzpolitik/vorratsdatenspeicherung-eugh-kippt-eu-richtlinie-a-963135.html )
-- [Indien verlieft 70% des Call-Center Geschaefts]( http://www.gulli.com/news/23655-indien-verliert-70-prozent-des-call-center-geschaefts-2014-04-07 )
+- [Indien verliert 70% des Call-Center Geschäfts]( http://www.gulli.com/news/23655-indien-verliert-70-prozent-des-call-center-geschaefts-2014-04-07 )
 - [Amazon Drones are for real]( http://recode.net/2014/04/10/bezos-confirms-amazon-fresh-expansion-plans-says-drones-are-for-real/ )
 - [Roundcube 1.0]( http://roundcube.net/news/2014/04/07/roundcube-webmail-1.0.0-released/ )
 - [Drop Dropbox]( http://www.drop-dropbox.com/ )
