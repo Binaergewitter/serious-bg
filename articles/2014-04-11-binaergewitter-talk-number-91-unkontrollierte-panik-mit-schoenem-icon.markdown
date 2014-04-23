@@ -25,7 +25,7 @@ Das Internet ist kaputt. Und zwar so richtig. Darum treffen sich Mat, Felix, Pfl
 
 - [Windows XP (for real this time)]( http://windows.microsoft.com/en-us/windows/end-support-help )
     * [Schweigeminute für FCKGW-...]( https://twitter.com/xpac/status/453448462043213824 )
-    * [Microsoft sollte gezwungen werden XP weiter zu Support](http://www.heise.de/newsticker/meldung/US-Jurist-Microsoft-sollte-zu-Windows-XP-Support-gezwungen-werden-2165156.html )
+    * [Microsoft sollte gezwungen werden XP weiter zu supporten](http://www.heise.de/newsticker/meldung/US-Jurist-Microsoft-sollte-zu-Windows-XP-Support-gezwungen-werden-2165156.html )
 - Verschlüsselung
 - Wetten dass ;)
 - [Die beste Anti-Virus App aus dem Play Store]( http://www.theregister.co.uk/2014/04/08/google_kills_virus_app_after_decompilation_proves_its_a_fake/ )
@@ -63,7 +63,7 @@ Das Internet ist kaputt. Und zwar so richtig. Darum treffen sich Mat, Felix, Pfl
     * [SSL Labs SSL Test]( https://www.ssllabs.com/ssltest/ )
 - [Mal wieder E-Mail-Konten geklaut]( http://www.spiegel.de/netzwelt/web/datenklau-email-gehackt-bsi-will-dass-provider-warnen-a-962955.html )
 - [Vorratsdatenspeicherung von der EU gekippt]( http://www.spiegel.de/netzwelt/netzpolitik/vorratsdatenspeicherung-eugh-kippt-eu-richtlinie-a-963135.html )
-- [Indien verliert 70% des Call-Center Geschäfts]( http://www.gulli.com/news/23655-indien-verliert-70-prozent-des-call-center-geschaefts-2014-04-07 )
+- [Indien verliert 70% des Call-Center-Geschäfts]( http://www.gulli.com/news/23655-indien-verliert-70-prozent-des-call-center-geschaefts-2014-04-07 )
 - [Amazon Drones are for real]( http://recode.net/2014/04/10/bezos-confirms-amazon-fresh-expansion-plans-says-drones-are-for-real/ )
 - [Roundcube 1.0]( http://roundcube.net/news/2014/04/07/roundcube-webmail-1.0.0-released/ )
 - [Drop Dropbox]( http://www.drop-dropbox.com/ )
@@ -90,7 +90,7 @@ Das Internet ist kaputt. Und zwar so richtig. Darum treffen sich Mat, Felix, Pfl
 
 ## Picks
 
-// - [macchanger]( http://ftp.gnu.org/gnu/macchanger/ )
+- [macchanger]( http://ftp.gnu.org/gnu/macchanger/ )
 
 - [Data tables GIF]( http://i.imgur.com/ZY8dKpA.gif )
 - [RMS](https://diasp.de/posts/df066c5ea2394a36 )
