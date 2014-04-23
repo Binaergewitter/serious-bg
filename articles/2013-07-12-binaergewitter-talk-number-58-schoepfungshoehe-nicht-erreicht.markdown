@@ -90,7 +90,7 @@ Mit Pfleidi, Felix und Ingo und auch gar nicht so lang aber wieder dumm, unlusti
 * [Sky will Werbung in die Brains 
 projizieren](http://www.telegraph.co.uk/finance/newsbysector/mediatechnologyandtelecoms/media/10158311/Sky-Deutschland-to-broadcast-adverts-directly-into-train-passengers-heads.html) ```00:34:29```  
 * [Subliminale Botschaften](http://de.wikipedia.org/wiki/Subliminal_%28Psychologie%29)  
-* [Github bring Release-Management](https://github.com/blog/1547-release-your-software)  
+* [Github bringt Release-Management](https://github.com/blog/1547-release-your-software)  
 * [Untertitelseite offline wegen Razia](http://www.heise.de/newsticker/meldung/Schwedische-Polizei-beschlagnahmt-Server-von-Untertitel-Webseite-1915924.html) ```00:39:31```  
 * [Piratebay](http://thepiratebay.se)  
 * [Flattr](http://flattr.com)  
