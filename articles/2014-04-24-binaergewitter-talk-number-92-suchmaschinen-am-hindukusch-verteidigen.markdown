@@ -11,7 +11,7 @@ audioformats:
   m4a: http://download.binaergewitter.de/2014-04-24.Binaergewitter.Talk.92.m4a
   opus: http://download.binaergewitter.de/2014-04-24.Binaergewitter.Talk.92.opus
 ---
-Ostern ist vorbei. Die Eier sind gegessen und auf der großartigen Pfleidicon treffen sich Mat, Felix, Pfleidi und Ingo um Gameboy, Serien, SSL und Aufkäufe zu reden und viel rumzuheulen.
+Ostern ist vorbei. Die Eier sind gegessen und auf der großartigen Pfleidicon treffen sich Mat, Felix, Pfleidi und Ingo um über 25 Jahre Gameboy, Serien, SSL und Aufkäufe zu reden und auch viel rumzuheulen.
 
 ## Toter der Woche
 
@@ -23,9 +23,9 @@ Ostern ist vorbei. Die Eier sind gegessen und auf der großartigen Pfleidicon tr
 
 ## News
 
-- 25 Jahre Game Boy
+- [25 Jahre Game Boy]( https://de.wikipedia.org/wiki/Game_Boy )
 - [Samsung Tizen Fone]( http://www.gulli.com/news/23709-neuer-versuch-samsungs-tizen-smartphone-erscheint-im-sommer-2014-04-16 )
-- [Wireless Strom](http://www.golem.de/news/energieversorgung-forscher-uebertragen-strom-drahtlos-ueber-5-meter-1404-106002.html ) via http://twitter.com/EricDanielski
+- [Wireless Strom](http://www.golem.de/news/energieversorgung-forscher-uebertragen-strom-drahtlos-ueber-5-meter-1404-106002.html ) via [@EricDanielski]( http://twitter.com/EricDanielski ) 
 - [OS X Beta Seed Program für alle mit Apple-ID]( https://appleseed.apple.com/sp/betaprogram )
 - [Security holes gefixt von iOS 7.1.1]( http://arstechnica.com/security/2014/04/apple-users-left-exposed-to-serious-threats-for-weeks-former-employee-says/ )
 - [Apple "nah" an neuer Product Category]( http://www.theverge.com/2014/4/24/5644896/apple-closer-than-ever-to-entering-new-product-category-ceo-says )
@@ -38,7 +38,7 @@ Ostern ist vorbei. Die Eier sind gegessen und auf der großartigen Pfleidicon tr
 - [Amazon Prime Kunden bekommen alten HBO-Content]( http://meedia.de/2014/04/23/hbo-serien-und-filme-bald-fuer-amazon-prime-kunden-verfuegbar/ )
 - [Facebook kauft Moves.app]( http://mashable.com/2014/04/24/facebook-acquires-moves-app/ )
 - [Bind 10 stirbt und Bundy kommt](http://www.pro-linux.de/news/1/21010/aus-bind-10-wird-bundy.html )
-- Debian 6.0 LTS
+- [Debian 6.0 LTS]( http://www.pro-linux.de/news/1/21003/debian-lts-wird-realitaet.html )
 
 ### Heartbleed Aftermath
 
@@ -55,7 +55,7 @@ Ostern ist vorbei. Die Eier sind gegessen und auf der großartigen Pfleidicon tr
 
 ## Themen
 
-- Easterhegg
+- [Easterhegg](http://eh14.easterhegg.eu/ )
 - Linux Web Kiosk
     * [Intel NUC]( http://www.intel.com/content/www/us/en/nuc/overview.html )
 
@@ -89,4 +89,3 @@ Ostern ist vorbei. Die Eier sind gegessen und auf der großartigen Pfleidicon tr
 - [Cyanide and Happiness: Dentist]( https://www.youtube.com/watch?v=gzsrooteAZw )
 - [1mobile store]( http://www.1mobile.com/ )
 - [Mac Pro Daisy Chain Challenge]( http://www.macworld.com/article/2146360/lab-tested-the-mac-pro-daisy-chain-challenge.html )
-
