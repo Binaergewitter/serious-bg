@@ -69,7 +69,9 @@ Die Sendung zum 1. April mit Mat, Felix und Ingo. Komplett in deutsch, aber aus 
 ## Lesefoo
 - [State of the SoC in 2014]( http://arstechnica.com/gadgets/2014/03/faster-cheaper-smaller-the-state-of-the-system-on-a-chip-in-2014/#p3 )
     * [Apple's Cyclone Architecture Detailed]( http://www.anandtech.com/show/7910/apples-cyclone-microarchitecture-detailed )
-- [Dovecot Buch]( http://www.amazon.de/dp/B00IR78JB0/?tag=trektrip )
+- [Dovecot Buch bei amazon]( http://www.amazon.de/dp/B00IR78JB0/?tag=trektrip )
+ - [Dovecot Buch direkt beim opensource press verlag](http://www.opensourcepress.de/de/produkte/Dovecot/13560/978-3-95539-074-7 )
+ - [Webseite zum Buch mit Fehlerkorreturen und Script Downloads](http://www.dovecot-buch.de/ )
 
 ## Mimimi der Woche
 - Samsung TouchWiz
