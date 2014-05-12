@@ -15,7 +15,7 @@ Die erste Sendung im Wonnemonat Mai. Mat, Felix und Ingo treffen sich zum Matepl
 
 ## Binaergewitter
 - IRC Titel Bot in #binaergewitter
-  - [auf github](https://github.com/krebscode/painload/tree/master/Reaktor/titlebot )
+  * [auf github](https://github.com/krebscode/painload/tree/master/Reaktor/titlebot )
 
 ## Blast from the past
 - [origins of libressl]( http://www.tedunangst.com/flak/post/origins-of-libressl )
@@ -23,18 +23,18 @@ Die erste Sendung im Wonnemonat Mai. Mat, Felix und Ingo treffen sich zum Matepl
 ## Toter der Woche
 - [Antiviren-Software]( http://www.golem.de/news/symantec-antivirensoftware-ist-tot-1405-106251.html )
 - [wer kennt wen]( http://blog.wer-kennt-wen.de/2014/05/werkenntwen-beendet-seine-geschaeftstaetigkeit/ )
-- [URLs](http://www.allenpike.com/2014/burying-the-url/ ) via Schmittlauch
+- [URLs](http://www.allenpike.com/2014/burying-the-url/ ) via [Schmittlauch]( https://twitter.com/@schmittlauch )
 
 ##tumblr der Woche
-- [TLDRWikipedia](http://tldrwikipedia.tumblr.com/ ) via noggerl
+- [TLDRWikipedia](http://tldrwikipedia.tumblr.com/ ) via [noggerl]( https://twitter.com/@noggerl )
 
 ##Mcafee der woche
 - [noch ein Messenger - 'Chadder' ](http://www.heise.de/security/meldung/John-McAfee-stellt-verschluesselnden-Smartphone-Messenger-vor-2183016.html )
 
 ## News
-- Firefox 28/29/30
-    - https://addons.mozilla.org/de/firefox/addon/classicthemerestorer/
-    - [Hide Navigation Bar für Vimperator]( https://addons.mozilla.org/de/firefox/addon/hide-navigation-bar/ )
+- [Firefox]( https://www.mozilla.org/de/firefox/new/ ) 28/29/30
+    * [Classic Theme Restorer]( https://addons.mozilla.org/de/firefox/addon/classicthemerestorer/ )
+    * [Hide Navigation Bar für Vimperator]( https://addons.mozilla.org/de/firefox/addon/hide-navigation-bar/ )
 - [POTUS bekommt einen neuen Helikopter]( http://www.theverge.com/2014/5/7/5692426/this-is-the-presidents-new-1-2-billion-helicopter )
 - [Samsung NX300 ziemlich offen]( http://www.heise.de/security/meldung/Systemkamera-Samsung-NX300-oeffnet-Hackern-Tuer-und-Tor-2185191.html )
 - [app.net kann seine Entwickler nicht mehr bezahlen]( http://mobile.theverge.com/2014/5/6/5688014/app-net-cant-pay-employees-but-promises-to-carry-on )
@@ -47,11 +47,11 @@ Die erste Sendung im Wonnemonat Mai. Mat, Felix und Ingo treffen sich zum Matepl
 - [iOS7 lock bypass]( http://www.neowin.net/news/ios-7-flaw-bypasses-lock-screen-lets-anyone-access-your-contact-list )
 - [Security Flaw in OAuth, OpenID]( http://www.cnet.com/news/serious-security-flaw-in-oauth-and-openid-discovered/ )
 - [Forscher wollen Spermien aus Haut erschaffen]( http://www.theverge.com/2014/5/5/5684748/scientists-closer-to-turning-human-skin-cells-into-sperm-cells )
-  - [obligatorischer XKCD]( media-cache-ec0.pinimg.com/236x/b4/8a/c9/b48ac9383becc5d1edda9457e5380a6c.jpg )
+  * [obligatorischer XKCD]( media-cache-ec0.pinimg.com/236x/b4/8a/c9/b48ac9383becc5d1edda9457e5380a6c.jpg )
 - [Atom nun OpenSource]( http://blog.atom.io/2014/05/06/atom-is-now-open-source.html )
 - [The next DuckDuckGo]( https://next.duckduckgo.com/ )
-- [Das NerveGear kommt bald - mit facebook und oculus rift]( http://www.theverge.com/2014/5/5/5684236/oculus-wants-to-build-a-billion-person-mmo-with-facebook )
-  - [Oculus Rift simuliert netzwerk lag]( http://www.cnet.com/news/oculus-rift-hack-shows-dangers-of-lag-in-the-real-world/ )
+- [Das NerveGear kommt bald - mit Facebook und Oculus Rift]( http://www.theverge.com/2014/5/5/5684236/oculus-wants-to-build-a-billion-person-mmo-with-facebook )
+  * [Oculus Rift simuliert netzwerk lag]( http://www.cnet.com/news/oculus-rift-hack-shows-dangers-of-lag-in-the-real-world/ )
 - [Chinesen verteidigen Truppenbasis mit trainierten Affen]( http://beta.slashdot.org/story/201753 )
 - [LXQT]( http://www.heise.de/newsticker/meldung/Erste-Version-des-Linux-Desktops-LXQt-veroeffentlicht-2185396.html )
 - [Samsung replaces head of mobile design]( http://arstechnica.com/gadgets/2014/05/samsung-replaces-head-of-mobile-design/ )
@@ -78,11 +78,11 @@ Die erste Sendung im Wonnemonat Mai. Mat, Felix und Ingo treffen sich zum Matepl
 - [AfD oder NPD]( http://afdodernpd.de/ ) via [Schmittlauch]( https://twitter.com/schmittlauch )
 - [was hat die eu je für uns getan]( http://www.xn--was-hat-die-eu-je-fr-uns-getan-nfd.de/ )
 - [Sascha Lobos re:publica rant]( http://re-publica.de/session/rede-zur-lage-nation )
-    - https://digitalegesellschaft.de/foerdermitglied/
+    * [Digitale Gesellschaft Fördermitgliedschaft]( https://digitalegesellschaft.de/foerdermitglied/ )
 - [patatap]( http://www.patatap.com/ )
 - [Lost Wikings gratis]( https://us.battle.net/account/download/?show=classic  )
-    - nächtes UT kostenlos und auf github http://beta.slashdot.org/story/201781
-    - [Unreal Engine Roadmap öffentlich]( https://www.unrealengine.com/blog/sharing-the-unreal-engine-4-roadmap )
+    * [nächtes UT kostenlos und auf github]( http://beta.slashdot.org/story/201781 )
+    * [Unreal Engine Roadmap öffentlich]( https://www.unrealengine.com/blog/sharing-the-unreal-engine-4-roadmap )
 - [Spoon Ad Sense]( http://twitter.com/norton_tim/status/464263363875184642/photo/1 )
 
 
