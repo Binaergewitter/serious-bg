@@ -34,6 +34,7 @@ Die erste Sendung im Wonnemonat Mai. Mat, Felix und Ingo treffen sich zum Matepl
 ## News
 - Firefox 28/29/30
     - https://addons.mozilla.org/de/firefox/addon/classicthemerestorer/
+    - [Hide Navigation Bar für Vimperator]( https://addons.mozilla.org/de/firefox/addon/hide-navigation-bar/ )
 - [POTUS bekommt einen neuen Helikopter]( http://www.theverge.com/2014/5/7/5692426/this-is-the-presidents-new-1-2-billion-helicopter )
 - [Samsung NX300 ziemlich offen]( http://www.heise.de/security/meldung/Systemkamera-Samsung-NX300-oeffnet-Hackern-Tuer-und-Tor-2185191.html )
 - [app.net kann seine Entwickler nicht mehr bezahlen]( http://mobile.theverge.com/2014/5/6/5688014/app-net-cant-pay-employees-but-promises-to-carry-on )
