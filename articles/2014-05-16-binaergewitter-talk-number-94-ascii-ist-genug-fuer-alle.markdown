@@ -14,7 +14,7 @@ audioformats:
 Die Minimaledreamteambesetzung ist am Start. Felix und Ingo reden über gescheiterte Quizduelle und Verschlüsselung im Netz.
 
 ##Blast from the past
-- [Titelbot gefixt utf-8]
+- Titelbot gefixt utf-8
 - Ingo ist jetzt in der [DigiGes]( https://digitalegesellschaft.de/ )
 
 ## Toter der Woche
@@ -27,27 +27,27 @@ Die Minimaledreamteambesetzung ist am Start. Felix und Ingo reden über gescheit
 ## News
 - [Brasilianische Kinder lernen Englisch mit Amerikanischen Omis]( http://www.adweek.com/adfreak/perfect-match-brazilian-kids-learn-english-video-chatting-lonely-elderly-americans-157523 )
 - [Telekom verschenkt 10 GB LTE](http://www.t-mobile.de/data-comfort-free/0,26298,28534-_,00.html )
- - http://www.amazon.de/Huawei-E3276-Surf-Stick-UMTS-microSD/dp/B00C9TF13Q/
+  * [Leider etwas teuer LTE Stick Huawei E3276 LTE ](http://www.amazon.de/gp/product/B00C9TF13Q/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B00C9TF13Q&linkCode=as2&tag=trektrip )
  - [Huawei LTE Stick K5005]( http://www.amazon.de/Vodafone-UMTS-LTE-USB-SurfStick-K5005-H-weiss/dp/B006JMISA2?tag=krebsco-21 )
 - [SWR will die die Partei Werbung nicht austrahlen](http://meedia.de/2014/05/12/ist-das-ding-an-swr-will-gaga-wahlwerbung-der-sonneborn-partei-nicht-senden/ )
-http://www.bundeswahlleiter.de/de/europawahlen/EU_BUND_09/ergebnisse/bundesergebnisse/
+- [Ergebnisse der Europawahl 2009](http://www.bundeswahlleiter.de/de/europawahlen/EU_BUND_09/ergebnisse/bundesergebnisse/ )
 - [Java API hat Urheberrechtsschutz](http://www.heise.de/newsticker/meldung/Oracle-vs-Google-US-Berufungsgericht-stellt-Java-API-unter-Urheberrechtsschutz-2186854.html )
 - [USB 3.1 mit kleinen Steckis und Energie]( http://www.golem.de/news/usb-3-1-typ-c-so-sieht-der-verdrehsichere-neue-usb-port-aus-1404-105543.html )
 - [Linux Root exploit]( http://beta.slashdot.org/story/201989 )
-      * Kgraft suse
-     * kpatch redhat
+    * Kgraft suse
+    * kpatch redhat
 - [wired: Active Learning ist besser als dich vom Lehrer berieseln zu lassen]( http://www.wired.com/2014/05/empzeal-active-learning/ )
   - [slashdot: Vorlesungen sind langweilig UND ineffektiv]( http://beta.slashdot.org/story/201941 )
 - [Daenisches Vermessungsministerium baut Daenemark in Minecraft nach - und es explodiert]( http://www.gamespot.com/articles/danish-government-creates-entire-country-in-minecraft-users-promptly-blow-it-up-and-plant-american-flag/1100-6419412/ )
 - [Firefox DRM]( https://hacks.mozilla.org/2014/05/reconciling-mozillas-mission-and-w3c-eme/ )
   - [FSF find das nicht gut]( https://fsf.org/news/fsf-condemns-partnership-between-mozilla-and-adobe-to-support-digital-restrictions-management )
-  - https://twitter.com/realramnit/status/466844969945554944/photo/1
+  - [Wollt ihr das?](https://twitter.com/realramnit/status/466844969945554944/photo/1 )
   - [Werbung in Firefox](http://www.heise.de/ix/meldung/Mozilla-Werbung-in-Firefox-ist-doch-nicht-ausgeschlossen-2187303.html )
   - [Popcorn Time auf Android]( http://www.heise.de/newsticker/meldung/Film-Streaming-Software-Popcorn-Time-als-Android-App-2188813.html )
 - [Ericsson hat 5 Gs!!!]( http://www.ispreview.co.uk/index.php/2014/05/ericsson-trial-possible-10gbps-5g-mobile-broadband-network-japan.html )
 - [Service-as-a-Service]( http://www.golem.de/news/service-as-a-service-administratoren-sollen-wegrationalisiert-werden-1405-106258.html )
  - [Canonical MAAS]( http://www.pro-linux.de/news/1/18238/canonical-bringt-metal-as-a-service-maas.html )
-     - http://www.pro-linux.de/news/1/21086/die-cloud-fuer-den-freien-menschen-cluster-rechner-von-canonical.html
+     * [Die Cloud für freie Menschen]( http://www.pro-linux.de/news/1/21086/die-cloud-fuer-den-freien-menschen-cluster-rechner-von-canonical.html )
 - [Endlich Drosselkom auch in USA; Comcast will Bandbreiten Caps]( http://hardware.slashdot.org/story/14/05/15/1247200/comcast-predicts-storage-cap-within-5-years )
 - [ARD Quizduell: "Größtes TV-Experiment"]( http://www.gulli.com/news/23847-ard-quizduell-groesstes-tv-experiment-scheitert-an-technik-2014-05-14 )
 
