@@ -10,4 +10,5 @@ group :test do
   gem 'test-unit'
   gem 'webmock'
   gem 'feedvalidator', :require => 'feed_validator', :git => 'https://github.com/bandzoogle/feedvalidator.git'
+  gem 'typhoeus'
 end

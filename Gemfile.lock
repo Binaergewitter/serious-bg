@@ -15,23 +15,26 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.3.5)
+    addressable (2.3.6)
     builder (3.2.2)
     coderay (1.1.0)
     crack (0.4.2)
       safe_yaml (~> 1.0.0)
+    ethon (0.7.0)
+      ffi (>= 1.3.0)
+    ffi (1.9.3)
     json (1.8.1)
-    puma (2.8.1)
+    puma (2.8.2)
       rack (>= 1.1, < 2.0)
     rack (1.5.2)
-    rack-protection (1.5.2)
+    rack-protection (1.5.3)
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
-    rake (10.1.1)
-    rdiscount (2.1.7)
-    safe_yaml (1.0.1)
-    sinatra (1.4.4)
+    rake (10.3.2)
+    rdiscount (2.1.7.1)
+    safe_yaml (1.0.3)
+    sinatra (1.4.5)
       rack (~> 1.4)
       rack-protection (~> 1.4)
       tilt (~> 1.3, >= 1.3.4)
@@ -40,8 +43,10 @@ GEM
       rdiscount (>= 1.5.0)
     test-unit (2.5.5)
     tilt (1.4.1)
-    webmock (1.17.4)
-      addressable (>= 2.2.7)
+    typhoeus (0.6.8)
+      ethon (>= 0.7.0)
+    webmock (1.18.0)
+      addressable (>= 2.3.6)
       crack (>= 0.3.2)
 
 PLATFORMS
@@ -55,4 +60,5 @@ DEPENDENCIES
   rake
   serious!
   test-unit
+  typhoeus
   webmock
