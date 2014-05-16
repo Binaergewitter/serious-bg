@@ -57,8 +57,7 @@ http://www.bundeswahlleiter.de/de/europawahlen/EU_BUND_09/ergebnisse/bundesergeb
   - [Cisco findet das garnicht so gut]( http://www.heise.de/newsticker/meldung/NSA-Skandal-Cisco-beschwert-sich-ueber-manipulierte-Postsendungen-2190470.html )
 - [Das Internet muss sich Schützen gegen das Monitoring der NSA]( http://beta.slashdot.org/story/202013 )
 - [Das Internet gehört der NSA](http://www.heise.de/newsticker/meldung/Ehemaliger-NSA-Technikchef-Der-NSA-gehoert-das-Netzwerk-2188605.html ) via [cabaire]( http://twitter.com/cabaire )
-- PFS
- https://community.qualys.com/blogs/securitylabs/2013/08/05/configuring-apache-nginx-and-openssl-for-forward-secrecy
+- [PFS](https://community.qualys.com/blogs/securitylabs/2013/08/05/configuring-apache-nginx-and-openssl-for-forward-secrecy)
 - [Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security )
 - [sslstrip]( http://www.thoughtcrime.org/software/sslstrip/ )
 
