@@ -47,7 +47,7 @@ Die erste Sendung im Wonnemonat Mai. Mat, Felix und Ingo treffen sich zum Matepl
 - [iOS7 lock bypass]( http://www.neowin.net/news/ios-7-flaw-bypasses-lock-screen-lets-anyone-access-your-contact-list )
 - [Security Flaw in OAuth, OpenID]( http://www.cnet.com/news/serious-security-flaw-in-oauth-and-openid-discovered/ )
 - [Forscher wollen Spermien aus Haut erschaffen]( http://www.theverge.com/2014/5/5/5684748/scientists-closer-to-turning-human-skin-cells-into-sperm-cells )
-  * [obligatorischer XKCD]( media-cache-ec0.pinimg.com/236x/b4/8a/c9/b48ac9383becc5d1edda9457e5380a6c.jpg )
+  * [obligatorischer XKCD]( http://media-cache-ec0.pinimg.com/236x/b4/8a/c9/b48ac9383becc5d1edda9457e5380a6c.jpg )
 - [Atom nun OpenSource]( http://blog.atom.io/2014/05/06/atom-is-now-open-source.html )
 - [The next DuckDuckGo]( https://next.duckduckgo.com/ )
 - [Das NerveGear kommt bald - mit Facebook und Oculus Rift]( http://www.theverge.com/2014/5/5/5684236/oculus-wants-to-build-a-billion-person-mmo-with-facebook )
