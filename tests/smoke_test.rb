@@ -2,6 +2,8 @@ require 'test/unit'
 require "rack/test"
 require 'feed_validator/assertions'
 require 'webmock/test_unit'
+require "net/http"
+require 'typhoeus'
 
 OUTER_APP = Rack::Builder.parse_file('config.ru').first
 
@@ -69,12 +71,30 @@ class SmokeTest < Test::Unit::TestCase
     assert !last_response.ok?
   end
 
-  def test_that_all_posts_work
+  def test_that_all_posts_on_the_archive_page_work
     get "/archives"
-    last_response.body.scan(/a href="([^"])"/).each do |match|
+    last_response.body.scan(/a href=["'](\/2.*)["']>/).each do |match|
       get match[0]
       assert last_response.ok?
     end
+  end
+
+  def test_that_all_episodes_can_be_downloaded
+    WebMock.allow_net_connect!
+    hydra = Typhoeus::Hydra.hydra
+    requests = []
+    Serious::Article.all.each do |post|
+      post.audioformats.each do |format, link|
+        req = Typhoeus::Request.new(link, {:method => :head})
+        requests << req
+        hydra.queue req
+      end
+    end
+    hydra.run
+    requests.each do |req|
+      assert req.response.success?, "Audio file was not available: #{req.url}"
+    end
+    WebMock.disable_net_connect!
   end
 
   def test_the_podcast_is_live_at_xenim
