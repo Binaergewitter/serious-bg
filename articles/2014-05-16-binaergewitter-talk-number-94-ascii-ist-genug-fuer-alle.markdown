@@ -58,6 +58,7 @@ Die Minimaledreamteambesetzung ist am Start. Felix und Ingo reden über gescheit
 - [Das Internet gehört der NSA](http://www.heise.de/newsticker/meldung/Ehemaliger-NSA-Technikchef-Der-NSA-gehoert-das-Netzwerk-2188605.html ) via [cabaire]( http://twitter.com/cabaire )
 - [PFS](https://community.qualys.com/blogs/securitylabs/2013/08/05/configuring-apache-nginx-and-openssl-for-forward-secrecy)
 - [Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security )
+  * [Browser die Strict Transport Security unterstützen ](http://caniuse.com/stricttransportsecurity )
 - [sslstrip]( http://www.thoughtcrime.org/software/sslstrip/ )
 
 ## Lesefoo
