@@ -11,7 +11,7 @@ audioformats:
   m4a: http://download.binaergewitter.de/2014-05-22.Binaergewitter-Talk.95.m4a
   opus: http://download.binaergewitter.de/2014-05-22.Binaergewitter-Talk.95.opus
 ---
-Diesmal nur Mat und Ingo im etwas improvisierten Studio.
+Diesmal nur Mat und Ingo im etwas improvisierten Studio. 
 
 ## News
 - [eBay User DB geklaut]( http://www.heise.de/newsticker/meldung/Angriff-auf-eBay-Datenbank-Nutzer-sollen-Passwort-aendern-2195127.html )
@@ -55,5 +55,5 @@ Diesmal nur Mat und Ingo im etwas improvisierten Studio.
 - [berg Pixel Track]( http://blog.bergcloud.com/2014/05/20/pixel-track/ )
 - [Actors before they were on GoT]( https://www.youtube.com/watch?v=rct8l4_ezJs )
     * [imgur-Sammlung]( http://imgur.com/o48UBeb )
-- geht wählen!!!
+- geht wählen!!!!
 
