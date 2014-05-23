@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2014-05-22.Binaergewitter-Talk.95.mp3
-  ogg: http://download.binaergewitter.de/2014-05-22.Binaergewitter-Talk.95.ogg
-  m4a: http://download.binaergewitter.de/2014-05-22.Binaergewitter-Talk.95.m4a
-  opus: http://download.binaergewitter.de/2014-05-22.Binaergewitter-Talk.95.opus
+  mp3: http://download.binaergewitter.de/2014-05-22.Binaergewitter.Talk.95.mp3
+  ogg: http://download.binaergewitter.de/2014-05-22.Binaergewitter.Talk.95.ogg
+  m4a: http://download.binaergewitter.de/2014-05-22.Binaergewitter.Talk.95.m4a
+  opus: http://download.binaergewitter.de/2014-05-22.Binaergewitter.Talk.95.opus
 ---
 Diesmal nur Mat und Ingo im etwas improvisierten Studio. 
 
