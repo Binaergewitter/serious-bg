@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Binärgewitter Talk #95 - 20cm zu breit"
-date: 2014-05-23 09:00
+date: 2014-05-23 11:00
 comments: true
 categories: talk
 sharing: true
@@ -18,7 +18,7 @@ Diesmal nur Mat und Ingo im etwas improvisierten Studio.
     * [full ebay user database dump]( http://pastebin.com/vmvjGw3N )
     * [Postillon]( http://www.der-postillon.com/2014/05/top-zustand-gerne-wieder-hacker.html )
 - [Postillon24 von N24 verklagt?]( https://www.youtube.com/watch?v=1f-lbizqvIg&list=UUIIVvAp6DP3a2MmoIuIjvQA )
-- [neues Design bei duckduckgo]( http://www.heise.de/newsticker/meldung/DuckDuckGo-Suchmaschine-mit-neuem-Design-2194466.html )
+- [neues Design bei DuckDuckGo]( http://www.heise.de/newsticker/meldung/DuckDuckGo-Suchmaschine-mit-neuem-Design-2194466.html )
 - [Ultra kurze URLs dank Unicode]( http://9m.no/ )
     * [guess what]( http://9m.no/%E4%BC%AA%EB%AA%A2 )
 - [Quizduell Entwickler erklärt Ausfall?]( http://www.grandcentrix.net/2014/05/20/blog/news/quizduell-im-ersten-fragen-und-antworten-zur-technik/ )
