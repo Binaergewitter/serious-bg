@@ -5,6 +5,10 @@ gem "serious", :path => './serious'
 gem "json"
 gem 'puma'
 
+group :development do
+  gem 'rerun'
+end
+
 group :test do
   gem 'rack-test'
   gem 'test-unit'
