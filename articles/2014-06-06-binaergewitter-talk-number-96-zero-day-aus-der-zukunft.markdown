@@ -88,7 +88,7 @@ Nach unser Männertagspause kommen wir zurück mit Pfleidi via VoIP und reden ü
 ## Picks
 
 - [Amazon Video looks like people finding out they have genitals]( https://twitter.com/AlexDRobertson/status/474307800542482433 )
-- [ReplyGIF( http://replygif.net/ )
+- [ReplyGIF]( http://replygif.net/ )
 - [Hearthstone]( http://us.battle.net/hearthstone/en/ )
 - [Dash.vim]( https://github.com/rizzatti/dash.vim#readme )
 - [ein Bett für Snowden](http://blog.campact.de/2014/06/bundesweite-aktion-wir-bieten-edward-snowden-ein-bett-in-deutschland/ )
