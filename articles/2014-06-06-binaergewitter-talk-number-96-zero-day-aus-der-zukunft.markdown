@@ -23,7 +23,7 @@ Nach unser Männertagspause kommen wir zurück mit Pfleidi via VoIP und reden ü
 
 ## Tumblr der Woche
 
-- [auch ich bin deutschland](http://auchichbindeutschland.tumblr.com/ ) via http://twitter.com/EricDanielski
+- [auch ich bin deutschland](http://auchichbindeutschland.tumblr.com/ ) via (http://twitter.com/EricDanielski )
     * [Fremd im eigenen Land]( http://www.youtube.com/watch?v=yHe3xIQQpKU )
 
 ## Open Apache Graveyard der Woche
