@@ -38,12 +38,25 @@
     <div class="row-fluid">
       <div class="span3">
         <div class="well sidebar-nav">
+          <div class="site-search nav-list">
+              <!-- DDG Search !-->
+              <form class="navbar-form navbar-left" role="search" action="https://duckduckgo.com/" name="x">
+                <input type="hidden" name="sites" value="blog.binaergewitter.de">
+                <div class="widget-DDG form-group">
+                  <div class="widget-DDG_start"></div>
+                  <div class="widget-DDG_input"><input name="q" type="text" class="DDGinput form-control" placeholder='Suche' /></div>
+                  <div class="widget-DDG_end" onclick="document.x.submit()" class="btn btn-default"></div>
+                </div>
+              </form>
+          </div>
+        </div>
+        <div class="well sidebar-nav">
           <%= render_nav Serious::Page.all %>
           <% if Serious.flattr %>
           <div class="flattr-button nav-list">
             <iframe src="http://api.flattr.com/button/view/?url=<%= Serious.url %>%2F&amp;title=<%= Serious.title %>&amp;description=Ein%20Podcast%2C%20der%20sich%20mit%20dem%20Web%2C%20Technologie%20und%20Open%20Source%20Software%20auseinander%20setzt&amp;uid=<%= Serious.flattr_uid%>&amp;category=<%= Serious.flattr_category %>&amp;tags=<%= Array(Serious.flattr_tags).join('%2C') %>&amp;" class="FlattrButton" width="55" height="62" frameborder="0" scrolling="no" border="0" marginheight="0" marginwidth="0" allowtransparency="true"></iframe>
           </div>
-          <% end %>
+          <% end %> 
         </div>
       </div>
       <div class="span9">
