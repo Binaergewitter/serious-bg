@@ -43,7 +43,7 @@ http://www.itadministrator.de/themen/server_client/135671.html ) via taschenbier
     * [Cleverbot liegt im vergleich bei 63.3%]( http://www.cleverbot.com/human )
     * [Google hat Skybox gekauft]( http://arstechnica.com/business/2014/06/google-buys-satellite-imaging-company-skybox-for-500-million/ )
 - [nokia here fährt jetzt auch rum]( http://www.heise.de/newsticker/meldung/Nokia-macht-Strassenaufnahmen-fuer-Kartendienst-Here-2218515.html )
-    * [Nokia stärkt Kartendiest Here mit Firmenkauf](http://www.heise.de/newsticker/meldung/Nokia-staerkt-Kartendienst-Here-mit-Firmenkauf-2220896.html)
+    * [Nokia stärkt Kartendienst Here mit Firmenkauf](http://www.heise.de/newsticker/meldung/Nokia-staerkt-Kartendienst-Here-mit-Firmenkauf-2220896.html)
 - netflix in deutschland
     - [Watchever soll verkauft werden](
 http://www.heise.de/newsticker/meldung/Video-on-Demand-Dienst-Watchever-steht-angeblich-zum-Verkauf-2219391.html )
