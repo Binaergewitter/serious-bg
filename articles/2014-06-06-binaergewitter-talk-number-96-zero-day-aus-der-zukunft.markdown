@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Binärgewitter Talk #95 - Zero Day aus der Zukunft"
+title: "Binärgewitter Talk #96 - Zero Day aus der Zukunft"
 date: 2014-06-06 18:00
 comments: true
 categories: talk
