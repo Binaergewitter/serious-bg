@@ -15,15 +15,15 @@ Zu heiß. Viel zu heiß im Studio. Schwitzend besprechen wir diesmal uber, Turin
 
 ## dotcom der woche
 
-- [dotcom sucht den 5mio whistleblower]( http://www.bernerzeitung.ch/digital/internet/Brauche-Whistleblower-biete-fuenf-Millionen-Dollar/story/26847912 ) via deer_head
+- [dotcom sucht den 5mio whistleblower]( http://www.bernerzeitung.ch/digital/internet/Brauche-Whistleblower-biete-fuenf-Millionen-Dollar/story/26847912 ) via [deer_head]( https://twitter.com/deer_head )
 
 ## Blast from the Past
 
 - [windows kann was was die anderen nicht können](
-http://www.itadministrator.de/themen/server_client/135671.html ) via taschenbier
+http://www.itadministrator.de/themen/server_client/135671.html ) via [taschenbier]( https://twitter.com/taschenbier )
 - [HipHop Player benutzt Youtube kein Torrent]( https://github.com/hiphopapp/hiphop/blob/master/README.md )
-    * [Internet in Nord-Korea]( http://en.wikipedia.org/wiki/Telecommunications_in_North_Korea )
-    * [5G in Sued-Korea]( http://www.techinasia.com/south-korea-plans-5g-network-trials-2018/ )
+    * [Internet in Nordkorea]( http://en.wikipedia.org/wiki/Telecommunications_in_North_Korea )
+    * [5G in Südkorea]( http://www.techinasia.com/south-korea-plans-5g-network-trials-2018/ )
 
 ## Toter der Woche
 
@@ -45,18 +45,17 @@ http://www.itadministrator.de/themen/server_client/135671.html ) via taschenbier
 - [nokia here fährt jetzt auch rum]( http://www.heise.de/newsticker/meldung/Nokia-macht-Strassenaufnahmen-fuer-Kartendienst-Here-2218515.html )
     * [Nokia stärkt Kartendienst Here mit Firmenkauf](http://www.heise.de/newsticker/meldung/Nokia-staerkt-Kartendienst-Here-mit-Firmenkauf-2220896.html)
 - netflix in deutschland
-    - [Watchever soll verkauft werden](
-http://www.heise.de/newsticker/meldung/Video-on-Demand-Dienst-Watchever-steht-angeblich-zum-Verkauf-2219391.html )
+    * [Watchever soll verkauft werden]( http://www.heise.de/newsticker/meldung/Video-on-Demand-Dienst-Watchever-steht-angeblich-zum-Verkauf-2219391.html )
 - [Amazon Prime Music]( http://www.amazon.com/gp/dmusic/promotions/prime.html/ )
-- [HTTP/1.1 Update RFCs]( http://evertpot.com/http-11-updated/ ) dank schmittlauch
+- [HTTP/1.1 Update RFCs]( http://evertpot.com/http-11-updated/ ) dank [schmittlauch]( https://twitter.com/schmittlauch )
     * neue saubere RFCs. HTTP 1.1 neu aufgeschrieben
 - [Git 2.0 Kurzübersicht]( http://blogs.atlassian.com/2014/06/happened-git-2-0-full-goodies/ )
 - [Taxifahrer-Proteste gegen Uber]( http://thenextweb.com/uk/2014/06/11/uber-sign-ups-jumped-850-taxi-driver-protests-london/ )
-  * [Passender Gulli Artikel]( http://www.gulli.com/news/23986-aufgebrachte-taxi-fahrer-wollen-stadtverkehr-europaweit-ausbremsen-2014-06-11 )
-  * [Uber Website]( https://www.uber.com/ )
-  * [Spanien will EU Regeln für Uber](http://www.heise.de/newsticker/meldung/Spanien-will-EU-Regelung-fuer-Online-Mitfahrdienste-2220420.html )
+    * [Passender Gulli Artikel]( http://www.gulli.com/news/23986-aufgebrachte-taxi-fahrer-wollen-stadtverkehr-europaweit-ausbremsen-2014-06-11 )
+    * [Uber Website]( https://www.uber.com/ )
+    * [Spanien will EU Regeln für Uber](http://www.heise.de/newsticker/meldung/Spanien-will-EU-Regelung-fuer-Online-Mitfahrdienste-2220420.html )
 - [3.15 (kernelnewbies)]( http://kernelnewbies.org/Linux_3.15 )
-  * faster resume after suspend, btrfs, BATMAN-adv und performance shizzle, xfs
+    * faster resume after suspend, btrfs, BATMAN-adv und performance shizzle, xfs
 - [iFind - Wiederfinden von Krams OHNE Batterie(Kickstarter)]( https://www.kickstarter.com/projects/yuansong84/ifind-the-worlds-first-battery-free-item-locating )
     * [Orgon Akkumulator]( http://www.amazon.de/Hildegard-Orgonakkumulator-von-Jentschura-Energetisierung/dp/B0044S3CEK/ref=sr_1_1?ie=UTF8&qid=1402602343&sr=8-1&keywords=orgonakkumulator )
 - [Google Nearby für Android]( http://www.androidpolice.com/2014/06/06/exclusive-google-will-soon-introduce-nearby-to-let-other-people-places-and-things-know-when-youre-around/ )
@@ -66,12 +65,12 @@ http://www.heise.de/newsticker/meldung/Video-on-Demand-Dienst-Watchever-steht-an
    * [Android App Permissions Mimimi]( http://www.howtogeek.com/190863/androids-app-permissions-were-just-simplified-now-theyre-much-less-secure/ )
 - [iOS 8 verschleiert MAC-Adresse für Wi-Fi-Discovery]( http://arstechnica.com/apple/2014/06/ios8-to-stymie-trackers-and-marketers-with-mac-address-randomization/ )
 - [Firma waehlt vorstand mittels Algorithmus]( http://www.gulli.com/news/23861-investment-firma-waehlt-algorithmus-in-den-vorstand-2014-05-16 )
-  * [Dilbert Principle?]( http://en.wikipedia.org/wiki/Dilbert_principle )
+    * [Dilbert Principle?]( http://en.wikipedia.org/wiki/Dilbert_principle )
 - [Project Unic0rn - reaping the low-hanging vulnerability fruit]( http://motherboard.vice.com/read/is-this-website-vulnerable-to-hackers-project-un1c0rn-has-the-answer )
 - [Österreicher hat Tweetdeck lahmgelegt?]( http://www.theverge.com/2014/6/11/5800810/todays-tweetdeck-collapse-may-have-been-triggered-by-an-austrian-teen )
 - [Tweetdeck Vulnerability]( http://www.theguardian.com/technology/2014/jun/12/tweetdeck-vulnerability-teen-code-emoji-heart )
-- [Metasploit Module fuer Openssl DTLS Vuln (nicht Heartbleed, besser)]( https://isc.sans.edu/diary/Metasploit+now+includes+module+to+exploit+CVE-2014-0195+(OpenSSL+DTLS+Fragment+Vuln.)/18253 )
-  * [CVE-2014-0195 Writeup]( http://h30499.www3.hp.com/t5/HP-Security-Research-Blog/ZDI-14-173-CVE-2014-0195-OpenSSL-DTLS-Fragment-Out-of-Bounds/ba-p/6501002 )
+- [Metasploit Module fuer Openssl DTLS Vuln (nicht Heartbleed, besser)]( https://isc.sans.edu/forums/diary//18253 )
+    * [CVE-2014-0195 Writeup]( http://h30499.www3.hp.com/t5/HP-Security-Research-Blog/ZDI-14-173-CVE-2014-0195-OpenSSL-DTLS-Fragment-Out-of-Bounds/ba-p/6501002 )
 - [Valve will Mesa 3D verbessern](http://www.pro-linux.de/news/1/21174/valve-will-3d-geschwindigkeit-von-mesa-verbessern.html )
     * [Mesa3D]( http://www.mesa3d.org/intro.html )
 - [Civilization V für Linux](http://www.pro-linux.de/news/1/21175/sid-meier39s-civilization-v-fuer-linux-veroeffentlicht.html )
@@ -88,7 +87,7 @@ http://www.heise.de/newsticker/meldung/Video-on-Demand-Dienst-Watchever-steht-an
 - [Hacking the D-Link DSP-W215 Smart Plug (before being sold)]( http://www.devttys0.com/2014/05/hacking-the-d-link-dsp-w215-smart-plug/ )
 - [ActiveModel Form Objects]( http://robots.thoughtbot.com/activemodel-form-objects )
 - [The emperor’s new clothes were built with Node.js]( http://notes.ericjiang.com/posts/751 )
-- [Heisenbergs's Developers]( http://mikehadlow.blogspot.com/2014/06/heisenberg-developers.html ) (via l33tname)
+- [Heisenbergs's Developers]( http://mikehadlow.blogspot.com/2014/06/heisenberg-developers.html ) (via [l33tname]( https://twitter.com/l33tname ))
 
 ## Mimimi der Woche
 
@@ -98,9 +97,9 @@ http://www.heise.de/newsticker/meldung/Video-on-Demand-Dienst-Watchever-steht-an
 
 - [Globalsign bietet kostenfreie SSL Zertifikate fuer Open-Source Projekte](https://www.globalsign.com/ssl/ssl-open-source/ )
 - [g2play]( http://www.g2play.net/?acc=195ao )
-  - [Typing of the Dead:Overkill]( http://www.g2play.net/category/3667/the-typing-of-the-dead-overkill-steam-key/?acc=195ao )
+    * [Typing of the Dead:Overkill]( http://www.g2play.net/category/3667/the-typing-of-the-dead-overkill-steam-key/?acc=195ao )
 - [Transcend JetDrive Lite 130]( http://www.amazon.de/gp/product/B00K73NSU4/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B00K73NSU4&linkCode=as2&tag=trektrip )
-  - [HP Elitebook 820]( http://www.amazon.de/dp/B00G6FIEI8/?tag=krebsco-21 )
+    * [HP Elitebook 820]( http://www.amazon.de/dp/B00G6FIEI8/?tag=krebsco-21 )
 - [ChaBoyyHD's Youtube Channel]( https://www.youtube.com/user/ChaBoyyHD )
 - [Cold Brew coffee]( http://drinks.seriouseats.com/2012/04/best-way-to-make-cold-brew-coffee-iced-coffee-technique-tips.html )
 - [netctl-auto]( https://wiki.archlinux.org/index.php/netctl#Automatic_operation )
