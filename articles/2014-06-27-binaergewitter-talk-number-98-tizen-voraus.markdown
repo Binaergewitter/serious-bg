@@ -43,10 +43,10 @@ Nach einer Woche Pause meldet sich das Dreamteam wieder zurück u.a. reden wir �
     - [DIY #2](http://www.instructables.com/id/DIY-3D-Head-Mounted-Display-using-your-smartphone/?lang=de )
   * Android TV
   * [Android L](http://www.androidnext.de/news/android-l-release-naechste-os-version-vorgestellt-als-developer-version-in-kuerze-verfuegbar-google-io-2014/ )
-  * Google Fit
+  * [Google Fit](https://developers.google.com/fit/ )
   * [sogar mit Protesten](http://www.heise.de/newsticker/meldung/Proteste-bei-der-Google-I-O-Sie-arbeiten-fuer-ein-totalitaeres-Unternehmen-2239084.html )
   * [Google Moonshot]( http://arstechnica.com/gadgets/2014/06/google-moonshot-group-demos-modular-phone-that-almost-actually-works/ )
-    - [WP: Serie Continuum](https://de.wikipedia.org/wiki/Continuum_(Fernsehserie\) )
+    - [WP: Serie Continuum](https://de.wikipedia.org/wiki/Continuum_\(Fernsehserie\) )
     - [Continuum bei Amazon](http://www.amazon.de/gp/product/B00DOLB8NA/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B00DOLB8NA&linkCode=as2&tag=trektrip )
 - [Amazon Fire Phone]( http://www.amazon.com/dp/B00EOE0WKQ/ref=fp_dp_auto_play?pf_rd_m=ATVPDKIKX0DER&pf_rd_s=gateway-center-column&pf_rd_r=0ETFR6ZGA42C3Z5N34W2&pf_rd_t=101&pf_rd_p=1828037122&pf_rd_i=507846 )
 - [Tizen wird Samsungs "Betriebssystem für alles"]( http://www.computerbase.de/2014-06/samsung-tizen-android-alternative-betriebssystem-fuer-alles/ )
