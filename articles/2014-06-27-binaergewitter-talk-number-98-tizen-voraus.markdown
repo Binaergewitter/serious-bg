@@ -70,5 +70,5 @@ Nach einer Woche Pause meldet sich das Dreamteam wieder zur√ºck u.a. reden wir √
 - [tmux protocol version mismatch]( https://plus.google.com/110139418387705691470/posts/BebrBSXMkBp )
 
 ## Picks
-- [Schwerkraft] via tobonaut (https://play.google.com/store/apps/details?id=com.anfema.schwerkraft )
+- [Schwerkraft](https://play.google.com/store/apps/details?id=com.anfema.schwerkraft ) via tobonaut 
 - Conversations (XMPP)
