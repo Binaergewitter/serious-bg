@@ -13,8 +13,7 @@ audioformats:
 ---
 Nach einer Woche Pause meldet sich das Dreamteam wieder zurück u.a. reden wir über die Google I/O, Tizen, Scam und Forks.
 
-# Blast from the Past
-
+## Blast from the Past
 - [iFind ist ein scam?!]( http://www.theregister.co.uk/2014/06/24/ifind_kickstarter/ )
     * [Drop-Kicker Artikel]( http://drop-kicker.com/2014/06/ifind-rf-energy-harvesting-bluetooth-beacon/ )
     * [Google Docs welches claims auseinander nimmt]( https://docs.google.com/document/d/1tI0mE85oXhnyjvn0HXnSmjOAE9C2KHu-sKYvBdoxZQk/edit#heading=h.2s7oz63h8sj8 )
@@ -60,11 +59,12 @@ Nach einer Woche Pause meldet sich das Dreamteam wieder zurück u.a. reden wir �
   * [nur fuer sql zeugs - adminer]( http://www.adminer.org/de/ )
 - [US Marshal CC'd an alle potentiellen Interessenten der Bitcoins von Silkroad]( http://arstechnica.com/tech-policy/2014/06/us-marshal-hits-reply-all-reveals-those-interested-in-anonymous-bitcoin-auction/ )
 - [BoringSSL auf offiziellem Blog]( https://www.imperialviolet.org/ )
-    - [Ars Technica Artikel]( http://arstechnica.com/security/2014/06/google-unveils-independent-fork-of-openssl-called-boringssl/ )
+    * [Ars Technica Artikel]( http://arstechnica.com/security/2014/06/google-unveils-independent-fork-of-openssl-called-boringssl/ )
+    * [freiSSl](https://github.com/makefu/freiSSl ) 
 
 ##Thema
 - [GPN in Karlsruhe](https://entropia.de/GPN )
-  - [CTF von squareroots]( http://blog.squareroots.de/en/ )
+  * [CTF von squareroots]( http://blog.squareroots.de/en/ )
 
 ## Mimimi der Woche
 - [mariadb und zarafa]( https://forums.zarafa.com/showthread.php?7980-SQL-error-on-Zarafa-7-1-with-MariaDB-5-5-25/ )
