@@ -72,4 +72,4 @@ Nach einer Woche Pause meldet sich das Dreamteam wieder zur√ºck u.a. reden wir √
 
 ## Picks
 - [Schwerkraft](https://play.google.com/store/apps/details?id=com.anfema.schwerkraft ) via @tobonaut 
-- [Conversations - XMPP Client](https://play.google.com/store/apps/details?id=eu.siacs.conversations )
+- [Conversations - XMPP Client](https://play.google.com/store/apps/details?id=eu.siacs.conversations ) | [F-Droid-Link](https://f-droid.org/repository/browse/?fdfilter=conversations&fdid=eu.siacs.conversations)
