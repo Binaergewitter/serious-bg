@@ -21,7 +21,8 @@ Nach einer Woche Pause meldet sich das Dreamteam wieder zur√ºck u.a. reden wir √
 
 
 ## Toter der Woche
-- [Freecode](http://freecode.com/about )[golem artikel](http://www.golem.de/news/software-index-freecode-ist-tot-es-lebe-freecode-1406-107383.html )
+- [Freecode](http://freecode.com/about )
+  * [golem artikel](http://www.golem.de/news/software-index-freecode-ist-tot-es-lebe-freecode-1406-107383.html )
 - [Vivaldi und Improv](http://www.pro-linux.de/news/1/21225/offene-hardware-plaene-fuer-vivaldi-und-improv-eingestellt.html )
 
 ## Untoter der Woche
