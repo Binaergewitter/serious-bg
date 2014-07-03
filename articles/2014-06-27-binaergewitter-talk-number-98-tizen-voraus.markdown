@@ -11,7 +11,7 @@ audioformats:
   m4a: http://download.binaergewitter.de/2014-06-26.Binaergewitter.Talk.98.m4a
   opus: http://download.binaergewitter.de/2014-06-26.Binaergewitter.Talk.98.opus
 ---
-Nach einer Woche Pause meldet sich das Dreamteam wieder zurück u.a. reden wir über die Google I/O, Tizen, Scam und Forks.
+Nach einer Woche Pause meldet sich das 112 Dreamteam wieder zurück u.a. reden wir über die Google I/O, Tizen, Scam und Forks.
 
 ## Blast from the Past
 - [iFind ist ein scam?!]( http://www.theregister.co.uk/2014/06/24/ifind_kickstarter/ )
@@ -49,6 +49,7 @@ Nach einer Woche Pause meldet sich das Dreamteam wieder zurück u.a. reden wir �
     - [WP: Serie Continuum](https://de.wikipedia.org/wiki/Continuum_\(Fernsehserie\) )
     - [Continuum bei Amazon](http://www.amazon.de/gp/product/B00DOLB8NA/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B00DOLB8NA&linkCode=as2&tag=trektrip )
 - [Amazon Fire Phone]( http://www.amazon.com/dp/B00EOE0WKQ/ref=fp_dp_auto_play?pf_rd_m=ATVPDKIKX0DER&pf_rd_s=gateway-center-column&pf_rd_r=0ETFR6ZGA42C3Z5N34W2&pf_rd_t=101&pf_rd_p=1828037122&pf_rd_i=507846 )
+  * [die Serie Firefly](http://www.amazon.de/gp/product/B001G1B7ZO/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B001G1B7ZO&linkCode=as2&tag=trektrip )  
 - [Tizen wird Samsungs "Betriebssystem für alles"]( http://www.computerbase.de/2014-06/samsung-tizen-android-alternative-betriebssystem-fuer-alles/ )
 
 ### andere News
@@ -72,5 +73,5 @@ Nach einer Woche Pause meldet sich das Dreamteam wieder zurück u.a. reden wir �
 - [tmux protocol version mismatch]( https://plus.google.com/110139418387705691470/posts/BebrBSXMkBp )
 
 ## Picks
-- [Schwerkraft](https://play.google.com/store/apps/details?id=com.anfema.schwerkraft ) via @tobonaut 
+- [Schwerkraft](https://play.google.com/store/apps/details?id=com.anfema.schwerkraft ) via [@tobonaut](https://twitter.com/tobonaut ) 
 - [Conversations - XMPP Client](https://play.google.com/store/apps/details?id=eu.siacs.conversations ) | [F-Droid-Link](https://f-droid.org/repository/browse/?fdfilter=conversations&fdid=eu.siacs.conversations)
