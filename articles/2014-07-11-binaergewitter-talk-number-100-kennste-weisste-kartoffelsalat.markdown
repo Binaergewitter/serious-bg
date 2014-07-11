@@ -31,7 +31,7 @@ Hurra, wir sind 100. Und bis auf Marc ist das Kernteam auch bei dieser Folge dab
 ## News
 
 - [Android kann jetzt auf Chromecast spiegeln]( http://chrome.blogspot.de/2014/07/mirror-your-android-screen-to-tv-with.html )
-  * Teamviewer
+  * [Teamviewer](https://www.teamviewer.com )
   * [Chrome Remote Deskop](http://www.heise.de/open/meldung/Chrome-Remote-Desktop-steuert-jetzt-auch-Linux-Systeme-2253273.html )
 - [HummingBoard als kräftigerer RPi-Ersatz]( http://www.solid-run.com/products/hummingboard/ )
 - [TJ Holowaychuck kehrt Node.js den Rücken]( https://medium.com/code-adventures/4ba9e7f3e52b )
