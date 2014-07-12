@@ -43,12 +43,10 @@ Hurra, wir sind 100. Und bis auf Marc ist das Kernteam auch bei dieser Folge dab
   * [WMIC]( http://euer.krebsco.de/wiki/knowledge_base.html#wmic )
 - [Amazon Zocalo als Alternative zu Dropbox]( http://techcrunch.com/2014/07/10/amazon-goes-after-box-dropbox-and-huddle-launches-zocalo-for-secure-enterprise-storage/ )
 - [Captain Obvious: Youporn Benutzerzahlen brechen bei WM ein]( http://www.golem.de/news/deutschland-youporns-nutzerzahlen-waehrend-der-wm-spiele-eingebrochen-1407-107803.html )
-- [](http://www.heise.de/netze/meldung/O2-drosselt-DSL-ab-1-Oktober-2251497.html )
-- [](http://www.linux-magazin.de/NEWS/Pypy-STM-liefert-Python-ohne-GIL ) via Schmittlauch
-   - [Pypy sucht geld
-
-## 
-- http://www.heise.de/newsticker/meldung/Telekom-muss-weiter-Preselection-und-Call-by-Call-anbieten-2251774.html
+- [O2 drosselt](http://www.heise.de/netze/meldung/O2-drosselt-DSL-ab-1-Oktober-2251497.html )
+- [Pypy ohne GIL](http://www.linux-magazin.de/NEWS/Pypy-STM-liefert-Python-ohne-GIL ) via Schmittlauch
+   - Pypy sucht geld
+- [immer noch CallbyCall und Preselection](http://www.heise.de/newsticker/meldung/Telekom-muss-weiter-Preselection-und-Call-by-Call-anbieten-2251774.html )
 
 ## Themen
 
@@ -69,7 +67,7 @@ Hurra, wir sind 100. Und bis auf Marc ist das Kernteam auch bei dieser Folge dab
 
 - DNSSec bei Hetzner
     - [DANE](http://de.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities )
-    - SPF Tipp - SPF ist mir egal Record: "v=spf1 mx a ?all"
+    - SPF ist mir egal Record: "v=spf1 mx a ?all"
 - (Mac)Vim Memory Fail
 - Presentationstools
     * [Slideshow Gem]( https://github.com/slideshow-s9/slideshow )
