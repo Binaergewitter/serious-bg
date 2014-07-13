@@ -20,7 +20,7 @@ Hurra, wir sind 100. Und bis auf Marc ist das Kernteam auch bei dieser Folge dab
 ## Yo der Woche
 
 - [Potato salad Kickstarter]( https://www.kickstarter.com/projects/324283889/potato-salad )
-  - [mehr gauner beim crowdfunding]( https://www.indiegogo.com/projects/wifiex )[google cache]( http://webcache.googleusercontent.com/search?q=cache:03fcMBC_AvIJ:https://www.indiegogo.com/projects/wifiex+&cd=1&hl=de&ct=clnk&gl=de&client=firefox-a )
+  - [mehr gauner beim crowdfunding]( https://www.indiegogo.com/projects/wifiex ) [google cache]( http://webcache.googleusercontent.com/search?q=cache:03fcMBC_AvIJ:https://www.indiegogo.com/projects/wifiex+&cd=1&hl=de&ct=clnk&gl=de&client=firefox-a )
 - [55 Gallonen Lube]( http://www.amazon.com/Passion-Natural-Water-Based-Lubricant-Gallon/dp/B005MR3IVO?tag=krebsco-21 )
 
 ## Naming Fail der Woche
@@ -31,8 +31,8 @@ Hurra, wir sind 100. Und bis auf Marc ist das Kernteam auch bei dieser Folge dab
 ## News
 
 - [Android kann jetzt auf Chromecast spiegeln]( http://chrome.blogspot.de/2014/07/mirror-your-android-screen-to-tv-with.html )
-  * [Teamviewer](https://www.teamviewer.com )
-  * [Chrome Remote Deskop](http://www.heise.de/open/meldung/Chrome-Remote-Desktop-steuert-jetzt-auch-Linux-Systeme-2253273.html )
+    * [Teamviewer](https://www.teamviewer.com )
+    * [Chrome Remote Deskop](http://www.heise.de/open/meldung/Chrome-Remote-Desktop-steuert-jetzt-auch-Linux-Systeme-2253273.html )
 - [HummingBoard als kräftigerer RPi-Ersatz]( http://www.solid-run.com/products/hummingboard/ )
 - [TJ Holowaychuck kehrt Node.js den Rücken]( https://medium.com/code-adventures/4ba9e7f3e52b )
     * [Capybara]( https://github.com/jnicklas/capybara )
@@ -40,20 +40,20 @@ Hurra, wir sind 100. Und bis auf Marc ist das Kernteam auch bei dieser Folge dab
     * [Capybara Webkit]( https://github.com/thoughtbot/capybara-webkit )
     * [MEAN](http://mean.io/#!/ )
 - [Atom für Windows]( http://blog.atom.io/2014/07/09/hello-windows.html )
-  * [WMIC]( http://euer.krebsco.de/wiki/knowledge_base.html#wmic )
+    * [WMIC]( http://euer.krebsco.de/wiki/knowledge_base.html#wmic )
 - [Amazon Zocalo als Alternative zu Dropbox]( http://techcrunch.com/2014/07/10/amazon-goes-after-box-dropbox-and-huddle-launches-zocalo-for-secure-enterprise-storage/ )
 - [Captain Obvious: Youporn Benutzerzahlen brechen bei WM ein]( http://www.golem.de/news/deutschland-youporns-nutzerzahlen-waehrend-der-wm-spiele-eingebrochen-1407-107803.html )
 - [O2 drosselt](http://www.heise.de/netze/meldung/O2-drosselt-DSL-ab-1-Oktober-2251497.html )
-- [Pypy ohne GIL](http://www.linux-magazin.de/NEWS/Pypy-STM-liefert-Python-ohne-GIL ) via Schmittlauch
-   - Pypy sucht geld
+- [Pypy ohne GIL](http://www.linux-magazin.de/NEWS/Pypy-STM-liefert-Python-ohne-GIL ) via [Schmittlauch](https://twitter.com/schmittlauch)
+    * Pypy sucht geld
 - [immer noch CallbyCall und Preselection](http://www.heise.de/newsticker/meldung/Telekom-muss-weiter-Preselection-und-Call-by-Call-anbieten-2251774.html )
 
 ## Themen
 
-- [Cyanogenmod fuer Nexus 4]( http://download.cyanogenmod.org/?device=mako )
-  - [Drivedroid]( https://play.google.com/store/apps/details?id=com.softwarebakery.drivedroid&hl=de )
-  - [Privacy Guard]( http://winfuture.de/news,80241.html )
-  - [Tinc GUI]( https://play.google.com/store/apps/details?id=org.poirsouille.tinc_gui&hl=de )
+- [Cyanogenmod für Nexus 4]( http://download.cyanogenmod.org/?device=mako )
+    * [Drivedroid]( https://play.google.com/store/apps/details?id=com.softwarebakery.drivedroid&hl=de )
+    * [Privacy Guard]( http://winfuture.de/news,80241.html )
+    * [Tinc GUI]( https://play.google.com/store/apps/details?id=org.poirsouille.tinc_gui&hl=de )
 - immer noch kein Android 4.4.4 für Nexus 7 LTE :(
 
 ## Lesefoo
@@ -66,9 +66,9 @@ Hurra, wir sind 100. Und bis auf Marc ist das Kernteam auch bei dieser Folge dab
 ## Mimimi der Woche
 
 - DNSSec bei Hetzner
-    - [DANE](http://de.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities )
-    - SPF ist mir egal Record: "v=spf1 mx a ?all"
-- (Mac)Vim Memory Fail
+    * [DANE](http://de.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities )
+    * SPF ist mir egal Record: "v=spf1 mx a ?all"
+- (Mac) Vim Memory Fail
 - Presentationstools
     * [Slideshow Gem]( https://github.com/slideshow-s9/slideshow )
     * [hekyll]( https://github.com/bmcmurray/hekyll )
