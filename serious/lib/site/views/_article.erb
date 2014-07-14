@@ -1,25 +1,27 @@
-<div class="article well">
-  <% if article.date %>
-  <span class="date right"><%= article.date.formatted %></span>
-  <% end %>
-  <h2><a href="<%= article.url %>"><%= article.title %></a></h2>
-  <div class="row-fluid">
-    <% if summary_only %>
-    <%= article.summary.formatted %>
-    <div class="metainformatiom">
-      <%= render_controls article %> 
-      <%= render_flattr(article) if Serious.flattr %>
-      <% if article.summary.length != article.body.length %>
-      <span class="right date"><a href="<%= article.url %>">read on...</a></span>
-      <% end %>
-    </div>
-    <% else %>
-    <%= article.body.formatted %>
-    <% if article.instance_of?(Serious::Article) %>
-    <%= render_controls article %>
-    <%= render_flattr(article) if Serious.flattr %>
-    <%= render_disqus(article) if Serious.disqus %> 
+<div class="article">
+  <h2>
+    <a href="<%= article.url %>"><%= article.title %></a>
+    <% if article.date %>
+      <small class="date"><%= article.date.formatted %></small>
     <% end %>
+  </h2>
+  <div class="ow-fluid">
+    <% if summary_only %>
+      <%= article.summary.formatted %>
+      <div class="metainformatiom">
+        <%= render_controls article %>
+        <%= render_flattr(article) if Serious.flattr %>
+        <% if article.summary.length != article.body.length %>
+        <span class="right date"><a href="<%= article.url %>">read on...</a></span>
+        <% end %>
+      </div>
+    <% else %>
+      <%= article.body.formatted %>
+      <% if article.instance_of?(Serious::Article) %>
+        <%= render_controls article %>
+        <%= render_flattr(article) if Serious.flattr %>
+        <%= render_disqus(article) if Serious.disqus %>
+      <% end %>
     <% end %>
   </div>
 
