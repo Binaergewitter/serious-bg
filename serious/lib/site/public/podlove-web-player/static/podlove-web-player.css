@@ -1,9 +1,18 @@
 /*
  * ===========================================
- * Podlove Web Player v2.0.12
+ * Podlove Web Player v2.0.19
  * Licensed under The BSD 2-Clause License
  * http://opensource.org/licenses/BSD-2-Clause
  * ===========================================
+ * Copyright (c) 2013, Gerrit van Aaken (https://github.com/gerritvanaaken/), Simon Waldherr (https://github.com/simonwaldherr/), Frank Hase (https://github.com/Kambfhase/), Eric Teubert (https://github.com/eteubert/) and others (https://github.com/podlove/podlove-web-player/contributors)
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+ *
+ * - Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+ * - Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
 
@@ -168,6 +177,11 @@
 	overflow: hidden;
 }
 
+.mejs-fullscreen {
+	/* set it to not show scroll bars so 100% will work */
+	overflow: hidden !important;
+}
+
 .mejs-container-fullscreen {
 	position: fixed;
 	left: 0;
@@ -183,12 +197,17 @@
 	height: 100%;
 }
 
+.mejs-clear {
+	clear: both;
+}
+
 /* Start: LAYERS */
 .mejs-background {
 	position: absolute;
 	top: 0;
 	left: 0;
 }
+
 .mejs-mediaelement {
 	position: absolute;
 	top: 0;
@@ -196,25 +215,35 @@
 	width: 100%;
 	height: 100%;
 }
+
 .mejs-poster {
 	position: absolute;
 	top: 0;
 	left: 0;
+	background-size: contain ;
+	background-position: 50% 50% ;
+	background-repeat: no-repeat ;
 }
+:root .mejs-poster img {
+	display: none ;
+}
+
 .mejs-poster img {
 	border: 0;
 	padding: 0;
 	border: 0;
-	display: block;
 }
+
 .mejs-overlay {
 	position: absolute;
 	top: 0;
 	left: 0;
 }
+
 .mejs-overlay-play {
 	cursor: pointer;
 }
+
 .mejs-overlay-button {
 	position: absolute;
 	top: 50%;
@@ -224,12 +253,15 @@
 	margin: -50px 0 0 -50px;
 	background: url(bigplay.svg) no-repeat;
 }
+
 .no-svg .mejs-overlay-button { 
 	background-image: url(bigplay.png);
 }
+
 .mejs-overlay:hover .mejs-overlay-button {
 	background-position: 0 -100px ;
 }
+
 .mejs-overlay-loading {
 	position: absolute;
 	top: 50%;
@@ -247,6 +279,7 @@
 	background: -ms-linear-gradient(top, rgba(50,50,50,0.9), rgba(0,0,0,0.9));
 	background: linear-gradient(rgba(50,50,50,0.9), rgba(0,0,0,0.9));
 }
+
 .mejs-overlay-loading span {
 	display: block;
 	width: 80px;
@@ -259,7 +292,6 @@
 /* Start: CONTROL BAR */
 .mejs-container .mejs-controls {
 	position: absolute;
-	background: none;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -287,7 +319,6 @@
 	height: 26px;
 	font-size: 11px;
 	line-height: 11px;
-	background: 0;
 	font-family: Helvetica, Arial;
 	border: 0;
 }
@@ -318,7 +349,7 @@
 
 /* End: CONTROL BAR */
 
-/* Start: Time (current / duration) */
+/* Start: Time (Current / Duration) */
 .mejs-container .mejs-controls .mejs-time {
 	color: #fff;
 	display: block;
@@ -327,44 +358,43 @@
 	padding: 8px 3px 0 3px ;
 	overflow: hidden;
 	text-align: center;
-	padding: auto 4px;
 	-moz-box-sizing: content-box;
 	-webkit-box-sizing: content-box;
 	box-sizing: content-box;
 }
+
 .mejs-container .mejs-controls .mejs-time span {
-	font-size: 11px;
 	color: #fff;
+	font-size: 11px;
 	line-height: 12px;
 	display: block;
 	float: left;
 	margin: 1px 2px 0 0;
 	width: auto;
 }
-/* End: Time (current / duration) */
+/* End: Time (Current / Duration) */
 
-
-/* Start: Play/pause */
+/* Start: Play/Pause/Stop */
 .mejs-controls .mejs-play button {
 	background-position: 0 0;
 }
+
 .mejs-controls .mejs-pause button {
 	background-position: 0 -16px;
 }
-/* End: Play/pause */
 
-
-/* Stop */
 .mejs-controls .mejs-stop button {
 	background-position: -112px 0;
 }
-/* End: Play/pause */
+/* Start: Play/Pause/Stop */
 
-/* Start: Progress bar */
+/* Start: Progress Bar */
 .mejs-controls div.mejs-time-rail {
+	direction: ltr;
 	width: 200px;
 	padding-top: 5px;
 }
+
 .mejs-controls .mejs-time-rail span {
 	display: block;
 	position: absolute;
@@ -375,6 +405,7 @@
 	border-radius: 2px;
 	cursor: pointer;
 }
+
 .mejs-controls .mejs-time-rail .mejs-time-total {
 	margin: 5px;
 	background: #333;
@@ -386,6 +417,7 @@
 	background: -ms-linear-gradient(top, rgba(30,30,30,0.8), rgba(60,60,60,0.8));
 	background: linear-gradient(rgba(30,30,30,0.8), rgba(60,60,60,0.8));
 }
+
 .mejs-controls .mejs-time-rail .mejs-time-buffering {
 	width: 100%;
 	background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -422,8 +454,8 @@
 	background: linear-gradient(rgba(44,124,145,0.8), rgba(78,183,212,0.8));
 	width: 0;
 }
+
 .mejs-controls .mejs-time-rail .mejs-time-current {
-	width: 0;
 	background: #fff;
 	background: rgba(255,255,255,0.8);
 	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255,255,255,0.9)), to(rgba(200,200,200,0.8)));
@@ -432,6 +464,7 @@
 	background: -o-linear-gradient(top, rgba(255,255,255,0.9), rgba(200,200,200,0.8));
 	background: -ms-linear-gradient(top, rgba(255,255,255,0.9), rgba(200,200,200,0.8));
 	background: linear-gradient(rgba(255,255,255,0.9), rgba(200,200,200,0.8));
+	width: 0;
 }
 
 .mejs-controls .mejs-time-rail .mejs-time-handle {
@@ -497,19 +530,18 @@
 	left: 18px;
 }
 
-
-
 /*
 .mejs-controls .mejs-time-rail:hover .mejs-time-handle {
 	visibility:visible;
 }
 */
-/* End: Progress bar */
+/* End: Progress Bar */
 
 /* Start: Fullscreen */
 .mejs-controls .mejs-fullscreen-button button {
 	background-position: -32px 0;
 }
+
 .mejs-controls .mejs-unfullscreen button {
 	background-position: -32px -16px;
 }
@@ -547,11 +579,13 @@
 	position: absolute;
 	margin: 0;
 }
+
 .mejs-controls .mejs-volume-button:hover {
 	-webkit-border-radius: 0 0 4px 4px;
 	-moz-border-radius: 0 0 4px 4px;
 	border-radius: 0 0 4px 4px;
 }
+
 /*
 .mejs-controls .mejs-volume-button:hover .mejs-volume-slider {
 	display: block;
@@ -595,9 +629,7 @@
 	margin: 0;
 }
 
-
 /* horizontal version */
-
 .mejs-controls div.mejs-horizontal-volume-slider {
 	height: 26px;
 	width: 60px;
@@ -613,11 +645,9 @@
 	margin: 0;
 	padding: 0;
 	font-size: 1px;
-	
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	border-radius: 2px;	
-
 	background: #333;
 	background: rgba(50,50,50,0.8);
 	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(30,30,30,0.8)), to(rgba(60,60,60,0.8)));
@@ -626,7 +656,6 @@
 	background: -o-linear-gradient(top, rgba(30,30,30,0.8), rgba(60,60,60,0.8));
 	background: -ms-linear-gradient(top, rgba(30,30,30,0.8), rgba(60,60,60,0.8));
 	background: linear-gradient(rgba(30,30,30,0.8), rgba(60,60,60,0.8));
-
 }
 
 .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
@@ -638,11 +667,9 @@
 	margin: 0;
 	padding: 0;
 	font-size: 1px;
-
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	border-radius: 2px;
-
 	background: #fff;
 	background: rgba(255,255,255,0.8);
 	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255,255,255,0.9)), to(rgba(200,200,200,0.8)));
@@ -651,9 +678,7 @@
 	background: -o-linear-gradient(top, rgba(255,255,255,0.9), rgba(200,200,200,0.8));
 	background: -ms-linear-gradient(top, rgba(255,255,255,0.9), rgba(200,200,200,0.8));
 	background: linear-gradient(rgba(255,255,255,0.9), rgba(200,200,200,0.8));
-
 }
-
 
 .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-handle {
 	display: none;
@@ -661,10 +686,7 @@
 
 /* End: Mute/Volume */
 
-
-
-
-/* Start: TRACK (Captions and Chapters) */
+/* Start: Track (Captions and Chapters) */
 .mejs-controls .mejs-captions-button {
 	position: relative;
 }
@@ -688,6 +710,7 @@
 	-moz-border-radius: 0;
 	border-radius: 0;
 }
+
 /*
 .mejs-controls .mejs-captions-button:hover  .mejs-captions-selector {
 	visibility: visible;
@@ -701,6 +724,7 @@
 	list-style-type: none !important;
 	overflow: hidden;
 }
+
 .mejs-controls .mejs-captions-button .mejs-captions-selector ul li {
 	margin: 0 0 6px 0;
 	padding: 0;
@@ -709,11 +733,13 @@
 	color: #fff;
 	overflow: hidden;
 }
+
 .mejs-controls .mejs-captions-button .mejs-captions-selector ul li input {
 	clear: both;
 	float: left;
 	margin: 3px 3px 0 5px;
 }
+
 .mejs-controls .mejs-captions-button .mejs-captions-selector ul li label {
 	width: 100px;
 	float: left;
@@ -728,7 +754,6 @@
 	margin: 0 0 5px 0;
 }
 
-
 .mejs-chapters {
 	position: absolute;
 	top: 0;
@@ -737,6 +762,7 @@
 	width: 10000px;
 	z-index: 1;
 }
+
 .mejs-chapters .mejs-chapter {
 	position: absolute;
 	float: left;
@@ -752,6 +778,7 @@
 	overflow: hidden;
 	border: 0;
 }
+
 .mejs-chapters .mejs-chapter .mejs-chapter-block {
 	font-size: 11px;
 	color: #fff;
@@ -761,12 +788,12 @@
 	border-bottom: solid 1px #333;
 	cursor: pointer;
 }
+
 .mejs-chapters .mejs-chapter .mejs-chapter-block-last {
 	border-right: none;
 }
 
 .mejs-chapters .mejs-chapter .mejs-chapter-block:hover {
-	/*background: #333;*/
 	background: #666;
 	background: rgba(102,102,102, 0.7);
 	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(102,102,102,0.7)), to(rgba(50,50,50,0.6)));
@@ -777,6 +804,7 @@
 	background: linear-gradient(rgba(102,102,102,0.7), rgba(50,50,50,0.6));
 	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr=#666666,endColorstr=#323232);		
 }
+
 .mejs-chapters .mejs-chapter .mejs-chapter-block .ch-title {
 	font-size: 12px;
 	font-weight: bold;
@@ -786,6 +814,7 @@
 	margin: 0 0 3px 0;
 	line-height: 12px;
 }
+
 .mejs-chapters .mejs-chapter .mejs-chapter-block .ch-timespan {
 	font-size: 12px;
 	line-height: 12px;
@@ -795,21 +824,21 @@
 	text-overflow: ellipsis;
 }
 
-
 .mejs-captions-layer {
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	text-align:center;
-	/*font-weight: bold;*/
 	line-height: 22px;
 	font-size: 12px;
 	color: #fff;
 }
+
 .mejs-captions-layer  a {
 	color: #fff;
 	text-decoration: underline;
 }
+
 .mejs-captions-layer[lang=ar] {
 	font-size: 20px;
 	font-weight: normal;
@@ -832,52 +861,50 @@
 	background: rgba(20, 20, 20, 0.8);
 
 }
-/* End: TRACK (Captions and Chapters) */
+/* End: Track (Captions and Chapters) */
 
-
-
-.mejs-clear {
-	clear: both;
-}
-
-/* Start: ERROR */
+/* Start: Error */
 .me-cannotplay {
 }
+
 .me-cannotplay a {
 	color: #fff;
 	font-weight: bold;
 }
+
 .me-cannotplay span {
 	padding: 15px;
 	display: block;
 }
-/* End: ERROR */
+/* End: Error */
 
 
 /* Start: Loop */
 .mejs-controls .mejs-loop-off button {
 	background-position: -64px -16px;
 }
+
 .mejs-controls .mejs-loop-on button {
 	background-position: -64px 0;
 }
+
 /* End: Loop */
 
 /* Start: backlight */
 .mejs-controls .mejs-backlight-off button {
 	background-position: -80px -16px;
 }
+
 .mejs-controls .mejs-backlight-on button {
 	background-position: -80px 0;
 }
 /* End: backlight */
 
-
-/* Start: picture controls */
+/* Start: Picture Controls */
 .mejs-controls .mejs-picturecontrols-button {
 	background-position: -96px 0;
 }
-/* End: picture controls */
+/* End: Picture Controls */
 
 
 /* context menu */
@@ -911,8 +938,7 @@
 	color: #fff;
 }
 
-
-/* Start: SourceChooser */
+/* Start: Source Chooser */
 .mejs-controls .mejs-sourcechooser-button {
 	position: relative;
 }
@@ -920,6 +946,7 @@
 .mejs-controls .mejs-sourcechooser-button button {
 	background-position: -128px 0;
 }
+
 .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector {
 	visibility: hidden;
 	position: absolute;
@@ -944,6 +971,7 @@
 	list-style-type: none !important;
 	overflow: hidden;
 }
+
 .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li {
 	margin: 0 0 6px 0;
 	padding: 0;
@@ -952,11 +980,13 @@
 	color: #fff;
 	overflow: hidden;
 }
+
 .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li input {
 	clear: both;
 	float: left;
 	margin: 3px 3px 0 5px;
 }
+
 .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li label {
 	width: 100px;
 	float: left;
@@ -965,8 +995,7 @@
 	font-family: helvetica, arial;
 	font-size: 10px;
 }
-/* End: SourceChooser */
-
+/* End: Source Chooser */
 
 /* Start: Postroll */
 .mejs-postroll-layer {
@@ -1001,6 +1030,13 @@
 	-webkit-text-size-adjust: inherit;
 }
 
+.podlovewebplayer_wrapper,
+.podlovewebplayer_wrapper *,
+.podlovewebplayer_wrapper *:before,
+.podlovewebplayer_wrapper *:after {
+	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
 .podlovewebplayer_wrapper div {
 	display: block;
 }
@@ -1016,16 +1052,25 @@
 	text-decoration: none;
 }
 
-.mejs-container.mejs-audio {
+.podlovewebplayer_wrapper .mejs-container.mejs-audio {
 	min-height: 30px;
 }
 
+.podlovewebplayer_wrapper .mejs-container .mejs-controls {
+    background: url(background.png);
+    background: rgba(0, 0, 0, 0.7);
+    background: -webkit-linear-gradient(top, rgba(50,50,50,0.7), rgba(0,0,0,0.7));
+    background: -moz-linear-gradient(top, rgba(50,50,50,0.7), rgba(0,0,0,0.7));
+    background: -o-linear-gradient(top, rgba(50,50,50,0.7), rgba(0,0,0,0.7));
+    background: -ms-linear-gradient(top, rgba(50,50,50,0.7), rgba(0,0,0,0.7));
+    background: linear-gradient(rgba(50,50,50,0.7), rgba(0,0,0,0.7));
+}
 
-.mejs-container .mejs-controls > div:first-child {
+.podlovewebplayer_wrapper .mejs-container .mejs-controls > div:first-child {
 	margin-left: 8px;
 }
 
-.mejs-container .mejs-controls > div.mejs-duration-container:last-child {
+.podlovewebplayer_wrapper .mejs-container .mejs-controls > div.mejs-duration-container:last-child {
 	margin-right: 5px;
 }
 
@@ -1112,7 +1157,7 @@
 	padding: 8px 5px 6px 5px !important;
 	vertical-align: middle;
 	border-bottom: 1px solid #e9e9e9;
-	cursor: pointer!important;
+	cursor: pointer !important;
 }
 
 .podlovewebplayer_wrapper .podlovewebplayer_chapters tr:hover {
@@ -1166,19 +1211,20 @@
 	padding-bottom: 0px;
 }
 
-.mejs-container {
+.podlovewebplayer_wrapper .mejs-container {
 	display: block;
 	position: relative;
 	margin-top: -1px;
+	margin-bottom: 0;
 	background: #000000;
 }
 
-.mejs-button.mejs-volume-button button {
+.podlovewebplayer_wrapper .mejs-button.mejs-volume-button button {
 	font-size: 16px;
 	background: transparent;
 	color: white;
 }
-.mejs-button.mejs-volume-button button::after,
+.podlovewebplayer_wrapper .mejs-button.mejs-volume-button button::after,
 .podlovewebplayer_wrapper .podlovewebplayer_chapterbox .chaptername a {
 	font-size: 16;
 	padding-left: 0.02em;
@@ -1197,11 +1243,11 @@
 	line-height: 1em;
 }
 
-.mejs-button.mejs-volume-button.mejs-unmute button::after {
+.podlovewebplayer_wrapper .mejs-button.mejs-volume-button.mejs-unmute button::after {
 	content: "\1f507";
 }
 
-.mejs-button.mejs-volume-button.mejs-mute button::after {
+.podlovewebplayer_wrapper .mejs-button.mejs-volume-button.mejs-mute button::after {
 	content: "\1f50a";
 }
 
@@ -1219,9 +1265,9 @@
 	border: 5px solid white !important;
 	border-radius: 60px !important;
 	font-size: 42px;
-	padding: 5px 6px 20px 19px;
-	height: 40px;
-	width: 40px;
+	padding: 5px 6px 10px 20px;
+	height: 75px;
+	width: 75px;
 	margin: 10px 10px 10px 10px;
 	-webkit-transition: none;
 	-moz-transition: none;
@@ -1250,7 +1296,7 @@
 }
 
 .podlovewebplayer_meta .bigplay.playing {
-	padding: 5px 11px 20px 14px;
+	padding: 5px 11px 20px 15px;
 }
 
 .podlovewebplayer_meta .bigplay.playing:focus,
@@ -1304,7 +1350,7 @@
 	left: 0px !important;
 	right: auto !important;
 	bottom: auto !important;
-	box-shadow: none!important;
+	box-shadow: none !important;
 	-webkit-border-radius: 0px;
 	-moz-border-radius: 0px;
 	-o-border-radius: 0px;
@@ -1314,13 +1360,13 @@
 .podlovewebplayer_meta h3 a,
 .podlovewebplayer_meta h3 {
 	clear: none;
-	color: #fff!important;
+	color: #fff !important;
 	background: transparent !important;
 	padding: 7px 0 0 0;
 	font-size: 16px;
 	line-height: 22px;
 	font-weight: bold;
-	margin: 0!important;
+	margin: 0 !important;
 	padding-right: 10px;
 	text-transform: none;
 	letter-spacing: 0;
@@ -1348,7 +1394,7 @@
 	color: #eee !important;
 	text-shadow: none !important;
 	background: transparent !important;
-	margin-left: 180px;
+	margin-left: 170px;
 	padding-bottom: 35px;
 	padding-left: 0px;
 }
@@ -1416,15 +1462,15 @@
 	background: url(bigplay.svg) no-repeat;
 }
 
-.no-svg .mejs-overlay-button { 
+.no-svg .mejs-overlay-button {
 	background-image: url(bigplay.png);
 }
 
-.mejs-overlay:hover .mejs-overlay-button {
+.podlovewebplayer_wrapper .mejs-overlay:hover .mejs-overlay-button {
 	background-position: 0 -100px ;
 }
 
-.mejs-overlay-loading span {
+.podlovewebplayer_wrapper .mejs-overlay-loading span {
 	display: block;
 	width: 80px;
 	height: 80px;
@@ -1432,21 +1478,22 @@
 }
 
 .podlovewebplayer_wrapper .mejs-container .mejs-inner .mejs-controls .mejs-time-rail .mejs-time-total .mejs-time-loaded {
-	background: rgb(67,131,219);
-	background: -moz-linear-gradient(top, rgb(67,131,219) 0%, rgb(88,156,239) 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(67,131,219)), color-stop(100%,rgb(88,156,239)));
-	background: -webkit-linear-gradient(top, rgb(67,131,219) 0%,rgb(88,156,239) 100%);
-	background: -o-linear-gradient(top, rgb(67,131,219) 0%,rgb(88,156,239) 100%);
-	background: -ms-linear-gradient(top, rgb(67,131,219) 0%,rgb(88,156,239) 100%);
-	background: linear-gradient(to bottom, rgb(67,131,219) 0%,rgb(88,156,239) 100%);
+	background: #11B5DB;
+	background: -moz-linear-gradient(top, #11B5DB 0%, #589CEF 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#11B5DB), color-stop(100%,#589CEF));
+	background: -webkit-linear-gradient(top, #11B5DB 0%,#589CEF 100%);
+	background: -o-linear-gradient(top, #11B5DB 0%,#589CEF 100%);
+	background: -ms-linear-gradient(top, #11B5DB 0%,#589CEF 100%);
+	background: linear-gradient(to bottom, #11B5DB 0%,#589CEF 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc4383db', endColorstr='#cc589cef',GradientType=0 );
 }
 
+.podlovewebplayer_wrapper .mejs-container .mejs-controls .mejs-time-rail span,
+.podlovewebplayer_wrapper .mejs-container .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total,
+.podlovewebplayer_wrapper .mejs-container .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
 .podlovewebplayer_wrapper .mejs-container .mejs-inner .mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-handle {
 	cursor: move;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
+	border-radius: 2px;
 }
 
 .podlovewebplayer_wrapper .mejs-container .mejs-inner .mejs-container .mejs-controls .mejs-time span {
@@ -1486,7 +1533,7 @@
 .podlovewebplayer_meta + .summary.active {
 	min-height: 35px;
 	height: auto;
-	padding: 20px 10px;
+  padding: 25px 10px 35px;
 }
 
 .podlovewebplayer_wrapper .summary a:visited {
@@ -1528,7 +1575,7 @@
 
 .podlovewebplayer_wrapper .podlovewebplayer_controlbox.active {
 	height: 25px;
-	padding: 3px 10px 4px 10px;
+	padding: 3px 10px 28px 10px;
 	font-size: 8px;
 }
 
@@ -1564,6 +1611,8 @@
 	width: 30px;
 }
 
+.podlovewebplayer_wrapper .togglers a.pwp-icon-download { display: none !important; }
+
 .podlovewebplayer_wrapper .podlovewebplayer_controlbox .infobuttons,
 .podlovewebplayer_wrapper .podlovewebplayer_controlbox .infobuttons a {
 	position: relative;
@@ -1583,7 +1632,6 @@
 	outline: none;
 	vertical-align: top;
 	height: 22px;
-	max-width: 180px;
 	font-size: 14px;
 	margin-right: 25px;
 	background: #000000;
@@ -1700,9 +1748,9 @@
 
 .podlovewebplayer_chapters tr.chaptertr:active {
 	color: #ffffff;
-	-webkit-text-shadow: 0px 0px 3px #111111; 
-	-moz-text-shadow: 0px 0px 3px #111111; 
-	text-shadow: 0px 0px 3px #111111; 
+	-webkit-text-shadow: 0px 0px 3px #111111;
+	-moz-text-shadow: 0px 0px 3px #111111;
+	text-shadow: 0px 0px 3px #111111;
 	background: #ffffff;
 	background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(47%,#f6f6f6), color-stop(100%,#ededed));
@@ -1788,7 +1836,7 @@
 .podlovewebplayer_wrapper.podlovewebplayer_video .podlovewebplayer_tableend,
 .podlovewebplayer_wrapper.podlovewebplayer_video .podlovewebplayer_controlbox,
 .podlovewebplayer_wrapper.podlovewebplayer_video .summary {
-	background: #252525; 
+	background: #252525;
 }
 
 .podlovewebplayer_wrapper.podlovewebplayer_video .podlovewebplayer_chapterbox,
@@ -1808,29 +1856,29 @@
 
 .podlovewebplayer_smallplayer .podlovewebplayer_meta .bigplay {
 	font-size: 25px;
-	padding: 6px 11px 19px 14px;
-	height: 20px;
-	width: 20px;
+	padding: 0 11px 19px 9px;
+	height: 40px;
+	width: 40px;
 	margin: 10px 10px 0px 10px;
 	border: 4px solid #ffffff !important;
 }
 
 .podlovewebplayer_smallplayer .podlovewebplayer_meta .bigplay.playing {
-	padding: 6px 13px 19px 12px;
+	padding: 0 13px 19px 5px;
 }
 
-.podlovewebplayer_smallplayer .bigplay.playing:focus, 
-.podlovewebplayer_smallplayer .bigplay.playing:hover, 
+.podlovewebplayer_smallplayer .bigplay.playing:focus,
+.podlovewebplayer_smallplayer .bigplay.playing:hover,
 .podlovewebplayer_smallplayer .bigplay.playing:active {
 	border: 4px solid white !important;
 }
 
-.podlovewebplayer_smallplayer .podlovewebplayer_top, 
+.podlovewebplayer_smallplayer .podlovewebplayer_top,
 .podlovewebplayer_smallplayer .podlovewebplayer_meta {
 	min-height: 60px;
 }
 
-@media only screen 
+@media only screen
 and (max-width : 500px) {
 	.podlovewebplayer_wrapper {
 		margin-left: 0px;
@@ -1855,15 +1903,15 @@ and (max-width : 500px) {
 		margin: 4%;
 		white-space: nowrap;
 	}
-	
+
 	.podlovewebplayer_wrapper .podlovewebplayer_controlbox.active {
 		height: auto !important;
 	}
-	
+
 	.podlovewebplayer_wrapper .podlovewebplayer_controlbox .infobuttons span {
 		font-size: 13pt;
 	}
-	
+
 	.podlovewebplayer_wrapper .podlovewebplayer_tableend,
 	.podlovewebplayer_wrapper .podlovewebplayer_top {
 		-webkit-border-top-left-radius: 0px;
