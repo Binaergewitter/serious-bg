@@ -1,8 +1,25 @@
-<ul class="nav nav-list">
-  <li><a href="/">Home</a></li>
-  <li><a href="/archives">Archiv</a></li>
-  
-  <% articles.each do |article| %>
-      <li><a href="<%= article.url %>"><%= article.title %> <%= "(On Air)" if article.title == "Live" && is_live? %></a></li>
-  <% end %>
-</ul>
+<nav class="navbar navbar-static-top navbar-default" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand visible-xs" href="#">Binaergewitter</a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <% articles.each do |article| %>
+          <li>
+            <a href="<%= article.url %>"><%= article.title %> <%= "(On Air)" if article.title == "Live" && is_live? %></a>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</nav>
