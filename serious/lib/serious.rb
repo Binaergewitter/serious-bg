@@ -18,20 +18,20 @@ require 'json'
 puts "CUSTOM"
 
 class Serious < Sinatra::Base
-  
+
   set :articles, Proc.new { File.join(Dir.getwd, 'articles') }
   set :pages, Proc.new { File.join(Dir.getwd, 'pages') }
   set :static, true # Required to serve static files, see http://www.sinatrarb.com/configuration.html
   set :future, true
-  
+
   not_found do
     erb :"404"
   end
-  
+
   before do
     headers['Cache-Control'] = "public, max-age=#{Serious.cache_timeout}"
   end
-  
+
   helpers do
     # Helper for rendering partial _archives
     def render_archived(articles)
@@ -50,14 +50,27 @@ class Serious < Sinatra::Base
       render :erb, :"_disqus", :locals => { :article => article }, :layout => false
     end
 
-    def render_flattr(article)
-      render :erb, :"_flattr", :locals => { :article => article }, :layout => false
+    def render_flattr(article=nil)
+      if article.nil?
+        options = {
+          :url => Serious.url,
+          :title => Serious.title,
+          :description => Serious.description
+        }
+      else
+        options = {
+          :url => "#{Serious.url}/blog#{article.url}",
+          :title => article.title,
+          :description => article.automatic_summary
+        }
+      end
+      render :erb, :"_flattr", :locals => options, :layout => false
     end
-    
+
     def render_article(article, summary_only=false)
       render :erb, :'_article', :locals => { :article => article, :summary_only => summary_only }, :layout => !summary_only
     end
-    
+
     def render_partial(name)
       render :erb, :"_#{name}", :layout => false
     end
@@ -88,17 +101,17 @@ class Serious < Sinatra::Base
     @archived = Article.all(:limit => Serious.archived_on_index, :offset => Serious.items_on_index)
     erb :index
   end
-  
+
   ["/atom.xml", "/rss.xml"].each do |route|
     get route do
       feed_size = (params.delete('feed_size') || Serious.items_in_feed).to_i
-      @page = (params.delete('page') || 0).to_i    
+      @page = (params.delete('page') || 0).to_i
       @articles = Article.all(
       :limit => feed_size,
       :offset => @page * feed_size
       )
-    
-      @current_url = request.url 
+
+      @current_url = request.url
       # If our current page is filled, ther is probably a next one too
       # If it isn't, we'll serve an empty page... for now
       if @articles.size == feed_size
@@ -107,7 +120,7 @@ class Serious < Sinatra::Base
         parsed_uri.query += "&page=#{@page + 1}"
         @next_url = parsed_uri.to_s
       end
-    
+
       builder :rss
     end
   end
@@ -126,27 +139,27 @@ class Serious < Sinatra::Base
       :offset => @page * feed_size
       )
       @selected_audio_codec = audio_format
-    
-      @current_url = request.url 
+
+      @current_url = request.url
       # If our current page is filled, ther is probably a next one too
-      # If it isn't, we'll serve an empty page... for now    
+      # If it isn't, we'll serve an empty page... for now
       if @articles.size == feed_size
         parsed_uri = URI(request.url)
         parsed_uri.query = parsed_uri.query.to_s.gsub(/[?&]page=\d+/,'')
         parsed_uri.query += "&page=#{@page + 1}"
         @next_url = parsed_uri.to_s
       end
-    
+
       builder :rss
     end
   end
-  
+
   # Specific article route
   get %r{^/(\d{4})/(\d{1,2})/(\d{1,2})/([^\/]+)} do
     halt 404 unless @article = Article.first(*params[:captures])
     render_article @article
   end
-  
+
   # Archives route
   get %r{^/(\d{4})[/]{0,1}(\d{0,2})[/]{0,1}(\d{0,2})[/]{0,1}$} do
     selection = params[:captures].reject {|s| s.strip.length == 0 }.map {|n| n.length == 1 ? "%02d" % n : n}
@@ -154,24 +167,24 @@ class Serious < Sinatra::Base
     @title = "Archives for #{selection.join("-")}"
     erb :archives
   end
-  
+
   get "/archives" do
     @articles = Article.all
     @title = "Archives"
     erb :archives
   end
-  
+
   get "/pages" do
     @articles = Page.all
     @title = "Pages"
     erb :archives
   end
-  
+
   # Add permanent redirects for all old /blog/ sites.
   get "/blog/*" do
     redirect "/#{params[:splat][0]}", 301
   end
-  
+
   get "/pages/:page" do
     halt 404 unless @article = Page.find(params[:page])
     render_article @article

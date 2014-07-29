@@ -8,7 +8,7 @@
     { jquery: '//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js' },
     { bootstrapCollapse: '//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/collapse.min.js'},
     { podlove: '/podlove-web-player/static/podlove-web-player.js' },
-    { bitlove: 'http://bitlove.org/widget/base.js' }
+    { bitlove: '//bitlove.org/widget/base.js' }
     <% if Serious.flattr %>,{ flattr: '//api.flattr.com/js/0.6/load.js?mode=auto'}<% end %>
   )
     head.load("//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css")
@@ -18,6 +18,11 @@
   <link href="/podlove-web-player/static/podlove-web-player.css" rel="stylesheet" media="screen" type="text/css" />
 
   <link rel="alternate" type="application/atom+xml" title="<%= Serious.title %>" href="<%= Serious.feed_url %>" />
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="<%= Serious.description %>" />
 
   <meta property="og:url" content="<%= @article ? @article.full_url : Serious.url %>" />
   <meta property="og:title" content="<%= @article ? @article.title + " - " : "" %><%= Serious.title %>" />
@@ -71,9 +76,10 @@
             </div>
             <div class="panel-body">
               <p>
-                  Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt.
+                  <%= Serious.description %>
                   <a href="/pages/ueber-uns">mehr...</a>
               </p>
+              <%= render_flattr() if Serious.flattr %>
               <%#
               <p>
                 <strong>@binaergewitter</strong> auf
@@ -95,6 +101,7 @@
               %>
             </div>
           </div>
+
           <!-- DDG Search !-->
           <form role="search" action="https://duckduckgo.com/" name="x">
             <input type="hidden" name="sites" value="blog.binaergewitter.de">
