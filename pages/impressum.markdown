@@ -7,14 +7,14 @@ footer: true
 ---
 ViSdP und verantwortlich für den Inhalt:
 
-Ingo Ebel  
-Gietmannstr. 38  
+Ingo Ebel
+Gietmannstr. 38
 70565 Stuttgart
 
-Email: info@binaergewitter.de  
+Email: info@binaergewitter.de
 Tel.: 0700 46463235
 
-Preis pro Minute von einem Festnetz-Anschluss der Deutschen Telekom AG von Montag bis Freitag in der Zeit zwischen 9 bis 18 Uhr 12,4 Cent übrigen Zeit und an Samstagen, Sonntagen, bundeseinheitlichen 
+Preis pro Minute von einem Festnetz-Anschluss der Deutschen Telekom AG von Montag bis Freitag in der Zeit zwischen 9 bis 18 Uhr 12,4 Cent übrigen Zeit und an Samstagen, Sonntagen, bundeseinheitlichen
 gesetzlichen Feiertagen sowie am 24. Dezember und am 31. Dezember werden ganztägig 6,3 Cent fällig.
 Mobilfunkpreise können abweichen. Bitte erfragen Sie die Kosten bei Ihrem Provider.
 
@@ -22,6 +22,7 @@ Mobilfunkpreise können abweichen. Bitte erfragen Sie die Kosten bei Ihrem Provi
 
 * Andreas Tschirpke für die Logo-Idee und Vorlage
 * Rene aka RMraiden für das Intro
+* [https://github.com/flecno](Timo) für ein Upgrade der Webseite
 
 ## Datenschutz
 
@@ -51,18 +52,18 @@ Quellenangaben: [Disclaimer eRecht24](http://www.e-recht24.de/muster-disclaimer.
 
 ### Datenschutzerklärung für die Nutzung von Disqus
 
-Die Disqus-Kommentierungsfunktion wird von der Big Head Labs, Inc., San Francisco/USA als Dienstleistung zur Verfügung 
-gestellt. Disqus ist ein interaktives Kommentarsystem, das es dem Nutzer ermöglicht, mit nur einer Anmeldung auf allen 
-Internetangeboten, die Disqus als Kommentarsystem verwenden, zu kommentieren. Außerdem können sich die Nutzer über 
-bestehende Accounts bei Facebook (über Facebook Connect), Twitter, Yahoo und OpenID anmelden. Auch die Erstellung von 
-Kommentare ohne Registrierung und Anmeldung (als “Gast”) ist möglich. Nähere Informationen zu Disqus und seinen 
+Die Disqus-Kommentierungsfunktion wird von der Big Head Labs, Inc., San Francisco/USA als Dienstleistung zur Verfügung
+gestellt. Disqus ist ein interaktives Kommentarsystem, das es dem Nutzer ermöglicht, mit nur einer Anmeldung auf allen
+Internetangeboten, die Disqus als Kommentarsystem verwenden, zu kommentieren. Außerdem können sich die Nutzer über
+bestehende Accounts bei Facebook (über Facebook Connect), Twitter, Yahoo und OpenID anmelden. Auch die Erstellung von
+Kommentare ohne Registrierung und Anmeldung (als “Gast”) ist möglich. Nähere Informationen zu Disqus und seinen
 Funktionen finden Sie unter [www.disqus.com](https://disqus.com/).
 
-Ihre Daten werden von Disqus verarbeitet und auf Systemen von Disqus gespeichert. Für die Erhebung, Verarbeitung und 
-Nutzung der betreffenden Daten gelten die Nutzungsbedingungen und Datenschutzhinweise von Disqus, zu finden unter 
-[http://docs.disqus.com/help/30/](http://docs.disqus.com/help/30/) und [http://docs.disqus.com/help/29/](http://docs.disqus.com/help/29/). Wenn Sie sich 
-über Ihren Facebook-, Twitter-, 
-Yahoo- oder OpenID-Account anmelden, werden auch von diesen Anbietern möglicherweise Daten erhoben, gespeichert und 
+Ihre Daten werden von Disqus verarbeitet und auf Systemen von Disqus gespeichert. Für die Erhebung, Verarbeitung und
+Nutzung der betreffenden Daten gelten die Nutzungsbedingungen und Datenschutzhinweise von Disqus, zu finden unter
+[http://docs.disqus.com/help/30/](http://docs.disqus.com/help/30/) und [http://docs.disqus.com/help/29/](http://docs.disqus.com/help/29/). Wenn Sie sich
+über Ihren Facebook-, Twitter-,
+Yahoo- oder OpenID-Account anmelden, werden auch von diesen Anbietern möglicherweise Daten erhoben, gespeichert und
 genutzt. Einzelheiten dazu finden sich in den Datenschutzbestimmungen des jeweiligen Anbieters.
 
 Wir behalten uns vor, unangemessene Kommentare oder Kommentar-Spam zu löschen.

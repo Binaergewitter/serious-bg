@@ -1,9 +1,6 @@
 require 'cgi'
 require 'time'
 
-description_text = "Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt."
-
-
 xml.instruct! :xml, :version=>"1.0", :encoding=>"UTF-8"
 xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd", "xmlns:atom" => "http://www.w3.org/2005/Atom", "xmlns:content" => "http://purl.org/rss/1.0/modules/content/", "xmlns:media" => "http://search.yahoo.com/mrss/",  :version => "2.0" do
   xml.channel do
@@ -11,13 +8,13 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd", "xmlns:a
     xml.link Serious.url
     xml.tag!("atom:link", :rel => 'self', :href => @current_url) if @current_url
     xml.tag!("atom:link", :rel => 'next', :href => @next_url) if @next_url
-    xml.description description_text
+    xml.description Serious.description
     xml.language 'de'
     xml.pubDate @articles.first.date.rfc2822 unless @articles.empty?
-    xml.lastBuildDate @articles.first.date.rfc2822 unless @articles.empty?    
+    xml.lastBuildDate @articles.first.date.rfc2822 unless @articles.empty?
     xml.itunes :author, Serious.author
     xml.copyright "Creative Commons BY-SA 3.0 DE"
-    
+
     if Serious.flattr
       flattr_link = 'https://flattr.com/submit/auto?url='
       flattr_link << CGI::escape(Serious.url)
@@ -32,17 +29,17 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd", "xmlns:a
       xml.tag!("atom:link", "rel" => 'payment', 'type' => 'text/html', 'href' => flattr_link)
     end
     xml.itunes :subtitle, "Web, Technologie und OpenSource Software"
-    xml.itunes :summary, description_text
+    xml.itunes :summary, Serious.description
     xml.itunes :keywords, "technology, gadgets, web, opensource, krepel"
     xml.itunes :explicit, "no"
-  
+
     xml.itunes :image, {"href" => "http://blog.binaergewitter.de/img/binaergewitter_logo_text.png"}
     xml.itunes :category, {"text" => "Technology"}
     xml.tag!("itunes:owner"){
       xml.tag!("itunes:name", "Binärgewitter Crew")
       xml.tag!("itunes:email", "info@binaergewitter.de")
     }
-    
+
 
     @articles.each do |article|
       xml.item do
@@ -51,7 +48,7 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd", "xmlns:a
         xml.itunes :author, Serious.author
         xml.itunes :summary, article.automatic_summary
         # In case we fudged the initial release, we can set the parameter
-        # in the article and generate a new GUID which will trigger clients 
+        # in the article and generate a new GUID which will trigger clients
         # to redownload things
         if article.release
           xml.guid "#{article.full_url}-#{article.release}", 'isPermaLink'=> "false"
