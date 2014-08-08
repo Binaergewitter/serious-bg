@@ -1,0 +1,40 @@
+{
+  "name": "bgt",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "c71d7db10ede1349b3a8ae0293b1dbf8",
+      "css": "flattr",
+      "code": 59392,
+      "src": "zocial"
+    },
+    {
+      "uid": "2a3192d0f8fe0c7cf959168e68eb16d8",
+      "css": "rss",
+      "code": 59396,
+      "src": "zocial"
+    },
+    {
+      "uid": "b1ec8e90c2c85cf0035849980a3789b3",
+      "css": "twitter",
+      "code": 59395,
+      "src": "zocial"
+    },
+    {
+      "uid": "ff16079eb4be12c49bf3014d2322acdd",
+      "css": "github-circled",
+      "code": 59394,
+      "src": "zocial"
+    },
+    {
+      "uid": "40ff77423c882ef32d11b5aec4ab17cf",
+      "css": "appnet",
+      "code": 59393,
+      "src": "zocial"
+    }
+  ]
+}

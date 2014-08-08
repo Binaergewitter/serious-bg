@@ -12,6 +12,7 @@
     <% if Serious.flattr %>,{ flattr: '//api.flattr.com/js/0.6/load.js?mode=auto'}<% end %>
   )
     head.load("//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css")
+    head.load("/css/iconfont/css/bgt-embedded.css")
     head.load("/css/coderay.css")
   </script>
 
@@ -56,9 +57,13 @@
       font-size: 1em;
       font-weight: 300;
     }
-
     .header-logo {
       width: 100%;
+    }
+
+    .social-icons a {
+      font-size: 30px;
+      text-decoration: none;
     }
   </style>
 </head>
@@ -69,70 +74,24 @@
 
   <div class="container">
     <div class="row">
-        <div class="col-md-3">
-          <div class="panel panel-default visible-md visible-lg">
-            <div class="panel-heading">
-                <h3 class="panel-title">Über uns</h3>
-            </div>
-            <div class="panel-body">
-              <p>
-                  <%= Serious.description %>
-                  <a href="/pages/ueber-uns">mehr...</a>
-              </p>
-              <%= render_flattr() if Serious.flattr %>
-              <%#
-              <p>
-                <strong>@binaergewitter</strong> auf
-              </p>
-              <p class="social-icons text-center">
-                <a href="https://twitter.com/binaergewitter">
-                  <i class="icon-3x icon-twitter"></i>
-                </a>
-                <a href="https://app.net/binaergewitter">
-                  <i class="icon-3x icon-adn"></i>
-                </a>
-                <a href="https://github.com/binaergewitter">
-                  <i class="icon-3x icon-github"></i>
-                </a>
-                <a id="flattr-icon" href="https://github.com/binaergewitter">
-                  <i class="icon-3x icon-github"></i>
-                </a>
-              </p>
-              %>
-            </div>
-          </div>
+      <%= render_partial :sidebar %>
 
-          <!-- DDG Search !-->
-          <form role="search" action="https://duckduckgo.com/" name="x">
-            <input type="hidden" name="sites" value="blog.binaergewitter.de">
-            <div class="widget-DDG form-group">
-              <div class="widget-DDG_start"></div>
-              <div class="widget-DDG_input input-group">
-                <span class="input-group-addon">
-                  <span class="glyphicon glyphicon-search"></span>
-                </span>
-                <input id="search" name="q" type="text" class="DDGinput form-control" placeholder='Suche' />
-              </div>
-              <div class="widget-DDG_end" onclick="document.x.submit()" class="btn btn-default"></div>
-            </div>
-          </form>
-        </div>
-        <div class="col-md-9">
-          <div class="row visible-md visible-lg">
-            <div class="col-md-3">
-              <img class="header-logo" src="/img/binaergewitter_logo.png" >
-            </div>
-            <div class="col-md-9" style="padding-top:20px">
-              <h1>
-                <span class="header-name"><%= Serious.title %></span>
-                <br>
-                <small class="header-slug">Now with more Internet!</small>
-              </h1>
-            </div>
+      <div class="col-md-9">
+        <div class="row visible-md visible-lg">
+          <div class="col-md-3">
+            <img class="header-logo" src="/img/binaergewitter_logo.png" >
           </div>
-          <hr>
-          <%= yield.force_utf8 %>
+          <div class="col-md-9" style="padding-top:20px">
+            <h1>
+              <span class="header-name"><%= Serious.title %></span>
+              <br>
+              <small class="header-slug">Now with more Internet!</small>
+            </h1>
+          </div>
         </div>
+        <hr>
+        <%= yield.force_utf8 %>
+      </div>
     </div>
   </div>
 
