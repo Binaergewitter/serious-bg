@@ -16,7 +16,7 @@ Nach einer kurzen Kreativpause sind wieder wieder da. So unlustig und geschmaklo
 ## Moderation
 
 - Wir senden nur noch alle zwei Wochen
-- [Website Redesign]( https://github.com/Binaergewitter/serious-bg/pull/92 ) - danke an flecno und l33tname
+- [Website Redesign]( https://github.com/Binaergewitter/serious-bg/pull/92 ) - danke an [flecno]( https://github.com/flecno ) und [l33tname]( https://github.com/fliiiix )
 - pfleidi und Mat finden den [Podlove Player]( https://github.com/podlove/podlove-web-player ) doof
     * [Post zum Thema]( http://daverupert.com/2014/02/sharing-podcasts/ )
     * [Building an HTML5 audio player]( http://webdesign.tutsplus.com/tutorials/create-a-customized-html5-audio-player--webdesign-7081 )
@@ -59,11 +59,11 @@ Nach einer kurzen Kreativpause sind wieder wieder da. So unlustig und geschmaklo
     * ["CEO" explains:]( http://www.youtube.com/watch?v=DQAJmmVsi1g&list=UUbje6r5t7Tn66iiTq3Cpu0Q )
     * [Passives Tracking]( http://digiday.com/platforms/foursquare-longer-needs-check-ins-track-store-visits/ )
 - [Audio Extraction from Video]( http://youtu.be/FKXOucXB4a8 )
-   * [Aehnlich zu Video Movement  Amplification?]( http://newsoffice.mit.edu/2012/amplifying-invisible-video-0622 )
+    * [Ähnlich zu Video Movement Amplification?]( http://newsoffice.mit.edu/2012/amplifying-invisible-video-0622 )
 - [Terraform.io]( http://www.terraform.io/ )
     * [Blogpost]( http://www.hashicorp.com/blog/terraform.html )
     * [Infrastruktur Management]( http://www.terraform.io/intro/vs/chef-puppet.html ) 
-       - [Buzzword "cloud orchestration"]( http://www.rackspace.com/blog/cloud-orchestration-automating-deployments-of-full-stack-configurations/ )
+        - [Buzzword "cloud orchestration"]( http://www.rackspace.com/blog/cloud-orchestration-automating-deployments-of-full-stack-configurations/ )
     * [AWS Opsworks]( http://aws.amazon.com/opsworks/ )
     * [fucking shell scripts?](http://fuckingshellscripts.org/ )
 - [Neue Github Pages]( https://github.com/blog/1867-github-pages-now-runs-jekyll-2-2-0 )
@@ -74,12 +74,12 @@ Nach einer kurzen Kreativpause sind wieder wieder da. So unlustig und geschmaklo
 - [Your bug report sucks]( http://yourbugreportsucks.com/ )
 - [Factory Girl getting started]( http://rubydoc.info/gems/factory_girl/file/GETTING_STARTED.md )
 - [Signs that you're a bad programmer]( http://www.yacoset.com/Home/signs-that-you-re-a-bad-programmer )
-  * [Signs that you're a good programmer]( http://www.yacoset.com/Home/signs-that-you-re-a-good-programmer )
+    * [Signs that you're a good programmer]( http://www.yacoset.com/Home/signs-that-you-re-a-good-programmer )
 
 ## Mimimi der Woche
 
 - Monosnap Memleak
-- Grub2 und lvm (Ingo)
+- Grub2 und lvm
 - [git flow]( https://github.com/nvie/gitflow ) (nur ein hotfix-Branch?!)
     * [A successful Git branching model]( http://nvie.com/posts/a-successful-git-branching-model/ )
 - Yosemite erlaubt nur Xcode 6
@@ -91,7 +91,7 @@ Nach einer kurzen Kreativpause sind wieder wieder da. So unlustig und geschmaklo
 - [fugitive.vim]( https://github.com/tpope/vim-fugitive )
 - [bundler.vim]( https://github.com/tpope/vim-bundler )
 - [Game about squares]( http://gameaboutsquares.com/ )
-- [raider](http://raider.sourceforge.net/ ) (ingo)
-- [finn]( http://www.amazon.de/gp/product/B00IU12054/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B00IU12054&linkCode=as2&tag=trektrip ) (ingo)
-- [Camel Up](http://www.amazon.de/gp/product/B00ICF0OZQ/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B00ICF0OZQ&linkCode=as2&tag=trektrip&linkId=VTGEQFM22HWI3MCE ) (ingo)
+- [raider](http://raider.sourceforge.net/ )
+- [finn]( http://www.amazon.de/gp/product/B00IU12054/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B00IU12054&linkCode=as2&tag=trektrip )
+- [Camel Up](http://www.amazon.de/gp/product/B00ICF0OZQ/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B00ICF0OZQ&linkCode=as2&tag=trektrip&linkId=VTGEQFM22HWI3MCE )
 
