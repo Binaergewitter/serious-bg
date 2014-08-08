@@ -22,7 +22,7 @@ Mobilfunkpreise können abweichen. Bitte erfragen Sie die Kosten bei Ihrem Provi
 
 * Andreas Tschirpke für die Logo-Idee und Vorlage
 * Rene aka RMraiden für das Intro
-* [https://github.com/flecno](Timo) für ein Upgrade der Webseite
+* [Timo](https://github.com/flecno ) für ein Upgrade der Webseite
 
 ## Datenschutz
 
