@@ -35,7 +35,7 @@ Nach einer kurzen Kreativpause sind wieder wieder da. So unlustig und geschmaklo
 
 - [Dr. Axel Stoll]( https://www.youtube.com/watch?v=Sa0N7rgxaHw )
 - [kein Rickrolled mehr auf Youtube]( http://www.tagesschau.de/schlusslicht/rickrolled-100.html )
-- [NSFW]( http://not-safe-for-work.de ) via [@schmittlauch] (https://twitter.com/schmittlauch)
+- [NSFW]( http://not-safe-for-work.de ) via [@schmittlauch](https://twitter.com/schmittlauch)
 
 ## Untoter der Woche
 
