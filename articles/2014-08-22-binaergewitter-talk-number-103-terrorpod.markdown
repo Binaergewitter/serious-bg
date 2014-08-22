@@ -15,11 +15,11 @@ Nach 14-Tagen melden wir uns wieder zurück. Ohne Pfleidi aber dafür mit Canvas
 
 ## Blast from the past
 
-- libressl
-- [Linux Worlddomination auch auf dem Desktop]http://www.pro-linux.de/news/1/21428/torvalds-desktop-dominanz-bleibt-ein-ziel.html
+- [libressl]( http://www.libressl.org/ )
+- [Linux Worlddomination auch auf dem Desktop]( http://www.pro-linux.de/news/1/21428/torvalds-desktop-dominanz-bleibt-ein-ziel.html )
 - [Boycott Systemd](http://boycottsystemd.org/ )
   * [Gegendarstellung von HN]( https://news.ycombinator.com/item?id=7639170 )
-  * [Systemd/Journald fuer User]( https://media.ccc.de/browse/conferences/gpn/gpn14/gpn14_-_5789_-_de_-_medientheater_-_201406201600_-_systemd_und_journald_fur_nutzer_-_secure.html ) via [schmittlauch](https://twitter.com/schmittlauch )
+  * [Systemd/Journald für User]( https://media.ccc.de/browse/conferences/gpn/gpn14/gpn14_-_5789_-_de_-_medientheater_-_201406201600_-_systemd_und_journald_fur_nutzer_-_secure.html ) via [schmittlauch](https://twitter.com/schmittlauch )
 - [The Android Browser]( http://blog.html5test.com/2014/07/the-android-browser/ )
 
 # Tumblr der Woche 
@@ -31,14 +31,14 @@ Nach 14-Tagen melden wir uns wieder zurück. Ohne Pfleidi aber dafür mit Canvas
 
 ## Toter der Woche
 
-- Robin Williams
+- [Robin Williams]( http://www.imdb.com/name/nm0000245/ )
 - [PHP 5.3](http://www.heise.de/newsticker/meldung/End-of-Life-fuer-PHP-5-3-2293804.html )
 - [Brockhaus](http://www.heise.de/newsticker/meldung/Endgueltiges-Aus-fuer-gedruckten-Brockhaus-2293661.html )
   * [Wikipedia ausgedruckt]( http://wirtschaftsblatt.at/home/life/techzone/1565655/Internet-ausgedruckt_Wikipedia-als-Buch-Video )
 
 ## News
 - [Mailbox beta for Mac]( http://www.mailboxapp.com/blog/#/posts/95197480210 )
-    * [Beta-Coins selber erstellen]( http://www.velvetcache.org/2014/08/20/custom-mailbox-betacoins )
+  * [Beta-Coins selber erstellen]( http://www.velvetcache.org/2014/08/20/custom-mailbox-betacoins )
 - [DANE dns gpg](http://www.heise.de/netze/meldung/DANE-disruptiv-Authentifizierte-OpenPGP-Schluessel-im-DNS-2268917.html )
     wer braucht dann noch keybase?
 - [neuer Diaspora Hype](http://www.heise.de/newsticker/meldung/Terrormiliz-Islamischer-Staat-wechselt-von-Twitter-zu-Diaspora-2300171.html )
@@ -50,11 +50,11 @@ Nach 14-Tagen melden wir uns wieder zurück. Ohne Pfleidi aber dafür mit Canvas
     * [Slides](  http://www.zdziarski.com/blog/wp-content/uploads/2014/07/iOS_Backdoors_Attack_Points_Surveillance_Mechanisms.pdf )
     * Vortrag bei der HOPE
     * [Follow Up]( http://www.iphoneblog.de/2014/07/22/follow-up-apples-pr-statement-zu-den-forschungsergebnisse-von-jonathan-zdziarski/ )
-- [BugCrowd Responsible Disclosure Template]( https://github.com/bugcrowd/disclosure-policy ) (felix) +
-   - Was ist Responsible Disclosure ( seid nett zu uns, gebt uns 90 tage  zeit bugs zu fixen, kontaktiert uns ueber offizielle kanaele, etc)
-   - Werbung fuer [Bugcrowd?]( https://bugcrowd.com/ ) -> crowdsourced Pentesting
-   - [Google Reward Program]( https://www.google.com/about/appsecurity/reward-program/ )
-- [Das internet war kaputt]( http://www.zdnet.com/internet-hiccups-today-youre-not-alone-heres-why-7000032566/ )+1
+- [BugCrowd Responsible Disclosure Template]( https://github.com/bugcrowd/disclosure-policy )
+  * Was ist Responsible Disclosure ( seid nett zu uns, gebt uns 90 tage  zeit bugs zu fixen, kontaktiert uns über offizielle kanäle, etc)
+  * Werbung für [Bugcrowd?]( https://bugcrowd.com/ ) -> crowdsourced Pentesting
+  * [Google Reward Program]( https://www.google.com/about/appsecurity/reward-program/ )
+- [Das Internet war kaputt]( http://www.zdnet.com/internet-hiccups-today-youre-not-alone-heres-why-7000032566/ )
 - [Linux Two-Factor Auth]( http://www.linux.com/news/featured-blogs/203-konstantin-ryabitsev/784544-linux-kernel-git-repositories-add-2-factor-authentication )
   * [Dokumentation 2fa]( https://korg.wiki.kernel.org/userdoc:gitolite_2fa )
 - [Digitale Agenda]( http://www.digitale-agenda.de/DA/Navigation/DE/Home/home.html ) 
@@ -71,13 +71,13 @@ Nach 14-Tagen melden wir uns wieder zurück. Ohne Pfleidi aber dafür mit Canvas
 
 ### Canvas Fingerprinting
 
-- [Canvas Fingerprinting]( https://securehomes.esat.kuleuven.be/~gacar/sticky/index.html )(gelesen)(felix)
-    * [Direktlink zum Paper]( https://securehomes.esat.kuleuven.be/~gacar/sticky/the_web_never_forgets.pdf )
+- [Canvas Fingerprinting]( https://securehomes.esat.kuleuven.be/~gacar/sticky/index.html )
+  * [Direktlink zum Paper]( https://securehomes.esat.kuleuven.be/~gacar/sticky/the_web_never_forgets.pdf )
 - [Panopticlick]( https://panopticlick.eff.org/ )
 - pr0n mode
-- [Firefox](https://support.mozilla.org/de/kb/firefox-profile-erstellen-und-loeschen ) /Chrome profiles
-- http://noscript.net/
-- Ghostery
+- [Firefox](https://support.mozilla.org/de/kb/firefox-profile-erstellen-und-loeschen ) / Chrome profiles
+- [noscript.net]( http://noscript.net/ )
+- [Ghostery]( https://www.ghostery.com/en/ )
 - ggf. nützliche Firefox Einstellungen?!
 - [Privacy Badger]( https://www.eff.org/privacybadger )
 - [JS Lib zum Studieren des Codes]( https://github.com/Valve/fingerprintjs )
@@ -85,14 +85,14 @@ Nach 14-Tagen melden wir uns wieder zurück. Ohne Pfleidi aber dafür mit Canvas
 
 ## Lesefoo
 
-- [CTF Writeup ROP exploitation]( http://krebsco.de/writeups/be-a-robot.html )(makefu)
-- [Rücktritt gescheitert](http://www.heise.de/tp/artikel/42/42419/1.html ) (ingo)
-- [Why was Pinball removed from Windows Vista?](http://blogs.msdn.com/b/oldnewthing/archive/2012/12/18/10378851.aspx#10379160 )
+- [CTF Writeup ROP exploitation]( http://krebsco.de/writeups/be-a-robot.html )
+- [Rücktritt gescheitert]( http://www.heise.de/tp/artikel/42/42419/1.html )
+- [Why was Pinball removed from Windows Vista?]( http://blogs.msdn.com/b/oldnewthing/archive/2012/12/18/10378851.aspx#10379160 )
 - [hacking by touching ground]( http://news.hitb.org/content/stealing-encryption-keys-through-power-touch )
 
 ## Mimimi der Woche
 
-- phantomjs != nodejs (npm module installieren) (makefu)
+- phantomjs != nodejs (npm module installieren)
   * Array.prototype.push.apply(array1,array2)
   * Array.prototype.push.apply("aids",[]) -> TypeError: "length" is read-only
   * Array.prototype.push.apply(10,[1,2,3,1]) -> 4
@@ -104,10 +104,10 @@ Nach 14-Tagen melden wir uns wieder zurück. Ohne Pfleidi aber dafür mit Canvas
 
 ## Picks
 - [Mantle]( https://github.com/Mantle/Mantle )
-- [The Proof is trivial!](http://www.theproofistrivial.com/ ) (makefu)
-- [Sammlung awesome systadmin](https://github.com/kahun/awesome-sysadmin ) via l33tname
+- [The Proof is trivial!](http://www.theproofistrivial.com/ )
+- [Sammlung awesome systadmin](https://github.com/kahun/awesome-sysadmin ) via [l33tname](https://twitter.com/l33tname)
 - [John Oliver, Last Week Tonight on Ferguson]( http://www.youtube.com/watch?v=KUdHIatS36A )
-    * [Youtube Channel]( http://www.youtube.com/user/LastWeekTonight )
+  * [Youtube Channel]( http://www.youtube.com/user/LastWeekTonight )
 - [Fish play Street Fighter]( http://www.twitch.tv/fishplaystreetfighter )
 
 
