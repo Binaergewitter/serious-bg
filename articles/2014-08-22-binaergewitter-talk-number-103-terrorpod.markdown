@@ -42,16 +42,16 @@ Nach 14-Tagen melden wir uns wieder zurück. Ohne Pfleidi aber dafür mit Canvas
 - [DANE dns gpg](http://www.heise.de/netze/meldung/DANE-disruptiv-Authentifizierte-OpenPGP-Schluessel-im-DNS-2268917.html )
     wer braucht dann noch keybase?
 - [neuer Diaspora Hype](http://www.heise.de/newsticker/meldung/Terrormiliz-Islamischer-Staat-wechselt-von-Twitter-zu-Diaspora-2300171.html )
-  * [Archer]
+  * [Archer]( http://de.wikipedia.org/wiki/Archer_%28Zeichentrickserie%29 )
 - [Xiaomi MIUI6 kopiert iOS7 hart]( http://mashable.com/2014/08/19/miui-6-ios-7-compared/ )
     * [Hugo Barra (Ex-Google/Android) meint Nein, tun sie nicht]( http://www.tuaw.com/2014/07/23/xiaomis-hugo-barra-emphatically-denies-company-is-copying-apple/ )
     * [flyakite-osx]( http://osx.portraitofakite.com/boot.htm )
-- [Iphone Private Data extraction]( http://in.reuters.com/article/2014/07/26/apple-security-spying-idINKBN0FV01Q20140726 )(selbst noch nicht gelesen)
+- [Iphone Private Data extraction]( http://in.reuters.com/article/2014/07/26/apple-security-spying-idINKBN0FV01Q20140726 ) (selbst noch nicht gelesen)
     * [Slides](  http://www.zdziarski.com/blog/wp-content/uploads/2014/07/iOS_Backdoors_Attack_Points_Surveillance_Mechanisms.pdf )
     * Vortrag bei der HOPE
     * [Follow Up]( http://www.iphoneblog.de/2014/07/22/follow-up-apples-pr-statement-zu-den-forschungsergebnisse-von-jonathan-zdziarski/ )
 - [BugCrowd Responsible Disclosure Template]( https://github.com/bugcrowd/disclosure-policy )
-  * Was ist Responsible Disclosure ( seid nett zu uns, gebt uns 90 tage  zeit bugs zu fixen, kontaktiert uns über offizielle kanäle, etc)
+  * Was ist Responsible Disclosure (seid nett zu uns, gebt uns 90 tage  zeit bugs zu fixen, kontaktiert uns über offizielle kanäle, etc)
   * Werbung für [Bugcrowd?]( https://bugcrowd.com/ ) -> crowdsourced Pentesting
   * [Google Reward Program]( https://www.google.com/about/appsecurity/reward-program/ )
 - [Das Internet war kaputt]( http://www.zdnet.com/internet-hiccups-today-youre-not-alone-heres-why-7000032566/ )
