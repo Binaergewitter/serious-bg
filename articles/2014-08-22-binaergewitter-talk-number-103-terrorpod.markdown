@@ -32,6 +32,7 @@ Nach 14-Tagen melden wir uns wieder zurück. Ohne Pfleidi aber dafür mit Canvas
 ## Toter der Woche
 
 - [Robin Williams]( http://www.imdb.com/name/nm0000245/ )
+  * WP: [Robin Williams]( https://de.wikipedia.org/wiki/Robin_Williams )
 - [PHP 5.3](http://www.heise.de/newsticker/meldung/End-of-Life-fuer-PHP-5-3-2293804.html )
 - [Brockhaus](http://www.heise.de/newsticker/meldung/Endgueltiges-Aus-fuer-gedruckten-Brockhaus-2293661.html )
   * [Wikipedia ausgedruckt]( http://wirtschaftsblatt.at/home/life/techzone/1565655/Internet-ausgedruckt_Wikipedia-als-Buch-Video )
@@ -39,19 +40,17 @@ Nach 14-Tagen melden wir uns wieder zurück. Ohne Pfleidi aber dafür mit Canvas
 ## News
 - [Mailbox beta for Mac]( http://www.mailboxapp.com/blog/#/posts/95197480210 )
   * [Beta-Coins selber erstellen]( http://www.velvetcache.org/2014/08/20/custom-mailbox-betacoins )
-- [DANE dns gpg](http://www.heise.de/netze/meldung/DANE-disruptiv-Authentifizierte-OpenPGP-Schluessel-im-DNS-2268917.html )
-    wer braucht dann noch keybase?
+- [DANE GPG/PGP Keys im DNS](http://www.heise.de/netze/meldung/DANE-disruptiv-Authentifizierte-OpenPGP-Schluessel-im-DNS-2268917.html )
 - [neuer Diaspora Hype](http://www.heise.de/newsticker/meldung/Terrormiliz-Islamischer-Staat-wechselt-von-Twitter-zu-Diaspora-2300171.html )
   * [Archer]( http://de.wikipedia.org/wiki/Archer_%28Zeichentrickserie%29 )
 - [Xiaomi MIUI6 kopiert iOS7 hart]( http://mashable.com/2014/08/19/miui-6-ios-7-compared/ )
     * [Hugo Barra (Ex-Google/Android) meint Nein, tun sie nicht]( http://www.tuaw.com/2014/07/23/xiaomis-hugo-barra-emphatically-denies-company-is-copying-apple/ )
     * [flyakite-osx]( http://osx.portraitofakite.com/boot.htm )
-- [Iphone Private Data extraction]( http://in.reuters.com/article/2014/07/26/apple-security-spying-idINKBN0FV01Q20140726 ) (selbst noch nicht gelesen)
+- [Iphone Private Data extraction]( http://in.reuters.com/article/2014/07/26/apple-security-spying-idINKBN0FV01Q20140726 ) 
     * [Slides](  http://www.zdziarski.com/blog/wp-content/uploads/2014/07/iOS_Backdoors_Attack_Points_Surveillance_Mechanisms.pdf )
     * Vortrag bei der HOPE
     * [Follow Up]( http://www.iphoneblog.de/2014/07/22/follow-up-apples-pr-statement-zu-den-forschungsergebnisse-von-jonathan-zdziarski/ )
 - [BugCrowd Responsible Disclosure Template]( https://github.com/bugcrowd/disclosure-policy )
-  * Was ist Responsible Disclosure (seid nett zu uns, gebt uns 90 tage  zeit bugs zu fixen, kontaktiert uns über offizielle kanäle, etc)
   * Werbung für [Bugcrowd?]( https://bugcrowd.com/ ) -> crowdsourced Pentesting
   * [Google Reward Program]( https://www.google.com/about/appsecurity/reward-program/ )
 - [Das Internet war kaputt]( http://www.zdnet.com/internet-hiccups-today-youre-not-alone-heres-why-7000032566/ )
@@ -78,7 +77,6 @@ Nach 14-Tagen melden wir uns wieder zurück. Ohne Pfleidi aber dafür mit Canvas
 - [Firefox](https://support.mozilla.org/de/kb/firefox-profile-erstellen-und-loeschen ) / Chrome profiles
 - [noscript.net]( http://noscript.net/ )
 - [Ghostery]( https://www.ghostery.com/en/ )
-- ggf. nützliche Firefox Einstellungen?!
 - [Privacy Badger]( https://www.eff.org/privacybadger )
 - [JS Lib zum Studieren des Codes]( https://github.com/Valve/fingerprintjs )
 
