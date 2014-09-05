@@ -11,7 +11,7 @@ audioformats:
   m4a: http://download.binaergewitter.de/2014-09-04.Binaergewitter.Talk.104.m4a
   opus: http://download.binaergewitter.de/2014-09-04.Binaergewitter.Talk.104.opus
 ---
-Pfleidi, Felix und Ingo quatschen so lange dass sie zu den eigentlichen Themen gar nicht mehr kommen. Macht nix aufgeschoben ist ja nicht aufgehoben. Dafür Ragen wir noch mal über SSL, wieder über Medienkonsum und Webinterface von Providern.
+pfleidi, Felix und Ingo quatschen so lange dass sie gar keine Zeit mehr für die eigentlichen Themen haben. Macht nix. Aufgeschoben ist ja nicht aufgehoben. Dafür ragen wir noch mal über SSL, Medienkonsum und Webinterfaces von Providern.
 
 ## Blast
 
