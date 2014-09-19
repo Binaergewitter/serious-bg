@@ -66,20 +66,17 @@ Mat, Felix und Ingo reden diesmal vorallem über Sidechannel Attacks, DNSSec, Ma
 - [ldnsutils / ldns]( http://linux.die.net/man/1/ldns-dane )
 - Bind
     * [dynamische Zonen]( https://sys4.de/en/blog/2014/05/24/einen-tlsa-record-fuer-dane-mit-bind-9-publizieren/ )
-    * [old way]( http://www.howtoforge.com/configuring-dnssec-on-bind9-9.7.3-on-debian-squeeze-ubuntu-11.10-p2 )
-    * [new way]( https://kb.isc.org/article/AA-00626/0/Inline-Signing-in-ISC-BIND-9.9.0-Examples.html ) - inline signing (so habs ich auch gemacht) ab BIND 9.9 (debian backports) - 
+    * [old way mit extra tools und viel gebastel]( http://www.howtoforge.com/configuring-dnssec-on-bind9-9.7.3-on-debian-squeeze-ubuntu-11.10-p2 )
+    * [new way mit inline signing ab Bind 9.9]( https://kb.isc.org/article/AA-00626/0/Inline-Signing-in-ISC-BIND-9.9.0-Examples.html )
 -[Check your mail servers encryption]( https://ssl-tools.net/mailservers )
 - Unbound
     * unbound-anchor -v (ggf. [extra paket]( https://wiki.archlinux.org/index.php/Unbound )) 
-    * [dnssec-trigger]( http://www.nlnetlabs.nl/projects/dnssec-trigger/ )
+    * [dnssec-trigger]( http://www.nlnetlabs.nl/projects/dnssec-trigger/ ) - Clientseitiger DNSSec-fähiger Resolver
     
 ## Lesefoo
 
 - [Physical Sidechannel Attacks über USB-Grounding]( http://www.cs.tau.ac.il/~tromer/handsoff/ ) - Side Channel + chosen plaintext attack by the dudes which brought you the audio side channel
     * [Heise Artikel]( http://www.heise.de/security/meldung/Krypto-Schluessel-ueber-das-Erdungspotential-ausspionierbar-2294085.html )
-    * Why does this happen? 
-       The  electric potential on a laptop computer's chassis (metal panels,  shields     and ports) is ideally equal to that of the mains earth  ground potential, but     in reality it fluctuates greatly. Even when  the laptop is grounded (via its     power supply or via shielded cables  such as Ethernet, USB or VGA), there is     non-negligible impedance  between the grounding point(s) and other points in     the chassis. Due  to currents and electromagnetic fields inside the computer,     voltages  of large magnitude develop across this impedance     (often 10mV RMS or more, after filtering out the 50 or 60 Hz mains     frequency). This is the voltage we measure.
-
 - [Apple on Privacy]( http://www.apple.com/privacy/ )
     * [Tim Cook Interview mit Charlie Rose]( http://www.charlierose.com/watch/60444569 )
 
