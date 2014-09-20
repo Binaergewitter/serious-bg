@@ -58,7 +58,8 @@ Mat, Felix und Ingo reden diesmal vorallem über Sidechannel Attacks, DNSSec, Ma
 ## Themen
 
 ### DNSSec
-- [DNSSec tester]( https://www.tlsa.info/detail/mail.jitcreatives.de )
+- [DNSSec tester 1]( https://www.tlsa.info/detail/mail.jitcreatives.de )
+- [Check your mail servers encryption / DNSSec, Heartbleed, DANE, PFS ]( https://ssl-tools.net/mailservers )
 - [DNSSec allgemein]( https://de.wikipedia.org/wiki/Domain_Name_System_Security_Extensions )
     * DNS Poisoning
     * Man in the middle
@@ -68,10 +69,10 @@ Mat, Felix und Ingo reden diesmal vorallem über Sidechannel Attacks, DNSSec, Ma
     * [dynamische Zonen]( https://sys4.de/en/blog/2014/05/24/einen-tlsa-record-fuer-dane-mit-bind-9-publizieren/ )
     * [old way mit extra tools und viel gebastel]( http://www.howtoforge.com/configuring-dnssec-on-bind9-9.7.3-on-debian-squeeze-ubuntu-11.10-p2 )
     * [new way mit inline signing ab Bind 9.9]( https://kb.isc.org/article/AA-00626/0/Inline-Signing-in-ISC-BIND-9.9.0-Examples.html )
--[Check your mail servers encryption]( https://ssl-tools.net/mailservers )
-- Unbound
+- [Unbound](http://unbound.net/ )
     * unbound-anchor -v (ggf. [extra paket]( https://wiki.archlinux.org/index.php/Unbound )) 
     * [dnssec-trigger]( http://www.nlnetlabs.nl/projects/dnssec-trigger/ ) - Clientseitiger DNSSec-fähiger Resolver
+    * [Testen ob der eigene Rechner/Client/Browser/Resolver DNSSec macht](http://dnssec.vs.uni-due.de/ )
     
 ## Lesefoo
 
