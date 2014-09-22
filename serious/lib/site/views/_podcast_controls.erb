@@ -4,7 +4,7 @@
           <% article.audioformats.each_pair do |audio_format, audio_url| %>
             <a href="<%= audio_url %>"><img src="/img/audio_<%= audio_format %>_button.png"/></a>
           <% end %>
-          <a id="bitlove-<%= article.permalink %>" href="#"></a>          
+          <a id="bitlove-<%= article.permalink %>" href="#"></a>
           <script type="text/javascript">
           head.ready('bitlove', function () {
             torrentByEnclosure("<%= article.audioformats['mp3'] %>", function(info) {
@@ -20,9 +20,9 @@
         </div>
         <div class="podcast_player" style="width:100%;">
           <p>
-            <audio controls="controls" id="<%= article.permalink %>">
+            <audio controls="controls" id="<%= article.permalink %>" preload="none">
               <% article.audioformats.each_pair do |audio_format, audio_url| %>
-                <source src="<%= audio_url %>" type="audio/<%= audio_format %>" preload="metadata" />
+                <source src="<%= audio_url %>" type="audio/<%= audio_format %>" />
               <% end %>
               Your browser does not support the audio element.
             </audio>
