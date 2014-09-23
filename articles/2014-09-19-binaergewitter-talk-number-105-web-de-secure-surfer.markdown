@@ -59,6 +59,7 @@ Mat, Felix und Ingo reden diesmal vorallem über Sidechannel Attacks, DNSSec, Ma
 
 ### DNSSec
 - [DNSSec tester 1]( https://www.tlsa.info/detail/mail.jitcreatives.de )
+- [DNSSec tester 2](http://dnsviz.net/d/jitcreatives.de/dnssec/ )
 - [Check your mail servers encryption / DNSSec, Heartbleed, DANE, PFS ]( https://ssl-tools.net/mailservers )
 - [DNSSec allgemein]( https://de.wikipedia.org/wiki/Domain_Name_System_Security_Extensions )
     * DNS Poisoning
