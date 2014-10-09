@@ -6,7 +6,7 @@ sharing: false
 footer: true
 ---
 ## Live-Sendung
-Binärgewitter Talk läuft zur Zeit immer Donnerstag abends ab ca. 20 Uhr. Das kann sich auch mal ändern. Für aktuelle Infos folgt uns am besten auf Twitter. Unseren Live-Stream findet ihr unter 
+Binärgewitter Talk läuft zur Zeit meistens Donnerstag abends ab ca. 20 Uhr. Das kann sich auch mal ändern. Für aktuelle Infos folgt uns am besten auf Twitter. Unseren Live-Stream findet ihr unter 
 [http://streams.xenim.de/binaergewitter/](http://streams.xenim.de/binaergewitter/).
 Außerdem gibts von [@dansaviary](http://twitter.com/dansaviary) auch einen Opus Stream (im Ogg Container) in unterschiedlichen Qualitätsstufen. Ideal für Leute mit geringen Bandbreiten.
 
