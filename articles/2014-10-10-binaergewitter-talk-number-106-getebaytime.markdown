@@ -24,7 +24,7 @@ Mat und Felix treffen sich im Zwischenmodus um über Shellshock und Windows 10 z
 
 ## News
 
--[Matchstick, Chromecast mit FirefoxOS]( https://www.kickstarter.com/projects/matchstick/matchstick-the-streaming-stick-built-on-firefox-os )
+- [Matchstick, Chromecast mit FirefoxOS]( https://www.kickstarter.com/projects/matchstick/matchstick-the-streaming-stick-built-on-firefox-os )
 - [Kirby 2]( http://getkirby.com/blog/kirby-2 )
 - [Bash Command Injection](http://arstechnica.com/security/2014/09/bug-in-bash-shell-creates-big-security-hole-on-anything-with-nix-in-it/ )
  - [Grosse zusammenfassung von DWheeler]( http://www.dwheeler.com/essays/shellshock.html )
@@ -56,7 +56,7 @@ Mat und Felix treffen sich im Zwischenmodus um über Shellshock und Windows 10 z
     * [CEO hat noch kurz vorher Aktien vertickt]( http://arstechnica.com/apple/2014/10/sapphire-company-ceo-sold-160000-in-stock-days-before-iphone-6-reveal/ )
     
 - [HP split]( http://arstechnica.com/information-technology/2014/10/the-hp-split-does-half-a-dinosaur-move-twice-as-fast/ )
-- [Gopro jetzt mit 4K]( https://www.youtube.com/watch?v=wTcNtgA6gHs 
+- [Gopro jetzt mit 4K]( https://www.youtube.com/watch?v=wTcNtgA6gHs)
 - [Github mag Studenten]( https://github.com/blog/1900-the-best-developer-tools-now-free-for-students )
 
 ## Themen
@@ -79,7 +79,7 @@ Mat und Felix treffen sich im Zwischenmodus um über Shellshock und Windows 10 z
 - Apple Hotline
 
 ## Picks
--[If programming languages were weapons]( http://bjorn.tipling.com/if-programming-languages-were-weapons )
+- [If programming languages were weapons]( http://bjorn.tipling.com/if-programming-languages-were-weapons )
 - [Honest Trailers - Transformers 4]( https://www.youtube.com/watch?v=Zz5vEfa7UvI)
   - [... und Godzilla]( https://www.youtube.com/watch?v=LOyVy7CTUJE&list=PL86F4D497FD3CACCE&index=3 )
 - [Win 95 auf Android Wear]( http://arstechnica.com/gadgets/2014/10/make-your-smartwatch-even-less-useful-by-installing-windows-95/ ) 
