@@ -18,7 +18,7 @@ Mat und Felix treffen sich im Zwischenmodus um über Shellshock und Windows 10 z
 
 ## Toter der Woche
 - [Podcasting, weil verklagt]( http://arstechnica.com/tech-policy/2014/09/jury-finds-cbs-infringes-podcasting-patent-awards-1-3-million/ ) via Daniel
-- [Samsung notebooks]( http://www.heise.de/newsticker/meldung/Samsung-verkauft-in-Europa-keine-Notebooks-mehr-2402460.html )
+- [Samsung Notebooks]( http://www.heise.de/newsticker/meldung/Samsung-verkauft-in-Europa-keine-Notebooks-mehr-2402460.html )
 - [Yahoo! Verzeichnisdienst]( http://www.heise.de/newsticker/meldung/Yahoo-kuendigt-Ende-seines-Verzeichnisdienstes-an-2404728.html )
 
 
@@ -34,7 +34,7 @@ Mat und Felix treffen sich im Zwischenmodus um über Shellshock und Windows 10 z
      - lokal (auch nach aktuellstem patch): zzz='() {(zzz)zzz>\' bash -c 'fufuf date'    ; cat fufuf
      - Windows cmd.exe : https://twitter.com/FioraAeterna/status/517791046835920897
      - https://wiki.ubuntu.com/DashAsBinSh
-     - [Schönes Icon]( fedoramagazine.org/wp-content/uploads/2014/09/shellshock.png )
+     - [Schönes Icon]( http://fedoramagazine.org/wp-content/uploads/2014/09/shellshock.png )
      - [OpenVPN Vulnerable]( http://www.dwheeler.com/essays/shellshock.html )
      - [DHCP RCE]( https://www.trustedsec.com/september-2014/shellshock-dhcp-rce-proof-concept/ )
 
