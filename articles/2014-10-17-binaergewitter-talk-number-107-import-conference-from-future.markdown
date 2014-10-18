@@ -19,16 +19,16 @@ Große Runde bei Binärgewitter mit Importen aus USA und Heidelberg. Es dreht si
 
 # Tumblr der Woche
 
-- http://nosemouth.com/
-- http://buffalobillgates.tumblr.com/
-- http://whyjavasucks.com/
+- [nosemouth]( http://nosemouth.com/ )
+- [buffalobillgates]( http://buffalobillgates.tumblr.com/ )
+- [why java sucks]( http://whyjavasucks.com/ )
 
 ## Toter der Woche
 
 - [Çingleton]( http://cingleton.com/ )
 - Messen (mal wieder)
-    * LinuxTag fällt aus
-    * MacWorld fällt aus
+    * [LinuxTag]( http://www.heise.de/open/meldung/LinuxTag-faellt-2015-aus-2426450.html ) fällt aus
+    * [MacWorld]( http://www.macworld.com/article/2833480/macworld-iworld-on-hiatus-no-show-in-2015.html ) fällt aus
 - [UIKonf]( http://new.uikonf.com/ )
 
 ## News
@@ -57,10 +57,6 @@ Große Runde bei Binärgewitter mit Importen aus USA und Heidelberg. Es dreht si
 - [Drupageddon]( http://www.heise.de/newsticker/meldung/Update-fuer-Drupal-7-schliesst-Worst-Case-Sicherheitsluecke-2425878.html )
     * [Drupal.org announcement CVE-2014-3704]( https://www.drupal.org/SA-CORE-2014-005 )
 - [Everything you need to know about Sandworm]( http://nakedsecurity.sophos.com/2014/10/15/the-sandworm-malware-what-you-need-to-know/ )
-
-## Themen
-
-(Static Site generators verschoben - Mat)
 
 ## Lesefoo
 
@@ -95,7 +91,7 @@ Große Runde bei Binärgewitter mit Importen aus USA und Heidelberg. Es dreht si
 - Internet Abstinenz
     * Marc: Nein.
 - [NH90 Helmvisier]( http://www.spiegel.de/politik/deutschland/bundeswehr-probleme-bei-hubschrauber-nh90-a-997301.html )
-- [nuages - doodle clone](https://nuages.domainepublic.net/ ) danke an @lx4r
-- [größenvergleichskarte mit vielen vieln Raumschiffen](http://dirkloechel.deviantart.com/art/Size-Comparison-Science-Fiction-Spaceships-398790051 )
+- [nuages - doodle clone](https://nuages.domainepublic.net/ ) danke an [@lx4r]( https://twitter.com/lx4r )
+- [größenvergleichskarte mit vielen Raumschiffen](http://dirkloechel.deviantart.com/art/Size-Comparison-Science-Fiction-Spaceships-398790051 )
 
 
