@@ -79,7 +79,7 @@ Große Runde bei Binärgewitter mit Importen aus USA und Heidelberg. Es dreht si
 - ADAC Postbus Service
 - Foursquare
 - O2
-- USB Stick write protect
+- USB Stick write protect - ext4 "mount -o loop,ro,noexec,noload"
 - FreeNAS
 
 ## Picks
@@ -89,7 +89,6 @@ Große Runde bei Binärgewitter mit Importen aus USA und Heidelberg. Es dreht si
 - [Transpec]( https://github.com/yujinakayama/transpec )
 - [NoteJam]( https://github.com/komarserjio/notejam/ )
 - Internet Abstinenz
-    * Marc: Nein.
 - [NH90 Helmvisier]( http://www.spiegel.de/politik/deutschland/bundeswehr-probleme-bei-hubschrauber-nh90-a-997301.html )
 - [nuages - doodle clone](https://nuages.domainepublic.net/ ) danke an [@lx4r]( https://twitter.com/lx4r )
 - [größenvergleichskarte mit vielen Raumschiffen](http://dirkloechel.deviantart.com/art/Size-Comparison-Science-Fiction-Spaceships-398790051 )
