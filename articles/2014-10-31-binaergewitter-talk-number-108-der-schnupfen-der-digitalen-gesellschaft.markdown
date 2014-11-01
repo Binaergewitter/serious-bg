@@ -15,7 +15,7 @@ Die fantastischen Vier quatschen diesmal über die Zukunft, MultiSIMs, glücklic
 
 # Blast
 
-- Alternativen zu PhantomJS (in anderen Sprachen)
+- Alternativen zu [PhantomJS]( http://phantomjs.org/ ) (in anderen Sprachen)
     * [Capybara]( https://github.com/jnicklas/capybara )
     * [Splinter]( http://splinter.cobrateam.info/ )
 - [Retinacast über Godzilla]( http://retinacast.de/rtn035-fratboy-bully-asshole/ )
@@ -42,18 +42,17 @@ Die fantastischen Vier quatschen diesmal über die Zukunft, MultiSIMs, glücklic
 - [Rogue Tor nodes verpacken Exe files neu]( http://www.zdnet.com/rogue-tor-node-wraps-executables-with-malware-7000035060/ )
   - [Anonabox Drama]( http://www.computerworld.com/article/2835676/kickstarter-suspends-anonabox-tor-router-project.html )
 - [Emacs 24.4 mit integriertem Browser]( http://www.golem.de/news/gnu-emacs-24-4-mit-integriertem-browser-1410-109987.html )
-- [Emacs standing alone on a Linux Kernel]( http://www.informatimago.com/linux/emacs-on-user-mode-linux.html ) via l33tname
+- [Emacs standing alone on a Linux Kernel]( http://www.informatimago.com/linux/emacs-on-user-mode-linux.html ) via [l33tname]( http://l33t.name )
 - wann zieht systemd nach?
     - [systemd console]( http://www.phoronix.com/scan.php?page=news_item&px=MTgwNzQ )
 - [Debian soll wegen systemd geforkt werden]( http://debianfork.org/ )
     * [Blogpost zum Thema]( http://uselessd.darknedgy.net/ProSystemdAntiSystemd/ )
-- [Utopic Unicorn - ohne systemd]( 
-http://www.heise.de/newsticker/meldung/Neue-Linux-Distribution-Ubuntu-14-10-veroeffentlicht-2431139.html )
+- [Utopic Unicorn - ohne systemd]( http://www.heise.de/newsticker/meldung/Neue-Linux-Distribution-Ubuntu-14-10-veroeffentlicht-2431139.html )
 - [Phoenix Language]( https://ind.ie/phoenix/ )
 - [Apple SIM]( http://www.heise.de/newsticker/meldung/Wie-Apple-die-SIM-Karte-beerdigen-will-2428903.html )
 - [Windows Treiber brechen FTDI counterfeit chips]( http://arstechnica.com/information-technology/2014/10/windows-update-drivers-bricking-usb-serial-chips-beloved-of-hardware-hackers/ )
-  - [Linux Kernel Mailing List FTDI Patch]( https://lkml.org/lkml/2014/10/23/129 )
-  - [Linux-USB Patch um gebrickte FTDI Chips zu supporten]( http://marc.info/?l=linux-usb&m=141405129201389&w=2 )
+    * [Linux Kernel Mailing List FTDI Patch]( https://lkml.org/lkml/2014/10/23/129 )
+    * [Linux-USB Patch um gebrickte FTDI Chips zu supporten]( http://marc.info/?l=linux-usb&m=141405129201389&w=2 )
 - [Krautreporter ist live]( https://krautreporter.de/ )
 
 ## Das Jahr 2015 kommt näher
@@ -68,7 +67,7 @@ http://www.heise.de/newsticker/meldung/Neue-Linux-Distribution-Ubuntu-14-10-vero
 
 - [Why I test]( http://chriskottom.com/blog/2014/08/why-i-test )
 - [How the Hash works in Ruby]( http://www.gotealeaf.com/blog/how-the-hash-works-in-ruby )
-- [The Birth and Death of Javascript]( https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript ) +1
+- [The Birth and Death of Javascript]( https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript )
 - [How do Gems work]( http://www.justinweiss.com/blog/2014/09/29/how-do-gems-work )
 - [The Log: What every software engineer should know about real time data]( http://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying )
 - [Halting State]( http://amazon.de/dp/0441016073?tag=pfleidi-21 )
