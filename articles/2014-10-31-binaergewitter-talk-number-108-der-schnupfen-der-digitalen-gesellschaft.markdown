@@ -24,8 +24,6 @@ Die fantastischen Vier quatschen diesmal über die Zukunft, MultiSIMs, glücklic
 
 - [Worst Cats]( http://worstcats.tumblr.com )
 
-## Toter der Woche
-
 ## Untoter der Woche
 
 - [Thunderbird & Lightning]( http://www.pro-linux.de/news/1/21664/lightning-wird-bestandteil-von-thunderbird.html )
