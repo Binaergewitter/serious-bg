@@ -37,17 +37,17 @@ Mat und Felix freuen sich über den BND und andere Unwegbarkeiten der letzten 2 
 ## News
 
 - Microsoft open sourced Dinge
-  * [Github Page]( http://microsoft.github.io )http://malware.dontneedcoffee.com
+  * [Github Page]( http://microsoft.github.io )
   * [.net-Framework wird Cross-Platfom und Open Source]( https://github.com/Microsoft/dotnet )
   * [Linux Foundation sagt jo]( http://beta.slashdot.org/story/209753 )
   * [Office for iPad free]( http://www.theverge.com/2014/11/6/7163789/microsoft-office-free-for-ipad-iphone-android )
-* [http://www.heise.de/newsticker/meldung/Onymous-Razzia-gegen-Silk-Road-2-0-und-das-Darknet-2443945.html]
-  - [Mail der TOR-ml vom Doxbin Hidden Service OP]( https://lists.torproject.org/pipermail/tor-dev/2014-November/007731.html )
-  - [129 Hidden services beim selben hoster in Bulgarien]( http://www.deepdotweb.com/2014/11/08/129-seized-onion-domains-single-bulgarian-hosting/ )
-  - [Tor Projekt ueberlegt immernoch wie genau die Hidden Services entdeckt wurden]( http://beta.slashdot.org/story/209669 )
-  - [Tor hat kein geld fuer Security]( http://www.gulli.com/news/25081-tor-netzwerk-kein-geld-fuer-ausbau-der-sicherheit-2014-11-10 )
-* [BND will Zero Days kaufen]( http://www.heise.de/newsticker/meldung/SSL-abhoeren-Kritik-an-BND-Plaenen-zu-Zero-Day-Exploits-2445246.html )
-* [Alle Smartphones auf Pwn2Own gehackt]( http://rss.slashdot.org/~r/Slashdot/slashdot/~3/fkL9PysQN74/story01.htm )
+- [Onymous Razzia gegen Silk Road 2.0]( http://www.heise.de/newsticker/meldung/Onymous-Razzia-gegen-Silk-Road-2-0-und-das-Darknet-2443945.html )
+  * [Mail der TOR-ml vom Doxbin Hidden Service OP]( https://lists.torproject.org/pipermail/tor-dev/2014-November/007731.html )
+  * [129 Hidden services beim selben hoster in Bulgarien]( http://www.deepdotweb.com/2014/11/08/129-seized-onion-domains-single-bulgarian-hosting/ )
+  * [Tor Projekt überlegt immernoch wie genau die Hidden Services entdeckt wurden]( http://beta.slashdot.org/story/209669 )
+  * [Tor hat kein geld für Security]( http://www.gulli.com/news/25081-tor-netzwerk-kein-geld-fuer-ausbau-der-sicherheit-2014-11-10 )
+- [BND will Zero Days kaufen]( http://www.heise.de/newsticker/meldung/SSL-abhoeren-Kritik-an-BND-Plaenen-zu-Zero-Day-Exploits-2445246.html )
+- [Alle Smartphones auf Pwn2Own gehackt]( http://rss.slashdot.org/~r/Slashdot/slashdot/~3/fkL9PysQN74/story01.htm )
 - [Android Lollipop Nexus Factory Images]( https://developers.google.com/android/nexus/images )
 - [Ruby Raptor]( http://www.rubyraptor.org/ )
 - [Web-Tool zum Deaktivieren von iMessage-Nummern]( http://www.heise.de/newsticker/meldung/Wechsel-zu-Android-und-Co-Apple-erlaubt-iMessage-Abschaltung-im-Web-2445008.html )
@@ -65,7 +65,7 @@ Mat und Felix freuen sich über den BND und andere Unwegbarkeiten der letzten 2 
 ### MBaaS
 - [Parse]( https://parse.com/ )
 - [Amazon Cognito]( http://aws.amazon.com/cognito/ )
-    * [AWS re:invent]( https://reinvent.awsevents.com/ )
+  * [AWS re:invent]( https://reinvent.awsevents.com/ )
 - [CloudKit]( https://developer.apple.com/icloud/documentation/cloudkit-storage/ )
 
 ## Tumblr der Woche
@@ -73,7 +73,7 @@ Mat und Felix freuen sich über den BND und andere Unwegbarkeiten der letzten 2 
 
 ## Lesefoo
 - [Malware-traffic-analysis.net]( http://www.malware-traffic-analysis.net/index.html )
-   -[malware.dontneedcoffee.com]( http://malware.dontneedcoffee.com )
+  * [malware.dontneedcoffee.com]( http://malware.dontneedcoffee.com )
 - [Elon Musk Interview]( https://www.youtube.com/watch?v=FE4iFYqi4QU )
 
 
@@ -86,6 +86,6 @@ Mat und Felix freuen sich über den BND und andere Unwegbarkeiten der letzten 2 
 
 ## Picks
 - [Salmon Cannon]( https://www.youtube.com/watch?v=l9qA8c-E_oA )
-    * [Für die Schnellen]( http://youtu.be/l9qA8c-E_oA?t=1m41s )
+  * [Für die Schnellen]( http://youtu.be/l9qA8c-E_oA?t=1m41s )
 - [Python Dominate]( https://github.com/Knio/dominate )
 
