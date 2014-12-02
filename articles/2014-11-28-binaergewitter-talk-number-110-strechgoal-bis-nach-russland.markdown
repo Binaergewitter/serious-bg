@@ -43,7 +43,7 @@ Wir mussten mal wieder die Compliance Lampe auspacken, denn es geht um Japaner, 
 - [i for one welcome our new robot security guard overlords]( http://hardware.slashdot.org/story/14/11/21/1446230/microsoft-rolls-out-robot-security-guards )
 - [Firefox wechselt Standardsuchmaschine aus]( http://www.heise.de/newsticker/meldung/Mozilla-Partnerschaft-mit-Yahoo-fuer-Default-Suchmaschine-in-Firefox-2460746.html )
 - [Google Flatbuffers]( http://google.github.io/flatbuffers )
-    * [Capt'n Proto - infinitely faster]!( http://kentonv.github.io/capnproto/ )
+    * [Capt'n Proto - infinitely faster]( http://kentonv.github.io/capnproto/ )
     * [Gegenueberstellung]( http://kentonv.github.io/capnproto/news/2014-06-17-capnproto-flatbuffers-sbe.html )
 - [Google bringt Lovefield]( https://github.com/google/lovefield )
     * [Introduction to IndexedDB]( http://www.codemag.com/Article/1411041 )
