@@ -74,7 +74,7 @@ Heute in kleiner Runde und auch mal etwas kürzer. Wir quatschen über Google Dr
 - [Tagebuch der Apokalypse]( http://www.amazon.de/gp/product/3453527933/ref=as_li_ss_tl?ie=UTF8&tag=retinacast-21 ) (pfleidi)
 - [Richard Castle: Heat Wave - Hitzewelle](http://www.amazon.de/gp/product/3864250072/ref=as_li_ss_tl?ie=UTF8&tag=jitcreat-21&linkCode=as2&camp=1638&creative=19454&creativeASIN=3864250072 )
 - [Serie Castle](https://de.wikipedia.org/wiki/Castle_%28Fernsehserie%29 )
-- [DocHub]( http://dochub.io/ ) (pfleidi)
+- DocHub (leider offline) (pfleidi)
 - [Pwning a keylogger]( http://blog.spiderlabs.com/2012/04/pwning-a-spammers-keylogger.html ) (marc)
 - [Don't docwrite scripts]( http://www.stevesouders.com/blog/2012/04/10/dont-docwrite-scripts/ ) (pfleidi)
 - [Techcrunch Interview mit Linus](http://techcrunch.com/2012/04/19/an-interview-with-millenium-technology-prize-finalist-linus-torvalds/ ) (ingo)
