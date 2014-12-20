@@ -11,9 +11,9 @@ audioformats:
   m4a: http://download.binaergewitter.de/2014-12-18.Binaergewitter.Talk.111.m4a
   opus: http://download.binaergewitter.de/2014-12-18.Binaergewitter.Talk.111.opus
 ---
-Bei der letzten Sendung im Jahr 2014 haben wir wieder einen Gast dabei: Marcel
+Bei der letzten Sendung im Jahr 2014 haben wir einen Gast dabei: Marcel, den ihr vielleicht auch vom Retinacast kennt.
 Wir quatschen über potentielle Weihnachtsgeschenke über Ironsky 2 und über FireTV mit Plex sowie die Pebble Uhr.
-Die Audioqualität der Sendung ist noch nicht der letzte Schliff, trotzdem wollten wir euch die Sendung nicht vorenthalten.
+Die Audioqualität der Sendung ist noch nicht der letzte Schliff, trotzdem wollten wir euch die Sendung nicht vorenthalten. Vermutlich am Montag wird die Sendung noch mal in besserer Qualität online gehen.
 
 # Blast
 
@@ -71,9 +71,9 @@ vs.aspx )
 - [What If]( http://amazon.de/dp/1848549571?tag=pfleidi-21 )
 - [Firefly: A Celebration](http://www.amazon.de/gp/product/1781161682/?tag=trektrip )
   * [Lord of the Rings Mythologie erklärt]( https://www.youtube.com/watch?v=YxgsxaFWWHQ )
-- [The Martian]()
-- [Quantum Computing Since Democritus]()
-- [Cryptonomicon]()
+- [The Martian]( http://www.amazon.de/gp/product/B00FAXJHCY/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B00FAXJHCY&linkCode=as2&tag=trektrip&linkId=76AJYREFHNQPHUAI )
+- [Quantum Computing Since Democritus](http://www.amazon.de/gp/product/0521199565/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=0521199565&linkCode=as2&tag=trektrip&linkId=JJPSAH6LBBNNIRCV )
+- [Cryptonomicon](http://www.amazon.de/gp/product/0060512806/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=0060512806&linkCode=as2&tag=trektrip&linkId=YMCRXXXPMTRNO4CJ )
 
 #### Fachbücher
 
