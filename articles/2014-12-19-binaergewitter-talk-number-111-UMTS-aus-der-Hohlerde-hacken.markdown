@@ -26,11 +26,11 @@ Die Audioqualität der Sendung ist noch nicht der letzte Schliff, trotzdem wollt
 - [Ezra Zygmuntowicz]( https://news.ycombinator.com/item?id=8676140 )
 - [Ralph Baer, Vater aller Computerspiele]( http://kotaku.com/the-father-of-video-games-ralph-baer-has-passed-away-1667980395 )
 - [Road Safety Esel in von Auto getötet :(]( http://www.bbc.com/news/uk-england-hampshire-30342578 )
-- [Browserauswahl]{http://www.golem.de/news/microsoft-webbrowserauswahl-in-windows-ist-abgeschafft-1412-111268.html }
+- [Browserauswahl]( http://www.golem.de/news/microsoft-webbrowserauswahl-in-windows-ist-abgeschafft-1412-111268.html )
 
 ## Prinziptumblr der Woche
 
-- [Gemüsepenen]( http://news.distractify.com/megan-mccormick/foods-that-look-like-dicks/?v=1 ) +1
+- [Gemüsepenen]( http://news.distractify.com/megan-mccormick/foods-that-look-like-dicks/?v=1 )
 
 ## Prinzip-Kickstarter der Woche
 
@@ -38,9 +38,9 @@ Die Audioqualität der Sendung ist noch nicht der letzte Schliff, trotzdem wollt
 
 ## News
 
-- [Tizen TV kommt]( http://www.golem.de/news/samsung-erster-smart-tv-mit-tizen-kommt-naechstes-jahr-1412-111165.html ) via mezzobob
+- [Tizen TV kommt]( http://www.golem.de/news/samsung-erster-smart-tv-mit-tizen-kommt-naechstes-jahr-1412-111165.html ) via [mezzobob](https://twitter.com/mezzobob )
 - [Karsten Nohl hackt UMTS]( http://www.tagesschau.de/inland/umts-sicherheitsluecken-101.html )
-- [HTTPS zum standard und HTTP als unsicher brandmarken](http://www.heise.de/newsticker/meldung/Chromium-Team-will-HTTP-als-unsicher-markieren-2489404.html )
+- [HTTPS zum Standard und HTTP als unsicher brandmarken](http://www.heise.de/newsticker/meldung/Chromium-Team-will-HTTP-als-unsicher-markieren-2489404.html )
 - [Was kann dabei nur schief gehen: Plastik fressende Bakterien entdeckt]( http://www.gulli.com/news/25291-forscher-in-china-entdecken-plastik-fressende-bakterien-2014-12-05 )
 - [Man kann jetzt endlich Mormonen-Unterwäsche kaufen!]( http://mormonssecret.com/ )
 
@@ -90,7 +90,7 @@ vs.aspx )
     * [Plex]( https://plex.tv/ )
     * Mediatheken
     * [AirReceiver]( http://www.amazon.de/x9F99-x65B9-x513F-AirReceiver/dp/B00L5HQRGS )
-    * [BoxeeBox]( http://www.amazon.de/gp/product/B0043EV3MS )
+    * [BoxeeBox]( http://www.amazon.de/gp/product/B0043EV3MS/?tag=trektrip )
     * [Kodi (XBMC) auf Fire TV]( http://kodi.wiki/view/Amazon_Fire_TV )
 - [Pebble]( https://getpebble.com/ )
 - [Kleiner USB Akku]( http://www.amazon.de/dp/B00HY45JHY/?tag=pfleidi-21 )
@@ -99,15 +99,15 @@ vs.aspx )
 - [Arduino 2.4 Zoll TFT Touch-Screen ]( http://s.click.aliexpress.com/klk/eyZfQZVFm )[+ Arduino library für das Teil]( https://github.com/Smoke-And-Wires/TFT-Shield-Example-Code )
 - [Riesige SSDs sind so billig geworden ...]( http://www.amazon.de/dp/B00E3W19MO/?tag=krebsco-21 )
 - [Transcend JetDrive Lite](http://www.amazon.de/gp/product/B00K73NSU4/?tag=trektrip )
-    - [Nifty Drive](http://www.amazon.de/Nifty-MiniDrive-MD3-RP-AIRSR4G-Macbook-silber/dp/B00FEDYU68 )
+    - [Nifty Drive](http://www.amazon.de/Nifty-MiniDrive-MD3-RP-AIRSR4G-Macbook-silber/dp/B00FEDYU68/?tag=trektrip )
 - [Apple USB Keyboard Kopie]( http://www.amazon.de/gp/product/B00C9V7C3Q/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B00C9V7C3Q&linkCode=as2&tag=httprantde-21&linkId=GB5HQ3B6NT6Q7TRI )
 
 ## Spiele
 
 - [die verbotene Insel]( http://www.amazon.de/Schmidt-Spiele-49013-verbotene-Insel/dp/B000RPGT1W/?tag=trektrip )
 - [Camel Up](http://www.amazon.de/Pegasus-Spiele-54541G-Camel-Jahres/dp/B00ICF0OZQ/?tag=trektrip )
-- [Firefly - Das Spiel](http://www.amazon.de/Heidelberger-HE559-Firefly-Deluxe-Version/dp/B00PB4447K )
-- Choas on Deponia
+- [Firefly - Das Spiel](http://www.amazon.de/Heidelberger-HE559-Firefly-Deluxe-Version/dp/B00PB4447K/?tag=trektrip )
+- [Choas on Deponia](http://www.amazon.de/gp/product/B007MNMJ3O/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B007MNMJ3O&linkCode=as2&tag=trektrip&linkId=3UIBZFNBHUYXWJ4E )
 - The Room [Teil 1]( https://itunes.apple.com/de/app/the-room/id552039496?l=en&mt=8) + [Teil 2]( https://itunes.apple.com/de/app/the-room-two/id667362389?l=en&mt=8 )
 - [Monument Valley]( https://itunes.apple.com/de/app/monument-valley/id728293409?l=en&mt=8 )
 - [Lumino City]( http://www.luminocitygame.com/ )
@@ -125,11 +125,11 @@ vs.aspx )
 
 ### Tee
 - [Kusmi Tea]( http://de.kusmitea.com/ )
-- [Mr Tea]( http://www.amazon.de/gp/product/B008XCZ25K/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B008XCZ25K&linkCode=as2&tag=httprantde-21&linkId=E3DJWNBRUNAFHGFB ) +1 (pfleidi)
+- [Mr Tea]( http://www.amazon.de/gp/product/B008XCZ25K/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B008XCZ25K&linkCode=as2&tag=httprantde-21&linkId=E3DJWNBRUNAFHGFB )
   - [5pcs Mr Tea von aliexpress]( http://s.click.aliexpress.com/klk/JMFaqjMbI )
 - [Manatea]( http://www.amazon.de/Teem%C3%A4nnchen-manatea-Teesieb-teeei-Kobert/dp/B00KLF0Y32/ref=sr_1_1?ie=UTF8&qid=1418942934&sr=8-1&keywords=manatea )
 - [Teesieb U-Boot]( http://www.amazon.de/Ototo-Teesieb-U-Boot/dp/B004259VE0/ref=pd_sim_k_7?ie=UTF8&refRID=1H4HZKT7XGDW6PB24GZB )
-- http://www.amazon.de/Paladone-PP0135-Happy-Bottle-Stopper-Flaschenverschluss/dp/B001F7SGHQ/ref=pd_sim_k_5?ie=UTF8&refRID=112WXW08J84FNFAR9C76
+- [lustiger Flaschenverschluss - Happy Bottle Stopper]( http://www.amazon.de/Paladone-PP0135-Happy-Bottle-Stopper-Flaschenverschluss/dp/B001F7SGHQ/ref=pd_sim_k_5?ie=UTF8&refRID=112WXW08J84FNFAR9C76/?tag=trektrip )
 - [AdHoc Tee Ei]( http://www.amazon.de/dp/B004US809Q/?tag=pfleidi-21 )
 
 ## Lesefoo
