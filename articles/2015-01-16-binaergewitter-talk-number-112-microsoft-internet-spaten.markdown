@@ -15,10 +15,10 @@ Wir begrüßen euch im Jahr 2015. Der Zukunft oder so. Jedenfalls wird es das Ja
 
 ## Toter der Woche
 - [Internet Explorer](http://www.heise.de/newsticker/meldung/Spartanische-Geruechte-um-Abschaffung-des-Internet-Explorer-2517371.html )
-- [Besonders die Abwesenheit von neuen Lücken für den Internet Explorer ist bemerkenswert](http://www.heise.de/security/meldung/Patchday-Microsoft-stopft-acht-Luecken-in-Windows-2517423.html )
+    * [Besonders die Abwesenheit von neuen Lücken für den Internet Explorer ist bemerkenswert](http://www.heise.de/security/meldung/Patchday-Microsoft-stopft-acht-Luecken-in-Windows-2517423.html )
 
 ## Untoter der Woche
-- [Openoffice für OS/2](http://www.heise.de/ix/meldung/OpenOffice-fuer-OS-2-erhaeltlich-2513423.html?wt_mc=sm.feed.tw.ix )
+- [Openoffice für OS/2](http://www.heise.de/ix/meldung/OpenOffice-fuer-OS-2-erhaeltlich-2513423.html )
 - [Diskettenlaufwerk für Amiga (WTF!!)](http://www.heise.de/newsticker/meldung/Neues-Diskettenlaufwerk-fuer-alte-Amigas-2518021.html )
 - [Sitzplatzreservierungen bei der DB](http://bahnreise-wiki.de/wiki/Reservierungen_Deutschland#Hintergrundinfos_zu_Sitzplatzreservierungen )
 
@@ -31,12 +31,12 @@ Wir begrüßen euch im Jahr 2015. Der Zukunft oder so. Jedenfalls wird es das Ja
 - [CES: Audi Smartwatch Prototyp mit webOS]( http://www.computerbase.de/2015-01/lg-smartwatch-webos/ )
 - [Firefox 35 und mehr Pubkey-Pinning](https://wiki.mozilla.org/SecurityEngineering/Public_Key_Pinning#Implementation_status )
     * H.264 support jetzt auch unter Mac OS wenn vom OS unterstützt (seit FF 33 für Windows)
-- [ssh fingerprint im dns](http://blog.chr.istoph.de/openssh-fingerprinte-im-dns/ ) via @noqqe
+- [ssh fingerprint im dns](http://blog.chr.istoph.de/openssh-fingerprinte-im-dns/ ) via [@noqqe]( https://twitter.com/noqqe )
 - [Adblock Plus ist schuld daran,dass dein Browser so viel RAM braucht?!]( http://www.extremetech.com/computing/182428-ironic-iframes-adblock-plus-is-probably-the-reason-firefox-and-chrome-are-such-memory-hogs )
 - Apple Fanboys streiten sich über Qualität von Apple
-    * http://bitsplitting.org/2015/01/05/the-functional-high-ground/
-    * http://www.marco.org/2015/01/04/apple-lost-functional-high-ground
-        * update/regrets: http://www.marco.org/2015/01/05/popular-for-a-day
+    * [The functional high ground]( http://bitsplitting.org/2015/01/05/the-functional-high-ground/ )
+    * [Apple lost functional high ground]( http://www.marco.org/2015/01/04/apple-lost-functional-high-ground )
+        * [update/regrets]( http://www.marco.org/2015/01/05/popular-for-a-day )
 - [Obama will Hacker härter bestrafen]( http://arstechnica.com/tech-policy/2015/01/obama-wants-congress-to-increase-prison-sentences-for-hackers/ )
     * [CFAA]( http://en.wikipedia.org/wiki/Computer_Fraud_and_Abuse_Act )
 - [London will alle Verschlüssung knacken und kaputt machen](http://www.heise.de/newsticker/meldung/Grossbritannien-Cameron-will-gegen-Verschluesselung-vorgehen-2516774.html )
@@ -48,7 +48,7 @@ Wir begrüßen euch im Jahr 2015. Der Zukunft oder so. Jedenfalls wird es das Ja
 
 ## Themen
 
-- 31C3
+- [31C3]( https://events.ccc.de/congress/2014/wiki/Static:Main_Page )
   - Richard Stallman, Fingerabdrücke, UMTS und [Funky File Formats]( https://events.ccc.de/congress/2014/Fahrplan/events/5930.html )
   - [erste Dark Mail Spezifikation](http://www.pro-linux.de/news/1/21896/erste-dark-mail-spezifikation-fertiggestellt.html )
 - Hörertreffen
