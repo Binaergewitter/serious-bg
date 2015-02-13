@@ -19,7 +19,7 @@ Felix, Pfleidi und Ingo verabreden sich zum Testen von Top und dem Vivaldi und s
     * [JDownloader]( http://jdownloader.org/ )
 - [SYDY](http://www.heise.de/newsticker/meldung/Zugunsten-von-HTTP-2-verabschiedet-sich-Google-von-SPDY-2544754.html )
     * [Chromium Blogpost]( http://blog.chromium.org/2015/02/hello-http2-goodbye-spdy-http-is_9.html )
-- [jetzt geh endlich sterben Flash] (http://www.heise.de/newsticker/meldung/Flash-Update-schliesst-insgesamt-18-Luecken-jetzt-fuer-alle-Plattformen-2542408.html )
+- [jetzt geh endlich sterben Flash](http://www.heise.de/newsticker/meldung/Flash-Update-schliesst-insgesamt-18-Luecken-jetzt-fuer-alle-Plattformen-2542408.html )
     * [Youtube verwendet HTML5 statt Flash]( http://www.theverge.com/2015/1/27/7926001/youtube-drops-flash-for-html5-video-default )
 - [Windows RT ist tot]( http://www.techstage.de/news/Kommentar-zu-Windows-RT-Eine-Totgeburt-wird-beerdigt-2540167.html )
 
