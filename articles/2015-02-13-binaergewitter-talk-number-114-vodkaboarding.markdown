@@ -45,9 +45,8 @@ https://en.wikipedia.org/wiki/Ksplice
     * [Firefox OS Review]( http://ignorethecode.net/blog/2015/01/13/firefox_os/ )
     * [SailfishOSS]( https://wiki.merproject.org/wiki/SailfishOSS )
     * [Stallman über LLVM Anbindung in Emacs]( http://lists.gnu.org/archive/html/emacs-devel/2015-02/msg00274.html )
-    * [GNU/Hurd]( http://en.wikipedia.org/wiki/GNU_Hurd )
-    http://www.pro-linux.de/news/1/21988/gnu-hurd-meldet-sich-zu-wort.html
-    https://de.wikipedia.org/wiki/Metrisches_Einheitensystem
+    * [GNU/Hurd]( http://en.wikipedia.org/wiki/GNU_Hurd ) [Pro-Linux: GNU/Hurd meldet sich zu Wort](http://www.pro-linux.de/news/1/21988/gnu-hurd-meldet-sich-zu-wort.html)
+    * [WP: Metrisches Einheitensystem](https://de.wikipedia.org/wiki/Metrisches_Einheitensystem)
 - [Fahrerlose Fahrzeuge in GB]( http://arstechnica.com/cars/2015/02/britain-driverless-cars-are-coming-to-your-streets/ )
 - [Node.js wurde geforkt]( http://www.wired.com/2014/12/io-js/?hn )
     * [IO.js]( https://iojs.org/en/index.html )
