@@ -2,6 +2,8 @@
 
 Oh hai!
 
+[![Build Status](https://travis-ci.org/Binaergewitter/serious-bg.svg?branch=master)](https://travis-ci.org/Binaergewitter/serious-bg)
+
 
 # Markdown syntax
 You can add a "release: 2" line to the article markdown in case you 
