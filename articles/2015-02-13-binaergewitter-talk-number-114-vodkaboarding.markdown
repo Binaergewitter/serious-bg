@@ -6,6 +6,7 @@ comments: true
 categories: talk
 sharing: true
 release: 2
+published: true
 audioformats:
   mp3: http://download.binaergewitter.de/2015-02-12.Binaergewitter.Talk.114.mp3
   ogg: http://download.binaergewitter.de/2015-02-12.Binaergewitter.Talk.114.ogg

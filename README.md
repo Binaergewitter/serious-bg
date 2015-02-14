@@ -7,6 +7,9 @@ Oh hai!
 You can add a "release: 2" line to the article markdown in case you 
 fudged up a release and would like to increment the GUID in the feed after a fix
 
+You can add a "published: false" line to the article markdown to NOT have it
+show up anywhere.
+
 # Feeds
 Feed with all items:
 

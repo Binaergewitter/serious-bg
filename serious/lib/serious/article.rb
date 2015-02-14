@@ -12,17 +12,19 @@ class Serious::Article
     # Returns all articles. Can be drilled down by (optional) :limit and :offset options
     #
     def all(options={})
-      options = {:limit => 10000, :offset => 0}.merge(options)
+      options = {:limit => 10000, :offset => 0, :include_unpublished => false}.merge(options)
       options[:audioformat] = ['m4a', 'mp3'] if options[:audioformat] == 'itunes'
       now = DateTime.now
       articles = article_paths.map do |article_path|
         article = new(article_path)
+        matches_published_status = options[:include_unpublished] ? true : article.published?
+
         if options[:category]
           matches_category = options[:category] == 'all' || Array(article.categories).include?(options[:category].to_s)
         else
           matches_category = true
         end
-        
+
         if options[:audioformat]
           available_formats = article.audioformats.keys rescue []
           wanted_formats = Array(options[:audioformat])
@@ -30,10 +32,10 @@ class Serious::Article
         else
           matches_audioformat = true
         end
-        
-        article if article && (Serious.future || article.date <= now) && matches_category && matches_audioformat
+
+        article if article && (Serious.future || article.date <= now) && matches_category && matches_audioformat && matches_published_status
       end.compact[options[:offset]...options[:limit]+options[:offset]]
-      
+
       articles || []
     end
 
@@ -90,6 +92,16 @@ class Serious::Article
   # Lazy-loading audioformats accessor
   def audioformats
     @audio ||= yaml["audioformats"] || {}
+  end
+  
+  # Is the article published? by default it is
+  def published?
+    return @published if @published
+    if yaml.key?('published')
+      @published = !!yaml["published"]
+    else
+      @published = true
+    end
   end
 
   # Lazy-loading audioformats accessor
