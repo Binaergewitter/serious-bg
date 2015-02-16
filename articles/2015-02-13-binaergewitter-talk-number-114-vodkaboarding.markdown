@@ -41,8 +41,9 @@ Felix, Pfleidi und Ingo verabreden sich zum Testen von Top und dem Vivaldi und s
     * [Xenon Blitz killt RPI2]( http://beta.slashdot.org/story/213325 )
     * [PiLight]( http://www.pilight.org/ )
 - Linux 3.19
-    * [Live Patching](http://www.pro-linux.de/news/1/22007/live-patching-zieht-in-den-linux-kernel-ein.html )[heise](http://www.heise.de/open/meldung/Kernel-Live-Patching-Sicherheitsluecken-im-Linux-Kernel-jetzt-zur-Laufzeit-korrigierbar-2545824.html )
-https://en.wikipedia.org/wiki/Ksplice
+    * [Live Patching](http://www.pro-linux.de/news/1/22007/live-patching-zieht-in-den-linux-kernel-ein.html )
+    * [heise](http://www.heise.de/open/meldung/Kernel-Live-Patching-Sicherheitsluecken-im-Linux-Kernel-jetzt-zur-Laufzeit-korrigierbar-2545824.html )
+    * [Ksplice](https://en.wikipedia.org/wiki/Ksplice)
 - Bq Aquaris E4.5 Ubuntu Edition
     * [Firefox OS Review]( http://ignorethecode.net/blog/2015/01/13/firefox_os/ )
     * [SailfishOSS]( https://wiki.merproject.org/wiki/SailfishOSS )
