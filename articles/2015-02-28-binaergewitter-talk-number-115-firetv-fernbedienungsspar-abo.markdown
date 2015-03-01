@@ -97,18 +97,15 @@ Erst mal ein PreRelease da Pfleidis Spur mal wieder in der Hölle gelandet ist.
 - [The atrocity archives]( http://amazon.de/dp/0441016685?tag=pfleidi-21 )
     * [The Jeniffer Morgue]( http://amazon.de/dp/0441018149?tag=pfleidi-21 )
 
-## Mimimi der Woche
-
-- HDMI (mach ich ein andermal)
 
 ## Picks
 
 - [FireTV App](https://play.google.com/store/apps/details?id=com.amazon.storm.lightning.client.aosp )
 - [Slicer für Sketch & iOS]( http://www.ryangomba.com/automatically-export-sketch-slices-xcode.html )
 - [Microsoft Productivity Future Vision]( https://www.youtube.com/watch?v=w-tFdreZB94 )
-- shameless self pick: radiotux februar über Ubuntu Phone und Tizen OS
+- [RadioTux Februar über Ubuntu Phone und Tizen OS](http://www.radiotux.de/index.php?/archives/7994-RadioTux-Sendung-Februar-2015.html )
 - [OTP Auth]( https://itunes.apple.com/us/app/otp-auth/id659877384?mt=8 )
-        * [Website]( http://cooperrs.de/otpauth.html )
+   * [Website]( http://cooperrs.de/otpauth.html )
 - [Ctrlsf.vim]( https://github.com/dyng/ctrlsf.vim )
 
 
