@@ -28,7 +28,7 @@ Marc ist mal wieder übern großen Teich geflogen und zu ins die Sendung gekomme
 - [groovy zur apache foundation]( http://www.heise.de/developer/meldung/Programmiersprache-Groovy-soll-bei-Apache-Foundation-unterkommen-2567630.html )
 
 ## Tumblr der Woche
-- [B4-XVI beforesixteen] (http://b4-16.tumblr.com/ )
+- [B4-XVI beforesixteen](http://b4-16.tumblr.com/ )
 
 ## News
 
@@ -44,7 +44,7 @@ Marc ist mal wieder übern großen Teich geflogen und zu ins die Sendung gekomme
     * [Vortrag auf dem 31C3 u.a. über Darkmail](https://media.ccc.de/browse/congress/2014/31c3_-_6597_-_en_-_saal_2_-_201412301600_-_now_i_sprinkle_thee_with_crypto_dust_-_ryan_lackey_-_andres_erbsen_-_jurre_van_bergen_-_ladar_levison_-_equinox.html#video )
 - [Lua in HA Proxy]( http://comments.gmane.org/gmane.comp.web.haproxy/20594 )
 - [XP Marketshare wächst wieder!]( http://www.theregister.co.uk/2015/03/02/windows_xp_markets_share_grows_again/ )
-- Google kauft sich .app (http://www.heise.de/newsticker/meldung/Neue-TLDs-Google-sichert-sich-app-gmbh-geht-in-die-USA-2561473.html )
+- [Google kauft sich .app](http://www.heise.de/newsticker/meldung/Neue-TLDs-Google-sichert-sich-app-gmbh-geht-in-die-USA-2561473.html )
 - [Ubuntu 15.04 bekommt Systemd als Default]( http://www.computerbase.de/2015-03/ubuntu-beginnt-umstellung-auf-systemd/ )
     * [Ubuntu Systemd Monday](http://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-Systemd-Monday )
 - [eBay Pulsar]( http://www.ebaytechblog.com/2015/02/23/announcing-pulsar-real-time-analytics-at-scale/ )
