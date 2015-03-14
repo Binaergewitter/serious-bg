@@ -7,7 +7,7 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2015-03-12.Binaergewitter.Talk.117.ogg
+  mp3: http://download.binaergewitter.de/2015-03-12.Binaergewitter.Talk.117.mp3
   ogg: http://download.binaergewitter.de/2015-03-12.Binaergewitter.Talk.117.ogg
   m4a: http://download.binaergewitter.de/2015-03-12.Binaergewitter.Talk.117.m4a
   opus: http://download.binaergewitter.de/2015-03-12.Binaergewitter.Talk.117.opus
@@ -16,7 +16,7 @@ Heute mal komplett remote und nur zu zweit. Daher auch nicht die optimale Qualit
 Durch einen Bug bei nuza.de konnten uns die Live Hörer leider nicht richtig zuhören, da Ingos Spur nach einiger Zeit nicht übertragen wurde. Wir hoffen das lässt sich bald fixen.
 
 ## Toter der Woche
-- Terry Pratchett
+- [Terry Pratchett](https://de.wikipedia.org/wiki/Terry_Pratchett )
     * [Computerspiel Discworld]( http://www.amazon.de/gp/product/B00004TMIB/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B00004TMIB&linkCode=as2&tag=trektrip&linkId=ECQNUU6LT4KSZ3PG )
 - [Aperture für Apple]( http://www.heise.de/newsticker/meldung/Apple-informiert-Nutzer-ueber-Ende-der-Fotoverarbeitung-Aperture-2569348.html )
 - [Google Code]( http://arstechnica.com/information-technology/2015/03/google-to-close-google-code-open-source-project-hosting/ )
@@ -32,8 +32,6 @@ Durch einen Bug bei nuza.de konnten uns die Live Hörer leider nicht richtig zuh
 - [MicroBit von der BBC]( http://www.wired.co.uk/news/archive/2015-03/12/bbc-micro-bit )
 - [Android 5.1](http://www.pro-linux.de/news/1/22104/android-51-veroeffentlicht.html )
 - [Kernel in Debian](https://packages.debian.org/jessie/linux-image-amd64 )
-
-## Themen
 
 ## Lesefoo
 - [USB Laptop Killer]( http://kukuruku.co/hub/diy/usb-killer )
