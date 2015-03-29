@@ -12,8 +12,7 @@ audioformats:
   m4a: http://download.binaergewitter.de/2015-03-26.Binaergewitter.Talk.118.m4a
   opus: http://download.binaergewitter.de/2015-03-26.Binaergewitter.Talk.118.opus
 ---
-Erstes Release. Leider gibts wieder Probleme mit pfleidis Spur, daher ist er releativ liese. Hoffe das kriegen wir noch gefixed irgendwie.
-Diesmal zu viert mit müdem Mat, ohne Uhr und mit Klindle Cover Disasters.
+Leider gibts wieder Probleme mit pfleidis Spur, daher ist er releativ leise. Diesmal zu viert mit müdem Mat, ohne Uhr und mit Klindle Cover Disasters.
 
 ## Lol der Woche
 
@@ -22,7 +21,7 @@ Diesmal zu viert mit müdem Mat, ohne Uhr und mit Klindle Cover Disasters.
 # Blast
 
 - Feedback: CSS Flexbox
-        * [Flexbox Grid]( http://flexboxgrid.com/ )
+   * [Flexbox Grid]( http://flexboxgrid.com/ )
 - Feedback: Framework vs. "von hand"
 
 # Tumblr der Woche
@@ -42,7 +41,7 @@ Diesmal zu viert mit müdem Mat, ohne Uhr und mit Klindle Cover Disasters.
 - [Nano](http://www.pro-linux.de/news/1/22152/gnu-nano-240-mit-besserer-undo-unterstuetzung.html )
     * [Vim auf Github]( https://github.com/vim/vim )
     * [NeoVIM]( https://github.com/neovim/neovim )
-- [Enigmail neue UI](http://www.heise.de/newsticker/meldung/Neue-Enigmail-Version-bringt-UI-Feinschliff-2584363.html )
+- [Enigmails neue UI](http://www.heise.de/newsticker/meldung/Neue-Enigmail-Version-bringt-UI-Feinschliff-2584363.html )
 - [Tessel 2]( http://blog.technical.io/post/112787427217/tessel-2-new-hardware-for-the-tessel-ecosystem )
   - [Nodemcu mit lua auf ESP8266]( http://nodemcu.com/index_en.html )
     -> [Lua + Wifi für $2.50]( http://s.click.aliexpress.com/klk/rVzrVBQrZ )
@@ -62,29 +61,27 @@ Diesmal zu viert mit müdem Mat, ohne Uhr und mit Klindle Cover Disasters.
 
 ## Themen
 
-XEP-0136: Message Archiving / prosody mit mod_archive 
-XEP-0198: Stream Management / prosody mit mod_smacks
-XEP-0280: Message Carbons / mod_carbons
-[XEP-0313: Message Archive Management](http://xmpp.org/extensions/xep-0313.html ) / mod_mam (erst ab prosody 0.10)
+- [XEP-0136: Message Archiving](http://xmpp.org/extensions/xep-0136.html ) / prosody: mod_archive 
+- [XEP-0198: Stream Management](http://xmpp.org/extensions/xep-0198.html ) / prosody: mod_smacks
+- [XEP-0280: Message Carbons](http://xmpp.org/extensions/xep-0280.html ) / prosody: mod_carbons
+- [XEP-0313: Message Archive Management](http://xmpp.org/extensions/xep-0313.html ) / prosody: mod_mam (erst ab prosody 0.10)
 
-* [Wozu XEP 198?](http://op-co.de/blog/posts/XEP-0198/ )
-
-Client
-* Conversations    
-* [Yaxim]( http://yaxim.org/ )
+Clients
+* [Conversations](https://github.com/siacs/Conversations ) (Android)
+* [Yaxim]( http://yaxim.org/ ) (Android)
     - [Features]( http://yaxim.org/features/ )
-* [Adium]( https://adium.im/ )
+* [Adium]( https://adium.im/ ) (Mac )
 
 * [Gajim](http://gajim.org/ )(Linux, Win)
 * [jsxc](https://www.jsxc.org/ ) (JavaScript)
-* Telepathy
-* iOS? fuck
+* Telepathy (Linux)
+* iOS? - keine modernen XEPs
     - [Chatsecure]( https://chatsecure.org/ )
     - [Verbs IM]( https://itunes.apple.com/de/app/verbs-im/id392501688?mt=8 )
 
 * [Bounty Source für XEP 280 in libpurple](https://www.bountysource.com/issues/1410118-support-for-xep-0280-message-carbons )
 * [Windows Release von Pidgin mit XEP 280 und GPG](https://github.com/Draghtnod/Pidgin-GPG/releases )
-aur: pidgin-extras
+* [aur: pidgin-extras](https://aur.archlinux.org/packages/pidgin-extras/ )
 
 * [Kontalk](http://www.kontalk.org/ )
 
