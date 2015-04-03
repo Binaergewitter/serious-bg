@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Impressum"
+title: "Impressum und Datenschutz"
 comments: false
 sharing: false
 footer: true
@@ -69,6 +69,21 @@ genutzt. Einzelheiten dazu finden sich in den Datenschutzbestimmungen des jeweil
 Wir behalten uns vor, unangemessene Kommentare oder Kommentar-Spam zu löschen.
 
 Quellenangabe: [Martin Herbst](http://www.brisoft.de/de/impressum/erklarung-zum-datenschutz/)
+
+### Piwik 
+Dieses Angebot benutzt [Piwik](http://piwik.org/ ), eine Open-Source-Software zur statistischen Auswertung der Nutzerzugriffe. Piwik verwendet sog. “Cookies”, Textdateien, die auf dem Computer der Nutzer gespeichert werden und die eine Analyse der Benutzung der Website durch die Nutzer ermöglichen. Die durch den Cookie erzeugten Informationen über die Benutzung dieses Agebotes werden auf dem Server des Anbieters in Deutschland gespeichert. Die IP-Adresse wird sofort nach der Verarbeitung und vor deren Speicherung anonymisiert. Nutzer können die Installation der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; Der Anbieter weisen die Nutzer jedoch darauf hin, dass sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich nutzen können. 
+[Piwik Output](http://piwik.roothausen.de/index.php?module=CoreAdminHome&action=optOut&language=de )
+
+### Flattr
+In Seiten dieses Angebotes sind sind „Flattr“-Schaltflächen des Micropayment-Dienstes Flattr eingebunden, der von der Firma Flattr Network Ltd. mit Sitz in 2nd Floor, White bear yard 114A, Clerkenwell Road, London, Middlesex, England, EC1R 5DF, Großbritannien, betrieben wird. Wenn Sie Seiten dieses Internetangebots, die diese Schaltflächen enthalten, aufrufen, wird von Ihrem Browser eine direkte Verbindung zu Servern von Flattr hergestellt. Sofern Sie Flattr ein Konto angelegt haben, mit dem Sie gleichzeitig eingeloggt sind, erhält Flattr die Information, dass Sie die jeweilige Seite dieses Angebots besucht haben. Sofern Sie ein Flattr-Konto besitzen, eingeloggt sind und mit der Schaltfläche interagieren, werden Informationen darüber an Flattr übermittelt und nach den dort geltenden Richtlinien dort zu Abrechnungszwecken gespeichert. Auch wenn Sie nicht eingeloggt sind, können ggf. Nutzungsdaten erhoben und auch gespeichert werden. Wie Ihre Daten genau verarbeitet werden, wenn Sie die Flattr-Schaltfläche anklicken, erfahren Sie unter [https://flattr.com/privacy](https://flattr.com/privacy )
+
+## Amazon-Partnerprogramm
+Ingo Ebel, Sven Pfleiderer und Felix Richter sind Teilnehmer des Partnerprogramms von Amazon EU, das zur Bereitstellung eines Mediums für Websites konzipiert wurde, mittels dessen durch die Platzierung von Werbeanzeigen und Links zu Amazon.de Werbekostenerstattung verdient werden kann. Amazon setzt Cookies ein, um die Herkunft der Bestellungen nachvollziehen zu können. Unter anderem kann Amazon erkennen, dass Sie den Partnerlink auf dieser Website geklickt haben. Weitere Informationen zur Datennutzung durch Amazon erhalten Sie in der [Datenschutzerklärung des Unternehmens](http://www.amazon.de/gp/help/customer/display.html/ref=footer_privacy?ie=UTF8&nodeId=3312401 )
+
+## Widerruf, Änderungen, Berichtigungen und Aktualisierungen
+Der Nutzer hat das Recht, auf Antrag unentgeltlich Auskunft zu erhalten über die personenbezogenen Daten, die über ihn gespeichert wurden. Zusätzlich hat der Nutzer das Recht auf Berichtigung unrichtiger Daten, Sperrung und Löschung seiner personenbezogenen Daten, soweit dem keine gesetzliche Aufbewahrungspflicht entgegensteht.
+
+Quelle: [Datenschutz-Muster von Rechtsanwalt Thomas Schwenke - I LAW it](http://rechtsanwalt-schwenke.de/smmr-buch/datenschutz-muster-generator-fuer-webseiten-blogs-und-social-media )
 
 ## Lizenz
 
