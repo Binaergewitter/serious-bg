@@ -12,7 +12,7 @@ audioformats:
   m4a: http://download.binaergewitter.de/2015-04-09.Binaergewitter.Talk.119.m4a
   opus: http://download.binaergewitter.de/2015-04-09.Binaergewitter.Talk.119.opus
 ---
-Oster ist vorbei, der Frühling ist da und auch Pfleidi, Felix und Ingo sind wieder online.
+Ostern ist vorbei, der Frühling ist da und auch Pfleidi, Felix und Ingo sind wieder online.
 
 # Blast
 
@@ -22,11 +22,11 @@ Oster ist vorbei, der Frühling ist da und auch Pfleidi, Felix und Ingo sind wie
 - [The Death of Instant Messaging in 2013]( http://jeff.ecchi.ca/blog/2013/12/20/the-death-of-instant-messaging-in-2013/ )
 - [Kaiwa Webapp]( http://getkaiwa.com/ )
 - [Profanity]( http://www.profanity.im/ )
-- [Bountysource]
-- [Bountysource für MAM](https://www.bountysource.com/issues/1407252-support-xep-0313-aka-mam-message-archive-mgmt )
-- [Binärgewitter bei Bountysource](https://www.bountysource.com/teams/binaergewitter/issues )
-    * [Blogpost zu Geld bei Security]( http://blog.codinghorror.com/given-enough-money-all-bugs-are-shallow/ )
-- [](https://apps.owncloud.com/content/show.php/JavaScript+XMPP+Chat?content=162257 )
+- [Bountysource] ( https://www.bountysource.com/ )
+  * [Bountysource für MAM](https://www.bountysource.com/issues/1407252-support-xep-0313-aka-mam-message-archive-mgmt )
+  * [Binärgewitter bei Bountysource](https://www.bountysource.com/teams/binaergewitter/issues )
+  * [Blogpost zu Geld bei Security]( http://blog.codinghorror.com/given-enough-money-all-bugs-are-shallow/ )
+- [OwnCloud App](https://apps.owncloud.com/content/show.php/JavaScript+XMPP+Chat?content=162257 )
 
 
 ## Tumblr der woche
