@@ -5,7 +5,7 @@ date: 2015-04-11 10:00
 comments: true
 categories: talk
 sharing: true
-published: true
+published: false
 audioformats:
   mp3: http://download.binaergewitter.de/2015-04-09.Binaergewitter.Talk.119.mp3
   ogg: http://download.binaergewitter.de/2015-04-09.Binaergewitter.Talk.119.ogg
@@ -22,7 +22,7 @@ Ostern ist vorbei, der Frühling ist da und auch Pfleidi, Felix und Ingo sind wi
 - [The Death of Instant Messaging in 2013]( http://jeff.ecchi.ca/blog/2013/12/20/the-death-of-instant-messaging-in-2013/ )
 - [Kaiwa Webapp]( http://getkaiwa.com/ )
 - [Profanity]( http://www.profanity.im/ )
-- [Bountysource] ( https://www.bountysource.com/ )
+- [Bountysource]( https://www.bountysource.com/ )
   * [Bountysource für MAM](https://www.bountysource.com/issues/1407252-support-xep-0313-aka-mam-message-archive-mgmt )
   * [Binärgewitter bei Bountysource](https://www.bountysource.com/teams/binaergewitter/issues )
   * [Blogpost zu Geld bei Security]( http://blog.codinghorror.com/given-enough-money-all-bugs-are-shallow/ )
@@ -52,7 +52,7 @@ Ostern ist vorbei, der Frühling ist da und auch Pfleidi, Felix und Ingo sind wi
 ## News
 
 - [React Native ist nun OSS]( https://github.com/facebook/react-native )
-- [1. April Review]
+- 1. April Review
   * [elgooG]( https://com.google/ )
   * [Maps Pacman]( http://www.wired.com/2015/04/google-pac-man/ )
   * [Microsoft DOS Mobile]( http://www.windowscentral.com/microsoft-launches-ms-dos-mobile )
