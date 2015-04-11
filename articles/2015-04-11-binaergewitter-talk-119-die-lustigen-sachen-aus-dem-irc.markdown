@@ -1,11 +1,12 @@
 ---
 layout: post
 title: "Binärgewitter Talk #119: die lustigen Sachen aus dem IRC"
-date: 2015-04-11 10:00
+date: 2015-04-11 22:00
 comments: true
 categories: talk
 sharing: true
-published: false
+published: true
+release: 2
 audioformats:
   mp3: http://download.binaergewitter.de/2015-04-09.Binaergewitter.Talk.119.mp3
   ogg: http://download.binaergewitter.de/2015-04-09.Binaergewitter.Talk.119.ogg
