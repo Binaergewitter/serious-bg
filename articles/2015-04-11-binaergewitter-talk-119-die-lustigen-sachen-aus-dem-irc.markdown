@@ -44,11 +44,11 @@ Ostern ist vorbei, der Frühling ist da und auch Pfleidi, Felix und Ingo sind wi
 
 - [T-Online Emailsoftware](http://www.heise.de/newsticker/meldung/Telekom-stellt-E-Mail-Software-6-0-ein-2586673.html )
 - [Facebook XMPP bridge]( https://developers.facebook.com/docs/chat )
-   - [Facebook Messenger Webseite](https://www.messenger.com/ )
-   - [Facebook bringt Messaging Platform]( https://developers.facebook.com/blog/post/2015/03/25/introducing-messenger-platform-and-businesses-on-messenger/ )
-   - [German Bash]( http://german-bash.org/action/browse )
-   - [TextSecure Fork mit SMS]( http://www.heise.de/newsticker/meldung/TextSecure-Fork-bringt-SMS-Verschluesselung-zurueck-2595471.html )
-   - [Telegram mit TowFactor](http://www.heise.de/newsticker/meldung/Messenger-Telegram-mit-zweitem-Faktor-2597961.html )
+  * [Facebook Messenger Webseite](https://www.messenger.com/ )
+  * [Facebook bringt Messaging Platform]( https://developers.facebook.com/blog/post/2015/03/25/introducing-messenger-platform-and-businesses-on-messenger/ )
+  * [German Bash]( http://german-bash.org/action/browse )
+  * [TextSecure Fork mit SMS]( http://www.heise.de/newsticker/meldung/TextSecure-Fork-bringt-SMS-Verschluesselung-zurueck-2595471.html )
+  * [Telegram mit TowFactor](http://www.heise.de/newsticker/meldung/Messenger-Telegram-mit-zweitem-Faktor-2597961.html )
 
 ## News
 
@@ -59,7 +59,7 @@ Ostern ist vorbei, der Frühling ist da und auch Pfleidi, Felix und Ingo sind wi
   * [Microsoft DOS Mobile]( http://www.windowscentral.com/microsoft-launches-ms-dos-mobile )
   * [Playstation Flow]( https://www.youtube.com/watch?v=9bPUaLpNcMY )
   * [Bing cute cloud]( http://www.bing.com/explore/cutecloud )
-  * []( http://googlecloudplatform.blogspot.de/2015/04/introducing-Google-Actual-Cloud-Platform.html )
+  * [Google Actual Cloud Platform]( http://googlecloudplatform.blogspot.de/2015/04/introducing-Google-Actual-Cloud-Platform.html )
   * [Amazon Food Printer]( http://phantanews.de/wp/2015/04/amazon-food-unlimited-3d-drucker-fuer-nahrungsmittel/ )
   * [MotoSelfieStick]( https://www.youtube.com/watch?v=584qPWzfhHY )
   * [Titanic Netzschau: 10 beste Aprilscherze](http://www.titanic-magazin.de/news/netzschau-die-10-lustigsten-aprilscherze-7190/ )
@@ -67,7 +67,7 @@ Ostern ist vorbei, der Frühling ist da und auch Pfleidi, Felix und Ingo sind wi
   * [Python async yield from]( https://docs.python.org/3/library/asyncio-task.html )
   * [coroutine sample in python]( http://paste.krebsco.de/fw72fRoX )
 - [Android Apps im Chrome](http://www.heise.de/newsticker/meldung/Android-Apps-laufen-im-Chrome-Browser-2595924.html )
-    * "UTILITY_PROCESS_CRASHED_WHILE_TRYING_TO_INSTALL".. on arch linux mit chome 41
+  * "UTILITY_PROCESS_CRASHED_WHILE_TRYING_TO_INSTALL".. on arch linux mit chome 41
 - [IBM Verse](http://www.heise.de/newsticker/meldung/IBM-will-mit-Verse-E-Mail-neu-erfinden-2591499.html )
 - [Amazon Dash Button]( https://www.amazon.com/oc/dash-button/ )
 - [Amazon Dash Button Button]( https://paste.krebsco.de/L7HJHTNE/+inline )
@@ -97,13 +97,13 @@ Ostern ist vorbei, der Frühling ist da und auch Pfleidi, Felix und Ingo sind wi
 ## Picks
 
 - [GNU Terry Pratchett](http://www.gnuterrypratchett.com/ )
-    * [Going Postal](http://www.amazon.de/gp/product/B003MDHO2Y/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B003MDHO2Y&linkCode=as2&tag=trektrip&linkId=MRIJVHU643G7YUWF )
+  * [Going Postal](http://www.amazon.de/gp/product/B003MDHO2Y/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B003MDHO2Y&linkCode=as2&tag=trektrip&linkId=MRIJVHU643G7YUWF )
 - [XBMC/Kodi auf Fire TV]( http://euer.krebsco.de/xbmc-on-firetv.html )
-    * [PlexBMC]( http://kodi.wiki/view/Add-on:PleXBMC ) 
-    * [Amber Skin]( https://github.com/pecinko/skin.amber ) 
+  * [PlexBMC]( http://kodi.wiki/view/Add-on:PleXBMC ) 
+  * [Amber Skin]( https://github.com/pecinko/skin.amber ) 
 - [Polls in Owncloud](https://apps.owncloud.com/content/show.php/Polls?content=167919 )
-    - [Nuages aus BGT107](https://nuages.domainepublic.net/ )
+  * [Nuages aus BGT107](https://nuages.domainepublic.net/ )
 - [Edward Snowden: Interview mit John Oliver]( http://www.welt.de/videos/article139280444/Ein-etwas-anderes-Interview-mit-Edward-Snowden.html )
 - [Skynet baut eine Zugstrecke]( https://www.youtube.com/watch?v=02pWbr9bgbA )
-    - [OmegaTau Podcast über Gleisbau Maschinen](http://omegataupodcast.net/2014/11/160-gleisbau-teil-1-grundlagen-und-maschinen/ )
+  * [OmegaTau Podcast über Gleisbau Maschinen](http://omegataupodcast.net/2014/11/160-gleisbau-teil-1-grundlagen-und-maschinen/ )
 
