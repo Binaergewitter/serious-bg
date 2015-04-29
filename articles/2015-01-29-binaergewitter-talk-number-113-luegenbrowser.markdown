@@ -37,7 +37,7 @@ Etwas außer der Reihe treffen sich Mat und Felix zum Stelldichein.
   * Buffer Overflow libc gethostbyname
   * patch von vor 2 jahren
   * betrifft viele 'stable' distros, da nicht als 'kritisch' eingestuft
-- [Blackphone super secure phone trivial gepwned]( http://www.theregister.co.uk/2015/01/27/trivial_hole_left_black_phones_open_to_plunder/ )(vergleiche 'whitehat aviator')
+- [Blackphone super secure phone trivial gepwned]( http://www.theregister.co.uk/2015/01/27/trivial_hole_left_black_phones_open_to_plunder/ ) (vergleiche 'whitehat aviator')
 
 - [iOS 8.1.3 und OS X 10.10.2 veröffentlicht]( http://www.macstories.net/news/ios-8-1-3-os-x-10-10-2-released/ )
     * [heise Artikel]( http://www.heise.de/mac-and-i/meldung/iOS-8-1-3-und-OS-X-10-10-2-Jailbreak-ausgehebelt-Thunderstrike-gefixt-2530174.html?wt_mc=rss.apple.beitrag.atom )
