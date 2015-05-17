@@ -16,7 +16,7 @@ Mat ist mal wieder dabei. Zusammen mit Ingo gehts diesmal vor allem um Nokia und
 
 ## Tumblr der Woche
 
-- [Subwaysenpai (NSFW!)]( - http://subwaysenpai.tumblr.com/ )
+- [Subwaysenpai (NSFW!)]( http://subwaysenpai.tumblr.com/ )
 
 ## Toter der Woche
 
@@ -89,4 +89,3 @@ Mat ist mal wieder dabei. Zusammen mit Ingo gehts diesmal vor allem um Nokia und
 - [Cowboy Bebop]( http://de.wikipedia.org/wiki/Cowboy_Bebop )
 - [Command & Conquer Generals im Mac App Store]( https://itunes.apple.com/de/app/command-conquer-generals-deluxe/id912423770?mt=12 )
 - [Beste GTA-Mod ever]( http://steamed.kotaku.com/grand-theft-auto-v-mod-makes-guns-fire-cars-instead-of-1702355767 )
-
