@@ -27,7 +27,7 @@ Felix lernt Lua und Pfleidi schaut sich dieses Jahr mal Elixir angeschaut. Beide
 
 ### Lua
 
-- imperativ/prozedural sowie funktional oder auch objektorientiert (m/msittels metatables)
+- imperativ/prozedural sowie funktional oder auch objektorientiert (mittels metatables)
 - für Embedded Systeme sowie zum Einbetten in Software-Projekte dank kleinem Interpreter (120k)
 - MIT Lizenz
 - leichtes [einbinden von C/C++](http://www.lua.org/pil/26.html ) , vgl. [Python C Extension]( https://docs.python.org/3/extending/extending.html )
@@ -37,7 +37,7 @@ Felix lernt Lua und Pfleidi schaut sich dieses Jahr mal Elixir angeschaut. Beide
 - [Cypthon]( http://cython.org/ )
 - [Maglev Ruby VM]( http://maglev.github.io/ )
 - [Rubinus]( http://rubini.us/ )
-- [Supercoder 2000]( www.blogcdn.com/de.engadget.com/media/2010/08/supercoder-2000-keyboardbbb.jpg )
+- [Supercoder 2000](  http://www.blogcdn.com/de.engadget.com/media/2010/08/supercoder-2000-keyboardbbb.jpg )
 - [Z++]( http://en.wikipedia.org/wiki/Z++ )
 - [Why Local]( http://lua-users.org/wiki/LocalByDefault )
 
