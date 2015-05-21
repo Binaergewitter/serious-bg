@@ -38,7 +38,8 @@ Ostern ist vorbei, der Frühling ist da und auch Pfleidi, Felix und Ingo sind wi
 
 ## Untoter der Woche
 
-- [Angelfire - 20mb webspace!](http://angelfire.com )[ Beispiel Website]( http://dickbutt.angelfire.com/ )
+- [Angelfire - 20mb webspace!](http://angelfire.com )
+  * [Beispiel Website]( http://dickbutt.angelfire.com/ )
 
 ## Toter der Woche
 
