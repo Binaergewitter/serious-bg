@@ -18,10 +18,13 @@ class SmokeTest < Test::Unit::TestCase
     get "/"
     assert last_response.ok?
   end
-  
+
   def test_feed_validates
     get "/podcast_feed/all/itunes/rss.xml"
+
+    WebMock.allow_net_connect!
     assert_valid_feed(last_response.body)
+    WebMock.disable_net_connect!
   end
 
   def test_mp3_feed_works
@@ -47,14 +50,14 @@ class SmokeTest < Test::Unit::TestCase
       last_id_set = current_id_set
     end
   end
-  
+
   def test_mp3_feed_has_a_next_link
     get "/podcast_feed/all/mp3/rss.xml?feed_size=2&page=2"
     assert last_response.ok?
     # There is a next link
     assert_include last_response.body, '/podcast_feed/all/mp3/rss.xml?feed_size=2&amp;page=3'
   end
-  
+
 
   def test_talk_category_feed_works
     get "/podcast_feed/talk/m4a/rss.xml"
