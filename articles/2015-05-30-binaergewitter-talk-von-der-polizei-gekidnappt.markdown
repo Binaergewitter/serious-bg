@@ -76,7 +76,7 @@ Außer der Reihe weil wir es letzte Woche leider nicht geschafft haben treffen s
     * Shit in China einfach mal einkaufen
     * wenig Schlaf
     * [xkcd 512]( https://xkcd.com/512/ )
-    * [Manifesto of Done]( static1.1.sqspcdn.com/static/f/314422/2614729/1236190103943/3327763912_acaf8a6ef6_o.png?token=SXxIF9yecB7237Y0fgSnTjZbs9k%3D )
+    * [Manifesto of Done]( https://static1.1.sqspcdn.com/static/f/314422/2614729/1236190103943/3327763912_acaf8a6ef6_o.png?token=SXxIF9yecB7237Y0fgSnTjZbs9k%3D )
     * [Ambify App]( http://getambify.com/ )
 
 ## Themchen: Apple Watch
