@@ -12,6 +12,7 @@ audioformats:
   m4a: http://download.binaergewitter.de/2015-05-28.Binaergewitter.Talk.121.m4a
   opus: http://download.binaergewitter.de/2015-05-28.Binaergewitter.Talk.121.opus
 ---
+Außer der Reihe weil wir es letzte Woche leider nicht geschafft haben treffen sich Mat, Felix und Pfleidi um über Elon Musk zu witzeln und sich über Dinge und die Apple Watch zu unterhalten.
 
 ## Kategorie der Woche: Musk der Woche
 
@@ -60,8 +61,8 @@ audioformats:
     * [Borg Paper]( http://research.google.com/pubs/pub43438.html )
 - [Rust 1.0]( http://blog.rust-lang.org/2015/05/15/Rust-1.0.html )
   * [60sec Review]( http://www.joshondesign.com/2014/09/17/rustlang )
-        - [EBooks]( http://killercup.github.io/trpl-ebook/ )
-        - [RadioTux Talk Sendung, in der wir Node erwähnen]( http://www.radiotux.de/index.php?/archives/4702-RadioTux-Talk-110-KW-42.html )
+     - [EBooks]( http://killercup.github.io/trpl-ebook/ )
+     - [RadioTux Talk Sendung, in der wir Node erwähnen]( http://www.radiotux.de/index.php?/archives/4702-RadioTux-Talk-110-KW-42.html )
 - [MS gibt WCF frei]( http://www.dotnetfoundation.org/blog/wcf-is-open-source )
 - [Cortana für iOS & Android]( https://blogs.windows.com/bloggingwindows/2015/05/26/your-windows-10-pc-will-love-all-the-devices-you-own/ )
 - [Windows XP bootet auf einer Smartwatch]( http://www.golem.de/news/lg-g-watch-windows-xp-bootet-auf-einer-smartwatch-1505-114176.html )
@@ -113,6 +114,6 @@ audioformats:
 - [Sky Sharks]( https://www.kickstarter.com/projects/168690333/sky-sharks?ref=city )
   * [Kung Fury]( https://www.youtube.com/watch?v=bS5P_LAqiVg )
 - [Kung Fury The Movie]( https://www.youtube.com/watch?v=bS5P_LAqiVg&feature=youtu.be )
-    * [True Survivor]( https://www.youtube.com/watch?v=ZTidn2dBYbY )
-    * [Kung Fury: Street Rage]( http://store.steampowered.com/app/373180/ )
+   * [True Survivor]( https://www.youtube.com/watch?v=ZTidn2dBYbY )
+   * [Kung Fury: Street Rage]( http://store.steampowered.com/app/373180/ )
 
