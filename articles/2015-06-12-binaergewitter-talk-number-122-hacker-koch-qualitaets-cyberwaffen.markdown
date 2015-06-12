@@ -15,7 +15,7 @@ audioformats:
 Große Runde. Alle sind wieder da trotzdem gibt uns der Chat nur das Qualititäsurteil: dünn, fade, geschmacksneutral und ohne Zusatzstoffe, aber hört selbst.
 
 ## blast 
-- Firefox für Android kann wie die Desktop-Version Add-Ons installieren. Adblock Edge/Plus auch im Sortiment. via @cyberfrumble
+- Firefox für Android kann wie die Desktop-Version Add-Ons installieren. Adblock Edge/Plus auch im Sortiment. via [@cyberfrumble]( https://twitter.com/cyberfrumble )
 
 ## In eigener Sache
 - [Werbung: Laser für den Shackspace]( https://verein.ing-diba.de/soziales/70327/shack-ev )
@@ -23,14 +23,14 @@ Große Runde. Alle sind wieder da trotzdem gibt uns der Chat nur das Qualititäs
 ## Tumblr der Woche:
 
 - [Feminist Mad Max]( http://feministmadmax.tumblr.com/ )
-- [Katzen in Strumpfhosen](http://www.buzzfeed.com/philippjahner/katzen-in-strumpfhosen#.dc2qZ2dDw ) via @kinjin
+- [Katzen in Strumpfhosen](http://www.buzzfeed.com/philippjahner/katzen-in-strumpfhosen#.dc2qZ2dDw ) via [@kinjin]( https://twitter.com/kinjin )
 
 ## Toter der Woche
 
 - [Sir Christoper Lee]( http://www.telegraph.co.uk/news/celebritynews/11666316/christopher-lee-dies-live.html )
-- Adblock Edge
+- [Adblock Edge]( https://addons.mozilla.org/de/firefox/addon/adblock-edge/ )
 - [Voyager 2]( http://www.theregister.co.uk/2015/06/08/voyager_2_stopped_in_interstellar_space/ )
-    - [V'ger](https://de.wikipedia.org/wiki/Star_Trek:_Der_Film )
+    * [V'ger](https://de.wikipedia.org/wiki/Star_Trek:_Der_Film )
 
 ## Untoter der Woche
 
@@ -39,7 +39,7 @@ Große Runde. Alle sind wieder da trotzdem gibt uns der Chat nur das Qualititäs
 ## News
 
 - [lol skype]( http://gizmodo.com/a-simple-message-can-crash-skype-so-badly-you-need-to-r-1708662340 )
-  - [lol iphone]( https://blog.avira.com/unicode-of-death-crashes-your-iphone/ )
+    * [lol iphone]( https://blog.avira.com/unicode-of-death-crashes-your-iphone/ )
 - [GitTorrent]( http://blog.printf.net/articles/2015/05/29/announcing-gittorrent-a-decentralized-github/ )
     * [Twitter Murder]( https://blog.twitter.com/2010/murder-fast-datacenter-code-deploys-using-bittorrent )
 - [autopsy.io]( http://autopsy.io/ )
@@ -95,7 +95,7 @@ Große Runde. Alle sind wieder da trotzdem gibt uns der Chat nur das Qualititäs
 - [Sometimes a controller is just a controller]( http://www.youtube.com/watch?v=MSgR-hJjdTo )
 - [Fox News zu Github 2013]( https://www.youtube.com/watch?v=k2vJNNAQZlg )
 - [A Compilation of Robots Falling Down]( https://www.youtube.com/watch?v=g0TaYhjpOfo )
-   * [Kaist Winning Entry Fast Motion]( https://www.youtube.com/watch?v=q_yfvlplJe0 )
+    * [Kaist Winning Entry Fast Motion]( https://www.youtube.com/watch?v=q_yfvlplJe0 )
 - [Silicon Valley]( http://www.imdb.com/title/tt2575988/  )
 - [HTML5 Genetic Walkers]( http://rednuht.org/genetic_walkers/ )
 - [humble bundle all stars](http://www.pro-linux.de/news/1/22411/humble-indie-bundle-all-stars-gestartet.html )
