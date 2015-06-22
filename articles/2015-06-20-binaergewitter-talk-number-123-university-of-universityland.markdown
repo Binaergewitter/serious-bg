@@ -47,10 +47,10 @@ Huch kommen die jetzt wieder im Wochenmodus? Nicht nur ihr, sondern auch der Pfl
     * [Datenstruktur Paper]( http://www.cs.cmu.edu/~dga/papers/memc3-nsdi2013.pdf )
 - [Image srcset]( http://blogs.windows.com/msedgedev/2015/06/08/introducing-srcset-responsive-images-in-microsoft-edge )
 - [Web Assembly]( https://blog.mozilla.org/luke/2015/06/17/webassembly/ )
-        * [Blog Post von Brendan Eich]( https://brendaneich.com/2015/06/from-asm-js-to-webassembly/ )
-        * [github Repo]( https://github.com/WebAssembly )
-        * [Use Cases]( https://github.com/WebAssembly/design/blob/master/UseCases.md )
-        * "putting hats on people's heads"
+    * [Blog Post von Brendan Eich]( https://brendaneich.com/2015/06/from-asm-js-to-webassembly/ )
+    * [github Repo]( https://github.com/WebAssembly )
+    * [Use Cases]( https://github.com/WebAssembly/design/blob/master/UseCases.md )
+    * "putting hats on people's heads"
 
 ## Lesefoo
 
