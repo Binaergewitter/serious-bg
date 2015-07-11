@@ -27,10 +27,11 @@ Nachdem die Sendung letzte Woche leider wegen Hitze ausgefallen ist setzten sich
 
 ## News
 - [AWS Device Farm]( http://aws.amazon.com/de/device-farm/ )
-- [Pofalla beendet den NSA-Skandal *erneut*]( http://www.heise.de/newsticker/meldung/Pofalla-zu-NSA-Skandal-und-No-Spy-Abkommen-Begriffe-sind-wurscht-2734122.html?wt_mc=rss.ho.beitrag.atom )[related news:Alle wurden abgehört]
+- [Pofalla beendet den NSA-Skandal *erneut*]( http://www.heise.de/newsticker/meldung/Pofalla-zu-NSA-Skandal-und-No-Spy-Abkommen-Begriffe-sind-wurscht-2734122.html?wt_mc=rss.ho.beitrag.atom )
+- related news: Alle wurden abgehört
 - [netzpolitik](https://netzpolitik.org/ )
 - [IPv4 Adressen Mangel in Amerika](http://www.heise.de/newsticker/meldung/IPv4-Adressmangel-Amerikaner-fuehren-Warteliste-2738933.html )
-  - [Last Week Tonight: Spend your Leap Second here]( http://spendyourleapsecondhere.com/ )
+  * [Last Week Tonight: Spend your Leap Second here]( http://spendyourleapsecondhere.com/ )
 - [Telekom führt IPv6 ein im Mobilfunknetz](http://www.heise.de/newsticker/meldung/Telekom-startet-IPv6-Einfuehrung-im-Mobilfunknetz-2741029.html )
 - [EU Parlament lässt Panoramafreiheit in Ruhe](http://www.heise.de/newsticker/meldung/EU-Parlament-stimmt-fuer-kleine-Urheberrechtsreform-mit-Panoramafreiheit-2747034.html )
 - [App Annie mit In-App Analytics]( http://techcrunch.com/2015/07/09/app-annie-integrates-with-google-analytics-launches-free-in-app-analytics-for-developers/?ncid=rss )
