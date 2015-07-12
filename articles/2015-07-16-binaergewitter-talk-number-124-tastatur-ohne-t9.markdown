@@ -5,7 +5,7 @@ date: 2015-07-11 07:00
 comments: true
 categories: talk
 sharing: true
-published: false
+published: true
 audioformats:
   mp3: http://download.binaergewitter.de/2015-07-09.Binaergewitter.Talk.124.mp3
   ogg: http://download.binaergewitter.de/2015-07-09.Binaergewitter.Talk.124.ogg
