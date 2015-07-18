@@ -53,12 +53,12 @@ Alle Man(n) an Board. Wobei uns die Hitze fast zu Kopf steigt. Mat, Felix, Pflei
 
 ## Thema: Web vs. Native (Später?) Jo
 
-    * [Tools don’t solve the web’s problems, they ARE the problem]( http://www.quirksmode.org/blog/archives/2015/05/tools_dont_solv.html )
-    * [Comic zu JS Problemen und Lösungen]( http://cube-drone.com/comics/c/relentless-persistence )
-    * [Tooling is not the problem of the Web]( https://medium.com/@sebmarkbage/tooling-is-not-the-problem-of-the-web-cb0ae1fdbbc6 )
-    * [Web vs. native: let’s concede defeat]( http://www.quirksmode.org/blog/archives/2015/05/web_vs_native_l.html )
-    * [The Web is not poor man's native]( http://cwilso.com/2015/05/29/the-web-is-not-poor-mans-native/ )
-    * [Why desktop apps are making a comeback]( https://medium.com/@collinmathilde/why-desktop-apps-are-making-a-comeback-5b4eb0427647 )
+- [Tools don’t solve the web’s problems, they ARE the problem]( http://www.quirksmode.org/blog/archives/2015/05/tools_dont_solv.html )
+- [Comic zu JS Problemen und Lösungen]( http://cube-drone.com/comics/c/relentless-persistence )
+- [Tooling is not the problem of the Web]( https://medium.com/@sebmarkbage/tooling-is-not-the-problem-of-the-web-cb0ae1fdbbc6 )
+- [Web vs. native: let’s concede defeat]( http://www.quirksmode.org/blog/archives/2015/05/web_vs_native_l.html )
+- [The Web is not poor man's native]( http://cwilso.com/2015/05/29/the-web-is-not-poor-mans-native/ )
+- [Why desktop apps are making a comeback]( https://medium.com/@collinmathilde/why-desktop-apps-are-making-a-comeback-5b4eb0427647 )
 
 ## Lesefoo
 
