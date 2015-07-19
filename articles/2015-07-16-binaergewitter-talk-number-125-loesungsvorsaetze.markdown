@@ -77,9 +77,10 @@ Alle Man(n) an Board. Wobei uns die Hitze fast zu Kopf steigt. Mat, Felix, Pflei
 ## Picks
 
 - [°-Zeichen auf iOS-Keyboard]( https://twitter.com/olebegemann/status/619937106178215936  )
-- [lightyear.fm](http://lightyear.fm/ ) - mit mimimi -> best on chrome
+- [lightyear.fm](http://lightyear.fm/ )
 - [Global Mountain Bike Network]( https://www.youtube.com/user/globalmtb )
 - [QuadLock Bike-Halterung]( http://www.amazon.de/Quad-Fahrradzubeh%C3%B6r-iPhone-Schwarz-QLK-BKE-IP6/dp/B00OY6NKLW/ref=sr_1_2?ie=UTF8&qid=1437079496&sr=8-2&keywords=quadlock )
+  * [Finn Fahrrad Halterung](http://www.amazon.de/gp/product/B00D8Z9KPU/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B00D8Z9KPU&linkCode=as2&tag=trektrip&linkId=PXQBKILIGSUWYROT ) 
 - [Colt Express](http://www.amazon.de/gp/product/B00P0JE296/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B00P0JE296&linkCode=as2&tag=trektrip&linkId=YY35UR2C6JDQVZHR )
 - [Billiger Mini-Quadcopter: Cheerson CX-10]( http://amazon.de/dp/B00T5GKLO0?tag=pfleidi-21 )
   * [Am besten gleich mit Rotorschutz]( http://amazon.de/dp/B00T48SHWM?tag=pfleidi-21 )
