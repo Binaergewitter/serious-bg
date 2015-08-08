@@ -37,11 +37,9 @@ http://www.heise.de/newsticker/meldung/StageFright-Samsung-und-Nexus-Geraete-bek
 - [Fastmail macht nun iOS push]( http://blog.fastmail.com/2015/07/17/push-email-now-available-in-ios-mail/ )
 
 ## Themen
-- Bargeld abschaffen?
-* http://www.focus.de/finanzen/news/wirtschaftsticker/ende-des-drogen-und-schwarzarbeitsmarkts-top-oekonomen-fuer-abschaffung-des-bargelds_id_4687480.html
- * [](http://www.mobile-zeitgeist.com/2015/06/23/bargeld-und-es-lacht-doch/ )
- * trinkgeld
- Bargeldumlauf Ende 2008 noch 13,8 Milliarden DM, davon 6,8 Milliarden DM in Banknoten und 7,0 Milliarden DM in Münzen.
+* [Bargeld abschaffen](http://www.focus.de/finanzen/news/wirtschaftsticker/ende-des-drogen-und-schwarzarbeitsmarkts-top-oekonomen-fuer-abschaffung-des-bargelds_id_4687480.html
+ * [Bargeld und es lacht doch](http://www.mobile-zeitgeist.com/2015/06/23/bargeld-und-es-lacht-doch/ )
+ * [Internationales Bargeld aus Ingos Geldbeutel](http://t.co/vq6L9hxtYo )
  * It's always sunny in Guantanamo Bay
 
 ## Lesefoo
