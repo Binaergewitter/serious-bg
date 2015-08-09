@@ -12,7 +12,7 @@ audioformats:
   m4a: http://download.binaergewitter.de/2015-08-06.Binaergewitter.Talk.127.m4a
   opus: http://download.binaergewitter.de/2015-08-06.Binaergewitter.Talk.127.opus
 ---
-Mal wieder mit Marc, der zum Urlaub in der Gegend ist. Außerdem mit Bargeld....
+Mal wieder mit Marc, der zum Urlaub in der Gegend ist. Leider ist uns mittendrin die Aufnahme abgestürzt und so fehlen ca. 10 Minuten der Sendung. We are sorry. Dafür gehts ums Bargeld und Marc hat einiges an Lesefoo gesammelt.
 
 ## Toter der Woche
 - [ Matchstick ](http://www.pro-linux.de/news/1/22603/chromecast-alternative-matchstick-eingestellt.html )
