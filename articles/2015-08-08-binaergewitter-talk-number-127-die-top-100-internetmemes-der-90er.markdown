@@ -24,23 +24,23 @@ Mal wieder mit Marc, der zum Urlaub in der Gegend ist. Leider ist uns mittendrin
 - [Kubernetes v1 is raus]( http://googlecloudplatform.blogspot.de/2015/07/Kubernetes-V1-Released.html )
 - [ZomboDB]( https://github.com/zombodb/zombodb )
 - [Stagefright]( http://www.heise.de/security/meldung/Stagefright-Luecken-Proof-of-Concept-kursiert-im-Netz-Lage-fuer-Android-Nutzer-spitzt-sich-zu-2767873.html )
-    * [Workaround/Fixes]( https://www.avast.com/en-us/faq.php?article=AVKB230 )
-    * [Telekom schaltet MMS-Empfang für Android vorerst ab]( http://www.computerbase.de/2015-08/deutsche-telekom-mms-empfang-wegen-android-sicherheitsluecke-abgeschaltet/ )
+  * [Workaround/Fixes]( https://www.avast.com/en-us/faq.php?article=AVKB230 )
+  * [Telekom schaltet MMS-Empfang für Android vorerst ab]( http://www.computerbase.de/2015-08/deutsche-telekom-mms-empfang-wegen-android-sicherheitsluecke-abgeschaltet/ )
 - [Patchdays bei android]( 
 http://www.heise.de/newsticker/meldung/StageFright-Samsung-und-Nexus-Geraete-bekommen-monatliche-Sicherheitsupdates-2772788.html )
 - [logjam](https://weakdh.org/ )
 - [Firefox User Agent override]( https://bugzilla.mozilla.org/show_bug.cgi?id=1177298 )
 - [Samsung spammt deinen smart TV zu]( http://www.theregister.co.uk/2015/08/06/samsung_investigates_spam_ads_in_smart_tvs/ )
-    * [Changhong]( https://en.wikipedia.org/wiki/Changhong )
+  * [Changhong]( https://en.wikipedia.org/wiki/Changhong )
 - [Stallmanns feuchter Traum]( http://www.pro-linux.de/news/1/22606/gnu-emacs-wird-zum-window-manager.html )
 - [301+ views bei Youtube sind vorbei]( http://arstechnica.com/gadgets/2015/08/youtubes-301-views-will-be-going-away-as-site-updates-spam-detection/ )
 - [Fastmail macht nun iOS push]( http://blog.fastmail.com/2015/07/17/push-email-now-available-in-ios-mail/ )
 
 ## Themen
-* [Bargeld abschaffen](http://www.focus.de/finanzen/news/wirtschaftsticker/ende-des-drogen-und-schwarzarbeitsmarkts-top-oekonomen-fuer-abschaffung-des-bargelds_id_4687480.html
- * [Bargeld und es lacht doch](http://www.mobile-zeitgeist.com/2015/06/23/bargeld-und-es-lacht-doch/ )
- * [Internationales Bargeld aus Ingos Geldbeutel](http://t.co/vq6L9hxtYo )
- * It's always sunny in Guantanamo Bay
+- [Bargeld abschaffen]( http://www.focus.de/finanzen/news/wirtschaftsticker/ende-des-drogen-und-schwarzarbeitsmarkts-top-oekonomen-fuer-abschaffung-des-bargelds_id_4687480.html )
+  * [Bargeld und es lacht doch](http://www.mobile-zeitgeist.com/2015/06/23/bargeld-und-es-lacht-doch/ )
+  * [Internationales Bargeld aus Ingos Geldbeutel](http://t.co/vq6L9hxtYo )
+  * It's always sunny in Guantanamo Bay
 
 ## Lesefoo
 - [Cloud Gaming on EC2]( http://lg.io/2015/07/05/revised-and-much-faster-run-your-own-highend-cloud-gaming-service-on-ec2.html )
@@ -53,17 +53,17 @@ http://www.heise.de/newsticker/meldung/StageFright-Samsung-und-Nexus-Geraete-bek
 - [Complementing Hadoop at Yahoo: Interactive Analytics with Druid]( http://yahooeng.tumblr.com/post/125287346011/complementing-hadoop-at-yahoo-interactive )
 - [Use any C library from Ruby via Fiddle – the Ruby standard library’s best kept secret.]( http://blog.honeybadger.io/use-any-c-library-from-ruby-via-fiddle-the-ruby-standard-librarys-best-kept-secret/ )
 - [One font vulnerability to rule them all]( http://j00ru.vexillium.org/dump/recon2015.pdf )
- - [SRE interviews im Valley]( http://blog.marc-seeger.de/2015/05/01/sre-interviews-in-silicon-valley/ ) (SHAMELESS SELF PROMOTION)
- - [LinkedIn: Nurse]( http://engineering.linkedin.com/sre/introducing-nurse-auto-remediation-linkedin )
- - [Monitorama PDX 2015 - Brendan Gregg - Netflix Instance Performance Analysis Requirements]( https://vimeo.com/131484323 )
- - [BRIN indexes in Postgres 9.5]( http://michael.otacoo.com/postgresql-2/postgres-9-5-feature-highlight-brin-indexes/ )
+- [SRE interviews im Valley]( http://blog.marc-seeger.de/2015/05/01/sre-interviews-in-silicon-valley/ ) (SHAMELESS SELF PROMOTION)
+- [LinkedIn: Nurse]( http://engineering.linkedin.com/sre/introducing-nurse-auto-remediation-linkedin )
+- [Monitorama PDX 2015 - Brendan Gregg - Netflix Instance Performance Analysis Requirements]( https://vimeo.com/131484323 )
+- [BRIN indexes in Postgres 9.5]( http://michael.otacoo.com/postgresql-2/postgres-9-5-feature-highlight-brin-indexes/ )
 
 
 ## Picks
 - [virtio treiber für windows](https://fedoraproject.org/wiki/Windows_Virtio_Drivers )
 - [Autoslash - billig Mietwagen]( https://www.autoslash.com )
 - [Rick and Morty Season 2(trailer)]( http://www.youtube.com/watch?v=90wG8ObCBE0 )
-    * [Adventure Time Podcast]( http://www.infiniteguest.org/conversation-parade/ )
+  * [Adventure Time Podcast]( http://www.infiniteguest.org/conversation-parade/ )
 - `ssh whoami.filippo.io`
 
 ## Mimimi
