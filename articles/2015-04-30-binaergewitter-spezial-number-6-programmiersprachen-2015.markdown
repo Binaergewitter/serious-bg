@@ -63,7 +63,7 @@ Felix lernt Lua und Pfleidi schaut sich dieses Jahr mal Elixir angeschaut. Beide
 ### Lua auf dem MicroController
 
 - [Esp8266]( http://s.click.aliexpress.com/klk/qbYburNBE )
-  * mit nur 2 nutzbaren IO Pings
+  * mit nur 2 nutzbaren IO Pins
   * 3.3 Volt (keine 5!), braucht also Step-Down + Serielle Konsole
   * [ESP8266 ESP-12]( http://s.click.aliexpress.com/klk/AmQ3v3Nne ) mit mehr PINs, 
   * evtl gleich mit [Adapter Plate]( http://www.aliexpress.com/item/10pcs-lot-ESP8266-serial-WIFI-module-connecting-plate-applicable-to-ESP-07-the-ESP-08-ESP/32262406988.html )
