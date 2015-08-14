@@ -9,7 +9,7 @@ published: true
 audioformats:
   mp3: http://download.binaergewitter.de/2015-08-13.Binargewitter.Talk.128.mp3
   ogg: http://download.binaergewitter.de/2015-08-13.Binargewitter.Talk.128.ogg
-  m4a: http://download.binaergewitter.de/2015-08-13.Binargewitter.Talk.128.m4q
+  m4a: http://download.binaergewitter.de/2015-08-13.Binargewitter.Talk.128.m4a
   opus: http://download.binaergewitter.de/2015-08-13.Binargewitter.Talk.128.opus
 ---
 In einer Besetzung die wir so wahrscheinlich noch nie hatten, wieder mit Marc sowie mit Mat und Ingo. Während alle anderen Campen sind treffen wir uns im zu heißen Studio und freuen uns über McAfee und besprechen ohne Felix Security Foo.
