@@ -58,9 +58,8 @@ In einer Besetzung die wir so wahrscheinlich noch nie hatten, wieder mit Marc so
 - [10 Dinge die ihr niemals zu eurem Admin sagen solltet](https://www.wired.de/collection/latest/diese-10-satze-solltet-ihr-niemals-zu-eurem-admin-sagen )
 
 ## Mimimi der Woche
-(- Flattr)
-- Redhat Openshift
-    * feed war kaputt - > scheiß cloud übernimmt nicht alle DNS Einträge
+- Redhat [Openshift](https://www.openshift.com/ )
+    * feed war kaputt - > cloudflare übernimmt nicht alle DNS Einträge :(
 - [Android Entwicklung]( https://twitter.com/ranterle/status/631477490179928064 )
 
 ## Picks
@@ -68,4 +67,4 @@ In einer Besetzung die wir so wahrscheinlich noch nie hatten, wieder mit Marc so
 - [Schlechte/ungewollte Windows-Werbung]( https://twitter.com/markrussinovich/status/631505582139117569 )
 - [Zukünftiger QA-Engineer beim Taekwando-Training]( https://www.youtube.com/watch?v=1ZLN9AzxVa8 )
 - [Die Tochter des Doctors]( http://9gag.com/gag/aqmAgeQ )
-
+- 
