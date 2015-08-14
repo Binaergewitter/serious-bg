@@ -22,7 +22,7 @@ class Serious < Sinatra::Base
   set :articles, Proc.new { File.join(Dir.getwd, 'articles') }
   set :pages, Proc.new { File.join(Dir.getwd, 'pages') }
   set :static, true # Required to serve static files, see http://www.sinatrarb.com/configuration.html
-  set :static_cache_control, [:public, :max_age => Serious.cache_timeout]
+  set :static_cache_control, [:public, :max_age => 21600]
   set :future, true
 
   not_found do
