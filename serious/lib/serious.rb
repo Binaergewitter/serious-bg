@@ -186,6 +186,13 @@ class Serious < Sinatra::Base
     redirect "/#{params[:splat][0]}", 301
   end
 
+  # Add permanent redirect for old images
+  # Some old podcatchers seem to still request those
+  get "/images/*" do
+    redirect "/img/#{params[:splat][0]}", 301
+  end
+
+
   get "/pages/:page" do
     halt 404 unless @article = Page.find(params[:page])
     render_article @article
