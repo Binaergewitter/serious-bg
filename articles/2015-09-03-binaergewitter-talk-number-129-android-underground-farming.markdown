@@ -53,33 +53,24 @@ Leider mal wieder mit Technikproblemen und etwas verspäteter Veröffentlichung.
 ## News
 
 - [SexyCyborg goes Pentesting]( http://imgur.com/a/c4WNF )
-
 - [web.de, GMX & 1&1 Web-Mail Konten waren angreifbar]( https://www.wired.de/collection/latest/so-konnten-fremde-euer-postfach-bei-web-de-gmx-oder-1-1-eindringen )
   * [web.de GPG mit Mailvelope]( https://www.mailvelope.com/de/ )
   * [Erfahrungsbericht]( http://www.zeit.de/digital/datenschutz/2015-08/gmx-webde-mail-verschluesselung-pgp-anleitung )
 - [Ashley Madison gehackt - Sammelklage]( http://www.heise.de/newsticker/meldung/Ashley-Madison-Sammelklage-nach-Hack-gegen-Seitensprung-Portal-2789960.html )
   * [Fast alle weiblichen Accounts sind fake]( http://gizmodo.com/almost-none-of-the-women-in-the-ashley-madison-database-1725558944 )
 - [Entlassungswelle bei Rovio]( http://arstechnica.com/business/2015/08/angry-birds-studio-cuts-260-jobs-after-revenue-continues-to-fall/ )
-
 - [Facebook M - Siri, Cortana & Co von Facebook]( http://techcrunch.com/2015/08/26/facebook-is-adding-a-personal-assistant-called-m-to-your-messenger-app/?ncid=rss#.ifzygk:NTZM )
-  * [Comic dazu]( TODO < link >)
-
 - [Oakland Police Department und LPRs mal wieder]( http://arstechnica.com/tech-policy/2015/08/cops-decide-to-collect-less-license-plate-data-after-80gb-drive-got-full/ )
-
 - [Schimpansen haben die Steinzeit erreicht]( http://www.bbc.com/earth/story/20150818-chimps-living-in-the-stone-age )
 - [Passwort 'XXXXairocon' ownt SOHO router]( http://www.theregister.co.uk/2015/08/27/password_xxxxairocon_pops_routers/ )
-
 - [Hue Go]( http://www2.meethue.com/en-us/the-range/hue-go/ )
   * [Hue wireless dimming kit]( http://www2.meethue.com/en-us/the-range/hue-wireless-dimming-kit/ )
-
 - [Node.js ist nun IO.js]( https://github.com/nodejs/node#cnv )
 - [Google OnHub]( https://on.google.com/hub/ )
   * [Post zum Thema]( http://sixcolors.com/post/2015/08/google-gets-into-the-wi-fi-router-gameand-plants-a-flag-in-your-house/ ) 
   * [Amazon Echo]( http://www.amazon.com/Amazon-SK705DI-Echo/dp/B00X4WHP5E )
-
 - [Amazon Underground]( http://www.golem.de/news/amazon-underground-hunderte-gratis-apps-im-tausch-gegen-ueberwachung-1508-115974.html )
   * [12ct/hour App use für Entwickler]( http://arstechnica.com/gaming/2015/08/amazons-new-games-and-apps-store-free-for-users-12%C2%A2-an-hour-for-devs/ )
-
 - [Arbeitsbedingungen bei Amazon]( http://www.nytimes.com/2015/08/16/technology/inside-amazon-wrestling-big-ideas-in-a-bruising-workplace.html )
   * "It’s the greatest place I hate to work"
   * [Jeff Bezos sieht das anders]( http://www.zeit.de/wirtschaft/unternehmen/2015-08/mazon-jeff-bezos-new-york-times-mitarbeiter-ausbeutung )
@@ -100,7 +91,6 @@ Leider mal wieder mit Technikproblemen und etwas verspäteter Veröffentlichung.
   * [Radare2 Colors]( http://radare.gitbooks.io/radare2book/content/configuration/colors.html )
 
 ## Mimimi der Woche
-
 
 - Open Source Maintainern
 - Billige China-USB-Soundkarten
