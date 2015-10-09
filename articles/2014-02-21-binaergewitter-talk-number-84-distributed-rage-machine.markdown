@@ -39,7 +39,7 @@ Diese Woche rage und heulen sich pfleidi und Felix glücklich.
 
 ## News
 
-- [Python.org ist neu]( http://python.org/ ) ([via schmittlauch]( https://twitter.com/schmittlauch/status/436455790430683136 ))
+- [Python.org ist neu]( http://python.org/ ) (via [schmittlauch]( https://twitter.com/schmittlauch/status/436455790430683136 ))
   * [PythonAnywhere]( https://www.pythonanywhere.com/ )
   * [Try Ruby]( http://tryruby.org/ )
 - [Github rendert Prosa-Diffs]( https://github.com/blog/1784-rendered-prose-diffs )
@@ -84,5 +84,5 @@ Diese Woche rage und heulen sich pfleidi und Felix glücklich.
 - [Bfg Repo Cleaner]( http://rtyley.github.io/bfg-repo-cleaner/ ) (via [@elektrojunge]( https://twitter.com/elektrojunge ))
 - [Episodes 2]( http://the-skylab.de/episodes/ )
 - [Commit]( https://itunes.apple.com/de/app/commit/id473527073?l=en&mt=8 )
-- [shadyurl]( http://www.shadyurl.com/ ) via l33tname
+- [shadyurl]( http://www.shadyurl.com/ ) (via [@l33tname]( https://twitter.com/l33tname ))
 - [vimdiff]( http://vimdoc.sourceforge.net/htmldoc/diff.html )
