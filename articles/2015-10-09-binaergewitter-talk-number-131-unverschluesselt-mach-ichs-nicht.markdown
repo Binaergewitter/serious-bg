@@ -8,9 +8,9 @@ sharing: true
 published: true
 audioformats:
   mp3: http://download.binaergewitter.de/2015-10-08.Binaergewitter.Talk.132.mp3
-  ogg: http://download.binaergewitter.de//2015-10-08.Binaergewitter.Talk.132.ogg
-  m4a: http://download.binaergewitter.de//2015-10-08.Binaergewitter.Talk.132.m4a
-  opus: http://download.binaergewitter.de//2015-10-08.Binaergewitter.Talk.132.opus
+  ogg: http://download.binaergewitter.de/2015-10-08.Binaergewitter.Talk.132.ogg
+  m4a: http://download.binaergewitter.de/2015-10-08.Binaergewitter.Talk.132.m4a
+  opus: http://download.binaergewitter.de/2015-10-08.Binaergewitter.Talk.132.opus
 ---
 Mat muss als Microsoftexperte uns die neuen Produkte erklären, außerdem bleibt Ingo nicht an der roten Themenampel stehen und Felix hat immer noch kein Android 6.0
 
@@ -20,18 +20,17 @@ Mat muss als Microsoftexperte uns die neuen Produkte erklären, außerdem bleibt
 
 ## News
 
-## Google Block(g)
+## Google Block
 
 - [Warum es kein Android Auto bei Porsche geben wird]( http://www.motortrend.com/features/mt_hot_list/13_cool_facts_about_the_2017_porsche_911/ )
-- [Google sagt: Stimmt doch gar nicht]( http://techcrunch.com/2015/10/06/google-denies-motor-trends-claim-that-android-auto-collects-key-automotive-data/ )
+  * [Google sagt: Stimmt doch gar nicht]( http://techcrunch.com/2015/10/06/google-denies-motor-trends-claim-that-android-auto-collects-key-automotive-data/ )
 - [Pixel C]( https://pixel.google.com/ )
 - Android 6.0
 - neue Nexus Geräte
   * [Nexus 5X]( http://www.google.com/intl/de_de/nexus/5x/ )
   * [Nexus 6P]( http://www.google.com/intl/de_de/nexus/6p/ )
 - [AMP HTML]( https://github.com/ampproject/amphtml/blob/master/README.md ) 
-- Chromecast
-  * [im google store](https://store.google.com/?playredirect=true )
+- [Chromecast]( (https://store.google.com/?playredirect=true ) )
 - [CloudPiercer]( https://cloudpiercer.org/ )
   * [Paper]( https://cloudpiercer.org/paper/CloudPiercer.pdf )
 - [Amazon schmeißt Chromecast und Apple TV raus]( http://www.heise.de/newsticker/meldung/Video-Streaming-Amazon-verbannt-Apple-TV-und-Google-Chromecast-aus-dem-Angebot-2836267.html )
@@ -39,6 +38,7 @@ Mat muss als Microsoftexperte uns die neuen Produkte erklären, außerdem bleibt
 - [Hacktoberfest]( https://hacktoberfest.digitalocean.com/ )
 
 ## MS Block
+
 - [Microsoft Band 2]( http://www.microsoftstore.com/store/msusa/en_US/pdp/Microsoft-Band-2/productID.324438600 )
 - [Microsoft Surface Book als Tablet mit Notebook-Dock plus externe GPU und Batterie]( http://arstechnica.com/gadgets/2015/10/hands-on-the-surface-book-is-a-laptop-but-its-also-a-tablet/ )
 - [Panos Panay is pumped about everything]( http://www.theverge.com/tldr/2015/10/6/9465373/microsoft-surface-panos-panay-pumped )
@@ -64,7 +64,7 @@ Mat muss als Microsoftexperte uns die neuen Produkte erklären, außerdem bleibt
 - [rms.sexy]( http://rms.sexy )
 - [Xiaomi Mini]( http://s.click.aliexpress.com/e/yneyfIQBe?af=130085010 )
   * [Google Translate App]( https://play.google.com/store/apps/details?id=com.google.android.apps.translate&hl=de )
-- [Paint With Donald Trump]( http://paintwithdonaldtrump.com/ )(l33tname)
+- [Paint With Donald Trump]( http://paintwithdonaldtrump.com/ ) (via [@l33tname](https://twitter.com/l33tname))
 - [#worldwithoutlinux](http://www.linuxfoundation.org/world-without-linux )
 - [Arachni Scanner]( http://www.arachni-scanner.com/ )
 - [Amazon Inspector]( http://aws.amazon.com/de/inspector/ )
