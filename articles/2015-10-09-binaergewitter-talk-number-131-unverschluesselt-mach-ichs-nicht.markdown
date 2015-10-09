@@ -20,7 +20,7 @@ Mat muss als Microsoftexperte uns die neuen Produkte erklären, außerdem bleibt
 
 ## News
 
-## Google Block
+### Google Block
 
 - [Warum es kein Android Auto bei Porsche geben wird]( http://www.motortrend.com/features/mt_hot_list/13_cool_facts_about_the_2017_porsche_911/ )
   * [Google sagt: Stimmt doch gar nicht]( http://techcrunch.com/2015/10/06/google-denies-motor-trends-claim-that-android-auto-collects-key-automotive-data/ )
@@ -34,10 +34,11 @@ Mat muss als Microsoftexperte uns die neuen Produkte erklären, außerdem bleibt
 - [CloudPiercer]( https://cloudpiercer.org/ )
   * [Paper]( https://cloudpiercer.org/paper/CloudPiercer.pdf )
 - [Amazon schmeißt Chromecast und Apple TV raus]( http://www.heise.de/newsticker/meldung/Video-Streaming-Amazon-verbannt-Apple-TV-und-Google-Chromecast-aus-dem-Angebot-2836267.html )
+
 - [Toyota *verliert* Trucks an ISIS]( http://www.theregister.co.uk/2015/10/07/how_did_isis_get_your_trucks_us_treasury_toyota/ )
 - [Hacktoberfest]( https://hacktoberfest.digitalocean.com/ )
 
-## MS Block
+### MS Block
 
 - [Microsoft Band 2]( http://www.microsoftstore.com/store/msusa/en_US/pdp/Microsoft-Band-2/productID.324438600 )
 - [Microsoft Surface Book als Tablet mit Notebook-Dock plus externe GPU und Batterie]( http://arstechnica.com/gadgets/2015/10/hands-on-the-surface-book-is-a-laptop-but-its-also-a-tablet/ )
