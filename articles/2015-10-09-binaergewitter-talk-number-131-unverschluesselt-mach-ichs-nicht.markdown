@@ -9,7 +9,7 @@ published: true
 audioformats:
   mp3: http://download.binaergewitter.de/2015-10-08.Binaergewitter.Talk.132.mp3
   ogg: http://download.binaergewitter.de//2015-10-08.Binaergewitter.Talk.132.ogg
-  m4a: http://download.binaergewitter.de//2015-10-08.Binaergewitter.Talk.132.m4q
+  m4a: http://download.binaergewitter.de//2015-10-08.Binaergewitter.Talk.132.m4a
   opus: http://download.binaergewitter.de//2015-10-08.Binaergewitter.Talk.132.opus
 ---
 Mat muss als Microsoftexperte uns die neuen Produkte erklären, außerdem bleibt Ingo nicht an der roten Themenampel stehen und Felix hat immer noch kein Android 6.0
