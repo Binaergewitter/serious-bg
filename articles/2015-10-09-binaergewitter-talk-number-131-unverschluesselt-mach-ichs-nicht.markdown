@@ -30,7 +30,7 @@ Mat muss als Microsoftexperte uns die neuen Produkte erklären, außerdem bleibt
   * [Nexus 5X]( http://www.google.com/intl/de_de/nexus/5x/ )
   * [Nexus 6P]( http://www.google.com/intl/de_de/nexus/6p/ )
 - [AMP HTML]( https://github.com/ampproject/amphtml/blob/master/README.md ) 
-- [Chromecast]( (https://store.google.com/?playredirect=true ) )
+- [Chromecast](https://store.google.com/?playredirect=true)
 - [CloudPiercer]( https://cloudpiercer.org/ )
   * [Paper]( https://cloudpiercer.org/paper/CloudPiercer.pdf )
 - [Amazon schmeißt Chromecast und Apple TV raus]( http://www.heise.de/newsticker/meldung/Video-Streaming-Amazon-verbannt-Apple-TV-und-Google-Chromecast-aus-dem-Angebot-2836267.html )
