@@ -137,7 +137,7 @@ Felix, Marc, Mat, Pfleidi und Ingo haben sich zusammen gefunden um über das Tes
 - [Code Climate]( https://codeclimate.com/ )
 - Xcode Bots, Mac OS X Server
 - [Vim Syntax Checker: syntastic]( https://github.com/scrooloose/syntastic )
-- [pep8](http://www.python.org/dev/peps/pep-0008/), [pylint]
+- [pep8](http://www.python.org/dev/peps/pep-0008/), [pylint](http://www.pylint.org/)
 - [JSLint]( http://www.jslint.com/ )
 - [faker]( https://github.com/joke2k/faker )
     * Auch: [faker]( https://github.com/stympy/faker )
