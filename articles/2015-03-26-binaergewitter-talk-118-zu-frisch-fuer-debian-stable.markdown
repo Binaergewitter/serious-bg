@@ -12,7 +12,7 @@ audioformats:
   m4a: http://download.binaergewitter.de/2015-03-26.Binaergewitter.Talk.118.m4a
   opus: http://download.binaergewitter.de/2015-03-26.Binaergewitter.Talk.118.opus
 ---
-Leider gibts wieder Probleme mit pfleidis Spur, daher ist er releativ leise. Diesmal zu viert mit müdem Mat, ohne Uhr und mit Klindle Cover Disasters.
+Leider gibts wieder Probleme mit pfleidis Spur, daher ist er releativ leise. Diesmal zu viert mit müdem Mat, ohne Uhr und mit Kindle Cover Disasters.
 
 ## Lol der Woche
 
@@ -26,7 +26,7 @@ Leider gibts wieder Probleme mit pfleidis Spur, daher ist er releativ leise. Die
 
 # Tumblr der Woche
 
-- [Klindle Cover Disasters](http://kindlecoverdisasters.tumblr.com/ )
+- [Kindle Cover Disasters](http://kindlecoverdisasters.tumblr.com/ )
 
 ## Toter der Woche
 
