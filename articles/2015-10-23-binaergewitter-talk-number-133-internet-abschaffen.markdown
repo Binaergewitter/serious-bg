@@ -76,5 +76,5 @@ Wegen der Veröffentlichung von Ubuntu 15.10 fordern Mat, Felix und Ingo mal wie
 - [Amazing Maps](https://twitter.com/Amazing_Maps )
 - [Baby got Laugengebäck]( https://www.youtube.com/watch?v=YSAqTdc-Y2g )
 - [Monal](http://monal.im/ )
-  * [Konversations](https://play.google.com/store/apps/details?id=eu.siacs.conversations )
+  * [Conversations](https://play.google.com/store/apps/details?id=eu.siacs.conversations )
 - [Volkswagen for Xcode]( https://github.com/cezheng/Volkswagen-Xcode )
