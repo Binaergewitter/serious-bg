@@ -45,7 +45,7 @@ Mal wieder in größere Runde mit pfleidi, mat, felix und ingo. Wir reden natür
 - [Apple erlaubt App mit CCC-Beiträgen nicht für tvOS App Store]( https://unthoughted.wordpress.com/2015/10/31/apple-verbietet-inhalte-vom-chaos-computer-club-auf-ihrer-plattform/ )
     * [Source-Code]( https://github.com/aus-der-Technik/CCC-TV )
 - Twitter macht jetzt Herzen statt Sterne
-    * #heartgate
+    * heartgate
     * [PS3 has no games]( http://knowyourmeme.com/memes/ps3-has-no-games )
 - [Activision kauft King Digital aka Candy Crush für $5.9bn]( http://investor.activision.com/releasedetail.cfm?ReleaseID=939963 )
 - [Zulip von Dropbox wird OSS]( https://blogs.dropbox.com/tech/2015/09/open-sourcing-zulip-a-dropbox-hack-week-project/ )
@@ -84,6 +84,7 @@ Mal wieder in größere Runde mit pfleidi, mat, felix und ingo. Wir reden natür
 
 - [Offline Amazon]( http://www.heise.de/newsticker/meldung/Amazon-eroeffnet-Offline-Buchladen-in-Seattle-2868402.html )
 - [Amazon Prime Music jetzt auch in Deutschland]( http://www.computerbase.de/2015-11/prime-music-kostenloses-musik-streaming-fuer-zahlende-prime-kunden/ )
+  * [auch Hörspiele wie Privatdetektiv Richard Diamond gibt es ](http://www.amazon.de/gp/product/B0039WEO76/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B0039WEO76&linkCode=as2&tag=trektrip)
   * [Three Wolf Moon T-shirt (kommentar)]( http://www.amazon.com/review/R1HK3JY858I35K/ref=cm_cr_dp_title?ie=UTF8&ASIN=B002HJ377A&channel=detail-glance&nodeID=1036592&store=apparel )
   * [Three Wolf Moon auf WIkipedia]( https://en.wikipedia.org/wiki/Three_Wolf_Moon )
   * [Three Doge Moon]( http://www.amazon.com/T-Line-Three-T-Shirt-Black-Large/dp/B00NT1HGHW )
