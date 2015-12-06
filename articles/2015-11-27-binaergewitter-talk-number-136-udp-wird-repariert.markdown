@@ -24,6 +24,7 @@ Sehr sehr spontan, da der Marc festgestellt hat, dass er Feiertag hat, haben wir
 - [John Nagle und TCP]( https://news.ycombinator.com/item?id=9048947 )
 
 ## News
+
 - [Firefox braucht kein Google Geld mehr]( http://www.cnet.com/news/firefox-maker-mozilla-we-dont-need-googles-money-anymore/ )
 - [Anja Kempe Podcast]( http://anjakempe.com/ )
     * [3 Jahre später]( https://twitter.com/Anja_Kempe_ARD/status/669626439034150913 )
@@ -36,7 +37,7 @@ Sehr sehr spontan, da der Marc festgestellt hat, dass er Feiertag hat, haben wir
     * [Materialized Views]( http://www.datastax.com/dev/blog/new-in-cassandra-3-0-materialized-views )
 - [Slack war down]( https://twitter.com/JudsonCollier/status/668895594480582656 )
     * [Slack System Status]( https://status.slack.com/2015-11/ab9ab36aec423f00 )
-- [Adventure Time: Stakes]( https://en.wikipedia.org/wiki/Stakes_(miniseries) )
+- [Adventure Time: Stakes]( https://en.wikipedia.org/wiki/Stakes_\(miniseries\) )
     * [Conversation Parade]( http://www.infiniteguest.org/conversation-parade/ )
 - [Android Studio 2.0 kann Instant Run]( http://android-developers.blogspot.de/2015/11/android-studio-20-preview.html )
     * [JRebel]( http://zeroturnaround.com/software/jrebel/ )
@@ -52,6 +53,7 @@ Sehr sehr spontan, da der Marc festgestellt hat, dass er Feiertag hat, haben wir
     * [KB Eintrag]( https://www.kb.cert.org/vuls/id/870761 )
 
 ## Lesefoo
+
 - [MacBook Charger Teardown]( http://www.righto.com/2015/11/macbook-charger-teardown-surprising.html )
 - [Broken Performance Tools]( http://www.slideshare.net/brendangregg/qcon-2015-broken-performance-tools )
 - James Mickens
@@ -69,6 +71,7 @@ Sehr sehr spontan, da der Marc festgestellt hat, dass er Feiertag hat, haben wir
 - [Android DevSummit Talks]( https://www.youtube.com/playlist?list=PLWz5rJ2EKKc_Tt7q77qwyKRgytF1RzRx8 )
 
 ## Mimimi der Woche
+
 - Gute Monitoring/Alerting posts
     * [LinkedIn Post 1]( https://engineering.linkedin.com/52/autometrics-self-service-metrics-collection )
     * [LinkedIn Post 2]( https://engineering.linkedin.com/25/visualizing-linkedins-site-performance )
@@ -82,6 +85,7 @@ Sehr sehr spontan, da der Marc festgestellt hat, dass er Feiertag hat, haben wir
     * Außer wenn es nicht soll -> "Lüftersteuerung" an Fractal Design Node 304 ist evil zu Festplatten
 
 ## Picks
+
 - [SoftEther]( https://www.softether.org )
 - [kfritz](https://github.com/jowi24/kfritz )
 - [Literally Unbelieveable]( http://literallyunbelievable.org )
