@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Binärgewitter Talk #138: 33c3 ich bin dabei"
-date: 2015-12-29 10:00
+date: 2015-12-29 13:00
 comments: true
 categories: talk
 sharing: true
@@ -13,14 +13,14 @@ audioformats:
   opus: http://download.binaergewitter.de/2015-12-28.Binaergewitter.Talk.138.opus
 ---
 Live vom 32C3 (aka der Congress) aus Hamburg aus dem Sendezentrum: Mit Felix, Markus, Mat und Ingo. 
-Wir reden natürlich über den Congress, freuen uns hart über den McAfee der Woche und quatschen kurz über Passwortmanager.
+Wir reden natürlich über den Congress, freuen uns hart über den McAfee der Woche und quatschen kurz über Passwortmanager. Leider hatten wir nur 1,5 Zeit, aber wir hoffen Ihr habt Spaß beim Hören.
 
 Wir wünschen euch einen guten Rutsch ins Jahr 2016.
 
 ## Congress
 - [Hörertreffen]( http://l33tname.github.io/BinaergewitterHoerertreffen/ )
 - Sonderedition FloraMate
-- Talks (upcoming|vergangene) - was habt ihr gesehen?
+- Talks (upcoming|vergangene)
     * [EC-Bezahlsystem ist "angreifbar", 32C3 Vortrag]( http://www.zeit.de/digital/datenschutz/2015-12/electronic-cash-bezahlsystem-terminals-gehackt )
 - Softwarepatente sind immernoch ein Problem (Markus)
     * [Software and business method patents: call for action]( https://events.ccc.de/congress/2015/Fahrplan/events/7283.html )
@@ -84,11 +84,10 @@ geschlossen](http://business.chip.de/news/Passwort-Manager-gehackt-Drei-Wege-in-
 ## Mimimi der Woche
 
 - zwei 4k Screens
-- HDMI 2.0
 - [MST einschalten](http://support.amd.com/en-us/kb-articles/Pages/DellMonitorSupportingDisplayPort12Multi-StreamTransport.aspx )
 - [MST mit Intel]( http://www.phoronix.com/scan.php?page=news_item&px=MTcxMjI )
 - [6-digit PIN Eingabe auf MIUI erlaubt nur 4 Stellen]( https://twitter.com/ranterle/status/678848645974900736 )
-    * http://en.miui.com/thread-86594-1-1.html
+    * [Bugtracker MIUI] (http://en.miui.com/thread-86594-1-1.html )
 - Screenshots auf Android (Markus) [LayoutParams.FLAG_SECURE]( 
 http://infiniteloop.local:52512/Dash/hxvzsfpm/docs/reference/android/view/WindowManager.LayoutParams.html#FLAG_SECURE )
 - Fahrplan App für Android
