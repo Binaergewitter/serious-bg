@@ -25,9 +25,10 @@ Wir wünschen euch einen guten Rutsch ins Jahr 2016.
 - Softwarepatente sind immernoch ein Problem
   * [Software and business method patents: call for action]( https://events.ccc.de/congress/2015/Fahrplan/events/7283.html )
 - [DieselGate](  https://media.ccc.de/v/32c3-7331-the_exhaust_emissions_scandal_dieselgate )
+- [Lessons learned: Freifunk für Geflüchtete]( https://events.ccc.de/congress/2015/Fahrplan/events/7230.html )
 - [3DS hacking]( https://events.ccc.de/congress/2015/Fahrplan/events/7240.html )
-- [Thunderstrike 2 hack](https://media.ccc.de/v/32c3-7236-thunderstrike_2 )
-- [Amiga 500 Flashback](https://media.ccc.de/v/32c3-7468-the_ultimate_amiga_500_talk)
+- [Thunderstrike 2 hack]( https://media.ccc.de/v/32c3-7236-thunderstrike_2 )
+- [Amiga 500 Flashback]( https://media.ccc.de/v/32c3-7468-the_ultimate_amiga_500_talk)
 - [Usb Condom]( http://www.aliexpress.com/item/New-Creative-Pen-Drive-Sexy-Love-Condoms-USB-Flash-Drive-4gb-8gb-16gb-32gb-Flash-Card/32484358860.html )
   * [Original USB Condom]( http://shop.syncstop.com/collections/buy/products/usb-condom?variant=808433739 )
   * [29-Jähriger sprengt Kondomautomaten und stirbt]( http://www.sueddeutsche.de/panorama/schoeppingen-jaehriger-stirbt-bei-sprengung-von-kondomautomat-1.2798228 )
