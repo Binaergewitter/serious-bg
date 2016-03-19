@@ -47,22 +47,23 @@ Mit Mat, Felix und Ingo und natürlich mit "die Hölle fiert mal wieder zu, weil
 
 - [Slack i am breaking up with you]( https://medium.com/better-people/slack-i-m-breaking-up-with-you-54600ace03ea#.q5ksdpo8j )
 - [Firing people]( https://zachholman.com/talk/firing-people )
-* [Neues Spaceship in conways game of life]( https://niginsblog.wordpress.com/2016/03/07/new-spaceship-speed-in-conways-game-of-life/ )
+- [Neues Spaceship in conways game of life]( https://niginsblog.wordpress.com/2016/03/07/new-spaceship-speed-in-conways-game-of-life/ )
   * [Glider (game of life)]( https://en.wikipedia.org/wiki/Glider_(Conway%27s_Life) )
 
 
 ## Mimimi der Woche
-* yakuake 3.0 update
+- [yakuake 3.0]( https://quickgit.kde.org/?p=yakuake.git )
 - Android TV ( Nexus Player & FireTV )
-* [Hadoop Code Contribution]( https://github.com/apache/hadoop/pull/81 )
+- [Hadoop Code Contribution]( https://github.com/apache/hadoop/pull/81 )
 
 ## Picks
 - [Splash]( https://github.com/scrapinghub/splash/ )
-* [fakeupdate] (http://fakeupdate.net/ )
+- [fakeupdate](http://fakeupdate.net/ )
 - [Ping the duck Amazon Review]( http://www.amazon.com/review/R2VDKZ4X1F992Q/tag=krebsco-21 )
-* [Cubetto]( https://www.kickstarter.com/projects/primotoys/cubetto-hands-on-coding-for-girls-and-boys-aged-3 )
+- [Cubetto]( https://www.kickstarter.com/projects/primotoys/cubetto-hands-on-coding-for-girls-and-boys-aged-3 )
 - [hacker stockphotos]( https://archive.is/XFwEX )
-* [Teenes reagieren auf Win95]( https://www.youtube.com/watch?v=8ucCxtgN6sc )
+- [Teenes reagieren auf Win95]( https://www.youtube.com/watch?v=8ucCxtgN6sc )
 - [Spezielles Samsung Feature]( https://twitter.com/estebanrules/status/708299862455021568 )
-* [Routerkeygen]( https://github.com/routerkeygen/routerkeygenPC )
+- [Routerkeygen]( https://github.com/routerkeygen/routerkeygenPC )
 - [NMR Geekchester feat. Hurts]( https://www.youtube.com/watch?v=J6DnYrtLpgY )
+- [C&C Gerneräle]( http://www.amazon.de/gp/product/B0000ACX8Q/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B0000ACX8Q&linkCode=as2&tag=trektrip )
