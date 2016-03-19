@@ -13,7 +13,7 @@ audioformats:
   opus: http://download.binaergewitter.de/2016-03-17.Binaergewitter.Talk.143.opus
 ---
 
-Mit Mat, Felix und Ingo und natürlich mit "die Hölle fiert mal wieder zu, weil MS zeug auf Linux bringt".
+Mit Mat, Felix und Ingo und natürlich mit "die Hölle fiert mal wieder zu, weil MS Zeug auf Linux bringt".
 
 ## McAfee der Woche
 
@@ -30,7 +30,7 @@ Mit Mat, Felix und Ingo und natürlich mit "die Hölle fiert mal wieder zu, weil
   * [hackertyper]( http://hackertyper.net/ )
 - [EuGH Generalanwalt gegen Störerhaftung]( https://netzpolitik.org/2016/stoererhaftung-eugh-generalanwalt-macht-hoffnung/ )
 - [Dropbox jetzt (großteils) nicht mehr auf Amazon S3]( http://www.wired.com/2016/03/epic-story-dropboxs-exodus-amazon-cloud-empire/ )
-- [Sex Toys aren't safe from hackers]( http://fortune.com/2016/03/15/sex-toys-arent-safe-from-hackers/ ) - safer sex bekommt eine neue Bedeutung
+- [Sex Toys aren't safe from hackers]( http://fortune.com/2016/03/15/sex-toys-arent-safe-from-hackers/ )
 - [Android N]( http://www.heise.de/newsticker/meldung/Android-N-zeigt-Apps-nebeneinander-an-3131887.html )
    * [LG Dual Window]( http://www.androidcentral.com/using-dual-window-lg-g4 )
 - [Google möchte Boston Dynamics verkaufen]( http://www.bloomberg.com/news/articles/2016-03-17/google-is-said-to-put-boston-dynamics-robotics-unit-up-for-sale )
