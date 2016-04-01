@@ -13,7 +13,7 @@ audioformats:
   opus: http://download.binaergewitter.de/2016-03-17.Binaergewitter.Talk.143.opus
 ---
 
-Mit Mat, Felix und Ingo und natürlich mit "die Hölle fiert mal wieder zu, weil MS Zeug auf Linux bringt".
+Mit Mat, Felix und Ingo und natürlich mit "die Hölle friert mal wieder zu, weil MS Zeug auf Linux bringt".
 
 ## McAfee der Woche
 
