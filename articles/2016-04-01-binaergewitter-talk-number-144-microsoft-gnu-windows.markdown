@@ -25,17 +25,14 @@ Diesmal ist viel schief gegangen dass die Sendung überhaupt erschienen ist ist 
 
 ##Microsoft
 
-- Unsere Microsoftler sind unterwegs auf der BUILD aber wir müssen trotzdem drüber reden
-    http://www.heise.de/newsticker/meldung/Microsoft-Build-2016-Windows-10-lernt-Linux-3158427.html
-    - https://www.youtube.com/watch?v=kJGqZHQzNRo
-    - MS hat jetzt sein eignes WINE - nur eben andersrum
-    - 2016 das Jahr von Linux auf dem Windows Desktop
-    http://www.baggerspion.net/2016/03/then-you-win-some-thoughts-on-bash-for.html
+- [Windows bekommt eine BASH](http://www.heise.de/newsticker/meldung/Microsoft-Build-2016-Windows-10-lernt-Linux-3158427.html )
+    * [YouTube Video von der MS BASH Präsentation]( https://www.youtube.com/watch?v=kJGqZHQzNRo )
+    * [Kritischer Blick/Post zur BASH on Windows]( http://www.baggerspion.net/2016/03/then-you-win-some-thoughts-on-bash-for.html )
 - [Visual C auch für Linux]( http://www.heise.de/newsticker/meldung/Microsoft-Build-2016-Visual-C-jetzt-auch-fuer-Linux-3159540.html )    
 - [Xamarin kostenlos und offen]( https://blog.xamarin.com/xamarin-for-all/ )
 - [Microsofts AI lernt von Twitter -> und wird überraschenderweise sexistische, Trump-verehrender Nazi](http://www.telegraph.co.uk/technology/2016/03/24/microsofts-teen-girl-ai-turns-into-a-hitler-loving-sex-robot-wit/ )
     - wie soll eine lernende AI mit Arschlöchern und Antworten mit schlechter Absicht umgehen?
-    - [Analog ein Chatbot in China](https://www.inverse.com/article/13387-microsoft-s-chinese-chatbot-that-actually-works ), welcher schon seit 2 Jahren ohne nennenswerte Vorkomnisse läuft -> Liegt es an der Kultur?
+    - [Analog ein Chatbot in China](https://www.inverse.com/article/13387-microsoft-s-chinese-chatbot-that-actually-works ), 
 
 - [Kritische Sicherheitslücke in Windows und Samba *bald*]( http://www.pro-linux.de/news/1/23388/samba-warnt-vor-kritischer-sicherheitsl%C3%BCcke.html )
   * [Website + Namen ist gut für das Geschäft - meint die firma hinter badblock]( http://www.csoonline.com/article/3047221/techology-business/company-behind-the-badlock-disclosure-says-pre-patch-hype-is-good-for-business.html?nsdr=true ) 
@@ -47,8 +44,8 @@ Diesmal ist viel schief gegangen dass die Sendung überhaupt erschienen ist ist 
 
 ## Mimimi der Woche
 - Owncloud 9 Update
-https://forum.owncloud.org/viewtopic.php?f=38&t=33274
-https://github.com/owncloud/core/wiki/Maintenance-and-Release-Schedule
+  * [Foreneintrag mit aktuellen Problemen bei OC 9.0](https://forum.owncloud.org/viewtopic.php?f=38&t=33274 )
+  * [Owncloud Release Schedule]( https://github.com/owncloud/core/wiki/Maintenance-and-Release-Schedule )
 - [Kindle Software Update my Ass!]( http://www.amazon.com/gp/help/customer/display.html?nodeId=200529700 )
 - speedport router und smtp
 - bash verhält sich anders wenn man es als /bin/sh aufruft
