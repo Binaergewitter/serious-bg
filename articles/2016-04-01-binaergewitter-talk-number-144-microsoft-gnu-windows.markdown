@@ -13,7 +13,7 @@ audioformats:
   opus: http://download.binaergewitter.de/2016-03-31.Binaergewitter.Talk.144.opus
 ---
 
-Diesmal ist viel schief gegangen dass die Sendung überhaupt erschienen ist ist ein Wunder. Es gab erst am Ende einen Live-Stream, die Ton Verbindung war unterbrochen und Ingo musste alleine quatschen und die Aufnahmen waren auch nicht syncron. Trotzdem hier ist sie nun die Sendung von Null auf Hitler in unter 2 Stunden.
+Diesmal ist viel schief gegangen, dass die Sendung überhaupt erschienen ist, ist ein Wunder. Es gab erst am Ende einen Live-Stream, die Tonverbindung war zeitweise unterbrochen und Ingo musste alleine quatschen und die Aufnahmen waren auch nicht syncron. Trotzdem hier ist sie nun die Sendung von Null auf Hitler in unter 2 Stunden.
 
 ## Untoter
 - [SCO again]( https://linux.slashdot.org/story/16/03/31/0534206/13-year-old-linux-dispute-returns-as-sco-files-new-appeal )
@@ -31,8 +31,7 @@ Diesmal ist viel schief gegangen dass die Sendung überhaupt erschienen ist ist 
 - [Visual C auch für Linux]( http://www.heise.de/newsticker/meldung/Microsoft-Build-2016-Visual-C-jetzt-auch-fuer-Linux-3159540.html )    
 - [Xamarin kostenlos und offen]( https://blog.xamarin.com/xamarin-for-all/ )
 - [Microsofts AI lernt von Twitter -> und wird überraschenderweise sexistische, Trump-verehrender Nazi](http://www.telegraph.co.uk/technology/2016/03/24/microsofts-teen-girl-ai-turns-into-a-hitler-loving-sex-robot-wit/ )
-    - wie soll eine lernende AI mit Arschlöchern und Antworten mit schlechter Absicht umgehen?
-    - [Analog ein Chatbot in China](https://www.inverse.com/article/13387-microsoft-s-chinese-chatbot-that-actually-works ), 
+    * [Analog ein Chatbot in China](https://www.inverse.com/article/13387-microsoft-s-chinese-chatbot-that-actually-works ), 
 
 - [Kritische Sicherheitslücke in Windows und Samba *bald*]( http://www.pro-linux.de/news/1/23388/samba-warnt-vor-kritischer-sicherheitsl%C3%BCcke.html )
   * [Website + Namen ist gut für das Geschäft - meint die firma hinter badblock]( http://www.csoonline.com/article/3047221/techology-business/company-behind-the-badlock-disclosure-says-pre-patch-hype-is-good-for-business.html?nsdr=true ) 
@@ -46,6 +45,7 @@ Diesmal ist viel schief gegangen dass die Sendung überhaupt erschienen ist ist 
 - Owncloud 9 Update
   * [Foreneintrag mit aktuellen Problemen bei OC 9.0](https://forum.owncloud.org/viewtopic.php?f=38&t=33274 )
   * [Owncloud Release Schedule]( https://github.com/owncloud/core/wiki/Maintenance-and-Release-Schedule )
+  * [Blogartikel von @MorrisJbk wie man Kalender manuell umzieht]( http://morrisjobke.de/2016/03/07/ownCloud-9.0-calendar-migration-analysis/ )
 - [Kindle Software Update my Ass!]( http://www.amazon.com/gp/help/customer/display.html?nodeId=200529700 )
 - speedport router und smtp
 - bash verhält sich anders wenn man es als /bin/sh aufruft
