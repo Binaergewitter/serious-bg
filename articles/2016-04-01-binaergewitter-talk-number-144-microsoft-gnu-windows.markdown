@@ -23,8 +23,6 @@ Diesmal ist viel schief gegangen, dass die Sendung überhaupt erschienen ist, is
 
 ## News
 
-##Microsoft
-
 - [Windows bekommt eine BASH](http://www.heise.de/newsticker/meldung/Microsoft-Build-2016-Windows-10-lernt-Linux-3158427.html )
     * [YouTube Video von der MS BASH Präsentation]( https://www.youtube.com/watch?v=kJGqZHQzNRo )
     * [Kritischer Blick/Post zur BASH on Windows]( http://www.baggerspion.net/2016/03/then-you-win-some-thoughts-on-bash-for.html )
