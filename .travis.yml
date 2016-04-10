@@ -2,11 +2,3 @@ language: ruby
 cache: bundler
 rvm:
   - 2.2.2
-deploy:
-  provider: heroku
-  api_key:
-    secure: SbzwtKTwExNV++qLPxq3rOaEF+ijvS9WYJdHWsWvzq9av/wtMae+f47g00p2RdcSTRyneUmejCEccA/pDnJFwagBDhQvO3kke44S/eEqlRElqD8KYfVDMXxMJC18IksQdiq/KxMEte7mS+BqkRcDia+CAuY6do1wLYqFB5Nzy5k=
-  app: binaergewitter
-  on:
-    repo: Binaergewitter/serious-bg
-    rvm: 2.2.2
