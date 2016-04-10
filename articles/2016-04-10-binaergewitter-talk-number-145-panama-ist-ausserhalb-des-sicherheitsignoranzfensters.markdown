@@ -58,7 +58,7 @@ Trotz der diesmal schlechteren Audioqualität bieten wir knapp 4 Stunden beste u
 
 - [NPM Drama]( https://medium.com/@azerbike/i-ve-just-liberated-my-modules-9045c06be67c )
   * [Node and NPM]( http://www.haneycodes.net/npm-left-pad-have-we-forgotten-how-to-program/ ) 
-  * [What if we had a great standard lib in JS?]( https://medium.com/@thomasfuchs/what-if-we-had-a-great-standard-library-in-javascript-52692342ee3f ) - *hust*Python*hust*
+  * [What if we had a great standard lib in JS?]( https://medium.com/@thomasfuchs/what-if-we-had-a-great-standard-library-in-javascript-52692342ee3f ) - \*hust\* Python \*hust\*
   * [Linux Kernel zur Rettung: leftpad als syscall]( https://lkml.org/lkml/2016/3/31/1108 )
   * [NPM unpublish policy]( http://blog.npmjs.org/post/141905368000/changes-to-npms-unpublish-policy )
   * ['No Regrets' - Azer Koçulu]( http://www.theregister.co.uk/2016/03/29/npmgate_followup/ )
