@@ -96,7 +96,7 @@ class Serious::Article
   
   # Is the article published? by default it is
   def published?
-    return @published if @published
+    return @published if defined?(@published) && @published
     if yaml.key?('published')
       @published = !!yaml["published"]
     else
@@ -116,20 +116,20 @@ class Serious::Article
   
   # Cached lazy-loading of summary
   def summary
-    return @summary if @summary
+    return @summary if defined?(@summary) && @summary
     @summary ||= content.split("~~", 2).first.chomp
   end
 
   # Cached lazy-loading of the automatic summary
   # We'll just grab anything before the first markdown headline
   def automatic_summary
-    return @automatic_summary if @automatic_summary
+    return @automatic_summary if defined?(@automatic_summary) && @automatic_summary
     @automatic_summary ||= content.split('##')[0]
   end
   
   # Cached lazy-loading of body
   def body
-    return @body if @body
+    return @body if defined?(@body) && @body
     @body ||= content.split("~~", 2).join("").chomp
   end
   
@@ -195,7 +195,7 @@ class Serious::Article
     # the content in @content
     #
     def load!
-      return true if @yaml and @content
+      return true if defined?(@yaml) && @yaml and @content
       begin
         # stolen from jekyll:
         # ---
@@ -213,14 +213,14 @@ class Serious::Article
     
     # Cached lazy-loading yaml config
     def yaml
-      return @yaml if @yaml
+      return @yaml if defined?(@yaml) && @yaml
       load!
       @yaml 
     end
     
     # Cached lazy-loading content
     def content
-      return @content if @content
+      return @content if defined?(@content) && @content
       load!
       @content
     end

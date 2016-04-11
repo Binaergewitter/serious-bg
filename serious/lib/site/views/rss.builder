@@ -6,8 +6,8 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd", "xmlns:a
   xml.channel do
     xml.title Serious.title
     xml.link Serious.url
-    xml.tag!("atom:link", :rel => 'self', :href => @current_url) if @current_url
-    xml.tag!("atom:link", :rel => 'next', :href => @next_url) if @next_url
+    xml.tag!("atom:link", :rel => 'self', :href => @current_url) if defined?(@current_url) && @current_url
+    xml.tag!("atom:link", :rel => 'next', :href => @next_url) if defined?(@next_url) && @next_url
     xml.description Serious.description
     xml.language 'de'
     xml.pubDate @articles.first.date.rfc2822 unless @articles.empty?
