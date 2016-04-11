@@ -6,6 +6,7 @@ comments: true
 categories: talk
 sharing: true
 published: true
+release: 2
 audioformats:
   mp3: http://download.binaergewitter.de/2016-04-07.Binaergewitter.Talk.145.mp3
   ogg: http://download.binaergewitter.de/2016-04-07.Binaergewitter.Talk.145.ogg
