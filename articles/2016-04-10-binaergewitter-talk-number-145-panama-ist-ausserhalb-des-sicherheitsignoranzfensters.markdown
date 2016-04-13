@@ -16,6 +16,8 @@ audioformats:
 Selbst mit dem normalen Studio kann einem die Aufnahme um die Ohren fliegen. Nämlich wenn der Pfleidi seine Spur vom internen Micro aufzeichnet und der Backup Mix Down überschrieben wird weil die Internetverbindung kurz weg war.
 Trotz der diesmal schlechteren Audioqualität bieten wir knapp 4 Stunden beste unterhaltung mit Felix, Mat, Pfleidi und Ingo. 
 
+Update: Seit 11.04 sind die Audiodateien in verbesserter Form online. Dabei sind knapp 2 Stunden der Sendung neu zusammen gebaut. Am Anfang und am Ende ist es die gleiche Version wie im ersten Release. 
+
 # In eigener Sache
 
 - pfleidi pullt nen Marc
@@ -80,7 +82,7 @@ Trotz der diesmal schlechteren Audioqualität bieten wir knapp 4 Stunden beste u
 - [d'Oh my Zsh]( https://medium.com/@robbyrussell/d-oh-my-zsh-af99ca54212c#.7ddx82gsa )
 - [Metric Graphs 101]( https://www.datadoghq.com/blog/timeseries-metric-graphs-101/ )
 - [Is group chat making you sweat]( https://m.signalvnoise.com/is-group-chat-making-you-sweat-744659addf7d#.j87cticzk )
-    * https://twitter.com/DesignUXUI/status/715321345794379776
+    * [Acceptable response times](https://twitter.com/DesignUXUI/status/715321345794379776 )
 - [Data Structures in JS Series]( http://blog.benoitvallon.com/category/data-structures-in-javascript/ )
 - [50$ Laser Scanner mit Smartphone (Video)]( https://www.youtube.com/watch?v=GvEOaBbyEZ0&nohtml5=False )
 - [Giving better code reviews]( https://medium.com/@mrjoelkemp/giving-better-code-reviews-16109e0fdd36 )
