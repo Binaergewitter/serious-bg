@@ -30,7 +30,6 @@ Diesmal ist viel schief gegangen, dass die Sendung überhaupt erschienen ist, is
 - [Xamarin kostenlos und offen]( https://blog.xamarin.com/xamarin-for-all/ )
 - [Microsofts AI lernt von Twitter -> und wird überraschenderweise sexistische, Trump-verehrender Nazi](http://www.telegraph.co.uk/technology/2016/03/24/microsofts-teen-girl-ai-turns-into-a-hitler-loving-sex-robot-wit/ )
     * [Analog ein Chatbot in China](https://www.inverse.com/article/13387-microsoft-s-chinese-chatbot-that-actually-works ), 
-
 - [Kritische Sicherheitslücke in Windows und Samba *bald*]( http://www.pro-linux.de/news/1/23388/samba-warnt-vor-kritischer-sicherheitsl%C3%BCcke.html )
   * [Website + Namen ist gut für das Geschäft - meint die firma hinter badblock]( http://www.csoonline.com/article/3047221/techology-business/company-behind-the-badlock-disclosure-says-pre-patch-hype-is-good-for-business.html?nsdr=true ) 
 - [StartSSL Zertifikatsausgabe angreifbar]( http://oalmanna.blogspot.de/2016/03/startssl-domain-validation.html?m=1 )
@@ -41,9 +40,9 @@ Diesmal ist viel schief gegangen, dass die Sendung überhaupt erschienen ist, is
 
 ## Mimimi der Woche
 - Owncloud 9 Update
-  * [Foreneintrag mit aktuellen Problemen bei OC 9.0](https://forum.owncloud.org/viewtopic.php?f=38&t=33274 )
-  * [Owncloud Release Schedule]( https://github.com/owncloud/core/wiki/Maintenance-and-Release-Schedule )
-  * [Blogartikel von @MorrisJbk wie man Kalender manuell umzieht]( http://morrisjobke.de/2016/03/07/ownCloud-9.0-calendar-migration-analysis/ )
+    * [Foreneintrag mit aktuellen Problemen bei OC 9.0](https://forum.owncloud.org/viewtopic.php?f=38&t=33274 )
+    * [Owncloud Release Schedule]( https://github.com/owncloud/core/wiki/Maintenance-and-Release-Schedule )
+    * [Blogartikel von @MorrisJbk wie man Kalender manuell umzieht]( http://morrisjobke.de/2016/03/07/ownCloud-9.0-calendar-migration-analysis/ )
 - [Kindle Software Update my Ass!]( http://www.amazon.com/gp/help/customer/display.html?nodeId=200529700 )
 - speedport router und smtp
 - bash verhält sich anders wenn man es als /bin/sh aufruft
@@ -52,4 +51,4 @@ Diesmal ist viel schief gegangen, dass die Sendung überhaupt erschienen ist, is
 - [ISO Trump++]( https://twitter.com/isotrumpp )
 - [warcprox - archiving mitm proxy]( https://github.com/internetarchive/warcprox )
 - [devpi - caching pypi + eigene repos]( http://doc.devpi.net/latest/ )
-  * [pip 6.0 - cachedir by default]( https://pip.pypa.io/en/latest/reference/pip_install/#caching )
+    * [pip 6.0 - cachedir by default]( https://pip.pypa.io/en/latest/reference/pip_install/#caching )
