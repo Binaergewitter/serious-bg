@@ -28,8 +28,7 @@ Update: Seit 11.04 sind die Audiodateien in verbesserter Form online. Dabei sind
 
 - Bash auf Windows
 - [HockeyApp & Xamarin Insights Announcements von der Build]( http://hockeyapp.net/blog/2016/03/31/welcome-xamarin-insights-users.html )
-     - [Merge mit HockeyApp]( https://www.xamarin.com/faq#hockeyapp )
-
+    * [Merge mit HockeyApp]( https://www.xamarin.com/faq#hockeyapp )
 - [Docker für Mac und Windows (beta)]( https://blog.docker.com/2016/03/docker-for-mac-windows-beta/ )
     * [dinghy]( https://github.com/codekitchen/dinghy )
 
@@ -57,16 +56,15 @@ Update: Seit 11.04 sind die Audiodateien in verbesserter Form online. Dabei sind
 ## News
 
 - [MBfm von der Telekom - sich selbst einen Glasfaser-Anschluss legen lassen]( http://www.computerbase.de/2016-04/mehr-breitband-fuer-mich-telekom-glasfaser/ )
-- [Truecrypt Entwickler könnte auch McAfee sein](http://www.gulli.com/news/27307-truecrypt-erfinder-ist-offer-auch-drogendealer-und-auftragskiller-2016-04-04 )+1 für beste Verschwörungstheorie
-
+- [Truecrypt Entwickler könnte auch McAfee sein](http://www.gulli.com/news/27307-truecrypt-erfinder-ist-offer-auch-drogendealer-und-auftragskiller-2016-04-04 ) +1 für beste Verschwörungstheorie
 - [NPM Drama]( https://medium.com/@azerbike/i-ve-just-liberated-my-modules-9045c06be67c )
-  * [Node and NPM]( http://www.haneycodes.net/npm-left-pad-have-we-forgotten-how-to-program/ ) 
-  * [What if we had a great standard lib in JS?]( https://medium.com/@thomasfuchs/what-if-we-had-a-great-standard-library-in-javascript-52692342ee3f ) - \*hust\* Python \*hust\*
-  * [Linux Kernel zur Rettung: leftpad als syscall]( https://lkml.org/lkml/2016/3/31/1108 )
-  * [NPM unpublish policy]( http://blog.npmjs.org/post/141905368000/changes-to-npms-unpublish-policy )
-  * ['No Regrets' - Azer Koçulu]( http://www.theregister.co.uk/2016/03/29/npmgate_followup/ )
-  * [DongML (archive.org)]( https://web.archive.org/web/20131208215153/https://github.com/moron5/dongml )
-  * [GitHub Bus Factor]( https://github.com/zats/github_bus_factor )
+    * [Node and NPM]( http://www.haneycodes.net/npm-left-pad-have-we-forgotten-how-to-program/ ) 
+    * [What if we had a great standard lib in JS?]( https://medium.com/@thomasfuchs/what-if-we-had-a-great-standard-library-in-javascript-52692342ee3f ) - \*hust\* Python \*hust\*
+    * [Linux Kernel zur Rettung: leftpad als syscall]( https://lkml.org/lkml/2016/3/31/1108 )
+    * [NPM unpublish policy]( http://blog.npmjs.org/post/141905368000/changes-to-npms-unpublish-policy )
+    * ['No Regrets' - Azer Koçulu]( http://www.theregister.co.uk/2016/03/29/npmgate_followup/ )
+    * [DongML (archive.org)]( https://web.archive.org/web/20131208215153/https://github.com/moron5/dongml )
+    * [GitHub Bus Factor]( https://github.com/zats/github_bus_factor )
 - [GPGPU mit JavaScript]( http://gpu.rocks/ )
     * Leider noch kein Repo oder Download verfügbar
 - [Github bringt DGit]( http://githubengineering.com/introducing-dgit/ )
@@ -74,12 +72,12 @@ Update: Seit 11.04 sind die Audiodateien in verbesserter Form online. Dabei sind
 - [WhatsApp macht jetzt Ende2Ende Verschlüsselung]( https://blog.whatsapp.com/10000618/end-to-end-encryption )
     * [Security Page]( https://www.whatsapp.com/security/ )
     * [Blogpost vom dazugehörigen Crypto-Menschen](https://whispersystems.org/blog/whatsapp-complete/ )
-    - immer noch proprietär (╯° °）╯︵ ┻━┻
+    * immer noch proprietär (╯° °）╯︵ ┻━┻
 
 ## Lesefoo
 
 - [Seven concurrency models in seven weeks]( http://amzn.to/1S52wmn )
-- [d'Oh my Zsh]( https://medium.com/@robbyrussell/d-oh-my-zsh-af99ca54212c#.7ddx82gsa )
+- [d'Oh My Zsh]( https://medium.com/@robbyrussell/d-oh-my-zsh-af99ca54212c#.7ddx82gsa )
 - [Metric Graphs 101]( https://www.datadoghq.com/blog/timeseries-metric-graphs-101/ )
 - [Is group chat making you sweat]( https://m.signalvnoise.com/is-group-chat-making-you-sweat-744659addf7d#.j87cticzk )
     * [Acceptable response times](https://twitter.com/DesignUXUI/status/715321345794379776 )
@@ -104,9 +102,9 @@ Update: Seit 11.04 sind die Audiodateien in verbesserter Form online. Dabei sind
 - [Halt mal kurz]( http://www.amazon.de/gp/product/B019YZ6N3Y/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B019YZ6N3Y&linkCode=as2&tag=trektrip )
     * [Videoanleitung]( https://m.youtube.com/watch?v=P1NUxAUrDAI  )
     * [Dominion]( http://www.amazon.de/Rio-Grande-Games-22501405-Basisspiel/dp/B00K1D2WM0/tag=krebsco-21 )
-* [How to solve a 4x4 rubick's cube]( https://www.youtube.com/playlist?list=PLlSMUHu9g2KSh2oo3aj3xwLLgenwHQCV5 )
+- [How to solve a 4x4 rubick's cube]( https://www.youtube.com/playlist?list=PLlSMUHu9g2KSh2oo3aj3xwLLgenwHQCV5 )
 - [PEG.js]( http://pegjs.org/ )
-  * [Parsing Expression Grammar]( https://en.wikipedia.org/wiki/Parsing_expression_grammar )
-  * [PEG Online]( http://pegjs.org/online )
+    * [Parsing Expression Grammar]( https://en.wikipedia.org/wiki/Parsing_expression_grammar )
+    * [PEG Online]( http://pegjs.org/online )
 - [Scientist]( https://github.com/github/scientist )
-- [Awesome!(video)]( https://www.youtube.com/watch?v=A39o5tePYCc )
+- [Awesome! (video)]( https://www.youtube.com/watch?v=A39o5tePYCc )
