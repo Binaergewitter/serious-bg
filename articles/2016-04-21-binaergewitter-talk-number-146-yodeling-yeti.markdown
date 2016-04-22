@@ -1,26 +1,20 @@
 ---
 layout: post
-title: "Binärgewitter Talk #146: Yodeling Yeti"
+title: "Binärgewitter Talk #146: force push Yodeling Yeti"
 date: 2016-04-22
 comments: true
 categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2016-04-07.Binaergewitter.Talk.145.mp3
-  ogg: http://download.binaergewitter.de/2016-04-07.Binaergewitter.Talk.145.ogg
-  m4a: http://download.binaergewitter.de/2016-04-07.Binaergewitter.Talk.145.m4a
-  opus: http://download.binaergewitter.de/2016-04-07.Binaergewitter.Talk.145.opus
+  mp3: http://download.binaergewitter.de/2016-04-22.Binaergewitter.Talk.146.mp3
+  ogg: http://download.binaergewitter.de/2016-04-22.Binaergewitter.Talk.146.ogg
+  m4a: http://download.binaergewitter.de/2016-04-22.Binaergewitter.Talk.146.m4a
+  opus: http://download.binaergewitter.de/2016-04-22.Binaergewitter.Talk.146.opus
 ---
 Wieder in der sehr kleinen Runde mit Felix und Ingo. Wir versuchen hart die nächste Ubuntu Version Yodeling Yeti zu nennen und reden lustig mit einander so das selbst die Compliance Lampe zumindest dunkelgelb wird, da wir schlecht versuchen das BKA gesetzt wie John Oliver zu erklären.
 
 Und das sind unsere Themen:
-
-# Binärgewitter Talk 146
-
-## Vorschläge
-- forky-time: LibreElec forkt OpenElec https://libreelec.tv/2016/03/lets-rock-this-gig/ - https://archive.is/cnOl1
-
 
 ## Blast
 - [Yodeling Yeti](http://blog.binaergewitter.de/2012/05/04/binaergewitter-talk-number-13-yoldling-yeti-bazen-in-the-distributed-redundant-secure-raid-backup-storage-cloud )
@@ -30,7 +24,7 @@ Und das sind unsere Themen:
    - [1000km/h Tranrapit](http://www.heise.de/newsticker/meldung/Neuer-Rekord-Magnetschwebeschlitten-rast-schneller-als-1000-km-h-3179764.html )
   - [Hacker Nazis drucken an der Uni](http://www.heise.de/newsticker/meldung/Hackerangriff-Uni-Drucker-spuckten-Neonazi-Pamphlete-aus-3179949.html )
 
-- Blast zu der Geschichte mit den Find my iPhone Daten, die alle aufs gleiche unschuldige Haus zeigten: http://fusion.net/story/287592/internet-mapping-glitch-kansas-farm/ 
+- [eine Farm in Kansas hat auch Probleme mit ihren Geocoordinaten](http://fusion.net/story/287592/internet-mapping-glitch-kansas-farm/ 
 
 
 ## Toter der Woche
@@ -45,7 +39,7 @@ Und das sind unsere Themen:
 - [Lindenstraße](https://de.wikipedia.org/wiki/Lindenstra%C3%9Fe )
 
 ## Tumblr der Woche
-- [classicprogrammer paintings](http://classicprogrammerpaintings.tumblr.com/ )
+- [classic programmer paintings](http://classicprogrammerpaintings.tumblr.com/ )
 
 ## News
 
@@ -54,7 +48,7 @@ Und das sind unsere Themen:
 - [Thunderbird 45](http://www.pro-linux.de/news/1/23461/thunderbird-45-freigegeben.html )
 - [GPG gebrochen]( http://www.theguardian.com/uk-news/2016/apr/21/gang-found-guilty-of-uks-largest-known-gun-smuggling-operation )
 - [The Web is Doom(ed)]( https://mobiforge.com/research-analysis/the-web-is-doom )
-- [Neues StarTrek ohne Abrams Timeline] (http://www.gulli.com/news/27344-neue-star-trek-tv-serie-ignoriert-filme-von-jj-abrams-2016-04-14 )
+- [Neues StarTrek ohne Abrams Timeline](http://www.gulli.com/news/27344-neue-star-trek-tv-serie-ignoriert-filme-von-jj-abrams-2016-04-14 )
 - [Robots and Dragons]( http://www.robots-and-dragons.de/ )
 - GMX und Web.de jetzt mit DANE
 - [ubuntu names](https://wiki.ubuntu.com/DevelopmentCodeNames#Y )
