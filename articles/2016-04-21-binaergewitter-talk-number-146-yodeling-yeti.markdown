@@ -12,7 +12,7 @@ audioformats:
   m4a: http://download.binaergewitter.de/2016-04-22.Binaergewitter.Talk.146.m4a
   opus: http://download.binaergewitter.de/2016-04-22.Binaergewitter.Talk.146.opus
 ---
-Wieder in der sehr kleinen Runde mit Felix und Ingo. Wir versuchen hart die nächste Ubuntu Version Yodeling Yeti zu nennen und reden lustig mit einander so das selbst die Compliance Lampe zumindest dunkelgelb wird, da wir schlecht versuchen das BKA gesetzt wie John Oliver zu erklären.
+Wieder in der sehr kleinen Runde mit Felix und Ingo. Wir versuchen hart die nächste Ubuntu Version Yodeling Yeti zu nennen und reden lustig mit einander so das selbst die Compliance Lampe zumindest dunkelgelb wird, da wir schlecht versuchen das BKA Gesetz wie John Oliver zu erklären.
 
 Und das sind unsere Themen:
 
@@ -23,7 +23,6 @@ Und das sind unsere Themen:
    - [Edmund Stoibers Rede]( https://www.youtube.com/watch?v=5yw2WhIieHM )
    - [1000km/h Tranrapit](http://www.heise.de/newsticker/meldung/Neuer-Rekord-Magnetschwebeschlitten-rast-schneller-als-1000-km-h-3179764.html )
   - [Hacker Nazis drucken an der Uni](http://www.heise.de/newsticker/meldung/Hackerangriff-Uni-Drucker-spuckten-Neonazi-Pamphlete-aus-3179949.html )
-
 - [eine Farm in Kansas hat auch Probleme mit ihren Geocoordinaten](http://fusion.net/story/287592/internet-mapping-glitch-kansas-farm/ )
 
 
@@ -35,8 +34,9 @@ Und das sind unsere Themen:
 - [BKA Gesetz](https://netzpolitik.org/2016/ueberwachungskritisches-urteil-zum-bka-gesetz-und-zum-staatstrojaner/ )
 
 ## Alte Dinge der Woche
-- [RadioTux - 15 Jahre alt]( https://de.wikipedia.org/wiki/RadioTux )
-- [Lindenstraße](https://de.wikipedia.org/wiki/Lindenstra%C3%9Fe )
+- WP: [RadioTux - 15 Jahre alt]( https://de.wikipedia.org/wiki/RadioTux )
+  * WP: [Hans Reiser]( https://de.wikipedia.org/wiki/Hans_Reiser_(Entwickler) )
+- WP: [Lindenstraße](https://de.wikipedia.org/wiki/Lindenstra%C3%9Fe )
 
 ## Tumblr der Woche
 - [classic programmer paintings](http://classicprogrammerpaintings.tumblr.com/ )
