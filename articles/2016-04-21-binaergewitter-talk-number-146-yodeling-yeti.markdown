@@ -24,7 +24,7 @@ Und das sind unsere Themen:
    - [1000km/h Tranrapit](http://www.heise.de/newsticker/meldung/Neuer-Rekord-Magnetschwebeschlitten-rast-schneller-als-1000-km-h-3179764.html )
   - [Hacker Nazis drucken an der Uni](http://www.heise.de/newsticker/meldung/Hackerangriff-Uni-Drucker-spuckten-Neonazi-Pamphlete-aus-3179949.html )
 
-- [eine Farm in Kansas hat auch Probleme mit ihren Geocoordinaten](http://fusion.net/story/287592/internet-mapping-glitch-kansas-farm/ 
+- [eine Farm in Kansas hat auch Probleme mit ihren Geocoordinaten](http://fusion.net/story/287592/internet-mapping-glitch-kansas-farm/ )
 
 
 ## Toter der Woche
