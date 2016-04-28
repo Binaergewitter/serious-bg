@@ -134,10 +134,10 @@ class Serious < Sinatra::Base
       @page = (params.delete('page') || 0).to_i
       category, audio_format = params[:splat]
       @articles = Article.all(
-      :audioformat => audio_format,
-      :category => category,
-      :limit => feed_size,
-      :offset => @page * feed_size
+        :audioformat => audio_format,
+        :category => category,
+        :limit => feed_size,
+        :offset => @page * feed_size
       )
       @selected_audio_codec = audio_format
 
@@ -152,6 +152,33 @@ class Serious < Sinatra::Base
       end
 
       builder :rss
+    end
+  end
+  
+  ['/facebook_feed/*/*/atom.xml', '/facebook_feed/*/*/rss.xml'].each do |feed_url|
+    get feed_url do
+      feed_size = (params.delete('feed_size') || Serious.items_in_feed).to_i
+      @page = (params.delete('page') || 0).to_i
+      category, audio_format = params[:splat]
+      @articles = Article.all(
+        :audioformat => audio_format,
+        :category => category,
+        :limit => feed_size,
+        :offset => @page * feed_size
+      )
+      @selected_audio_codec = audio_format
+
+      @current_url = request.url
+      # If our current page is filled, there is probably a next one too
+      # If it isn't, we'll serve an empty page... for now
+      if @articles.size == feed_size
+        parsed_uri = URI(request.url)
+        parsed_uri.query = parsed_uri.query.to_s.gsub(/[?&]page=\d+/,'')
+        parsed_uri.query += "&page=#{@page + 1}"
+        @next_url = parsed_uri.to_s
+      end
+
+      builder :rss_facebook_articles
     end
   end
 

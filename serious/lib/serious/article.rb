@@ -124,7 +124,11 @@ class Serious::Article
   # We'll just grab anything before the first markdown headline
   def automatic_summary
     return @automatic_summary if defined?(@automatic_summary) && @automatic_summary
-    @automatic_summary ||= content.split('##')[0]
+    parsed = content.split('##')[0]
+    if parsed.include?('#')
+      parsed = parsed.split('#')[0]
+    end
+    @automatic_summary ||= parsed
   end
   
   # Cached lazy-loading of body
