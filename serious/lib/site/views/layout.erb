@@ -28,9 +28,11 @@
   
   <meta property="og:title" content="<%= (defined?(@article) && @article) ? @article.title : Serious.title %>" />
   <% if defined?(@article) && @article.audioformats['mp3'] %>
-  <!-- <meta property="og:type" content="music.song" /> -->
+  <meta property="og:type" content="music.song" />
+  <% elsif defined?(@article) %>
+  <meta property="og:type" content="article" />
   <% else %>
-  <!-- <meta property="og:type" content="website" /> -->
+  <meta property="og:type" content="website" />
   <% end %>
   <meta property="og:url" content="<%= (defined?(@article) && @article) ? @article.full_url : Serious.url %>" />
   <meta property="og:description" content="<%= (defined?(@article) && @article) ? @article.automatic_summary : Serious.description %>" />
