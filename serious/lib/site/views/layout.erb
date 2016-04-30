@@ -39,7 +39,7 @@
   <meta property="og:audio:title" content="<%= (defined?(@article) && @article) ? @article.title : Serious.title %> "/>
   <meta property="og:audio:secure_url" content="<%= @article.audioformats['mp3'].gsub('http://', 'https://') %>">
   <meta property="og:audio:secure_src" content="<%= @article.audioformats['mp3'].gsub('http://', 'https://') %>">
-  <meta property="og:audio:type" content="audio/mpeg">
+  <meta property="og:audio:type" content="application/mp3">
   <% end %>
 
   <meta name="twitter:card" content="summary">
