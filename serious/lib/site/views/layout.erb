@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" prefix="og: http://ogp.me/ns#">
 <head>
   <script src="//cdnjs.cloudflare.com/ajax/libs/headjs/1.0.3/head.min.js"></script>
 
@@ -26,6 +26,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="<%= (defined?(@article) && @article) ? @article.automatic_summary : Serious.description %>">
   
+  <title><%= @article ? @article.title + " - " : "" %><%= Serious.title %></title>
+  
   <meta property="og:title" content="<%= (defined?(@article) && @article) ? @article.title : Serious.title %>">
   <% if defined?(@article) && @article.audioformats['mp3'] %>
   <meta property="og:type" content="music.song">
@@ -40,6 +42,13 @@
   <meta property="og:site_name" content="<%= Serious.title %>">
   <meta property="og:image" content="http://blog.binaergewitter.de/img/binaergewitter_logo_text.png">
   <meta property="og:image:secure_url" content="https://blog.binaergewitter.de/img/binaergewitter_logo_text.png">
+
+  <% if defined?(@article) && @article.audioformats['m4a'] %>
+  <meta property="og:audio" content="<%= @article.audioformats['m4a'] %>">
+  <meta property="og:audio:secure_url" content="<%= @article.audioformats['m4a'].gsub('http://', 'https://') %>">
+  <meta property="og:audio:type" content="audio/mp4">
+  <% end %>
+
   <% if defined?(@article) && @article.audioformats['mp3'] %>
   <meta property="og:audio" content="<%= @article.audioformats['mp3'] %>">
   <meta property="og:audio:secure_url" content="<%= @article.audioformats['mp3'].gsub('http://', 'https://') %>">
@@ -63,8 +72,6 @@
   <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" />
   <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png" />
-
-  <title><%= @article ? @article.title + " - " : "" %><%= Serious.title %></title>
 
   <style>
     body {
