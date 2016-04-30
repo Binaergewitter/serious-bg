@@ -128,6 +128,8 @@ class Serious::Article
     if parsed.include?('#')
       parsed = parsed.split('#')[0]
     end
+    parsed.gsub!("\n",' ')
+    parsed.strip!
     @automatic_summary ||= parsed
   end
   
