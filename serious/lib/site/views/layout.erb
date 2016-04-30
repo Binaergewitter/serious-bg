@@ -27,7 +27,8 @@
   <title><%= @article ? @article.title + " - " : "" %><%= Serious.title %></title>
   
   <meta property="og:url" content="<%= (defined?(@article) && @article) ? @article.full_url : Serious.url %>" />
-  <meta property="og:title" content="<%= (defined?(@article) && @article) ? @article.title + " - " : "" %><%= Serious.title %>" />
+  <meta property="og:title" content="<%= (defined?(@article) && @article) ? @article.title : Serious.title %> "/>
+  <meta property="og:description" content="<%= (defined?(@article) && @article) ? @article.automatic_summary : Serious.description %>">
   <meta property="og:locale" content="de_DE" />
   <meta property="og:image" content="http://blog.binaergewitter.de/img/binaergewitter_logo_text.png" />
   
