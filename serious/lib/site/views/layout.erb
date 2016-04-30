@@ -35,15 +35,15 @@
   <meta property="fb:pages" content="1763347550560569">
 
   <% if defined?(@article) && @article.audioformats['m4a'] %>
-  <meta property="og:title" content="<%= (defined?(@article) && @article) ? @article.title : Serious.title %> "/>
   <meta property="og:audio" content="<%= @article.audioformats['m4a'] %>">
+  <meta property="og:audio:title" content="<%= (defined?(@article) && @article) ? @article.title : Serious.title %> "/>
   <meta property="og:audio:secure_url" content="<%= @article.audioformats['m4a'].gsub('http://', 'https://') %>">
   <meta property="og:audio:type" content="audio/mp4">
   <% end %>
 
   <% if defined?(@article) && @article.audioformats['mp3'] %>
-  <meta property="og:title" content="<%= (defined?(@article) && @article) ? @article.title : Serious.title %> "/>
   <meta property="og:audio" content="<%= @article.audioformats['mp3'] %>">
+  <meta property="og:audio:title" content="<%= (defined?(@article) && @article) ? @article.title : Serious.title %> "/>
   <meta property="og:audio:secure_url" content="<%= @article.audioformats['mp3'].gsub('http://', 'https://') %>">
   <meta property="og:audio:type" content="audio/mpeg">
   <% end %>
