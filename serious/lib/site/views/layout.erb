@@ -26,9 +26,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="<%= (defined?(@article) && @article) ? @article.automatic_summary : Serious.description %>" />
   
-  <!-- Facebook doesn't seem to accept this. Not sure why yet. --> 
-  <!-- <meta property="og:title" content="<%= (defined?(@article) && @article) ? @article.title : Serious.title %>" /> -->
-  
+  <meta property="og:title" content="<%= (defined?(@article) && @article) ? @article.title : Serious.title %>" />
   <% if defined?(@article) && @article.audioformats['mp3'] %>
   <meta property="og:type" content="music.song" />
   <% else %>
