@@ -17,6 +17,7 @@ xml.rss "xmlns:atom" => "http://www.w3.org/2005/Atom", "xmlns:content" => "http:
     @articles.each do |article|
       xml.item do
         xml.title article.title
+        xml.description article.title
         xml.pubDate article.date.rfc2822
         xml.author Serious.author
         xml.summary article.automatic_summary
@@ -29,8 +30,6 @@ xml.rss "xmlns:atom" => "http://www.w3.org/2005/Atom", "xmlns:content" => "http:
           xml.guid article.full_url
         end
         xml.link article.full_url
-        #article.body.formatted
-        xml.tag!("content:encoded", article.automatic_summary)
         if @selected_audio_codec
           if @selected_audio_codec.to_s.downcase == 'itunes'
             selected_codec = (['m4a', 'mp3'] & article.audioformats.keys).first
@@ -41,10 +40,16 @@ xml.rss "xmlns:atom" => "http://www.w3.org/2005/Atom", "xmlns:content" => "http:
           type = "audio/x-#{selected_codec}"
           #According to the RSS Advisory Board's Best Practices Profile,
           #when an enclosure's size cannot be determined, a publisher should use a length of 0.
-          xml.figure do
-            xml.img "src" => 'http://blog.binaergewitter.de/img/binaergewitter_logo.png'
-            xml.audio "url" => url, 'length' => "0", 'type' => type, 'title' => article.title
-          end
+        end
+        xml.tag! "content:encoded" do
+          content_string = ''
+          content = Builder::XmlMarkup.new(:indent => 3, :target => content_string)
+          content.p article.automatic_summary
+          content.figure do
+            content.img "src" => '//blog.binaergewitter.de/img/binaergewitter_logo.png'
+            content.audio "url" => url, 'length' => "0", 'type' => type, 'title' => article.title
+          end      
+          xml.cdata!(content_string)    
         end
       end
     end
