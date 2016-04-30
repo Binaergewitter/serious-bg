@@ -132,6 +132,7 @@ class Serious::Article
       parsed = parsed.split('*')[0]
     end
     parsed.gsub!("\n",' ')
+    parsed.gsub!('""',"'")
     parsed.strip!
     @automatic_summary ||= parsed
   end
