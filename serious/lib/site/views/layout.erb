@@ -44,14 +44,12 @@
   <meta property="og:image:secure_url" content="https://blog.binaergewitter.de/img/binaergewitter_logo_text.png">
 
   <% if defined?(@article) && @article.audioformats['m4a'] %>
-  <meta property="og:audio" content="<%= @article.audioformats['m4a'] %>">
-  <meta property="og:audio:secure_url" content="<%= @article.audioformats['m4a'].gsub('http://', 'https://') %>">
+  <meta property="og:audio" content="<%= @article.audioformats['m4a'].gsub('http://', 'https://') %>">
   <meta property="og:audio:type" content="audio/mp4">
   <% end %>
 
   <% if defined?(@article) && @article.audioformats['mp3'] %>
-  <meta property="og:audio" content="<%= @article.audioformats['mp3'] %>">
-  <meta property="og:audio:secure_url" content="<%= @article.audioformats['mp3'].gsub('http://', 'https://') %>">
+  <meta property="og:audio" content="<%= @article.audioformats['mp3'].gsub('http://', 'https://') %>">
   <meta property="og:audio:type" content="audio/mpeg">
   <% end %>
   
