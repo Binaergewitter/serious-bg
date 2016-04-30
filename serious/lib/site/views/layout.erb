@@ -30,6 +30,11 @@
   <meta property="og:title" content="<%= (defined?(@article) && @article) ? @article.title + " - " : "" %><%= Serious.title %>" />
   <meta property="og:locale" content="de_DE" />
   <meta property="og:image" content="http://blog.binaergewitter.de/img/binaergewitter_logo_text.png" />
+  <% if defined?(@article) && @article.audioformats['mp3'] %>
+  <meta property="og:audio" content="<%= @article.audioformats['mp3'] %>" />
+  <meta property="og:audio:secure_url" content="<%= @article.audioformats['mp3'].gsub('http://', 'https://') %>" />
+  <meta property="og:audio:type" content="audio/mpeg" />
+  <% end %>
   
   <meta property="fb:pages" content="1763347550560569" />
 
