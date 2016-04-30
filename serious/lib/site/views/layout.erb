@@ -27,11 +27,11 @@
   <title><%= @article ? @article.title + " - " : "" %><%= Serious.title %></title>
   
   <meta property="og:site_name" content="<%= Serious.title %>">
-  <meta property="og:url" content="<%= (defined?(@article) && @article) ? @article.full_url : Serious.url %>" />
+  <meta property="og:url" content="<%= (defined?(@article) && @article) ? @article.full_url.gsub('http://', 'https://') : Serious.url.gsub('http://', 'https://') %>" />
   <meta property="og:title" content="<%= (defined?(@article) && @article) ? @article.title : Serious.title %> "/>
   <meta property="og:description" content="<%= (defined?(@article) && @article) ? @article.automatic_summary : Serious.description %>">
   <meta property="og:locale" content="de_DE" />
-  <meta property="og:image" content="http://blog.binaergewitter.de/img/binaergewitter_logo_text.png" />
+  <meta property="og:image" content="https://blog.binaergewitter.de/img/binaergewitter_logo_text.png" />
   <meta property="fb:pages" content="1763347550560569">
 
   <% if defined?(@article) && @article.audioformats['mp3'] %>
@@ -46,7 +46,7 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="<%= (defined?(@article) && @article) ? @article.title : Serious.title %>">
-  <meta name="twitter:image" content="http://blog.binaergewitter.de/img/binaergewitter_logo_text.png">
+  <meta name="twitter:image" content="https://blog.binaergewitter.de/img/binaergewitter_logo_text.png">
 
   <meta name="description" content="<%= (defined?(@article) && @article) ? @article.automatic_summary : Serious.description %>">  
 
