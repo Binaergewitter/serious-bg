@@ -41,14 +41,6 @@
   <meta property="og:audio:secure_src" content="<%= @article.audioformats['mp3'].gsub('http://', 'https://') %>">
   <meta property="og:audio:type" content="audio/mpeg">
   <% end %>
-  
-  <% if defined?(@article) && @article.audioformats['m4a'] %>
-  <meta property="og:audio" content="<%= @article.audioformats['m4a'] %>">
-  <meta property="og:audio:title" content="<%= (defined?(@article) && @article) ? @article.title : Serious.title %> "/>
-  <meta property="og:audio:secure_url" content="<%= @article.audioformats['m4a'].gsub('http://', 'https://') %>">
-  <meta property="og:audio:secure_src" content="<%= @article.audioformats['m4a'].gsub('http://', 'https://') %>">
-  <meta property="og:audio:type" content="audio/mp4">
-  <% end %>
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="<%= (defined?(@article) && @article) ? @article.title : Serious.title %>">
