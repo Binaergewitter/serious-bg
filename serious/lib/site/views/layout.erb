@@ -34,8 +34,8 @@
   <meta property="og:image" content="https://blog.binaergewitter.de/img/binaergewitter_logo_text.png" />
   <meta property="fb:pages" content="1763347550560569">
 
-  <% if defined?(@article) && @article.audioformats['m4a'] %>
-  <meta property="og:video" content="https://blog.binaergewitter.de/mediaelement/flashmediaelement.swf?autoplay=true&controls=true&file=<%= @article.audioformats['m4a'].gsub('http://', 'https://')%>" />
+  <% if defined?(@article) && @article.audioformats['mp3'] %>
+  <meta property="og:video" content="https://blog.binaergewitter.de/mediaelement/flashmediaelement.swf?autoplay=true&controls=true&isvideo=false&pseudostreaming=true&file=<%= @article.audioformats['mp3'].gsub('http://', 'https://')%>" />
   <meta property="og:video:type" content="application/x-shockwave-flash" />
   <% end %>
 
