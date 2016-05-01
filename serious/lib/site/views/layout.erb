@@ -35,13 +35,8 @@
   <meta property="fb:pages" content="1763347550560569">
 
   <% if defined?(@article) && @article.audioformats['m4a'] %>
-  <meta property="og:video" content="https://blog.binaergewitter.de/mediaelement/flashmediaelement.swf?autoplay=true&controls=true&pseudostreaming=true&file=<%= @article.audioformats['m4a'].gsub('http://', 'https://')%>" />
+  <meta property="og:video" content="https://blog.binaergewitter.de/facebook-player.swf?url=http://download.binaergewitter.de/2016-04-22.Binaergewitter.Talk.146.m4a<%= @article.audioformats['m4a'].gsub('http://', 'https://')%>" />
   <meta property="og:video:type" content="application/x-shockwave-flash" />
-  <% end %>
-  <% if defined?(@article) && @article.audioformats['mp3'] %>
-  <!-- Not necessary, but might (can't find up-to-date docs) be used for iOS fallback. -->
-  <meta property="og:video" content="<%= @article.audioformats['m4a'].gsub('http://', 'https://')%>">
-  <meta property="og:video:type" content="video/mp4">
   <% end %>
 
   <meta name="twitter:card" content="summary">
