@@ -35,10 +35,8 @@
   <meta property="fb:pages" content="1763347550560569">
 
   <% if defined?(@article) && @article.audioformats['mp3'] %>
-  <meta property="og:audio" content="<%= @article.audioformats['mp3'].gsub('http://', 'https://') %>">
-  <meta property="og:audio:url" content="<%= @article.audioformats['mp3'].gsub('http://', 'https://') %>">
+  <meta property="og:audio" content="<%= @article.audioformats['mp3'] %>">
   <meta property="og:audio:secure_url" content="<%= @article.audioformats['mp3'].gsub('http://', 'https://') %>">
-  <meta property="og:audio:secure_src" content="<%= @article.audioformats['mp3'].gsub('http://', 'https://') %>">
   <meta property="og:audio:title" content="<%= (defined?(@article) && @article) ? @article.title : Serious.title %> "/>
   <meta property="og:audio:artist" content="<%= (defined?(@article) && @article) ? @article.author : Serious.author %> "/>
   <meta property="og:audio:type" content="application/mp3">
