@@ -7,6 +7,8 @@ footer: true
 ---
 Natürlich könnt ihr uns auch abonnieren. Wir sind schließlich ein Podcast. Entweder manuell oder mit den vielen Tools und Verzeichnissen die es da draußen gibt.
 
+Habt Spaß am Gerät.
+
 ## MP3 Feed 
 
 [http://feeds.feedburner.com/binaergewitter-podcast](http://feeds.feedburner.com/binaergewitter-podcast)
