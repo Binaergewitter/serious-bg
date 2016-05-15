@@ -12,6 +12,8 @@ audioformats:
   m4a: http://download.binaergewitter.de/2016-05-12.Binaergewitter.Talk.147.m4a
   opus: http://download.binaergewitter.de/2016-05-12.Binaergewitter.Talk.147.opus
 ---
+Felix und Ingo rocken das Haus wieder alleine.
+
 ## Bast
 - [Yodeling Yeti]( )
   - [Ubuntu Memes for Ubuntu]( https://piratenpad.de/p/ubuntu-memes )
@@ -20,18 +22,17 @@ audioformats:
 - [opentechsummit](http://opentechsummit.net/programm/ )
 
 - neue Grafikkarte und alles ist besser
-    * sapphire AMD FIREPRO W4100
+    * [sapphire AMD FIREPRO W4100](http://www.amazon.de/gp/product/B00NJNDUR0/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B00NJNDUR0&linkCode=as2&tag=trektrip )
     * MST
 
 ## Toter der Woche
 - Störerhaftung
-    * https://netzpolitik.org/2016/abschaffung-der-wlan-stoererhaftung-fuer-jubel-ist-es-zu-frueh/
-    * http://www.heise.de/newsticker/meldung/BGH-Nicht-immer-haftet-der-Anschlussinhaber-fuer-Filesharing-3207701.html
+    * [](https://netzpolitik.org/2016/abschaffung-der-wlan-stoererhaftung-fuer-jubel-ist-es-zu-frueh/ )
+    * [](http://www.heise.de/newsticker/meldung/BGH-Nicht-immer-haftet-der-Anschlussinhaber-fuer-Filesharing-3207701.html )
 
 ## Security Foo der Woche
 
 - [imagetragick]( https://imagetragick.com/ )
-    * https://twitter.com/tenderlove/status/727597273123684352
 - [openssl]( https://blog.cloudflare.com/yet-another-padding-oracle-in-openssl-cbc-ciphersuites/ )
 - [7zip führt schadcode beim entpacken aus]( http://www.heise.de/newsticker/meldung/Entpacker-7-Zip-kann-zum-Ausfuehren-von-Schadcode-missbraucht-werden-3206787.html )
 - [Wendys hat Malware auf jedem 20 PoS Gerät]( http://www.theregister.co.uk/2016/05/12/wendys_breach_update/ )
