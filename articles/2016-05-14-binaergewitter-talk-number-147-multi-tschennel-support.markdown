@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Binärgewitter Talk #146: Multi Tschennel Support"
+title: "Binärgewitter Talk #147: Multi Tschennel Support"
 date: 2016-05-14 22:00
 comments: true
 categories: talk
@@ -14,8 +14,8 @@ audioformats:
 ---
 Felix und Ingo rocken das Haus wieder alleine.
 
-## Bast
-- [Yodeling Yeti]( )
+## Blast
+- Yodeling Yeti
   - [Ubuntu Memes for Ubuntu]( https://piratenpad.de/p/ubuntu-memes )
 - [Es wird ein komisches Yak](http://www.pro-linux.de/news/1/23487/ubuntu-1610-soll-yakkety-yak-hei%C3%9Fen.html )
 - [Sicherheitslücke in Snap](http://www.heise.de/newsticker/meldung/Ernste-Sicherheitsluecke-in-Ubuntus-neuem-Paketformat-Snap-geschlossen-3195532.html )
@@ -27,8 +27,8 @@ Felix und Ingo rocken das Haus wieder alleine.
 
 ## Toter der Woche
 - Störerhaftung
-    * [](https://netzpolitik.org/2016/abschaffung-der-wlan-stoererhaftung-fuer-jubel-ist-es-zu-frueh/ )
-    * [](http://www.heise.de/newsticker/meldung/BGH-Nicht-immer-haftet-der-Anschlussinhaber-fuer-Filesharing-3207701.html )
+    * [WLAN Störerhaftung soll abgeschafft werden](https://netzpolitik.org/2016/abschaffung-der-wlan-stoererhaftung-fuer-jubel-ist-es-zu-frueh/ )
+    * [BGH Urteil zu Störerhaftung](http://www.heise.de/newsticker/meldung/BGH-Nicht-immer-haftet-der-Anschlussinhaber-fuer-Filesharing-3207701.html )
 
 ## Security Foo der Woche
 
