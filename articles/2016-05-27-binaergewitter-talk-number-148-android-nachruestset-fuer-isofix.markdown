@@ -12,13 +12,13 @@ audioformats:
   m4a: http://download.binaergewitter.de/2016-05-27.Binaergewitter.Talk.148.m4a
   opus: http://download.binaergewitter.de/2016-05-27.Binaergewitter.Talk.148.opus
 ---
-Mat war auf Konferenz Hopping und erzählt was es auf der Google IO Neues gab und wie die UIKonf war. 
+Mat war auf Konferenz Hopping und erzählt was es auf der Google IO Neues gab und wie die UIKonf war. Ingo regt sich dafür über Nokia auf.
 
-## McAfee der woche
+## McAfee der Woche
 - [der McAfee will Journalisten veralbern](http://gizmodo.com/john-mcafee-apparently-tried-to-trick-reporters-into-th-1776765480 )
 
 ## Toter der Woche
-* Toter der Woche wäre Nokia/MS Phone Phones
+* Nokia/MS Phone Phones
 
 ## Untoter der Woche
 * [Nokia wieder Smartphones]( http://winfuture.de/news,91157.html )
@@ -44,7 +44,7 @@ Mat war auf Konferenz Hopping und erzählt was es auf der Google IO Neues gab un
 - [Android Instant Apps]( https://developer.android.com/topic/instant-apps/index.html )
 - [Xiaomi Mi Box]( http://www.mi.com/en/mibox/ )
 
-- [Castle Fernsehserie]( https://de.wikipedia.org/wiki/Castle_(Fernsehserie))
+- [Castle Fernsehserie]( https://de.wikipedia.org/wiki/Castle_\(Fernsehserie\))
 - [Känguru-Chroniken]( http://www.amazon.de/gp/product/3548372570/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=3548372570&linkCode=as2&tag=trektrip )
 
 ### UIKonf 2016
