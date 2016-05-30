@@ -2,6 +2,9 @@
 #
 # Backend for file-system based articles
 #
+
+require 'excon'
+
 class Serious::Article
   # Exception for invalid filenames
   class InvalidFilename < StandardError
@@ -93,6 +96,35 @@ class Serious::Article
   def audioformats
     @audio ||= yaml["audioformats"] || {}
   end
+
+  def audio_file_sizes
+    return @audio_file_sizes if defined?(@audio_file_sizes)
+    @audio_file_sizes = {}
+    $http_connections ||= {}
+    $file_sizes ||= {}
+    
+    threads = []
+    audioformats.each do |format, url|
+      uri = URI(url)
+      unless $http_connections.key?([uri.hostname, uri.port])
+        puts "Opening connection to server: #{uri.hostname}:#{uri.port}"
+        $http_connections[[uri.hostname, uri.port]] = Excon.new("#{uri.scheme}://#{uri.hostname}:#{uri.port}", :persistent => true) rescue nil
+      end
+      conn = $http_connections[[uri.hostname, uri.port]]
+      if $file_sizes.key?(uri.to_s)
+        @audio_file_sizes[format] = $file_sizes[uri.to_s]
+      else
+        puts "Making head request for #{uri.to_s}"
+        threads << Thread.new do
+          @audio_file_sizes[format] = conn.request(:method => :head, :path => uri.path).headers['Content-Length'].to_i rescue 0
+          $file_sizes[uri.to_s] = @audio_file_sizes[format]
+        end
+      end
+    end
+    threads.each{|t| t.join }
+    @audio_file_sizes
+  end
+
   
   # Is the article published? by default it is
   def published?
