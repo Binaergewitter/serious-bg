@@ -10,6 +10,10 @@ OUTER_APP = Rack::Builder.parse_file('config.ru').first
 class SmokeTest < Test::Unit::TestCase
   include Rack::Test::Methods
 
+  def setup
+    stub_request(:head, /download.binaergewitter.de.*/).to_return(:status => 200, :body => "", :headers => {'Content-Length' => '123456'})
+  end
+
   def app
     OUTER_APP
   end
@@ -21,7 +25,6 @@ class SmokeTest < Test::Unit::TestCase
 
   def test_feed_validates
     get "/podcast_feed/all/itunes/rss.xml"
-
     WebMock.allow_net_connect!
     assert_valid_feed(last_response.body)
     WebMock.disable_net_connect!
