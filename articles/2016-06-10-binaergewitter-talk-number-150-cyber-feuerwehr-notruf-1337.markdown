@@ -18,7 +18,7 @@ Wieder einmal sind wieder bei 150 Ausgaben. Wahnsinn wie doch die Zeit vergeht. 
 - [alle router dank IPv6 Ping of Death]( http://www.theregister.co.uk/2016/06/02/cisco_warns_of_ipv6_dos_vulnerability/ )
   * [CVE Entry](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-1409 )
   * [IPv6-Einführung pro Land]( http://www.google.com/intl/en/ipv6/statistics.html#tab=per-country-ipv6-adoption )
-http://www.heise.de/netze/meldung/RIPE-72-Streit-um-letzte-IPv4-Adressen-3221309.html
+  * [RIPE 72: Streit um letzte IPv4-Adressen](http://www.heise.de/netze/meldung/RIPE-72-Streit-um-letzte-IPv4-Adressen-3221309.html)
   * [mediengewitter.de]( http://mediengewitter.de/ )
 
 ## News
