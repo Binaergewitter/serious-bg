@@ -17,7 +17,7 @@ Wieder einmal sind wieder bei 150 Ausgaben. Wahnsinn wie doch die Zeit vergeht. 
 ## Toter der Woche
 - [alle router dank IPv6 Ping of Death]( http://www.theregister.co.uk/2016/06/02/cisco_warns_of_ipv6_dos_vulnerability/ )
   * [CVE Entry](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-1409 )
-  http://www.google.com/intl/en/ipv6/statistics.html#tab=per-country-ipv6-adoption
+  * [IPv6-Einführung pro Land]( http://www.google.com/intl/en/ipv6/statistics.html#tab=per-country-ipv6-adoption )
 http://www.heise.de/netze/meldung/RIPE-72-Streit-um-letzte-IPv4-Adressen-3221309.html
   * [mediengewitter.de]( http://mediengewitter.de/ )
 
@@ -28,7 +28,7 @@ http://www.heise.de/netze/meldung/RIPE-72-Streit-um-letzte-IPv4-Adressen-3221309
 - [Auch Hipp]( http://www.heise.de/newsticker/meldung/Datenleck-bei-Hipp-Adressen-und-Passwoerter-bei-Mein-BabyClub-abgegriffen-3234138.html )
 - [uTorrent Forum gehackt]( http://rss.slashdot.org/~r/Slashdot/slashdot/~3/xr0mqs_bFEs/utorrent-forums-hacked-passwords-compromised )
 - [BSI bringt Cyber Feuerwehr]( http://www.heise.de/newsticker/meldung/BSI-Cyber-Feuerwehr-fuer-grosse-Hackerangriffe-soll-20-Personen-umfassen-3234170.html )
-https://de.wikipedia.org/wiki/Bundesamt_f%C3%BCr_Sicherheit_in_der_Informationstechnik
+   * [Bundesamt für Sicherheit in der Informationstechnik]( https://de.wikipedia.org/wiki/Bundesamt_f%C3%BCr_Sicherheit_in_der_Informationstechnik )
 - [Owncloud wird Nextcloud]( http://www.golem.de/news/community-fork-und-neues-unternehmen-nextcloud-ist-der-neustart-fuer-owncloud-1606-121243.html )
    * [CVE `code execution` in owncloud 2012]( https://owncloud.org/security/advisory/?id=oc-sa-2012-004 )
 - [Java APIs genutzt von google sind "Fair Use"]( http://www.heise.de/developer/meldung/US-Jury-Googles-Nutzung-von-Oracles-Java-APIs-in-Android-ist-Fair-Use-3220847.html )
@@ -42,7 +42,7 @@ https://de.wikipedia.org/wiki/Bundesamt_f%C3%BCr_Sicherheit_in_der_Informationst
 
 ## Mimimi der Woche
 - [capslock vs shiftlock](http://askubuntu.com/questions/53038/how-do-i-remap-the-caps-lock-key ) 
-- [](https://de.wikipedia.org/wiki/Umschaltsperre )
+- [Umschaltsperre](https://de.wikipedia.org/wiki/Umschaltsperre )
 
 ## Picks
 
