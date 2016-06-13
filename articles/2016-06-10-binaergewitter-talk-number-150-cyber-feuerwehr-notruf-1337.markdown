@@ -33,7 +33,7 @@ Wieder einmal sind wieder bei 150 Ausgaben. Wahnsinn wie doch die Zeit vergeht. 
    * [CVE `code execution` in owncloud 2012]( https://owncloud.org/security/advisory/?id=oc-sa-2012-004 )
    * [Discourse](https://www.discourse.org/about/ )
 - [Java APIs genutzt von google sind "Fair Use"]( http://www.heise.de/developer/meldung/US-Jury-Googles-Nutzung-von-Oracles-Java-APIs-in-Android-ist-Fair-Use-3220847.html )
-- [Oracle Anwältin sagt dass das Open Source](http://www.golem.de/news/oracle-anwaeltin-nach-niederlage-google-hat-die-gpl-getoetet-1605-121152.html )
+- [Oracle Anwältin sagt dass das Open Source schadet](http://www.golem.de/news/oracle-anwaeltin-nach-niederlage-google-hat-die-gpl-getoetet-1605-121152.html )
 - [Flache Linsen]( https://science.slashdot.org/story/16/06/03/203255/flat-lens-promises-possible-revolution-in-optics )
 - [NBase T]( http://www.heise.de/newsticker/meldung/Netzwerkkarte-fuer-NBase-T-von-Delock-3221011.html )
 - [Jolla C]( https://jolla.com/jollac/ )
