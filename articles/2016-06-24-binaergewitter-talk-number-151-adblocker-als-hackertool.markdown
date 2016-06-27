@@ -23,7 +23,7 @@ Brexit Edition mit Felix und Ingo.
   - [theDao](http://www.coindesk.com/the-dao-just-raised-50-million-but-what-is-it/ )
   - [Race to Empty]( http://vessenes.com/more-ethereum-attacks-race-to-empty-is-the-real-deal/ )
   - [etherium is doomed](http://nakamotoinstitute.org/mempool/ethereum-is-doomed/ )
-  - https://news.ycombinator.com/item?id=11931181
+  - [Thinking About Smart Contract Security (Hacker News)](https://news.ycombinator.com/item?id=11931181 )
   - [Etherium DAO hack simplified]( http://blog.erratasec.com/2016/06/etheriumdao-hack-similfied.html )
 
 ## Tizen der Woche
