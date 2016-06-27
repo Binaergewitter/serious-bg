@@ -43,7 +43,7 @@ Brexit Edition mit Felix und Ingo.
 * [Flatpack News]( http://www.heise.de/newsticker/meldung/Linux-Snap-Konkurrent-Flatpak-jetzt-offiziell-freigegeben-3246482.html )
  * [Nix vs Flatpack vs Snap]( https://www.reddit.com/r/linux/comments/4ohvur/nix_vs_snap_vs_flatpak_what_are_the_differences/ )
 * [ Remote code execution via typo squatting]( http://arstechnica.com/security/2016/06/college-student-schools-govs-and-mils-on-perils-of-arbitrary-code-execution/ )
-  - [heise artikel] http://www.heise.de/newsticker/meldung/Student-verschreibt-sich-absichtlich-und-US-Regierung-fuehrt-potentiellen-Schadcode-aus-3246728.html (danke Benny, einen von zwei letzten Blackberry Nutzern)
+  - [heise artikel über die gleiche geschichte](http://www.heise.de/newsticker/meldung/Student-verschreibt-sich-absichtlich-und-US-Regierung-fuehrt-potentiellen-Schadcode-aus-3246728.html )
 - [Blackberry schreibt rote Zahlen](http://www.heise.de/newsticker/meldung/Blackberry-haelt-trotz-roter-Zahlen-noch-an-Smartphones-fest-3247801.html )
 
 
@@ -54,6 +54,7 @@ Brexit Edition mit Felix und Ingo.
 ## Mimimi der Woche
 - [virt-amanger 1.4](http://www.pro-linux.de/news/1/23675/virt-manager-14-mit-virgil-unterst%C3%BCtzung.html )
     * [Bountysource](https://www.bountysource.com/ )
+    * [RedHat Bugzilla zum RBD Image auswählen](https://bugzilla.redhat.com/show_bug.cgi?id=1074169#c10 )
 - QNAP und OptWare
 - Selbsttest 3 Tage ohne Adblocker - Fazit: nein es geht nicht
     - [Kommission will Adblocker verbieten - gehts noch?!](http://www.heise.de/newsticker/meldung/Bund-Laender-Kommission-prueft-Adblocker-Verbot-3240196.html )
