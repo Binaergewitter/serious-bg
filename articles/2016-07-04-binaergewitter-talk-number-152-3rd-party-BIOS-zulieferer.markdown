@@ -25,7 +25,7 @@ After Brexit Show mit Marc, Felix und Ingo.
 
 ## Toter der Woche
 - [Bud Spencer]( https://en.wikipedia.org/wiki/Bud_Spencer )
-    * [Wolfgang Hess]( https://de.wikipedia.org/wiki/Wolfgang_Hess_(Synchronsprecher) )
+    * [Wolfgang Hess]( https://de.wikipedia.org/wiki/Wolfgang_Hess_\(Synchronsprecher\) )
 
 ## News
 - [Neural Networks in iOS 10 and macOS]( https://www.bignerdranch.com/blog/neural-networks-in-ios-10-and-macos/ )
