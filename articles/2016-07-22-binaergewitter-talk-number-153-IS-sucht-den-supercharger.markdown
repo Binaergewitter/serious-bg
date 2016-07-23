@@ -18,7 +18,7 @@ audioformats:
 - [Amazon und Skype stellen Windows Phone Apps ein]( http://www.heise.de/newsticker/meldung/Amazon-und-Skype-ziehen-sich-von-Windows-Phone-zurueck-3273652.html )
 
 ## Untoter der Woche
-* [Skype für Linux](http://futurezone.at/produkte/microsoft-laesst-skype-fuer-linux-wiederauferstehen/209.746.914 ) via https://twitter.com/bmalum_
+* [Skype für Linux](http://futurezone.at/produkte/microsoft-laesst-skype-fuer-linux-wiederauferstehen/209.746.914 ) via [bMalum]( https://twitter.com/bmalum_ )
 * [DwarfFortress für 64bit]( http://www.heise.de/newsticker/meldung/Strategiespiele-Dwarf-Fortress-wagt-den-Sprung-ins-64-Bit-Zeitalter-3258710.html )
 
 ## Kim Dotcom der Woche
@@ -43,7 +43,7 @@ audioformats:
 - [Comdirekt login fuckup]( http://www.heise.de/newsticker/meldung/Blick-in-fremde-Konten-Massive-Probleme-beim-Onlinebanking-von-Comdirect-3269325.html )
 
 ## Themen
-Pokemon :)
+* Pokemon :)
 * [Datenschutz und welche Anbieter jetzt schon welche Daten kriegen]( https://www.kuketz-blog.de/pokemon-go-welcher-sammeltrieb-wird-hier-eigentlich-befriedigt/ )
 * [Twitch Plays Pokemon Go]( https://www.twitch.tv/twitchpokemongo )
 * [repokemon]( https://cheeaun.github.io/repokemon/ )
