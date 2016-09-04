@@ -5,6 +5,7 @@ date: 2016-09-03 12:30
 comments: true
 categories: talk
 sharing: true
+Offline: true
 published: true
 audioformats:
   mp3: http://download.binaergewitter.de/2016-09-01.Binaergewitter.Talk.156.mp3
