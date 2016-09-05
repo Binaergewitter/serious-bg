@@ -29,7 +29,7 @@ Bald machen auch wir Sommerpause, aber diesmal sind Markus, Felix und Ingo noch 
 
 ##Tizen der Woche
 - [l33tname zu Tizen Plex](http://twitter.com/l33tname/status/769923455403843584 )
-- [Samsung Tizen App Wettbewerb](http://www.pro-linux.de/news/1/23895/samsung-startet-app-wettbewerb-f%C3%BCr-tizen.html
+- [Samsung Tizen App Wettbewerb](http://www.pro-linux.de/news/1/23895/samsung-startet-app-wettbewerb-f%C3%BCr-tizen.html )
 - [Tizen Watch Gear S3](http://www.heise.de/newsticker/meldung/Neue-Samsung-Smartwatches-Gear-S3-frontier-und-Gear-S3-classic-mit-Tizen-3308118.html )
 
 ## Dotcom der Woche
@@ -41,7 +41,7 @@ Bald machen auch wir Sommerpause, aber diesmal sind Markus, Felix und Ingo noch 
 - [Linus mag nicht wenn man wegen der GPL klagt](http://www.pro-linux.de/news/1/23904/torvalds-und-kroah-hartman-gegen-gpl-prozesse.html )
 * [OpenStreetView](https://www.openstreetmap.org/user/mvexel/diary/39274) [...and privacy implications](https://karp.id.au/a/2016/08/23/privacy-implications-for-openstreetview/)
 * [Facebook / WhapsApp Datenaustausch](http://www.heise.de/newsticker/meldung/WhatsApp-und-Facebook-werden-verzahnt-ein-wenig-3305057.html) 
-** [Markus kommentiert](https://www.mynethome.de/2016/08/26/facebook-verwertet-whatsapp-daten-zeit-umzusatteln/ )
+  - [Markus kommentiert](https://www.mynethome.de/2016/08/26/facebook-verwertet-whatsapp-daten-zeit-umzusatteln/ )
 * [wire](http://wire.com )
 * [Kenkaku für PS Vita]( https://blog.xyz.is/2016/webkit-360.html )
 * http://www.pro-linux.de/news/1/23920/pc-bsd-wird-zu-trueos.html
