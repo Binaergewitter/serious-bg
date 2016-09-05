@@ -44,7 +44,7 @@ Bald machen auch wir Sommerpause, aber diesmal sind Markus, Felix und Ingo noch 
   - [Markus kommentiert](https://www.mynethome.de/2016/08/26/facebook-verwertet-whatsapp-daten-zeit-umzusatteln/ )
 * [wire](http://wire.com )
 * [Kenkaku für PS Vita]( https://blog.xyz.is/2016/webkit-360.html )
-* http://www.pro-linux.de/news/1/23920/pc-bsd-wird-zu-trueos.html
+* [Aus PC-BSD wird TrueOS](http://www.pro-linux.de/news/1/23920/pc-bsd-wird-zu-trueos.html )
 * [Baltimore vollständig überwacht - vergessen der Bevölkerung zu sagen]( https://www.bloomberg.com/features/2016-baltimore-secret-surveillance/ )
 * [Roboterbabys]( http://www.heise.de/newsticker/meldung/Roboterbabys-Hersteller-kritisiert-Studie-zu-Teenager-Schwangerschaften-3310886.html )
 * [HP Notebooks mit Blickschutzfilter auf Knopfdruck]( http://www.heise.de/newsticker/meldung/Neue-HP-Notebooks-Blickschutzfilter-per-Knopfdruck-3304834.html )
