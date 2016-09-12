@@ -6,6 +6,7 @@ comments: true
 categories: talk
 sharing: true
 published: true
+release: 2
 audioformats:
   mp3: http://download.binaergewitter.de/2016-09-01.Binaergewitter.Talk.156.mp3
   ogg: http://download.binaergewitter.de/2016-09-01.Binaergewitter.Talk.156.ogg
