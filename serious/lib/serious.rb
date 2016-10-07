@@ -94,6 +94,30 @@ class Serious < Sinatra::Base
         false
       end
     end
+
+    def xenim_data
+      begin
+        #create connection
+        connection = Net::HTTP.new('feeds.streams.xenim.de')
+        connection.read_timeout = 5
+        connection.open_timeout = 5
+
+        #get data
+        respons = connection.get '/live/binaergewitter/json/'
+        data = respons.body
+
+        #parse data
+        result = JSON.parse(data)
+
+        {
+          :stream => result["items"][0]["streams"][0],
+          :author => result["items"][0]["author_name"],
+          :link => result["items"][0]["link"]
+        }
+      rescue Exception => e
+        ""
+      end
+    end
   end
 
   # Index page
@@ -154,7 +178,7 @@ class Serious < Sinatra::Base
       builder :rss
     end
   end
-  
+
   ['/facebook_feed/*/*/atom.xml', '/facebook_feed/*/*/rss.xml'].each do |feed_url|
     get feed_url do
       feed_size = (params.delete('feed_size') || Serious.items_in_feed).to_i
