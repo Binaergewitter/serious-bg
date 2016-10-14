@@ -88,8 +88,8 @@ class Serious < Sinatra::Base
           connection.open_timeout = 5
 
           #get data
-          respons = connection.get '/live/binaergewitter/json/'
-          settings.xenim_response = JSON.parse(respons.body)
+          response = connection.get '/live/binaergewitter/json/'
+          settings.xenim_response = JSON.parse(response.body)
           settings.xenim_response_time = Time.now
         rescue Exception => e
           settings.xenim_response = nil
@@ -99,8 +99,8 @@ class Serious < Sinatra::Base
 
     def is_live?
       get_xenim_api_data
-      unless settings.xenim_response.nil?
-        settings.xenim_response["items"].any?
+      if settings.xenim_response
+        settings.xenim_response.fetch("items", []).any?
       else
         false
       end
