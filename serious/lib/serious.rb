@@ -24,6 +24,8 @@ class Serious < Sinatra::Base
   set :static, true # Required to serve static files, see http://www.sinatrarb.com/configuration.html
   set :static_cache_control, [:public, :max_age => 21600]
   set :future, true
+  set :xenim_response_time, Time.now - 20 # setting a time where a cache update is needed
+  set :xenim_response, nil
 
   not_found do
     erb :"404"
@@ -76,46 +78,42 @@ class Serious < Sinatra::Base
       render :erb, :"_#{name}", :layout => false
     end
 
+    def get_xenim_api_data
+      # update the cached response every ~15 sec
+      if Time.now - settings.xenim_response_time > 15
+        begin
+          #create connection
+          connection = Net::HTTP.new('feeds.streams.xenim.de')
+          connection.read_timeout = 5
+          connection.open_timeout = 5
+
+          #get data
+          respons = connection.get '/live/binaergewitter/json/'
+          settings.xenim_response = JSON.parse(respons.body)
+          settings.xenim_response_time = Time.now
+        rescue Exception => e
+          settings.xenim_response = nil
+        end
+      end
+    end
+
     def is_live?
-      begin
-        #create connection
-        connection = Net::HTTP.new('feeds.streams.xenim.de')
-        connection.read_timeout = 5
-        connection.open_timeout = 5
-
-        #get data
-        respons = connection.get '/live/binaergewitter/json/'
-        data = respons.body
-
-        #parse data
-        result = JSON.parse(data)
-        !result["items"].empty?
-      rescue Exception => e
+      get_xenim_api_data
+      unless settings.xenim_response.nil?
+        settings.xenim_response["items"].any?
+      else
         false
       end
     end
 
     def xenim_data
-      begin
-        #create connection
-        connection = Net::HTTP.new('feeds.streams.xenim.de')
-        connection.read_timeout = 5
-        connection.open_timeout = 5
-
-        #get data
-        respons = connection.get '/live/binaergewitter/json/'
-        data = respons.body
-
-        #parse data
-        result = JSON.parse(data)
-
-        {
-          :stream => result["items"][0]["streams"][0],
-          :author => result["items"][0]["author_name"],
-          :link => result["items"][0]["link"]
-        }
-      rescue Exception => e
-        ""
+      get_xenim_api_data
+      unless is_live?
+         {
+           :stream => result["items"][0]["streams"][0],
+           :author => result["items"][0]["author_name"],
+           :link => result["items"][0]["link"]
+         }
       end
     end
   end
