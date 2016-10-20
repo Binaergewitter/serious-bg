@@ -108,11 +108,11 @@ class Serious < Sinatra::Base
 
     def xenim_data
       get_xenim_api_data
-      unless is_live?
+      if is_live?
          {
-           :stream => result["items"][0]["streams"][0],
-           :author => result["items"][0]["author_name"],
-           :link => result["items"][0]["link"]
+           :stream => settings.xenim_response["items"][0]["streams"][0],
+           :author => settings.xenim_response["items"][0]["author_name"],
+           :link => settings.xenim_response["items"][0]["link"]
          }
       end
     end
