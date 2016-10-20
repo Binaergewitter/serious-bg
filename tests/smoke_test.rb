@@ -136,4 +136,13 @@ class SmokeTest < Test::Unit::TestCase
 
     assert_equal(false, blog.helpers.is_live?)
   end
+
+  def test_live_preview_view
+    dataDump = File.new(File.expand_path("../api_response/binaergewitter_is_not_live.json", __FILE__), "r")
+    stub_request(:get, "http://feeds.streams.xenim.de/live/binaergewitter/json/").to_return(dataDump)
+    blog = Serious.new
+    blog.settings.xenim_response_time = Time.now - 20 # don't use the cached data!
+
+    assert last_response.ok?
+  end
 end
