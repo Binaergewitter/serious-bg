@@ -107,6 +107,7 @@ class SmokeTest < Test::Unit::TestCase
     dataDump = File.new(File.expand_path("../api_response/binaergewitter_is_live.json", __FILE__), "r")
     stub_request(:get, "http://feeds.streams.xenim.de/live/binaergewitter/json/").to_return(dataDump)
     blog = Serious.new
+    blog.settings.xenim_response_time = Time.now - 20 # don't use the cached data!
 
     assert_equal(true, blog.helpers.is_live?)
   end
@@ -115,6 +116,7 @@ class SmokeTest < Test::Unit::TestCase
     dataDump = File.new(File.expand_path("../api_response/binaergewitter_is_not_live.json", __FILE__), "r")
     stub_request(:get, "http://feeds.streams.xenim.de/live/binaergewitter/json/").to_return(dataDump)
     blog = Serious.new
+    blog.settings.xenim_response_time = Time.now - 20 # don't use the cached data!
 
     assert_equal(false, blog.helpers.is_live?)
   end
@@ -122,12 +124,15 @@ class SmokeTest < Test::Unit::TestCase
   def test_the_xenim_api_is_offline
     stub_request(:get, "http://feeds.streams.xenim.de/live/binaergewitter/json/").to_return(:status => [404, "Not Found"])
     blog = Serious.new
+    blog.settings.xenim_response_time = Time.now - 20 # don't use the cached data!
 
     assert_equal(false, blog.helpers.is_live?)
   end
+
   def test_the_xenim_api_timedout
     stub_request(:get, "http://feeds.streams.xenim.de/live/binaergewitter/json").to_timeout
     blog = Serious.new
+    blog.settings.xenim_response_time = Time.now - 20 # don't use the cached data!
 
     assert_equal(false, blog.helpers.is_live?)
   end

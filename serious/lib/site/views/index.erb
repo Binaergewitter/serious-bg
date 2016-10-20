@@ -1,4 +1,5 @@
 <section id="articles">
+  <%= render_partial :live if is_live? %>
   <% @recent.each do |article| %>
     <div>
       <%= render_article article, true %>

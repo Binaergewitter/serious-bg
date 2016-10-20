@@ -24,6 +24,8 @@ class Serious < Sinatra::Base
   set :static, true # Required to serve static files, see http://www.sinatrarb.com/configuration.html
   set :static_cache_control, [:public, :max_age => 21600]
   set :future, true
+  set :xenim_response_time, Time.now - 20 # setting a time where a cache update is needed
+  set :xenim_response, nil
 
   not_found do
     erb :"404"
@@ -76,22 +78,42 @@ class Serious < Sinatra::Base
       render :erb, :"_#{name}", :layout => false
     end
 
+    def get_xenim_api_data
+      # update the cached response every ~15 sec
+      if Time.now - settings.xenim_response_time > 15
+        begin
+          #create connection
+          connection = Net::HTTP.new('feeds.streams.xenim.de')
+          connection.read_timeout = 5
+          connection.open_timeout = 5
+
+          #get data
+          response = connection.get '/live/binaergewitter/json/'
+          settings.xenim_response = JSON.parse(response.body)
+          settings.xenim_response_time = Time.now
+        rescue Exception => e
+          settings.xenim_response = nil
+        end
+      end
+    end
+
     def is_live?
-      begin
-        #create connection
-        connection = Net::HTTP.new('feeds.streams.xenim.de')
-        connection.read_timeout = 5
-        connection.open_timeout = 5
-
-        #get data
-        respons = connection.get '/live/binaergewitter/json/'
-        data = respons.body
-
-        #parse data
-        result = JSON.parse(data)
-        !result["items"].empty?
-      rescue Exception => e
+      get_xenim_api_data
+      if settings.xenim_response
+        settings.xenim_response.fetch("items", []).any?
+      else
         false
+      end
+    end
+
+    def xenim_data
+      get_xenim_api_data
+      if is_live?
+         {
+           :stream => settings.xenim_response["items"][0]["streams"][0],
+           :author => settings.xenim_response["items"][0]["author_name"],
+           :link => settings.xenim_response["items"][0]["link"]
+         }
       end
     end
   end
@@ -154,7 +176,7 @@ class Serious < Sinatra::Base
       builder :rss
     end
   end
-  
+
   ['/facebook_feed/*/*/atom.xml', '/facebook_feed/*/*/rss.xml'].each do |feed_url|
     get feed_url do
       feed_size = (params.delete('feed_size') || Serious.items_in_feed).to_i
