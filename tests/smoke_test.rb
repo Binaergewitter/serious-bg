@@ -143,6 +143,7 @@ class SmokeTest < Test::Unit::TestCase
     blog = Serious.new
     blog.settings.xenim_response_time = Time.now - 20 # don't use the cached data!
 
+    get "/"
     assert last_response.ok?
   end
 end
