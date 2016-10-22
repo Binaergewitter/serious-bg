@@ -38,7 +38,7 @@ Bald machen auch wir Sommerpause, aber diesmal sind Markus, Felix und Ingo noch 
 
 ## News
 
-* #torstrike
+* \#torstrike
 - [Linus mag nicht wenn man wegen der GPL klagt](http://www.pro-linux.de/news/1/23904/torvalds-und-kroah-hartman-gegen-gpl-prozesse.html )
 * [OpenStreetView](https://www.openstreetmap.org/user/mvexel/diary/39274) [...and privacy implications](https://karp.id.au/a/2016/08/23/privacy-implications-for-openstreetview/)
 * [Facebook / WhapsApp Datenaustausch](http://www.heise.de/newsticker/meldung/WhatsApp-und-Facebook-werden-verzahnt-ein-wenig-3305057.html) 
