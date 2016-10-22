@@ -36,7 +36,7 @@ Mit dabei sind Felix und Ingo.
 * [Kritische Lücke in OpenSSL](http://www.pro-linux.de/news/1/24009/openssl-110b-korrigiert-kritische-l%C3%BCcke.html )
 * [WoSign und StartSSL verlieren vertrauen](https://www.heise.de/security/meldung/Zertifizierungsstellen-WoSign-und-StartCom-verlieren-Apples-und-Mozillas-Vertrauen-3341294.html )
 * [Mehr als 50% des Webtraffics verschlüssselt](https://www.heise.de/security/meldung/HTTPS-Verschluesselung-im-Web-erreicht-erstmals-50-Prozent-3351173.html )
-* [Probleme auch wieder bei Comodo]http://www.heise.de/newsticker/meldung/Zertifikats-Klau-Fatale-Sehschwaeche-bei-Comodo-3354229.html
+* [Probleme auch wieder bei Comodo](http://www.heise.de/newsticker/meldung/Zertifikats-Klau-Fatale-Sehschwaeche-bei-Comodo-3354229.html)
 * [500 MILLIONEN! Accounts *verloren* gegangen]( http://www.theregister.co.uk/2016/09/22/yahoo_500m_email_accounts_hacked/ )
 * [KrebsOnSecurity ge'DDOS'd]( https://krebsonsecurity.com/2016/09/krebsonsecurity-hit-with-record-ddos/ )
   * [Jetzt hinter Google Project Shield]( https://projectshield.withgoogle.com/public/ )
