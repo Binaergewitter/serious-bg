@@ -12,22 +12,20 @@ audioformats:
   m4a: http://download.binaergewitter.de/2016-11-30.Binaergewitter.Talk.161.m4a
   opus: http://download.binaergewitter.de/2016-11-30.Binaergewitter.Talk.161.opus
 ---
-Leider hatten wir mal wieder ein Aufnahme Problem. Daher ist die Sendung aus dem Streamdump von Xenim genommen. Dadurch ist die Qualität leider schlechter als normalerweise. Wir bitten das Problem zu entschuldigen und hoffen ihr könnt 
+Leider hatten wir mal wieder ein Aufnahme Problem. Daher ist die Sendung aus dem Streamdump von Xenim genommen. Dadurch ist die Qualität leider schlechter als normalerweise. Wir bitten das Problem zu entschuldigen und hoffen ihr könnt
 die Sendung trotzdem gut hören. Wir wünschen einen frohen 2. Advent.
 
 ## Toter der Woche
 - [ein Roomba](http://de.engadget.com/2016/11/24/zeitgeist-drama-nest-kamera-beobachtet-roomba-selbstmord/ )
-- http://www.heise.de/newsticker/meldung/Android-Alternative-Cyanogen-vor-dem-Aus-weitere-Entlassungen-und-Standortschliessung-3507117.html )
+- [Cyanogen](http://www.heise.de/newsticker/meldung/Android-Alternative-Cyanogen-vor-dem-Aus-weitere-Entlassungen-und-Standortschliessung-3507117.html )
 - [HP "The Machine"](http://www.theregister.co.uk/2016/11/29/hp_labs_delivered_machine_proof_of_concept_prototype_but_machine_product_is_no_more )
- - [Notiz beim Linux Magazin]( http://www.linux-magazin.de/NEWS/Aus-der-Traum-HPE-beerdigt-The-Machine )
-
-dabei machen die doch groß werbung mit - selbst mit startrek
-https://www.youtube.com/watch?v=iBBZ4y_Xero&index=22&list=PLbzoR-pLrL6ovByiWK-8ALCkZoCQAK-i_
+  - [Notiz beim Linux Magazin]( http://www.linux-magazin.de/NEWS/Aus-der-Traum-HPE-beerdigt-The-Machine )
+    dabei machen die doch groß werbung mit - selbst mit [startrek](https://www.youtube.com/watch?v=iBBZ4y_Xero&index=22&list=PLbzoR-pLrL6ovByiWK-8ALCkZoCQAK-i_ )
 
 ## News
 * [Sailfish in Russland](http://www.pro-linux.de/news/1/24229/sailfish-os-wird-offizielles-mobiles-betriebssystem-in-russland.html )
     * [Fairphone und Sailfish]( https://forum.fairphone.com/t/will-sailfish-os-be-officially-supported-on-the-fp2/16839/51 )
-* Drosseln im Zug: nach 200MB wirds langsam ( https://www.heise.de/newsticker/meldung/Deutsche-Bahn-Kostenloses-ICE-WLAN-wird-nach-200-Megabyte-gedrosselt-3507405.html )
+* [Drosseln im Zug: nach 200MB wirds langsam]( https://www.heise.de/newsticker/meldung/Deutsche-Bahn-Kostenloses-ICE-WLAN-wird-nach-200-Megabyte-gedrosselt-3507405.html )
 
 
 ## Security Foo
@@ -55,7 +53,7 @@ https://www.youtube.com/watch?v=iBBZ4y_Xero&index=22&list=PLbzoR-pLrL6ovByiWK-8A
     * [kwitt]( http://www.heise.de/newsticker/meldung/Kwitt-Mit-dem-Handy-bequem-Geld-anfordern-und-senden-3505772.html )
     * [paypal.me]( http://paypal.me/ingoebel )
     - [Postpay]( https://www.deutschepost.de/de/p/postpay/postpay/so-funktioniert-s.html ) - "Die Deutsche Post steht für Sicherheit und Zuverlässigkeit auch im Internet."
-- [Docker für Ubuntu]( https://www.docker.com/docker-news-and-press/docker-and-canonical-partner-cs-docker-engine-millions-ubuntu-users )    
+- [Docker für Ubuntu]( https://www.docker.com/docker-news-and-press/docker-and-canonical-partner-cs-docker-engine-millions-ubuntu-users )
 - [Flashback: OpenMoko]( http://www.linux-magazin.de/NEWS/Rueckblick-auf-Open-Moko-Schoene-neue-Smartphone-Welt ) [Orginalpost von Harald Welte]( http://laforge.gnumonks.org/blog/20160920-openmoko_10years/ )
 
 ## Mimimi der Woche
@@ -71,6 +69,6 @@ https://www.youtube.com/watch?v=iBBZ4y_Xero&index=22&list=PLbzoR-pLrL6ovByiWK-8A
 - [spacemacs](http://spacemacs.org/ )
 - [neovim](https://neovim.io/ )
 - [file.pizza](https://file.pizza/ )
-- [stockdroids]https://www.stockdroids.com/
+- [stockdroids](https://www.stockdroids.com/ )
 [radiotux November Sendung](http://www.radiotux.de/index.php?/archives/8021-RadioTux-Sendung-November-2016.html)
 - [halfnarp]( https://halfnarp.events.ccc.de/ )
