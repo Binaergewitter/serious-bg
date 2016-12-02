@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2016-11-17.Binaergewitter.Talk.160.mp3
-  ogg: http://download.binaergewitter.de/2016-11-17.Binaergewitter.Talk.160.ogg
-  m4a: http://download.binaergewitter.de/2016-11-17.Binaergewitter.Talk.160.m4a
-  opus: http://download.binaergewitter.de/2016-11-17.Binaergewitter.Talk.160.opus
+  mp3: http://download.binaergewitter.de/2016-11-30.Binaergewitter.Talk.161.mp3
+  ogg: http://download.binaergewitter.de/2016-11-30.Binaergewitter.Talk.161.ogg
+  m4a: http://download.binaergewitter.de/2016-11-30.Binaergewitter.Talk.161.m4a
+  opus: http://download.binaergewitter.de/2016-11-30.Binaergewitter.Talk.161.opus
 ---
 Leider hatten wir mal wieder ein Aufnahme Problem. Daher ist die Sendung aus dem Streamdump von Xenim genommen. Dadurch ist die Qualität leider schlechter als normalerweise. Wir bitten das Problem zu entschuldigen und hoffen ihr könnt 
 die Sendung trotzdem gut hören. Wir wünschen einen frohen 2. Advent.
