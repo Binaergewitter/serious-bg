@@ -12,10 +12,10 @@ audioformats:
   m4a: http://download.binaergewitter.de/2016-12-15.Binaergewitter.Talk.162.m4a
   opus: http://download.binaergewitter.de/2016-12-15.Binaergewitter.Talk.162.opus
 ---
-In der letzten Sendung vor Weihnachten und der vorletzten in diesem Jahr geht es vor allem um seltsame Urteile und den Tod der Pebble. 
+In der letzten Sendung vor Weihnachten und der vorletzten in diesem Jahr geht es vor allem um seltsame Urteile und den Tod der Pebble.  Dabei sind wieder Felix, Markus und Ingo.
 
 ## Toter der Woche
-- Pebble :(
+- Pebble
     - [Vielleicht ne Sailfish Watch](https://blog.jolla.com/watch/ )
 
 ## News
@@ -28,7 +28,7 @@ In der letzten Sendung vor Weihnachten und der vorletzten in diesem Jahr geht es
 ** [Heimat und Brauchtumsverein für das Internet]( https://netzpolitik.org/2016/was-fehlt-dirk-von-gehlen-sagt-ein-heimat-und-brauchtumsverein-fuer-das-netz/ )
 * Nextcloud 11 [und neue mobile Clients]( http://stadt-bremerhaven.de/nextcloud-veroeffentlicht-neue-clients-fuer-android-und-ios/ )
 - [Akku Probleme? Einfach keine Akkuladung anzeigen]( https://www.heise.de/newsticker/meldung/Nach-Akkuproblemen-bei-MacBook-Pro-Apple-streicht-Restlaufanzeige-aus-macOS-Sierra-3569943.html?wt_mc=rss.ho.beitrag.atom )
-*Übernahmen
+* Übernahmen
     * [Host Europe](http://t3n.de/news/webhosting-godaddy-kauft-host-europe-774785/ )
     * [Strato](https://www.heise.de/newsticker/meldung/United-Internet-1-1-uebernimmt-Web-Hoster-Strato-3570790.html )
 
@@ -50,7 +50,7 @@ In der letzten Sendung vor Weihnachten und der vorletzten in diesem Jahr geht es
 ## Picks
 - [Werkzeugkasten freier Software]( http://www.medien-in-die-schule.de/werkzeugkaesten/werkzeugkasten-freie-software/werkzeugportraits-freie-software/ )
 - [Online PDF Editor]( https://www.sejda.com/pdf-editor )
-   * [pdftk]( )
+   * [pdftk]( https://en.wikipedia.org/wiki/PDFtk )
 - [qemu adventskalender](http://www.qemu-advent-calendar.org/2016/ )
 - [Krita](https://krita.org/en/release-notes-for-krita-3-1/ )
 - [Compiler Explorer]( http://godbolt.org/ )
