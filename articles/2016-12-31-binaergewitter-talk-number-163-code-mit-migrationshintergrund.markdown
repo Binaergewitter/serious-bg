@@ -12,7 +12,7 @@ audioformats:
   m4a: http://download.binaergewitter.de/2016-12-29.Binaergewitter.Talk.163.m4a
   opus: http://download.binaergewitter.de/2016-12-29.Binaergewitter.Talk.163.opus
 ---
-Live vom 33C3. Wir waren auf dem Congress und haben aus dem Sendezentrum eine Binärgewitter Live Sendung gemacht. 
+Live vom 33C3. Wir waren auf dem Congress und haben aus dem Sendezentrum eine Binärgewitter Live Sendung gemacht. Davon gibt es auch [eine Videoaufzeichnung](https://media.ccc.de/v/33c3-389-binargewitter_live ).
 
 ## Toter der Woche
 * [Cyanogen - jetzt Lineage OS]( https://cyngn.com/blog/cyanogen-services-shutting-down )
