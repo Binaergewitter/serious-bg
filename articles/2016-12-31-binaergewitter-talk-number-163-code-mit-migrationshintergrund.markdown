@@ -19,7 +19,7 @@ Live vom 33C3. Wir waren auf dem Congress und haben aus dem Sendezentrum eine Bi
     * [webseite tot]( http://lineageos.org/ )
     * [Alternative: FreeDOS 1.2]( https://sourceforge.net/p/freedos/news/2016/12/freedos-12/ )
 * [Carrie Fisher]( http://www.zeit.de/kultur/film/2016-12/star-wars-schauspielerin-carrie-fisher-ist-tot )
-* Die Mutter von Carrie Fischer auch
+* Die Mutter von Carrie Fisher auch - [Debbie Reynolds]( https://de.wikipedia.org/wiki/Debbie_Reynolds )
 
 ## Untoter der Woche
 * [Flash für Linux](http://www.pro-linux.de/news/1/24289/flash-player-24-beta-erschienen.html )
@@ -64,7 +64,7 @@ Live vom 33C3. Wir waren auf dem Congress und haben aus dem Sendezentrum eine Bi
 
 
 ## Mimimi der Woche
-- keybase gui
+- [keybase gui](http://keybase.io )
 
 ## Picks
 
