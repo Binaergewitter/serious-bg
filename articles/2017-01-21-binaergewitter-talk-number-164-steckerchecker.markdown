@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Binärgewitter Talk #164: Steckerstecker"
+title: "Binärgewitter Talk #164: Steckerchecker"
 date: 2017-01-21 19:00
 comments: true
 categories: talk
@@ -17,8 +17,8 @@ Nach dem wir wieder gesund sind haben sich Markus und Ingo einen Gast der sich m
 
 ## Toter der Woche
 - app.net
-    * https://gnu.io
-    * https://joindiaspora.com/
+    * [GNU Social](https://gnu.io )
+    * [Diaspora](https://joindiaspora.com/ )
 - Alternativen - noch ein Socialplatform project: [Movim](https://movim.eu/ )    
 - [ubuntu touch]( http://www.pro-linux.de/news/1/24333/canonical-friert-ubuntu-touch-entwicklung-vorl%C3%A4ufig-ein.html )
 
