@@ -13,7 +13,7 @@ audioformats:
   m4a: http://download.binaergewitter.de/2017-01-19.Binaergewitter.Talk.164.m4a
   opus: http://download.binaergewitter.de/2017-01-19.Binaergewitter.Talk.164.opus
 ---
-Nach dem wir wieder gesund sind haben sich Markus und Ingo einen Gast der sich mit Smarthome auskennt. Neben dem üblichen Themen erklärt uns 
+Nach dem wir wieder gesund sind, unterhalten sich Markus und Ingo mit einem Gast, der sich mit Smarthome auskennt. Neben den üblichen Themen erklärt uns 
 [Taki](https://twitter.com/stony2k ) wie er sein Wohnung steuert.
 
 ## Toter der Woche
