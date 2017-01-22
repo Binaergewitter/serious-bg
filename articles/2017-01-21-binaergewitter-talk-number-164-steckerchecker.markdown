@@ -31,10 +31,7 @@ Nach dem wir wieder gesund sind haben sich Markus und Ingo einen Gast der sich m
 ## News
 - [Chelsea Manning]( 
 https://www.heise.de/newsticker/meldung/Strafmilderung-fuer-Whistleblowerin-Chelsea-Manning-Haftentlassung-am-17-Mai-2017-statt-2045-3599999.html )
-
-
 - [Apple beteuert, sie seien „comitted to the Mac“](https://techcrunch.com/2016/12/19/apples-tim-cook-assures-employees-that-it-is-committed-to-the-mac-and-that-great-desktops-are-coming/ )
-
 - [Neue UI für Jenkins](https://jenkins.io/projects/blueocean/ )
 
 ## Follow Ups
@@ -46,9 +43,8 @@ https://www.heise.de/newsticker/meldung/Strafmilderung-fuer-Whistleblowerin-Chel
     * [Eurotronic Comet DECT](http://amzn.to/2j9ESWs )
     * [HomeMatic Heizkörperthermostat](http://amzn.to/2k1iUFZ )
     * [Wandthermostat](http://amzn.to/2jMAP62 )
-)
 - [RaspberryMatic](https://github.com/jens-maus/RaspberryMatic/releases/tag/2.25.15.20170114 )
--[Homematic für RasPi](https://www.elv.de/homematic-funkmodul-fuer-raspberry-pi-bausatz.html/refid/zanox/zanpid/2257263258556044288 )
+- [Homematic für RasPi](https://www.elv.de/homematic-funkmodul-fuer-raspberry-pi-bausatz.html/refid/zanox/zanpid/2257263258556044288 )
 - [Android App Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=de )
 - [Telekom Smartphome]( https://www.smarthome.de/ )
 
@@ -67,7 +63,6 @@ https://www.heise.de/newsticker/meldung/Strafmilderung-fuer-Whistleblowerin-Chel
        - Tipp an unsere Hörer: Die auf dem 33C3 verteilten Aufkleber lassen sich gut mit Wasser lösen/entfernen.
 - Nextcloud Kalender nach Update mit Thunderbird
 - phpmodfilter plötzlich installiert
-
 - 4k Monitor am MBP
     * [BlackBar on 4k Displays with Mozilla Tools and MBP](https://bugzilla.mozilla.org/show_bug.cgi?id=1203881 )
 - jeder macht blaue Logos -> man kann beim Switch per Alt+Tab / Cmd+Tab nur schwer unterscheiden
@@ -76,7 +71,7 @@ https://www.heise.de/newsticker/meldung/Strafmilderung-fuer-Whistleblowerin-Chel
 ## Picks
 - ssh magic - control master 
 - [projectzomboid](https://www.projectzomboid.com/ )
-- http://www.thezombiehunters.com/
-- http://www.tilllate.com/de/story/zombie-studie
+- [thezombiehunters](http://www.thezombiehunters.com/ )
+- [Zombie-Studie](http://www.tilllate.com/de/story/zombie-studie )
 
 
