@@ -6,7 +6,7 @@ comments: true
 categories: talk
 sharing: true
 release: 2
-published: true
+published: false
 audioformats:
   mp3: http://download.binaergewitter.de/2017-01-19.Binaergewitter.Talk.164.mp3
   ogg: http://download.binaergewitter.de/2017-01-19.Binaergewitter.Talk.164.ogg
