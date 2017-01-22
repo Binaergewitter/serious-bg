@@ -5,7 +5,7 @@ date: 2017-01-21 19:00
 comments: true
 categories: talk
 sharing: true
-release: 2
+release: 3
 published: false
 audioformats:
   mp3: http://download.binaergewitter.de/2017-01-19.Binaergewitter.Talk.164.mp3
@@ -49,7 +49,8 @@ https://www.heise.de/newsticker/meldung/Strafmilderung-fuer-Whistleblowerin-Chel
 - [Telekom Smartphome]( https://www.smarthome.de/ )
 
 ### Steckdosen
-- https://forum.power-switch.eu/viewtopic.php?f=6&t=259&p=5563&hilit=iltr+3500#p5563
+- [Intertechno 3mal "Baumarkt" Funksteckdosen]( http://amzn.to/2k3uvUP )
+- [Intertechno Gateway](https://forum.power-switch.eu/viewtopic.php?f=6&t=259&p=5563&hilit=iltr+3500#p5563 )
 - [connair](http://www.l3x.de/connair/ )
 
 ## Lesefoo
