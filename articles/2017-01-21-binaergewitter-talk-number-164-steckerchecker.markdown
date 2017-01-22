@@ -39,14 +39,15 @@ https://www.heise.de/newsticker/meldung/Strafmilderung-fuer-Whistleblowerin-Chel
 
 ## Themen
 ### Smarthome
-- Feuchtigkeitssensor / Heizungssteuerung / brauche Tipps
+- Feuchtigkeitssensor / Heizungssteuerung
     * [Eurotronic Comet DECT](http://amzn.to/2j9ESWs )
     * [HomeMatic Heizkörperthermostat](http://amzn.to/2k1iUFZ )
     * [Wandthermostat](http://amzn.to/2jMAP62 )
 - [RaspberryMatic](https://github.com/jens-maus/RaspberryMatic/releases/tag/2.25.15.20170114 )
 - [Homematic für RasPi](https://www.elv.de/homematic-funkmodul-fuer-raspberry-pi-bausatz.html/refid/zanox/zanpid/2257263258556044288 )
 - [Android App Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=de )
-- [Telekom Smartphome]( https://www.smarthome.de/ )
+- [Homematic IP Informationsseite von ELV](https://www.elv.de/homematic-ip.html)
+- [Telekom Smarthome]( https://www.smarthome.de/ )
 
 ### Steckdosen
 - [Intertechno 3mal "Baumarkt" Funksteckdosen]( http://amzn.to/2k3uvUP )
