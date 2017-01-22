@@ -5,6 +5,7 @@ date: 2017-01-21 19:00
 comments: true
 categories: talk
 sharing: true
+release: 2
 published: true
 audioformats:
   mp3: http://download.binaergewitter.de/2017-01-19.Binaergewitter.Talk.164.mp3
@@ -24,19 +25,15 @@ Nach dem wir wieder gesund sind haben sich Markus und Ingo einen Gast der sich m
 
 ## Klage der Woche
 
-- Typ behauptet, 1978 alleine die E-Mail erfunden zu haben 
-https://www.heise.de/newsticker/meldung/Bizarrer-Streit-um-Erfindung-der-E-Mail-Techdirt-fuerchtet-nach-Klage-Konkurs-3594473.html
-    - beklagter Artikel von Techdirt: 
-https://www.techdirt.com/articles/20140901/07280928386/huffpo-publishes-bizarre-misleading-factually-incorrect-multi-part-series-pretending-guy-invented-email-even-though-he-didnt.shtml
+- [Typ behauptet, 1978 alleine die E-Mail erfunden zu haben](https://www.heise.de/newsticker/meldung/Bizarrer-Streit-um-Erfindung-der-E-Mail-Techdirt-fuerchtet-nach-Klage-Konkurs-3594473.html )
+    - [beklagter Artikel von Techdirt](https://www.techdirt.com/articles/20140901/07280928386/huffpo-publishes-bizarre-misleading-factually-incorrect-multi-part-series-pretending-guy-invented-email-even-though-he-didnt.shtml )
 
 ## News
 - [Chelsea Manning]( 
 https://www.heise.de/newsticker/meldung/Strafmilderung-fuer-Whistleblowerin-Chelsea-Manning-Haftentlassung-am-17-Mai-2017-statt-2045-3599999.html )
 
 
-- Apple beteuert, sie seien „comitted to the Mac“ 
-https://techcrunch.com/2016/12/19/apples-tim-cook-assures-employees-that-it-is-committed-to-the-mac-and-that-great-desktops-are-coming/ - ist das vergleichbar mit 
-„vollstes vertrauen aussprechen“ ? :) 
+- [Apple beteuert, sie seien „comitted to the Mac“](https://techcrunch.com/2016/12/19/apples-tim-cook-assures-employees-that-it-is-committed-to-the-mac-and-that-great-desktops-are-coming/ )
 
 - [Neue UI für Jenkins](https://jenkins.io/projects/blueocean/ )
 
@@ -47,7 +44,7 @@ https://techcrunch.com/2016/12/19/apples-tim-cook-assures-employees-that-it-is-c
 ### Smarthome
 - Feuchtigkeitssensor / Heizungssteuerung / brauche Tipps
     * [Eurotronic Comet DECT](http://amzn.to/2j9ESWs )
-    * [HomeMatic Heizkörper](http://amzn.to/2k1iUFZ )
+    * [HomeMatic Heizkörperthermostat](http://amzn.to/2k1iUFZ )
     * [Wandthermostat](http://amzn.to/2jMAP62 )
 )
 - [RaspberryMatic](https://github.com/jens-maus/RaspberryMatic/releases/tag/2.25.15.20170114 )
@@ -57,23 +54,22 @@ https://techcrunch.com/2016/12/19/apples-tim-cook-assures-employees-that-it-is-c
 
 ### Steckdosen
 - https://forum.power-switch.eu/viewtopic.php?f=6&t=259&p=5563&hilit=iltr+3500#p5563
-- http://www.l3x.de/connair/
+- [connair](http://www.l3x.de/connair/ )
 
 ## Lesefoo
 - [Windows 10 Apps](http://www.howtogeek.com/224798/how-to-uninstall-windows-10s-built-in-apps-and-how-to-reinstall-them/ )
 
 ## Mimimi der Woche
 - Sticker drucken
-    * diedruckerrei - blödes UI
-    * flyeralarm - nutzt UPS und die kommen nicht Samstags - wollen komisches PDF Format
-    -> dafür haben wir jetzt ein neues SVG Logo und können das in die Webseite einbauen
-    * Tipp an unsere Hörer: Die auf dem 33C3 verteilten Aufkleber lassen sich gut mit Wasser lösen/entfernen.
-- Nextcloud Kalender nach Update / Thunderbird
+    * diedruckerrei
+    * flyeralarm
+       - dafür haben wir jetzt ein neues SVG Logo und können das in die Webseite einbauen
+       - Tipp an unsere Hörer: Die auf dem 33C3 verteilten Aufkleber lassen sich gut mit Wasser lösen/entfernen.
+- Nextcloud Kalender nach Update mit Thunderbird
 - phpmodfilter plötzlich installiert
 
 - 4k Monitor am MBP
     * [BlackBar on 4k Displays with Mozilla Tools and MBP](https://bugzilla.mozilla.org/show_bug.cgi?id=1203881 )
-    
 - jeder macht blaue Logos -> man kann beim Switch per Alt+Tab / Cmd+Tab nur schwer unterscheiden
 - random Bluescreen während man ein Video auf Fullscreen stellt bei Windows 10
 
@@ -81,6 +77,6 @@ https://techcrunch.com/2016/12/19/apples-tim-cook-assures-employees-that-it-is-c
 - ssh magic - control master 
 - [projectzomboid](https://www.projectzomboid.com/ )
 - http://www.thezombiehunters.com/
-* http://www.tilllate.com/de/story/zombie-studie
+- http://www.tilllate.com/de/story/zombie-studie
 
 
