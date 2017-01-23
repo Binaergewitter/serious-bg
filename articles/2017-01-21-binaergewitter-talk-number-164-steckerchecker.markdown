@@ -17,16 +17,15 @@ Nach dem wir wieder gesund sind, unterhalten sich Markus und Ingo mit einem Gast
 [Taki](https://twitter.com/stony2k ) wie er sein Wohnung steuert.
 
 ## Toter der Woche
-- app.net
+- [app.net]( http://blog.app.net/2017/01/12/app-net-is-shutting-down/ )
     * [GNU Social](https://gnu.io )
     * [Diaspora](https://joindiaspora.com/ )
-- Alternativen - noch ein Socialplatform project: [Movim](https://movim.eu/ )    
+- Alternativen - noch ein Socialplatform project: [Movim]( https://movim.eu/ )    
 - [ubuntu touch]( http://www.pro-linux.de/news/1/24333/canonical-friert-ubuntu-touch-entwicklung-vorl%C3%A4ufig-ein.html )
 
 ## Klage der Woche
-
 - [Typ behauptet, 1978 alleine die E-Mail erfunden zu haben](https://www.heise.de/newsticker/meldung/Bizarrer-Streit-um-Erfindung-der-E-Mail-Techdirt-fuerchtet-nach-Klage-Konkurs-3594473.html )
-    - [beklagter Artikel von Techdirt](https://www.techdirt.com/articles/20140901/07280928386/huffpo-publishes-bizarre-misleading-factually-incorrect-multi-part-series-pretending-guy-invented-email-even-though-he-didnt.shtml )
+    * [beklagter Artikel von Techdirt](https://www.techdirt.com/articles/20140901/07280928386/huffpo-publishes-bizarre-misleading-factually-incorrect-multi-part-series-pretending-guy-invented-email-even-though-he-didnt.shtml )
 
 ## News
 - [Chelsea Manning]( 
@@ -50,7 +49,7 @@ https://www.heise.de/newsticker/meldung/Strafmilderung-fuer-Whistleblowerin-Chel
 - [Telekom Smarthome]( https://www.smarthome.de/ )
 
 ### Steckdosen
-- [Intertechno 3mal "Baumarkt" Funksteckdosen]( http://amzn.to/2k3uvUP )
+- [Intertechno 3 mal "Baumarkt" Funksteckdosen]( http://amzn.to/2k3uvUP )
 - [Intertechno Gateway](https://forum.power-switch.eu/viewtopic.php?f=6&t=259&p=5563&hilit=iltr+3500#p5563 )
 - [connair](http://www.l3x.de/connair/ )
 
