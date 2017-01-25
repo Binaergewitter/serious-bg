@@ -47,6 +47,9 @@ https://www.heise.de/newsticker/meldung/Strafmilderung-fuer-Whistleblowerin-Chel
 - [Android App Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=de )
 - [Homematic IP Informationsseite von ELV](https://www.elv.de/homematic-ip.html)
 - [Telekom Smarthome]( https://www.smarthome.de/ )
+- [FHEM](http://fhem.de/ )
+- [openHAB]( http://www.openhab.org/ )
+- [WP: Z-Wave]( https://de.wikipedia.org/wiki/Z-Wave )
 
 ### Steckdosen
 - [Intertechno 3 mal "Baumarkt" Funksteckdosen]( http://amzn.to/2k3uvUP )
@@ -70,7 +73,7 @@ https://www.heise.de/newsticker/meldung/Strafmilderung-fuer-Whistleblowerin-Chel
 - random Bluescreen während man ein Video auf Fullscreen stellt bei Windows 10
 
 ## Picks
-- ssh magic - control master 
+- [ssh magic - control master]( https://www.linux.com/news/accelerating-openssh-connections-controlmaster )
 - [projectzomboid](https://www.projectzomboid.com/ )
 - [thezombiehunters](http://www.thezombiehunters.com/ )
 - [Zombie-Studie](http://www.tilllate.com/de/story/zombie-studie )
