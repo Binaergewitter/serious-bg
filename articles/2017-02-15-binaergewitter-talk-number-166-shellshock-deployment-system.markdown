@@ -22,10 +22,10 @@ https://developers.slashdot.org/story/17/02/02/1453229/gitlab-says-it-found-lost
   * [Feb 1: Check Your Backups Day]( http://checkyourbackups.work/ )
 
 ## Toter der Woche
-- []https://www.heise.de/newsticker/meldung/Endgueltiges-Aus-fuer-Firefox-OS-3617285.html
-- []https://www.computerbase.de/2017-02/linux-muenchen-limux-windows/
-- []http://www.pro-linux.de/news/1/24450/verwirrung-um-skype-f%C3%BCr-linux.html
-- []( https://www.heise.de/newsticker/meldung/Steam-Valve-stampft-Greenlight-ein-3623262.html )
+- [Firefox OS]( https://www.heise.de/newsticker/meldung/Endgueltiges-Aus-fuer-Firefox-OS-3617285.html )
+- [LiMux]( https://www.computerbase.de/2017-02/linux-muenchen-limux-windows/ )
+- [Skype unter Linux]( http://www.pro-linux.de/news/1/24450/verwirrung-um-skype-f%C3%BCr-linux.html )
+- [Greenlight]( https://www.heise.de/newsticker/meldung/Steam-Valve-stampft-Greenlight-ein-3623262.html )
 
 
 ## News
