@@ -61,9 +61,9 @@ https://developers.slashdot.org/story/17/02/02/1453229/gitlab-says-it-found-lost
 - [Hacking a Peeple]( https://binaryfury.wann.net/2017/02/hacking-a-peeple/ )
   * [Home Assistant]( https://home-assistant.io/ )
   * [So it has come to this]( https://xkcd.com/1022/ )
-  * DECT ULE
-  * DECT 100
-  * z-Wave
+  * [DECT ULE](http://www.elektronikpraxis.vogel.de/themen/hardwareentwicklung/datenkommunikationsics/articles/416061/ )
+  * [DECT 100](http://amzn.to/2lavbJ1 )
+  * [z-Wave](http://www.z-wave.com/ )
   * [Raiden]( http://mortalkombat.wikia.com/wiki/Raiden )
 
 ## Mimimi der Woche
