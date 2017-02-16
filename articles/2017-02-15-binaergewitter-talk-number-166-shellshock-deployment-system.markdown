@@ -35,7 +35,8 @@ https://developers.slashdot.org/story/17/02/02/1453229/gitlab-says-it-found-lost
 - [PHP 7.2 - Libsodium]( https://dev.to/paragonie/php-72-the-first-programming-language-to-add-modern-cryptography-to-its-standard-library )
 - [Python 3.6]( https://docs.python.org/3/whatsnew/3.6.html )
 - [Jenkins 16 CVEs]( https://jenkins.io/security/advisory/2017-02-01/ )
-  * [ ]( http://nixos.org/nix/manual/#idm140737318143472 )
+  * [Nix string templating example]( http://nixos.org/nix/manual/#idm140737318143472 )
+  * Ruby string templating example: `"Hallo Welt #{ 2 + 9 }"`
 * [Denuvo hat seinen daten auf public Webserver vergessen]( google: denuvo revolt )
 * [The next big thing: ram-only malware]( https://www.heise.de/newsticker/meldung/Dateilose-Infektion-Einbruch-ohne-Spuren-3623084.html )
 - [Ticketbleed]( https://filippo.io/Ticketbleed/ )
@@ -53,16 +54,16 @@ https://developers.slashdot.org/story/17/02/02/1453229/gitlab-says-it-found-lost
 
 ## Lesefoo
 
- - [Snapshots in APFS]( https://arstechnica.com/apple/2017/02/testing-out-snapshots-in-apples-next-generation-apfs-file-system/ )
+- [Snapshots in APFS]( https://arstechnica.com/apple/2017/02/testing-out-snapshots-in-apples-next-generation-apfs-file-system/ )
      * [APFS in iOS 10.3]( https://arstechnica.com/apple/2017/01/ios-10-3-will-be-apples-first-update-to-convert-storage-to-apfs/ )
      * [Android dual partition]( https://arstechnica.com/gadgets/2016/05/android-n-borrows-chrome-os-code-for-seamless-update-installation/ )
      * [takeover.sh]( https://github.com/marcan/takeover.sh )
 - [Hacking a Peeple]( https://binaryfury.wann.net/2017/02/hacking-a-peeple/ )
   * [Home Assistant]( https://home-assistant.io/ )
   * [So it has come to this]( https://xkcd.com/1022/ )
-  * [DECT ULE](http://www.elektronikpraxis.vogel.de/themen/hardwareentwicklung/datenkommunikationsics/articles/416061/ )
-  * [DECT 100](http://amzn.to/2lavbJ1 )
-  * [z-Wave](http://www.z-wave.com/ )
+  * DECT ULE
+  * DECT 100
+  * z-Wave
   * [Raiden]( http://mortalkombat.wikia.com/wiki/Raiden )
 
 ## Mimimi der Woche
@@ -73,7 +74,7 @@ https://developers.slashdot.org/story/17/02/02/1453229/gitlab-says-it-found-lost
 - [Bayes DB]( http://probcomp.csail.mit.edu/bayesdb/ )
 - [Webslides]( https://webslides.tv/ )
 - [Firefox + vimperator]( https://addons.mozilla.org/en-US/firefox/addon/vimperator/ )
-- [Rollercoaster Tycoon Classic iOS]( https://itunes.apple.com/de/app/rollercoaster-tycoon-classic/id1113736426?mt=8&at=1l3vtbq)
+- [Rollercoaster Tycoon Classic iOS]( https://itunes.apple.com/us/app/rollercoaster-tycoon-classic/id1113736426?mt=8 )
 - [Rollercoaster Tycoon Classic Android]( https://play.google.com/store/apps/details?id=com.atari.mobile.rctc&hl=de )
 - [dnscrypt-proxy]( https://github.com/jedisct1/dnscrypt-proxy/wiki )
   * [NixOS Config]( http://cgit.euer.krebsco.de/stockholm/diff/makefu/2configs/dnscrypt.nix?id=9f90562662f7fffa4aa97c704dd5d27325dbe9b7 )
