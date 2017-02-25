@@ -30,8 +30,8 @@ Felix und Ingo nur die Achseln zucken.
 - Nextcloud 11
 
 ## News
-- http://www.pro-linux.de/news/1/24474/minifree-stellt-weiteres-freies-notebook-vor.html
-    - https://www.heise.de/newsticker/meldung/Linux-Tueftler-wollen-Intels-Management-Engine-abschalten-3596075.html
+- [Minifree - Freies Notebook](http://www.pro-linux.de/news/1/24474/minifree-stellt-weiteres-freies-notebook-vor.html )
+    * [Management Engine abschalten](https://www.heise.de/newsticker/meldung/Linux-Tueftler-wollen-Intels-Management-Engine-abschalten-3596075.html )
 
 ## Themen
 
@@ -45,7 +45,7 @@ Felix und Ingo nur die Achseln zucken.
 
 
 ## Lesefoo
-- React or Angular? https://www.robinwieruch.de/reasons-why-i-moved-from-angular-to-react/
+- [React or Angular?](https://www.robinwieruch.de/reasons-why-i-moved-from-angular-to-react/ )
 
 ## Picks
 - [IconFonts inspizieren](http://bluejamesbond.github.io/CharacterMap/ )
