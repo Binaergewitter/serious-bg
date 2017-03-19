@@ -37,7 +37,7 @@ https://arstechnica.com/science/2017/03/switching-apartment-metering-shocks-elec
 ## Themen
 
 - [Gitter wird gekauft](https://www.heise.de/newsticker/meldung/GitLab-kauft-Entwickler-Chat-Plattform-Gitter-3655144.html )
-  - "All problems in computer science can be solved by another level of indirection ...except for the problem of too many layers of indirection."
+  * "All problems in computer science can be solved by another level of indirection ...except for the problem of too many layers of indirection."
 - [XKCD](https://xkcd.com/1810/ )
 - [Sicherheitslücke in Webviews von Telegram und 
 Whatsapp](https://www.heise.de/newsticker/meldung/Schwere-Sicherheitsluecke-in-den-Web-Oberflaechen-von-WhatsApp-und-Telegram-geschlossen-3653793.html )
@@ -51,14 +51,14 @@ Whatsapp](https://www.heise.de/newsticker/meldung/Schwere-Sicherheitsluecke-in-d
 - RAID 1 bei dem beide Platten ausfallen
 - Klassische Server
 - SVG QRCode zu 3D objekt ist viel zu kompliziert
-  - Aufgegeben: [github:qr2cad]( https://github.com/brad/qr2cad )
+  * Aufgegeben: [github:qr2cad]( https://github.com/brad/qr2cad )
 - [CloudAtCost geänderte Terms: $9 pro Jahr bei one-time-fee]( http://www.cloudatcost.com/terms.php )
 - Brummen auf der Audiospur
  * [Sendegate Erdungskabel Bastelanleitung]( https://sendegate.de/t/bastelecke-erdungskabel-gegen-50hz-netzbrummen/3262 )
  * [Erdungsarmband]( http://amzn.to/2mxFMNd )
 
 ## Picks
-- [netboot.xyz](netboot.xyz)
+- [netboot.xyz](https://netboot.xyz)
 - [Zonemaster.net](https://www.zonemaster.net/ )
 - [Lesefoo Rundumschlag]( http://www.dev-books.com/ )
 - [Tumblr: knusprig.titten.hitler]( http://knusprig-titten-hitler.tumblr.com/ )
