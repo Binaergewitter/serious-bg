@@ -17,7 +17,7 @@ Felix und Ingo nur die Achseln zucken.
 
 ## dotkom der Woche
 - [Kim Dotcom darf an USA ausgeliefert werden]( http://www.zeit.de/digital/2017-02/megaupload-gericht-urteil-kim-dotcom-auslieferung-neuseeland-usa )
-- https://www.youtube.com/watch?v=o0Wvn-9BXVc
+- [Kim Dotcom - Megaupload Song HD]( https://www.youtube.com/watch?v=o0Wvn-9BXVc ) 
 - [Auftritte Usenet 1996 - 2000]( http://arnold.babsi.de/KIMBLE.txt )
 
 ## Toter der Woche
@@ -27,7 +27,7 @@ Felix und Ingo nur die Achseln zucken.
 ## Zwischen Thema
 - [Cardbook](https://addons.mozilla.org/de/thunderbird/addon/cardbook/?src=cb-dl-updated )
 - [xhtml](https://de.wikipedia.org/wiki/Extensible_Hypertext_Markup_Language )
-- Nextcloud 11
+- [Nextcloud 11]( https://nextcloud.com/blog/nextcloud-11-sets-new-standard-for-security-and-scalability/ )
 
 ## News
 - [Minifree - Freies Notebook](http://www.pro-linux.de/news/1/24474/minifree-stellt-weiteres-freies-notebook-vor.html )
