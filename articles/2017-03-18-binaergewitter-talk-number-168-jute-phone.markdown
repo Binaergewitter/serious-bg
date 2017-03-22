@@ -38,6 +38,7 @@ https://arstechnica.com/science/2017/03/switching-apartment-metering-shocks-elec
 
 - [Gitter wird gekauft](https://www.heise.de/newsticker/meldung/GitLab-kauft-Entwickler-Chat-Plattform-Gitter-3655144.html )
   * "All problems in computer science can be solved by another level of indirection ...except for the problem of too many layers of indirection."
+  * [Binärgewitter Chat auf Gitter](https://gitter.im/Binaergewitter )
 - [XKCD](https://xkcd.com/1810/ )
 - [Sicherheitslücke in Webviews von Telegram und 
 Whatsapp](https://www.heise.de/newsticker/meldung/Schwere-Sicherheitsluecke-in-den-Web-Oberflaechen-von-WhatsApp-und-Telegram-geschlossen-3653793.html )
