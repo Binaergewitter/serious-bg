@@ -40,8 +40,8 @@ https://arstechnica.com/security/2017/03/firefox-gets-complaint-for-labeling-une
 
 - BSD
   * Konferenzen
-    * [TokyoBSD]
-    * [EuroBSDcon]
+    * [AsiaBSDCon]( https://2017.asiabsdcon.org/ )
+    * [EuroBSDcon]( https://2017.eurobsdcon.org/ )
   * Releases
     - [NetBSD 7.1]( https://www.netbsd.org/releases/formal-7/NetBSD-7.1.html )
     - [DragonFly BSD 4.8]( https://www.dragonflybsd.org/release48/ )
