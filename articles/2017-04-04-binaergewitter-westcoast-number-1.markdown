@@ -24,7 +24,7 @@ http://redmonk.com/fryan/2016/12/12/on-the-myth-of-the-10x-engineer-and-the-real
 - [Reuse]( http://blog.jessitron.com/2017/02/reuse.html )
 - [Intel’s first Optane SSD: 375GB that you can also use as RAM]( 
 https://arstechnica.com/information-technology/2017/03/intels-first-optane-ssd-375gb-that-you-can-also-use-as-ram/ )
-    * http://n-gate.com/hackernews/2017/03/21/0/
+    * [webshit weekly]( http://n-gate.com/hackernews/2017/03/21/0/ )
 - [What Westworld can teach us about DevOps]( http://naildrivin5.com/blog/2017/01/10/what-westworld-can-teach-us-about-devops.html )
     * [HBO's Westworld]( http://www.imdb.com/title/tt0475784/ )
 - [The AMD Zen and Ryzen 7 Review: A Deep Dive on 1800X, 1700X and 1700]( 
@@ -34,7 +34,7 @@ http://www.anandtech.com/show/11170/the-amd-zen-and-ryzen-7-review-a-deep-dive-o
 - [Dodging S3 Downtime With Nginx and HAProxy]( https://blog.sentry.io/2017/03/01/dodging-s3-downtime-with-nginx-and-haproxy.html )
 - [Is your site leaking password reset links?]( https://robots.thoughtbot.com/is-your-site-leaking-password-reset-links )
 - [Using Ordered Markov Chains and User Information to speed up Password Cracking]( 
-http://webcache.googleusercontent.com/search?q=cache:vmzkqKB6rOYJ:fsecurify.com/using-ordered-markov-chains-and-user-information-to-speed-up-password-cracking+&cd=1&hl=en&ct=clnk&gl=us 
+https://web.archive.org/web/20170227004714/http://fsecurify.com/using-ordered-markov-chains-and-user-information-to-speed-up-password-cracking/ 
 )
 - [Incident Management at Google]( https://cloudplatform.googleblog.com/2017/02/Incident-management-at-Google-adventures-in-SRE-land.html )
     * [Chaos Monkey]( https://github.com/Netflix/SimianArmy/wiki/Chaos-Monkey )
@@ -43,13 +43,13 @@ http://webcache.googleusercontent.com/search?q=cache:vmzkqKB6rOYJ:fsecurify.com/
 
 - [Password rules are bullshit]( https://blog.codinghorror.com/password-rules-are-bullshit/ )
 - Netzwerk Kamera software
-    * https://blinkforhome.com/
+    * [blinkforhome]( https://blinkforhome.com/ )
     * Zoneminder?
-    * https://motion-project.github.io/
+    * [Motion]( https://motion-project.github.io/ )
     * [OpenCV]( http://opencv.org/ )
 - Bluetooth adapter/receiver
 - Android Tablets
-    * ‎Nvidia Shield Tablet K1
+    * Nvidia Shield Tablet K1
 
 ## Picks
 
