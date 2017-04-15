@@ -38,7 +38,7 @@ Okay okay wir haben doch auch über Apple geredet, aber dafür gibt es diesmal a
 - [US Navy Schiffe ab jetzt mit Linux](http://arstechnica.com/information-technology/2013/10/the-navys-newest-warship-is-powered-by-linux/ )
     * [USS Enterprise](http://de.wikipedia.org/wiki/USS_Enterprise_(CVN-65\) )
 - [CERN veröffentlicht Bilder unter CC]( http://home.web.cern.ch/about/updates/2013/10/cern-releases-photos-under-creative-commons-licence )
-- [Geckphone release]( https://blog.mozilla.org/blog/2013/10/22/telefonica-vivo-launches-firefox-os-smartphones-in-brazil/ )
+- [Geekphone release]( https://blog.mozilla.org/blog/2013/10/22/telefonica-vivo-launches-firefox-os-smartphones-in-brazil/ )
     * [Congstar]( http://www.congstar.de/firefox-os/ )
     * [Unboxing]( http://danieru.com/2013/10/22/unboxing-the-firefox-os-zte-open-setup/ ) 
 - [Serf]( http://www.serfdom.io/ )
