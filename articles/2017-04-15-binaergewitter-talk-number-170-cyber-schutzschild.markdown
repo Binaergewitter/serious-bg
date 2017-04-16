@@ -30,8 +30,6 @@ Ostern 2017 und auch wir müssen über die Toten der Woche reden. Mit Felix, Fel
 
 - [Mastodon](https://github.com/tootsuite/mastodon )
     - ["Ganz infosectwitter"](https://mastodon.social/@fj/1488498 ) wechselt zu Mastodon
-    - dezentral (federated), freie Software, kompatibel mit GNUsocial/ quitter dank OStatus
-
 
 ## Toter der Woche
 
@@ -73,13 +71,11 @@ https://www.heise.de/newsticker/meldung/Kim-Dotcom-wendet-sich-wegen-seines-besc
 - [Windows Subsystem for Linux]( https://blogs.msdn.microsoft.com/commandline/2017/04/11/windows-10-creators-update-whats-new-in-bashwsl-windows-console/ )
 - [NixOS neues stable release](http://www.linux-magazin.de/content/view/full/110445 )
   - [Heise Artikel]( https://www.heise.de/ix/meldung/Mit-alternativer-Paketverwaltung-Linux-Distribution-NixOS-17-03-erschienen-3672948.html )
-- http://derstandard.at/2000055627789/Unesco-protestiert-gegen-DRM-Standard-im-Netz
-    * Netflix ist toll weils unter Linux geht
-    * Netflix ist scheiße weil Blocken Linux Distros
+- [Unesco gegen DRM im Internet](http://derstandard.at/2000055627789/Unesco-protestiert-gegen-DRM-Standard-im-Netz )
 - [Amerikanische Wissenschaftler haben herausgefunden: "Facebook macht depressiv"]( https://www.theregister.co.uk/2017/04/12/facebook_makes_you_sad/ )
 
 ## Themen
-- Thimbleweed Park ( http://store.steampowered.com/app/569860/ )
+- [Thimbleweed Park]( http://store.steampowered.com/app/569860/ )
 - Letsencrypt via DNS Challenge
     https://github.com/lukas2511/dehydrated
 - Messenger
