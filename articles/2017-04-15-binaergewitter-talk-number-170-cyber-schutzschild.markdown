@@ -36,7 +36,7 @@ Ostern 2017 und auch wir müssen über die Toten der Woche reden. Mit Felix, Fel
 - [Yahoo und AOL]( https://www.mobilegeeks.de/news/zwei-grosse-namen-verschwinden-aus-yahoo-und-aol-wird-oath/ )
   - [l33tname sein tumblr (nsfw)]( http://l33tscript.tumblr.com/ )
 - [Flattr wurde gekauft]( https://blog.flattr.net/2017/04/adblock-plus-flattr-join-forces/ )
-   https://www.patreon.com/
+    * [patreon]( https://www.patreon.com/ )
 - [UbuntuPhone und Convergenz]( https://insights.ubuntu.com/2017/04/05/growing-ubuntu-for-cloud-and-iot-rather-than-phone-and-convergence/ )
     * [Community will Unity 8 weiterentwickeln]( http://www.pro-linux.de/news/1/24642/erste-forks-von-unity-8.html )
     * [und Ubuntuphone]( http://www.pro-linux.de/news/1/23732/ubports-bringt-gro%C3%9Fes-update-f%C3%BCr-die-inoffiziellen-ubuntu-phones.html )
@@ -53,7 +53,7 @@ Ostern 2017 und auch wir müssen über die Toten der Woche reden. Mit Felix, Fel
 
 - [Dotcom ruft den US Supreme Court]( 
 https://www.heise.de/newsticker/meldung/Kim-Dotcom-wendet-sich-wegen-seines-beschlagnahmten-Vermoegens-an-den-US-Supreme-Court-3681217.html )
-- [film trailer]( https://www.youtube.com/watch?v=0f4bHwlfiYU )
+- [Film Trailer]( https://www.youtube.com/watch?v=0f4bHwlfiYU )
 
 
 ## News
@@ -77,7 +77,7 @@ https://www.heise.de/newsticker/meldung/Kim-Dotcom-wendet-sich-wegen-seines-besc
 ## Themen
 - [Thimbleweed Park]( http://store.steampowered.com/app/569860/ )
 - Letsencrypt via DNS Challenge
-    https://github.com/lukas2511/dehydrated
+    * [dehydrated]( https://github.com/lukas2511/dehydrated )
 - Messenger
     - einen hatten wir vergessen [wire]( http://www.pro-linux.de/news/1/24650/instant-messenger-wire-legt-server-quellen-offen.html )
 
