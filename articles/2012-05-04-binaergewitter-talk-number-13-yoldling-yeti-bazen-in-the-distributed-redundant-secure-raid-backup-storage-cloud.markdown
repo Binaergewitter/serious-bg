@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Binärgewitter Talk #13 - Yodling Yeti Bazen in the Distributed Redundant Secure RAID Backup Storage Cloud"
+title: "Binärgewitter Talk #13 - Yodeling Yeti"
 date: 2012-05-04 14:30
 comments: true
 categories: talk
