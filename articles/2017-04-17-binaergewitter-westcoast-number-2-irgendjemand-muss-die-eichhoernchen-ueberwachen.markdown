@@ -54,7 +54,7 @@ audioformats:
 - Konkrete Probleme aufzeigen
 - Automatisierte Linter (shellcheck, foodcritic, rubocop, TSLint, pep8, ...)
   * Automatisches fixen von Fehlern
-  * [Editorconfig)(http://editorconfig.org/)
+  * [Editorconfig](http://editorconfig.org/)
 - [Der Emoji Code™](https://gist.github.com/pfleidi/4422a5cac5b04550f714f1f886d2feea)
 
 ### Potentielle Probleme
@@ -96,7 +96,7 @@ audioformats:
 - Kameras ohne Audio Eingang
   * [Kamera](https://www.amazon.com/Olympus-Mirrorless-Digital-Camera-14-42mm/dp/B01CIXJSOK) [bei Amazon.de](http://amzn.to/2p8gJGi)
 - Krepel Überwachungs Software (Kamera selber, Zoneminder, shinobi.video, Xeoma, MotionEye)
-  * nun: blinkforhome.com und https://github.com/fronzbot/blinkpy
+  * nun: [blinkforhome.com](https://blinkforhome.com/) und [blinkpy](https://github.com/fronzbot/blinkpy)
 - HomeKit-kompatibles Heimautomatisierungszeug
   * [Homebridge](https://github.com/nfarina/homebridge)
   * [Ha-bridge krepel](https://github.com/bwssytems/ha-bridge)
@@ -109,7 +109,7 @@ audioformats:
 
 - [Quickbox](http://quickbox.io)
 - [Dropbox Paper](https://paper.dropbox.com)
-- [The three body problem](https://www.amazon.com/Three-Body-Problem-Cixin-Liu/dp/0765382032https://www.amazon.com/Three-Body-Problem-Cixin-Liu/dp/0765382032) und [auf Amazon.de](http://amzn.to/2ofWZiv)
+- [The three body problem](https://en.wikipedia.org/wiki/The_Three-Body_Problem) und [auf Amazon.de](http://amzn.to/2ofWZiv)
 - [Blitzed: Drugs in the Third Reich](https://www.amazon.com/Blitzed-Drugs-Third-Norman-Ohler-ebook/dp/B01IAS9G94/) oder auf Deutsch als [Der totale Rausch](https://www.amazon.de/dp/3462050354/)
   * "[Restore the dictator to health](http://dobyfriday.com/18)"
 
