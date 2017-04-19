@@ -14,6 +14,8 @@ audioformats:
 ---
 # Binärgewitter Talk Westcoast #2: Irgendjemand muss ja die Eichhörnchen überwachen!
 
+Heute mit dabei: [Lukas](https://twitter.com/lumaxis)
+
 ## Feedback
 
 - Doofes Echo weil remote Podcast
