@@ -5,7 +5,7 @@ date: 2017-04-17 21:00
 comments: true
 categories: westcoast
 sharing: true
-published: false
+published: true
 audioformats:
   mp3: http://download.binaergewitter.de/2017-04-09.Binaergewitter.Westcoast.2.mp3
   ogg: http://download.binaergewitter.de/2017-04-09.Binaergewitter.Westcoast.2.ogg
