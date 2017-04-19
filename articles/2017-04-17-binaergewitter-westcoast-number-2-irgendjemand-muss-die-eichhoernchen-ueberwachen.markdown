@@ -12,8 +12,6 @@ audioformats:
   m4a: http://download.binaergewitter.de/2017-04-09.Binaergewitter.Westcoast.2.m4a
   opus: http://download.binaergewitter.de/2017-04-09.Binaergewitter.Westcoast.2.opus
 ---
-# Binärgewitter Talk Westcoast #2: Irgendjemand muss ja die Eichhörnchen überwachen!
-
 Heute mit dabei: [Lukas](https://twitter.com/lumaxis)
 
 ## Feedback
