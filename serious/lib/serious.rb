@@ -154,10 +154,10 @@ class Serious < Sinatra::Base
     get feed_url do
       feed_size = (params.delete('feed_size') || Serious.items_in_feed).to_i
       @page = (params.delete('page') || 0).to_i
-      category, audio_format = params[:splat]
+      @category, audio_format = params[:splat]
       @articles = Article.all(
         :audioformat => audio_format,
-        :category => category,
+        :category => @category,
         :limit => feed_size,
         :offset => @page * feed_size
       )
