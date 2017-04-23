@@ -9,34 +9,41 @@ Natürlich könnt ihr uns auch abonnieren. Wir sind schließlich ein Podcast. En
 
 Habt Spaß am Gerät.
 
-## MP3 Feed 
+## Feeds der Sendeformate
 
-[http://feeds.feedburner.com/binaergewitter-podcast](http://feeds.feedburner.com/binaergewitter-podcast)
+<table class='table'>
+  <tr>
+    <th>Sendeformat</th>
+    <th>MP3</th>
+    <th>AAC</th>
+    <th>Bit Torrent</th>
+    <th>auf iTunes</th>
+  </tr>
+  <tr>
+  <td>Alle</td>
+  <td><a href="http://blog.binaergewitter.de/podcast_feed/all/mp3/rss.xml">MP3 Feed</a></td>
+  <td><a href="http://blog.binaergewitter.de/podcast_feed/all/aac/rss.xml">AAC Feed</a></td>
+  <td><a href="http://bitlove.org/binaergewitter/talk/feed">Torrent Feed</a></td>
+  <td><a href="http://itunes.apple.com/de/podcast/binargewitter/id216877594">auf iTunes</a></td>
+  </tr>
+  <tr>
+    <td>Talk</td>
+    <td><a href="http://blog.binaergewitter.de/podcast_feed/talk/mp3/rss.xml">MP3 Feed</a></td>
+    <td><a href="http://blog.binaergewitter.de/podcast_feed/talk/aac/rss.xml">AAC Feed</a></td>
+  </tr>
+  <tr>
+    <td>Westcoast</td>
+    <td><a href="http://blog.binaergewitter.de/podcast_feed/westcoast/mp3/rss.xml">MP3 Feed</a></td>
+    <td><a href="http://blog.binaergewitter.de/podcast_feed/westcoast/aac/rss.xml">AAC Feed</a></td>
+  </tr>
+  <tr>
+    <td>Spezial</td>
+    <td><a href="http://blog.binaergewitter.de/podcast_feed/spezial/mp3/rss.xml">MP3 Feed</a></td>
+    <td><a href="http://blog.binaergewitter.de/podcast_feed/spezial/aac/rss.xml">AAC Feed</a></td>
+  </tr>
+</table>
 
-## OGG Vorbis Feed
-
-[http://feeds.feedburner.com/binaergewitter-podcast-ogg](http://feeds.feedburner.com/binaergewitter-podcast-ogg)
-
-## Bittorrent-Feed
-
-[http://bitlove.org/binaergewitter/talk/feed](http://bitlove.org/binaergewitter/talk/feed )
-
-## Opus Feed
-
-[http://feeds.feedburner.com/binaergewitter-podcast-opus](http://feeds.feedburner.com/binaergewitter-podcast-opus)
-
-## via iTunes
-
-[http://itunes.apple.com/de/podcast/binargewitter/id216877594](http://itunes.apple.com/de/podcast/binargewitter/id216877594)
-
-## miro
-
-[http://www.miroguide.com/audio/12898](http://www.miroguide.com/audio/12898)
-
-## podcast.de
-
-[http://www.podcast.de/podcast/6774/](http://www.podcast.de/podcast/6774/)
-
-## RSS Kommentarfeed
+## Kombinierter RSS Kommentarfeed
 
 [http://feeds.feedburner.com/binaergewitter-comments](http://feeds.feedburner.com/binaergewitter-comments)
+
