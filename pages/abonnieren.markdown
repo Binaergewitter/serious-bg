@@ -16,7 +16,7 @@ Habt Spaß am Gerät.
     <th>Sendeformat</th>
     <th>MP3</th>
     <th>AAC</th>
-    <th>AAC</th>
+    <th>Opus</th>
     <th>Bit Torrent</th>
     <th>auf iTunes</th>
   </tr>
