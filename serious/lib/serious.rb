@@ -78,6 +78,28 @@ class Serious < Sinatra::Base
       render :erb, :"_#{name}", :layout => false
     end
 
+    def catetory_tite(category)
+      if category.nil? || category == 'all'
+        return Serious.title
+      end
+
+      "#{Serious.title} #{category.capitalize}"
+    end
+
+    def category_url(category)
+      return Serious.url if category == 'all'
+
+      "#{Serious.url}/categories/#{category.downcase}"
+    end
+
+    def catetory_archive_path(category)
+      if category.nil? || category == 'all'
+        return "#{Serious.url}/archives"
+      end
+
+      "/archives/categories/#{category.downcase}"
+    end
+
     def get_xenim_api_data
       # update the cached response every ~15 sec
       if Time.now - settings.xenim_response_time > 15
@@ -122,6 +144,23 @@ class Serious < Sinatra::Base
   get '/' do
     @recent = Article.all(:limit => Serious.items_on_index)
     @archived = Article.all(:limit => Serious.archived_on_index, :offset => Serious.items_on_index)
+    erb :index
+  end
+
+  get "/categories/:category" do
+    @category = params['category']
+
+    @recent = Article.all(
+      :category => @category,
+      :limit => Serious.items_on_index
+    )
+
+    @archived = Article.all(
+      :category => @category,
+      :limit => Serious.archived_on_index,
+      :offset => Serious.items_on_index
+    )
+
     erb :index
   end
 
@@ -221,6 +260,14 @@ class Serious < Sinatra::Base
   get "/archives" do
     @articles = Article.all
     @title = "Archives"
+    erb :archives
+  end
+
+  get "/archives/categories/:category" do
+    category = params['category']
+    @articles = Article.all(:category => category)
+    @title = "Archives #{category.capitalize}"
+
     erb :archives
   end
 

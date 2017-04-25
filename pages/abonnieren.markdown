@@ -21,7 +21,7 @@ Habt Spaß am Gerät.
     <th>auf iTunes</th>
   </tr>
   <tr>
-  <td>Alle</td>
+  <td><a href="/">Alle</a></td>
   <td><a href="http://blog.binaergewitter.de/podcast_feed/all/mp3/rss.xml">MP3 Feed</a></td>
   <td><a href="http://blog.binaergewitter.de/podcast_feed/all/aac/rss.xml">AAC Feed</a></td>
   <td><a href="http://blog.binaergewitter.de/podcast_feed/all/opus/rss.xml">Opus Feed</a></td>
@@ -29,19 +29,19 @@ Habt Spaß am Gerät.
   <td><a href="http://itunes.apple.com/de/podcast/binargewitter/id216877594">auf iTunes</a></td>
   </tr>
   <tr>
-    <td>Talk</td>
+    <td><a href="/categories/talk">Talk</a></td>
     <td><a href="http://blog.binaergewitter.de/podcast_feed/talk/mp3/rss.xml">MP3 Feed</a></td>
     <td><a href="http://blog.binaergewitter.de/podcast_feed/talk/aac/rss.xml">AAC Feed</a></td>
     <td><a href="http://blog.binaergewitter.de/podcast_feed/talk/opus/rss.xml">Opus Feed</a></td>
   </tr>
   <tr>
-    <td>Westcoast</td>
+    <td><a href="/categories/westcoast">Westcoast</a></td>
     <td><a href="http://blog.binaergewitter.de/podcast_feed/westcoast/mp3/rss.xml">MP3 Feed</a></td>
     <td><a href="http://blog.binaergewitter.de/podcast_feed/westcoast/aac/rss.xml">AAC Feed</a></td>
     <td><a href="http://blog.binaergewitter.de/podcast_feed/westcoast/opus/rss.xml">Opus Feed</a></td>
   </tr>
   <tr>
-    <td>Spezial</td>
+    <td><a href="/categories/spezial">Spezial</a></td>
     <td><a href="http://blog.binaergewitter.de/podcast_feed/spezial/mp3/rss.xml">MP3 Feed</a></td>
     <td><a href="http://blog.binaergewitter.de/podcast_feed/spezial/aac/rss.xml">AAC Feed</a></td>
     <td><a href="http://blog.binaergewitter.de/podcast_feed/spezial/opus/rss.xml">Opus Feed</a></td>

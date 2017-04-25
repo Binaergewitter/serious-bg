@@ -23,6 +23,13 @@ class SmokeTest < Test::Unit::TestCase
     assert last_response.ok?
   end
 
+  def test_categories_is_a_200
+    ['all', 'talk', 'westcoast', 'spezial'].each do |category|
+      get "/categories/#{category}"
+      assert last_response.ok?
+    end
+  end
+
   def test_feed_validates
     get "/podcast_feed/all/itunes/rss.xml"
     WebMock.allow_net_connect!
@@ -81,6 +88,13 @@ class SmokeTest < Test::Unit::TestCase
     get "/archives"
     last_response.body.scan(/a href=["'](\/2.*)["']>/).each do |match|
       get match[0]
+      assert last_response.ok?
+    end
+  end
+
+  def test_archive_categories_is_a_200
+    ['all', 'talk', 'westcoast', 'spezial'].each do |category|
+      get "/archives/categories/#{category}"
       assert last_response.ok?
     end
   end
