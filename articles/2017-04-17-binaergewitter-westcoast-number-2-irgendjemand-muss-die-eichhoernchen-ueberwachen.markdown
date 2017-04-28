@@ -64,7 +64,7 @@ Heute mit dabei: [Lukas](https://twitter.com/lumaxis)
   * [Buck](https://buckbuild.com/)
   * [How does Bundler work, anyway?](https://www.youtube.com/watch?v=4DqzaqeeMgY)
 - (Endlose) Diskussionen
-- [Impostor Syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome)\
+- [Impostor Syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome)
   * [LGTM]( https://www.youtube.com/watch?v=erh2ngRZxs0 )
   * [Code reviews in job interviews]()
     * [Komischer NY Times post](https://www.nytimes.com/2017/04/08/opinion/sunday/the-utter-uselessness-of-job-interviews.html)
