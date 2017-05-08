@@ -23,7 +23,7 @@ Habt Spaß am Gerät.
   <tr>
   <td><a href="/">Alle</a></td>
   <td><a href="http://blog.binaergewitter.de/podcast_feed/all/mp3/rss.xml">MP3 Feed</a></td>
-  <td><a href="http://blog.binaergewitter.de/podcast_feed/all/aac/rss.xml">AAC Feed</a></td>
+  <td><a href="http://blog.binaergewitter.de/podcast_feed/all/m4a/rss.xml">AAC Feed</a></td>
   <td><a href="http://blog.binaergewitter.de/podcast_feed/all/opus/rss.xml">Opus Feed</a></td>
   <td><a href="http://bitlove.org/binaergewitter/talk/feed">Torrent Feed</a></td>
   <td><a href="http://itunes.apple.com/de/podcast/binargewitter/id216877594">auf iTunes</a></td>
@@ -31,19 +31,19 @@ Habt Spaß am Gerät.
   <tr>
     <td><a href="/categories/talk">Talk</a></td>
     <td><a href="http://blog.binaergewitter.de/podcast_feed/talk/mp3/rss.xml">MP3 Feed</a></td>
-    <td><a href="http://blog.binaergewitter.de/podcast_feed/talk/aac/rss.xml">AAC Feed</a></td>
+    <td><a href="http://blog.binaergewitter.de/podcast_feed/talk/m4a/rss.xml">AAC Feed</a></td>
     <td><a href="http://blog.binaergewitter.de/podcast_feed/talk/opus/rss.xml">Opus Feed</a></td>
   </tr>
   <tr>
     <td><a href="/categories/westcoast">Westcoast</a></td>
     <td><a href="http://blog.binaergewitter.de/podcast_feed/westcoast/mp3/rss.xml">MP3 Feed</a></td>
-    <td><a href="http://blog.binaergewitter.de/podcast_feed/westcoast/aac/rss.xml">AAC Feed</a></td>
+    <td><a href="http://blog.binaergewitter.de/podcast_feed/westcoast/m4a/rss.xml">AAC Feed</a></td>
     <td><a href="http://blog.binaergewitter.de/podcast_feed/westcoast/opus/rss.xml">Opus Feed</a></td>
   </tr>
   <tr>
     <td><a href="/categories/spezial">Spezial</a></td>
     <td><a href="http://blog.binaergewitter.de/podcast_feed/spezial/mp3/rss.xml">MP3 Feed</a></td>
-    <td><a href="http://blog.binaergewitter.de/podcast_feed/spezial/aac/rss.xml">AAC Feed</a></td>
+    <td><a href="http://blog.binaergewitter.de/podcast_feed/spezial/m4a/rss.xml">AAC Feed</a></td>
     <td><a href="http://blog.binaergewitter.de/podcast_feed/spezial/opus/rss.xml">Opus Feed</a></td>
   </tr>
 </table>
