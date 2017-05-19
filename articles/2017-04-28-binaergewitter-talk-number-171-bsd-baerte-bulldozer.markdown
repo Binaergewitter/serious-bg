@@ -15,7 +15,7 @@ audioformats:
 Wieder mit Doppelfelix und Ingo. Leider ohne Mat. Dafür diesmal mit guten Audio und Btrfs/ZFS Flamewars :)
 
 ## AudioFoo + Abos
-* [neue Aboseite](http://blog.binaergewitter.de/pages/abonnieren )
+- [neue Aboseite](http://blog.binaergewitter.de/pages/abonnieren )
 
 ## Blast
 - [Netflix geht jetzt auch mit jedem Hacker 
@@ -27,8 +27,8 @@ Linux](https://www.heise.de/newsticker/meldung/Serienspass-fuer-alle-Linux-Nerds
 ## Untoter der Woche
 
 - [Btrfs Raid 5/6](https://www.phoronix.com/scan.php?page=news_item&px=Btrfs-Linux-4.12-RAID-5-6-Fixes )
-  - [zfs on ubuntu]( https://github.com/zfsonlinux/zfs/wiki/Ubuntu )
-  - [8TB Archive HDD]( http://amzn.to/2p85rAW )
+  * [zfs on ubuntu]( https://github.com/zfsonlinux/zfs/wiki/Ubuntu )
+  * [8TB Archive HDD]( http://amzn.to/2p85rAW )
 
 
 ## News
@@ -40,12 +40,12 @@ https://www.heise.de/security/meldung/Geleakte-NSA-Hackersoftware-Offenbar-hunde
   * [Analyse von DoublePulsar DLL Kernel Injection]( https://countercept.com/our-thinking/analyzing-the-doublepulsar-kernel-dll-injection-technique/ )
 - [IOT Hacker Bot]( https://www.golem.de/news/internet-of-things-bricker-bot-soll-2-millionen-iot-geraete-zerstoert-haben-1704-127483.html )
 - [Plastik Essende Würmer]( http://www.bbc.com/news/science-environment-39694553 )
-    * []( https://qz.com/967215/scientists-have-discovered-a-worm-that-eats-plastic-bags-and-leave-behind-antifreeze/ )
+    * [and leave behind antifreeze]( https://qz.com/967215/scientists-have-discovered-a-worm-that-eats-plastic-bags-and-leave-behind-antifreeze/ )
     * [Crispr Podcast (Radiolab)](http://www.radiolab.org/story/antibodies-part-1-crispr/ )
 - [compressed zfs send / receive]( https://svnweb.freebsd.org/base?view=revision&revision=317414 )
-    * []( https://www.golem.de/news/omnios-freier-solaris-nachfolger-steht-vor-dem-ende-1704-127478.html )
-    http://donw.io/post/github-comments/
-- [isso]( https://posativ.org/isso/docs/install/ )
+    * [omnios am ende]( https://www.golem.de/news/omnios-freier-solaris-nachfolger-steht-vor-dem-ende-1704-127478.html )
+- [Replacing Disqus with Github Comments]( http://donw.io/post/github-comments/ )
+  * [isso]( https://posativ.org/isso/docs/install/ )
 - [starcraft]( https://nuclearmonster.com/2017/04/starcraft-the-original-and-brood-war-free/ )
 - [KDE statt Gnome Shell](https://www.change.org/p/canonical-ltd-make-kde-plasma-the-default-desktop-for-ubuntu-18-04-instead-of-gnome-shell )
 - [EUGH sagt illegales Streaming ist illegal]( 
