@@ -244,13 +244,13 @@ class Serious < Sinatra::Base
   end
 
   # Specific article route
-  get %r{^/(\d{4})/(\d{1,2})/(\d{1,2})/([^\/]+)} do
+  get %r{/(\d{4})/(\d{1,2})/(\d{1,2})/([^\/]+)} do
     halt 404 unless @article = Article.first(*params[:captures])
     render_article @article
   end
 
   # Archives route
-  get %r{^/(\d{4})[/]{0,1}(\d{0,2})[/]{0,1}(\d{0,2})[/]{0,1}$} do
+  get %r{/(\d{4})[/]{0,1}(\d{0,2})[/]{0,1}(\d{0,2})[/]{0,1}} do
     selection = params[:captures].reject {|s| s.strip.length == 0 }.map {|n| n.length == 1 ? "%02d" % n : n}
     @articles = Article.find(*selection)
     @title = "Archives for #{selection.join("-")}"

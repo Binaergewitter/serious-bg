@@ -9,7 +9,7 @@ class Date
   end
 end
 
-class Fixnum
+class Integer
   # Taken from toto
   def ordinal
     # 1 => 1st
