@@ -22,8 +22,8 @@ Sendung mit l33tname, Markus und Ingo aber da.
 - Flattr - Nicht funktionierende Flattr Buttons
 
 ## Payment für Creator
-- patreon https://www.patreon.com/binaergewitter
-- paypal.de https://www.paypal.me/ingoebel
+- [Binärgewitter auf Patreon](https://www.patreon.com/binaergewitter )
+- [paypal.me](https://www.paypal.me/ingoebel )
 - IBAN kann man erfragen
 
 ## News
@@ -61,13 +61,12 @@ Sendung mit l33tname, Markus und Ingo aber da.
 - [Welche sind die meist geschauten Netflix Serien](https://www.highspeedinternet.com/resources/netflix-what-the-world-is-watching/#netflixlist )
 - [experiments with prepledge]( http://www.tedunangst.com/flak/post/experiments-with-prepledge )
    * [pledge]( http://man.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man2/pledge.2 )
-http://blog.binaergewitter.de/2011/04/16/binargewitter-number-2-sichere-systeme
+   * [Binärgewitter Spezial: Sichere Systeme](http://blog.binaergewitter.de/2011/04/16/binargewitter-number-2-sichere-systeme )
 
 ## Mimimi der Woche
 - ovh dns interface
-- adobe pdf format formulare und linux (XFA-Fomurlare)
-    https://en.wikipedia.org/wiki/XFA
-    https://unix.stackexchange.com/questions/265845/pdf-reader-that-supports-xfa-forms-while-adobe-reader-is-not-supported-in-recen
+- adobe pdf format formulare und linux ([XFA-Formulare](https://en.wikipedia.org/wiki/XFA ))
+    * [StackExchange Thread dazu](https://unix.stackexchange.com/questions/265845/pdf-reader-that-supports-xfa-forms-while-adobe-reader-is-not-supported-in-recen )
 - Password change zieht viel Hackeleien nach sich
 - [lange mount paths in FreeBSD]( https://lists.freebsd.org/pipermail/freebsd-current/2017-April/065687.html )
 
