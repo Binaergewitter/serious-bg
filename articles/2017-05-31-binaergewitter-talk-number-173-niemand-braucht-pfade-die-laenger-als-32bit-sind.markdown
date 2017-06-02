@@ -65,9 +65,8 @@ http://blog.binaergewitter.de/2011/04/16/binargewitter-number-2-sichere-systeme
 
 ## Mimimi der Woche
 - ovh dns interface
-- adobe pdf format formulare und linux (XFA-Fomurlare)
-    https://en.wikipedia.org/wiki/XFA
-    https://unix.stackexchange.com/questions/265845/pdf-reader-that-supports-xfa-forms-while-adobe-reader-is-not-supported-in-recen
+- adobe pdf format formulare und linux ([XFA-Formulare](https://en.wikipedia.org/wiki/XFA ))
+    - [StackExchange Thread dazu](https://unix.stackexchange.com/questions/265845/pdf-reader-that-supports-xfa-forms-while-adobe-reader-is-not-supported-in-recen )
 - Password change zieht viel Hackeleien nach sich
 - [lange mount paths in FreeBSD]( https://lists.freebsd.org/pipermail/freebsd-current/2017-April/065687.html )
 
