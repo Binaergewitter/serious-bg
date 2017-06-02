@@ -54,7 +54,7 @@ https://www.malwaretech.com/2017/05/how-to-accidentally-stop-a-global-cyber-atta
 https://www.modzero.ch/modlog/archives/2017/05/11/de_keylogger_in_hewlett-packard_audio-treiber/index.html )
 - [Leak Diversion von Macrons Wahlkampfteam]( 
 https://www.heise.de/newsticker/meldung/Hackerangriffe-Team-von-Macron-wehrte-sich-mit-gefaelschten-Dokumenten-3711461.html )
-- Wie einfach lässt sich weirder Code in Distributionen schleusen? [mIRC Entwickler integriert Code, um Paket-Maintainer zu 
+- Wie einfach lässt sich weirder Code in Distributionen schleusen? [mICQ Entwickler integriert Code, um Paket-Maintainer zu 
 beschimpfen](https://lwn.net/Articles/22991/ )
 
 
