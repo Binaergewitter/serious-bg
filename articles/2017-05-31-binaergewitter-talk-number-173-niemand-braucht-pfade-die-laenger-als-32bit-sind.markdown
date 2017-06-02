@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Binärgewitter Talk #173: iemand braucht Pfade die länger als 32bit sind"
+title: "Binärgewitter Talk #173: Niemand braucht Pfade die länger als 32bit sind!"
 date: 2017-05-31 14:00
 comments: true
 categories: talk
