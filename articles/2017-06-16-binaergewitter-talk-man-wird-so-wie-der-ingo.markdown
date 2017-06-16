@@ -6,11 +6,12 @@ comments: true
 categories: talk
 sharing: true
 published: true
+release: 2
 audioformats:
-  mp3: http://download.binaergewitter.de/2017-05-25.Binaergewitter.Talk.173.mp3
-  ogg: http://download.binaergewitter.de/2017-05-25.Binaergewitter.Talk.173.ogg
-  m4a: http://download.binaergewitter.de/2017-05-25.Binaergewitter.Talk.173.m4a
-  opus: http://download.binaergewitter.de/2017-05-25.Binaergewitter.Talk.173.opus
+  mp3: http://download.binaergewitter.de/2017-06-15.Binaergewitter.Talk.174.mp3
+  ogg: http://download.binaergewitter.de/2017-06-15.Binaergewitter.Talk.174.ogg
+  m4a: http://download.binaergewitter.de/2017-06-15.Binaergewitter.Talk.174.m4a
+  opus: http://download.binaergewitter.de/2017-06-15.Binaergewitter.Talk.174.opus
 ---
 Wir testen mal eine andere Aufnahme Technik und reden Kopierschutz, Datenbanken und Videoschnitt mit dabei sind l33tname, Markus und Ingo.
 
