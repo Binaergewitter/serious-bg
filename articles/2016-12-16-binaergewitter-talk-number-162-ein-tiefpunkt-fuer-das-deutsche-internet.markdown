@@ -19,15 +19,15 @@ In der letzten Sendung vor Weihnachten und der vorletzten in diesem Jahr geht es
     - [Vielleicht ne Sailfish Watch](https://blog.jolla.com/watch/ )
 
 ## News
-- [Linux 4.9]( http://www.brendangregg.com/blog/2016-10-21/linux-efficient-profiler.html )
-    * [Snapraid]( http://www.snapraid.it/ )
+* [Linux 4.9]( http://www.brendangregg.com/blog/2016-10-21/linux-efficient-profiler.html )  
+  - [Snapraid]( http://www.snapraid.it/ )
 * [Link Urteil](https://www.heise.de/ix/meldung/Gericht-bestaetigt-Haftung-fuer-Urheberrechtsverletzungen-auf-verlinkten-Seiten-3566919.html [Bericht auf Netzpolitik.org]( https://netzpolitik.org/2016/befuerchtungen-bestaetigt-erste-entscheidung-in-deutschland-nach-eugh-urteil-verschaerft-linkhaftung/ )
 
-** Blast from the past: [Heise News zum Urteil des Langerichts Hamburg von 1998]( https://www.heise.de/newsticker/meldung/Kampagne-Freedom-for-Links-meldet-ersten-Erfolge-13383.html )
-** [Kampagne von Europaabgeordneten zum EuGH Urteil](https://savethelink.org/ )
-** [Heimat und Brauchtumsverein für das Internet]( https://netzpolitik.org/2016/was-fehlt-dirk-von-gehlen-sagt-ein-heimat-und-brauchtumsverein-fuer-das-netz/ )
+* Blast from the past: [Heise News zum Urteil des Langerichts Hamburg von 1998]( https://www.heise.de/newsticker/meldung/Kampagne-Freedom-for-Links-meldet-ersten-Erfolge-13383.html )
+  - [Kampagne von Europaabgeordneten zum EuGH Urteil](https://savethelink.org/ )
+  - [Heimat und Brauchtumsverein für das Internet]( https://netzpolitik.org/2016/was-fehlt-dirk-von-gehlen-sagt-ein-heimat-und-brauchtumsverein-fuer-das-netz/ )
 * Nextcloud 11 [und neue mobile Clients]( http://stadt-bremerhaven.de/nextcloud-veroeffentlicht-neue-clients-fuer-android-und-ios/ )
-- [Akku Probleme? Einfach keine Akkuladung anzeigen]( https://www.heise.de/newsticker/meldung/Nach-Akkuproblemen-bei-MacBook-Pro-Apple-streicht-Restlaufanzeige-aus-macOS-Sierra-3569943.html?wt_mc=rss.ho.beitrag.atom )
+* [Akku Probleme? Einfach keine Akkuladung anzeigen]( https://www.heise.de/newsticker/meldung/Nach-Akkuproblemen-bei-MacBook-Pro-Apple-streicht-Restlaufanzeige-aus-macOS-Sierra-3569943.html?wt_mc=rss.ho.beitrag.atom )
 * Übernahmen
     * [Host Europe](http://t3n.de/news/webhosting-godaddy-kauft-host-europe-774785/ )
     * [Strato](https://www.heise.de/newsticker/meldung/United-Internet-1-1-uebernimmt-Web-Hoster-Strato-3570790.html )
@@ -35,13 +35,13 @@ In der letzten Sendung vor Weihnachten und der vorletzten in diesem Jahr geht es
 ## Themen
 
 * [Yahoo Leak ONEEEE BIIIEEELLLION Accounts]( http://www.theregister.co.uk/2016/12/14/one_billion_yahoo_accounts_stolen/ )
-** https://haveibeenpwned.com/
+  - [haveibeenpwned]( https://haveibeenpwned.com/ )
 
 
 ## Lesefoo
-- [HOW THE 404 ERROR CREATED THE WORLD WIDE WEB](http://www.popularmechanics.com/technology/a24091/404-error-world-wide-web/ )
-    - [What Wikipedia dit - Thank God for Internet Archive](https://blog.wikimedia.org/2016/10/26/internet-archive-broken-links/ )
-- [Attacking NOSQL applications]( https://isc.sans.edu/diary/Attacking+NoSQL+applications/21787 )
+* [HOW THE 404 ERROR CREATED THE WORLD WIDE WEB](http://www.popularmechanics.com/technology/a24091/404-error-world-wide-web/ )
+  - [What Wikipedia dit - Thank God for Internet Archive](https://blog.wikimedia.org/2016/10/26/internet-archive-broken-links/ )
+* [Attacking NOSQL applications]( https://isc.sans.edu/diary/Attacking+NoSQL+applications/21787 )
 
 ## Mimimi der Woche
 
