@@ -21,7 +21,8 @@ In der letzten Sendung vor Weihnachten und der vorletzten in diesem Jahr geht es
 ## News
 * [Linux 4.9]( http://www.brendangregg.com/blog/2016-10-21/linux-efficient-profiler.html )  
   - [Snapraid]( http://www.snapraid.it/ )
-* [Link Urteil](https://www.heise.de/ix/meldung/Gericht-bestaetigt-Haftung-fuer-Urheberrechtsverletzungen-auf-verlinkten-Seiten-3566919.html [Bericht auf Netzpolitik.org]( https://netzpolitik.org/2016/befuerchtungen-bestaetigt-erste-entscheidung-in-deutschland-nach-eugh-urteil-verschaerft-linkhaftung/ )
+* [Link Urteil](https://www.heise.de/ix/meldung/Gericht-bestaetigt-Haftung-fuer-Urheberrechtsverletzungen-auf-verlinkten-Seiten-3566919.html ) 
+  - [Bericht auf Netzpolitik.org]( https://netzpolitik.org/2016/befuerchtungen-bestaetigt-erste-entscheidung-in-deutschland-nach-eugh-urteil-verschaerft-linkhaftung/ )
 
 * Blast from the past: [Heise News zum Urteil des Langerichts Hamburg von 1998]( https://www.heise.de/newsticker/meldung/Kampagne-Freedom-for-Links-meldet-ersten-Erfolge-13383.html )
   - [Kampagne von Europaabgeordneten zum EuGH Urteil](https://savethelink.org/ )
