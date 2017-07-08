@@ -19,9 +19,4 @@ Unseren Chat findet ihr im Freenode IRC unter \#Binaergewitter. Während der Sen
 
 Oder ihr benutzt den [Webchat](http://webchat.freenode.net/?channels=binaergewitter)
 
-## Terminkalender
 
-Einen eigenen Terminkalender haben wir zur Zeit nicht. Kann aber noch in Kürze kommen. Bis dahin empfehlen wir den Kalender der [Hörsuppe](http://hoersuppe.de) zu abonnieren, dieser stellt dankenswerterweise auch einen extra Terminkalender für Binärgewitter bereit:
-
-* [webcal://hoersuppe.de/podcast/binaergewitter/ical/](webcal://hoersuppe.de/podcast/binaergewitter/ical/)
-* [http://hoersuppe.de/podcast/binaergewitter/ical/](http://hoersuppe.de/podcast/binaergewitter/ical/)
