@@ -23,8 +23,8 @@ Kleine kurze Sendung mit l33tname und Ingo. L33tname hat ein neues Headset und d
 * [unrar error von 2012]( https://bugs.chromium.org/p/project-zero/issues/detail?id=1286&can=1&q=unrar&desc=6 )
 * [spaces vs. tabs]( https://stackoverflow.blog/2017/06/15/developers-use-spaces-make-money-use-tabs/ )
 * [Signal Safety number updates](https://whispersystems.org/blog/verified-safety-number-updates/)
-    * [whatsappnutzen ist illegal]( https://www.e-recht24.de/news/telekommunikation/10476-abmahnung-nutzung-whatsapp-illegal.html
-https://www.indiegogo.com/projects/youyota-sailfish-os-2-in-1-tablet#/ )
+    * [whatsappnutzen ist illegal]( https://www.e-recht24.de/news/telekommunikation/10476-abmahnung-nutzung-whatsapp-illegal.html )
+* [Neues Sailfish Tablet: YouYota on Indiegogo](https://www.indiegogo.com/projects/youyota-sailfish-os-2-in-1-tablet#/ )
 * [FreeBSD 11.1 RC1](https://www.freebsd.org/news/newsflash.html#event20170701:01)
 * [Sense8 ende](http://www.robots-and-dragons.de/news/113969-sense8-abschliessende-doppelfolge-angekuendigt )
   - [Westworld]( http://www.hbo.com/westworld )
