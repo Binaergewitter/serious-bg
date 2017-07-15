@@ -15,7 +15,7 @@ audioformats:
 Diesmal mit l33tname, Markus und Ingo. 
 
 ## Blast from the past
-- Matrix.org
+- [matrix.org](Matrix.org )
 - [intel nuc]( https://www.intel.com/content/www/us/en/products/boards-kits/nuc.html )
   * S4 ausstellen
 - systemd bug
@@ -35,12 +35,12 @@ Diesmal mit l33tname, Markus und Ingo.
   * neues Partitionierungswerkzeug in installer
   * [spins]( https://spins.fedoraproject.org/ )
     - [lxqt]( http://lxqt.org/ )
-https://www.heise.de/newsticker/meldung/heiseshow-Wann-kriegt-Linux-die-Kurve-und-erobert-den-Desktop-3770099.html
-- Gitter is now open source https://gitlab.com/gitlab-org/gitter/webapp/
+  * [Heise Show über Linux auf dem Desktop](https://www.heise.de/newsticker/meldung/heiseshow-Wann-kriegt-Linux-die-Kurve-und-erobert-den-Desktop-3770099.html )
+- [Gitter is now open source](https://gitlab.com/gitlab-org/gitter/webapp/ )
     * [Golem]( https://www.golem.de/news/open-source-gitlab-legt-community-chat-gitter-offen-1707-128728.html )    
 
 ## Themen
-- Browser und payment: Brave, der neue Funken im Browseruniversum https://brave.com/
+- Browser und payment: [Brave, der neue Funken im Browseruniversum]( https://brave.com/ )
 - [OpenBSD KARL]( https://marc.info/?l=openbsd-tech&m=149732026405941 )
   * [heise on Kernel Address Randomized Link]( https://www.heise.de/ix/meldung/OpenBSD-KARL-Fuer-jeden-Start-ein-neuer-Kernel-3767821.html ) 
   * [Kernel relinking status from Theo de Raadt]( http://undeadly.org/cgi?action=article&sid=20170701170044 )
@@ -49,8 +49,7 @@ https://www.heise.de/newsticker/meldung/heiseshow-Wann-kriegt-Linux-die-Kurve-un
     * [Kingston HyperX Predator M.2 SSD](http://amzn.to/2tSYYKB )
     * [WP: M.2](https://en.wikipedia.org/wiki/M.2 )
 
-- Passwortmanager: Passman
-    https://github.com/nextcloud/passman
+- Passwortmanager: [Passman](https://github.com/nextcloud/passman )
 - OpenSource in the large scale: ownCloud bei DigiLocker in Indien    
 
 ## Lesefoo
