@@ -15,7 +15,7 @@ audioformats:
 Diesmal mit l33tname, Markus und Ingo. 
 
 ## Blast from the past
-- [matrix.org](Matrix.org )
+- [matrix.org]( https://Matrix.org )
 - [intel nuc]( https://www.intel.com/content/www/us/en/products/boards-kits/nuc.html )
   * S4 ausstellen
 - systemd bug
