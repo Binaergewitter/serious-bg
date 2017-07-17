@@ -87,7 +87,9 @@ class Serious < Sinatra::Base
     end
 
     def category_url(category)
-      return Serious.url if category == 'all'
+      if category.nil? || category == 'all'
+        return Serious.url
+      end
 
       "#{Serious.url}/categories/#{category.downcase}"
     end
