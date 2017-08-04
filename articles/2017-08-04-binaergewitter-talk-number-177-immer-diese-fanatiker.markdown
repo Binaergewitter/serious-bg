@@ -12,7 +12,8 @@ audioformats:
   m4a: http://download.binaergewitter.de/2017-08-03.Binaergewitter.Talk.177.m4a
   opus: http://download.binaergewitter.de/2017-08-03.Binaergewitter.Talk.177.opus
 ---
-Nach einer kurzen Sommerpause sind wir wieder da. Felix/Makefoo ist noch auf der SHA, aber L33tname, Markus und Ingo unterhalten sich über ZFS
+Nach einer kurzen Sommerpause sind wir wieder da. Felix/Makefoo ist noch auf der SHA, aber L33tname, Markus und Ingo unterhalten sich über ZFS und Online 
+Fotoverwaltung.
 
 ## Toter der Woche
 
@@ -53,6 +54,7 @@ https://www.heise.de/newsticker/meldung/Umfrage-Anwender-sollen-Standard-Anwendu
 
 ##   Themen       
 
+Fotoverwaltung
 zum Selberhosten
 
 * [Piwigo]( http://piwigo.org/ )
@@ -60,7 +62,7 @@ zum Selberhosten
 * [JAlbum]( https://jalbum.net/de/ )
 * [koken]( http://koken.me/ )
 
-Zum nicht Selberhosten
+zum nicht Selberhosten
 
 * [flickr]( https://www.flickr.com/ )
 * [500px]( https://500px.com/)
