@@ -27,7 +27,7 @@ https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/7.
 ## Dotcom der Woche
 - [Vermögen freigegeben](https://www.heise.de/newsticker/meldung/Megaupload-Kim-Dotcom-bekommt-beschlagnahmtes-Vermoegen-aus-Hongkong-zurueck-3787043.html )
 - [NSA überwacht ihn illegal](https://www.heise.de/newsticker/meldung/NSA-ueberwachte-Kim-Dotcom-illegal-3790740.html )
-- kimdotcom.film
+- [kimdotcom.film](http://kimdotcom.film/)
 
 ##  Untoter der Woche
         
