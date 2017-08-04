@@ -8,7 +8,10 @@ footer: true
 
 Binärgewitter ist ein Podcast über Web, Entwicklung, Mobile und Technologie. Betrachtet aus der Sicht von Entwicklern bzw. Open Source Begeisterten. Das heißt aber nicht, dass wir alles mit einer Rosa-Roten Brille sehen. Wir suchen bei Apple und Microsoft genauso das Gute und Schlechte wie auch bei Linux und anderen Open Source Projekten. Wir wollen realistisch sein. Auch wenn wir damit anecken sollten.
 
-Binärgewitter umfasst eigentlich zwei verschiedene Podcasts. Einmal den wöchentlichen Binärgewitter Talk und einmal die unregelmäßige Spezial Sendung, bei der wir uns ein Thema richtig tief vornehmen und von allen Seiten beleuchten wie bei der [NoSQL Sendung](http://blog.binaergewitter.de/blog/2011/01/09/binaergewitter-number-1-nosql/).
+Binärgewitter umfasst eigentlich drei verschiedene Podcasts. Einmal den zwei-wöchentlichen Binärgewitter Talk, einmal die unregelmäßige Spezial Sendung, bei 
+der wir 
+uns ein Thema richtig tief vornehmen und von allen Seiten beleuchten wie bei der [NoSQL 
+Sendung](http://blog.binaergewitter.de/blog/2011/01/09/binaergewitter-number-1-nosql/) sowie die Westcoast Edition, die unregelmäßig aus den USA sendet.
 
 Binärgewitter entstand bei [RadioTux](http://blog.radiotux.de/), dem Internetradio rund um Linux und Open Source. Die Talk-Sendung ist eine Weiterführung der bisdahin produzieren RadioTux Talk bzw. RadioTux@HoRadS-Show die 150 Folgen lang lief. Also wir sind nicht so neu im Geschäft und haben trotzdem immer noch Spaß daran :)
 
@@ -19,6 +22,7 @@ Binärgewitter entstand bei [RadioTux](http://blog.radiotux.de/), dem Internetra
 - Markus Schlichting ([@madmas](https://twitter.com/madmas)) ([blog](http://www.mynethome.de/))
 - Marc Seeger ([@rb2k](https://twitter.com/rb2k)) ([blog](http://blog.marc-seeger.de/))
 - Matthias Wenz ([@ranterle](https://twitter.com/ranterle))
+- Felix Niederberger ([@l33tname](https://twitter.com/l33tname))
 
 ### Gäste
 - hadez ([@hdznrrd](https://twitter.com/hdznrrd)) ([blog](http://nrrd.de/))
