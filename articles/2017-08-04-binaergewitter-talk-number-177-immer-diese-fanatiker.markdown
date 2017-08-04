@@ -18,16 +18,16 @@ Nach einer kurzen Sommerpause sind wir wieder da. Felix/Makefoo ist noch auf der
 
 - [RemixOS](https://www.heise.de/newsticker/meldung/Android-auf-dem-Desktop-Entwicklung-von-Remix-OS-und-Remix-IO-eingestellt-3774109.html )
 -  MS PAINT
-** [Kunst mit Paint]( http://paintinks.blogspot.de/ )
-* [⁠Btrfs has been deprecated]( 
+ * [Kunst mit Paint]( http://paintinks.blogspot.de/ )
+- [⁠Btrfs has been deprecated]( 
 https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/7.4_Release_Notes/chap-Red_Hat_Enterprise_Linux-7.4_Release_Notes-Deprecated_Functionality.html 
 )
 - piratenpad
 
 ## Dotcom der Woche
-- https://www.heise.de/newsticker/meldung/Megaupload-Kim-Dotcom-bekommt-beschlagnahmtes-Vermoegen-aus-Hongkong-zurueck-3787043.html
-- https://www.heise.de/newsticker/meldung/NSA-ueberwachte-Kim-Dotcom-illegal-3790740.html
--  kimdotcom.film
+- [Vermögen freigegeben](https://www.heise.de/newsticker/meldung/Megaupload-Kim-Dotcom-bekommt-beschlagnahmtes-Vermoegen-aus-Hongkong-zurueck-3787043.html )
+- [NSA überwacht ihn illegal](https://www.heise.de/newsticker/meldung/NSA-ueberwachte-Kim-Dotcom-illegal-3790740.html )
+- kimdotcom.film
 
 ##  Untoter der Woche
         
@@ -72,6 +72,7 @@ Zum nicht Selberhosten
 ##   Mimimi der Woche
         
 * [10 G NIC ]( http://amzn.to/2v31jmO ) - Tehuti TN4010
+* [Netgear 8 Port 10G Switch]( http://amzn.to/2vxiAXQ )
 * Nextcloud OCR
 * Nextcloud App und das Teilen von Bildern
 
@@ -81,7 +82,7 @@ Zum nicht Selberhosten
 https://stat.ripe.net/widget/routing-history#w.resource=as15562&w.starttime=2017-01-15T00%3A00%3A00&w.endtime=2017-06-23T00%3A00%3A00&show=Maxmized )
 * [Game theory game]( http://ncase.me/trust/ )
   - [wikipedia]( https://en.wikipedia.org/wiki/Game_theory )
-* []( https://voice.mozilla.org )
+* [Mozilla Voice]( https://voice.mozilla.org )
 * flash is tot
-** [Flash is dead - whats next?]( https://stackoverflow.blog/2017/08/01/flash-dead-technologies-might-next/?cb=1 )
+ -  [Flash is dead - whats next?]( https://stackoverflow.blog/2017/08/01/flash-dead-technologies-might-next/?cb=1 )
 * [FrOSCon 2017]( https://www.froscon.de )
