@@ -19,16 +19,15 @@ Fotoverwaltung.
 
 - [RemixOS](https://www.heise.de/newsticker/meldung/Android-auf-dem-Desktop-Entwicklung-von-Remix-OS-und-Remix-IO-eingestellt-3774109.html )
 -  MS PAINT
- * [Kunst mit Paint]( http://paintinks.blogspot.de/ )
+    - [Kunst mit Paint]( http://paintinks.blogspot.de/ )
 - [⁠Btrfs has been deprecated]( 
-https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/7.4_Release_Notes/chap-Red_Hat_Enterprise_Linux-7.4_Release_Notes-Deprecated_Functionality.html 
-)
+https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/7.4_Release_Notes/chap-Red_Hat_Enterprise_Linux-7.4_Release_Notes-Deprecated_Functionality.html ) (zumindest in RedHat Linux)
 - piratenpad
 
 ## Dotcom der Woche
 - [Vermögen freigegeben](https://www.heise.de/newsticker/meldung/Megaupload-Kim-Dotcom-bekommt-beschlagnahmtes-Vermoegen-aus-Hongkong-zurueck-3787043.html )
 - [NSA überwacht ihn illegal](https://www.heise.de/newsticker/meldung/NSA-ueberwachte-Kim-Dotcom-illegal-3790740.html )
-- kimdotcom.film
+- [kimdotcom.film](http://kimdotcom.film/)
 
 ##  Untoter der Woche
         
@@ -52,17 +51,18 @@ https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/7.
 - [Cannonical fragt welche Anwendungen standard sein soll]( 
 https://www.heise.de/newsticker/meldung/Umfrage-Anwender-sollen-Standard-Anwendungen-in-Ubuntu-18-04-waehlen-3781888.html )
 
-##   Themen       
+## Themen       
 
-Fotoverwaltung
-zum Selberhosten
+### Fotoverwaltung
+
+#### zum Selberhosten
 
 * [Piwigo]( http://piwigo.org/ )
 * [Gallery](  http://galleryproject.org/ )
 * [JAlbum]( https://jalbum.net/de/ )
 * [koken]( http://koken.me/ )
 
-zum nicht Selberhosten
+#### zum nicht Selberhosten
 
 * [flickr]( https://www.flickr.com/ )
 * [500px]( https://500px.com/)
