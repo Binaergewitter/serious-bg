@@ -33,9 +33,9 @@ Wieder mit Doppelfelix und Ingo. Der Makefoo berichtet von der SHA2017. Ingo erz
     - `media.autoplay.enabled = false`
 - [Freiwillige Cyberwehr (2016)]( http://www.zeit.de/digital/datenschutz/2016-10/bsi-cyberangriff-it-sicherheit-feuerwehr-cyberwehr/komplettansicht )
 
-  * [Cyberwehr]( krebsco.de/minikrebs/linuxtag/img/album_pic4_www.wardriver.ch.jpg )
+  * [Cyberwehr]( http://krebsco.de/minikrebs/linuxtag/img/album_pic4_www.wardriver.ch.jpg )
   * [2017 Update (Foto)]( 
-www.fraunhofer.de/de/presse/presseinformationen/2017/mai/hochsicherheit-und-emergency-response-lernlabor-cybersicherheit-startet-in-sankt-augustin/_jcr_content/contentPar/sectioncomponent/sectionParsys/textwithinlinedimage/imageComponent1/image.img.large.jpg/1495552358319_pi-2017-05-LernlaborCybersicherheit.jpg 
+https://www.fraunhofer.de/de/presse/presseinformationen/2017/mai/hochsicherheit-und-emergency-response-lernlabor-cybersicherheit-startet-in-sankt-augustin/_jcr_content/contentPar/sectioncomponent/sectionParsys/textwithinlinedimage/imageComponent1/image.img.large.jpg/1495552358319_pi-2017-05-LernlaborCybersicherheit.jpg 
 )
 - [Ryzen segfault]( 
 https://www.heise.de/newsticker/meldung/SegFault-Bug-AMD-bestaetigt-Ryzen-Fehler-beim-Kompilieren-unter-Linux-3796688.html )
