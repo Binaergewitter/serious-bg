@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Binärgewitter Talk #177: Immer diese Fanatiker"
+title: "Binärgewitter Talk #178: stattdessen geskillt auf Physiker Witze"
 date: 2017-08-12 10:00
 comments: true
 categories: talk
