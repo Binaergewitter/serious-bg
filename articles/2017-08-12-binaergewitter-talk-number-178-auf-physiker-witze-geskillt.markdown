@@ -12,7 +12,7 @@ audioformats:
   m4a: http://download.binaergewitter.de/2017-08-10.Binaergewitter.Talk.178.m4a
   opus: http://download.binaergewitter.de/2017-08-10.Binaergewitter.Talk.178.opus
 ---
-Wieder mit Doppelfelix und Ingo. Der Makefoo berichtet von der SHA2017. Ingo erzählt von seinem Echo daheim und von Z-Wave experimenten.
+Wieder mit Doppelfelix und Ingo. Der Makefoo berichtet von der SHA2017. Ingo erzählt von seinem Echo daheim und von zukünftigen Z-Wave Experimenten.
 
 ## Blast
 - [mejiro]( http://dmpop.github.io/mejiro/ )
@@ -47,6 +47,7 @@ https://www.heise.de/newsticker/meldung/SegFault-Bug-AMD-bestaetigt-Ryzen-Fehler
   * [Wikipedia: Z-Wave]( https://de.wikipedia.org/wiki/Z-Wave )
   * [Z-Wave Security Evaluation 2013](https://sensepost.com/cms/resources/conferences/2013/bh_zwave/Security%20Evaluation%20of%20Z-Wave_WP.pdf )
   * [Z-Wave Multi Sensor]( http://amzn.to/2wRSz2M )
+  * [BGT 164 über Smarthome]( https://blog.binaergewitter.de/2017/01/21/binaergewitter-talk-number-164-steckerchecker )
 - [npm package is stealing env]( https://twitter.com/o_cee/status/892306836199800836 )
 
 
