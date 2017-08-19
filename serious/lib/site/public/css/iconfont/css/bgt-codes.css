@@ -1,6 +1,7 @@
 
-.icon-flattr:before { content: '\e800'; } /* '' */
+.icon-github-circled:before { content: '\e800'; } /* '' */
 .icon-appnet:before { content: '\e801'; } /* '' */
-.icon-github-circled:before { content: '\e802'; } /* '' */
-.icon-twitter:before { content: '\e803'; } /* '' */
-.icon-rss:before { content: '\e804'; } /* '' */
+.icon-liberapay:before { content: '\e802'; } /* '' */
+.icon-twitter:before { content: '\f099'; } /* '' */
+.icon-rss:before { content: '\f09e'; } /* '' */
+.icon-flattr:before { content: '\f336'; } /* '' */
