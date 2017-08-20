@@ -1,4 +1,4 @@
-#---
+---
 layout: post
 title: "Binärgewitter Talk #179: der große Apache sagt nutzt kein React"
 date: 2017-08-20 18:00
@@ -38,8 +38,8 @@ https://www.heise.de/developer/meldung/Apache-Software-Foundation-will-keine-Pro
     * Hörer treffen
     * [C Code Audit - Backdoors die Review überleben]( http://underhanded-c.org/ )
     * Zombie-Grüße: 
-    * * OpenOffice
-    * * [CACert sind auch wieder da und assuren fleissig weiter Leute]( http://blog.cacert.org/2017/08/cacert-and-secure-u-at-froscon-2017/ )
+      - OpenOffice
+      - [CACert sind auch wieder da und assuren fleissig weiter Leute]( http://blog.cacert.org/2017/08/cacert-and-secure-u-at-froscon-2017/ )
 
 ## Lesefoo
 - [subscription vs. single payment]( https://medium.com/building-ulysses/why-were-switching-ulysses-to-subscription-47f80b07a9cd )
