@@ -33,13 +33,13 @@ https://www.heise.de/developer/meldung/Apache-Software-Foundation-will-keine-Pro
 - FrOSCon 12
     * [Vorträge]( https://media.ccc.de/c/froscon2017 )
     * [openSuSE Release Party LEAP 42.3]( https://news.opensuse.org/2017/07/17/plan-a-community-release-party-for-opensuse-leap-42-3/ ) mit Chamäleon Verlosung
-    * * [USB C Docking Station]( INGO LINK )
+    * [USB C Docking Station]( INGO LINK )
     * Grillfest
     * Hörer treffen
     * [C Code Audit - Backdoors die Review überleben]( http://underhanded-c.org/ )
     * Zombie-Grüße: 
-    * * OpenOffice
-    * * [CACert sind auch wieder da und assuren fleissig weiter Leute]( http://blog.cacert.org/2017/08/cacert-and-secure-u-at-froscon-2017/ )
+      - OpenOffice
+      - [CACert sind auch wieder da und assuren fleissig weiter Leute]( http://blog.cacert.org/2017/08/cacert-and-secure-u-at-froscon-2017/ )
 
 ## Lesefoo
 - [subscription vs. single payment]( https://medium.com/building-ulysses/why-were-switching-ulysses-to-subscription-47f80b07a9cd )
