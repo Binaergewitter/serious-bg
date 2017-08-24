@@ -12,14 +12,14 @@ audioformats:
   m4a: http://download.binaergewitter.de/2017-08-20.Binaergewitter.Talk.179.m4a
   opus: http://download.binaergewitter.de/2017-08-20.Binaergewitter.Talk.179.opus
 ---
-Live von der FrOSCon 2017. Felix, der jüngere, Markus und Ingo waren in St. Augustin und besprechen wie immer die News und was es interessantes vor Ort gibt.
+Live von der [FrOSCon 2017](http://froscon.de/ ). Felix, der jüngere, Markus und Ingo waren in St. Augustin und besprechen wie immer die News und was es 
+interessantes vor Ort gibt.
 
 ## News
 - Liberapay Button auf Binärgewitter Seite
 - Flattr Dashboard back to life
 - [scm vulns: SVN, Git, etc]( http://blog.recurity-labs.com/2017-08-10/scm-vulns )
   * [CVE-2017-9800]( https://subversion.apache.org/security/CVE-2017-9800-advisory.txt )
-
 - [Firefox send: Vorsicht Amazon S3 und Google Analytics]( https://www.kuketz-blog.de/firefox-send-setzt-mozilla-erneut-auf-google-analytics/ )
 - [Apache sagt: Nutzt kein React (oder andere Facebok OSS)]( 
 https://www.heise.de/developer/meldung/Apache-Software-Foundation-will-keine-Projekte-mit-Facebook-Lizenz-unter-ihrem-Dach-3778887.html )
@@ -33,7 +33,7 @@ https://www.heise.de/developer/meldung/Apache-Software-Foundation-will-keine-Pro
 - FrOSCon 12
     * [Vorträge]( https://media.ccc.de/c/froscon2017 )
     * [openSuSE Release Party LEAP 42.3]( https://news.opensuse.org/2017/07/17/plan-a-community-release-party-for-opensuse-leap-42-3/ ) mit Chamäleon Verlosung
-    * [USB C Docking Station]( INGO LINK )
+    * [USB C Docking Station]( http://amzn.to/2w0hjIk )
     * Grillfest
     * Hörer treffen
     * [C Code Audit - Backdoors die Review überleben]( http://underhanded-c.org/ )
