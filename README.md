@@ -5,6 +5,8 @@ Oh hai!
 [![Build Status](https://travis-ci.org/Binaergewitter/serious-bg.svg?branch=master)](https://travis-ci.org/Binaergewitter/serious-bg)
 
 
+[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=binaergewitter&url=https://github.com/Binaergewitter/serious-bg&title=BinaergewitterSerious&language=de&tags=github&category=software)
+
 # Markdown syntax
 You can add a "release: 2" line to the article markdown in case you 
 fudged up a release and would like to increment the GUID in the feed after a fix
