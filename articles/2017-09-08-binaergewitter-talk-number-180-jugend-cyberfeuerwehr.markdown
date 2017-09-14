@@ -30,14 +30,14 @@ Wir feiern die Cyberfeuerwehr. Mit dabei sind Makefoo, L33tname, Markus und Ingo
 - [Juicero]( https://www.heise.de/newsticker/meldung/Juicero-Kein-Saft-mehr-3820641.html )
 - [Terry Pratchett seine unfertigen Novellen]( 
 https://news.slashdot.org/story/17/09/02/0147203/terry-pratchetts-hard-drive-destroyed-by-steamroller?utm_source=rss1.0mainlinkanon&utm_medium=feed )
-** [Bilder bei der NYTimes](https://www.nytimes.com/2017/08/30/books/terry-pratchett-steamroller-unpublished-work.html )
+  * [Bilder bei der NYTimes](https://www.nytimes.com/2017/08/30/books/terry-pratchett-steamroller-unpublished-work.html )
 
 ## News
 - [Linux Desktop Market Share >3% - Jahr des Linux auf dem Desktop is now!]( 
 https://www.netmarketshare.com/operating-system-market-share.aspx?qprid=9&qpcustomb=0&qpsp=200&qpnp=25&qptimeframe=M )
 - [BSI findet den Linux Zufall gut](http://www.pro-linux.de/news/1/25107/bsi-best%C3%A4tigt-sicherheit-des-linux-zufallsgenerators.html )
-- [Linux 4.13]( )
-https://mspoweruser.com/microsoft-names-shames-software-vendors-still-demand-smb-v1-support/
+- [Linux 4.13]( https://www.heise.de/ct/artikel/Die-Neuerungen-von-Linux-4-13-3771362.html )
+- [Microsoft names and shames software vendors who still demand SMB v1 support]( https://mspoweruser.com/microsoft-names-shames-software-vendors-still-demand-smb-v1-support/ )
 - [Raspbian Stretch]( https://www.raspberrypi.org/blog/raspbian-stretch/ )
 - [Android 8 ist da: Das O steht für Oreo]( https://www.heise.de/newsticker/meldung/Android-8-ist-da-Das-O-steht-fuer-Oreo-3796667.html )
   * [icons]( https://twitter.com/Xabber_XMPP/status/904827955720937473 )
@@ -71,7 +71,7 @@ https://mspoweruser.com/microsoft-names-shames-software-vendors-still-demand-smb
 ## Picks
 
 - [Webcomic: Meta Bene]( http://www.metabene.de/galerie/ )
-   - [Alt-Sein hat auch Vorteile: Man ist nicht tot]( www.metabene.de/wp-content/uploads/2017/07/036_alt-660x767.jpg )
+   - [Alt-Sein hat auch Vorteile: Man ist nicht tot]( http://www.metabene.de/wp-content/uploads/2017/07/036_alt-660x767.jpg )
 - [OSX Security and Privacy guide]( http://www.oss.io/p/drduh/OS-X-Security-and-Privacy-Guide )
-- [Tomorrowland Belgium 2017(youtube)]( https://www.youtube.com/watch?v=6dVFy4d61gU )
+- [Tomorrowland Belgium 2017 (youtube)]( https://www.youtube.com/watch?v=6dVFy4d61gU )
 - [MUSIC MODEM]( https://www.amazon.de/dp/B00HCWMX8Q/tag=krebsco-21 )
