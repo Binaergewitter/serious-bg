@@ -121,8 +121,3 @@ send-receive](http://marc.merlins.org/perso/btrfs/post_2014-03-22_Btrfs-Tips_-Do
 - [dino](https://dino.im/ ) XMPP Client
 - Webcomic: [Sandra and Woo](http://www.sandraandwoo.com/woode )
     - [Softwareengineering - jetzt mit Katzen!](http://www.sandraandwoo.com/woode/2012/11/19/0430-softwareentwicklung-jetzt-mit-katzen/ )
-
-# nächstes mal :)
-- [cryptpad](https://cryptpad.fr/ )
-    - [hackmd](https://hackmd.io )
-    - [hackadoc](https://github.com/hackergarten/hackadoc )
