@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Binärgewitter Westcoast #2: Irgendjemand muss ja die Eichhörnchen überwachen!"
-date: 2017-04-17 21:00
+title: "Binärgewitter Westcoast #3: NAS Selbsthilfegruppe!"
+date: 2017-09-25 17:00
 comments: true
 categories: westcoast
 sharing: true
