@@ -46,7 +46,7 @@ Endlich ist sie da. Die Spezial Sendung zu NixOS. Felix und Jörg sind NixOS Jü
 - Effizient: nur notwendige Schritte beim Neubauen und aktualisieren, Abhängigkeiten nur einmal vorhanden
 
 ## Nix-Projekt
-- [Nix](https://nixos.org/nix/):
+- [Nix](https://nixos.org/nix/)
 - [Nixpkgs](https://nixos.org/nixpkgs/)
 - [NixOS](https://nixos.org/)
 - [Hydra](https://nixos.org/hydra/)
@@ -76,10 +76,10 @@ Endlich ist sie da. Die Spezial Sendung zu NixOS. Felix und Jörg sind NixOS Jü
 
 ## Nixpkgs
 
-- https://github.com/NixOS/nixpkgs
+- [source on github]( https://github.com/NixOS/nixpkgs )
 - \>13.000 Packete für x86_64 linux
-  - https://github.com/NixOS/nixpkgs/graphs/contributors
-- https://nixos.org/nixos/packages.html
+  - [contributors](https://github.com/NixOS/nixpkgs/graphs/contributors)
+- [Search NixOS packages]( https://nixos.org/nixos/packages.html )
 - Abstraktionen für die meisten Buildsysteme
   - (\*alle\* Haskellpakete)
 - Aktuelle unterstützte Platformen (Binärpakete)
