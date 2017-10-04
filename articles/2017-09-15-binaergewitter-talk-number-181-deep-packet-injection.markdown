@@ -73,8 +73,8 @@ https://motherboard.vice.com/en_us/article/j5geby/the-iphone-is-guaranteed-to-la
     - Vector/ Riot ist ne Firma
     - Team ca. 8-9 Personen
 - IoT, VR
-- Purism phone Telefon-App: (https://puri.sm/shop/librem-5/ )
-    - Nachtrag: auch [KDE Plasma Mobile soll darauf laufen]
+- [Purism Librem5 phone](https://puri.sm/shop/librem-5/ ) Telefon-App
+    - Nachtrag: auch [KDE Plasma Mobile soll darauf laufen](https://dot.kde.org/2017/09/14/plasma-mobile-and-purisms-librem-5-free-smartphone )
 - FOSDEM Talks
     - [Future of Matrix](https://fosdem.org/2017/schedule/event/matrix_future/ )
     - [Encrypting Matrix](https://fosdem.org/2017/schedule/event/encrypting_matrix/ )
@@ -93,6 +93,7 @@ https://motherboard.vice.com/en_us/article/j5geby/the-iphone-is-guaranteed-to-la
 - neues Konzept: Tod den Flattrbuttons, jetzt mit Addon
     - [der Algorithmus](https://blog.flattr.net/2017/06/key-elements-of-the-new-flattr-the-all-knowing-privacy-friendly-algorithm/ )
     - [wie Content identifiziert wird](https://blog.flattr.net/2017/08/the-story-about-the-new-flattr-making-your-content-flattrable/ )
+    - [Liste der aktivierten Seiten](https://blog.flattr.net/2017/09/the-story-about-the-new-flattr-the-flattr-enabled-list/ )
 - mehrere Flattrs pro Monat möglich
 - sofort an Flattr gesendet
 
