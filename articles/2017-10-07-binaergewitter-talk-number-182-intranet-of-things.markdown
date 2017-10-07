@@ -30,7 +30,7 @@ Mal wieder zur viert und trotzdem Spaß dabei. Hier ist die Nummer 182.
   * [Schleswig-Holsteing wechselt]( https://www.heise.de/newsticker/meldung/Schleswig-Holstein-laeutet-Abschied-von-Microsoft-ein-3849115.html )
 - [Show bob the curve]( https://www.gofundme.com/showBoBthecurve )
   * [Neil deGrasse Tyson Slams Flat-Earth Theorist]( https://www.youtube.com/watch?v=XHBZkek8OSU )
-    * ![](pbs.twimg.com/media/CiHuksZXAAAn4qZ.jpg)
+    * ![](https://pbs.twimg.com/media/CiHuksZXAAAn4qZ.jpg)
 
 
 ## Sicherheit durch Ignoranz
