@@ -12,11 +12,11 @@ audioformats:
   m4a: http://download.binaergewitter.de/2017-10-06.Binaergewitter.Talk.182.m4a
   opus: http://download.binaergewitter.de/2017-10-06.Binaergewitter.Talk.182.opus
 ---
-Mal wieder zur viert und trotzdem Spaß dabei. Hier ist die Nummer 182.
+Mal wieder zu viert und trotzdem Spaß dabei. Hier ist die Nummer 182.
 
 ## Toter der Woche
 - [32bit ubuntu]( https://www.heise.de/newsticker/meldung/Ubuntu-gibt-Desktop-Variante-fuer-32-Bit-x86-Systeme-auf-3845582.html )
-- OpenShift Online v2
+- [OpenShift Online v2](https://blog.openshift.com/ )
 
 ## News
 - [u2f in Firefox]( https://www.yubico.com/2017/09/firefox-nightly-enables-support-fido-u2f-security-keys/ )
@@ -33,7 +33,7 @@ Mal wieder zur viert und trotzdem Spaß dabei. Hier ist die Nummer 182.
     * ![](https://pbs.twimg.com/media/CiHuksZXAAAn4qZ.jpg)
 
 
-## Sicherheit durch Ignoranz
+### Sicherheit durch Ignoranz
 - [BlueBorne]( https://www.heise.de/security/meldung/BlueBorne-Android-Linux-und-Windows-ueber-Bluetooth-angreifbar-3830319.html )
 - [Behind the Masq: Yet more DNS, and DHCP, vulnerabilities]( https://security.googleblog.com/2017/10/behind-masq-yet-more-dns-and-dhcp.html )
   * [pro-linux]( http://www.pro-linux.de/news/1/25207/sicherheits-audit-von-dnsmasq.html )
@@ -50,10 +50,12 @@ https://gitlab.com/gnachman/iterm2/wikis/dnslookupissue )
 - [Google Event Pixel 2]( https://www.theverge.com/2017/10/4/16405192/new-google-pixel-2-xl-phone-photos-video-hands-on )
   * [Nokia Telefon]( https://www.hmdglobal.com/ )
   * [Pixe Buds]( https://www.blog.google/products/pixel/pixel-buds/ )
-
+  
+### Foto
 - [RawTherapee 5.3]( http://rawtherapee.com/blog/rawtherapee-5.3-released )
 - [Corel AfterShot Pro](http://www.aftershotpro.com/de/products/aftershot/pro/ ): auch für Linux, aber proprietär
 
+### andere News
 - [prosody-0.10 ist endlich released](http://blog.prosody.im/prosody-0-10-0-released/ ) und kann endlich tolle Dinge per default:
     - automatische letsencrypt certs
     - carbons und message archive management
