@@ -49,7 +49,7 @@ https://gitlab.com/gnachman/iterm2/wikis/dnslookupissue )
 - [LTS Kernel für 6 statt 2 Jahre]( http://www.pro-linux.de/news/1/25202/langfristige-kernel-unterst%C3%BCtzung-auf-sechs-jahre-ausgedehnt.html )
 - [Google Event Pixel 2]( https://www.theverge.com/2017/10/4/16405192/new-google-pixel-2-xl-phone-photos-video-hands-on )
   * [Nokia Telefon]( https://www.hmdglobal.com/ )
-  * [Pixe Buds]( https://www.blog.google/products/pixel/pixel-buds/ )
+  * [Pixel Buds]( https://www.blog.google/products/pixel/pixel-buds/ )
   
 ### Foto
 - [RawTherapee 5.3]( http://rawtherapee.com/blog/rawtherapee-5.3-released )
