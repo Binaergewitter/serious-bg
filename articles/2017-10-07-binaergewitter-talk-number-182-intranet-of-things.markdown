@@ -30,7 +30,7 @@ Mal wieder zu viert und trotzdem Spaß dabei. Hier ist die Nummer 182.
   * [Schleswig-Holsteing wechselt]( https://www.heise.de/newsticker/meldung/Schleswig-Holstein-laeutet-Abschied-von-Microsoft-ein-3849115.html )
 - [Show bob the curve]( https://www.gofundme.com/showBoBthecurve )
   * [Neil deGrasse Tyson Slams Flat-Earth Theorist]( https://www.youtube.com/watch?v=XHBZkek8OSU )
-    * ![](https://pbs.twimg.com/media/CiHuksZXAAAn4qZ.jpg)
+    * [The flat earth society has members all around the globe](https://pbs.twimg.com/media/CiHuksZXAAAn4qZ.jpg)
 
 
 ### Sicherheit durch Ignoranz
@@ -57,11 +57,11 @@ https://gitlab.com/gnachman/iterm2/wikis/dnslookupissue )
 
 ### andere News
 - [prosody-0.10 ist endlich released](http://blog.prosody.im/prosody-0-10-0-released/ ) und kann endlich tolle Dinge per default:
-    - automatische letsencrypt certs
-    - carbons und message archive management
-    - lua-5.2
-    - websockets
-    - StreamManagement (Wiederaufnahme abgebrochener Verbindungen) aber immer noch nur mit 3rd party module
+  * automatische letsencrypt certs
+  * carbons und message archive management
+  * lua-5.2
+  * websockets
+  * StreamManagement (Wiederaufnahme abgebrochener Verbindungen) aber immer noch nur mit 3rd party module
 
 ## Themen
 - [hackergarten]( http://hackergarten.net/ )
@@ -78,14 +78,14 @@ https://gitlab.com/gnachman/iterm2/wikis/dnslookupissue )
 ## Mimimi der Woche
 - netflix wird teurer!
 - high DPI & lxde
-    - [lxQt issue](https://github.com/lxde/lxqt/issues/916 ) dazu
+  * [lxQt issue](https://github.com/lxde/lxqt/issues/916 ) dazu
 - [Gnome Legacy System Tray]( https://twitter.com/tschipie/status/913520971532963842 )
   * [@tschipie]( https://twitter.com/tschipie )
 
 ## Picks
 - [Hacktoberfest]( https://hacktoberfest.digitalocean.com/ )
-   - [im shackspace]( https://blog.shackspace.de/?p=5703 )
-   - [Hacktoberfest Checker]( https://hacktoberfestchecker.herokuapp.com/ )
+   * [im shackspace]( https://blog.shackspace.de/?p=5703 )
+   * [Hacktoberfest Checker]( https://hacktoberfestchecker.herokuapp.com/ )
 - [1. MakerWeek in Bonn vom 16.-20. Oktober 2017]( https://www.makerweek.io/)
 - [mimic]( http://freeflysystems.com/mimic ) 
 - [30 shell commands]( https://www.lopezferrando.com/30-interesting-shell-commands/ )
