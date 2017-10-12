@@ -47,8 +47,8 @@ https://motherboard.vice.com/en_us/article/j5geby/the-iphone-is-guaranteed-to-la
 - Protokoll für dezentrales, persistentes near-realtime messaging
 - home server
     - [Synapse](https://matrix.org/docs/projects/server/synapse.html ) (Referenzimplementierung in Python)
-    - ruma (Communityserver in Rust)
-    - dendrite (Go. Das Baby in der Runde)
+    - [ruma (Communityserver in Rust)](https://www.ruma.io/)
+    - [dendrite (Go. Das Baby in der Runde)](https://github.com/matrix-org/dendrite)
 - identity server
 - [Clients, Bridges & andere Software](https://matrix.org/docs/projects/try-matrix-now.html )
     - [Riot.im]( https://about.riot.im/ )
