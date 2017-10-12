@@ -14,7 +14,7 @@ Gietmannstr. 38
 Email: info@binaergewitter.de
 Tel.: 0700 46463235
 
-Preis pro Minute von einem Festnetz-Anschluss der Deutschen Telekom AG von Montag bis Freitag in der Zeit zwischen 9 bis 18 Uhr 12,4 Cent übrigen Zeit und an Samstagen, Sonntagen, bundeseinheitlichen
+Preis pro Minute von einem Festnetz-Anschluss der Deutschen Telekom AG von Montag bis Freitag in der Zeit zwischen 9 und 18 Uhr 12,4 Cent in der übrigen Zeit und an Samstagen, Sonntagen, bundeseinheitlichen
 gesetzlichen Feiertagen sowie am 24. Dezember und am 31. Dezember werden ganztägig 6,3 Cent fällig.
 Mobilfunkpreise können abweichen. Bitte erfragen Sie die Kosten bei Ihrem Provider.
 
