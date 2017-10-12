@@ -13,7 +13,7 @@ der wir
 uns ein Thema richtig tief vornehmen und von allen Seiten beleuchten wie bei der [NoSQL 
 Sendung](http://blog.binaergewitter.de/blog/2011/01/09/binaergewitter-number-1-nosql/) sowie die Westcoast Edition, die unregelmäßig aus den USA sendet.
 
-Binärgewitter entstand bei [RadioTux](http://blog.radiotux.de/), dem Internetradio rund um Linux und Open Source. Die Talk-Sendung ist eine Weiterführung der bisdahin produzieren RadioTux Talk bzw. RadioTux@HoRadS-Show die 150 Folgen lang lief. Also wir sind nicht so neu im Geschäft und haben trotzdem immer noch Spaß daran :)
+Binärgewitter entstand bei [RadioTux](http://blog.radiotux.de/), dem Internetradio rund um Linux und Open Source. Die Talk-Sendung ist eine Weiterführung der bis dahin produzieren RadioTux Talk bzw. RadioTux@HoRadS-Show die 150 Folgen lang lief. Also wir sind nicht so neu im Geschäft und haben trotzdem immer noch Spaß daran :)
 
 ### Das Team
 - Ingo Ebel ([@ingoebel](https://twitter.com/ingoebel))
