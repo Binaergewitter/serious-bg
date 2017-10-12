@@ -11,7 +11,7 @@ Binärgewitter ist ein Podcast über Web, Entwicklung, Mobile und Technologie. B
 Binärgewitter umfasst eigentlich drei verschiedene Podcasts. Einmal den zwei-wöchentlichen Binärgewitter Talk, einmal die unregelmäßige Spezial Sendung, bei 
 der wir 
 uns ein Thema richtig tief vornehmen und von allen Seiten beleuchten wie bei der [NoSQL 
-Sendung](http://blog.binaergewitter.de/blog/2011/01/09/binaergewitter-number-1-nosql/) sowie die Westcoast Edition, die unregelmäßig aus den USA sendet.
+Sendung](http://blog.binaergewitter.de/blog/2011/01/09/binaergewitter-number-1-nosql/), dem [NixOs Spezial](http://blog.binaergewitter.de/2017/09/24/binaergewitter-spezial-7-nixos) sowie die Westcoast Edition, die unregelmäßig aus den USA sendet.
 
 Binärgewitter entstand bei [RadioTux](http://blog.radiotux.de/), dem Internetradio rund um Linux und Open Source. Die Talk-Sendung ist eine Weiterführung der bisdahin produzieren RadioTux Talk bzw. RadioTux@HoRadS-Show die 150 Folgen lang lief. Also wir sind nicht so neu im Geschäft und haben trotzdem immer noch Spaß daran :)
 
