@@ -14,11 +14,11 @@ audioformats:
 Endlich ist sie da. Die Spezial Sendung zu NixOS. Felix und Jörg sind NixOS Jünger und lassen sich von Ingo mal befragen wie Nix und NixOS so funktionieren.
 
 ## Was ist Nix?
-- Vieles aber vorallem ein Packetmanager für Linux und andere unixoide Systeme
+- Vieles aber vorallem ein Paketmanager für Linux und andere unixoide Systeme
 - Gleiche Liga wie apt (debian-alike), pacman (archlinux), dnf (fedora)
 - Aber einzigartige Funktionen, u.a
   - atomare Upgrades/Downgrades
-  - konfliktfreie Installation verschiedener Versionen eines Packetes
+  - konfliktfreie Installation verschiedener Versionen eines Paketes
   - Mehrbenutzerunterstützung
 
 ## Vergleich Apt mit Nix
@@ -30,10 +30,10 @@ Endlich ist sie da. Die Spezial Sendung zu NixOS. Felix und Jörg sind NixOS Jü
   - /usr/bin/sl
   - /usr/share/man/man1/sl.1.gz
 - nix-shell -p sl (zum ausprobieren)
-- Paketliste == nixexprs: (ein Art Bauanleitung für alle Packete)
+- Paketliste == nixexprs: (ein Art Bauanleitung für alle Pakete)
 - berechnet Bauanleitung für sl
 - checkt Binärcache
-- statt LSB, berechnet Pfad für das Packet `/nix/store/<sha256-bauanleitung>-sl-<versionsnummer>`:
+- statt LSB, berechnet Pfad für das Paket `/nix/store/<sha256-bauanleitung>-sl-<versionsnummer>`:
   - ./bin/sl
   - ./man/man1/sl.1.gz
 - Bauanleitung einzigartig und vollständig -> einzigartiger Pfad
@@ -61,14 +61,14 @@ Endlich ist sie da. Die Spezial Sendung zu NixOS. Felix und Jörg sind NixOS Jü
 
 - Idee: Alle packages werden isoliert voneinander:
 - `/nix/store/rpdqx...-firefox-3.5.4`
-- Pfad: 160-bit kryptografischen Hash aller Packetabhängigkeiten:
+- Pfad: 160-bit kryptografischen Hash aller Paketabhängigkeiten:
   - Quellen, Bibliotheken, Kompiler, Buildskripte
 
 ## Nix - Expressions
 
-- Nix packete werden mit Nix gebaut!
-- jede Packetbeschreibung eine Funktion 
-    - Eingabe: Abhängigkeiten des Packetes
+- Nix Pakete werden mit Nix gebaut!
+- jede Paketbeschreibung eine Funktion 
+    - Eingabe: Abhängigkeiten des Paketes
     - Ausgabe: Derivation -> Pfad
 - kennt die Reihenfolge: Baut Abhängigkeiten vorher selbst (keine Zyklen)
 - implizite Laufzeitabhängigkeiten
@@ -77,7 +77,7 @@ Endlich ist sie da. Die Spezial Sendung zu NixOS. Felix und Jörg sind NixOS Jü
 ## Nixpkgs
 
 - [source on github]( https://github.com/NixOS/nixpkgs )
-- \>13.000 Packete für x86_64 linux
+- \>13.000 Pakete für x86_64 linux
   - [contributors](https://github.com/NixOS/nixpkgs/graphs/contributors)
 - [Search NixOS packages]( https://nixos.org/nixos/packages.html )
 - Abstraktionen für die meisten Buildsysteme
@@ -85,7 +85,7 @@ Endlich ist sie da. Die Spezial Sendung zu NixOS. Felix und Jörg sind NixOS Jü
 - Aktuelle unterstützte Platformen (Binärpakete)
   * Linux: (legacy: i686), x86_64, (aarch64)
   * Mac OS X: x86_64
-- bietet Abstraktion (Magie) für Buildsysteme/Sprachspezifische Packetmanager
+- bietet Abstraktion (Magie) für Buildsysteme/Sprachspezifische Paketmanager
     - Pakete sind einfach zu bauen
 
 ## nixpkgs/nixos
@@ -97,9 +97,9 @@ Endlich ist sie da. Die Spezial Sendung zu NixOS. Felix und Jörg sind NixOS Jü
 
 ## Hydra
 
-- Baut alle Packete in nixpkgs
+- Baut alle Pakete in nixpkgs
 - selber betreibbar (binary cache) - interessant für Firmen/Gruppen
-- Meisten Packete müssen nicht selber gebaut werden:
+- Meisten Pakete müssen nicht selber gebaut werden:
     - allerdings einfach möglich (patches, neue Versionen aka Backports etc)
 
 ## Entwicklungsumgebungen (nix-shell)
