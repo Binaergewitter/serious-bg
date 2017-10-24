@@ -88,3 +88,5 @@ Quelle: [Datenschutz-Muster von Rechtsanwalt Thomas Schwenke - I LAW it](http://
 ## Lizenz
 
 Aller Redaktioneller Inhalt von Binaergewitter ist unter Creative Commons BY-SA lizenziert. Die Weiterbearbeitung und gleicher Lizenz ist gestattet wenn der Urheber genannt wird.
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/de"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/de/88x31.png" /></a>
