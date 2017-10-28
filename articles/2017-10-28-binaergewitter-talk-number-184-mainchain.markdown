@@ -37,7 +37,7 @@ L33tname, Markus und Ingo präsentieren die Mainchain in der Ausgabe 184. Außer
     - [source]( https://github.com/lundman/zfsinhttps://github.com/lundman/zfsin )
   * [ZFS expansion]( https://twitter.com/OpenZFS/status/921042446275944448 )
     - [official announcement]( https://www.freebsdfoundation.org/blog/openzfs-raid-z-online-expansion-project-announcement/ )
-https://wiki.ubuntu.com/ArtfulAardvark/ReleaseNotes
+- [Ubuntu 17.10](https://wiki.ubuntu.com/ArtfulAardvark/ReleaseNotes )
     * Wayland & GNOME
     * Python 2 is gone
 - [OpenBSD 6.2]( https://www.heise.de/ix/meldung/OpenBSD-6-2-mit-neuen-Funktionen-fuer-die-Virtualisierung-3853760.html )
@@ -46,7 +46,7 @@ https://wiki.ubuntu.com/ArtfulAardvark/ReleaseNotes
 - [Android dns over tls]( https://www.xda-developers.com/android-dns-over-tls-website-privacy/ )
 - [DNS Query Name Minimisation]( https://tools.ietf.org/html/rfc7816 )
 - [Linux on Galaxy]( https://www.heise.de/newsticker/meldung/Linux-on-Galaxy-Linux-Distributionen-auf-dem-S8-nutzen-3865639.html )
-- [IGN kauft ein humble bundel]( http://www.pro-linux.de/news/1/25241/ign-%C3%BCbernimmt-humble-bundle.html )
+- [IGN kauft ein humble bundle]( http://www.pro-linux.de/news/1/25241/ign-%C3%BCbernimmt-humble-bundle.html )
 - [Nextcloud MacOSX Client finally fixed?]( https://github.com/nextcloud/client_theming/issues/13 )
 
 ## Lesefoo
@@ -64,7 +64,7 @@ https://wiki.ubuntu.com/ArtfulAardvark/ReleaseNotes
 - [Nextcloud Filelink](https://addons.mozilla.org/en-US/thunderbird/addon/nextcloud-filelink/ )
 - [Making Progress]( https://xkcd.com/1906/ )
 - [kernelless]( http://kernelless.cloud/ ) 
-- [floting point visually explained]( http://fabiensanglard.net/floating_point_visually_explained/ )
+- [floating point visually explained]( http://fabiensanglard.net/floating_point_visually_explained/ )
 - [Web Audio Modem]( https://martinmelhus.com/web-audio-modem/ )
 
 ## Closing
