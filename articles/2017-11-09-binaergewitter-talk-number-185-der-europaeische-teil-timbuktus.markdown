@@ -14,7 +14,8 @@ audioformats:
 ---
 Die 2 Felixe sind wieder da mit dabei ist auch Ingo und endlich können wir mal wieder über Security reden...
 
- # Blast
+
+## Blast
  - [duhkattack]( https://duhkattack.com/ )
  - [eloop2017]( http://eloop.org )
 
@@ -37,9 +38,9 @@ https://www.heise.de/newsticker/meldung/Intel-laesst-die-Bombe-platzen-Core-Proz
 - [Perl most hated language]( https://www.theregister.co.uk/2017/10/31/perl_most_hated_language/ )
   * [disliked programming languages]( https://stackoverflow.blog/2017/10/31/disliked-programming-languages/ )
 - [Waymo Auto wird Full-auto]( https://www.theregister.co.uk/2017/10/31/google_waymo_ditched_autopilot/ )
-  * https://www.theverge.com/2017/11/7/16615290/waymo-self-driving-safety-driver-chandler-autonomous
+  * [Waymo is first to put fully self-driving cars on US roads without a safety driver]( https://www.theverge.com/2017/11/7/16615290/waymo-self-driving-safety-driver-chandler-autonomous )
   * [Fate of the Furious "Zombie Cars"]( https://www.youtube.com/watch?v=snF_SP173wA )
-- CUPS jetzt unter Apache License 2.0 https://github.com/apple/cups/blob/master/LICENSE
+- [CUPS jetzt unter Apache License 2.0]( https://github.com/apple/cups/blob/master/LICENSE )
 
 
 ## Lesefoo
@@ -56,11 +57,11 @@ https://www.heise.de/newsticker/meldung/Intel-laesst-die-Bombe-platzen-Core-Proz
 
 ## Picks
 
-- The Orville (https://en.wikipedia.org/wiki/The_Orville )
+- [The Orville] (https://en.wikipedia.org/wiki/The_Orville )
   - [webshit weekly]( http://n-gate.com/hackernews/2017/11/07/0/ )
-  - []( https://www.xkcd.com/488/ )
-  - https://savecodeshare.eu/
+  - [xkcd]( https://www.xkcd.com/488/ )
+  - [savecodeshare.eu]( https://savecodeshare.eu/ )
     - Podcastempfehlung zur EU Urheberrechtsreform: [SCB-055](https://sourcecode.berlin/2017/10/07/scb-055/ )
-- Neue RadioTux Sendung über Sailfish auf dem XperiaX ( https://www.radiotux.de/index.php?/archives/8033-RadioTux-Sendung-Oktober-2017.html )
+- Neue RadioTux Sendung über [Sailfish auf dem XperiaX]( https://www.radiotux.de/index.php?/archives/8033-RadioTux-Sendung-Oktober-2017.html )
 - [The Sound of Dialup]( http://www.windytan.com/2012/11/the-sound-of-dialup-pictured.html )
 - [Naming Schemes]( https://namingschemes.com/ )
