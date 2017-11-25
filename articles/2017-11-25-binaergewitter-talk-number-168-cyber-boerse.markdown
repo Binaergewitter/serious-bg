@@ -20,6 +20,7 @@ Achtung: Prerelease. Aber besser so als gar nicht oder?
 
 
 ## Toter der Woche
+
 - [Startcom](https://www.heise.de/security/meldung/Zertifizierungsstelle-StartCom-Eigentuemer-zieht-den-Stecker-3892942.html )
   * [Let's Encrypt 35% market share]( https://nettrack.info/ssl_certificate_issuers.html )
 - [i686 No1](https://www.pro-linux.de/news/1/25316/support-f%C3%BCr-i686-version-von-arch-linux-eingestellt.html )
@@ -31,7 +32,7 @@ Achtung: Prerelease. Aber besser so als gar nicht oder?
 - [Stallmann der Woche]( 
 https://news.slashdot.org/story/17/11/17/1810245/proprietary-software-is-the-driver-of-unprecedented-surveillance-richard-stallman )
 - [BSD weint über fortunes]( https://github.com/freebsd/freebsd/commit/a7833d533faa497dfc14b6873380ecad33b19f04#diff-118be59c005667296197430d58947389 )
-  - [Cowsay in debian]( https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=882085 )
+  * [Cowsay in debian]( https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=882085 )
 - [SecretHitler]( http://secrethitler.com/)
 - [quad9](https://www.heise.de/newsticker/meldung/Quad9-Datenschutzfreundliche-Alternative-zum-Google-DNS-3890741.html )
   * [google public DNS FAQ]( https://developers.google.com/speed/public-dns/faq )
@@ -43,14 +44,13 @@ https://news.slashdot.org/story/17/11/17/1810245/proprietary-software-is-the-dri
 - [PS3 OFW Exploit]( http://www.eurasia.nu/modules.php?name=News&file=article&sid=3645 )
 - [London Busse]( http://de.engadget.com/2017/11/20/in-london-sollen-busse-bald-mit-kaffee-fahren/ )
 - [Dropbox ist Sicher (tm)]( https://www.bsi.bund.de/DE/Presse/Pressemitteilungen/Presse2017/Cloud_Computing_C5-Testat_an_Dropbox_22112017.html )
-
 - [Intel ME geowned über USB]( https://www.theregister.co.uk/2017/11/09/chipzilla_come_closer_closer_listen_dump_ime/ )
-
 - [Linus und Sicherheitsleute](https://www.heise.de/newsticker/meldung/Linus-Torvalds-explodiert-Manche-Sicherheitsleute-sind-verfickte-Idioten-3895116.html )
   * [Linus Torwalds "do no harm"]( https://lkml.org/lkml/2017/11/21/356 )
 - Firefox ist wieder geil
 
 ## Themen
+
 * [ARD: Bitcoins - das Geld der Zukunft?]( 
 http://www.ardmediathek.de/tv/Weltspiegel/Weltweit-Bitcoins-das-Geld-der-Zukunf/Das-Erste/Video?bcastId=329478&documentId=39853646 )
 * Crypto currencies, ICOs
@@ -70,9 +70,10 @@ http://www.ardmediathek.de/tv/Weltspiegel/Weltweit-Bitcoins-das-Geld-der-Zukunf/
 
 - Mail Server RDNS
 - Wo kauft ihr Netzwerk zeugs? Dosen? Kabel? 
-  * https://www.kabelscheune.de/
+  * [kabelscheune]( https://www.kabelscheune.de/ ) 
 
 ## Picks
+
 - [CRAPL- an open source license for hacked-together academic software]( http://matt.might.net/articles/crapl/ )
 - [Christmas LED Light Teardown]( http://amaldev.blog/christmas-led-light-teardown/ )
 - [Game Royale](http://www.neo-magazin-royale.de/zdi/game-royale/index.html ) - via Lea
