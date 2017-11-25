@@ -57,7 +57,7 @@ https://www.heise.de/newsticker/meldung/Intel-laesst-die-Bombe-platzen-Core-Proz
 
 ## Picks
 
-- [The Orville] (https://en.wikipedia.org/wiki/The_Orville )
+- [The Orville](https://en.wikipedia.org/wiki/The_Orville )
   - [webshit weekly]( http://n-gate.com/hackernews/2017/11/07/0/ )
   - [xkcd]( https://www.xkcd.com/488/ )
   - [savecodeshare.eu]( https://savecodeshare.eu/ )
