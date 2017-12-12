@@ -53,7 +53,7 @@ https://www.heise.de/newsticker/meldung/100-000-Spieler-fordern-Lucasfilm-soll-E
 - Messenger Sidenote: [Theema kann Web]( https://threema.ch/de/threema-web )
 
 ## Lesefoo
-- [My Little Cluster Story]( http://carolynvanslyck.com/blog/217/10/my-little-cluster/ )
+- [My Little Cluster Story]( http://carolynvanslyck.com/blog/2017/10/my-little-cluster/ )
 - [LifeHacker: Loyalty is for suckers (Loyalty to a brand—whether it’s love or hatred—is a poison that makes you stupid.)]( 
 https://lifehacker.com/brand-loyalty-is-for-suckers-1731199227 )
   * [Sony Xperia Z mit Jolla Sailfish X]( https://jolla.com/sailfishx/ )
