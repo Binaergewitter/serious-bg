@@ -50,7 +50,7 @@ https://www.heise.de/newsticker/meldung/100-000-Spieler-fordern-Lucasfilm-soll-E
 
 - [LinageOS auf Galaxy i9300 aka S3]( https://lineageos.org/ )
 
-- Messenger Sidenote: [Theema kann Web]( https://threema.ch/de/threema-web )
+- Messenger Sidenote: [Threema kann Web]( https://threema.ch/de/threema-web )
 
 ## Lesefoo
 - [My Little Cluster Story]( http://carolynvanslyck.com/blog/2017/10/my-little-cluster/ )
