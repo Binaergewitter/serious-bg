@@ -50,7 +50,7 @@ Tu wat!
 - [MediaMarkt Gründer](https://www.heise.de/newsticker/meldung/Streitlustig-bis-zuletzt-Media-Markt-Mitbegruender-Kellerhals-ist-tot-3928453.html )
 - [Patreon fees]( https://twitter.com/Patreon/status/941131442305712129 )
 - [Untoter der Woche: DeMail]( https://www.zdf.de/nachrichten/heute/de-mail-verpasst-anschluss-100.html )
- * [Das esondere Anwaltspostfach als besondere 
+ * [Das besondere Anwaltspostfach als besondere 
 Stümperei](https://www.heise.de/newsticker/meldung/34C3-Das-besondere-Anwaltspostfach-beA-als-besondere-Stuemperei-3928474.html)
 
 ## News
@@ -74,8 +74,8 @@ http://www.bento.de/gadgets/harry-potter-botnik-studios-hat-eine-schreibsoftware
 - [Fixing a Hexbright]( https://golubev.org/?p=114 )
 
 ## Mimimi der Woche
-* firefox security.webauth.u2f is by default false
-* [firefox werbe fail](  )
+* Firefox `security.webauth.u2f` is by default `false`
+* [Firefox Werbefail]( http://de.engadget.com/2017/12/17/keine-angst-firefox-installiert-automatisch-add-on-als-mr-robo/ )
   * `about:config` -> `extensions.pocket.enabled`
 
 ## Picks
