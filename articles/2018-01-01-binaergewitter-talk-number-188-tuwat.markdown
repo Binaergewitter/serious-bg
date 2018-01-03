@@ -18,13 +18,13 @@ Mit dabei sind Felix, L33tname, Markus und Ingo.
 
 ## 34C3
 
-- Hörertreffen ( https://twitter.com/binaergewitter/status/946761449363398656 )
+- [Hörertreffen](https://twitter.com/binaergewitter/status/946761449363398656)
 
 ### Vorträge
 - [Marc Uwe Kling Lesung aus Qualityland](https://media.ccc.de/v/34c3-9285-qualityland)
 - [die fabbelhafte Welt des mobile banking]( https://media.ccc.de/v/34c3-8805-die_fabelhafte_welt_des_mobilebankings )
 - [Vacuum Cleaning Robot Hacking]( https://events.ccc.de/congress/2017/Fahrplan/events/9147.html )
-- https://www.theguardian.com/technology/2017/jul/25/roomba-maker-could-share-maps-users-homes-google-amazon-apple-irobot-robot-vacuum
+- [Roomba maker may share maps of users' homes with Google, Amazon or Apple](https://www.theguardian.com/technology/2017/jul/25/roomba-maker-could-share-maps-users-homes-google-amazon-apple-irobot-robot-vacuum)
 - [Eröffung]( https://media.ccc.de/v/34c3-9292-eroffnung_tuwat )
 - [Demystifying Network Cards]( https://media.ccc.de/v/34c3-9159-demystifying_network_cards )
 - [Squeezing a key through a carry bit]( https://media.ccc.de/v/34c3-9021-squeezing_a_key_through_a_carry_bit )
@@ -37,13 +37,13 @@ Mit dabei sind Felix, L33tname, Markus und Ingo.
 - [The ultimate apollo guidance computer talk]( https://media.ccc.de/v/34c3-9064-the_ultimate_apollo_guidance_computer_talk )
 - [Der Netzpolitische Wetterbericht](https://media.ccc.de/v/34c3-8916-der_netzpolitische_wetterbericht )
 
-Tu wat!
+## Tu wat!
 - LED Wäscheklammern
 - Hoverboard testdrive
 - lock picking
 
 ## McAfee der Woche
-- https://www.ethnews.com/john-mcafees-twitter-account-hacked
+- [John McAfee’s Twitter Account Hacked](https://www.ethnews.com/john-mcafees-twitter-account-hacked)
 
 ## Toter der Woche
 
@@ -75,7 +75,7 @@ http://www.bento.de/gadgets/harry-potter-botnik-studios-hat-eine-schreibsoftware
 
 ## Mimimi der Woche
 * firefox security.webauth.u2f is by default false
-* [firefox werbe fail](  )
+* [firefox werbe fail]( https://www.heise.de/newsticker/meldung/Werbe-Add-On-fuer-Mr-Robot-Kritik-an-Mozilla-3919951.html )
   * `about:config` -> `extensions.pocket.enabled`
 
 ## Picks
