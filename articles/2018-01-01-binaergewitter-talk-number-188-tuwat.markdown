@@ -30,7 +30,7 @@ Mit dabei sind Felix, L33tname, Markus und Ingo.
 - [Squeezing a key through a carry bit]( https://media.ccc.de/v/34c3-9021-squeezing_a_key_through_a_carry_bit )
 - [Home Distilling]( https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8938.html ) 
 - [Schnaps Hacking](https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8946.html)
-- auto lade stations dinger
+- [Ladeinfrastruktur für Elektroautos: Ausbau statt Sicherheit]( https://media.ccc.de/v/34c3-9092-ladeinfrastruktur_fur_elektroautos_ausbau_statt_sicherheit )
 - [May contain DTraces of FreeBSD]( https://media.ccc.de/v/34c3-9196-may_contain_dtraces_of_freebsd )
 - [Ecstasy 10x yellow Twitter 120mg Mdma]( https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9278.html )
 - [Financial surveillance]( https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9070.html )
@@ -57,8 +57,8 @@ Stümperei](https://www.heise.de/newsticker/meldung/34C3-Das-besondere-Anwaltspo
 
 - [2018 - Jahr des LInux auf dem Desktop]( https://linux.slashdot.org/story/17/12/24/0321253/could-2018-be-the-year-of-the-linux-desktop ) 
 - [Nextcloud MacOSX client finally fixed]( https://github.com/nextcloud/client_theming/issues/13#issuecomment-349946603 )
-- [dragonflybsd Make floppies work again]( http://lists.dragonflybsd.org/pipermail/commits/2017-November/626916.html )
-- [aarch64 platform now officially supported]( http://undeadly.org/cgi?action=article;sid=20171208082238 )
+- [DragonFly BSD: Make floppies work again]( http://lists.dragonflybsd.org/pipermail/commits/2017-November/626916.html )
+- [OpenBSD: aarch64 platform now officially supported]( http://undeadly.org/cgi?action=article;sid=20171208082238 )
 - [Canya kauft Bountysource](https://blog.canya.com.au/2017/12/20/canya-acquires-majority-stake-in-bountysource-adds-over-46000-users/ )
 - [Hackers take control of security firm’s domain, steal secret data]( 
 https://arstechnica.com/information-technology/2017/12/hackers-steal-security-firms-secret-data-in-brazen-domain-hijack/#p3 )
@@ -80,8 +80,4 @@ http://www.bento.de/gadgets/harry-potter-botnik-studios-hat-eine-schreibsoftware
 
 ## Picks
 - [Learning ARM assembly with visUAL]( https://hackaday.com/2017/12/28/learning-arm-assembly-with-visual/ )
-- [5 minuten harry podcast]( https://www.youtube.com/playlist?list=PLDvBqWb1UAGeEt9n6vFH_zdGw65Obf3sH )
-
-
-
-
+- [5 Minuten Harry Podcast]( https://www.youtube.com/playlist?list=PLDvBqWb1UAGeEt9n6vFH_zdGw65Obf3sH )
