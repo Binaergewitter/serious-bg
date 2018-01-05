@@ -21,7 +21,7 @@ https://www.bundesdruckerei.de/de/Newsroom/Pressemitteilungen/Cloud-Sicherheit-v
 ## Toter der Woche
 
 ## Untoter der Woche
-- http://www.pro-linux.de/news/1/25471/linspire-mit-version-70-zur%C3%BCck.html
+- [Linspire]( http://www.pro-linux.de/news/1/25471/linspire-mit-version-70-zur%C3%BCck.html )
 
 ## News
 
@@ -39,8 +39,7 @@ https://www.bundesdruckerei.de/de/Newsroom/Pressemitteilungen/Cloud-Sicherheit-v
 - [Opera anti cryptojacking]( https://boingboing.net/2018/01/01/opera-browser-now-includes-cry.html )
 - [Usertracking über username & passwort]( https://www.theverge.com/2017/12/30/16829804/browser-password-manager-adthink-princeton-research )
 - [ruby 2.5.0]( https://www.ruby-lang.org/de/news/2017/12/25/ruby-2-5-0-released/ )
-python 3.7
-https://www.python.org/dev/peps/pep-0553/
+- [python 3.7]( https://www.python.org/dev/peps/pep-0553/ )
 - [curl & tar für Windows]( https://blogs.technet.microsoft.com/virtualization/2017/12/19/tar-and-curl-come-to-windows/ )
 
 ## Themen
