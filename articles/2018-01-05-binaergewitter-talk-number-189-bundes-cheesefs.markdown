@@ -45,8 +45,7 @@ https://www.python.org/dev/peps/pep-0553/
 
 ## Themen
 
-- [Follow up Mobile Mail: OpenKey Chain statt APG auf Android (APG kann kein S/MIME und wird nicht mehr unterstützt)] 
-(https://en.wikipedia.org/wiki/Android_Privacy_Guard )
+- [Follow up Mobile Mail: OpenKey Chain statt APG auf Android (APG kann kein S/MIME und wird nicht mehr unterstützt)](https://en.wikipedia.org/wiki/Android_Privacy_Guard )
   * [OpenKeychain]( https://www.openkeychain.org/faq/#nfc-security-tokens )
   * [List of all supported Devices]( https://github.com/open-keychain/open-keychain/wiki/Security-Tokens )
  * a modern user interface,
