@@ -35,7 +35,7 @@ Piwik heißt jetzt Twix. Sonst ändert sich bei Felix, Markus und Ingo nix....
 - [Piwik heißt jetzt Matomo](https://www.heise.de/newsticker/meldung/Webanalyse-Piwik-heisst-jetzt-Matomo-3937189.html )
 
 ## Lesefoo
-- [What really happended with vista]https://blog.usejournal.com/what-really-happened-with-vista-an-insiders-retrospective-f713ee77c239 )
+- [What really happended with vista](https://blog.usejournal.com/what-really-happened-with-vista-an-insiders-retrospective-f713ee77c239 )
 - [Ubuntu Touch](https://www.heise.de/newsticker/meldung/Ubuntu-Touch-lernt-Android-Apps-auszufuehren-3927455.html )
 - [watchdog](http://0pointer.de/blog/projects/watchdog.html )
 
@@ -44,7 +44,7 @@ Piwik heißt jetzt Twix. Sonst ändert sich bei Felix, Markus und Ingo nix....
 - [iptables POSTROUTING]( https://github.com/lxc/lxc/blob/d1de8ddad1cdf403fe71f84efb231d4b5ad49716/config/init/common/lxc-net.in#L111 )
 - [shorewall]( http://shorewall.net/ )
 - [mangopay / liberapay]( https://www.mangopay.com/de/ )
-- [keine SNI Validierung bei Letsencrypt](https://www.heise.de/newsticker/meldung/Letsencrypt-sperrt-TLS-SNI-Domainvalidierung-3938738.html
+- [keine SNI Validierung bei Letsencrypt](https://www.heise.de/newsticker/meldung/Letsencrypt-sperrt-TLS-SNI-Domainvalidierung-3938738.html )
 
 
 ## Picks
