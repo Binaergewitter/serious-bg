@@ -44,7 +44,7 @@ Piwik heißt jetzt Twix. Sonst ändert sich bei Felix, Markus und Ingo nix....
 - [iptables POSTROUTING]( https://github.com/lxc/lxc/blob/d1de8ddad1cdf403fe71f84efb231d4b5ad49716/config/init/common/lxc-net.in#L111 )
 - [shorewall]( http://shorewall.net/ )
 - [mangopay / liberapay]( https://www.mangopay.com/de/ )
-- [keine SNI Validierung bei Letsencrypt](https://www.heise.de/newsticker/meldung/Letsencrypt-sperrt-TLS-SNI-Domainvalidierung-3938738.html
+- [keine SNI Validierung bei Letsencrypt](https://www.heise.de/newsticker/meldung/Letsencrypt-sperrt-TLS-SNI-Domainvalidierung-3938738.html)
 
 
 ## Picks
