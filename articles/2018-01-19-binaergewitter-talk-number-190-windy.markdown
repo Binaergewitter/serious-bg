@@ -35,7 +35,7 @@ Piwik heißt jetzt Twix. Sonst ändert sich bei Felix, Markus und Ingo nix....
 - [Piwik heißt jetzt Matomo](https://www.heise.de/newsticker/meldung/Webanalyse-Piwik-heisst-jetzt-Matomo-3937189.html )
 
 ## Lesefoo
-- [What really happended with vista]https://blog.usejournal.com/what-really-happened-with-vista-an-insiders-retrospective-f713ee77c239 )
+- [What really happended with vista]( https://blog.usejournal.com/what-really-happened-with-vista-an-insiders-retrospective-f713ee77c239 )
 - [Ubuntu Touch](https://www.heise.de/newsticker/meldung/Ubuntu-Touch-lernt-Android-Apps-auszufuehren-3927455.html )
 - [watchdog](http://0pointer.de/blog/projects/watchdog.html )
 
