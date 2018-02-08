@@ -58,12 +58,12 @@ https://blog.mozilla.org/press-de/2018/01/25/wie-hardware-token-basierte-zwei-fa
 ## Mimimi der Woche
 - [i3]( https://i3wm.org/ )
   * [HiDPI]( https://wiki.archlinux.org/index.php/HiDPI )
-sata kable
-PowerLan dLAN
-  - rogue DHCP
+- sata kable
+- [PowerLan dLAN](https://de.wikipedia.org/wiki/PowerLAN)
+  * rogue DHCP
 [Sonos]( https://twitter.com/l33tname/status/960953579078144000 )
-   - smb1 only
-   - [Sonos GPL]( http://www.sonos.com/documents/gpl/8.2/gpl.html )
+   * smb1 only
+   * [Sonos GPL]( http://www.sonos.com/documents/gpl/8.2/gpl.html )
 - [SMB1 ist the only way. windows server mit dfs](https://bugzilla.samba.org/show_bug.cgi?id=12917 )
 
 ## Picks
