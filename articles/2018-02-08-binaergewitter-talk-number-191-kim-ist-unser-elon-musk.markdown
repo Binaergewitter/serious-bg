@@ -26,7 +26,7 @@ Mit Felix² und Ingo.
 - [Verteilung der Weltbevölkerung](http://brilliantmaps.com/population-circle/ )
 
 ## Kim der Woche
-- [Kim Dotcom hat geheirate]( https://www.heise.de/newsticker/meldung/Kim-Dotcom-hat-geheiratet-und-will-Neuseeland-verklagen-3947150.html )
+- [Kim Dotcom hat geheiratet]( https://www.heise.de/newsticker/meldung/Kim-Dotcom-hat-geheiratet-und-will-Neuseeland-verklagen-3947150.html )
 
 ## News
 - [Activitypub](http://www.linux-magazin.de/news/activitypub-neuer-standard-fuer-dezentrale-netzwerke/ )
