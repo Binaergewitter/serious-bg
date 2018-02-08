@@ -46,7 +46,7 @@ Mit Felix² und Ingo.
 https://www.golem.de/news/onlinetraining-fitnesstracker-strava-verraet-lage-von-militaerstuetzpunkten-1801-132434.html )
 - [u2f ab (8. Mai 2018) im Firefox default]( 
 https://blog.mozilla.org/press-de/2018/01/25/wie-hardware-token-basierte-zwei-faktor-authentifizierung-mit-der-webauthn-api-funktioniert/ )
-- https://www.heise.de/mac-and-i/meldung/Ungeeignete-Inhalte-Apple-wirft-Messenger-Telegram-raus-3958529.html
+- [Kein Telegram mehr bei Apple](https://www.heise.de/mac-and-i/meldung/Ungeeignete-Inhalte-Apple-wirft-Messenger-Telegram-raus-3958529.html )
 
 ## Themen
 - [FOSDEM - n-gate.com]( http://n-gate.com/fosdem/2018/01/28/0/ )
@@ -64,8 +64,7 @@ PowerLan dLAN
 [Sonos]( https://twitter.com/l33tname/status/960953579078144000 )
    - smb1 only
    - [Sonos GPL]( http://www.sonos.com/documents/gpl/8.2/gpl.html )
-[SMB1 ist the only way. windows server mit dfs]
-https://bugzilla.samba.org/show_bug.cgi?id=12917
+- [SMB1 ist the only way. windows server mit dfs](https://bugzilla.samba.org/show_bug.cgi?id=12917 )
 
 ## Picks
 - [l33tsource]( https://l33tsource.com )
