@@ -31,7 +31,7 @@ Mit Felix, Markus und Ingo.
 https://www.techpowerup.com/240655/leaked-ai-powered-game-revenue-model-paper-foretells-a-dystopian-nightmare )
 - [Hacker booten Linux auf dem Nintendo Switch]( https://www.heise.de/security/meldung/Hacker-booten-Linux-auf-Nintendo-Switch-3965171.html )
 - [Alle Hardware Cryptowallets sind anfällig gegen MITM]( https://www.hackread.com/all-ledger-hardware-wallet-vulnerable-to-man-in-the-middle-attack/ )
-* [Wer soll noch nach aliens suchen wenn alle Shitcoins minen!?]( 
+- [Wer soll noch nach aliens suchen wenn alle Shitcoins minen!?]( 
 http://rss.slashdot.org/~r/Slashdot/slashdot/~3/aZtNKlAKuAI/cryptocurrency-miners-are-limiting-the-search-for-alien-life-now )
   * [Liste von Projekten, die auf verteiltes Rechnen setzen]( https://de.wikipedia.org/wiki/Liste_der_Projekte_verteilten_Rechnens)
 - Meltdown und Spectre News
@@ -40,19 +40,20 @@ https://www.heise.de/security/meldung/Meltdown-Spectre-Microsofts-Compiler-Fix-w
   * [MeltdownPrime und SpectrePrime]( https://gizmodo.com/researchers-find-new-ways-to-exploit-meltdown-and-spect-1823020029 )
   
 - [Mozilla Things Gateway]( https://hacks.mozilla.org/2018/02/how-to-build-your-own-private-smart-home-with-a-raspberry-pi-and-mozillas-things-gateway/ )
- - [home-assistant as an alternative](hass.io)
-   - [Demo Seite]( https://home-assistant.io/demo/ )
-   - [Die modulare Smarthome Zentrale homee](https://hom.ee/ )
- - [FHEM](https://fhem.de)
+  * [home-assistant as an alternative](hass.io)
+    - [Demo Seite]( https://home-assistant.io/demo/ )
+    - [Die modulare Smarthome Zentrale homee](https://hom.ee/ )
+  * [FHEM](https://fhem.de)
 
 ## Themen
 von einem der sich aufmacht gigabit internet zu bekommen
-- Gigabit Internet
-    - [Unitymedia-Kunden buchen im Durchschnitt 101 MBit/s](https://www.golem.de/news/tv-kabelnetz-unitymedia-kunden-buchen-im-durchschnitt-101-mbit-s-1802-132798.html)
-    - [Dorothee Bär (CSU): Niemand will Internetanschlüsse über 100 MBit/s](https://www.giga.de/extra/netzkultur/news/csu-politikerin-niemand-will-internetanschluesse-ueber-100-mbit-s/)
-    - [Breitbandausbau: Glasfaser statt Kupfer, auch bei noch nicht abgeschlossenen Förderungen](https://www.heise.de/newsticker/meldung/Breitbandausbau-Glasfaser-statt-Kupfer-auch-bei-noch-nicht-abgeschlossenen-Foerderungen-3968835.html)
 
-* [Zeitumstellung muss geprüft werden!]( 
+- Gigabit Internet
+  * [Unitymedia-Kunden buchen im Durchschnitt 101 MBit/s](https://www.golem.de/news/tv-kabelnetz-unitymedia-kunden-buchen-im-durchschnitt-101-mbit-s-1802-132798.html)
+  * [Dorothee Bär (CSU): Niemand will Internetanschlüsse über 100 MBit/s](https://www.giga.de/extra/netzkultur/news/csu-politikerin-niemand-will-internetanschluesse-ueber-100-mbit-s/)
+  * [Breitbandausbau: Glasfaser statt Kupfer, auch bei noch nicht abgeschlossenen Förderungen](https://www.heise.de/newsticker/meldung/Breitbandausbau-Glasfaser-statt-Kupfer-auch-bei-noch-nicht-abgeschlossenen-Foerderungen-3968835.html)
+
+- [Zeitumstellung muss geprüft werden!]( 
 https://www.shz.de/deutschland-welt/politik/ende-der-zeitumstellung-eu-parlament-stimmt-fuer-pruefung-id19029111-amp.html?r=wa )
 
 ## Picks
@@ -62,7 +63,4 @@ https://www.shz.de/deutschland-welt/politik/ende-der-zeitumstellung-eu-parlament
 - [winamp2 js]( https://jordaneldredge.com/projects/winamp2-js/ )
 - [Instatravel Video](https://vimeo.com/253334732 ) via l33tname
 - [espeasy]( https://www.letscontrolit.com/wiki/index.php/ESPEasy )
-  - [Spaß mit Piezos und rtttl]( https://www.letscontrolit.com/wiki/index.php/Buzzer_(RTTTL) )
-
-
-
+  - [Spaß mit Piezos und rtttl]( https://www.letscontrolit.com/wiki/index.php/Buzzer_(RTTTL\) )
