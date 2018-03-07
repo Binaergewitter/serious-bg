@@ -16,7 +16,7 @@ Mit Felix² und Markus.
 
 ## Blast
 - [snapcast]( https://github.com/badaix/snapcast )
-  * https://www.hifiberry.com/shop/boards/hifiberry-dac-pro/
+  * [HiFiberry]( https://www.hifiberry.com/shop/boards/hifiberry-dac-pro/ )
   * [python-mpd2 v1.0.0]( https://github.com/Mic92/python-mpd2/releases/tag/v1.0.0 )
 - [HiDPI]( https://www.frumble.de/blog/2017/03/01/manjaro-linux-und-kde-plasma-5-das-frumble-kompendium-2017/#HiDPI )
   * [ansible config XServer settings]( https://github.com/fliiiix/dotfiles/blob/45fd11096a7a5426cec23d75eff4c1b93ce19eec/functions/hidpi_display_settings.yml )
@@ -27,7 +27,7 @@ Mit Felix² und Markus.
 ## News
 - [AWS vs. Selfhosted]( https://www.geekwire.com/2018/dropbox-saved-almost-75-million-two-years-building-tech-infrastructure/ )
 - [VLC 3.0]( https://www.heise.de/newsticker/meldung/Wiedergabe-Software-VLC-3-0-unterstuetzt-360-Grad-Videos-8K-4K60-HDR-und-Chromecast-3964429.html )
-  https://github.com/keredson/gnomecast
+  * [gnomecast]( https://github.com/keredson/gnomecast)
 - [Homebrew Launcher Nintendo Switch]( https://www.heise.de/newsticker/meldung/Homebrew-Launcher-fuer-Nintendo-Switch-erschienen-3972907.html )
 - [Xperia XZ2]( https://www.golem.de/news/xperia-xz2-compact-im-hands-on-sony-schrumpft-wieder-das-oberklasse-smartphone-1802-132935-2.html )
 - [NPM Critical Linux filesystem permissions are being changed]( https://github.com/npm/npm/issues/19883 )
@@ -41,7 +41,7 @@ https://www.heise.de/security/meldung/Meltdown-Spectre-Microsofts-Compiler-Fix-w
 - [Boese Algorithmen, gute algorithmen]( 
 https://www.heise.de/newsticker/meldung/Dank-Algorithmen-Trump-musste-fuer-Facebook-Werbung-weniger-bezahlen-als-Clinton-3978417.html )
 - [iCloud auf google servern -> full circle]( https://www.theregister.co.uk/2018/02/26/apple_icloud_on_google_servers/ )
-https://securelist.com/zero-day-vulnerability-in-telegram/83800/
+- [unicode fun]( https://securelist.com/zero-day-vulnerability-in-telegram/83800/ )
 - [Auf Kamera: junge Webcam versteckt sich im MateBook X unter einer F-Taste]( 
 https://www.theverge.com/2018/2/25/17049094/huawei-matebook-x-pro-mediapad-m5-pro-release-date-mwc-2018 )
 - [30tb SSD zu kaufen von Samsung]( https://arstechnica.com/gadgets/2018/02/samsung-crams-30tb-of-ssd-into-a-single-2-5-inch-drive/ )
