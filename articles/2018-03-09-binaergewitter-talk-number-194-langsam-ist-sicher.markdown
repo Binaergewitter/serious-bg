@@ -37,8 +37,8 @@ Große Runde mit Felix², Markus und Ingo.
 - [iPhone notches bei Android]( https://www.theverge.com/2018/3/4/17077458/iphone-design-clones-mwc-2018 )
 - [Die Uhren gehen falsch....]( 
 https://www.heise.de/newsticker/meldung/Abweichungen-im-Stromnetz-Konflikt-zwischen-Serbien-und-Kosovo-verantwortlich-3988044.html )
-    * [Omegatau Podcast zum Thema Hauptschaltleitung und Umspannwerk]( http://omegataupodcast.net/253-hauptschaltleitung-und-umspannwerk-bei-transnetbw/ )
- * [Stromnetz-Talks auf media.ccc.de]( https://media.ccc.de/search/?q=stromnetz )
+  * [Omegatau Podcast zum Thema Hauptschaltleitung und Umspannwerk]( http://omegataupodcast.net/253-hauptschaltleitung-und-umspannwerk-bei-transnetbw/ )
+  * [Stromnetz-Talks auf media.ccc.de]( https://media.ccc.de/search/?q=stromnetz )
 - [JAVA EE -> Jakarta EE]( https://news.slashdot.org/story/18/03/04/035236/java-ee-has-been-renamed-jakarta-ee )
 - [AI gewinnt Q*bert]( https://www.theverge.com/tldr/2018/2/28/17062338/ai-agent-atari-q-bert-cracked-bug-cheat )
 - [Let's Encrypt verschiebt Wildcard Zertifikate]( https://www.heise.de/security/meldung/Let-s-Encrypt-verschiebt-Wildcard-Zertifikate-3983897.html )
@@ -56,7 +56,7 @@ https://www.heise.de/newsticker/meldung/Abweichungen-im-Stromnetz-Konflikt-zwisc
 https://www.heise.de/security/meldung/Trustico-und-DigiCert-Widerruf-von-23-000-SSL-TLS-Zertifikaten-3984353.html )
   * [nobody grabs cold-storage.tar.gz]( https://twitter.com/taviso/status/969226733000957953 )
 - [Exim Off-by-one RCE (CVE-2018-6789)]( https://devco.re/blog/2018/03/06/exim-off-by-one-RCE-exploiting-CVE-2018-6789-en/ )
-- [Android email clients teilen Deine Passwört mit Entwicklern]( 
+- [Android email clients teilen deine Passwört mit Entwicklern]( 
 https://www.golem.de/news/e-mail-clients-fuer-android-kennwoerter-werden-im-klartext-an-betreiber-uebermittelt-1803-133172.amp.html )
 - [IOTA ist defekt]( https://medium.com/@noahruderman/a-summary-of-why-iotas-refutation-of-a-vulnerability-by-dci-labs-is-absurd-128e894781b1 )
 
@@ -79,7 +79,7 @@ https://www.golem.de/news/e-mail-clients-fuer-android-kennwoerter-werden-im-klar
 
 
 # Upcoming
-. [JavaLand 2018]( https://programm.javaland.eu/2018/#/schedule )
+- [JavaLand 2018]( https://programm.javaland.eu/2018/#/schedule )
 - [Chemnitzer Linuxtage]( https://chemnitzer.linux-tage.de/2018/en )
 
 
