@@ -15,7 +15,7 @@ audioformats:
 Kurzzeitig zu Viert bis uns der L33tname wegen Verbindungsproblemen verlassen musste. Das ist ein Prerelease da es zuviele Audiospuren gibt und es lange dauert 
 das zu bereinigen. Daher hier der Streamdump der etwas schlechtere Qualität hat als normal. SORRY.
 
-\# deletefacebook
+\# deletefacebook  
 - [Cambridge Analytica incident]( https://www.nytimes.com/2018/03/17/us/politics/cambridge-analytica-trump-campaign.html )
 
 ## Blast
@@ -33,20 +33,18 @@ das zu bereinigen. Daher hier der Streamdump der etwas schlechtere Qualität hat
   * [Java EOL]( http://www.oracle.com/technetwork/java/eol-135779.html )
 - [Firefox 60 hat Cookie UI entfernt]( https://www.ghacks.net/2018/02/26/mozilla-removes-individual-cookie-management-in-firefox-60/ ) 
 - [amd cpu bugs]( https://community.amd.com/community/amd-corporate/blog/2018/03/21/initial-amd-technical-assessment-of-cts-labs-research )
-
 - [Ledger Security]( https://saleemrashid.com/2018/03/20/breaking-ledger-security-model/ )
-- [OpenBSD: Meltdown-mitigation]( http://undeadly.org/cgi?action=article;sid=20180228225937 ) 
 - [Raspberry Pi 3 B+]( https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/ )
 - [steam hidpi]( https://steamcommunity.com/groups/SteamClientBeta/announcements/detail/1655505073049286411 )
   * Added a 2X-scaling mode (`GDK_SCALE=2 steam`)
   * [opt in to beta]( https://developer.valvesoftware.com/wiki/Betas )
 - [Handheld bei Archive.org]( https://hackaday.com/2018/03/19/emulating-handheld-history/ ) 
 - [Metareviewj ]( https://reviewmeta.com/ )
-  - [Beispiel Review]( https://reviewmeta.com/amazon/B077HWXF94 )
+  * [Beispiel Review]( https://reviewmeta.com/amazon/B077HWXF94 )
 - [Troll Kommentatoren mit Quiz blocken]( https://arstechnica.com/gaming/2018/03/how-a-norwegian-comment-section-turned-chaos-into-order-with-a-simple-quiz/#p3 )
 - [China: schlechter Social Score -> nicht mehr fliegen]( 
 https://yro.slashdot.org/story/18/03/16/185246/china-to-bar-people-with-bad-social-credit-from-planes-trains )
-- [FreeBSD: Spectre hardware mitigation]( https://svnweb.freebsd.org/base?view=revision&revision=328625 )
+
 
 ## Themen
 
