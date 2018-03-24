@@ -15,16 +15,16 @@ audioformats:
 Kurzzeitig zu Viert bis uns der L33tname wegen Verbindungsproblemen verlassen musste. Das ist ein Prerelease da es zuviele Audiospuren gibt und es lange dauert 
 das zu bereinigen. Daher hier der Streamdump der etwas schlechtere Qualität hat als normal. SORRY.
 
-# deletefacebook
-* [Cambridge Analytica incident]( https://www.nytimes.com/2018/03/17/us/politics/cambridge-analytica-trump-campaign.html )
+\# deletefacebook
+- [Cambridge Analytica incident]( https://www.nytimes.com/2018/03/17/us/politics/cambridge-analytica-trump-campaign.html )
 
 ## Blast
-[Bundestag sagt NEIN zu Abschaffung der Zeitumstellung](https://www.heise.de/newsticker/meldung/Bundestag-lehnt-Abschaffung-der-Sommerzeit-ab-4001468.html )
+- [Bundestag sagt NEIN zu Abschaffung der Zeitumstellung](https://www.heise.de/newsticker/meldung/Bundestag-lehnt-Abschaffung-der-Sommerzeit-ab-4001468.html )
 
 
 ## Toter der Woche
-- [Stephen Hawking]
-- []( https://www.heise.de/newsticker/meldung/Polizei-zum-ersten-Todesfall-mit-autonomem-Auto-Unfall-war-schwer-zu-verhindern-3999229.html )
+- [Stephen Hawking]( https://www.nzz.ch/wissenschaft/stephen-hawking-eine-wuerdigung-ld.1365815 )
+- [Uber autonomer Auto Unfall]( https://www.heise.de/newsticker/meldung/Polizei-zum-ersten-Todesfall-mit-autonomem-Auto-Unfall-war-schwer-zu-verhindern-3999229.html )
 - [netstat]( https://twitter.com/nixcraft/status/976156288638840832 )
 
 ## News
@@ -37,7 +37,6 @@ das zu bereinigen. Daher hier der Streamdump der etwas schlechtere Qualität hat
 - [Ledger Security]( https://saleemrashid.com/2018/03/20/breaking-ledger-security-model/ )
 - [OpenBSD: Meltdown-mitigation]( http://undeadly.org/cgi?action=article;sid=20180228225937 ) 
 - [Raspberry Pi 3 B+]( https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/ )
-
 - [steam hidpi]( https://steamcommunity.com/groups/SteamClientBeta/announcements/detail/1655505073049286411 )
   * Added a 2X-scaling mode (`GDK_SCALE=2 steam`)
   * [opt in to beta]( https://developer.valvesoftware.com/wiki/Betas )
@@ -51,10 +50,10 @@ https://yro.slashdot.org/story/18/03/16/185246/china-to-bar-people-with-bad-soci
 
 ## Themen
 
-- https://www.heise.de/security/meldung/Let-s-Encrypt-stellt-ab-sofort-Wildcard-Zertifikate-aus-3994552.html - YEAH - habs getestet. muss die neue API nehmen. 
-ggf. beim certbot und co explizit angeben
-    * https://community.letsencrypt.org/t/acme-v2-production-environment-wildcards/55578
-    * http://www.eigenmagic.com/2018/03/14/howto-use-certbot-with-lets-encrypt-wildcard-certificates/
+- [Let's Encrypt Wildcard Zertifikate](https://www.heise.de/security/meldung/Let-s-Encrypt-stellt-ab-sofort-Wildcard-Zertifikate-aus-3994552.html)
+  * YEAH - habs getestet. muss die neue API nehmen. ggf. beim certbot und co explizit angeben
+  * [acme v2]( https://community.letsencrypt.org/t/acme-v2-production-environment-wildcards/55578 )
+  * [howto certbot]( http://www.eigenmagic.com/2018/03/14/howto-use-certbot-with-lets-encrypt-wildcard-certificates/ )
 
 
 ## Lesefoo
