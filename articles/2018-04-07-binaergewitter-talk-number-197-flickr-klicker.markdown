@@ -21,8 +21,7 @@ L33tname und Markus haben sich zum Fotofinish getroffen und machen zu zweit eine
 ## Toter der Woche
 - [Valve Steam Machine]( https://www.heise.de/newsticker/meldung/Valve-scheitert-mit-Steam-Machine-Konzept-4010313.html )
   * [linux-magazin]( http://www.linux-magazin.de/news/steam-machines-vor-dem-aus/ )
-  
-https://www.heise.de/ix/meldung/Google-beendet-reCAPTCHA-v1-4010679.html
+- [recaptcha](https://www.heise.de/ix/meldung/Google-beendet-reCAPTCHA-v1-4010679.html )
 
 
 ## News
@@ -41,9 +40,9 @@ https://www.heise.de/ix/meldung/Google-beendet-reCAPTCHA-v1-4010679.html
 ## Themen
 - [securitytxt](https://securitytxt.org/)
 
-Fotografie (windows)
+### Fotografie (windows)
 - Adobe Lightroom CC
-* Plugin zum Sync von [Smart Collections](http://regex.info/blog/lightroom-goodies/smart-collection-sync)
+ * Plugin zum Sync von [Smart Collections](http://regex.info/blog/lightroom-goodies/smart-collection-sync)
 - Adobe Photoshop CC
 - [FastPictureViewer Codec Pack]( https://www.fastpictureviewer.com/codecs/ )
 
@@ -52,7 +51,7 @@ Fotografie (windows)
 
 
 ## Picks
-- [ImapSync]( https://github.com/imapsync/imapsync ) (Entwickler würde gerne eine Spende erhalten: http://imapsync.lamiral.info/ ); lizensiert unter der [No Limit Public License] +1 tolles tool! (https://tldrlegal.com/license/no-limit-public-license )
+- [ImapSync]( https://github.com/imapsync/imapsync ) 
 - [flickr: megane_wakui](https://www.flickr.com/photos/megane_wakui/)
 
 
