@@ -12,14 +12,16 @@ audioformats:
   m4a: http://download.binaergewitter.de/2018-04-10.Binaergewitter.Talk.198.m4a
   opus: http://download.binaergewitter.de/2018-04-10.Binaergewitter.Talk.198.opus
 ---
-## Blast
-- DSGVO ab 25. Mai 2018 anzuwenden. Seit 2 Jahren aktiv
-https://de.wikipedia.org/wiki/Datenschutz-Grundverordnung
- * Impressum anpassen!
- * Datenschutzerklärung auf den aktuellen Stand bringen wenn Leute bei Euch Dinge eingeben können :)
-* [Holey Beep Plot Twist: code execution in *patch*]( https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=894667 )
+Felix, Markus und Ingo versuchen die DSGVO und EU Urheberrecht zu erklären. Außerdem haben wir wieder ein Windows Thema ;))
 
-Threema Backups: Setzt ein Revoke-Passwort!
+
+## Blast
+- DSGVO ab 25. Mai 2018 anzuwenden.
+ * [WP: Datenschutz Grundverordnung](https://de.wikipedia.org/wiki/Datenschutz-Grundverordnung )
+ * Impressum/Datenschutzerklärung anpassen!
+ * Datenschutzerklärung auf den aktuellen Stand bringen wenn Leute bei Euch Dinge eingeben können :)
+- [Holey Beep Plot Twist: code execution in *patch*]( https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=894667 )
+- Threema Backups: Setzt ein Revoke-Passwort!
 
 ## Untoter der Woche
 - [Windows Dateimanager ist OpenSource!]( https://github.com/Microsoft/winfile )
@@ -44,12 +46,12 @@ https://www.heise.de/newsticker/meldung/Erpressungstrojaner-verschluesselt-Daten
 ## Themen
 
 EU-Urheberrechtsreform - Bedrohung für freie Software 
-https://twitter.com/Senficon/status/982208139423399936
-https://juliareda.eu/2018/04/freie-software-zensurmaschinen/
+- [Tweet von Julia Reda](https://twitter.com/Senficon/status/982208139423399936 )
+- [Blogpost von Julia Reda](https://juliareda.eu/2018/04/freie-software-zensurmaschinen/ )
 
 ## Lesefoo
 - [OpenGL Bindings for Bash]( https://opensource.com/article/18/4/opengl-bindings-bash ) 
-- [(Java) Build Tools: Maven Scopes vs Gradle Configurations] ( http://andresalmiray.com/maven-scopes-vs-gradle-configurations/ ) 
+- [(Java) Build Tools: Maven Scopes vs Gradle Configurations]( http://andresalmiray.com/maven-scopes-vs-gradle-configurations/ ) 
 
 ## Mimimi der Woche
 * was machen wenn der Internet Provider kein Internet providet obwohl man zahlt?
