@@ -25,7 +25,7 @@ bitten das zu entschuldigen. Nächstes mal wieder ohne Hall. Versprochen.
 
 ## Untoter
 - [ReactOS]( https://www.heise.de/newsticker/meldung/ReactOS-0-4-8-Windows-Nachbau-jetzt-mit-Windows-10-Unterstuetzung-4024974.html )
-https://about.d.tube/
+- [dtube]( https://about.d.tube/ )
 
 ## Dot kom der Woche
 - [Er wird gewinnen]( http://www.spiegel.de/netzwelt/web/kim-dotcom-im-interview-wir-werden-gewinnen-a-1202144.html )
@@ -54,10 +54,11 @@ https://about.d.tube/
 
 ## Picks
 - [proxyjump]( https://www.madboa.com/blog/2017/11/02/ssh-proxyjump/ )
-    `ProxyCommand ssh proxyhost -W %h:%p`
+    * vorher `ProxyCommand ssh proxyhost -W %h:%p`
+    * neu `ssh -J your.jump.host remote.internal.host`
 - [LaTeX Coffee Stains]( http://hanno-rein.de/archives/349 )
 - [projectlibre](http://www.projectlibre.com/ )
- -[Chaos Monkey]( https://github.com/Netflix/chaosmonkey )
+- [Chaos Monkey]( https://github.com/Netflix/chaosmonkey )
     * Chaos Monkey randomly terminates virtual machine instances and containers that run inside of your production environment.
     * [for Spring Boot](https://github.com/codecentric/chaos-monkey-spring-boot )
 - [Conserve the sound]( http://www.conservethesound.de/en/ )
