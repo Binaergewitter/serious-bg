@@ -27,10 +27,10 @@ Mit dabei sind beide Felixe, Markus und Ingo.
 
 ## Kopenhagen / Kubecon
 
-    * [Railway Map / deutschlands bahnhöfe](http://map.railway-stations.org/ )
-    * [xkcd](https://xkcd.com/1988/ )
-    * [l.cncf.io]( http://l.cncf.io )
-    * [Kata Container](https://katacontainers.io/ )
+- [Railway Map / deutschlands bahnhöfe](http://map.railway-stations.org/ )
+- [xkcd](https://xkcd.com/1988/ )
+- [l.cncf.io CloudNative Landscape]( http://l.cncf.io )
+- [Kata Container](https://katacontainers.io/ )
     * [gVisor]( https://cloudplatform.googleblog.com/2018/05/Open-sourcing-gVisor-a-sandboxed-container-runtime.html ) 
 
 # Untoter
@@ -41,7 +41,7 @@ Mit dabei sind beide Felixe, Markus und Ingo.
 - [Erpressungstrojaner hat es auf HPE iLo abgesehen]( 
 https://www.heise.de/security/meldung/Server-Verwaltung-Erpressungstrojaner-hat-es-auf-HPE-iLo-abgesehen-4035630.html )
 - [aircrack-ng 1.2]( https://github.com/aircrack-ng/aircrack-ng/releases/tag/1.2 )
-https://www.gimp.org/news/2018/04/27/gimp-2-10-0-released/
+- [Gimp 2.10 released](https://www.gimp.org/news/2018/04/27/gimp-2-10-0-released/ )
 - [Wikipedia link Previews]( https://blog.wikimedia.org/2018/04/20/why-it-took-a-long-time-to-build-that-tiny-link-preview-on-wikipedia/ )
 - [wtf: rockchips Kalenderabweichung]( https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=f076ef44a44d02ed91543f820c14c2c7dff53716 )
   - `In A.D. 1582 Pope Gregory XIII found that the existing Julian calendar insufficiently represented reality, and changed the rules about calculating leap years 
