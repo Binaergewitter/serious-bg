@@ -48,11 +48,11 @@ Wieder gibt es etwas zu feiern. Diesmal Vatertag und Felix, Felix und Ingo sind 
 - [Chromebook Price: Infinity <---> -Infinity]( https://twitter.com/makefoo/status/994656892264706048 )
 - google I/O
   * [the verge recap]( https://www.theverge.com/2018/5/8/17328828/google-io-keynote-summary-highlights-news-recap-2018 )
-  https://www.golem.de/news/google-android-apps-werden-kleiner-1805-134299.html
+  * [apps werden kleiner]( https://www.golem.de/news/google-android-apps-werden-kleiner-1805-134299.html )
   * [Google Duplex]( https://ai.googleblog.com/2018/05/duplex-ai-system-for-natural-conversation.html )
  - mehr swepe - mehr like sailfish
 * [Sailfish / Jolla Treffen in Berlin](https://together.jolla.com/question/183644/berlin-sailfish-os-meetup-2018-05-17/ )
-* https://www.heise.de/security/meldung/Spectre-NG-Intel-Prozessoren-von-neuen-hochriskanten-Sicherheitsluecken-betroffen-4039302.html
+* [Spectre NG]( https://www.heise.de/security/meldung/Spectre-NG-Intel-Prozessoren-von-neuen-hochriskanten-Sicherheitsluecken-betroffen-4039302.html )
 
 ## Lesefoo
 - [Blockchain explained in 7 Python Functions]( https://towardsdatascience.com/blockchain-explained-in-7-python-functions-c49c84f34ba5 )
