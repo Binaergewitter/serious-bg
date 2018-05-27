@@ -1,6 +1,6 @@
 <div class="article">
   <h2>
-    <a href="<%= xenim_data[:link] %>">Live</a>
+    <a href="http://stream.radiotux.de:8000/binaergewitter.mp3">Live</a>
   </h2>
   <div>
     <p>Unseren Chat findet ihr im Freenode IRC unter #Binaergewitter. Während der Sendung kann man uns dort antreffen und mit anderen Hörern diskutieren.</p>
@@ -13,7 +13,7 @@
     <div class="podcast_player" style="width:100%;">
       <p>
         <audio controls="controls" id="live" preload="none">
-          <source src="<%= xenim_data[:stream] %>" type="audio/mpeg">
+          <source src="http://stream.radiotux.de:8000/binaergewitter.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
       </p>
@@ -22,8 +22,8 @@
         $('#live').podlovewebplayer({
                 poster: '/img/binaergewitter_logo.png',
                 title: 'Live',
-                permalink: '<%= xenim_data[:link] %>',
-                author: '<%= xenim_data[:author] %>',
+                permalink: 'http://stream.radiotux.de:8000/binaergewitter.mp3',
+                author: 'Binaergewitter',
                 alwaysShowHours: false,
                 startVolume: 0.8,
                 width: 'auto',

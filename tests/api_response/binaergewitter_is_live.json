@@ -1,8 +1,0 @@
-HTTP/1.1 200 OK
-Date: Sat, 18 Jan 2014 10:26:01 GMT
-Access-Control-Allow-Origin: *
-Content-Type: application/json
-Server: TwistedWeb/12.3.0
-Transfer-Encoding: chunked
-
-{"description": "Eine w\u00f6chentliche Geek-Talk-Runde mit 3-6 Leuten, die meistens aus dem Hackerspace in Stuttgart (Shackspace) sendet. Wir reden \u00fcber die News der letzten Woche und quatschen vornehmlich \u00fcber Entwicklung, Web und Mobilezeugs sowie Open Source. Talk-Show rund um IT, Entwicklung und Open Source", "feed_url": "http://feeds.streams.xenim.de/live/binaergewitter/json/", "title": "xsn Archive for Bin\u00e4rgewitter", "items": [{"website":"http://www.die-quasselstrippen.de/","begin":"2014-01-18T11:02:39.084+01:00","end":"2014-01-18T13:00:00+01:00","description":"Der pseudointellektuelle, moralinsaure Podcast mit erhobenem Zeigefinger und irrealem Parasymbolismus.","pubdate":"2014-01-18T11:29:07.533+01:00","title":"Die Quasselstrippen","author_name":"Quasselstrippen","listener":"12","link":"http://streams.xenim.de/quasselstrippen/QS061/","unique_id":"quasselstrippen-QS061","streams":["http://streams.xenim.de/quasselstrippen.mp3"],"channel":"quasselstrippen","icon":"http://media.streams.xenim.de/show-icons/QS4_4.png"}], "language": "de-de", "link": "http://streams.xenim.de/binaergewitter/", "id": "http://streams.xenim.de/binaergewitter/", "icon": "http://media.streams.xenim.de/show-icons/binaergewitter_logo.png"}
