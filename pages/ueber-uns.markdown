@@ -22,7 +22,7 @@ Binärgewitter entstand bei [RadioTux](http://blog.radiotux.de/), dem Internetra
 - Markus Schlichting ([@madmas](https://twitter.com/madmas)) ([blog](http://www.mynethome.de/))
 - Marc Seeger ([@rb2k](https://twitter.com/rb2k)) ([blog](http://blog.marc-seeger.de/))
 - Matthias Wenz ([@ranterle](https://twitter.com/ranterle))
-- Felix Niederberger ([@l33tname](https://twitter.com/l33tname))
+- Felix ([@l33tname](https://twitter.com/l33tname))
 
 ### Gäste
 - hadez ([@hdznrrd](https://twitter.com/hdznrrd)) ([blog](http://nrrd.de/))

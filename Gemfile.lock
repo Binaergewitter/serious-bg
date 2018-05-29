@@ -30,13 +30,13 @@ GEM
     mustermann (1.0.2)
     power_assert (1.1.1)
     public_suffix (3.0.2)
-    puma (3.11.2)
-    rack (2.0.4)
+    puma (3.11.4)
+    rack (2.0.5)
     rack-protection (2.0.1)
       rack
-    rack-test (0.8.3)
+    rack-test (1.0.0)
       rack (>= 1.0, < 3)
-    rake (12.3.0)
+    rake (12.3.1)
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
@@ -53,12 +53,12 @@ GEM
     stupid_formatter (0.2.0)
       coderay (>= 0.9.0)
       rdiscount (>= 1.5.0)
-    test-unit (3.2.7)
+    test-unit (3.2.8)
       power_assert
     tilt (2.0.8)
     typhoeus (1.3.0)
       ethon (>= 0.9.0)
-    webmock (3.3.0)
+    webmock (3.4.1)
       addressable (>= 2.3.6)
       crack (>= 0.3.2)
       hashdiff
@@ -79,7 +79,7 @@ DEPENDENCIES
   webmock
 
 RUBY VERSION
-   ruby 2.5.0p0
+   ruby 2.5.1p57
 
 BUNDLED WITH
    1.16.1
