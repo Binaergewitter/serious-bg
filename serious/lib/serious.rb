@@ -110,10 +110,10 @@ class Serious < Sinatra::Base
           Net::HTTP.start('stream.radiotux.de', 8000) {|http|
               http.read_timeout = 5
               http.open_timeout = 5
-              response = http.head('/binaergewitter.mp3')
+              response = http.get('/status.xsl')
               
 	      #get data
-              settings.stream_response = response.kind_of? Net::HTTPSuccess
+	      settings.stream_response = response.body.include? "binaergewitter.mp3"
               settings.stream_response_time = Time.now
           }
         rescue Exception => e
