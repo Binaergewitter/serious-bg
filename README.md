@@ -4,7 +4,7 @@ Oh hai!
 
 [![Build Status](https://travis-ci.org/Binaergewitter/serious-bg.svg?branch=master)](https://travis-ci.org/Binaergewitter/serious-bg)
 [![Support us on Patreon](http://ionicabizau.github.io/badges/patreon.svg)](https://www.patreon.com/Binaergewitter) 
-[![Donate](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/Binaergewitter)
+[![Donate](https://img.shields.io/liberapay/patrons/Binaergewitter.svg?logo=liberapay)](https://liberapay.com/Binaergewitter)
 
 
 # Markdown syntax

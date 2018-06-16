@@ -21,7 +21,6 @@ We are live feature sollte wieder funktionieren!
 ## News
 - [WireGuard on OpenBSD]( https://marc.info/?l=openbsd-ports&m=152712417729497&w=2 )
   * [apu boards]( https://www.apu-board.de/ )
-
 - [Mafiamethoden: CDU/CSU bedroht europäische Abgeordnete ihrer Fraktion: Wenn sie nicht für das #Leistungsschutzrecht stimmen, verlieren sie ihre Posten]( 
 https://twitter.com/Senficon/status/1001514541317066754 )
 - [Das Leistungsschutzrecht – ein Zombie-Gesetz aus Deutschland wird bald in ganz Europa Realität]( 
@@ -33,9 +32,9 @@ https://krautreporter.de/2471-den-kleinen-parteien-droht-das-sichere-aus-im-eu-p
 - [DSGVO: ICANN klagt gegen minmal-Whois ]( https://www.heise.de/newsticker/meldung/DSGVO-und-Domain-Daten-ICANN-klagt-gegen-abgespecktes-Whois-4060061.html )
 - [DSGVO als Verhikel für die Abmahnindustrie]( https://www.heise.de/newsticker/meldung/DSGVO-Die-Abmahn-Maschinerie-ist-angelaufen-4061044.html )
 - [I'm a Teepot Fehler in NPM](http://www.pro-linux.de/news/1/25938/i39m-a-teapot-kurioser-fehler-in-der-npm-registry.html) 
-- [rfc2324]( https://tools.ietf.org/html/rfc2324 )
-- https://www.stackoverflowbusiness.com/de/talent/ressourcen/stack-overflow-entwicklerumfrage-deutschland-report-2018
-- Endlich mehr RAM für Notebooks: https://www.heise.de/newsticker/meldung/32-GByte-Speichermodule-fuer-Notebooks-4060894.html
+  * [rfc2324]( https://tools.ietf.org/html/rfc2324 )
+- [stackoverflow entwicklerumfrage deutschland]( https://www.stackoverflowbusiness.com/de/talent/ressourcen/stack-overflow-entwicklerumfrage-deutschland-report-2018 )
+- Endlich [mehr RAM für Notebooks]( https://www.heise.de/newsticker/meldung/32-GByte-Speichermodule-fuer-Notebooks-4060894.html )
 - [RAM verdoppler]( https://blog.binaergewitter.de/2013/06/14/binaergewitter-talk-number-55-ram-verdoppler )
 - sailfish 2.2
 - [neue RadioTux Sendung]( https://www.radiotux.de/index.php?/archives/8041-RadioTux-Sendung-Mai-2018.html )
@@ -52,10 +51,8 @@ https://krautreporter.de/2471-den-kleinen-parteien-droht-das-sichere-aus-im-eu-p
 - [KMyMoney]( https://kmymoney.org/ )
 - [HBCI](https://de.wikipedia.org/wiki/Homebanking_Computer_Interface )
 - [QBankManager](https://wiki.ubuntuusers.de/Archiv/QBankManager/ )
-
 - [mint]( https://www.mint.com/ )
 - [FinTS]( https://de.wikipedia.org/wiki/Financial_Transaction_Services )
-
 - [Hibiscus (plattformübergreifend)]( https://www.willuhn.de/products/hibiscus/ )
 - [Moneyplex]( http://www.matrica.de/ )
 
