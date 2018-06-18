@@ -29,7 +29,7 @@ https://www.heise.de/newsticker/meldung/Zum-Tod-von-Meinhard-Starostik-Verfassun
 
 ## News
 
-- Sperrklausel für kleine Parteien ist realität geworden http://www.tagesschau.de/ausland/sperrklausel-kleinstparteien-101.html
+- [Sperrklausel für kleine Parteien ist realität geworden]( http://www.tagesschau.de/ausland/sperrklausel-kleinstparteien-101.html )
 
 - *E3 - Electronic Entertainment Expo* 
 - [Cyberpunk 2077(video)]( https://www.youtube.com/watch?v=8X2kIfS6fb8&feature=youtu.be )
