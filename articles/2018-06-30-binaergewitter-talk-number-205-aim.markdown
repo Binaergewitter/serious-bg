@@ -19,13 +19,13 @@ audioformats:
 
 ## Untoter
 - [Aim]( https://tech.slashdot.org/story/18/06/26/1439239/aim-has-been-resurrected-kind-of )
-http://iwarg.ddns.net/aim/
+    * [Aim again]( http://iwarg.ddns.net/aim/ )
 - [Lotus Notes]( https://www.heise.de/newsticker/meldung/Notes-Domino-Wie-HCL-der-Kollaborationsplattform-neues-Leben-einhauchen-will-4088495.html )
 
 ## News
 
 - [YouTube Blocks Blender Videos Worldwide]( https://www.blender.org/media-exposure/youtube-blocks-blender-videos-worldwide/ )
-  * []( https://video.blender.org/ )
+  * [video.blender.org]( https://video.blender.org/ )
 - [Google Podcasts]( https://www.heise.de/newsticker/meldung/Google-Podcasts-Google-veroeffentlicht-eigenen-Podcast-Player-4086640.html )
 - [python 3.7]( https://www.python.org/downloads/release/python-370/ )
   - [breakpoint()]( https://www.python.org/dev/peps/pep-0553/ )
@@ -43,7 +43,7 @@ https://arstechnica.com/information-technology/2018/06/backdoored-images-downloa
   - [public money, public code]( https://publiccode.eu/de/ )
 - [Ein trauriger Tag für das freie Internet]( https://www.heise.de/tp/features/Ein-trauriger-Tag-fuer-das-Internet-und-Europa-4087651.html )
 - [Julia Reder: Save YOUR Internet]( https://juliareda.eu/2018/06/saveyourinternet/ )
-- [](https://www.heise.de/newsticker/meldung/EU-Copyright-Reform-Mehrheit-fuer-Upload-Filter-und-Leistungsschutzrecht-wackelt-4093954.html )
+- [EU-Copyright-Reform]( https://www.heise.de/newsticker/meldung/EU-Copyright-Reform-Mehrheit-fuer-Upload-Filter-und-Leistungsschutzrecht-wackelt-4093954.html )
 
 ## Lesefoo
 - [bash is not sh]( https://rainbowhackerhorse.github.io/bash-Is-Not-sh/ )
@@ -60,4 +60,4 @@ https://arstechnica.com/information-technology/2018/06/backdoored-images-downloa
 - [Text on your computer with Messages for web]( https://messages.android.com/ )
 - [Upgraded my RPi's heatsink for only 6 cents]( https://imgur.com/gallery/5DikNEu )
 - [voice - Audiobook Abspielprogramm]( )
-- [Wieviele Schneeflocken in einem Schneeball: 300g / (30*10^-6 g ) -> 10 Millionen]( https://www.google.com/search?q=300g+%2F+(30*10^-6+g+) )
+- [Wieviele Schneeflocken in einem Schneeball: 300g / (30*10^-6 g ) -> 10 Millionen]( https://www.google.com/search?q=300g+%2F+(30*10^-6+g+\) )
