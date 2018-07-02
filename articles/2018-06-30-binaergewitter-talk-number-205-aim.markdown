@@ -42,7 +42,7 @@ https://arstechnica.com/information-technology/2018/06/backdoored-images-downloa
 - [Schleswig Holstein macht OpenSource]( https://twitter.com/RasmusAndresen/status/1007232503411888130 )
   - [public money, public code]( https://publiccode.eu/de/ )
 - [Ein trauriger Tag für das freie Internet]( https://www.heise.de/tp/features/Ein-trauriger-Tag-fuer-das-Internet-und-Europa-4087651.html )
-- [Julia Reder: Save YOUR Internet]( https://juliareda.eu/2018/06/saveyourinternet/ )
+- [Julia Reda: Save YOUR Internet]( https://juliareda.eu/2018/06/saveyourinternet/ )
 - [EU-Copyright-Reform]( https://www.heise.de/newsticker/meldung/EU-Copyright-Reform-Mehrheit-fuer-Upload-Filter-und-Leistungsschutzrecht-wackelt-4093954.html )
 
 ## Lesefoo
