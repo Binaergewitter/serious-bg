@@ -16,14 +16,12 @@ Eine kurze Sendung vor unserer nicht vorhandenen Sommerpause. Allen eine frohe F
 mal über Podcast-Clients. Zur Feier hat diese Sendung sogar ein paar wenige Kapitelmarken bekommen.
 
 ## Blast
-Zum Audio(book)player: nimm einfach Podcast Addict. by Matze
-- [Podcast & Radio Addict]( https://play.google.com/store/apps/details?id=com.bambuna.podcastaddict&hl=de )
-- [Apple Podcast client] ist gut und kann kapitel marken 
+- Zum Audio(book)player: [Podcast & Radio Addict]( https://play.google.com/store/apps/details?id=com.bambuna.podcastaddict&hl=de ) via Blog-Kommentar by Matze
+- [Apple Podcast client]( https://itunes.apple.com/ch/app/podcasts/id525463029?mt=8 ) 
+  * ist gut und kann kapitel marken 
 
 ## dot com der woche
 - [dotcom darf ausgeliefert werden]( https://www.heise.de/newsticker/meldung/Gerichtsbeschluss-Kim-Dotcom-darf-an-USA-ausgeliefert-werden-4100150.html )
-
-## Toter der Woche
 
 ## Untoter der Woche
 - [kaiOS]( https://www.kaiostech.com/ )
@@ -54,7 +52,7 @@ https://restic.net/ ) )
 ## Mimimi der Woche
 
 - [GDPR sperrt EU Bürger aus]( http://www.tronc.com/gdpr/latimes.com/ )
-- [Unsägliches Registrierungsformular]( buergerserviceportal.de )
+- [Unsägliches Registrierungsformular]( http://buergerserviceportal.de )
 
 ## Picks
 - [hot GUIDs]( http://secretgeek.net/hotGuids/index.htm )
