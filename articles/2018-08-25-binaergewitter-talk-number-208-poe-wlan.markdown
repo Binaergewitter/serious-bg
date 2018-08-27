@@ -41,7 +41,7 @@ Beschränkungen](https://blog.twitter.com/developer/en_us/topics/tools/2018/new-
 
 - [NetBSD 8]( https://www.netbsd.org/releases/formal-8/NetBSD-8.0.html )
 - [ReactOS 0.4.9]( https://www.heise.de/newsticker/meldung/ReactOS-0-4-9-Der-offene-Windows-Nachbau-wird-stabiler-4118297.html )
-  - [GSoC 2018: booting from Btrfs](https://reactos.org/blogs/gsoc-2018-booting-btrfs-works )
+  * [GSoC 2018: booting from Btrfs](https://reactos.org/blogs/gsoc-2018-booting-btrfs-works )
 - [Linux bekommt GNSS Subsystem](https://www.pro-linux.de/news/1/26221/linux-erh%C3%A4lt-gnss-subsystem.html )
 - [Oracle ändert Java Lizensierung]( https://dev.karakun.com/java/2018/06/25/java-releases.html )
 - [Dropbox dropt alles ausser ext4]( https://www.heise.de/newsticker/meldung/Dropbox-unterstuetzt-unter-Linux-nur-noch-das-Ext4-Dateisystem-4137191.html )
@@ -56,15 +56,16 @@ https://olimex.wordpress.com/2018/07/25/new-esp32-board-teaser-power-over-ethern
 https://www.heise.de/newsticker/meldung/Linux-Aus-Niedersaechsische-Gruene-haken-nach-4133982.html )
 
 ## Themen
+### Save your internet
+- [saveyourinternet.today]( https://saveyourinternet.today/ )
+  * Aktionstag morgen
+  * Twitter zeigt warnung beim Öffnen des Links zur Aktion an
+  * [Julia Redas Artikel per DMCA complaint aus Google Suchergebnissen gelöscht](https://juliareda.eu/2018/08/censorship-machines-gonna-censor/ )
 
-        https://saveyourinternet.today/       
-            Aktionstag morgen
-            Twitter zeigt warnung beim Öffnen des Links zur Aktion an
-- [Julia Redas Artikel per DMCA complaint aus Google Suchergebnissen gelöscht](https://juliareda.eu/2018/08/censorship-machines-gonna-censor/ )
-
-- **Fediverse**: Mastodon wird mal wieder durchs Dorf getrieben
+### Fediverse
+- Mastodon wird mal wieder durchs Dorf getrieben
   - Hintergrund: Twitter-API, Abuse & Nazis
-- W3C-Standard für föderierte Software: http://activitypub.rocks/
+- W3C-Standard für föderierte Software: [activitypub.rocks](http://activitypub.rocks/)
 - [Übersicht über das Fediverse](https://fediverse.party/ )
   - [Mastodon](https://joinmastodon.org )
   - [Pleroma](https://pleroma.social/ )
@@ -82,10 +83,10 @@ https://www.heise.de/newsticker/meldung/Linux-Aus-Niedersaechsische-Gruene-haken
   - [Socialhome](https://github.com/jaywink/socialhome )
   - [postActiv](https://www.postactiv.com/ )
 - push federation
-- https://dolphin.town
-- Mastodon Instanz auswählen: https://instances.social
-- Twitter Kontakte finden: https://bridge.joinmastodon.org
-- Nutzerübersicht über das gesamte Fediverse: https://the-federation.info/
+- [dolphin.town]( https://dolphin.town )
+- Mastodon Instanz auswählen: [instances.social]( https://instances.social )
+- Twitter Kontakte finden: [bridge.joinmastodon.org](https://bridge.joinmastodon.org)
+- Nutzerübersicht über das gesamte Fediverse: [the-federation.info](https://the-federation.info/)
 
 ## Mimimi der Woche
 
