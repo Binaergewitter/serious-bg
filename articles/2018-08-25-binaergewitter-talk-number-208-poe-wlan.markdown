@@ -6,6 +6,7 @@ comments: true
 categories: talk
 sharing: true
 published: true
+release: 2
 audioformats:
   mp3: http://download.binaergewitter.de/2018-08-25.Binaergewitter.Talk.208.mp3
   ogg: http://download.binaergewitter.de/2018-08-25.Binaergewitter.Talk.208.ogg
@@ -17,7 +18,7 @@ Live von der froscon 2018. Markus und Felix haben sich den Schmittlauch geschnap
 ## FrOSCon
 
 - [FrOSCon 13 - 2018]( https://www.froscon.de/ )
-- [ipv6]()
+- ipv6
   * Request for comment podcast
 - Projekte
    * Openoffice und LibreOffice sind da!
@@ -31,9 +32,9 @@ Live von der froscon 2018. Markus und Felix haben sich den Schmittlauch geschnap
 - HipChat wird eingestellt
   * https://gsuite.google.com/intl/de/products/chat/
   * [Akronymisierbar zu Chats](http://akronymisier.bar/022 )
-- Twitter StreamingAPI #breakingMyTwitter http://apps-of-a-feather.com/
-  - kommende Änderung: client-weite Beschränkungen 
-https://blog.twitter.com/developer/en_us/topics/tools/2018/new-developer-requirements-to-protect-our-platform.html
+- [Twitter StreamingAPI #breakingMyTwitter](http://apps-of-a-feather.com/ )
+  - [kommende Änderung: client-weite 
+Beschränkungen](https://blog.twitter.com/developer/en_us/topics/tools/2018/new-developer-requirements-to-protect-our-platform.html )
   - [Corebird Fork mit Polling Support](https://github.com/IBBoard/corebird/tree/non-streaming )
 
 ## News
