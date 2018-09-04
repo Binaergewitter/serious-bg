@@ -30,7 +30,7 @@ Live von der froscon 2018. Markus und Felix haben sich den Schmittlauch geschnap
 ## Toter der Woche
 
 - HipChat wird eingestellt
-  * https://gsuite.google.com/intl/de/products/chat/
+  * [google chat]( https://gsuite.google.com/intl/de/products/chat/ )
   * [Akronymisierbar zu Chats](http://akronymisier.bar/022 )
 - [Twitter StreamingAPI #breakingMyTwitter](http://apps-of-a-feather.com/ )
   - [kommende Änderung: client-weite 
