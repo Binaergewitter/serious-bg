@@ -103,6 +103,7 @@ class Serious < Sinatra::Base
     end
 
     def is_live?
+      return false
       # update the cached response every ~15 sec
       if Time.now - settings.stream_response_time > 15
         begin
