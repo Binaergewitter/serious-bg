@@ -103,9 +103,8 @@ class Serious < Sinatra::Base
     end
 
     def is_live?
-      return false
-      # update the cached response every ~15 sec
-      if Time.now - settings.stream_response_time > 15
+      # update the cached response every ~360 sec
+      if Time.now - settings.stream_response_time > 360
         begin
           #create connection
           Net::HTTP.start('stream.radiotux.de', 8000, {read_timeout: 5, open_timeout: 5}) {|http|
