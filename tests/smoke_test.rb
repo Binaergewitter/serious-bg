@@ -116,38 +116,4 @@ class SmokeTest < Test::Unit::TestCase
     end
     WebMock.disable_net_connect!
   end
-
-  def test_the_podcast_is_live
-    stub_request(:get, "http://stream.radiotux.de:8000/status.xsl")
-	    .to_return(:status => 200, :body =>  "binaergewitter.mp3")
-    blog = Serious.new
-    blog.settings.stream_response_time = Time.now - 20 # don't use the cached data!
-
-    assert_equal(true, blog.helpers.is_live?)
-  end
-
-  def test_the_podcast_is_not_live
-    stub_request(:head, "http://stream.radiotux.de:8000/binaergewitter.mp3").to_return(:status => [404, "404 - The file you requested could not be found"])
-    blog = Serious.new
-    blog.settings.stream_response_time = Time.now - 20 # don't use the cached data!
-
-    assert_equal(false, blog.helpers.is_live?)
-  end
-
-  def test_the_xenim_api_timedout
-    stub_request(:head, "http://stream.radiotux.de:8000/binaergewitter.mp3").to_timeout
-    blog = Serious.new
-    blog.settings.stream_response_time = Time.now - 20 # don't use the cached data!
-
-    assert_equal(false, blog.helpers.is_live?)
-  end
-
-  def test_live_preview_view
-    stub_request(:head, "http://stream.radiotux.de:8000/binaergewitter.mp3")
-    blog = Serious.new
-    blog.settings.stream_response_time = Time.now - 20 # don't use the cached data!
-
-    get "/"
-    assert last_response.ok?
-  end
 end
