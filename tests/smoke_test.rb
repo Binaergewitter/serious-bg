@@ -116,4 +116,22 @@ class SmokeTest < Test::Unit::TestCase
     end
     WebMock.disable_net_connect!
   end
+
+  def test_the_podcast_is_live
+    stub_request(:get, "http://stream.radiotux.de:8000/status.xsl")
+	    .to_return(:status => 200, :body =>  "binaergewitter.mp3")
+    assert_equal(true, Background.update_is_live)
+  end
+
+  def test_the_podcast_is_not_live
+    stub_request(:head, "http://stream.radiotux.de:8000/binaergewitter.mp3").to_return(:status => [404, "404 - The file you requested could not be found"])
+
+    assert_equal(false, Background.update_is_live)
+  end
+
+  def test_the_server_timeout
+    stub_request(:head, "http://stream.radiotux.de:8000/binaergewitter.mp3").to_timeout
+
+    assert_equal(false, Background.update_is_live)
+  end
 end
