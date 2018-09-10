@@ -56,7 +56,7 @@ https://www.heise.de/security/meldung/John-McAfees-unhackbares-Bitcoin-Wallet-Bi
 - [liberapay]( https://liberapay.com/ )
 
 ## Picks
-- [Wordbrain Memex]()
+- [Wordbrain Memex]( https://worldbrain.io/ )
 - [OpenBSD vms]( https://openbsd.amsterdam/ )
 - [conferencecall.biz (ton)]( http://conferencecall.biz/ )
 - [gitea]( https://gitea.io/en-us/ )
