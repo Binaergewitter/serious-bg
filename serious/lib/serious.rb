@@ -17,15 +17,38 @@ require 'json'
 
 puts "CUSTOM"
 
+class Background
+  def self.update_is_live
+    stream_response = false
+    begin
+      #create connection
+      Net::HTTP.start('stream.radiotux.de', 8000, {read_timeout: 5, open_timeout: 5}) {|http|
+        http.read_timeout = 5
+        http.open_timeout = 5
+        response = http.get('/status.xsl')
+            
+        #get data
+        stream_response = response.body.include? "binaergewitter.mp3"
+      }
+    rescue Exception => e
+      stream_response = false
+    end
+    
+    stream_response
+  end
+end
+
 class Serious < Sinatra::Base
+
+  # worker thread to update stream status
+  $stream_response = false
 
   set :articles, Proc.new { File.join(Dir.getwd, 'articles') }
   set :pages, Proc.new { File.join(Dir.getwd, 'pages') }
   set :static, true # Required to serve static files, see http://www.sinatrarb.com/configuration.html
   set :static_cache_control, [:public, :max_age => 21600]
   set :future, true
-  set :stream_response_time, Time.now - 20 # setting a time where a cache update is needed
-  set :stream_response, nil
+  set :stream_response_time, Time.now - 140 # setting a time where a cache update is needed
 
   not_found do
     erb :"404"
@@ -103,25 +126,13 @@ class Serious < Sinatra::Base
     end
 
     def is_live?
-      # update the cached response every ~360 sec
-      if Time.now - settings.stream_response_time > 360
-        begin
-          #create connection
-          Net::HTTP.start('stream.radiotux.de', 8000, {read_timeout: 5, open_timeout: 5}) {|http|
-              http.read_timeout = 5
-              http.open_timeout = 5
-              response = http.get('/status.xsl')
-              
-	      #get data
-	      settings.stream_response = response.body.include? "binaergewitter.mp3"
-              settings.stream_response_time = Time.now
-          }
-        rescue Exception => e
-          settings.stream_response = false
+      if Time.now - settings.stream_response_time > 120
+        settings.stream_response_time = Time.now
+        Thread.new do
+          $stream_response = Background.update_is_live
         end
       end
-
-      settings.stream_response
+      $stream_response
     end
   end
 
@@ -188,7 +199,7 @@ class Serious < Sinatra::Base
       @selected_audio_codec = audio_format
 
       @current_url = request.url
-      # If our current page is filled, ther is probably a next one too
+      # If our current page is filled, there is probably a next one too
       # If it isn't, we'll serve an empty page... for now
       if @articles.size == feed_size
         parsed_uri = URI(request.url)
