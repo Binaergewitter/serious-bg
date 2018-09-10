@@ -188,7 +188,7 @@ class Serious < Sinatra::Base
       @selected_audio_codec = audio_format
 
       @current_url = request.url
-      # If our current page is filled, ther is probably a next one too
+      # If our current page is filled, there is probably a next one too
       # If it isn't, we'll serve an empty page... for now
       if @articles.size == feed_size
         parsed_uri = URI(request.url)
