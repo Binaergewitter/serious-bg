@@ -8,8 +8,8 @@ footer: true
 ViSdP und verantwortlich für den Inhalt:
 
 Ingo Ebel
-Gietmannstr. 38
-70565 Stuttgart
+Schweriner Str. 74A
+15757 Halbe
 
 Email: info@binaergewitter.de
 Tel.: 0700 46463235
