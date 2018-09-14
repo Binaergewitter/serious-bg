@@ -51,8 +51,8 @@ https://www.zdnet.com/article/worries-arise-about-security-of-new-webauthn-proto
 
 ## Themen
 
-* [Akzeptierter Uploadfilter]( https://juliareda.eu/2018/09/ep-pro-uploadfilter-leistungsschutzrecht/ ) 
-** [Artikel bei Heise]( https://www.heise.de/newsticker/meldung/EU-Parlament-Plattformen-haften-fuer-Urheberrechtsverletzungen-der-Nutzer-4162837.html )
+- [Akzeptierter Uploadfilter]( https://juliareda.eu/2018/09/ep-pro-uploadfilter-leistungsschutzrecht/ ) 
+  * [Artikel bei Heise]( https://www.heise.de/newsticker/meldung/EU-Parlament-Plattformen-haften-fuer-Urheberrechtsverletzungen-der-Nutzer-4162837.html )
 
 * [/e/ OS]( https://e.foundation/mobile-phone-os/ )
   - [/i/ OS]( https://e.foundation/e-story/ )
