@@ -17,7 +17,7 @@ Eine schnelle Sendung liefern Markus, l33tname und Ingo am letzten Sommertag ab.
 ## Toter der Woche
 - Stream
     * [openvswitch]( http://www.openvswitch.org/ )
-    * [hetzner vswitch]https://wiki.hetzner.de/index.php/Vswitch )
+    * [hetzner vswitch]( https://wiki.hetzner.de/index.php/Vswitch )
 
 ## News
 - [Linus is sorry]( https://www.pro-linux.de/news/1/26306/linus-torvalds-nimmt-auszeit-vom-kernel.html )
@@ -38,8 +38,7 @@ https://www.heise.de/newsticker/meldung/Schweizer-Steuer-App-speicherte-alle-Dat
 
 ## Themen
 
-Urherberrechtsreform
-https://www.heise.de/newsticker/meldung/heiseshow-Julia-Reda-zur-Urheberrechtsreform-Was-wurde-uns-da-eingebrockt-4168101.html
+[Urherberrechtsreform]( https://www.heise.de/newsticker/meldung/heiseshow-Julia-Reda-zur-Urheberrechtsreform-Was-wurde-uns-da-eingebrockt-4168101.html )
 
 Es ist (immer)noch nicht zu spät! 
 
