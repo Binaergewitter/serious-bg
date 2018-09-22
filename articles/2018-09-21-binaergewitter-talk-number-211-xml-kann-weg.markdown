@@ -23,7 +23,7 @@ Eine schnelle Sendung liefern Markus, l33tname und Ingo am letzten Sommertag ab.
 - [Linus is sorry]( https://www.pro-linux.de/news/1/26306/linus-torvalds-nimmt-auszeit-vom-kernel.html )
   * [new CoC]( https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=8a104f8b5867c682d994ffa7a74093c54469c11f )
 - [gitlab nimmt Risikokapital ein]( https://www.heise.de/developer/meldung/GitLab-streicht-100-Millionen-US-Dollar-Risikokapital-ein-4168549.html )
-https://www.heise.de/newsticker/meldung/Twitter-bringt-die-chronologische-Timeline-zurueck-4167039.html
+- [chronologische Timeline]( https://www.heise.de/newsticker/meldung/Twitter-bringt-die-chronologische-Timeline-zurueck-4167039.html )
 - [Neuer Intel ME Bug]( https://www.heise.de/security/meldung/Bug-in-Intels-ME-Firmware-Wieder-BIOS-Updates-noetig-4165732.html )
 - [RCE in apk]( https://justi.cz/security/2018/09/13/alpine-apk-rce.html )
   * [whydoesaptnotusehttps]( https://whydoesaptnotusehttps.com/ )
