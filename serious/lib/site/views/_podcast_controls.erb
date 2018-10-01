@@ -25,7 +25,7 @@
                 {
                   url: '<%= audio_url %>',
                   mimeType: 'audio/<%= audio_format %>',
-                  size: 100000000,
+                  size: <%= article.audio_file_sizes[audio_format].to_i.to_s %>,
                   title: 'Audio <%= audio_format %>'
                 },
               <% end %> 
