@@ -1,46 +1,49 @@
 <% unless article.audioformats.empty? %>
-        <div class="podcast_downloads">
-          <p>
-          <% article.audioformats.each_pair do |audio_format, audio_url| %>
-            <a href="<%= audio_url %>"><img src="/img/audio_<%= audio_format %>_button.png"/></a>
-          <% end %>
-          <a id="bitlove-<%= article.permalink %>" href="#"></a>
-          <script type="text/javascript">
-          head.ready('bitlove', function () {
-            torrentByEnclosure("<%= article.audioformats['mp3'] %>", function(info) {
-                if (info) {
-                  bitlove_link = $("#bitlove-<%= article.permalink %>");
-                  bitlove_link.append('<img src="/img/bitlove_button.png"/>');
-                  bitlove_link.attr('href', info['sources']['0']['torrent']);
-                }
-            });
-          });
-          </script>
-          </p>
-        </div>
+       
         <div class="podcast_player" style="width:100%;">
           <p>
-            <audio controls="controls" id="<%= article.permalink %>" preload="none">
-              <% article.audioformats.each_pair do |audio_format, audio_url| %>
-                <source src="<%= audio_url %>" type="audio/<%= audio_format %>" />
-              <% end %>
-              Your browser does not support the audio element.
-            </audio>
+          <div id="<%= article.permalink %>-player"></div>
           </p>
           <script>
           head.ready('podlove', function () {
-            $('#<%= article.permalink %>').podlovewebplayer({
-                    poster: '/img/binaergewitter_logo.png',
-            				title: '<%= article.title %>',
-            				permalink: '<%= article.permalink %>',
-                    author: '<%= article.author %>',
-            				alwaysShowHours: false,
-            				startVolume: 0.8,
-            				width: 'auto',
-            				summaryVisible: false,
-            				timecontrolsVisible: false,
-            				sharebuttonsVisible: false,
-            				chaptersVisible: false
+            podlovePlayer('#<%= article.permalink %>-player', {
+             
+              theme: {
+                main: '#7FAF1B'
+              },
+              link: 'http://'+location.host+'<%= article.url %>',
+              title: '<%= article.title %>',
+              poster: '/img/binaergewitter_logo.png',
+              show: {
+                  link: 'http://'+location.host,
+                  title: 'Binärgewitter. Der Podcast rundum Web, Technologie und Opensource',
+                  summary: 'Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt'
+              },
+   
+              audio: [          
+               <% article.audioformats.each_pair do |audio_format, audio_url| %>
+                {
+                  url: '<%= audio_url %>',
+                  mimeType: 'audio/<%= audio_format %>',
+                  size: 100000000,
+                  title: 'Audio <%= audio_format %>'
+                },
+              <% end %> 
+               ],
+               visibleComponents: [
+                'tabDownload',
+                'tabAudio',
+                'tabShare',
+                'poster',
+                'showTitle',
+                'episodeTitle',
+                'progressbar',
+                'controlSteppers'
+              ],
+              reference: {
+                  share: '/podlove-web-player/share',
+                  base: '/podlove-web-player/dist'
+              }
             });
           });
         </script>
