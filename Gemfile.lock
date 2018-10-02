@@ -32,7 +32,7 @@ GEM
     public_suffix (3.0.3)
     puma (3.12.0)
     rack (2.0.5)
-    rack-protection (2.0.3)
+    rack-protection (2.0.4)
       rack
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -45,10 +45,10 @@ GEM
       listen (~> 3.0)
     ruby_dep (1.5.0)
     safe_yaml (1.0.4)
-    sinatra (2.0.3)
+    sinatra (2.0.4)
       mustermann (~> 1.0)
       rack (~> 2.0)
-      rack-protection (= 2.0.3)
+      rack-protection (= 2.0.4)
       tilt (~> 2.0)
     stupid_formatter (0.2.0)
       coderay (>= 0.9.0)
@@ -82,4 +82,4 @@ RUBY VERSION
    ruby 2.5.1p57
 
 BUNDLED WITH
-   1.16.4
+   1.16.5
