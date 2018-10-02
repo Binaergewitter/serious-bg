@@ -18,15 +18,13 @@
   </script>
 
   <link href="/podlove-web-player/static/podlove-web-player.css" rel="stylesheet" media="screen" type="text/css" />
-  <link href="/css/customplayer.css" rel="stylesheet" media="screen" type="text/css" />
-
   <link rel="alternate" type="application/atom+xml" title="<%= Serious.title %>" href="<%= Serious.feed_url %>" />
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title><%= (defined?(@article) && @article) ? @article.title + " - " : "" %><%= Serious.title %></title>
-  
+
   <meta property="og:site_name" content="<%= Serious.title %>">
   <meta property="og:url" content="<%= (defined?(@article) && @article) ? @article.full_url.gsub('http://', 'https://') : Serious.url.gsub('http://', 'https://') %>" />
   <meta property="og:title" content="<%= (defined?(@article) && @article) ? @article.title : Serious.title %> "/>
@@ -39,7 +37,7 @@
   <meta name="twitter:title" content="<%= (defined?(@article) && @article) ? @article.title : Serious.title %>">
   <meta name="twitter:image" content="http://blog.binaergewitter.de/img/binaergewitter_logo_text.png">
 
-  <meta name="description" content="<%= (defined?(@article) && @article) ? @article.automatic_summary : Serious.description %>">  
+  <meta name="description" content="<%= (defined?(@article) && @article) ? @article.automatic_summary : Serious.description %>">
 
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
