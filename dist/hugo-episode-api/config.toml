@@ -1,0 +1,13 @@
+baseURL = "/"
+languageCode = "de-de"
+DefaultContentLanguage = "de"
+title = "rougon"
+
+[outputs]
+  page = ["json"]
+  section = ["json"]
+  taxonomy = ["json"]
+
+
+[permalinks]
+  page = "/:section/:title/"

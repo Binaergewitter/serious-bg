@@ -1,0 +1,45 @@
+
+{{ $auphonicUrl := printf "http://download.binaergewitter.de/%s" .Params.auphonic }}
+{{ $dataJ := getJSON $auphonicUrl }}
+
+{
+    "theme": {
+        "main": "#7FAF1B"
+    },{{ $pathDate :=  dateFormat "2006/01/02"  .Date   }}{{ $fileDate :=  dateFormat "2006-01-02-"  .Date   }}
+    "link": "http://blog.binaergewitter.de/{{  $pathDate  }}/{{ replace  .File.TranslationBaseName $fileDate  ""}}",
+    "title": "{{ .Title }}",
+    "poster": "/img/binaergewitter_logo1x1.jpg",
+    "show": {
+        "link": "http://blog.binaergewitter.de",
+        "title": "Binärgewitter. Der Podcast rundum Web, Technologie und Opensource",
+        "summary": "Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt"
+    },
+    "audio": [{{ range $i, $e := .Params.audioformats }}{{ if ne  $i "m4a" }}, {{ end }}
+        {{ range $value := $dataJ.output_files  }}
+         {{$i}} {{$value.ending}}
+        {{if eq  $i $value.ending}}
+         {{ $i}}         {{ printf "%.0f" $value.size }}
+        {{ end }}
+        {{ end }}
+        {
+            "url": "{{ $e }}",
+            "mimeType": "audio/{{ $i }}",
+            "size": "40013200",
+            "title": "Audio {{ $i }}"
+        }{{ end }}
+    ],
+    "visibleComponents": [
+        "tabDownload",
+        "tabAudio",
+        "tabShare",
+        "poster",
+        "showTitle",
+        "episodeTitle",
+        "progressbar",
+        "controlSteppers"
+    ],
+    "reference": {
+        "share": "/podlove-web-player/share",
+        "base": "/podlove-web-player/dist"
+    }
+}
