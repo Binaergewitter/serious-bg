@@ -45,7 +45,7 @@ https://nextcloud.com/blog/nextcloud-14-now-available-with-video-verification-si
 - [webauthn]( 
 https://www.zdnet.com/article/worries-arise-about-security-of-new-webauthn-protocol/ )
 
-- [Bundeshorst twiter noch mehr!]( https://www.heise.de/newsticker/meldung/Bundesinnenminister-Seehofer-twittert-jetzt-Redaktion-ueberfordert-4162117.html )
+- [Bundeshorst twitter noch mehr!]( https://www.heise.de/newsticker/meldung/Bundesinnenminister-Seehofer-twittert-jetzt-Redaktion-ueberfordert-4162117.html )
 - [Steam: Jetzt auch für Erwachsene!]( https://www.heise.de/newsticker/meldung/Erstes-unzensiertes-Erotik-Spiel-auf-Steam-verfuegbar-4162175.html )
   - [Windows Steam games unter Linux]( https://www.heise.de/newsticker/meldung/Steam-Windows-Spiele-laufen-jetzt-auch-unter-Linux-4143339.html )
 
