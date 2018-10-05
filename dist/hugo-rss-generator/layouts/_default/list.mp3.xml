@@ -1,0 +1,5 @@
+{{ define "feed" }}
+    {{ range .Pages }}
+        {{ partial "rss/item.xml" (dict "Episode" . "Audiotype" "mp3" ) }}
+    {{ end }}
+{{end}}

@@ -1,0 +1,133 @@
+
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+  <channel>
+    <title>Binärgewitter</title>
+    <link>http://blog.binaergewitter.de</link>
+    <atom:link rel="self" href="http://blog.binaergewitter.de/podcast_feed/all/mp3/rss.xml"/>
+    <atom:link rel="next" href="http://blog.binaergewitter.de/podcast_feed/all/mp3/rss.xml?&amp;page=1"/>
+    <description>Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt.</description>
+    <language>de</language>
+    <pubDate>Fri, 21 Sep 2018 00:00:00 +0000</pubDate>
+    <lastBuildDate>Fri, 21 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <itunes:author>Binärgewitter Team</itunes:author>
+    <copyright>Creative Commons BY-SA 3.0 DE</copyright>
+    <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2Fblog.binaergewitter.de&amp;user_id=binaergewitter&amp;title=Bin%C3%A4rgewitter&amp;category=audio&amp;tags=podcast%2Ctech%2Csoftware"/>
+    <itunes:subtitle>Web, Technologie und OpenSource Software</itunes:subtitle>
+    <itunes:summary>Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt.</itunes:summary>
+    <itunes:keywords>technology, gadgets, web, opensource, krepel</itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="http://blog.binaergewitter.de/img/binaergewitter_logo_1400x1400.png"/>
+    <itunes:category text="Technology"/>
+    <itunes:owner>
+      <itunes:name>Binärgewitter Crew</itunes:name>
+      <itunes:email>info@binaergewitter.de</itunes:email>
+    </itunes:owner>
+    
+    
+        
+    <item>
+      <title>Binärgewitter Talk #211: XML kann weg</title>
+      <pubDate>Fri, 211 Sep 2118 00:00:00 +0000</pubDate>
+      <itunes:author>Binärgewitter Team</itunes:author>
+      <itunes:summary></itunes:summary>
+      <guid>http://blog.binaergewitter.de/2018/09/21/binaergewitter-talk-number-211-xml-kann-weg</guid>
+      <link>http://blog.binaergewitter.de/2018/09/21/binaergewitter-talk-number-211-xml-kann-weg</link>
+      <content:encoded>
+
+&lt;p&gt;Traditionell hatte sowohl Marc’s Backup Recorder versagt also auch die Primäre Aufnahme Probleme. Tonqualität ist also eher auf Dosentelefon Level. Wir versuchen uns zu verbessern.&lt;/p&gt;
+
+&lt;h1 id=&#34;thema-der-woche-home-network-shenanigans&#34;&gt;Thema der Woche: Home Network Shenanigans&lt;/h1&gt;
+
+&lt;p&gt;Marc:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;NAS: &lt;a href=&#34;https://www.synology.com/en-us/products/DS918+&#34;&gt;Synology DS918+&lt;/a&gt; (Vorher: Xeon D NAS)
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/NetApp_filer#WAFL_File_System&#34;&gt;WAFL File System&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.adobe.com/products/photoshop-lightroom.html&#34;&gt;Lightroom&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.arqbackup.com&#34;&gt;Arq backup&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;WLAN: &lt;a href=&#34;https://eero.com/shop/pro-wifi-system&#34;&gt;EERO Pro&lt;/a&gt; (Vorher: Netgear ORBI, Ubitquiti)
+
+&lt;ul&gt;
+&lt;li&gt;pfleidi: &lt;a href=&#34;https://amzn.to/2AzxUqR&#34;&gt;Ubiquiti Networks Unifi 802.11ac&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.smallnetbuilder.com&#34;&gt;Smallnetbuilder&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://thewirecutter.com&#34;&gt;The wire cutter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://command.com/3M/en_US/command&#34;&gt;Command Strips&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://openwrt.org&#34;&gt;OpenWRT&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://oss.oetiker.ch/smokeping/&#34;&gt;SmokePing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Smart home: &lt;a href=&#34;https://www.home-assistant.io/&#34;&gt;Home Assistant&lt;/a&gt; + Raspberry Pi +  &lt;a href=&#34;https://www.amazon.com/GoControl-CECOMINOD016164-Linear-HUSBZB-1/dp/B01GJ826F8&#34;&gt;HUSBZB-1&lt;/a&gt; (Vorher: Samsung Smartthings, Vera)
+
+&lt;ul&gt;
+&lt;li&gt;pfleidi: &lt;a href=&#34;https://amzn.to/2M4mIHy&#34;&gt;Philips Hue Birnen&lt;/a&gt; mit HomeKit + Siri&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.belkin.com/us/p/P-F7C063/&#34;&gt;Belkin Wemo Mini Smart Plug&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Dimmer Switches&lt;/li&gt;
+&lt;li&gt;TP-Link Kasa Smart Plug&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;mimimi-der-woche&#34;&gt;Mimimi der Woche&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://support.apple.com/en-us/HT203777&#34;&gt;Apple TV Fernbedienung&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Philipps Hue Verhalten bei Stromausfall&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://sonoff.itead.cc/en/products/sonoff/sonoff-basic&#34;&gt;Sonoff Basic&lt;/a&gt; Firmware Mimimi&lt;/p&gt;
+
+&lt;h1 id=&#34;lesefoo&#34;&gt;Lesefoo&lt;/h1&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://michaellynn.github.io/2018/07/27/booting-secure/&#34;&gt;Mike Lynn - Booting secure&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://opnsec.com/2018/07/into-the-borg-ssrf-inside-google-production-network/&#34;&gt;Into the Borg – SSRF inside Google production network&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blogs.msdn.microsoft.com/elee/2009/03/11/source-code-is-a-liability-not-an-asset/&#34;&gt;Source Code is a liability, not an asset&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://lwn.net/Articles/758963/&#34;&gt;The block I/O latency controller&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://gist.github.com/bastman/5b57ddb3c11942094f8d0a97d461b430&#34;&gt;Docker Cleanup Instructions&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://code.fb.com/data-infrastructure/xars-a-more-efficient-open-source-system-for-self-contained-executables/&#34;&gt;XARs: An efficient system for self-contained executables&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://what-problem-does-it-solve.com/webpack/index.html&#34;&gt;Webpack from nothing&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.thekua.com/atwork/2018/07/flavours-of-agile/&#34;&gt;Flavors of Agile&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://codewithoutrules.com/2017/09/18/when-startups-pay-less/&#34;&gt;Join our startup, we’ll cut your pay by 40%!&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://boz.com/articles/advice-not-permission.html&#34;&gt;Ask for advice, not permission&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/feature-creep/the-software-engineer-s-guide-to-asserting-office-dominance-ddea7b598df7&#34;&gt;The software engineer’s guide to asserting dominance in the workplace&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;picks&#34;&gt;Picks&lt;/h1&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://benjaminmayo.co.uk/watch-all-the-apple-tv-aerial-video-screensavers&#34;&gt;Apple TV Screensavers&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/JohnCoates/Aerial&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://itunes.apple.com/us/app/panora-for-instagram-panorama-uploads/id1219304890?mt=8&#34;&gt;Panora&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lightroom (mobile)&lt;/li&gt;
+&lt;li&gt;Touch Retouch&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://amzn.to/2ACcbyt&#34;&gt;Samsung USB-C SSD&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.amazon.com/Ronxs-Rechargeable-Flameless-Electronic-Stovetops/dp/B07BSCCZMW/&#34;&gt;USB Feuerzeug&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Raspberry Pi als Netzwerkanalysetool&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;#YELLING&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+      <enclosure url="http://download.binaergewitter.de/2018-09-12.Binaergewitter.Talk.210.mp3" length="98117896" type="audio/x-mp3"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2Fblog.binaergewitter.de%2Fblog%2F2018%2F09%2F12%2Fbinaergewitter-talk-number-210-agile-ist-die-blockchain-von-damals%2F&amp;user_id=binaergewitter&amp;title=Bin%C3%A4rgewitter+Talk+%23210%3A+agile+ist+die+Blockchain+von+damals&amp;category=audio&amp;tags=podcast%2Ctech%2Csoftware"/>
+    </item>
+    
+
+   </channel>
+</rss>

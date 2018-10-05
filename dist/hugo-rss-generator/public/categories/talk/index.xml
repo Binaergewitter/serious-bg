@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+  <channel>
+    <title>Binärgewitter</title>
+    <link>http://blog.binaergewitter.de</link>
+    <atom:link rel="self" href="http://blog.binaergewitter.de/podcast_feed/all/mp3/rss.xml"/>
+    <atom:link rel="next" href="http://blog.binaergewitter.de/podcast_feed/all/mp3/rss.xml?&amp;page=1"/>
+    <description>Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt.</description>
+    <language>de</language>
+    <pubDate>Fri, 21 Sep 2018 00:00:00 +0000</pubDate>
+    <lastBuildDate>Fri, 21 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <itunes:author>Binärgewitter Team</itunes:author>
+    <copyright>Creative Commons BY-SA 3.0 DE</copyright>
+    <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2Fblog.binaergewitter.de&amp;user_id=binaergewitter&amp;title=Bin%C3%A4rgewitter&amp;category=audio&amp;tags=podcast%2Ctech%2Csoftware"/>
+    <itunes:subtitle>Web, Technologie und OpenSource Software</itunes:subtitle>
+    <itunes:summary>Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt.</itunes:summary>
+    <itunes:keywords>technology, gadgets, web, opensource, krepel</itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="http://blog.binaergewitter.de/img/binaergewitter_logo_1400x1400.png"/>
+    <itunes:category text="Technology"/>
+    <itunes:owner>
+      <itunes:name>Binärgewitter Crew</itunes:name>
+      <itunes:email>info@binaergewitter.de</itunes:email>
+    </itunes:owner>
+    
+<blbluba></blbluba>
+
+   </channel>
+</rss>

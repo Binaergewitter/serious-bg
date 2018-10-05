@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/episodes/2018-09-21-binaergewitter-talk-number-211-xml-kann-weg/</loc>
+    <lastmod>2017-12-03T14:15:59-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/episodes/2018-09-12-binaergewitter-talk-number-210-agile-ist-die-blockchain-von-damals/</loc>
+    <lastmod>2017-11-03T14:15:59-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/episodes/2018-08-02-binaergewitter-westcoast-number-4-hitzetod-im-kabuff/</loc>
+    <lastmod>2017-11-02T14:15:59-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/episodes/2018-09-07-binaergewitter-talk-number-209-dsledge/</loc>
+    <lastmod>2017-10-03T14:15:59-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/episodes/2018-08-25-binaergewitter-talk-number-208-poe-wlan/</loc>
+    <lastmod>2017-09-03T14:15:59-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/episodes/2018-07-21-binaergewitter-talk-number-207-heise-offline/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/episodes/index.xml</loc>
+    <lastmod>2017-12-03T14:15:59-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/index.xml</loc>
+    <lastmod>2017-12-03T14:15:59-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/talk/index.xml</loc>
+    <lastmod>2017-12-03T14:15:59-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/westcoast/index.xml</loc>
+    <lastmod>2017-11-02T14:15:59-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

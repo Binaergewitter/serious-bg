@@ -1,0 +1,563 @@
+
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+  <channel>
+    <title>Binärgewitter</title>
+    <link>http://blog.binaergewitter.de</link>
+    <atom:link rel="self" href="http://blog.binaergewitter.de/podcast_feed/all/mp3/rss.xml"/>
+    <atom:link rel="next" href="http://blog.binaergewitter.de/podcast_feed/all/mp3/rss.xml?&amp;page=1"/>
+    <description>Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt.</description>
+    <language>de</language>
+    <pubDate>Fri, 21 Sep 2018 00:00:00 +0000</pubDate>
+    <lastBuildDate>Fri, 21 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <itunes:author>Binärgewitter Team</itunes:author>
+    <copyright>Creative Commons BY-SA 3.0 DE</copyright>
+    <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2Fblog.binaergewitter.de&amp;user_id=binaergewitter&amp;title=Bin%C3%A4rgewitter&amp;category=audio&amp;tags=podcast%2Ctech%2Csoftware"/>
+    <itunes:subtitle>Web, Technologie und OpenSource Software</itunes:subtitle>
+    <itunes:summary>Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt.</itunes:summary>
+    <itunes:keywords>technology, gadgets, web, opensource, krepel</itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="http://blog.binaergewitter.de/img/binaergewitter_logo_1400x1400.png"/>
+    <itunes:category text="Technology"/>
+    <itunes:owner>
+      <itunes:name>Binärgewitter Crew</itunes:name>
+      <itunes:email>info@binaergewitter.de</itunes:email>
+    </itunes:owner>
+    
+    
+        
+    <item>
+      <title>Binärgewitter Talk #211: XML kann weg</title>
+      <pubDate>Fri, 312 Sep 3128 00:00:00 +0000</pubDate>
+      <itunes:author>Binärgewitter Team</itunes:author>
+      <itunes:summary></itunes:summary>
+      <guid>http://blog.binaergewitter.de/2018/09/21/binaergewitter-talk-number-211-xml-kann-weg</guid>
+      <link>http://blog.binaergewitter.de/2018/09/21/binaergewitter-talk-number-211-xml-kann-weg</link>
+      <content:encoded>
+
+&lt;p&gt;Eine schnelle Sendung liefern Markus, l33tname und Ingo am letzten Sommertag ab&amp;hellip;&lt;/p&gt;
+
+&lt;h2 id=&#34;toter-der-woche&#34;&gt;Toter der Woche&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Stream
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.openvswitch.org/&#34;&gt;openvswitch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.hetzner.de/index.php/Vswitch&#34;&gt;hetzner vswitch&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;news&#34;&gt;News&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pro-linux.de/news/1/26306/linus-torvalds-nimmt-auszeit-vom-kernel.html&#34;&gt;Linus is sorry&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=8a104f8b5867c682d994ffa7a74093c54469c11f&#34;&gt;new CoC&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.heise.de/developer/meldung/GitLab-streicht-100-Millionen-US-Dollar-Risikokapital-ein-4168549.html&#34;&gt;gitlab nimmt Risikokapital ein&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.heise.de/newsticker/meldung/Twitter-bringt-die-chronologische-Timeline-zurueck-4167039.html&#34;&gt;chronologische Timeline&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.heise.de/security/meldung/Bug-in-Intels-ME-Firmware-Wieder-BIOS-Updates-noetig-4165732.html&#34;&gt;Neuer Intel ME Bug&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://justi.cz/security/2018/09/13/alpine-apk-rce.html&#34;&gt;RCE in apk&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://whydoesaptnotusehttps.com/&#34;&gt;whydoesaptnotusehttps&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.heise.de/newsticker/meldung/Datenschutzdebatte-um-neue-Gesundheits-App-Vivy-4169288.html&#34;&gt;Gesundheits App Vivy&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://publiccode.eu/&#34;&gt;Public Money - Public Code!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/fsfe/status/1042692337917419520&#34;&gt;BufDi für FSFE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.heise.de/newsticker/meldung/Schweizer-Steuer-App-speicherte-alle-Daten-oeffentlich-in-der-Cloud-4167240.html&#34;&gt;Schweizer Steuerdaten frisch und frei in der Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lcq2.github.io/x86_iphone/&#34;&gt;x86 finds its way into your iPhone&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.heise.de/newsticker/meldung/ScoutFS-Archivierendes-Dateisystem-fuer-Linux-unter-Open-Source-Lizenz-4168456.html&#34;&gt;scoutfs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;themen&#34;&gt;Themen&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.heise.de/newsticker/meldung/heiseshow-Julia-Reda-zur-Urheberrechtsreform-Was-wurde-uns-da-eingebrockt-4168101.html&#34;&gt;Urherberrechtsreform&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Es ist (immer)noch nicht zu spät!&lt;/p&gt;
+
+&lt;h2 id=&#34;lesefoo&#34;&gt;Lesefoo&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@0xcolby/debugging-a-bundler-loaderror-6e3035200435&#34;&gt;debug bundler&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;picks&#34;&gt;Picks&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/sshuttle/sshuttle&#34;&gt;sshuttle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/Baltoji/status/1039801846582468608&#34;&gt;l33t bild&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+      <enclosure url="http://download.binaergewitter.de/2018-09-12.Binaergewitter.Talk.210.mp3" length="98117896" type="audio/x-mp3"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2Fblog.binaergewitter.de%2Fblog%2F2018%2F09%2F12%2Fbinaergewitter-talk-number-210-agile-ist-die-blockchain-von-damals%2F&amp;user_id=binaergewitter&amp;title=Bin%C3%A4rgewitter+Talk+%23210%3A+agile+ist+die+Blockchain+von+damals&amp;category=audio&amp;tags=podcast%2Ctech%2Csoftware"/>
+    </item>
+    
+        
+    <item>
+      <title>Binärgewitter Talk #211: XML kann weg</title>
+      <pubDate>Fri, 311 Sep 3118 00:00:00 +0000</pubDate>
+      <itunes:author>Binärgewitter Team</itunes:author>
+      <itunes:summary></itunes:summary>
+      <guid>http://blog.binaergewitter.de/2018/09/21/binaergewitter-talk-number-211-xml-kann-weg</guid>
+      <link>http://blog.binaergewitter.de/2018/09/21/binaergewitter-talk-number-211-xml-kann-weg</link>
+      <content:encoded>
+
+&lt;p&gt;In der deprimierenden Zeit in der die Uploadfilter beschossene Sache sind treffen sich Felix² und Markus und versuchen euch zumindest zeitweise zu erheitern.&lt;/p&gt;
+
+&lt;h2 id=&#34;blast&#34;&gt;Blast&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.golem.de/news/foreshadow-l1tf-intel-cpus-ermoeglichten-unberechtigtes-auslesen-von-speicher-1808-136008.html&#34;&gt;Foreshadow&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://foreshadowattack.eu/&#34;&gt;foreshadowattack.eu&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;in-eigener-sache&#34;&gt;in eigener sache&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Binaergewitter/serious-bg/issues&#34;&gt;issues aufgeräumt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.binaergewitter.de/pages/spenden&#34;&gt;spenden&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.flattr.com/2018/09/podcast-contributions/&#34;&gt;Flattr Podcast Subscriptions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://flattr.com/podcast/binrgewitter&#34;&gt;flattr link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Binaergewitter/serious-bg/commit/d17676d3082e23a1daf2b3e36b8484df8d01d77c&#34;&gt;is_live?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.commitstrip.com/en/2018/09/11/its-not-an-app/?&#34;&gt;It&amp;rsquo;s AI! (commitstrip)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;toter-der-woche&#34;&gt;Toter der Woche&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://developers.slashdot.org/story/18/09/08/037245/creator-of-templeos-terry-davis-has-passed-away&#34;&gt;Mr TempleOS Terry Davis&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;news&#34;&gt;News&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.heise.de/developer/meldung/Texteditor-Nano-Schnell-schneller-Release-3-0-4158666.html&#34;&gt;nano 3.0&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jhallen/joes-sandbox/tree/master/editor-perf&#34;&gt;editor-perf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jhallen/joes-sandbox/issues/31&#34;&gt;issue für editor-perf nano 3.0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/zfsonlinux/zfs/releases/tag/zfs-0.7.10&#34;&gt;ZoL 0.7.10&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;dkms support auf debian&lt;/li&gt;
+&lt;li&gt;kernel 2.6.32 - 4.18&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;upcomming ZFS native encryption
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://lists.freebsd.org/pipermail/freebsd-current/2018-August/070832.html&#34;&gt;FreeBSD&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/zfsonlinux/zfs/releases/tag/zfs-0.8.0-rc1&#34;&gt;Linux ZoL 0.8.0-rc1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nextcloud.com/blog/nextcloud-14-now-available-with-video-verification-signaltelegram-2fa-support-improved-collaboration-and-gdpr-compliance/&#34;&gt;Nextcloud 14 mit Video verification und Chatbot&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.zdnet.com/article/worries-arise-about-security-of-new-webauthn-protocol/&#34;&gt;webauthn&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.heise.de/newsticker/meldung/Bundesinnenminister-Seehofer-twittert-jetzt-Redaktion-ueberfordert-4162117.html&#34;&gt;Bundeshorst twiter noch mehr!&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.heise.de/newsticker/meldung/Erstes-unzensiertes-Erotik-Spiel-auf-Steam-verfuegbar-4162175.html&#34;&gt;Steam: Jetzt auch für Erwachsene!&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.heise.de/newsticker/meldung/Steam-Windows-Spiele-laufen-jetzt-auch-unter-Linux-4143339.html&#34;&gt;Windows Steam games unter Linux&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;themen&#34;&gt;Themen&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://juliareda.eu/2018/09/ep-pro-uploadfilter-leistungsschutzrecht/&#34;&gt;Akzeptierter Uploadfilter&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.heise.de/newsticker/meldung/EU-Parlament-Plattformen-haften-fuer-Urheberrechtsverletzungen-der-Nutzer-4162837.html&#34;&gt;Artikel bei Heise&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://e.foundation/mobile-phone-os/&#34;&gt;/e/ OS&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://e.foundation/e-story/&#34;&gt;/i/ OS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@gael_duval/e-first-beta-soon-to-be-released-82d7ec950dd&#34;&gt;beta soon!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;lesefoo&#34;&gt;Lesefoo&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/TheOfficialFloW/h-encore/blob/master/WRITE-UP.md&#34;&gt;H-encode for PS Vita Writeup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.cleancoder.com/uncle-bob/2018/08/28/CraftsmanshipMovement.html&#34;&gt;Uncle Bob zu Agile und Craftmanship&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;mimimi-der-woche&#34;&gt;Mimimi der Woche&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gitlab.com/gitlab-org/gitlab-ce/issues/51270&#34;&gt;GitLab kann kein edit mit IOS external keyboard&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;picks&#34;&gt;Picks&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://Mutterallerprobleme.de&#34;&gt;Mutter aller Probleme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hackaday.com/2018/09/06/zpb30a1-electronic-load-gets-an-open-firmware/&#34;&gt;Electronic Load Generator aus China mit offener Firmware&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kanflo/opendps&#34;&gt;OpenDPS: Open Source Firmware für DC-DC Step-Down&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+      <enclosure url="http://download.binaergewitter.de/2018-09-12.Binaergewitter.Talk.210.mp3" length="98117896" type="audio/x-mp3"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2Fblog.binaergewitter.de%2Fblog%2F2018%2F09%2F12%2Fbinaergewitter-talk-number-210-agile-ist-die-blockchain-von-damals%2F&amp;user_id=binaergewitter&amp;title=Bin%C3%A4rgewitter+Talk+%23210%3A+agile+ist+die+Blockchain+von+damals&amp;category=audio&amp;tags=podcast%2Ctech%2Csoftware"/>
+    </item>
+    
+        
+    <item>
+      <title>Binärgewitter Talk #211: XML kann weg</title>
+      <pubDate>Fri, 310 Sep 3108 00:00:00 +0000</pubDate>
+      <itunes:author>Binärgewitter Team</itunes:author>
+      <itunes:summary></itunes:summary>
+      <guid>http://blog.binaergewitter.de/2018/09/21/binaergewitter-talk-number-211-xml-kann-weg</guid>
+      <link>http://blog.binaergewitter.de/2018/09/21/binaergewitter-talk-number-211-xml-kann-weg</link>
+      <content:encoded>
+
+&lt;p&gt;Der Sommer ist vorbei und auch wir sind wieder da. Die Felixe und Ingo reden über Zeitumstellung, Enterprise Sprachen und was sonst so los war.&lt;/p&gt;
+
+&lt;h2 id=&#34;blast&#34;&gt;Blast&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.golem.de/news/app-fuer-oeffentlichen-nahverkehr-oeffi-ist-wieder-im-play-store-verfuegbar-1809-136343.html&#34;&gt;öffi app&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://media.ccc.de/v/froscon2018-2308-keynote&#34;&gt;The Spectre of hardware bugs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.lvz.de/Leipzig/Lokales/Hackerkongress-des-Chaos-Computer-Club-2018-wieder-in-Leipzig&#34;&gt;#35c3 in Leipzig&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://eloop.org&#34;&gt;eloop am 10.11.2018&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;[Zeitumstellung wird (vielleicht bald) abgeschafft!]( )
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/tagesschau/status/1035603889515651073?s=09&#34;&gt;Full Sommerzeit oder full Normalzeit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;toter-der-woche&#34;&gt;Toter der Woche&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Piratenpad&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;untoter&#34;&gt;Untoter&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pro-linux.de/news/1/26247/oracle-solaris-114-vorgestellt.html&#34;&gt;Solaris 11.4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;news&#34;&gt;News&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.golem.de/news/dvb-t-die-schweiz-stellt-ihr-antennenfernsehen-komplett-ein-1809-136411.html&#34;&gt;Schweiz stellt DVB-T ein&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hacktoberfest.digitalocean.com/&#34;&gt;Hacktoberfest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/joaomilho/Enterprise&#34;&gt;The Enterprise Programming Language&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/JacobTorrey/status/1036364754997202947&#34;&gt;oracle cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.heise.de/security/meldung/John-McAfees-unhackbares-Bitcoin-Wallet-Bitfi-gehackt-mehrmals-4152116.html&#34;&gt;John McAfees &amp;ldquo;unhackbares&amp;rdquo; Bitcoin-Wallet Bitfi gehack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://web.archive.org/web/20180830120013/https://store.google.com/product/titan_security_key_kit&#34;&gt;u2f von google&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://research.checkpoint.com/sending-fax-back-to-the-dark-ages/&#34;&gt;Faxploit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jenkins.io/blog/2018/08/31/shifting-gears/&#34;&gt;Jenkins &amp;ldquo;shifting gears&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jcs.org/2018/08/31/surface_go&#34;&gt;OpenBSD on the Microsoft Surface Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/arduino/arduino-cli&#34;&gt;Arduino CLI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.heise.de/developer/meldung/Redis-Labs-schraenkt-freie-Verwendung-seiner-quelloffenen-In-Memory-Datenbank-ein-4144106.html&#34;&gt;Redis lizenz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.theregister.co.uk/2018/09/04/wayback_machine_legit/&#34;&gt;archive.org als Beweis vor Gericht&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nextcloud.com/blog/japan-to-add-millions-of-new-nodes-to-federated-nextcloud-network/&#34;&gt;Nextcloud überall in Japan&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;lesefoo&#34;&gt;Lesefoo&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://erikbern.com/2018/08/30/i-dont-want-to-learn-your-garbage-query-language.html&#34;&gt;I don&amp;rsquo;t want to learn your garbage query language&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;mimimi-der-woche&#34;&gt;Mimimi der Woche&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sonymobile.com/global-en/products/phones/xperia-xz3/&#34;&gt;Xperia XZ3&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.essential.com/de&#34;&gt;essential phone&lt;/a&gt;&lt;a href=&#34;https://www.mydealz.de/deals/essential-phone-in-halo-gray-bei-amazoncom-1221159&#34;&gt;kurzzeitig 238€&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/l33tname/status/1036161863787192321&#34;&gt;Spotify Podcasts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://liberapay.com/&#34;&gt;liberapay&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;picks&#34;&gt;Picks&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://worldbrain.io/&#34;&gt;Wordbrain Memex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://openbsd.amsterdam/&#34;&gt;OpenBSD vms&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://conferencecall.biz/&#34;&gt;conferencecall.biz (ton)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gitea.io/en-us/&#34;&gt;gitea&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=EM71-2uDAoY&amp;amp;feature=youtu.be&#34;&gt;/ɡɪ’ti:/ (youtube)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/auchenberg/volkswagen&#34;&gt;volkswagen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://amzn.to/2CtQNMR&#34;&gt;Netgear AC790-100EUS Aircard&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+      <enclosure url="http://download.binaergewitter.de/2018-09-12.Binaergewitter.Talk.210.mp3" length="98117896" type="audio/x-mp3"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2Fblog.binaergewitter.de%2Fblog%2F2018%2F09%2F12%2Fbinaergewitter-talk-number-210-agile-ist-die-blockchain-von-damals%2F&amp;user_id=binaergewitter&amp;title=Bin%C3%A4rgewitter+Talk+%23210%3A+agile+ist+die+Blockchain+von+damals&amp;category=audio&amp;tags=podcast%2Ctech%2Csoftware"/>
+    </item>
+    
+        
+    <item>
+      <title>Binärgewitter Talk #211: XML kann weg</title>
+      <pubDate>Fri, 39 Sep 3098 00:00:00 +0000</pubDate>
+      <itunes:author>Binärgewitter Team</itunes:author>
+      <itunes:summary></itunes:summary>
+      <guid>http://blog.binaergewitter.de/2018/09/21/binaergewitter-talk-number-211-xml-kann-weg</guid>
+      <link>http://blog.binaergewitter.de/2018/09/21/binaergewitter-talk-number-211-xml-kann-weg</link>
+      <content:encoded>
+
+&lt;p&gt;Live von der froscon 2018. Markus und Felix haben sich den Schmittlauch geschnappt und reden über das freie Internet.&lt;/p&gt;
+
+&lt;h2 id=&#34;froscon&#34;&gt;FrOSCon&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.froscon.de/&#34;&gt;FrOSCon 13 - 2018&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ipv6
+
+&lt;ul&gt;
+&lt;li&gt;Request for comment podcast&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Projekte
+
+&lt;ul&gt;
+&lt;li&gt;Openoffice und LibreOffice sind da!&lt;/li&gt;
+&lt;li&gt;CACert&lt;/li&gt;
+&lt;li&gt;illumos, Fork von OpenSolaris&lt;/li&gt;
+&lt;li&gt;OwnCloud ist da und wirbt für neuen Client&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;LPIC Quiz&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;toter-der-woche&#34;&gt;Toter der Woche&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;HipChat wird eingestellt
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gsuite.google.com/intl/de/products/chat/&#34;&gt;google chat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://akronymisier.bar/022&#34;&gt;Akronymisierbar zu Chats&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://apps-of-a-feather.com/&#34;&gt;Twitter StreamingAPI #breakingMyTwitter&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.twitter.com/developer/en_us/topics/tools/2018/new-developer-requirements-to-protect-our-platform.html&#34;&gt;kommende Änderung: client-weite
+Beschränkungen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/IBBoard/corebird/tree/non-streaming&#34;&gt;Corebird Fork mit Polling Support&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;news&#34;&gt;News&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.netbsd.org/releases/formal-8/NetBSD-8.0.html&#34;&gt;NetBSD 8&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.heise.de/newsticker/meldung/ReactOS-0-4-9-Der-offene-Windows-Nachbau-wird-stabiler-4118297.html&#34;&gt;ReactOS 0.4.9&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://reactos.org/blogs/gsoc-2018-booting-btrfs-works&#34;&gt;GSoC 2018: booting from Btrfs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pro-linux.de/news/1/26221/linux-erh%C3%A4lt-gnss-subsystem.html&#34;&gt;Linux bekommt GNSS Subsystem&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dev.karakun.com/java/2018/06/25/java-releases.html&#34;&gt;Oracle ändert Java Lizensierung&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.heise.de/newsticker/meldung/Dropbox-unterstuetzt-unter-Linux-nur-noch-das-Ext4-Dateisystem-4137191.html&#34;&gt;Dropbox dropt alles ausser ext4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pro-linux.de/news/1/26167/torvalds-f%C3%83%C2%BCr-baldige-aufnahme-von-wireguard-in-den-kernel.html&#34;&gt;Torvalds für Aufnahme von wireguard in Kernel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://olimex.wordpress.com/2018/07/25/new-esp32-board-teaser-power-over-ethernet-esp32-poe-is-perfect-for-sensors-using-existing-ethernet-wiring/&#34;&gt;New ESP32 board teaser&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.heise.de/newsticker/meldung/Universeller-Linux-App-Standard-Flatpak-erreicht-Version-1-0-4142185.html&#34;&gt;Universeller App-Standard &amp;ldquo;Flatpak&amp;rdquo; &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.heise.de/newsticker/meldung/Steam-Windows-Spiele-laufen-jetzt-auch-unter-Linux-4143339.html&#34;&gt;Steam: windows spiele auf linux (Proton)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.heise.de/newsticker/meldung/Aerger-ueber-Intels-Lizenzbedingungen-fuer-Sicherheits-Updates-4144515.html&#34;&gt;Intel Lizenz fuckup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.heise.de/newsticker/meldung/Linux-Aus-Niedersaechsische-Gruene-haken-nach-4133982.html&#34;&gt;Grüne haken bei Finanzamt-Migration Linux-&amp;gt;Windows in Niedersachensen nach&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;themen&#34;&gt;Themen&lt;/h2&gt;
+
+&lt;h3 id=&#34;save-your-internet&#34;&gt;Save your internet&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://saveyourinternet.today/&#34;&gt;saveyourinternet.today&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Aktionstag morgen&lt;/li&gt;
+&lt;li&gt;Twitter zeigt warnung beim Öffnen des Links zur Aktion an&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://juliareda.eu/2018/08/censorship-machines-gonna-censor/&#34;&gt;Julia Redas Artikel per DMCA complaint aus Google Suchergebnissen gelöscht&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;fediverse&#34;&gt;Fediverse&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Mastodon wird mal wieder durchs Dorf getrieben
+
+&lt;ul&gt;
+&lt;li&gt;Hintergrund: Twitter-API, Abuse &amp;amp; Nazis&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;W3C-Standard für föderierte Software: &lt;a href=&#34;http://activitypub.rocks/&#34;&gt;activitypub.rocks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fediverse.party/&#34;&gt;Übersicht über das Fediverse&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://joinmastodon.org&#34;&gt;Mastodon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pleroma.social/&#34;&gt;Pleroma&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gnu.io/social/&#34;&gt;GNUsocial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://friendi.ca/&#34;&gt;Friendica&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://project.hubzilla.org/page/hubzilla/hubzilla-project&#34;&gt;Hubzilla&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://joinpeertube.org/&#34;&gt;PeerTube&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://funkwhale.audio/&#34;&gt;FunkWhale&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pixelfed.org/&#34;&gt;Pixelfed&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/anforaProject/anfora&#34;&gt;Anfora&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Plume-org/Plume&#34;&gt;Plume&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gettogether.community/&#34;&gt;GetTogether&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;andere Protokolle:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://diasporafoundation.org/&#34;&gt;Diaspora*&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jaywink/socialhome&#34;&gt;Socialhome&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.postactiv.com/&#34;&gt;postActiv&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;push federation&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dolphin.town&#34;&gt;dolphin.town&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mastodon Instanz auswählen: &lt;a href=&#34;https://instances.social&#34;&gt;instances.social&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Twitter Kontakte finden: &lt;a href=&#34;https://bridge.joinmastodon.org&#34;&gt;bridge.joinmastodon.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Nutzerübersicht über das gesamte Fediverse: &lt;a href=&#34;https://the-federation.info/&#34;&gt;the-federation.info&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;mimimi-der-woche&#34;&gt;Mimimi der Woche&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;keine Ahnung von docker und &lt;code&gt;kill&lt;/code&gt; als root geht nicht&lt;/li&gt;
+&lt;li&gt;timezones in android wenn man kein netz hat&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;picks&#34;&gt;Picks&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/felixrieseberg/windows95&#34;&gt;Windows 95 in Electron&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.amazon.de/TP-LINK-M7350-Mobiler-Hotspot-integriertes/dp/B00PFXFWTQ&#34;&gt;TP link M7350&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://faif.us/cast/2016/sep/02/0x5C/&#34;&gt;Introduction to Software Licensing Concepts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Podcast: &lt;a href=&#34;https://www.die-anachronistin.de/&#34;&gt;Die Anachronistin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/ipv6excuses&#34;&gt;@ipv6excuses&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://publicbydefault.fyi/&#34;&gt;Venmo public by default&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/atomicthumbs/status/1032939617404645376&#34;&gt;Ein angeblicher Tesla Sw-Engineer plaudert aus dem Nähkästchen&amp;hellip;.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;upcoming-events&#34;&gt;Upcoming Events&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.meetup.com/de-DE/Softwerkskammer-Ruhrgebiet/events/248952817/&#34;&gt;8.9. Hackergarten in DO bei der Softwerkskammer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://sfd.koelnerlinuxtreffen.de/2018/home/&#34;&gt;Software Freedom Day Köln&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;22.-23.09. &lt;a href=&#34;https://datenspuren.de/&#34;&gt;Datenspuren&lt;/a&gt; in Dresden&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+      <enclosure url="http://download.binaergewitter.de/2018-09-12.Binaergewitter.Talk.210.mp3" length="98117896" type="audio/x-mp3"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2Fblog.binaergewitter.de%2Fblog%2F2018%2F09%2F12%2Fbinaergewitter-talk-number-210-agile-ist-die-blockchain-von-damals%2F&amp;user_id=binaergewitter&amp;title=Bin%C3%A4rgewitter+Talk+%23210%3A+agile+ist+die+Blockchain+von+damals&amp;category=audio&amp;tags=podcast%2Ctech%2Csoftware"/>
+    </item>
+    
+        
+    <item>
+      <title>Binärgewitter Talk #211: XML kann weg</title>
+      <pubDate>Fri, 11 Sep 1018 00:00:00 +0000</pubDate>
+      <itunes:author>Binärgewitter Team</itunes:author>
+      <itunes:summary></itunes:summary>
+      <guid>http://blog.binaergewitter.de/2018/09/21/binaergewitter-talk-number-211-xml-kann-weg</guid>
+      <link>http://blog.binaergewitter.de/2018/09/21/binaergewitter-talk-number-211-xml-kann-weg</link>
+      <content:encoded>
+
+&lt;p&gt;Felix und Ingo waren zusammen im Studio und der Schweizer Felix war zugeschaltet. Zusammen geht es diemal über toten Baum und den Google Play Store bzw. Google
+Marktmacht.&lt;/p&gt;
+
+&lt;h2 id=&#34;toter-der-woche&#34;&gt;Toter der Woche&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.pro-linux.de/news/1/26097/zeitschrift-easylinux-wird-eingestellt.html&#34;&gt;EasyLinux wird eingestellt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.heise.de/newsticker/meldung/Microsoft-veroeffentlicht-Skype-8-0-fuer-den-Desktop-4111796.html&#34;&gt;Classic Skype&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tech.slashdot.org/story/18/07/11/2154239/rip-tata-nano-the-worlds-cheapest-car&#34;&gt;Tata Nano&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.slashdot.org/story/18/07/14/010217/australian-experiment-wipes-out-over-80-of-disease-carrying-mosquitoes&#34;&gt; Mosquittos in Australien&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;untoter-der-woche&#34;&gt;Untoter der Woche&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.heise.de/newsticker/meldung/LibreBike-Aufruf-zur-Befreiung-der-Obikes-4109065.html&#34;&gt;Librebike&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.heise.de/newsticker/meldung/Wetter-App-WarnWetter-verstoesst-nicht-gegen-das-Wettbewerbsrecht-4111431.html&#34;&gt;WarnWetter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;news&#34;&gt;News&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;öffi app wird bei google ausgeworfen - google monopol problem
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.heise.de/newsticker/meldung/Oeffi-wird-Open-Source-und-landet-auf-F-Droid-4112915.html&#34;&gt;Öffi App ist OpenSource in F-Droid&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/liberapay-blog/liberapay-is-in-trouble-b58b40714d82&#34;&gt;liberapay in Schwierigkeiten&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.heise.de/newsticker/meldung/4-3-Milliarden-Euro-EU-Kommission-verhaengt-Rekordstrafe-gegen-Google-4113754.html&#34;&gt;EU verhängt Kartellrechts-Strafe gegen Google&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://de.statista.com/infografik/10029/strafen-fuer-wettbewerbsverstoesse-in-der-eu/&#34;&gt;Graphik: durch die EU verhängte Strafen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://android.googlesource.com/platform/packages/apps/GlobalSearch/+/592150ac00086400415afe936d96f04d3be3ba0c&#34;&gt;der 5 Mrd $ commit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.instapaper.com/post/175953870856&#34;&gt;Instapaper wechselt den Besitzer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tech.slashdot.org/story/18/07/02/2134226/suse-linux-sold-for-25-billion&#34;&gt;Suse verkauft&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.github.com/2018-07-12-security-vulnerability-alerts-for-python/&#34;&gt;dependency security check&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.heise.de/mac-and-i/meldung/Sonos-veraergert-Nutzer-mit-Account-Zwang-4111267.html&#34;&gt;Sonos Account Zwang&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://usa.yamaha.com/products/contents/audio_visual/musiccast/index.html&#34;&gt;MusicCast von Yamaha&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://amzn.to/2JM9Tw2&#34;&gt;MusicCast Netzwerk Lautsprecher bei Amazon&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.theregister.co.uk/2018/07/03/stork_mobile_theft/&#34;&gt;SIM Karte aus Storchentracker missbraucht&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;themen&#34;&gt;Themen&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.desy.de/&#34;&gt;DESY&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://de.wikipedia.org/wiki/IceCube&#34;&gt;IceCube&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sueddeutsche.de/wissen/astronomie-physiker-spueren-extreme-energiequelle-im-all-auf-1.4051341&#34;&gt;SZ zum Hochenergie Neutrino&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;lesefoo&#34;&gt;Lesefoo&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-018-0149-5&#34;&gt;On the predictability of the popularity of online recipes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hbr.org/2018/07/if-you-say-something-is-likely-how-likely-do-people-think-it-is&#34;&gt;If You Say Something is &amp;ldquo;Likely,&amp;rdquo; How Likely Do People Think It is?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;mimimi-der-woche&#34;&gt;Mimimi der Woche&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ubuntu Installer bzw. Canonical Dokus&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;picks&#34;&gt;Picks&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://color-guessing-game.glitch.me/&#34;&gt;color guessing game&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ansible/ansible-jupyter-kernel&#34;&gt;ansible-jupyter-kernel&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+      <enclosure url="http://download.binaergewitter.de/2018-09-12.Binaergewitter.Talk.210.mp3" length="98117896" type="audio/x-mp3"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2Fblog.binaergewitter.de%2Fblog%2F2018%2F09%2F12%2Fbinaergewitter-talk-number-210-agile-ist-die-blockchain-von-damals%2F&amp;user_id=binaergewitter&amp;title=Bin%C3%A4rgewitter+Talk+%23210%3A+agile+ist+die+Blockchain+von+damals&amp;category=audio&amp;tags=podcast%2Ctech%2Csoftware"/>
+    </item>
+    
+
+   </channel>
+</rss>

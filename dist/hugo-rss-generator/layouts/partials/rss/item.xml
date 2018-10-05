@@ -1,0 +1,12 @@
+
+    <item>
+      <title>Binärgewitter Talk #211: XML kann weg</title>
+      <pubDate>{{ dateFormat "Fri, 21 Sep 2018 00:00:00 +0000" .Episode.Date | safeHTML}}</pubDate>
+      <itunes:author>Binärgewitter Team</itunes:author>
+      <itunes:summary>{{  .Episode.Params.description }}</itunes:summary>
+      <guid>http://blog.binaergewitter.de/2018/09/21/binaergewitter-talk-number-211-xml-kann-weg</guid>
+      <link>http://blog.binaergewitter.de/2018/09/21/binaergewitter-talk-number-211-xml-kann-weg</link>
+      <content:encoded>{{- .Episode.Content  | html -}}</content:encoded>
+      <enclosure url="http://download.binaergewitter.de/2018-09-12.Binaergewitter.Talk.210.{{.Audiotype}}" length="98117896" type="audio/x-mp3"/>
+      <atom:link rel="payment" type="text/html" href="https://flattr.com/submit/auto?url=http%3A%2F%2Fblog.binaergewitter.de%2Fblog%2F2018%2F09%2F12%2Fbinaergewitter-talk-number-210-agile-ist-die-blockchain-von-damals%2F&amp;user_id=binaergewitter&amp;title=Bin%C3%A4rgewitter+Talk+%23210%3A+agile+ist+die+Blockchain+von+damals&amp;category=audio&amp;tags=podcast%2Ctech%2Csoftware"/>
+    </item>
