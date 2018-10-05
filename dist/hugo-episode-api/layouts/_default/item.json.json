@@ -15,18 +15,13 @@
         "summary": "Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt"
     },
     "audio": [{{ range $i, $e := .Params.audioformats }}{{ if ne  $i "m4a" }}, {{ end }}
-        {{ range $value := $dataJ.output_files  }}
-         {{$i}} {{$value.ending}}
-        {{if eq  $i $value.ending}}
-         {{ $i}}         {{ printf "%.0f" $value.size }}
-        {{ end }}
-        {{ end }}
+        {{ range last 1 (where $dataJ.output_files "ending" $i) }}                
         {
             "url": "{{ $e }}",
             "mimeType": "audio/{{ $i }}",
-            "size": "40013200",
+            "size": "{{ printf "%.0f" .size }}",
             "title": "Audio {{ $i }}"
-        }{{ end }}
+        }{{ end }}{{ end }}
     ],
     "visibleComponents": [
         "tabDownload",
