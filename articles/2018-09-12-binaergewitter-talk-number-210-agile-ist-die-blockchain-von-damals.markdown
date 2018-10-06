@@ -12,7 +12,7 @@ audioformats:
   m4a: http://download.binaergewitter.de/2018-09-12.Binaergewitter.Talk.210.m4a
   opus: http://download.binaergewitter.de/2018-09-12.Binaergewitter.Talk.210.opus
 ---
-In der deprimierenden Zeit in der die Uploadfilter beschossene Sache sind treffen sich Felix² und Markus und versuchen euch zumindest zeitweise zu erheitern.
+In der deprimierenden Zeit in der die Uploadfilter beschlossene Sache sind treffen sich Felix² und Markus und versuchen euch zumindest zeitweise zu erheitern.
 
 ## Blast
 - [Foreshadow]( https://www.golem.de/news/foreshadow-l1tf-intel-cpus-ermoeglichten-unberechtigtes-auslesen-von-speicher-1808-136008.html )
