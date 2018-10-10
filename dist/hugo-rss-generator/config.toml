@@ -1,0 +1,29 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+
+
+[taxonomies]
+  category = "categories"
+
+[outputs]
+  home = ["RSS","mp4","ogg","mp3"]
+  section = ["RSS","mp4","ogg","mp3"]
+  taxonomyTerm = ["RSS","mp4","ogg","mp3"]
+  taxonomy =["RSS","mp4","ogg","mp3"]
+
+[outputFormats]
+[outputFormats.mp4]
+mediaType = "application/rss+xml"
+baseName = "rss-mp4"
+
+
+[outputFormats.mp3]
+mediaType = "application/rss+xml"
+baseName = "rss-mp3"
+
+
+[outputFormats.ogg]
+mediaType = "application/rss+xml"
+baseName = "rss-ogg"
+
