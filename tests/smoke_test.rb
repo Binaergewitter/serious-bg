@@ -117,47 +117,21 @@ class SmokeTest < Test::Unit::TestCase
     WebMock.disable_net_connect!
   end
 
-  def test_the_podcast_is_live_at_xenim
-    dataDump = File.new(File.expand_path("../api_response/binaergewitter_is_live.json", __FILE__), "r")
-    stub_request(:get, "http://feeds.streams.xenim.de/live/binaergewitter/json/").to_return(dataDump)
-    blog = Serious.new
-    blog.settings.xenim_response_time = Time.now - 20 # don't use the cached data!
-
-    assert_equal(true, blog.helpers.is_live?)
+  def test_the_podcast_is_live
+    stub_request(:get, "http://stream.radiotux.de:8000/status.xsl")
+	    .to_return(:status => 200, :body =>  "binaergewitter.mp3")
+    assert_equal(true, Background.update_is_live)
   end
 
-  def test_the_podcast_is_not_live_at_xenim
-    dataDump = File.new(File.expand_path("../api_response/binaergewitter_is_not_live.json", __FILE__), "r")
-    stub_request(:get, "http://feeds.streams.xenim.de/live/binaergewitter/json/").to_return(dataDump)
-    blog = Serious.new
-    blog.settings.xenim_response_time = Time.now - 20 # don't use the cached data!
+  def test_the_podcast_is_not_live
+    stub_request(:head, "http://stream.radiotux.de:8000/binaergewitter.mp3").to_return(:status => [404, "404 - The file you requested could not be found"])
 
-    assert_equal(false, blog.helpers.is_live?)
+    assert_equal(false, Background.update_is_live)
   end
 
-  def test_the_xenim_api_is_offline
-    stub_request(:get, "http://feeds.streams.xenim.de/live/binaergewitter/json/").to_return(:status => [404, "Not Found"])
-    blog = Serious.new
-    blog.settings.xenim_response_time = Time.now - 20 # don't use the cached data!
+  def test_the_server_timeout
+    stub_request(:head, "http://stream.radiotux.de:8000/binaergewitter.mp3").to_timeout
 
-    assert_equal(false, blog.helpers.is_live?)
-  end
-
-  def test_the_xenim_api_timedout
-    stub_request(:get, "http://feeds.streams.xenim.de/live/binaergewitter/json").to_timeout
-    blog = Serious.new
-    blog.settings.xenim_response_time = Time.now - 20 # don't use the cached data!
-
-    assert_equal(false, blog.helpers.is_live?)
-  end
-
-  def test_live_preview_view
-    dataDump = File.new(File.expand_path("../api_response/binaergewitter_is_not_live.json", __FILE__), "r")
-    stub_request(:get, "http://feeds.streams.xenim.de/live/binaergewitter/json/").to_return(dataDump)
-    blog = Serious.new
-    blog.settings.xenim_response_time = Time.now - 20 # don't use the cached data!
-
-    get "/"
-    assert last_response.ok?
+    assert_equal(false, Background.update_is_live)
   end
 end

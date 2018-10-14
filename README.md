@@ -3,9 +3,9 @@
 Oh hai!
 
 [![Build Status](https://travis-ci.org/Binaergewitter/serious-bg.svg?branch=master)](https://travis-ci.org/Binaergewitter/serious-bg)
+[![Support us on Patreon](http://ionicabizau.github.io/badges/patreon.svg)](https://www.patreon.com/Binaergewitter) 
+[![Donate](https://img.shields.io/liberapay/patrons/Binaergewitter.svg?logo=liberapay)](https://liberapay.com/Binaergewitter)
 
-
-[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=binaergewitter&url=https://github.com/Binaergewitter/serious-bg&title=BinaergewitterSerious&language=de&tags=github&category=software)
 
 # Markdown syntax
 You can add a "release: 2" line to the article markdown in case you 

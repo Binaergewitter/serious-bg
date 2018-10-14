@@ -1,9 +1,10 @@
 <div class="article">
   <h2>
-    <a href="<%= xenim_data[:link] %>">Live</a>
+    <a href="http://stream.radiotux.de:8000/binaergewitter.mp3">Live</a>
   </h2>
   <div>
-    <p>Unseren Chat findet ihr im Freenode IRC unter #Binaergewitter. Während der Sendung kann man uns dort antreffen und mit anderen Hörern diskutieren.</p>
+    <p>Unseren Chat findet ihr im Freenode IRC unter #Binaergewitter. Während der Sendung kann man uns dort antreffen
+      und mit anderen Hörern diskutieren.</p>
 
     <p><a href="irc://irc.freenode.net/binaergewitter">irc://irc.freenode.net/binaergewitter</a></p>
 
@@ -12,28 +13,43 @@
   <div class="ow-fluid">
     <div class="podcast_player" style="width:100%;">
       <p>
-        <audio controls="controls" id="live" preload="none">
-          <source src="<%= xenim_data[:stream] %>" type="audio/mpeg">
-          Your browser does not support the audio element.
-        </audio>
+        <div id="live-player"></div>
       </p>
       <script>
-      head.ready('podlove', function () {
-        $('#live').podlovewebplayer({
-                poster: '/img/binaergewitter_logo.png',
-                title: 'Live',
-                permalink: '<%= xenim_data[:link] %>',
-                author: '<%= xenim_data[:author] %>',
-                alwaysShowHours: false,
-                startVolume: 0.8,
-                width: 'auto',
-                summaryVisible: false,
-                timecontrolsVisible: false,
-                sharebuttonsVisible: false,
-                chaptersVisible: false,
+        head.ready('podlove', function () {
+          podlovePlayer('#live-player', {
+            theme: {
+              main: '#7FAF1B'
+            },
+            link: 'http://stream.radiotux.de:8000/binaergewitter.mp3',
+            title: 'Live',
+            poster: '/img/binaergewitter_logo1x1.jpg',
+            show: {
+              link: 'http://' + location.host,
+              title: 'Binärgewitter. Der Podcast rundum Web, Technologie und Opensource',
+              summary: 'Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt'
+            },
+            audio: [          
+              {
+                url: 'http://stream.radiotux.de:8000/binaergewitter.mp3',
+                mimeType: 'audio/mp3',
+                size: 100000000,
+                title: 'Audio Mp3'
+              },
+           ],
+            visibleComponents: [
+              'tabAudio',
+              'poster',
+              'showTitle',
+              'episodeTitle',
+            ],
+            reference: {
+              share: '/podlove-web-player/share',
+              base: '/podlove-web-player/dist'
+            }
         });
       });
-    </script>
+      </script>
     </div>
   </div>
 </div>

@@ -2,23 +2,20 @@
 <html lang="de" prefix="og: http://ogp.me/ns#">
 <head>
   <script src="//cdnjs.cloudflare.com/ajax/libs/headjs/1.0.3/head.min.js"></script>
+
   <meta name="flattr:id" content="mrop97">
 
   <script>
   head.js(
     { jquery: '//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js' },
     { bootstrapCollapse: '//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/collapse.min.js'},
-    { podlove: '/podlove-web-player/static/podlove-web-player.js' },
+    { podlove: '/podlove-web-player/dist/embed.js' },
     { bitlove: '//bitlove.org/widget/base.js' }
-    <% if Serious.flattr %>,{ flattr: '//api.flattr.com/js/0.6/load.js?mode=auto'}<% end %>
   )
     head.load("//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css")
     head.load("/css/iconfont/css/bgt-embedded.css")
     head.load("/css/coderay.css")
   </script>
-
-  <link href="/podlove-web-player/static/podlove-web-player.css" rel="stylesheet" media="screen" type="text/css" />
-  <link href="/css/customplayer.css" rel="stylesheet" media="screen" type="text/css" />
 
   <link rel="alternate" type="application/atom+xml" title="<%= Serious.title %>" href="<%= Serious.feed_url %>" />
 
@@ -26,7 +23,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title><%= (defined?(@article) && @article) ? @article.title + " - " : "" %><%= Serious.title %></title>
-  
+
   <meta property="og:site_name" content="<%= Serious.title %>">
   <meta property="og:url" content="<%= (defined?(@article) && @article) ? @article.full_url.gsub('http://', 'https://') : Serious.url.gsub('http://', 'https://') %>" />
   <meta property="og:title" content="<%= (defined?(@article) && @article) ? @article.title : Serious.title %> "/>
@@ -39,7 +36,7 @@
   <meta name="twitter:title" content="<%= (defined?(@article) && @article) ? @article.title : Serious.title %>">
   <meta name="twitter:image" content="http://blog.binaergewitter.de/img/binaergewitter_logo_text.png">
 
-  <meta name="description" content="<%= (defined?(@article) && @article) ? @article.automatic_summary : Serious.description %>">  
+  <meta name="description" content="<%= (defined?(@article) && @article) ? @article.automatic_summary : Serious.description %>">
 
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
