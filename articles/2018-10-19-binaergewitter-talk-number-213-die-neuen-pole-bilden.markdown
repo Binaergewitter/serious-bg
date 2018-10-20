@@ -44,7 +44,7 @@ https://fedorapeople.org/~jwrdegoede/flickerfree-videos/workstation-normal.webm 
 - [crypto51]( https://www.crypto51.app/about.html# )
   - [Hacker will 51% double-spend live auf twitch streamen]( https://bitcoinist.com/51-attack-planned-for-einsteineum/ )
 - [mongo db neue lizenz](https://www.pro-linux.de/news/1/26404/mongodb-%C3%A4ndert-seine-open-source-lizenz.html )
-- [bisschen geforkt])( https://www.pro-linux.de/news/1/26377/redis-teilweise-geforkt.html )
+- [bisschen geforkt]( https://www.pro-linux.de/news/1/26377/redis-teilweise-geforkt.html )
   - [freiSSl wieder up-to-date]( https://github.com/makefu/freiSSl/pull/1 )
 
 ## Themen
