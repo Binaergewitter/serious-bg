@@ -46,7 +46,7 @@ https://www.heise.de/newsticker/meldung/Android-Google-will-offenbar-40-US-Dolla
   - [Opera mit VPN]( https://www.opera.com/computer/features/free-vpn )
 
 - [Mikroplastik überall]( https://arstechnica.com/?p=1399357 )
- * [The Ocean Cleanup]( https://www.theoceancleanup.com/ )
+  * [The Ocean Cleanup]( https://www.theoceancleanup.com/ )
 
 ## Themen
 - CCCongress
@@ -54,11 +54,10 @@ https://www.heise.de/newsticker/meldung/Android-Google-will-offenbar-40-US-Dolla
 
 ## Lesefoo
 - [SElinux und docker]( http://www.projectatomic.io/blog/2015/06/using-volumes-with-docker-can-cause-problems-with-selinux/ )
-  - [entire-security-conference-forgets-what-selinux-is-or-does ](
+  * [entire-security-conference-forgets-what-selinux-is-or-does ](
 https://www.sudosatirical.com/articles/entire-security-conference-forgets-what-selinux-is-or-does/ )
-
 - [Certificate Transparency als Attack/Defense Tool]( https://isc.sans.edu/diary/rss/24114 )
--  https://github.com/m8r0wn/subscraper
+  * [subscraper](https://github.com/m8r0wn/subscraper)
 
 ## Mimimi der Woche
 - [use node]( https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=204577 )
@@ -72,6 +71,3 @@ https://www.sudosatirical.com/articles/entire-security-conference-forgets-what-s
 - [AsciiDoctor]( https://asciidoctor.org/ )
 - [The Single Board Computer Database]( https://www.board-db.org )
 - [TPM]( https://google.github.io/tpm-js/#pg_properties )
-
-
-
