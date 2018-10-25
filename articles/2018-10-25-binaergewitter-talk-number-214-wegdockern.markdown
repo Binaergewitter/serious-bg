@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Binärgewitter Talk #213: die neuen Pole bilden"
+title: "Binärgewitter Talk #214: Wegdockern!"
 date: 2018-10-25 20:30
 comments: true
 categories: talk
@@ -23,7 +23,7 @@ Vielleicht auch nur weil das piratenpad zu macht und sie immer noch keine Altern
   * [GNU KCG]( https://www.phoronix.com/scan.php?page=news_item&px=GNU-Kind-Communication )
 
 ## News
-- [Linus ist zurück und will CoC erstmal wirken lassen]( 
+- [Linus ist zurück und will CoC erstmal wirken lassen](
 https://www.heise.de/newsticker/meldung/Linus-Torvalds-wieder-am-Ruder-Linux-Verhaltenskodex-soll-erstmal-unveraendet-bleiben-4200652.html )
 -  Linux 4.19
 - [OpenIndiana Hipster]( https://wiki.openindiana.org/oi/2018.10+Release+notes )
@@ -35,7 +35,7 @@ https://www.heise.de/newsticker/meldung/Linus-Torvalds-wieder-am-Ruder-Linux-Ver
 - [Fedora 29 verzögert]( https://fedoraproject.org/wiki/Releases/29/Schedule )
   * [Buglist](https://qa.fedoraproject.org/blockerbugs/milestone/29/final/buglist)
 - [NixOS 18.09]( https://nixos.org/news.html )
-- [Android kostet jetzt 40$ pro Gerät]( 
+- [Android kostet jetzt 40$ pro Gerät](
 https://www.heise.de/newsticker/meldung/Android-Google-will-offenbar-40-US-Dollar-fuer-App-Platzierung-verlangen-4197631.html )
 - [Microsoft arbeitet an quelloffenem UEFI-BIOS]( https://www.heise.de/newsticker/meldung/Microsoft-arbeitet-an-quelloffenem-UEFI-BIOS-4192437.html )
  - [Mu Letter]( https://en.wikipedia.org/wiki/Mu_\(letter\) )
@@ -54,8 +54,8 @@ https://www.heise.de/newsticker/meldung/Android-Google-will-offenbar-40-US-Dolla
 
 ## Lesefoo
 - [SElinux und docker]( http://www.projectatomic.io/blog/2015/06/using-volumes-with-docker-can-cause-problems-with-selinux/ )
-  - [entire-security-conference-forgets-what-selinux-is-or-does ]( 
-https://www.sudosatirical.com/articles/entire-security-conference-forgets-what-selinux-is-or-does/ ) 
+  - [entire-security-conference-forgets-what-selinux-is-or-does ](
+https://www.sudosatirical.com/articles/entire-security-conference-forgets-what-selinux-is-or-does/ )
 
 - [Certificate Transparency als Attack/Defense Tool]( https://isc.sans.edu/diary/rss/24114 )
 -  https://github.com/m8r0wn/subscraper
@@ -67,7 +67,7 @@ https://www.sudosatirical.com/articles/entire-security-conference-forgets-what-s
 
 ## Picks
 - [Protocol](http://www.luismg.com/protocol/ )
-  * [asciiflow]( http://asciiflow.com/ ) 
+  * [asciiflow]( http://asciiflow.com/ )
   * [Ditaa]( http://ditaa.sourceforge.net/ )
 - [AsciiDoctor]( https://asciidoctor.org/ )
 - [The Single Board Computer Database]( https://www.board-db.org )
