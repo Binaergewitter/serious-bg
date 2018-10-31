@@ -25,7 +25,7 @@ Vielleicht auch nur weil das piratenpad zu macht und sie immer noch keine Altern
 ## News
 - [Linus ist zurück und will CoC erstmal wirken lassen](
 https://www.heise.de/newsticker/meldung/Linus-Torvalds-wieder-am-Ruder-Linux-Verhaltenskodex-soll-erstmal-unveraendet-bleiben-4200652.html )
--  Linux 4.19
+-  [Linux 4.19]( https://lkml.org/lkml/2018/10/22/184 )
 - [OpenIndiana Hipster]( https://wiki.openindiana.org/oi/2018.10+Release+notes )
 - [OpenBSD 6.4]( https://www.openbsd.org/64.html )
   * [announcement]( https://marc.info/?l=openbsd-announce&m=153987110101242&w=2 )
