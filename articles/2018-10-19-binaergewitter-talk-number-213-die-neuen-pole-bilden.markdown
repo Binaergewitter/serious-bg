@@ -58,7 +58,7 @@ https://fedorapeople.org/~jwrdegoede/flickerfree-videos/workstation-normal.webm 
 - [test && commit || revert]( https://medium.com/@kentbeck_7670/test-commit-revert-870bbd756864 )
 
 ## Mimimi der Woche
-- vfs_shadow_copy2
+- [vfs_shadow_copy2]( https://www.samba.org/samba/samba/docs/man/manpages/vfs_shadow_copy2.8.html )
 
 ## Picks
 - [CyberChef]( https://gchq.github.io/CyberChef/ ) 
