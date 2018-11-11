@@ -12,14 +12,14 @@ audioformats:
   m4a: http://download.binaergewitter.de/2018-11-10.Binaergewitter.Talk.215.m4a
   opus: http://download.binaergewitter.de/2018-11-10.Binaergewitter.Talk.215.opus
 ---
-k## Blast
-    * [Markus hat umsonst gejammert und Korrektur in einen Blogpost gepackt....OpenJDK kann JPEG schreiben! ]( 
+## Blast
+- [Markus hat umsonst gejammert und Korrektur in einen Blogpost gepackt....OpenJDK kann JPEG schreiben! ]( 
 https://www.mynethome.de/2018/10/25/jpg-with-openjdk/ )
 
 ## Toter der Woche
-* piratenpad
-* 60% der Wildtiere auf der Erde: https://www.theguardian.com/environment/2018/oct/30/humanity-wiped-out-animals-since-1970-major-report-finds
-* Aron Schwartz
+- piratenpad
+- 60% der Wildtiere auf der Erde: https://www.theguardian.com/environment/2018/oct/30/humanity-wiped-out-animals-since-1970-major-report-finds
+- Aron Schwartz
 
 
 ## News
@@ -37,16 +37,13 @@ https://www.mynethome.de/2018/10/25/jpg-with-openjdk/ )
 - IBM kauft RedHat - gibt es einen BlueHat ?
   * [$33.4 Milliarde]( https://www.bloomberg.com/news/articles/2018-10-28/ibm-is-said-to-near-deal-to-acquire-software-maker-red-hat )
   * [Fedora 29]( https://www.heise.de/newsticker/meldung/Fedora-29-Modularer-schicker-und-mit-neuem-Distributions-Ansatz-4207159.html )
-
-https://micro.blog/ - 
-    * Wie Mastodon, nur ohne Federation?
-    * "built on RSS and independent microblogs"
-    * bietet kostenpflichtes hosting bei ihnen, lässt eigenes hosting zu, hat API
-    * Unterstützt MicroPub API http://help.micro.blog/2017/api-posting/
-
-* Vivy - Health
-  - https://www.modzero.ch/modlog/archives/2018/10/30/sicherheitsm_aumlngel_in_e-health_anwendungen/index.html
-  - https://mobile.twitter.com/mod0/status/1057195043969216513 
+- [micro.blog](https://micro.blog/)
+  * Wie Mastodon, nur ohne Federation?
+  * "built on RSS and independent microblogs"
+  * bietet kostenpflichtes hosting bei ihnen, lässt eigenes hosting zu, hat API
+  * Unterstützt MicroPub API http://help.micro.blog/2017/api-posting/
+- Vivy - Health
+  - [Sicherheitsmängel in Elektronischer Gesundheitsakte "Vivy"](https://www.modzero.ch/modlog/archives/2018/10/30/sicherheitsm_aumlngel_in_e-health_anwendungen/index.html)
 
 ## Lesefoo
 - [LXD resource control]( https://stgraber.org/2016/03/26/lxd-2-0-resource-control-412/ )
@@ -59,7 +56,7 @@ https://micro.blog/ -
 
 ## Termine
 * eloop
-* linux presentation day - https://www.pro-linux.de/news/1/26482/linux-presentation-day-20182-am-10-und-17-november.html
+* [linux presentation day](https://www.pro-linux.de/news/1/26482/linux-presentation-day-20182-am-10-und-17-november.html)
 * sailfish 3 party 
 * ceph day
 
@@ -70,7 +67,7 @@ https://micro.blog/ -
 - [python DebuggingWithGdb]( https://wiki.python.org/moin/DebuggingWithGdb )
 - [Build your octocat]( https://myoctocat.com/build-your-octocat/ )
 - [Auctioneer Beats]( https://twitter.com/AuctioneerBeats )
-- [Calimoto] ( https://play.google.com/store/apps/details?id=com.calimoto.calimoto&referrer=calimoto_website )
+- [Calimoto]( https://play.google.com/store/apps/details?id=com.calimoto.calimoto&referrer=calimoto_website )
 - [Raspberry_Pi case/stand]( https://twitter.com/revspacenl/status/1060922142987038721 )
 
 
