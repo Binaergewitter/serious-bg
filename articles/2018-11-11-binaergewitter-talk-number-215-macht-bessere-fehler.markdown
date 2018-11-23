@@ -18,7 +18,7 @@ https://www.mynethome.de/2018/10/25/jpg-with-openjdk/ )
 
 ## Toter der Woche
 - piratenpad
-- 60% der Wildtiere auf der Erde: https://www.theguardian.com/environment/2018/oct/30/humanity-wiped-out-animals-since-1970-major-report-finds
+- [60% der Wildtiere auf der Erde](https://www.theguardian.com/environment/2018/oct/30/humanity-wiped-out-animals-since-1970-major-report-finds )
 - Aron Schwartz
 
 
@@ -41,7 +41,7 @@ https://www.mynethome.de/2018/10/25/jpg-with-openjdk/ )
   * Wie Mastodon, nur ohne Federation?
   * "built on RSS and independent microblogs"
   * bietet kostenpflichtes hosting bei ihnen, lässt eigenes hosting zu, hat API
-  * Unterstützt MicroPub API http://help.micro.blog/2017/api-posting/
+  * Unterstützt [MicroPub API](http://help.micro.blog/2017/api-posting/)
 - Vivy - Health
   - [Sicherheitsmängel in Elektronischer Gesundheitsakte "Vivy"](https://www.modzero.ch/modlog/archives/2018/10/30/sicherheitsm_aumlngel_in_e-health_anwendungen/index.html)
 
