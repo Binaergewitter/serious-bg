@@ -12,7 +12,7 @@ audioformats:
   m4a: http://download.binaergewitter.de/2018-11-23.Binaergewitter.Talk.216.m4a
   opus: http://download.binaergewitter.de/2018-11-23.Binaergewitter.Talk.216.opus
 ---
-Diesmal sind wir nicht demimierend dafür wütent. Mit Felix² und Ingo.
+Diesmal sind wir nicht demimierend dafür wütend. Mit Felix² und Ingo.
 
 
 ## blackfriday
@@ -27,7 +27,7 @@ Diesmal sind wir nicht demimierend dafür wütent. Mit Felix² und Ingo.
 - [podcasting with pulse]( https://l33tsource.com/blog/2018/11/11/Podcasting-with-pulse/ )
 
 ## McAfee der Woche
-- [ ]( https://www.theregister.co.uk/2018/11/15/john_mcafee_liable_death_neighbour_belize/ )
+- [Schuld am Tot des Nachbarn]( https://www.theregister.co.uk/2018/11/15/john_mcafee_liable_death_neighbour_belize/ )
 
 ## Toter der Woche
 - [steam link box]( https://www.golem.de/news/spiele-streaming-valve-verkauft-steam-link-box-nicht-mehr-1811-137810.html )
@@ -56,12 +56,12 @@ https://aktion.digitalcourage.de/keine-autofahr-ueberwachung
 - [10 Millionen Deutsche sind jetzt Veteranen]( http://www.spiegel.de/politik/deutschland/bundeswehr-zehn-millionen-deutsche-sind-jetzt-veteranen-a-1239098.html )
 - [Hitman2 DRM vor Erscheinung gecrackt]( https://games.slashdot.org/story/18/11/13/203228/hitman-2s-denuvo-drm-cracked-days-before-the-games-release )
 - [Amazon Cornetto]( https://aws.amazon.com/blogs/opensource/amazon-corretto-no-cost-distribution-openjdk-long-term-support/ )
-  * https://en.wikipedia.org/wiki/Caff%C3%A8_corretto
+  * [Caffee Corretto](https://en.wikipedia.org/wiki/Caff%C3%A8_corretto )
 
 ## Themen
 - Open Stack Summit
-  * https://www.pro-linux.de/news/1/26504/ubuntu-support-f%C3%BCr-1804-lts-auf-10-jahre-verl%C3%A4ngert.html
-  * https://cdn1.computerworlduk.com/cmsdata/features/3686847/shuttleworth_lead_image_openstack_berlin_thumb800.png
+  * [10 Jahre Support für Ubuntu 18.04](https://www.pro-linux.de/news/1/26504/ubuntu-support-f%C3%BCr-1804-lts-auf-10-jahre-verl%C3%A4ngert.html )
+  * [Mark mit Bart](https://cdn1.computerworlduk.com/cmsdata/features/3686847/shuttleworth_lead_image_openstack_berlin_thumb800.png )
   * [ceph foundation]( https://www.pro-linux.de/news/1/26490/ceph-foundation-gegr%C3%BCndet.html )
 
 
@@ -79,7 +79,6 @@ https://aktion.digitalcourage.de/keine-autofahr-ueberwachung
 
 ## Picks
 - [Handgemalte Diagramme zu echten Diagrammen]( https://webdemo.myscript.com/views/diagram/index.html#/ )
-
 - [Developers Swearing]( https://twitter.com/gitlost )
 - [xkcd: Evaluating Tech Things] ( https://xkcd.com/2072/ )
 - [Web.dev]( https://web.dev/ )
