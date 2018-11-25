@@ -80,7 +80,7 @@ https://aktion.digitalcourage.de/keine-autofahr-ueberwachung
 ## Picks
 - [Handgemalte Diagramme zu echten Diagrammen]( https://webdemo.myscript.com/views/diagram/index.html#/ )
 - [Developers Swearing]( https://twitter.com/gitlost )
-- [xkcd: Evaluating Tech Things] ( https://xkcd.com/2072/ )
+- [xkcd: Evaluating Tech Things]( https://xkcd.com/2072/ )
 - [Web.dev]( https://web.dev/ )
 
 
