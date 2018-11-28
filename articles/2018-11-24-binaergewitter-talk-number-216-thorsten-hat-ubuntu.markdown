@@ -34,7 +34,7 @@ Diesmal sind wir nicht demimierend dafür wütend. Mit Felix² und Ingo.
 
 ## News
 
-https://github.com/facebookincubator/nfusr
+- [facebook nfusr](https://github.com/facebookincubator/nfusr)
 - [Leistungsschutzrecht in der EU - bye bye google news]( 
 https://www.heise.de/newsticker/meldung/Leistungsschutzrecht-in-der-EU-Ende-fuer-Google-News-moeglich-4224772.html )
 - [Google Cemetery]( https://gcemetery.co/ )
@@ -49,8 +49,7 @@ Spectre-Schutz](https://www.heise.de/security/meldung/Schlechte-Performance-Linu
 https://www.heise.de/newsticker/meldung/Passwoerter-geleakt-Datenschuetzer-verhaengt-20-000-Euro-Bussgeld-gegen-Knuddels-de-4229798.html )
 - [Telekom Stream-On ist ILLEGAL]( https://www.golem.de/news/gerichtsentscheidung-telekom-verstoesst-mit-stream-on-gegen-netzneutralitaet-1811-137820.html )
 - [14 Jahre Mark Suckerberg Sorry, not sorry]( https://www.washingtonpost.com/graphics/2018/business/facebook-zuckerberg-apologies/ )
-- Verkehrsminister Scheuer versucht massiven Ausbau von Überwachungsinfrastruktur - jetzt dagegen halten: 
-https://aktion.digitalcourage.de/keine-autofahr-ueberwachung
+- Verkehrsminister Scheuer versucht massiven Ausbau von Überwachungsinfrastruktur - jetzt dagegen halten: [keine autofahrer überwachung]( https://aktion.digitalcourage.de/keine-autofahr-ueberwachung )
 - [3D Drucken gefährlich?]( https://hackaday.com/2018/11/21/3d-printer-warning-heating-plastic-to-high-temps-is-not-healthy/ )
 - [Google = gieriger Daten-Raffzahn (protonmail incident)]( https://old.reddit.com/r/ProtonMail/comments/9yl94k/never_connect_to_protonmail_using_chrome/ )
 - [10 Millionen Deutsche sind jetzt Veteranen]( http://www.spiegel.de/politik/deutschland/bundeswehr-zehn-millionen-deutsche-sind-jetzt-veteranen-a-1239098.html )
@@ -68,7 +67,7 @@ https://aktion.digitalcourage.de/keine-autofahr-ueberwachung
 
 ## Lesefoo
 - [Raytracing]( https://www.heise.de/ct/artikel/Raytracing-in-Echtzeit-mit-DirectX-und-Nvidias-RTX-Grafikchips-4196393.html )
-* https://www.jedipedia.net/wiki/Rey
+  * [Ray](https://www.jedipedia.net/wiki/Rey)
 - [NAT performance on EdgeRouter X]( https://an.undulating.space/post/180927-er_alternate_firmware_benchmarks/ )
 - [cloud without container]( https://blog.cloudflare.com/cloud-computing-without-containers/ )
 
@@ -82,7 +81,3 @@ https://aktion.digitalcourage.de/keine-autofahr-ueberwachung
 - [Developers Swearing]( https://twitter.com/gitlost )
 - [xkcd: Evaluating Tech Things]( https://xkcd.com/2072/ )
 - [Web.dev]( https://web.dev/ )
-
-
-
-
