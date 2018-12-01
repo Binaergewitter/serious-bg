@@ -15,9 +15,9 @@ audioformats:
 Felix² und Markus gehen dem ePostbrief, Ingo 0-4 und der Cebit auf den Grund.
 
 ## In eigener Sache
-* download.binaergewitter.de jetzt mit dns round-robin
-download.binaergewitter.de has address 159.69.132.234
-download.binaergewitter.de has address 144.76.26.247
+- download.binaergewitter.de jetzt mit dns round-robin
+  * download.binaergewitter.de has address 159.69.132.234
+  * download.binaergewitter.de has address 144.76.26.247
 
 
 ## Toter der Woche
@@ -29,8 +29,8 @@ download.binaergewitter.de has address 144.76.26.247
 - [CVE ]( https://t.co/9VMNDcLslc )
 - [Amazon Graviton]( https://www.computerbase.de/2018-11/aws-amazon-cloud-server-arm-cpu-graviton/ )
   * [Benchmarks]( https://www.phoronix.com/scan.php?page=article&item=ec2-graviton-performance )
-  * https://www.scaleway.com/pricing/
-  * https://github.com/firecracker-microvm/firecracker
+  * [scaleway](https://www.scaleway.com/pricing/)
+  * [firecracker mircovm](https://github.com/firecracker-microvm/firecracker)
   * [Cross-Compiling in nixpkgs]( https://matthewbauer.us/blog/beginners-guide-to-cross.html )
 - [github drama]( https://github.com/nikolas/github-drama )
  - [Github Issue dazu]( https://github.com/dominictarr/event-stream/issues/116 )
@@ -39,11 +39,11 @@ download.binaergewitter.de has address 144.76.26.247
 - ["classic" PS1 mit open-source emulator von Sony(old news)]( https://arstechnica.com/?p=1409211 )
 
 ## Themen
-https://blog.golang.org/go2-here-we-come
+- [go2 here we come](https://blog.golang.org/go2-here-we-come)
 
 ## Lesefoo
 - [Software disenchantment]( http://tonsky.me/blog/disenchantment/ )
-- https://blog.cloudflare.com/every-7-8us-your-computers-memory-has-a-hiccup/
+- [Every 7.8μs your computer’s memory has a hiccup](https://blog.cloudflare.com/every-7-8us-your-computers-memory-has-a-hiccup/)
 
 
 ## Mimimi der Woche
