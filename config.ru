@@ -5,9 +5,8 @@ require 'serious'
 Serious.set :title, 'Binärgewitter'
 Serious.set :author, 'Binärgewitter Team'
 Serious.set :url, 'http://blog.binaergewitter.de'
-Serious.set :disqus, 'binaergewitterpodcast'
 Serious.set :description, 'Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt.'
-#Serious.set :disqus, true
+Serious.set :isso, true
 
 Serious.set :flattr, true
 Serious.set :flattr_uid, 'binaergewitter'
