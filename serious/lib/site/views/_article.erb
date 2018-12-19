@@ -20,7 +20,7 @@
       <% if article.instance_of?(Serious::Article) %>
         <%= render_controls article %>
         <%= render_flattr(article) if Serious.flattr %>
-        <%= render_disqus(article) if Serious.disqus %>
+        <%= render_isso() if Serious.isso %>
       <% end %>
     <% end %>
   </div>

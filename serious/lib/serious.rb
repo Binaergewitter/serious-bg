@@ -72,8 +72,8 @@ class Serious < Sinatra::Base
       render :erb, :"_podcast_controls", :locals => { :article => article }, :layout => false
     end
 
-    def render_disqus(article)
-      render :erb, :"_disqus", :locals => { :article => article }, :layout => false
+    def render_isso()
+      render :erb, :"_isso", :layout => false
     end
 
     def render_flattr(article=nil)
@@ -242,10 +242,14 @@ class Serious < Sinatra::Base
   # Specific article route
   get %r{/(\d{4})/(\d{1,2})/(\d{1,2})/([^\/]+)/?} do
     halt 404 unless @article = Article.first(*params[:captures])
+    # redirect to the url with / because isso needs
+    # it to map it to the comment thread
+    redirect to(request.path_info + "/"), 301 unless request.path_info[-1] == "/"
     render_article @article
   end
 
   # Archives route
+  # is this even used?
   get %r{/(\d{4})[/]{0,1}(\d{0,2})[/]{0,1}(\d{0,2})[/]{0,1}} do
     selection = params[:captures].reject {|s| s.strip.length == 0 }.map {|n| n.length == 1 ? "%02d" % n : n}
     @articles = Article.find(*selection)

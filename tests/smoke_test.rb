@@ -87,7 +87,7 @@ class SmokeTest < Test::Unit::TestCase
   def test_that_all_posts_on_the_archive_page_work
     get "/archives"
     last_response.body.scan(/a href=["'](\/2.*)["']>/).each do |match|
-      get match[0]
+      get match[0] + "/"
       assert last_response.ok?
     end
   end
