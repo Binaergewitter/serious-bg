@@ -20,7 +20,7 @@ audioformats:
 - [The underlying technology](https://docs.docker.com/engine/docker-overview/#the-underlying-technology)
   - Namespaces
   - [Control groups (‘cgroups’)](https://en.wikipedia.org/wiki/Cgroups)
-    - Chris Down: https://www.youtube.com/watch?v=ikZ8_mRotT4
+    - Chris Down: [cgroupv2: Linux's new unified control group hierarchy](https://www.youtube.com/watch?v=ikZ8_mRotT4)
   - Union file systems
   - Container format
 - [Dockerfile Referenz](https://docs.docker.com/engine/reference/builder/)
