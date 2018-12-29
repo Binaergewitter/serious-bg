@@ -74,15 +74,15 @@ https://www.heise.de/newsticker/meldung/EuGH-Anwalt-Leistungsschutzrecht-darf-ni
 - [The Precariat: A Disruptive Class for Disruptive Times.]( https://media.ccc.de/v/35c3-10021-the_precariat_a_disruptive_class_for_disruptive_times )
 - [Programmieren mit der Maus](https://media.ccc.de/v/35c3-38-programmieren-mit-der-maus)
 - [Hausdurchsuchungen](https://media.ccc.de/v/35c3-10018-verhalten_bei_hausdurchsuchungen)
-- Wahlmaschinen / US-Präsidentschaftswahl 2020
+- [Wahlmaschinen / US-Präsidentschaftswahl 2020]( https://media.ccc.de/v/35c3-9917-election_cybersecurity_progress_report )
 - [Smart Home](https://media.ccc.de/v/35c3-9723-smart_home_-_smart_hack)
 - [Open Source Firmware]( https://media.ccc.de/v/35c3-9778-open_source_firmware )
-- [Polizeigesetze]( https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/10015.html )
+- [Polizeigesetze]( https://media.ccc.de/v/35c3-10015-polizeigesetze )
 
 
 ### Kommende Talks
-Die EU und ihre Institutionen
-Meine Abenteuer im EU Parl
+- [Die EU und ihre Institutionen]( https://media.ccc.de/v/35c3-10010-die_eu_und_ihre_institutionen )
+- Meine Abenteuer im EU Parlament
 
 ## Lesefoo
 - [Parachute use to prevent death]( https://www.bmj.com/content/363/bmj.k5094 )
