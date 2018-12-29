@@ -25,7 +25,7 @@ Erlebnissen auf dem #35C3 und witzeln sich durch die News der letzten Zeit.
 - [ICQ]( https://www.golem.de/news/instant-messaging-icq-blockiert-alle-alternativen-messenger-clients-1812-138427.html )
 
 ## Dotkom der Woche
-- https://www.heise.de/newsticker/meldung/Kim-Dotcom-kann-gegen-Auslieferung-an-USA-Berufung-einlegen-4257316.html
+- [gegen Auslieferung]( https://www.heise.de/newsticker/meldung/Kim-Dotcom-kann-gegen-Auslieferung-an-USA-Berufung-einlegen-4257316.html )
 
 ## News
 - [MIPS opensource]( https://www.golem.de/news/cpu-befehlssatz-mips-soll-open-source-werden-1812-138302.html )
@@ -72,10 +72,10 @@ https://www.heise.de/newsticker/meldung/EuGH-Anwalt-Leistungsschutzrecht-darf-ni
 ### Sehenswerte Talks
 
 - [The Precariat: A Disruptive Class for Disruptive Times.]( https://media.ccc.de/v/35c3-10021-the_precariat_a_disruptive_class_for_disruptive_times )
-- Programmieren mit der Maus
-- Hausdurchsuchungen
+- [Programmieren mit der Maus](https://media.ccc.de/v/35c3-38-programmieren-mit-der-maus)
+- [Hausdurchsuchungen](https://media.ccc.de/v/35c3-10018-verhalten_bei_hausdurchsuchungen)
 - Wahlmaschinen / US-Präsidentschaftswahl 2020
-- SmartHome
+- [Smart Home](https://media.ccc.de/v/35c3-9723-smart_home_-_smart_hack)
 - [Open Source Firmware]( https://media.ccc.de/v/35c3-9778-open_source_firmware )
 - [Polizeigesetze]( https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/10015.html )
 
@@ -99,5 +99,3 @@ Meine Abenteuer im EU Parl
 - [check your privilege]( https://checkyourprivilege.org/ )
 - [Sandspiel]( https://news.ycombinator.com/item?id=18696291 )
 - [Pi Hole]( https://pi-hole.net/ )
-
-
