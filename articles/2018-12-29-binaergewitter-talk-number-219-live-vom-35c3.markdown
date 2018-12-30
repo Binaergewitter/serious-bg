@@ -82,7 +82,8 @@ https://www.heise.de/newsticker/meldung/EuGH-Anwalt-Leistungsschutzrecht-darf-ni
 
 ### Kommende Talks
 - [Die EU und ihre Institutionen]( https://media.ccc.de/v/35c3-10010-die_eu_und_ihre_institutionen )
-- Meine Abenteuer im EU Parlament
+- [Meine Abenteuer im EU Parlament]( https://youtu.be/ao1s4lWOb-8?t=3650 )
+  * [Oettingers Antwort]( https://youtu.be/Qd6T9uH0cM4?t=213 )
 
 ## Lesefoo
 - [Parachute use to prevent death]( https://www.bmj.com/content/363/bmj.k5094 )
