@@ -14,8 +14,6 @@ audioformats:
 ---
 Neues Jahr und auch wir sind wieder da und beschäftigen uns mit dem Whatsarzt und anderen Dingen...
 
-
-
 ## Toter der Woche
 - [Roboter in Vegas von selbstfahrenden Tesla umgefahren]( https://i.redd.it/0j5pt53yp5921.jpg )
 - [MD Treiber Maintainer]( http://www.linux-magazin.de/news/maintainer-des-md-treibers-gestorben/ )
@@ -24,15 +22,16 @@ Neues Jahr und auch wir sind wieder da und beschäftigen uns mit dem Whatsarzt u
 
 ## News
 - [GitHub free private repos](https://www.heise.de/newsticker/meldung/Private-Repositories-auf-GitHub-nun-kostenlos-4267448.html )
-- https://opensource.org/licenses/alphabetical
-- Alibaba kauft ne Berliner Firma mit nem Apache Projekt https://boerse.ard.de/aktien/alibaba-kauft-sich-in-berlin-ein102.html Apache Flink 
-https://www.heise.de/newsticker/meldung/Investitionsrekord-2018-Deutsche-Startups-konnten-4-6-Milliarden-Euro-einsacken-4271137.html
+- [Lizenzliste]( https://opensource.org/licenses/alphabetical )
+- [Alibaba kauft ne Berliner Firma mit nem Apache Projekt](https://boerse.ard.de/aktien/alibaba-kauft-sich-in-berlin-ein102.html)      
+  * [Apache Flink](
+https://www.heise.de/newsticker/meldung/Investitionsrekord-2018-Deutsche-Startups-konnten-4-6-Milliarden-Euro-einsacken-4271137.html)
 - [Lustige Geschichten mit "Fake Windows Support" Anrufen]( https://twitter.com/grauhut/status/1082650738927591425 )
 - [Public Domain Day 2019]( https://law.duke.edu/cspd/publicdomainday/2019/ )
 - [Python Programmiersprache des Jahres 2018](  https://www.heise.de/developer/meldung/Programmiersprachen-Ranking-Python-ist-Sprache-des-Jahres-2018-4267763.html 
 )
- * [MIT AppInventor - Android Apps mit Scratch bauen]( http://ai2.appinventor.mit.edu/ )
- * [NativeScript Playground]( https://play.nativescript.org/ )
+  * [MIT AppInventor - Android Apps mit Scratch bauen]( http://ai2.appinventor.mit.edu/ )
+  * [NativeScript Playground]( https://play.nativescript.org/ )
 - [Transfer data via animated QR codes]( https://github.com/divan/txqr )
 - [China auf dem Mond gelandet]( https://science.slashdot.org/story/19/01/03/141245/china-lifts-mysterious-veil-by-landing-probe-on-far-side-of-the-moon )
 - [CPU-agnostischer Cache Side-Channel Angriff]( https://www.theregister.co.uk/2019/01/05/boffins_beat_page_cache/ )
@@ -48,7 +47,7 @@ https://www.heise.de/newsticker/meldung/Investitionsrekord-2018-Deutsche-Startup
 - [AsciiDoc Specification proposal]( https://asciidoctor.org/news/2019/01/07/asciidoc-spec-proposal/ )
 
 ## Themen
-- []( https://twitter.com/edzitron/status/1083476320808398849/photo/1 )
+- [internetofshit @CES]( https://twitter.com/edzitron/status/1083476320808398849/photo/1 )
 - [Is your cat6 cable a dog?]( http://www.bluejeanscable.com/articles/is-your-cat6-a-dog.htm )
 
 ## Lesefoo
