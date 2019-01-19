@@ -25,7 +25,7 @@ Wir nutzen jetzt Cryptpad
 
 ## Toter der Woche
 - [Flash in Firefox]( https://news.slashdot.org/story/19/01/15/172233/firefox-69-will-disable-adobe-flash-plugin-by-default )
-  * [Zombo.com](zombo.com)
+  * [Zombo.com](http://zombo.com)
 - [moon plant](https://www.theregister.co.uk/2019/01/16/first_moon_plant_dies/)
 
 ## Untoter der Woche
@@ -36,10 +36,10 @@ Wir nutzen jetzt Cryptpad
 - [Collection #1 - 773 Millionen Online Konten geleakt!]( 
 https://www.heise.de/security/meldung/Passwort-Sammlung-mit-773-Millionen-Online-Konten-im-Netz-aufgetaucht-4279375.html )
   * [Millionen Log-in-Daten abgegriffen]( https://www.tagesschau.de/ausland/internet-sicherheit-cybercrime-101.html )
-- [ZFS Kernel 5.0]( https://t.co/lR93netN1B )
+- [ZFS Kernel 5.0]( https://www.golem.de/news/kernel-zfs-fuer-linux-bekommt-gpl-probleme-1901-138698.html )
 - [google kauft uhrenhersteller]( https://techcrunch.com/2019/01/17/google-is-buying-fossils-smartwatch-tech-for-40-million/ )
 - [Geld für Wohnungen von Microsoft in Seatle]( https://www.deutschlandfunknova.de/nachrichten/seattle-microsoft-gibt-geld-fuer-bezahlbare-wohnungen )
-- [Fernseher mit Smart günstiger als ohne Smart](   )
+- [Fernseher mit Smart günstiger als ohne Smart](https://news.ycombinator.com/item?id=16728511)
 - [Android Hersteller machen DavDroid kaputt]( https://twitter.com/davx5app/status/1085864937384071174 )
 - [Häcker übernehmen Kräne!]( 
 https://www.forbes.com/sites/thomasbrewster/2019/01/15/exclusive-watch-hackers-take-control-of-giant-construction-cranes/#16b1e0af1d0a )
