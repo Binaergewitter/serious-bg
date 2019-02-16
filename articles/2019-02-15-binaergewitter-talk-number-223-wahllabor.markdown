@@ -12,14 +12,17 @@ audioformats:
   m4a: http://download.binaergewitter.de/2019-02-13.Binaergewitter.Talk.223.m4a
   opus: http://download.binaergewitter.de/2019-02-13.Binaergewitter.Talk.223.opus
 ---
+
+Artikel 13 ist schon wieder da genau so wie madmas, l33tname und makefu. 
+
 ## Blast
-- fosdem
+- FOSDEM
   * [Open Source C#, .NET, and Blazor - everywhere PLUS WebAssembly]( https://fosdem.org/2019/schedule/event/open_source_microsoft/ )
   * [Netflix and FreeBSD]( https://fosdem.org/2019/schedule/event/netflix_freebsd/ )
   * [PostgreSQL vs. fsync]( https://fosdem.org/2019/schedule/event/postgresql_fsync/ )
   * [n-gate Zusammenfassung]( http://n-gate.com/fosdem/ )
-  * https://fosdem.org/2019/schedule/event/keynote_fifty_years_unix/
-  * https://fosdem.org/2019/schedule/event/cloud_is_another_sun/
+  * [Fifty years of Unix and Linux advances](https://fosdem.org/2019/schedule/event/keynote_fifty_years_unix/)
+  * [The Cloud is Just Another Sun](https://fosdem.org/2019/schedule/event/cloud_is_another_sun/)
   * [Rust on the esp32?](https://iot.stackexchange.com/questions/2102/working-with-rust-on-the-esp32 )
 
 ## Toter der Woche
