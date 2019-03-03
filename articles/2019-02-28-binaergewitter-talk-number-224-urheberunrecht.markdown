@@ -46,17 +46,17 @@ https://www.theverge.com/circuitbreaker/2019/2/26/18241117/energizer-power-max-p
 
 ## Themen
 - EVoting 
- * [Swiss Post’s e-voting solution]( https://www.post.ch/en/business/a-z-of-subjects/industry-solutions/swiss-post-e-voting )
- * [Postschiff Enterprise]( https://www.republik.ch/2019/02/15/postschiff-enterprise )
- * [Gespött der Hacker]( https://www.watson.ch/digital/post/286922616-die-post-laesst-ihr-e-voting-system-hacken-und-macht-sich-zum-gespoett-der-hacker )
- * [automated security check]( https://twitter.com/alexis_roussel/status/1097926306749132800 )
+  * [Swiss Post’s e-voting solution]( https://www.post.ch/en/business/a-z-of-subjects/industry-solutions/swiss-post-e-voting )
+  * [Postschiff Enterprise]( https://www.republik.ch/2019/02/15/postschiff-enterprise )
+  * [Gespött der Hacker]( https://www.watson.ch/digital/post/286922616-die-post-laesst-ihr-e-voting-system-hacken-und-macht-sich-zum-gespoett-der-hacker )
+  * [automated security check]( https://twitter.com/alexis_roussel/status/1097926306749132800 )
 - Urheberrechtsreform, #Artikel 13 & #Artikel 11
   * [3000 nicht-Bots in Köln]( https://www.heise.de/newsticker/meldung/Dieser-Bot-geht-waehlen-3000-demonstrieren-in-Koeln-gegen-Urheberrechtsreform-4316858.html 
 )
   * [Datenschutzbeauftragter will Erklärung wie Reform ohne Uploadfilter funktionieren soll]( 
 https://www.heise.de/newsticker/meldung/EU-Copyright-Reform-Artikel-13-ohne-Upload-Filter-Datenschutzbeauftragter-will-Erklaerung-4320915.html )
-  * https://www.heise.de/newsticker/meldung/Upload-Filter-und-Artikel-13-Wirbel-um-irrefuehrendes-Video-des-EU-Parlaments-4323610.html
-   * [Absurde Stellungsnahme: Hamma schon imma so gemacht!]( https://twitter.com/Senficon/status/1101216213324185604 )
+  * [Wirbel um irreführendes Video des EU-Parlaments](https://www.heise.de/newsticker/meldung/Upload-Filter-und-Artikel-13-Wirbel-um-irrefuehrendes-Video-des-EU-Parlaments-4323610.html)
+  * [Absurde Stellungsnahme: Hamma schon imma so gemacht!]( https://twitter.com/Senficon/status/1101216213324185604 )
   * [Aktionsanleitung vom Logbuch Netzpolitik]( https://logbuch-netzpolitik.de/lnp288-wir-nennen-namen )
   * [Spiegel: Streit über Art. 13 - wer braucht schon Argumente?]( 
 http://www.spiegel.de/netzwelt/netzpolitik/streit-ueber-artikel-13-wer-braucht-schon-argumente-a-1255608.html )
