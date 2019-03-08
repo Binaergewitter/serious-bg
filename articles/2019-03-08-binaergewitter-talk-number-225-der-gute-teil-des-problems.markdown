@@ -18,11 +18,11 @@ audioformats:
 
 ## News
 - neue .dev Domains (danke @sibbl):
-  - [vim.dev](vim.dev)
-  - [emacs.dev](emacs.dev)
-  - [developersdevelopersdevelopers.dev/elopers/](developersdevelopersdevelopers.dev/elopers/)
-  - [w3schools.dev](w3schools.dev)
-  - [smallindie.dev](smallindie.dev)
+  - [vim.dev](https://vim.dev)
+  - [emacs.dev](https://emacs.dev)
+  - [developersdevelopersdevelopers.dev/elopers/](https://developersdevelopersdevelopers.dev/elopers/)
+  - [w3schools.dev](https://w3schools.dev)
+  - [smallindie.dev](https://smallindie.dev)
 - [Revolut insiders reveal the human cost of a fintech unicorn's wild rise]( 
 https://www.wired.co.uk/article/revolut-trade-unions-labour-fintech-politics-storonsky ) 
   * [vimpay]( https://www.vimpay.de/ )
