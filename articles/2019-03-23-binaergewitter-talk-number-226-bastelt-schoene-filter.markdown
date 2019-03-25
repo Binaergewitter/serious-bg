@@ -45,9 +45,6 @@ audioformats:
    - [Google Flutter]( https://flutter.dev/ )
    - [Fuchsia]( https://arstechnica.com/gadgets/2017/05/googles-fuchsia-smartphone-os-dumps-linux-has-a-wild-new-ui/ )
 
-
-## Themen
-
 ## Mimimi der Woche
 
 - [nicht so leise wie ich wollte SC721]( https://www.supermicro.com/manuals/chassis/Mini-tower/SC721.pdf )
