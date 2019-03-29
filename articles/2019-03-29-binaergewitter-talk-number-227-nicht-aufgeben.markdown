@@ -23,20 +23,19 @@ audioformats:
 - [Quality Land als HBO Serie]( http://www.dnn.de/Nachrichten/Medien/HBO-verfilmt-Marc-Uwe-Klings-QualityLand-als-Serie )
 
 ### Politik
-- allerletzte Chance? https://twitter.com/Senficon/status/1110527108349087744
+- [allerletzte Chance? Die Minister könnten es noch verhindern...](https://twitter.com/Senficon/status/1110527108349087744 )
 - [e voting moratorium]( https://e-voting-moratorium.ch/bogen-download/ )
 
 
 ### 10G
 - USB-C 10G Dock fressen zuviel Strom - mit 10 GBit/s dann 17,7 Watt
-- 10G Switche
-
-- Inateck USB 3.0 Festplatten Dock
-- QNAP TS-932X
+- 10G Switche - HPE OfficeConnect 1850
+- [Inateck USB 3.0 Festplatten Dock](https://amzn.to/2CE7cft )
+- [NAS QNAP TS-932X](https://amzn.to/2CEJ4sT )
 
 ### SUSE
-- https://www.radiotux.de/index.php?/archives/8046-RadioTux-Sendung-November-2018.html
-- https://www.radiotux.de/index.php?/archives/8044-RadioTux-Sendung-September-2018.html
+- [RadioTux Sendung mit SUSE CTO](https://www.radiotux.de/index.php?/archives/8046-RadioTux-Sendung-November-2018.html )
+- [RadioTux Sendung über Uyuni](https://www.radiotux.de/index.php?/archives/8044-RadioTux-Sendung-September-2018.html )
 
 ## Messenger der Woche
 
