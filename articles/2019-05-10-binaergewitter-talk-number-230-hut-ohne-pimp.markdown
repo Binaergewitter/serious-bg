@@ -16,10 +16,11 @@ Wieder nur ein kleines Team mit Felix und Ingo die sich über Impfen, Europawahl
 
 ## (zukünftiger) Untoter der Woche
 * [Pornhub will Tumblr kaufen und zu alter güte verhelfen]( https://arstechnica.com/information-technology/2019/05/pornhub-wants-to-buy-tumblr-and-restore-site-to-former-porn-filled-glory/ )
+* [Presseclub über Impfpflicht](https://www1.wdr.de/daserste/presseclub/sendungen/impfpflicht-106.html )
 
 ## Toter der Woche
 * Java EE https://headcrashing.wordpress.com/2019/05/03/negotiations-failed-how-oracle-killed-java-ee/amp/
-https://www.heise.de/developer/artikel/Jakarta-EE-Der-Anfang-vom-Ende-oder-die-Chance-fuer-einen-Neuanfang-4413537.html
+  * [Jakarta EE Anfang oder Ende](https://www.heise.de/developer/artikel/Jakarta-EE-Der-Anfang-vom-Ende-oder-die-Chance-fuer-einen-Neuanfang-4413537.html )
 * [AIDS]( https://www.theguardian.com/society/2019/may/02/end-to-aids-in-sight-as-huge-study-finds-drugs-stop-hiv-transmission )
 - [Piratenpad (wirklichst)]( https://www.piratenpad.de/ ) - 16.06.
 
@@ -27,9 +28,9 @@ https://www.heise.de/developer/artikel/Jakarta-EE-Der-Anfang-vom-Ende-oder-die-C
 
 * Kernel 5.1
   * [io_uring]( https://www.google.com/search?client=firefox-b-d&q=io_uring )[archive.org]( https://web.archive.org/web/20190507010016/http://kernel.dk/io_uring.pdf )
-* RedHat - neues Logo und RHEL 8 ( https://www.pro-linux.de/news/1/27041/red-hat-enterprise-linux-8-ver%C3%B6ffentlicht.html )
-* https://www.pro-linux.de/news/1/27035/microsoft-k%C3%BCndigt-wsl-2-an.html
-* https://github.blog/2019-04-29-apache-joins-github-community/
+* [RedHat - neues Logo und RHEL 8]( https://www.pro-linux.de/news/1/27041/red-hat-enterprise-linux-8-ver%C3%B6ffentlicht.html )
+* [Microsoft WSL 2](https://www.pro-linux.de/news/1/27035/microsoft-k%C3%BCndigt-wsl-2-an.html )
+* [Apache jetzt auf Github](https://github.blog/2019-04-29-apache-joins-github-community/ )
 - [BSI zertifiziert GPG für VS-NFD]( https://www.bsi.bund.de/DE/Presse/Pressemitteilungen/Presse2019/Gpg4win-mit-VS-NfD-070519.html )
   * [Chiasmus]( https://www.bsi.bund.de/DE/Themen/Kryptografie_Kryptotechnologie/Kryptografie/Chiasmus/chiasmus_node.html )
 - [GPG-Mail clients lassen sich austricksen]( https://github.com/RUB-NDS/Johnny-You-Are-Fired )
@@ -42,9 +43,9 @@ https://www.heise.de/developer/artikel/Jakarta-EE-Der-Anfang-vom-Ende-oder-die-C
 * [Toolkit für die Europawahl]( https://www.pro-linux.de/news/1/27037/mozilla-stellt-firefox-toolkit-f%C3%BCr-die-europawahl-vor.html )
 * [Wahlomat]( https://www.wahl-o-mat.de/europawahl2019/ )
   * [V for Varoufakis]( https://www.youtube.com/watch?v=Afl9WFGJE0M )
-  https://diem25.org/
+  * [DIEM25](https://diem25.org/ )
   * [Wahl-o-mat alle Parteien gleichzeitig vergleichen]( https://old.reddit.com/r/de/comments/bk7a82/wahlomat_warum_zum_fick_kann_man_immer_noch_nicht/ )
-  * PDS
+  * [PDS]( https://www.facebook.com/parteidersorben/ )
 
 
 ## Lesefoo
