@@ -31,7 +31,7 @@ In Vollbesetzung und mit schlechter Laune zum Europawahlfinale...
 - [Instgram veröffentlich Kontaktdaten von vielen Nutzern]( https://www.heise.de/newsticker/meldung/Moeglicherweise-Kontaktdaten-von-49-Millionen-Instagram-Nutzern-oeffentlich-4428378.html )
 - [TeamViewer war 2016 Opfer eines Cyber-Angriffs]( https://www.heise.de/newsticker/meldung/TeamViewer-war-2016-Opfer-eines-Cyber-Angriffs-4425265.html )
 - [MINECRAFT YOUR WORLD](https://www.minecraft.net/en-us/earth )
-  * https://www.youtube.com/watch?v=wsO-Td0hqXo
+  * [Superkai64 and the legend of WAM](https://www.youtube.com/watch?v=wsO-Td0hqXo)
 - [Behind the Naming of ZombieLoad and Other Intel Spectre-Like Flaws]( https://threatpost.com/behind-the-naming-of-zombieload-and-other-intel-spectre-like-flaws/144875/ )
 - [Südkorea stellt Verwaltung auf Linux um]( https://www.pro-linux.de/news/1/27078/s%C3%BCdkorea-stellt-verwaltung-auf-linux-um.html )
 - [Amazon prevails in battle with South American countries for '.amazon'](https://mashable.com/article/amazon-domain-name-icann-approved/)
