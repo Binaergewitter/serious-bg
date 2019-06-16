@@ -47,8 +47,6 @@ Die 4 Apokalyptische Reiter sind wieder unterwegs um vom Thema abzuscheifen.
  - [Dominos E-Scooter sound in den Niederlanden (youtube)]( https://www.youtube.com/watch?v=n17B_uFF4cA )
  - [Der richtige Sound für dein Elektroauto]( https://www.youtube.com/watch?v=0UotZ_ZLB5A )
 
-## Themen
-
 ## Mimimi der Woche
 - [Public Suffix List]( https://publicsuffix.org/list/ )
 - [google index algorithmen updates]( https://utzutzutz.net/_matrix/media/v1/download/utzutzutz.net/YLWPMGrgIXMKuBVRzeNPFNjS )
