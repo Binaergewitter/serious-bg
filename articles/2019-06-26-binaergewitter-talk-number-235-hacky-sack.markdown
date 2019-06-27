@@ -16,7 +16,7 @@ Es ist zu heiß für Shownotes....
 
 ## Untoter der Woche
 - [C64](https://www.heise.de/newsticker/meldung/TheC64-Der-Commodore-Rechner-kommt-in-Originalgroesse-zurueck-4454962.html)
-  * ZX Spectrum im Büro gefunden https://en.wikipedia.org/wiki/ZX_Spectrum
+  * [ZX Spectrum](https://en.wikipedia.org/wiki/ZX_Spectrum) im Büro gefunden
 
 ## Toter der Woche
 - 32bit Support
@@ -28,7 +28,7 @@ Es ist zu heiß für Shownotes....
 
 ## News
 - [TCP SACK ATTACK]( https://github.com/Netflix/security-bulletins/blob/master/advisories/third-party/2019-001.md )
-  - [what you need to know]( https://isc.sans.edu/diary/rss/25046)
+  * [what you need to know]( https://isc.sans.edu/diary/rss/25046)
 - [Firefox patchen]( https://www.heise.de/security/meldung/Jetzt-patchen-Attacken-gegen-Firefox-4450332.html )
 - [math.round öffnet browser print dialog (in dotnet)]( https://github.com/dotnet/try/issues/290 )
 - [Torvalds ist endlich wieder ausgerastet]( https://www.theregister.co.uk/2019/06/21/linus_torvalds_rant/ )
@@ -39,20 +39,15 @@ Es ist zu heiß für Shownotes....
 - [Wie gut kann die neue Apple Käsereibe Käse reiben? Antwort: ... meh]( https://hackaday.com/2019/06/24/does-the-cheese-grater-do-a-great-grate-of-cheese/ )
 - [BSDCan Videos veröffentlicht]( https://www.linux-magazin.de/news/bsdcan-veroeffentlicht-konferenz-videos/ )
 - [GitLab 12]( https://about.gitlab.com/2019/06/22/gitlab-12-0-released/ )
- * not mentioned in changelog: the *AsciiDoc include directive* now works on GitLab! 
+  * not mentioned in changelog: the *AsciiDoc include directive* now works on GitLab! 
 
 ## Themen
-
 - [Facebook Libra]( https://techcrunch.com/2019/06/18/facebook-libra/ )
-
-## Mimimi der Woche
-
-
 
 ## Lesefoo
 - [Replacing offlineimap with mbsync]( https://people.kernel.org/mcgrof/replacing-offlineimap-with-mbsync )
 - [Erfinder des USB Standards zu seinem Design-Fail]( https://mashable.com/article/usb-inventor-explains-difficulty/?europe=true )
-- [Hacking Restaurant Pagers with HackRF (youtube)]( https://m.youtube.com/watch?feature=youtu.be&v=ycLLb4eVZpI )
+- [Hacking Restaurant Pagers with HackRF (youtube)]( https://www.youtube.com/watch?v=ycLLb4eVZpI )
 
 ## Picks
 - [Lennard Green @ TED]( https://www.youtube.com/watch?v=1_oa8m5Oq00 )
