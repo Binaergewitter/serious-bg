@@ -17,6 +17,7 @@ Es ist zu heiß für Shownotes....
 ## Untoter der Woche
 - [C64](https://www.heise.de/newsticker/meldung/TheC64-Der-Commodore-Rechner-kommt-in-Originalgroesse-zurueck-4454962.html)
   * [ZX Spectrum](https://en.wikipedia.org/wiki/ZX_Spectrum) im Büro gefunden
+  * [Scanbot: App zum Digitalisieren von Dokumenten, mit Möglichkeit für Upload nach Nextcloud via WebDAV]( https://scanbot.io/de/index.html )
 
 ## Toter der Woche
 - 32bit Support
