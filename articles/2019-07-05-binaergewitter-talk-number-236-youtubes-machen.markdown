@@ -42,7 +42,7 @@ audioformats:
  * [Plasma 5.16 verbessert Benachrichtigungen und Optik]( https://www.linux-magazin.de/news/plasma-5-16-verbessert-benachrichtigungen-und-optik/ )
  * [KDE eV erhält Spende]( https://www.linux-magazin.de/news/kde-e-v-erhaelt-spende-in-hoehe-von-300-000-us-dollar/ )
  * [Handshake]( https://www.handshake.org/ )
-- https://blog.rust-lang.org/2019/07/04/Rust-1.36.0.html
+- [Rust 1.36 veröffentlicht]( https://blog.rust-lang.org/2019/07/04/Rust-1.36.0.html )
 
 
 ## Themen
