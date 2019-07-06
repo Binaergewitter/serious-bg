@@ -31,17 +31,16 @@ audioformats:
 - [6 Exabyte Flash-Speicher weniger]( https://www.heise.de/newsticker/meldung/6-Exabyte-Flash-Speicher-weniger-Stromausfall-bei-Toshiba-und-Western-Digital-4457873.html )
 - [Cloudflare did an oupsi]( https://blog.cloudflare.com/cloudflare-outage/ )
 - [Überraschung: Amazon hält sich nicht an GDPR]( https://arstechnica.com/tech-policy/2019/07/amazon-confirms-it-keeps-your-alexa-recordings-basically-forever/ )
- * [Cryptpad: 50k Euros from NLNet]( https://opencollective.com/cryptpad/updates/50keuros-nlnet-funding-and-financial-and-roadmap-information )
- * [oDesk Work ]( https://www.odeskwork.com ) - [upWork]( https://www.upwork.com/ ) - [Work.ScalaWilliam]( http://work.scalawilliam.com/ )
+  * [Cryptpad: 50k Euros from NLNet]( https://opencollective.com/cryptpad/updates/50keuros-nlnet-funding-and-financial-and-roadmap-information )
+  * [oDesk Work ]( https://www.odeskwork.com ) - [upWork]( https://www.upwork.com/ ) - [Work.ScalaWilliam]( http://work.scalawilliam.com/ )
 - [Internetlink (fast) rund um Afrika]( https://www.linux-magazin.de/news/google-laesst-unterseekabel-von-portugal-nach-suedafrika-legen/ )
 - [i have $30 (for mail)]( https://news.slashdot.org/story/19/07/02/176221/would-you-pay-30-a-month-to-check-your-email )
 - [iOS 13 FaceTime: EyeContact!]( https://news.slashdot.org/story/19/07/03/2137212/ios-13-will-add-fake-eye-contact-to-facetime-for-improved-intimacy )
-
 - [Backbox Linux 6]( https://blog.backbox.org/2019/06/11/backbox-linux-6-released/ )
 - [KaOS mit aktuellem Plasma und mehr]( https://www.linux-magazin.de/news/kaos-2019-07-mit-aktuellem-plasma-und-ueberholtem-installer/ )
- * [Plasma 5.16 verbessert Benachrichtigungen und Optik]( https://www.linux-magazin.de/news/plasma-5-16-verbessert-benachrichtigungen-und-optik/ )
- * [KDE eV erhält Spende]( https://www.linux-magazin.de/news/kde-e-v-erhaelt-spende-in-hoehe-von-300-000-us-dollar/ )
- * [Handshake]( https://www.handshake.org/ )
+  * [Plasma 5.16 verbessert Benachrichtigungen und Optik]( https://www.linux-magazin.de/news/plasma-5-16-verbessert-benachrichtigungen-und-optik/ )
+  * [KDE eV erhält Spende]( https://www.linux-magazin.de/news/kde-e-v-erhaelt-spende-in-hoehe-von-300-000-us-dollar/ )
+  * [Handshake]( https://www.handshake.org/ )
 - [Rust 1.36 veröffentlicht]( https://blog.rust-lang.org/2019/07/04/Rust-1.36.0.html )
 
 
@@ -57,7 +56,7 @@ audioformats:
 - [The cost of an open source contribution]( https://rgommers.github.io/2019/06/the-cost-of-an-open-source-contribution/ )
 - [Hacking Digital Calipers]( https://www.notion.so/Hacking-Digital-Calipers-3ee7726f11ca431694dc70a1977516e4 )
 - [Pancake making and surface coating: Optimal control of a gravity-driven liquid film ]( https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.4.064802 )
-  * https://www.youtube.com/watch?v=2iWUUcW08ac
+  * [How to Make the Fluffiest Pancakes with Matty Matheson](https://www.youtube.com/watch?v=2iWUUcW08ac)
 
 ## Picks
 - [I TURNED MY TESLA INTO A PICKUP TRUCK]( https://www.youtube.com/watch?v=jKv_N0IDS2A )
@@ -68,9 +67,8 @@ audioformats:
 - [Adding Reaction Gifs for your Build System and the Windows Terminal]( https://www.hanselman.com/blog/AddingReactionGifsForYourBuildSystemAndTheWindowsTerminal.aspx )
 - [User Inyerface]( https://userinyerface.com/ )
 - Free Comics:
-  * https://digitalcomicmuseum.com/
-  * https://comicbookplus.com/
-
+  * [digitalcomicmuseum](https://digitalcomicmuseum.com/)
+  * [comicbookplus](https://comicbookplus.com/)
 
 ## Events
 
