@@ -28,7 +28,7 @@ Es ist wieder so heiß und wir wandeln uns zum gute Filme/schlechte Filme Podcas
 - [Hackgarten (#241)]( https://hackergarten.net )
 - [CERN Open Days](https://home.cern/news/news/cern/cern-open-days-explore-future-us)
   * [opendays.cern](https://opendays.cern/)
-- oh my zsh
+- [oh my zsh: Timestamp anzeigen](https://gist.github.com/madmas/f5d8b4078f60351c07f3f89de0344462)
 
 ## Toter der Woche
 
