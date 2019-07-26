@@ -26,8 +26,8 @@ Es ist wieder so heiß und wir wandeln uns zum gute Filme/schlechte Filme Podcas
   * [Static typing: beyond the basics of def foo(x:int) -> str:](https://youtu.be/Dz89wIwX_EE?t=22224)
   * [Wait, IPython can do that?!, Sebastian Witowski](https://youtu.be/SUQYuA9AJT0?t=4547)
 - [Hackgarten (#241)]( https://hackergarten.net )
-- https://home.cern/news/news/cern/cern-open-days-explore-future-us
-  * https://opendays.cern/
+- [CERN Open Days](https://home.cern/news/news/cern/cern-open-days-explore-future-us)
+  * [opendays.cern](https://opendays.cern/)
 - oh my zsh
 
 ## Toter der Woche
@@ -76,8 +76,7 @@ Es ist wieder so heiß und wir wandeln uns zum gute Filme/schlechte Filme Podcas
 - [cmake pandoc-helper]( https://github.com/fliiiix/pandoc-helper )
 - [fun legacy IP addresses]( https://rixx.de/blog/fun-legacy-ip-addresses/ )
 - [B612 Font family]( https://b612-font.com/ )
-- https://www.whencanireusethiscalendar.com/
-- https://macopenweb.com/
-- https://www.sample-videos.com/
+- [When can I reuse this calendar](https://www.whencanireusethiscalendar.com/)
+- [Mac Open Web](https://macopenweb.com/)
+- [Sample Videos](https://www.sample-videos.com/)
 - [openweathermap]( https://openweathermap.org/ )
-
