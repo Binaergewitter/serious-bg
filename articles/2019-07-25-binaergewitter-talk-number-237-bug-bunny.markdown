@@ -69,7 +69,7 @@ Es ist wieder so heiß und wir wandeln uns zum gute Filme/schlechte Filme Podcas
 - [building Stack Overflow’s community]( https://dev.to/sarajchipps/what-a-very-bad-day-at-work-taught-me-about-building-stack-overflow-s-community-4gmm )
 - [No Moore Left to Give: Enterprise Computing after Moore's Law]( https://www.infoq.com/presentations/moore-law-expiring/ )
 - [Brilliant Jerks in Engineering]( http://www.brendangregg.com/blog/2017-11-13/brilliant-jerks.html )
-- Winnti - Angriff auf DAX Konzerne https://web.br.de/interaktiv/winnti/
+- [Winnti](https://web.br.de/interaktiv/winnti/) - Angriff auf DAX Konzerne
 
 ## Picks
 - [Zug Tracker](https://tracker.geops.de )
