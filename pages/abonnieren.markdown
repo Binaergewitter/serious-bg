@@ -9,7 +9,9 @@ Natürlich könnt ihr uns auch abonnieren. Wir sind schließlich ein Podcast. En
 
 Habt Spaß am Gerät.
 
+
 <script>window.podcastData={"title":"Binärgewitter","subtitle":"Now with more internet!","description":"Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt.","cover":"","feeds":[{"type":"audio","format":"mp3","url":"http://blog.binaergewitter.de/podcast_feed/all/mp3/rss.xml"}]}</script><script class="podlove-subscribe-button" src="https://cdn.podlove.org/subscribe-button/javascripts/app.js" data-language="en" data-size="small" data-json-data="podcastData" data-color="#7bd164" data-format="rectangle" data-style="filled"></script><noscript><a href="http://blog.binaergewitter.de/podcast_feed/all/mp3/rss.xml">MP3 Feed</a></noscript>
+
 
 ## Feeds der Sendeformate
 
@@ -21,6 +23,7 @@ Habt Spaß am Gerät.
     <th>Opus</th>
     <th>Bit Torrent</th>
     <th>auf iTunes</th>
+    <th>auf spotify</th>
   </tr>
   <tr>
   <td><a href="/">Alle</a></td>
@@ -29,6 +32,7 @@ Habt Spaß am Gerät.
   <td><a href="http://blog.binaergewitter.de/podcast_feed/all/opus/rss.xml">Opus Feed</a></td>
   <td><a href="http://bitlove.org/binaergewitter/talk/feed">Torrent Feed</a></td>
   <td><a href="http://itunes.apple.com/de/podcast/binargewitter/id216877594">auf iTunes</a></td>
+  <td><a href="https://open.spotify.com/show/19LedqK0fGWfzfKzySDoVW">auf spotify</a></td>
   </tr>
   <tr>
     <td><a href="/categories/talk">Talk</a></td>
@@ -50,7 +54,4 @@ Habt Spaß am Gerät.
   </tr>
 </table>
 
-## Kombinierter RSS Kommentarfeed
-
-[http://feeds.feedburner.com/binaergewitter-comments](http://feeds.feedburner.com/binaergewitter-comments)
 
