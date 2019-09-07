@@ -38,7 +38,7 @@ https://news.slashdot.org/story/19/07/05/1712247/mozilla-set-to-offer-ad-free-ne
 - [Linux Pressure Stall Information als alternative zu `load`]( https://unixism.net/2019/08/linux-pressure-stall-information-psi-by-example/ )
 - [VISA opt-out]( https://marketingreportoptout.visa.com/OPTOUT/request.do )
   * [Dt. Artikel, der zu diesem Link führt]( https://www.visa.de/nutzungsbedingungen/datenschutzrichtlinie-deaktivierung.html )
-  * https://www.mastercard.de/de-de/datenschutz/data-analytics-opt-out.html
+  * [Mastercard opt-out](https://www.mastercard.de/de-de/datenschutz/data-analytics-opt-out.html)
 - [Tumblr verkauft für 2% Instagram (damals 110% Instagram)]( https://www.wsj.com/articles/verizon-to-sell-tumblr-to-wordpress-owner-11565640000 )
 - [NetBSD WIFI]( https://mail-index.netbsd.org/port-arm/2019/08/31/msg006102.html )
 - [Dell XPS 13]( https://www.heise.de/newsticker/meldung/Dell-XPS-13-Neues-Linux-Laptop-der-Developer-Edition-4503160.html )
@@ -53,10 +53,9 @@ https://www.heise.de/newsticker/meldung/Geheimgutachten-zu-Hackbacks-Eindringlic
 
 ### Finanzierung von OpenSource Software
 
-* https://feross.org/funding-experiment-recap/
-* https://github.com/standard/standard/issues/1381
-
-Beispiel aus der NativeScript Community: ProPlugins: https://www.proplugins.org
+- [funding experiment recap blog post]( https://feross.org/funding-experiment-recap/ )
+- [github issue](https://github.com/standard/standard/issues/1381)
+- Beispiel aus der NativeScript Community: [ProPlugins]( https://www.proplugins.org )
 
 
 ### Fedora 30
@@ -75,7 +74,7 @@ Beispiel aus der NativeScript Community: ProPlugins: https://www.proplugins.org
 
 ## Lesefoo
 
-* https://leandromoreira.com.br/2019/08/02/linux-ffmpeg-source-internals-a-good-software-design/  
+* [Good Code Design From Linux/Kernel]( https://leandromoreira.com.br/2019/08/02/linux-ffmpeg-source-internals-a-good-software-design/)
 - [Plundering docker images]( https://blog.ropnop.com/plundering-docker-images/  )
  - [making it rain shells in kubernetes]( https://raesene.github.io/blog/2019/08/10/making-it-rain-shells-in-Kubernetes/ )
 
