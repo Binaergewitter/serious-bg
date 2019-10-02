@@ -21,15 +21,14 @@ Wir sind nach länger Pause wieder da es geht um Klima, RMS und die Schweiz und 
 - [SMB 1](https://www.pro-linux.de/news/1/27456/samba-411-schaltet-smb1-ab.html )
 - Sigmund Jähn
 
-
 ## News
 - [Linux-VPN WireGuard will nun doch auf Kernel-Krypto-API umsteigen]( https://www.heise.de/newsticker/meldung/Linux-VPN-WireGuard-will-nun-doch-auf-Kernel-Krypto-API-umsteigen-4540323.html )
 - [keys can be added dynamically to a kernel 2013]( https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=aefcf2f4b58155d27340ba5f9ddbe9513da8286d )
   * [context]( https://arstechnica.com/information-technology/2013/02/linus-torvalds-i-will-not-change-linux-to-deep-throat-microsoft/ )
 - [Hacktoberfest]( https://hacktoberfest.digitalocean.com/ )
- * [DocToolchain issues](https://github.com/docToolchain/docToolchain/issues?q=is%3Aopen+is%3Aissue+label%3Ahacktoberfest )
- * [Hackergarten Basel](https://www.meetup.com/de-DE/Hackergarten-Basel/events/264986572/ ) 
- * [Hackergarten Dortmund](https://www.meetup.com/de-DE/Softwerkskammer-Ruhrgebiet/events/259817215/ )
+  * [DocToolchain issues](https://github.com/docToolchain/docToolchain/issues?q=is%3Aopen+is%3Aissue+label%3Ahacktoberfest )
+  * [Hackergarten Basel](https://www.meetup.com/de-DE/Hackergarten-Basel/events/264986572/ ) 
+  * [Hackergarten Dortmund](https://www.meetup.com/de-DE/Softwerkskammer-Ruhrgebiet/events/259817215/ )
 - [Backdoor code found in 11 Ruby libraries]( https://www.zdnet.com/article/backdoor-code-found-in-11-ruby-libraries/ )
 - [RMS tritt zurueck]( https://www.pro-linux.de/news/1/27441/richard-stallman-tritt-als-pr%C3%A4sident-der-free-software-foundation-zur%C3%BCck.html )
 - [Chef’s Position on Customer Engagement]( https://blog.chef.io/chefs-position-on-customer-engagement-in-the-public-and-private-sectors/ )  
