@@ -39,7 +39,7 @@ Markus und Felix klären die wirklich wichtigen Dinge....
 
 ## Themen
 * 3D Drucker - am Anfang war das Upgrade
-  * Creality Ender 3
+  * [Creality Ender 3](https://www.amazon.de/Comgrow-Creality-Ender-3D-Drucker-Druckvorgang/dp/B07BR3F9N6?tag=pfleidi-21)
   * [3ddrucker](https://wiki.shackspace.de/project/3ddrucker)
   * [UP Mini clean cut](http://3dprintingsystems.com/wp-content/uploads/UP-Mini-clean-cut-2.png)
 
