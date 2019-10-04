@@ -60,7 +60,7 @@ audioformats:
     * [Stilvoller: Torrent-Freak-Artikel]( http://torrentfreak.com/dotcoms-mega-plans-179m-public-listing-via-reverse-takeover-140325/ )
 - [ASUS Chromebox]( http://arstechnica.com/gadgets/2014/03/review-asus-brings-chrome-os-to-mini-pcs-in-a-low-power-inexpensive-package/ )
   * [Flirc]( http://flirc.tv/ )
-  * [Overclock your Breakfast!]( i659.photobucket.com/albums/uu315/SecuROM__/Miscellaneous/leet_cereal.jpg )
+  * [Overclock your Breakfast!](https://i659.photobucket.com/albums/uu315/SecuROM__/Miscellaneous/leet_cereal.jpg )
   * [Chromecast in Deutschland kaufbar]( http://www.amazon.de/dp/B00ICIJIJQ/?tag=krebsco-21 )
 
 ## Lesefoo
