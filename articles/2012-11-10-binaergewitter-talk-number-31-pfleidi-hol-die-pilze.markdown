@@ -86,7 +86,7 @@ audioformats:
 - [A Softer World: 891]( http://www.asofterworld.com/index.php?id=891 )
 - [Touchscreen Handschuhe]( https://www.amazon.de/dp/B008F4W0DS/ref=as_li_ss_til?tag=pfleidi-21 ) (pfleidi)
 - [Kickstarter Star Trek](http://www.kickstarter.com/projects/145553614/star-trek-renegades )
-    * [Kaffee ist wichtig!]( nkdev.de/misc/kaffee2.jpg )
+    * [Kaffee ist wichtig!]( http://nkdev.de/misc/kaffee2.jpg )
 - [Foss world problems]( http://www.reddit.com/r/fossworldproblems )
 - [Qubes OS]( http://qubes-os.org/Home.html )
 - [Cloud Atlas]( http://www.imdb.com/title/tt1371111/ ) (pfleidi)
