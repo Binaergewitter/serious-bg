@@ -12,7 +12,7 @@ audioformats:
 ## Einführung
 
 - Wer sind wir eigentlich und was machen wir hier?
-    * [Team Seite]( http://blog.binaergewitter.de/das-team/ )
+    * [Team Seite]( https://blog.binaergewitter.de/pages/ueber-uns )
 
 ## Unsere Infrastruktur
 
