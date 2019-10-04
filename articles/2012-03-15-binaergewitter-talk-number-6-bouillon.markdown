@@ -87,7 +87,7 @@ audioformats:
 - [Roderick on the line]( http://www.merlinmann.com/roderick/ ) (rb2k)
 - [TED App]( http://itunes.apple.com/us/app/ted/id376183339?mt=8 ) (pfleidi)
 - [passive aggressive notes]( http://www.passiveaggressivenotes.com/ ) (rb2k)
-- [How real people will use Windows 8]( www.youtube.com/watch?v=v4boTbv9_nU )(makefu)
+- [How real people will use Windows 8]( https://www.youtube.com/watch?v=v4boTbv9_nU )(makefu)
 - [Paleo foo]( http://en.wikipedia.org/wiki/Paleolithic_diet )
   * [Paleosophie]( http://paleosophie.de/ )
 - [vice.com]( http://www.vice.com/video ) (rb2k, pfleidi)
