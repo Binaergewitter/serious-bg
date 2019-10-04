@@ -98,7 +98,7 @@ Wieder mal sehr albern sprechen pfleidi, felix, ingo und jan über die News der 
 ## Picks
 
 * [logcheck](http://logcheck.org/ ) (ingo)
-* [Hipster-ass Hipster bike for Hipsters](i.imgur.com/wdmu0.jpg ) (makefu)
+* [Hipster-ass Hipster bike for Hipsters](https://i.imgur.com/wdmu0.jpg ) (makefu)
 * [Wasser IN SPACE]( http://www.golem.de/news/raumfahrt-wasser-wabert-im-weltall-1205-91621.html )
   * [Ganzes Wasser der Erde in einer Kugel](ga.water.usgs.gov/edu/2010/pictures/full-size/global-water-volume-large.jpg )
 * [Notorious Siri](http://robb.is/working-on/notorious-siri/ ) (Jan)
