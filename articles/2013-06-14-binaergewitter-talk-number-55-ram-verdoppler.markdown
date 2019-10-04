@@ -114,7 +114,7 @@ audioformats:
 - [Adobe Kuller]( 
 https://itunes.apple.com/de/app/adobe-kuler/id632313714?l=en&mt=8 )
 - [Fappy der Anti-Masturbationsdelfin]( http://www.zeitjung.de/kultur/8990-fappy-der-anti-masturbations-delfin-selbstbefriedigung/ )
-- [Zefrank videos]( www.youtube.com/user/zefrank1 ): [sad cat diary]( http://www.youtube.com/watch?v=PKffm2uI4dk ), [sad dog diary]( http://www.youtube.com/watch?v=Xw1C5T-fH2Y )
+- [Zefrank videos]( https://www.youtube.com/user/zefrank1 ): [sad cat diary]( http://www.youtube.com/watch?v=PKffm2uI4dk ), [sad dog diary]( http://www.youtube.com/watch?v=Xw1C5T-fH2Y )
 - [Realtalk]( http://realtalk.io/ )
 - [App die dir eine Guenstige Alternative fuer teuren Wein aussucht]( http://au.businessinsider.com/sydney-chemists-are-building-an-app-that-can-identify-cheap-replacements-for-luxury-wines-2013-6 )
     - [Drogen mit guenstigsten Mitteln simulieren]( http://www.ein-plan.de/schoener/index.html )
