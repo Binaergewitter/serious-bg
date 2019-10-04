@@ -13,7 +13,7 @@ Drei Zombies essen Pokemons, tanzen wieder durch die News der letzten Woche und 
 
 ## OT
 
-- [Blast from the Past: In Pokemonland werden Pokemon gegessen]( 25.media.tumblr.com/tumblr_m3hnnzf9nU1qhbr2so1_400.jpg )
+- [Blast from the Past: In Pokemonland werden Pokemon gegessen]( https://25.media.tumblr.com/tumblr_m3hnnzf9nU1qhbr2so1_400.jpg )
 
 ## Rubrik der Woche
 
