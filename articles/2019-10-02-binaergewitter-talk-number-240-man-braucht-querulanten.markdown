@@ -19,7 +19,8 @@ Wir sind nach länger Pause wieder da es geht um Klima, RMS und die Schweiz und 
 
 ## Toter der Woche
 - [SMB 1](https://www.pro-linux.de/news/1/27456/samba-411-schaltet-smb1-ab.html )
-- Sigmund Jähn
+- [Sigmund Jähn](https://de.wikipedia.org/wiki/Sigmund_J%C3%A4hn)
+  * [raumzeit Episode 012: Sigmund Jähn](https://raumzeit-podcast.de/2011/04/08/rz012-sigmund-jaehn/)
 
 ## News
 - [Linux-VPN WireGuard will nun doch auf Kernel-Krypto-API umsteigen]( https://www.heise.de/newsticker/meldung/Linux-VPN-WireGuard-will-nun-doch-auf-Kernel-Krypto-API-umsteigen-4540323.html )
@@ -30,8 +31,8 @@ Wir sind nach länger Pause wieder da es geht um Klima, RMS und die Schweiz und 
   * [Hackergarten Basel](https://www.meetup.com/de-DE/Hackergarten-Basel/events/264986572/ ) 
   * [Hackergarten Dortmund](https://www.meetup.com/de-DE/Softwerkskammer-Ruhrgebiet/events/259817215/ )
 - [Backdoor code found in 11 Ruby libraries]( https://www.zdnet.com/article/backdoor-code-found-in-11-ruby-libraries/ )
-- [RMS tritt zurueck]( https://www.pro-linux.de/news/1/27441/richard-stallman-tritt-als-pr%C3%A4sident-der-free-software-foundation-zur%C3%BCck.html )
-- [Chef’s Position on Customer Engagement]( https://blog.chef.io/chefs-position-on-customer-engagement-in-the-public-and-private-sectors/ )  
+- [RMS tritt zurück]( https://www.pro-linux.de/news/1/27441/richard-stallman-tritt-als-pr%C3%A4sident-der-free-software-foundation-zur%C3%BCck.html )
+- [Chef's Position on Customer Engagement]( https://blog.chef.io/chefs-position-on-customer-engagement-in-the-public-and-private-sectors/ )  
 - [EuGH zu Cookies]( https://www.heise.de/newsticker/meldung/EuGH-Keine-Cookies-ohne-Zustimmung-4543630.html )
 - [Cryptpad-Umfrage]( https://survey.cryptpad.fr/index.php/963384?lang=de )
 - [CentOS 8]( https://www.pro-linux.de/news/1/27468/centos-80-und-stream-erschienen.html )
