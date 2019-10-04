@@ -55,7 +55,7 @@ https://motherboard.vice.com/en_us/article/j5geby/the-iphone-is-guaranteed-to-la
     - SDKs für Web ([matrix-react-sdk]( https://github.com/matrix-org/matrix-react-sdk/tree/master ), [js](https://github.com/matrix-org/matrix-js-sdk/tree/master 
 ) ), 
 [Android](https://github.com/matrix-org/matrix-android-sdk/tree/master )
-, [iOS]( (https://github.com/matrix-org/matrix-ios-sdk/tree/master )
+, [iOS]( https://github.com/matrix-org/matrix-ios-sdk/tree/master )
     - 3rd Party Clients wie Weechat, Quaternion
 - Features
     - fully-decentralised rooms

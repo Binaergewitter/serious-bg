@@ -50,8 +50,8 @@ Markus und Felix klären die wirklich wichtigen Dinge....
 
 ## Lesefoo
 * Berlin Comics [Berlin Book One](https://amzn.to/2Jp8AYl), [Two](https://amzn.to/2JrL3pw), [Three](https://amzn.to/2LRQQaa)
-* [Comics for a strange world]( https://www.amazon.com/gp/product/0735219885/ ) 
-  - [poorlydrawnlines](www.poorlydrawnlines.com)
+* [Comics for a strange world]( https://www.amazon.com/gp/product/0735219885?tag=pfleidi-21 ) 
+  - [poorlydrawnlines]( http://www.poorlydrawnlines.com )
 
 ## Mimimi der Woche
 * NAS fast Voll

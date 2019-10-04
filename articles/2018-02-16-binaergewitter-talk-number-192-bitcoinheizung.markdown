@@ -40,7 +40,7 @@ https://www.heise.de/security/meldung/Meltdown-Spectre-Microsofts-Compiler-Fix-w
   * [MeltdownPrime und SpectrePrime]( https://gizmodo.com/researchers-find-new-ways-to-exploit-meltdown-and-spect-1823020029 )
   
 - [Mozilla Things Gateway]( https://hacks.mozilla.org/2018/02/how-to-build-your-own-private-smart-home-with-a-raspberry-pi-and-mozillas-things-gateway/ )
-  * [home-assistant as an alternative](hass.io)
+  * [home-assistant as an alternative](https://www.home-assistant.io/hassio/)
     - [Demo Seite]( https://home-assistant.io/demo/ )
     - [Die modulare Smarthome Zentrale homee](https://hom.ee/ )
   * [FHEM](https://fhem.de)
