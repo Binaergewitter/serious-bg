@@ -40,7 +40,7 @@ Alle Man(n) an Board. Wobei uns die Hitze fast zu Kopf steigt. Mat, Felix, Pflei
   * [A brief history of flash]( http://www.commitstrip.com/en/2015/07/15/a-brief-history-of-flash/ )
   * [zero days in Flash player]( http://arstechnica.com/security/2015/07/once-again-adobe-releases-emergency-flash-patch-for-hacking-team-0-days/ )
   * [Mozilla deaktiviert Plugin]( http://www.tagesschau.de/wirtschaft/flash-player-kritik-101.html )
-  * [Statcounter: Mobile vs Computer (indien)]( www.medianama.com/wp-content/uploads/Mobile-vs-Desktop-Internet-Usage-e1354609996894.png )
+  * [Statcounter: Mobile vs Computer (indien)](https://www.medianama.com/wp-content/uploads/Mobile-vs-Desktop-Internet-Usage-e1354609996894.png )
 - [UEFI Lücke]( http://www.heise.de/newsticker/meldung/Hacking-Team-verwendet-UEFI-Rootkit-2750312.html )
   * [pcworld artikel]( http://www.pcworld.com/article/2948092/security/hacking-teams-malware-uses-uefi-rootkit-to-survive-os-reinstalls.html )
   * [UEFI Secure Flash]( https://pikeralpha.wordpress.com/2013/05/18/uefi-secure-flash/ )
