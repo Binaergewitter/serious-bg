@@ -43,7 +43,7 @@ Ohne Pfleidi aber mit News, Messen und mehr Graveyards....
 - [Samsung beendet LCD Vertrag mit Apple]( http://hardware.slashdot.org/story/12/10/22/1757207/samsung-terminates-lcd-contract-with-apple )
 * [Wissenschaftler schuldig des Todschlags wg. falscher Erdbeben Prognose]( http://science.slashdot.org/story/12/10/22/1634219/scientists-who-failed-to-warn-of-quake-found-guilty-of-manslaughter )
 * [Boeing verschiesst Radiowellen um deinen computer zu ownen]( http://tech.slashdot.org/story/12/10/24/1341232/boeings-champ-missile-uses-radio-waves-to-remotely-disable-pcs )
-    - [Facebook patentiert ]( yro.slashdot.org/story/12/10/24/2226209/facebook-patents-pokes-per-minute-limits )
+    - [Facebook patentiert ]( http://yro.slashdot.org/story/12/10/24/2226209/facebook-patents-pokes-per-minute-limits )
 * [Miet dir deine Cisco Box]( http://arstechnica.com/security/2012/10/cisco-machine-gets-listed-by-blackhat-org-that-rents-out-hacked-pcs/ )
 * [Raspberry Pis ARM Kernel wird OSS]( http://hardware.slashdot.org/story/12/10/23/2342201/arm-code-for-raspberry-pi-goes-open-source-video )
 * [Die Cloud doch nicht so "wolkig"]( http://arstechnica.com/information-technology/2012/10/amazon-web-services-outage-once-again-shows-reality-behind-the-cloud/ )
@@ -71,5 +71,5 @@ Ohne Pfleidi aber mit News, Messen und mehr Graveyards....
 * [User Data Manifestio]( http://userdatamanifesto.org/ ) (Ingo)
     * [How “Twilight” teaches teens to love abusive relationships]( http://www.psychologytoday.com/blog/psychologist-the-movies/201111/relationship-violence-in-twilight )
 * [The Profound programmer]( http://theprofoundprogrammer.com/ )
-* [Cocktails mixen]( i.imgur.com/7OTTZ.jpg )
+* [Cocktails mixen]( https://i.imgur.com/7OTTZ.jpg )
 * [Movies as Code](http://moviesascode.net/ ) via daswort
