@@ -49,7 +49,7 @@ http://books.google.de/books?id=VZjBk366-BAC&pg=PA56&lpg=PA56&dq=%22The+great+br
     - [The Shodan]( http://www.shodanhq.com/ )
 - [Irgendwelche Hacker werden immer irgend etwas hacken koennen]( http://www.theregister.co.uk/2013/02/19/apple_hacked/ )
 - [Sadly, this is not The Onion - theon1on.com](http://theon1on.com/ )
-    * [/r/nottheonion]( reddit.com/r/nottheonion )
+    * [/r/nottheonion]( https://reddit.com/r/nottheonion )
 - [Speicher unendlich viele Daten in LocalStorage (leider nicht mit Firefox)]( http://feross.org/fill-disk/ )
 - [What could Possibly go Wrong? Heute Ein Neanderthaler baby bekommen]( 
 http://www.independent.co.uk/news/science/palaeolithic-park-harvard-professor-seeks-adventurous-woman-to-give-birth-to-baby-neanderthal-8460273.html )

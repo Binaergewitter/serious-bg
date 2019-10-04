@@ -30,7 +30,7 @@ Wir läuten das Jahr des Btrfs ein und reden über Gott und die News der letzten
 
 - [Linux 3.13 ist da]( http://kernelnewbies.org/Linux_3.13 )
 - [Protestanten in Ukraine bekommen 1984-SMS]( http://motherboard.vice.com/en_ca/blog/maybe-the-most-orwellian-text-message-ever-sent )
-    * [Dikatur in der Ukraine erklärt in Infografik]( craphound.com/images/dictatorship-en.jpg )
+    * [Dikatur in der Ukraine erklärt in Infografik]( https://craphound.com/images/dictatorship-en.jpg )
     * [Revolution in der Ukraine auf Github]( https://github.com/fre5h/DoctrineEnumBundle/pull/12#issuecomment-33023169 )
 - [Gene Simmons meint, dass alle P2P Nutzer Zwangsarbeit in Arbeitslagern verrichten müssen]( http://torrentfreak.com/gene-simmons-p2p-pioneers-should-have-been-forced-into-work-like-nazis-140117/ )
 - [Dotcom Mega Party ins wasser gefallen](http://www.nzz.ch/aktuell/digital/kim-dotcom-feiert-sich-selbst-1.18225241 )

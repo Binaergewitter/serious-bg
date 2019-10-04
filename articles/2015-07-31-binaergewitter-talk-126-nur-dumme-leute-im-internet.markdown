@@ -30,7 +30,7 @@ Minimalbesetzung mit Felix und Ingo, weil alle anderen in den USA weilen. Dafür
 - [zurück zu DC-Stromversorgung dank Sharp](http://hardware.slashdot.org/story/15/07/30/0221235/sharp-announces-sales-of-dc-powered-air-conditioner-other-products-to-follow )
   * [HGÜ]( https://de.wikipedia.org/wiki/Hochspannungs-Gleichstrom-%C3%9Cbertragung )
   * [Suedlink](https://de.wikipedia.org/wiki/S%C3%BCdlink )
-  * [Stromtrassenplanung](upload.wikimedia.org/wikipedia/commons/d/d2/Karte_BBPlG-Vorhaben.png )
+  * [Stromtrassenplanung](https://upload.wikimedia.org/wikipedia/commons/d/d2/Karte_BBPlG-Vorhaben.png )
 - [2 Petawatt Laser]( http://www.theregister.co.uk/2015/07/29/japanese_boffins_fire_off_recordbreaking_2_quadrillionwatt_laser/ )
      * "You'll recall from school that a watt is a joule per second, so the  total energy of the beam was (2 * 10^15) watts times (1 * 10^-12)  seconds, which equals just 2,000 joules."
 - [VR Kamera von Nokia]( http://www.gulli.com/news/26347-nokia-stellt-virtual-reality-kamera-ozo-vor-2015-07-30 )

@@ -62,7 +62,7 @@ Das neue Studiosetup ist so gut wie fertig, dafür haben wir pfleidi diesmal ver
 * [RME HDSP 9632](http://www.thomann.de/de/rme_digi_9632_hdsp_pcikarte.htm )
 * [PicoPSU](http://www.amazon.de/gp/product/B005OKCN0G/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B005OKCN0G&linkCode=as2&tag=trektrip )
 * [ADAT]( https://de.wikipedia.org/wiki/Alesis_Digital_Audio_Tape )
-    * [Multi-Track Drifting](i0.kym-cdn.com/entries/icons/original/000/000/727/DenshaDeD_ch01p16-17.png )
+    * [Multi-Track Drifting](https://i0.kym-cdn.com/entries/icons/original/000/000/727/DenshaDeD_ch01p16-17.png )
 * [Ardour](http://ardour.org/ )
 * [Jack](http://jackaudio.org/ )
 * [Ladish](http://ladish.org/ )
