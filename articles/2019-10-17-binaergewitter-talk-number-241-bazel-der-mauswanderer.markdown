@@ -46,9 +46,9 @@ sudo, Pixel und Dokumentationen interessieren uns in dieser Ausgabe...
 - Pixel 4
 - Das Pixel 4 kostet mit 64 GByte 749 Euro und das Pixel 4 XL 899 Euro
 
+## News Teil 2
 - [EU für](https://www.heise.de/newsticker/meldung/Messenger-Signal-fuer-EU-Abgeordnete-untersagt-4547528.html) und [gegen WhatsApp](https://www.heise.de/newsticker/meldung/EU-Parlament-empfiehlt-Jabber-statt-WhatsApp-und-prueft-Signal-4557826.html)
 - [Neuanlauf](https://www.change.org/p/stoppt-die-zensurmaschine-rettet-das-internet-uploadfilter-artikel13-saveyourinternet/ ) zur [Urheberrechtsreform](https://www.abendblatt.de/ratgeber/multimedia/article227362319/Neuer-Anlauf-zu-EU-Urheberrechts-Reform-ohne-Upload-Filter.html)
-
 
 ## Themen
 - Dokumentation
@@ -57,7 +57,7 @@ sudo, Pixel und Dokumentationen interessieren uns in dieser Ausgabe...
   * [sphinx-doc](https://www.sphinx-doc.org/en/master/)
  - [Neue AsciiDoctor PDF Version 1.5beta6]( https://github.com/asciidoctor/asciidoctor-pdf/releases/tag/v1.5.0.beta.6 )
  
- ## Picks
+## Picks
 - [sunricher-wifi-mqtt]( https://github.com/magcode/sunricher-wifi-mqtt/ )
 - [MySQL Raytracer]( http://www.pouet.net/prod.php?which=83222 )
   * [Ray tracing]( https://en.wikipedia.org/wiki/Ray_tracing_\(graphics\) )
