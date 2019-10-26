@@ -20,7 +20,7 @@ Zurück vom Camp...
 - [cccamp19]( https://twitter.com/binaergewitter/status/1165688796425412608 )
 
 ## Toter der Woche
-- Cryptpad Status Farben: "authorship colours will not come because of the complexity of the crypto" - "but maybe a revisioning system"
+- [Cryptpad Status Farben:](https://github.com/xwiki-labs/cryptpad/issues/41) "authorship colours will not come because of the complexity of the crypto" - "but maybe a revisioning system"
 - [mangarock]( https://torrentfreak.com/pirate-site-mangarock-shuts-down-and-goes-legal-190905/ )
   - [TorrentFreak Top 10 most pirated movies]( https://torrentfreak.com/top-10-most-pirated-movies-of-the-week-on-bittorrent-09-02-19/ )
 
