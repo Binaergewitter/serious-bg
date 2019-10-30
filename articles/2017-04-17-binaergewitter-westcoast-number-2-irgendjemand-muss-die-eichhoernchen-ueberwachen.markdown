@@ -35,7 +35,7 @@ Heute mit dabei: [Lukas](https://twitter.com/lumaxis)
 ### Tools
 
 - [Pull Requests](https://help.github.com/articles/about-pull-requests/)
-- [Phabricator Differential](https://www.phacility.com/phabricator/differential/ )
+- [Phabricator Differential](https://www.phacility.com/phabricator/differential/)
 - [Git flow](https://danielkummer.github.io/git-flow-cheatsheet/)
 - [Code Climate](https://codeclimate.com/)
 - [Hound CI](https://houndci.com/)
@@ -65,14 +65,14 @@ Heute mit dabei: [Lukas](https://twitter.com/lumaxis)
   * [How does Bundler work, anyway?](https://www.youtube.com/watch?v=4DqzaqeeMgY)
 - (Endlose) Diskussionen
 - [Impostor Syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome)
-  * [LGTM]( https://www.youtube.com/watch?v=erh2ngRZxs0 )
+  * [LGTM](https://www.youtube.com/watch?v=erh2ngRZxs0)
   * [Code reviews in job interviews]()
     * [Komischer NY Times post](https://www.nytimes.com/2017/04/08/opinion/sunday/the-utter-uselessness-of-job-interviews.html)
 
 ### Gegenbeispiele
 
 - LGTM
-- [Cover your ass engineering]( https://en.wikipedia.org/wiki/Cover_your_ass )
+- [Cover your ass engineering](https://en.wikipedia.org/wiki/Cover_your_ass)
     * Kein Interesse an Feedback
     * Wenn was schief geht, sind andere (mit-)schuld
 - "What if ... (unrelated requirement)"

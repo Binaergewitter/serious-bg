@@ -26,7 +26,7 @@ Endlich ist sie da. Die Spezial Sendung zu NixOS. Felix und Jörg sind NixOS Jü
 - Lädt Paketliste
 - Was muss installiert werden? (ncurses, libc)
 - Versionskonflikte?
-- LSB-Verzeichnisstruktur: 
+- LSB-Verzeichnisstruktur:
   - /usr/bin/sl
   - /usr/share/man/man1/sl.1.gz
 - nix-shell -p sl (zum ausprobieren)
@@ -67,7 +67,7 @@ Endlich ist sie da. Die Spezial Sendung zu NixOS. Felix und Jörg sind NixOS Jü
 ## Nix - Expressions
 
 - Nix Pakete werden mit Nix gebaut!
-- jede Paketbeschreibung eine Funktion 
+- jede Paketbeschreibung eine Funktion
     - Eingabe: Abhängigkeiten des Paketes
     - Ausgabe: Derivation -> Pfad
 - kennt die Reihenfolge: Baut Abhängigkeiten vorher selbst (keine Zyklen)
@@ -76,10 +76,10 @@ Endlich ist sie da. Die Spezial Sendung zu NixOS. Felix und Jörg sind NixOS Jü
 
 ## Nixpkgs
 
-- [source on github]( https://github.com/NixOS/nixpkgs )
+- [source on github](https://github.com/NixOS/nixpkgs)
 - \>13.000 Pakete für x86_64 linux
   - [contributors](https://github.com/NixOS/nixpkgs/graphs/contributors)
-- [Search NixOS packages]( https://nixos.org/nixos/packages.html )
+- [Search NixOS packages](https://nixos.org/nixos/packages.html)
 - Abstraktionen für die meisten Buildsysteme
   - (\*alle\* Haskellpakete)
 - Aktuelle unterstützte Platformen (Binärpakete)
