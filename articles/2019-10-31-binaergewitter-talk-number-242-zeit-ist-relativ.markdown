@@ -15,27 +15,6 @@ audioformats:
 Winterzeit, Windows 10 und wichtige Sicherheitlücken (WWW) sind unsere Themen der Sendung. Mit dabei sind Felix, Markus und Ingo.
 Leider mussten wir den Downmix nehmen und Markus hat daher ab und zu "Aussetzer". Sorry!
 
-# BGT242
-1. studio-link aufnehmen drücken (wichtig)
-  - markus 6407eb63@studio-link.de
-  - Felix1 1f1021b2@studio-link.de
-  - L33tFelix 4d47a82a@studio-link.de
-  - Ingo  03b33b4a@studio-link.de  
-2. audiocity starten, 48000Hz einstellen, Audio-Device checken und aufnehmen drücken (wichtig)
-3. obs starten und aufnehmen drücken (eher unwichtig)
-4. darkice starten (wichtig)
-4. klatschen
-5. Hallo und herzlich Willkommen
-
-ist alles total egal
-tetra pak empfänger für den behördenfunk
-Der Browser - wie eine Klobürste
-Zeit ist Relativ - bis auf die Sommerzeit, die ist Scheisse!
-GMT steht für Görlitz Mean Time
-
-## Vorschläge
-
-
 ## Untoter der Woche
 - [Windows Live CD](https://www.hirensbootcd.org/ )
 
@@ -52,7 +31,7 @@ GMT steht für Görlitz Mean Time
 
 ## News
 - [BVG testet Erkennungssystem für uBahn Auslastung](https://www.heise.de/newsticker/meldung/BVG-testet-Erkennungssystem-fuer-U-Bahn-Auslastung-4558277.html?)
-- [Hacktoverfest](https://hacktoberfest.digitalocean.com/)
+- [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
 - [UK drops plans for online pornography age verification system](https://www.theguardian.com/culture/2019/oct/16/uk-drops-plans-for-online-pornography-age-verification-system)
 - [NixCon 2019](https://2019.nixcon.org/)
   - [Stream]( https://www.youtube.com/watch?v=aUG9aGYYCY8 )
@@ -83,11 +62,8 @@ GMT steht für Görlitz Mean Time
 ## Picks
 - [Diablo im Webbrowser mit WebAssembly](https://github.com/d07RiV/diabloweb)
   - [The Secret of Monkey Island]( https://archive.org/details/mnkyega )
-- Cawbird https://ibboard.co.uk/cawbird/
-- https://www.heise.de/newsticker/meldung/Militaerroboter-Parodie-Beinahe-wie-Boston-Dynamics-4571312.html
-- https://hackaday.com/2019/10/14/linux-fu-python-guis-for-command-line-programs-almost-instantly/
-- https://hackaday.com/2019/10/13/hacking-broken-plastic-parts-without-a-3d-printer/
-- https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/
-
-
-
+- [Cawbird](https://ibboard.co.uk/cawbird/)
+- [*not* Boston Dynamics](https://www.heise.de/newsticker/meldung/Militaerroboter-Parodie-Beinahe-wie-Boston-Dynamics-4571312.html)
+- [Hackaday: Python GUIs for CLI Programs](https://hackaday.com/2019/10/14/linux-fu-python-guis-for-command-line-programs-almost-instantly/)
+- [Hackaday: Hacking Broken Plastic Parts Without a 3D Printer](https://hackaday.com/2019/10/13/hacking-broken-plastic-parts-without-a-3d-printer/)
+- [Firefox AddOn: Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
