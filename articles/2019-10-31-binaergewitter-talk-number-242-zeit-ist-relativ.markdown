@@ -20,7 +20,7 @@ Leider mussten wir den Downmix nehmen und Markus hat daher ab und zu "Aussetzer"
 
 ## Einschub: DB Sitze
 - [DB: Neue Sitze für die neuen Sitze](https://www.deutschebahn.com/de/presse/pressestart_zentrales_uebersicht/60-000-komfortablere-Sitze-fuer-ICE-4-und-ICE-3-Anfang-2020-startet-der-Umbau--4561346?contentId=1204030)
- * [Selbstversuch eines Bahnfahrers - Warum im ICE 4 die Reiselust auf der Strecke bleibt](https://www.deutschlandfunkkultur.de/selbstversuch-eines-bahnfahrers-warum-im-ice-4-die.2156.de.html?dram:article_id=440810)
+  * [Selbstversuch eines Bahnfahrers - Warum im ICE 4 die Reiselust auf der Strecke bleibt](https://www.deutschlandfunkkultur.de/selbstversuch-eines-bahnfahrers-warum-im-ice-4-die.2156.de.html?dram:article_id=440810)
 
 
 ## Toter der Woche
@@ -34,19 +34,19 @@ Leider mussten wir den Downmix nehmen und Markus hat daher ab und zu "Aussetzer"
 - [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
 - [UK drops plans for online pornography age verification system](https://www.theguardian.com/culture/2019/oct/16/uk-drops-plans-for-online-pornography-age-verification-system)
 - [NixCon 2019](https://2019.nixcon.org/)
-  - [Stream](https://www.youtube.com/watch?v=aUG9aGYYCY8)
+  * [Stream](https://www.youtube.com/watch?v=aUG9aGYYCY8)
 - [All Systems GO! - Reinventing Home Directories](https://media.ccc.de/v/ASG2019-164-reinventing-home-directories#t=0)
 - [Typing speeds of mobiles rival keyboard users](https://mobile.slashdot.org/story/19/10/03/221259/typing-speeds-on-mobiles-rival-keyboard-users-says-report)
 - [exim mal wieder kapuuuut]( https://www.heise.de/security/meldung/Jetzt-patchen-Erneut-kritische-Luecke-in-Mail-Server-Exim-4543602.html)
 - [Nginx mit PHP FPM Sicherheitsproblem](https://www.heise.de/security/meldung/Updates-fuer-PHP7-NGINX-Server-mit-PHP-FPM-waren-aus-der-Ferne-angreifbar-4570800.html)
 - [Unitymedia: Fatale Sicherheitslücke in Millionen Routern]( https://www.heise.de/security/meldung/Unitymedia-Fatale-Sicherheitsluecke-in-Millionen-Routern-4544886.html)
 - [Buffer Overflow in libpcap and tcpdump](https://isc.sans.edu/diary/rss/25386)
-* https://make-linux-fast-again.com/
+- [make-linux-fast-again](https://make-linux-fast-again.com/)
 - [Intel CPUs immer langsamer!](https://www.computerbase.de/2019-10/linux-entwickler-empfiehlt-deaktivierung-von-smt/)
 - [shhgit]( https://shhgit.darkport.co.uk/)
 
 ## Mimimi der Woche
-- [Windows 10 und SMB Zugriff](  )
+- Windows 10 und SMB Zugriff
 - Bahn verlangt Sicherheitsfrage in der NavigatorApp
 - [Google-Studie: Deutsche und die Passwörter](https://www.linux-magazin.de/news/google-studie-deutsche-und-die-passwoerter/)
 - [NIST 800-63 Password Guidelines](https://jumpcloud.com/blog/nist-800-63-password-guidelines/)
