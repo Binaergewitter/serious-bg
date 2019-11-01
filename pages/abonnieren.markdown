@@ -21,18 +21,16 @@ Habt Spaß am Gerät.
     <th>MP3</th>
     <th>AAC</th>
     <th>Opus</th>
-    <th>Bit Torrent</th>
     <th>auf iTunes</th>
-    <th>auf spotify</th>
+    <th>auf Spotify</th>
   </tr>
   <tr>
   <td><a href="/">Alle</a></td>
   <td><a href="http://blog.binaergewitter.de/podcast_feed/all/mp3/rss.xml">MP3 Feed</a></td>
   <td><a href="http://blog.binaergewitter.de/podcast_feed/all/m4a/rss.xml">AAC Feed</a></td>
   <td><a href="http://blog.binaergewitter.de/podcast_feed/all/opus/rss.xml">Opus Feed</a></td>
-  <td><a href="http://bitlove.org/binaergewitter/talk/feed">Torrent Feed</a></td>
   <td><a href="http://itunes.apple.com/de/podcast/binargewitter/id216877594">auf iTunes</a></td>
-  <td><a href="https://open.spotify.com/show/19LedqK0fGWfzfKzySDoVW">auf spotify</a></td>
+  <td><a href="https://open.spotify.com/show/19LedqK0fGWfzfKzySDoVW">auf Spotify</a></td>
   </tr>
   <tr>
     <td><a href="/categories/talk">Talk</a></td>
