@@ -31,7 +31,7 @@ Leider mussten wir den Downmix nehmen und Markus hat daher ab und zu "Aussetzer"
 
 ## News
 - [BVG testet Erkennungssystem für uBahn Auslastung](https://www.heise.de/newsticker/meldung/BVG-testet-Erkennungssystem-fuer-U-Bahn-Auslastung-4558277.html?)
-- [Hacktoverfest](https://hacktoberfest.digitalocean.com/)
+- [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
 - [UK drops plans for online pornography age verification system](https://www.theguardian.com/culture/2019/oct/16/uk-drops-plans-for-online-pornography-age-verification-system)
 - [NixCon 2019](https://2019.nixcon.org/)
   - [Stream]( https://www.youtube.com/watch?v=aUG9aGYYCY8 )
@@ -63,10 +63,8 @@ Leider mussten wir den Downmix nehmen und Markus hat daher ab und zu "Aussetzer"
 - [Diablo im Webbrowser mit WebAssembly](https://github.com/d07RiV/diabloweb)
   - [The Secret of Monkey Island]( https://archive.org/details/mnkyega )
 - [Cawbird](https://ibboard.co.uk/cawbird/)
-- [Roboter mit eigenem Willen](https://www.heise.de/newsticker/meldung/Militaerroboter-Parodie-Beinahe-wie-Boston-Dynamics-4571312.html )
-- [Hackaday GUIS](https://hackaday.com/2019/10/14/linux-fu-python-guis-for-command-line-programs-almost-instantly/ )
-- [hackaday platic parts](https://hackaday.com/2019/10/13/hacking-broken-plastic-parts-without-a-3d-printer/ )
-- [decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/ )
-
-
+- [*not* Boston Dynamics](https://www.heise.de/newsticker/meldung/Militaerroboter-Parodie-Beinahe-wie-Boston-Dynamics-4571312.html)
+- [Hackaday: Python GUIs for CLI Programs](https://hackaday.com/2019/10/14/linux-fu-python-guis-for-command-line-programs-almost-instantly/)
+- [Hackaday: Hacking Broken Plastic Parts Without a 3D Printer](https://hackaday.com/2019/10/13/hacking-broken-plastic-parts-without-a-3d-printer/)
+- [Firefox AddOn: Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
 
