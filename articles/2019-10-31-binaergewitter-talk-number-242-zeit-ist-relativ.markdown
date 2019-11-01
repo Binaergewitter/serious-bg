@@ -16,7 +16,7 @@ Winterzeit, Windows 10 und wichtige Sicherheitlücken (WWW) sind unsere Themen d
 Leider mussten wir den Downmix nehmen und Markus hat daher ab und zu "Aussetzer". Sorry!
 
 ## Untoter der Woche
-- [Windows Live CD](https://www.hirensbootcd.org/ )
+- [Windows Live CD](https://www.hirensbootcd.org/)
 
 ## Einschub: DB Sitze
 - [DB: Neue Sitze für die neuen Sitze](https://www.deutschebahn.com/de/presse/pressestart_zentrales_uebersicht/60-000-komfortablere-Sitze-fuer-ICE-4-und-ICE-3-Anfang-2020-startet-der-Umbau--4561346?contentId=1204030)
@@ -24,32 +24,32 @@ Leider mussten wir den Downmix nehmen und Markus hat daher ab und zu "Aussetzer"
 
 
 ## Toter der Woche
-- [IPv4](https://www.ispreview.co.uk/index.php/2019/10/this-time-there-really-are-no-ipv4-internet-addresses-left.html )
-- [TWRP für Android 10]( https://twrp.me/site/update/2019/10/23/twrp-and-android-10.html )
-- [Yahoo Groups]( https://www.vice.com/en_us/article/8xwe9p/yahoo-groups-is-winding-down-and-all-content-will-be-permanently-removed )
-- [Pager in Japan]( https://www.japantimes.co.jp/news/2019/09/30/business/tech/japanese-pagers-last-beeps-50-years/#.XZKmvC33VTY )
+- [IPv4](https://www.ispreview.co.uk/index.php/2019/10/this-time-there-really-are-no-ipv4-internet-addresses-left.html)
+- [TWRP für Android 10](https://twrp.me/site/update/2019/10/23/twrp-and-android-10.html)
+- [Yahoo Groups](https://www.vice.com/en_us/article/8xwe9p/yahoo-groups-is-winding-down-and-all-content-will-be-permanently-removed)
+- [Pager in Japan](https://www.japantimes.co.jp/news/2019/09/30/business/tech/japanese-pagers-last-beeps-50-years/#.XZKmvC33VTY)
 
 ## News
 - [BVG testet Erkennungssystem für uBahn Auslastung](https://www.heise.de/newsticker/meldung/BVG-testet-Erkennungssystem-fuer-U-Bahn-Auslastung-4558277.html?)
 - [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
 - [UK drops plans for online pornography age verification system](https://www.theguardian.com/culture/2019/oct/16/uk-drops-plans-for-online-pornography-age-verification-system)
 - [NixCon 2019](https://2019.nixcon.org/)
-  - [Stream]( https://www.youtube.com/watch?v=aUG9aGYYCY8 )
-- [All Systems GO! - Reinventing Home Directories]( https://media.ccc.de/v/ASG2019-164-reinventing-home-directories#t=0 )
+  - [Stream](https://www.youtube.com/watch?v=aUG9aGYYCY8)
+- [All Systems GO! - Reinventing Home Directories](https://media.ccc.de/v/ASG2019-164-reinventing-home-directories#t=0)
 - [Typing speeds of mobiles rival keyboard users](https://mobile.slashdot.org/story/19/10/03/221259/typing-speeds-on-mobiles-rival-keyboard-users-says-report)
 - [exim mal wieder kapuuuut]( https://www.heise.de/security/meldung/Jetzt-patchen-Erneut-kritische-Luecke-in-Mail-Server-Exim-4543602.html)
-- [Nginx mit PHP FPM Sicherheitsproblem](https://www.heise.de/security/meldung/Updates-fuer-PHP7-NGINX-Server-mit-PHP-FPM-waren-aus-der-Ferne-angreifbar-4570800.html )
-- [Unitymedia: Fatale Sicherheitslücke in Millionen Routern]( https://www.heise.de/security/meldung/Unitymedia-Fatale-Sicherheitsluecke-in-Millionen-Routern-4544886.html?wt_mc=rss.security.beitrag.atom )
-- [Buffer Overflow in libpcap and tcpdump]( https://isc.sans.edu/diary/rss/25386 )
+- [Nginx mit PHP FPM Sicherheitsproblem](https://www.heise.de/security/meldung/Updates-fuer-PHP7-NGINX-Server-mit-PHP-FPM-waren-aus-der-Ferne-angreifbar-4570800.html)
+- [Unitymedia: Fatale Sicherheitslücke in Millionen Routern]( https://www.heise.de/security/meldung/Unitymedia-Fatale-Sicherheitsluecke-in-Millionen-Routern-4544886.html)
+- [Buffer Overflow in libpcap and tcpdump](https://isc.sans.edu/diary/rss/25386)
 * https://make-linux-fast-again.com/
 - [Intel CPUs immer langsamer!](https://www.computerbase.de/2019-10/linux-entwickler-empfiehlt-deaktivierung-von-smt/)
-- [shhgit]( https://shhgit.darkport.co.uk/ )
+- [shhgit]( https://shhgit.darkport.co.uk/)
 
 ## Mimimi der Woche
 - [Windows 10 und SMB Zugriff](  )
 - Bahn verlangt Sicherheitsfrage in der NavigatorApp
-- https://www.linux-magazin.de/news/google-studie-deutsche-und-die-passwoerter/
-- https://jumpcloud.com/blog/nist-800-63-password-guidelines/
+- [Google-Studie: Deutsche und die Passwörter](https://www.linux-magazin.de/news/google-studie-deutsche-und-die-passwoerter/)
+- [NIST 800-63 Password Guidelines](https://jumpcloud.com/blog/nist-800-63-password-guidelines/)
 
 ## Themen
 - Besuch DLR
@@ -67,4 +67,3 @@ Leider mussten wir den Downmix nehmen und Markus hat daher ab und zu "Aussetzer"
 - [Hackaday: Python GUIs for CLI Programs](https://hackaday.com/2019/10/14/linux-fu-python-guis-for-command-line-programs-almost-instantly/)
 - [Hackaday: Hacking Broken Plastic Parts Without a 3D Printer](https://hackaday.com/2019/10/13/hacking-broken-plastic-parts-without-a-3d-printer/)
 - [Firefox AddOn: Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
-
