@@ -67,3 +67,4 @@ Leider mussten wir den Downmix nehmen und Markus hat daher ab und zu "Aussetzer"
 - [Hackaday: Python GUIs for CLI Programs](https://hackaday.com/2019/10/14/linux-fu-python-guis-for-command-line-programs-almost-instantly/)
 - [Hackaday: Hacking Broken Plastic Parts Without a 3D Printer](https://hackaday.com/2019/10/13/hacking-broken-plastic-parts-without-a-3d-printer/)
 - [Firefox AddOn: Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
+
