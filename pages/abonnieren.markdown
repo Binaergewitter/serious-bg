@@ -51,5 +51,3 @@ Habt Spaß am Gerät.
     <td><a href="http://blog.binaergewitter.de/podcast_feed/spezial/opus/rss.xml">Opus Feed</a></td>
   </tr>
 </table>
-
-
