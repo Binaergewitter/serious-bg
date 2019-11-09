@@ -6,12 +6,12 @@ sharing: false
 footer: true
 ---
 
-Ihr wollt uns etwas gutes tun? Prima. Wir freuen uns. 
+Ihr wollt uns etwas gutes tun? Prima. Wir freuen uns.
 Es gibt verschiedene Wege uns zu unterstützen
 
-* [Liberapay](https://liberapay.com/Binaergewitter/ )
-* [Patreon](https://www.patreon.com/binaergewitter )
-* [flattr](https://flattr.com/@binaergewitter )
+* [Liberapay](https://liberapay.com/Binaergewitter/)
+* [Patreon](https://www.patreon.com/binaergewitter)
+* [flattr](https://flattr.com/@binaergewitter)
 * Überweisung
 
 Name: Ingo Ebel
