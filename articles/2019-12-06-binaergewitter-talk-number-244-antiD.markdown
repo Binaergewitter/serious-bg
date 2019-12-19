@@ -15,7 +15,7 @@ audioformats:
 Aus der Vorweihnachtspause zurück. Markus, Felix und Ingo über Tesla, Seifenblasen und Ipv6.
 
 ## Blast
-https://www.heise.de/newsticker/meldung/FritzOS-7-19-Bessere-WLAN-Verschluesselung-WPA3-fuer-AVMs-Fritzboxen-4597676.html
+- [FritzOS 7.19](https://www.heise.de/newsticker/meldung/FritzOS-7-19-Bessere-WLAN-Verschluesselung-WPA3-fuer-AVMs-Fritzboxen-4597676.html)
 
 ## McAfee der Woche
 - [McAfee Trick 17, wenn du mit einer riesen Menge Drogen erwischt wirst]( https://twitter.com/officialmcafee/status/1200144250618490881 )
@@ -32,23 +32,22 @@ https://www.heise.de/newsticker/meldung/FritzOS-7-19-Bessere-WLAN-Verschluesselu
 - ["got hacked apologies"AAS - GHAAAS]( http://whythefuckwasibreached.com/)
   - "The fucking North Koreans used pen and paper based social engineering to breach our high security servers. But we have since made everyone promise to be super super careful, so it will never happen again."
 - [Verkauf .org TLD]( https://netzpolitik.org/2019/breiter-widerstand-gegen-verkauf-der-org-domain/ )
-  
 - [Page und Brin treten ab - ein Monsterkill?]( https://www.heise.de/newsticker/meldung/Google-Gruender-Brin-und-Page-treten-zurueck-4603214.html )
 - UT und Quake III ist 20 Jahre alt!
 - Tesla Cybertruck
- * [Bollinger B1 and B2]( https://www.heise.de/autos/artikel/Bollinger-Motors-B1-und-B2-4602455.html )
+  * [Bollinger B1 and B2]( https://www.heise.de/autos/artikel/Bollinger-Motors-B1-und-B2-4602455.html )
 * [Mozilla - Privacy not included](https://foundation.mozilla.org/en/privacynotincluded/ )
 * [UBlock origin blockt wie kein anderer!]( https://www.theregister.co.uk/2019/11/21/ublock_origin_firefox_unblockable_tracker/ )
 - [poll.digitalcourage.de]( https://poll.digitalcourage.de/ )
 - [NextCry Ransomeware für NextCloud]( https://nextcloud.com/blog/nextcry-or-how-a-hacker-tried-to-exploit-a-nginx-issue-with-2-nextcloud-servers-out-of-300-000-hit-and-no-payout/ ) ( [bei heise](https://www.heise.de/security/meldung/Ransomware-NextCry-greift-Nextcloud-Server-an-4588421.html) )
 
 ## Themen
-- [MX Linux ?!?!]( https://distrowatch.com/ )
+- [MX Linux ?!?!]( https://distrowatch.com/)
 
 ## Mimimi der Woche
-- [Seifenblasen Rezepte]()
-  - http://www.seifenblasenmann.de/seifenblasen-forum/viewforum.php?f=13
-  - https://soapbubble.fandom.com/wiki/Soap_Bubble_Wiki
+- Seifenblasen Rezepte
+  - [Seifenblasen Forum](http://www.seifenblasenmann.de/seifenblasen-forum/viewforum.php?f=13)
+  - [Soap Bubble Wiki](https://soapbubble.fandom.com/wiki/Soap_Bubble_Wiki)
 - Firefox Abstürze bei Telegram Links
   - Telegram - Russisch oder nicht?
   - [Wire zieht in die USA]( https://www.heise.de/newsticker/meldung/Dachgesellschaft-des-Messengers-Wire-sitzt-jetzt-in-den-USA-4587162.html )
