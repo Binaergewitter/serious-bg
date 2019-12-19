@@ -3,7 +3,7 @@ PATH
   specs:
     serious (0.3.2)
       builder (>= 2.1.2)
-      excon (~> 0.49.0)
+      excon (>= 0.49.0)
       sinatra (>= 1.0.0)
       stupid_formatter (>= 0.2.0)
 
@@ -18,7 +18,7 @@ GEM
       safe_yaml (~> 1.0.0)
     ethon (0.12.0)
       ffi (>= 1.3.0)
-    excon (0.49.0)
+    excon (0.71.1)
     feedvalidator (0.2.1)
     ffi (1.11.3)
     hashdiff (1.0.0)
