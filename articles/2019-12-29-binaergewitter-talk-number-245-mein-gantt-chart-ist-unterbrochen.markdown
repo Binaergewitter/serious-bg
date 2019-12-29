@@ -14,11 +14,9 @@ audioformats:
 ---
 Live vom #36c3 aus dem Sendezentrum. Wir sind in Leipzig und reden über den Congress und die IT Dinge in unserem Leben.
 
-
 ## Blast
-
 - Danke fürs Bier und Mate
-  * Flora Power
+  * [Flora Power](https://www.flora-power.de/)
 - uMatrix als Nerdalternative zu uBlock origin
 - ein etherpad mit farben - [board.net](board.net)
 
@@ -28,7 +26,6 @@ Live vom #36c3 aus dem Sendezentrum. Wir sind in Leipzig und reden über den Con
 - [RSS](https://mjtsai.com/blog/2019/12/26/apple-news-no-longer-supports-rss/ )
 
 ## Untoter der Woche
-
 - [OUYA]( http://cweiske.de/tagebuch/stouyapi.htm )
   * [an Android-based microconsole]( https://en.wikipedia.org/wiki/Ouya )
 
@@ -65,16 +62,17 @@ https://www.youtube.com/watch?v=9sJUDx7iEJw )
 
 ### 36C3
 - [Opening Ceremony]( https://media.ccc.de/v/36c3-11223-opening_ceremony )
-Fahrplan App mit Stream-Downloads zum später schauen
-****************** https://plundervolt.com/ ******************
-- https://media.ccc.de/v/36c3-10852-wie_klimafreundlich_ist_software
-- https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10717.html
+- Fahrplan App mit Stream-Downloads zum später schauen
+- [Wie klimafreundlich ist Software?](https://media.ccc.de/v/36c3-10852-wie_klimafreundlich_ist_software)
+- [Was hat die PSD2 je für uns getan?]https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10717.html
 - [Energiespeicher von morgen im Fahrplan]( https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/11119.html )
- * [Video](https://media.ccc.de/v/36c3-11119-energiespeicher_von_heute_fur_die_energie_von_morgen )
+  * [Video](https://media.ccc.de/v/36c3-11119-energiespeicher_von_heute_fur_die_energie_von_morgen )
 - [Fefe: Das nützlich-unbedenklich Spektrum]( https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10608.html )
 - [Bahn API Chaos]( https://marudor.de/ )
 - [CCC Rückschau]
 - BornHack verkauft Badges aus den Vorjahren, die vom Camp sind leider nicht erhältlich
+- [plundervolt](https://plundervolt.com/)
+  * [Plundervolt: Flipping Bits from Software without Rowhammer](https://media.ccc.de/v/36c3-10883-plundervolt_flipping_bits_from_software_without_rowhammer)
 - Hörer post
   * [chaos post]( https://twitter.com/c3postoffice )
 - [Licht instalation Halle 2]( https://twitter.com/l33tname/status/1211035447931101194 )
@@ -82,20 +80,17 @@ Fahrplan App mit Stream-Downloads zum später schauen
 - [merch]( https://c3foc.net/ )
 
 ## Mimimi der Woche
-
 - esp8266 hat nur 1.5 UARTs
-*  [MicroPython](https://micropython.org/)
+  * [MicroPython](https://micropython.org/)
 - Kündigung bei Klarmobil
 
-
 ## Lesefoo
-* https://www.buzzfeed.com/tomphillips/twitterstorm-2018
-* https://blog.benjojo.co.uk/post/userspace-usb-drivers
+* [twitterstorm 2018](https://www.buzzfeed.com/tomphillips/twitterstorm-2018)
+* [userspace USB drivers for abandoned devices](https://blog.benjojo.co.uk/post/userspace-usb-drivers)
 * [Wifi deauthentication attacks and home security](https://mjg59.dreamwidth.org/53968.html)
 
-## Picks - (hmm müssen wir ein max Picks einführen? :))
-
-Max Picks = 5!! (unterpicks zählen 1/3)
+## Picks
+- Max Picks = 5!! (unterpicks zählen 1/3)
 - [Find Real Estates Damn Easy]( https://github.com/orangecoding/fredy )
 - [Intel microcode update on FreeBSD]( https://www.thomas-krenn.com/en/wiki/Update_Intel_Microcode_on_FreeBSD )
   - NixOS: `hardware.cpu.amd.updateMicrocode = true;`
