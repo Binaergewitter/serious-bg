@@ -12,8 +12,6 @@ Gem::Specification.new do |s|
   s.summary     = %Q{Serious is a simple, file-driven blog engine inspired by toto and driven by sinatra with an emphasis on easy setup}
   s.description = %Q{Serious is a simple, file-driven blog engine inspired by toto and driven by sinatra with an emphasis on easy setup}
 
-  s.rubyforge_project = "serious"
-
   s.bindir = 'bin'
   s.executables = ['serious']
 
