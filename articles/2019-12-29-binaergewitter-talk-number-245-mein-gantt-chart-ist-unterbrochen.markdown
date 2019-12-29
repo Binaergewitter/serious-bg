@@ -61,23 +61,23 @@ https://www.youtube.com/watch?v=9sJUDx7iEJw )
 - [Vintage Computer Festival Zürich 2019!]( https://twitter.com/VCFe_CH/status/1195733987685273601 )
 
 ### 36C3
-- [Opening Ceremony]( https://media.ccc.de/v/36c3-11223-opening_ceremony )
+- [Opening Ceremony]( https://media.ccc.de/v/36c3-11223-opening_ceremony)
 - Fahrplan App mit Stream-Downloads zum später schauen
 - [Wie klimafreundlich ist Software?](https://media.ccc.de/v/36c3-10852-wie_klimafreundlich_ist_software)
-- [Was hat die PSD2 je für uns getan?]https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10717.html
-- [Energiespeicher von morgen im Fahrplan]( https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/11119.html )
-  * [Video](https://media.ccc.de/v/36c3-11119-energiespeicher_von_heute_fur_die_energie_von_morgen )
-- [Fefe: Das nützlich-unbedenklich Spektrum]( https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10608.html )
+- [Was hat die PSD2 je für uns getan?](https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10717.html)
+- [Energiespeicher von morgen im Fahrplan](https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/11119.html)
+  * [Video](https://media.ccc.de/v/36c3-11119-energiespeicher_von_heute_fur_die_energie_von_morgen)
+- [Fefe: Das nützlich-unbedenklich Spektrum]( https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10608.html)
 - [Bahn API Chaos]( https://marudor.de/ )
-- [CCC Rückschau]
+- [CCC Rückschau](https://media.ccc.de/v/36c3-11225-der_dezentrale_jahresruckblick_des_ccc)
 - BornHack verkauft Badges aus den Vorjahren, die vom Camp sind leider nicht erhältlich
 - [plundervolt](https://plundervolt.com/)
   * [Plundervolt: Flipping Bits from Software without Rowhammer](https://media.ccc.de/v/36c3-10883-plundervolt_flipping_bits_from_software_without_rowhammer)
 - Hörer post
-  * [chaos post]( https://twitter.com/c3postoffice )
-- [Licht instalation Halle 2]( https://twitter.com/l33tname/status/1211035447931101194 )
-- [NixOS]( https://nixos.org/ )
-- [merch]( https://c3foc.net/ )
+  * [chaos post]( https://twitter.com/c3postoffice)
+- [Licht instalation Halle 2]( https://twitter.com/l33tname/status/1211035447931101194)
+- [NixOS]( https://nixos.org/)
+- [merch]( https://c3foc.net/)
 
 ## Mimimi der Woche
 - esp8266 hat nur 1.5 UARTs
