@@ -45,7 +45,7 @@ https://www.youtube.com/watch?v=9sJUDx7iEJw )
     - warning starting with Ruby 2.7.0
   * IRB mit syntax highlighting
   * Pattern matching (Experimental)
-  * Argument forwarding `(...)` (https://bugs.ruby-lang.org/issues/16253)
+  * Argument forwarding `(...)` [Feature #16253](https://bugs.ruby-lang.org/issues/16253)
   * Introducting Module#const_source_location 
   * Better JIT (still optional with `--jit`)
 - [OpenZFS Developer Summit 2019]( http://www.open-zfs.org/wiki/OpenZFS_Developer_Summit_2019 )
