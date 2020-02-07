@@ -28,8 +28,6 @@ audioformats:
 - [Rocket League is killing online multiplayer on macOS and Linux]( https://www.theverge.com/platform/amp/2020/1/23/21078989/rocket-league-macos-linux-march-epic-games-online-multiplayer )
 
 ## News
-
-
 - [Kernel 5.5]( https://www.heise.de/ct/artikel/Linux-5-5-freigegeben-Wireguard-Fundament-und-Performance-Verbesserungen-4605827.html )
   - [brace for kernel 5.6 - wireguard und multipath-tcp]( https://www.heise.de/newsticker/meldung/Linux-Kernel-5-6-wird-Wireguard-und-Multipath-TCP-unterstuetzen-4647825.html )
 - [Neuer IT Grundschutz Katalog - jetzt mit ohne regelmäßiges Passwortwechseln]( https://www.bsi.bund.de/DE/Themen/ITGrundschutz/ITGrundschutzKompendium/itgrundschutzKompendium_node.html )
@@ -51,7 +49,7 @@ audioformats:
     - [HTTP/3 for everyone]( https://ftp.osuosl.org/pub/fosdem/2020/Janson/http3.mp4 )
     - [Was ist neu bei Samba](https://fosdem.org/2020/schedule/event/whats_new_in_samba/ )
     - [Monads in Python: why and how?]( https://ftp.osuosl.org/pub/fosdem/2020/UB2.252A/python2020_monads.mp4 )
-    - [n-gate FOSDEM]( http://n-gate.com/fosdem/ )
+  * [n-gate FOSDEM]( http://n-gate.com/fosdem/ )
 
 
 ## Lesefoo
@@ -66,9 +64,10 @@ audioformats:
 ## Picks
 - [cursedfs]( https://github.com/NieDzejkob/cursedfs )
 - [Fairy Dust in 1:11]( https://regendrogenbogen.wordpress.com/2020/01/04/fairy-dust/ )
-- [CSS Diner](http://flukeout.github.io/ )
+- [CSS Diner](http://flukeout.github.io/)
 - [gdb scripting]( https://news.ycombinator.com/item?id=22031219 )
 - [Academic Torrents]( http://academictorrents.com/ )
+
 
  ## Next
 - [CLT 2020 14. und 15. März 2020 ]( https://chemnitzer.linux-tage.de/2020/de/ )
