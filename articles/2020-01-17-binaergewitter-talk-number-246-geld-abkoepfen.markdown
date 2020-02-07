@@ -42,8 +42,8 @@ Das neue Jahr geht los und wir sind voll dabei...
 - [VVVVVV Source Code released](  http://distractionware.com/blog/2020/01/vvvvvv-is-now-open-source/ )
 - [LTE Abdeckung](https://www.heise.de/newsticker/meldung/LTE-Abdeckung-Regulierer-prueft-Einhaltung-der-Ausbauauflagen-4633209.html )
 - [benutzt kein ZFS]( https://www.pro-linux.de/news/1/27708/torvalds-benutzt-kein-zfs.html )
-  * https://www.heise.de/newsticker/meldung/Linus-Torvalds-erteilt-ZFS-im-Linux-Kernel-erneute-Absage-4633302.html
-  * Bekommt Gegenwind aus dem Netz a la  https://twitter.com/alasdairrr/status/1216832404888981508
+  * [heise](https://www.heise.de/newsticker/meldung/Linus-Torvalds-erteilt-ZFS-im-Linux-Kernel-erneute-Absage-4633302.html)
+  * Bekommt Gegenwind aus dem Netz a la [tweet](https://twitter.com/alasdairrr/status/1216832404888981508)
 - [Torvalds über Scheduler Tests]( https://linux.slashdot.org/story/20/01/06/012251/linus-torvalds-calls-bloggers-linux-scheduler-tests-pure-garbage )
 - [RaidZ expansion incoming]( https://twitter.com/openzfs/status/921042446275944448?lang=en )
 - [Git 2.25](https://www.linux-magazin.de/news/git-2-25-vereinfacht-partielle-checkouts/ )
@@ -51,7 +51,7 @@ Das neue Jahr geht los und wir sind voll dabei...
 
 
 ## Themen
-- https://fosdem.org/2020/
+- [fosdem 2020](https://fosdem.org/2020/)
  * ggf. Hörertreffen
 
 
@@ -61,13 +61,8 @@ Das neue Jahr geht los und wir sind voll dabei...
 
 
 ## Picks 
-
 - [filelink nextcloud](https://gitlab.com/joendres/filelink-nextcloud )
 - [cardbook](https://addons.thunderbird.net/en-US/thunderbird/addon/cardbook/ )
 - [display mail user agent](https://addons.thunderbird.net/de/thunderbird/addon/display-mail-user-agent-t/ )
 - [CleverCSV]( https://github.com/alan-turing-institute/CleverCSV )
-
 - [Acronym Creation]( https://github.com/bacook17/acronym )
-
-
-
