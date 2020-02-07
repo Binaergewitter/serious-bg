@@ -13,8 +13,8 @@ audioformats:
   opus: http://download.binaergewitter.de/2020-02-06.Binaergewitter.Talk.247.opus
 ---
 ## Blast
-j
-- Letzte Folge hatte Kapitelmarken, aber nicht optimal - wir üben weiter ;-)
+
+- Letzte Folge hatte Kapitelmarken, aber nicht optimal
 - [Endlich, amerikanische Wissenschaftler finden /das/ Rezept für gute Seifenblasen]( https://arstechnica.com/science/2020/02/physicists-determine-the-optimal-soap-recipe-for-blowing-gigantic-bubbles/ )
 - 36c3
   * [Building Nextcloud Flow]( https://media.ccc.de/v/36c3-oio-174-building-nextcloud-flow )
@@ -24,7 +24,7 @@ j
   * [Boot2root]( https://media.ccc.de/v/36c3-10706-boot2root )
 
 ## Toter
-- BlackBerry-Smartphones https://www.heise.de/meldung/TCL-baut-keine-Blackberry-Handys-mehr-4652241.html
+- [BlackBerry-Smartphones](https://www.heise.de/meldung/TCL-baut-keine-Blackberry-Handys-mehr-4652241.html )
 - [Rocket League is killing online multiplayer on macOS and Linux]( https://www.theverge.com/platform/amp/2020/1/23/21078989/rocket-league-macos-linux-march-epic-games-online-multiplayer )
 
 ## News
@@ -45,8 +45,6 @@ j
 ## Themen
 
 - fosdem
-  * Hörertreffen / Führung
-  * Voll, zu kurz aber toll
   * Talks
     - [Alle Videos]( https://video.fosdem.org/2020/ ) 
     - [The Linux Kernel: We have to finish this thing one day]( https://ftp.osuosl.org/pub/fosdem/2020/Janson/linux_kernel.mp4 )
@@ -54,10 +52,6 @@ j
     - [Was ist neu bei Samba](https://fosdem.org/2020/schedule/event/whats_new_in_samba/ )
     - [Monads in Python: why and how?]( https://ftp.osuosl.org/pub/fosdem/2020/UB2.252A/python2020_monads.mp4 )
     - [n-gate FOSDEM]( http://n-gate.com/fosdem/ )
-
-
-Passwort Manager im Test
-https://www.test.de/Passwort-Manager-im-Test-5231532-0/
 
 
 ## Lesefoo
