@@ -57,7 +57,7 @@ audioformats:
 - [Google Clickjacking (2018)](https://blog.innerht.ml/google-yolo/)
 - [Which emoji scissors close](https://wh0.github.io/2020/01/02/scissors.html)
 - [SSDs](http://kcall.co.uk/ssd/index.html)
-- [Farbtemperaturen visualisiert](i.imgur.com/3XnCaTF.jpg)
+- [Farbtemperaturen visualisiert](https://i.imgur.com/3XnCaTF.jpg)
 - [Building a BitTorrent client from the ground up in Go](https://blog.jse.li/posts/torrent/)
 
 
