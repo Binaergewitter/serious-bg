@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Binärgewitter Talk #248: Das USB-C Kabel drehen müssen"
-date: 2020-02-28 10:00
+title: "Binärgewitter Talk #249: Im home office hört dich niemand weinen"
+date: 2020-03-19 21:00
 comments: true
 categories: talk
 sharing: true
