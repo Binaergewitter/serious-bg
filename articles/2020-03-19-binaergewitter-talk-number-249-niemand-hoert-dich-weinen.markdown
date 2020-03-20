@@ -19,20 +19,21 @@ Felix, Markus und Ingo sind im Kriesenmodus....
 - [folding@home]( https://foldingathome.org/ )
 
 ## News
-Java 14 released
- * API dif http://cr.openjdk.java.net/~iris/se/14/latestSpec/apidiffs/overview-summary.html
- * https://jakarta.ee/
+- Java 14 released
+ * [API diff]( http://cr.openjdk.java.net/~iris/se/14/latestSpec/apidiffs/overview-summary.html )
+ * [Jakarta EE]( https://jakarta.ee/ )
 
-NPM also owned by M$ : http://blog.npmjs.org/post/612764866888007680/next-phase-montage
-https://yarnpkg.com/
+- [NPM also owned by M$]( http://blog.npmjs.org/post/612764866888007680/next-phase-montage)
+  * [Yarn als Alternative zum NPM pakage manager]( https://yarnpkg.com/ )
 
-https://zulipchat.com/
-rocketchat
-https://mattermost.com
+- Exkurs Chats:
+ * [Zulip]( https://zulipchat.com/ )
+ * [Rocket]( https://rocket.chat/ )
+ * [Mattermost]( https://mattermost.com )
 
-https://cli.github.com/
+- [GitHub CLI]( https://cli.github.com/ )
 
-https://www.heise.de/newsticker/meldung/Neuer-Steam-Rekord-20-Millionen-User-gleichzeitig-online-4683273.html
+- [Steam Rekord - 20 Mio User online]( https://www.heise.de/newsticker/meldung/Neuer-Steam-Rekord-20-Millionen-User-gleichzeitig-online-4683273.html )
 
 - [SMBv3 compression remote code execution (Wannacry NG?)]( https://www.kb.cert.org/vuls/id/872016/ )
 https://arstechnica.com/information-technology/2020/03/windows-has-a-new-wormable-vulnerability-and-theres-no-patch-in-sight/
@@ -64,8 +65,8 @@ https://arstechnica.com/information-technology/2020/03/windows-has-a-new-wormabl
 
 ## Picks
 
-https://fraidyc.at/
-https://blueoakcouncil.org/license/1.0.0
+- [FraidyCat]( https://fraidyc.at/ )
+ * [BlueOak License]( https://blueoakcouncil.org/license/1.0.0 )
 
 - [The Python "with" Statement by Example]( https://preshing.com/20110920/the-python-with-statement-by-example/ )
 - [USB Meter]( https://makeradvisor.com/um24-um24c-usb-meter-ruideng-review/ )
