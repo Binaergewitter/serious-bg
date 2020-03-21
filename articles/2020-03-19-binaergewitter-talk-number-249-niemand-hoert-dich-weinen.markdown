@@ -12,7 +12,7 @@ audioformats:
   m4a: http://download.binaergewitter.de/2020-03-18.Binaergewitter.Talk.249.m4a
   opus: http://download.binaergewitter.de/2020-03-18.Binaergewitter.Talk.249.opus
 ---
-Felix, Markus und Ingo sind im Kriesenmodus....
+Felix, Markus und Ingo sind im Krisenmodus....
 
 ## Toter
 - [SETI@Home]( https://www.bleepingcomputer.com/news/software/seti-home-search-for-alien-life-project-shuts-down-after-21-years/ )
