@@ -74,7 +74,6 @@ Das mit dem Audio üben wir noch...
 
 ## Picks 
 
-Max Picks = 5!! --> 6.689503e+198 picks, sollte ausreichen
 - [opensourcerover]( https://opensourcerover.jpl.nasa.gov/ )
 - [Drawing in only CSS - A Pure CSS Landscape - From start to finish]( https://www.youtube.com/watch?v=rUCVBNNyjC4 )
 - [LEGO 3Dfx Voodoo 3D Card]( https://technabob.com/blog/2020/03/29/lego-ideas-x-3dfx-voodoo-3d-card/ )
