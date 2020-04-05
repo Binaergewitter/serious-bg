@@ -19,30 +19,27 @@ Das mit dem Audio üben wir noch...
 - [MikroTik hEX s]( https://l33tsource.com/blog/2020/03/29/hex-s-the-good-the-bad-the-ugly/ )
 - Zoom: Facebook war SDK Verwendung, wurde entfernt
   - [Zooms Stellungsnahme]( https://blog.zoom.us/wordpress/2020/04/01/a-message-to-our-users/ )
-  - [zoom]( https://www.golem.de/news/homeoffice-neue-sicherheitsluecken-in-zoom-entdeckt-2004-147670.html )
-  - [heise: Zoomein Sicherheitsalbtraum?]( https://www.heise.de/security/meldung/Videokonferenz-Software-Ist-Zoom-ein-Sicherheitsalptraum-4695000.html)
+  - [Zoom neue sicherheitslücken]( https://www.golem.de/news/homeoffice-neue-sicherheitsluecken-in-zoom-entdeckt-2004-147670.html )
+  - [heise: Zoom ein Sicherheitsalbtraum?]( https://www.heise.de/security/meldung/Videokonferenz-Software-Ist-Zoom-ein-Sicherheitsalptraum-4695000.html)
 
 ## Aprilscherze
 - [April's fools accumulator]( https://lobste.rs/s/1xbjyc/april_s_fools_accumulator )
 - [KNOME]( http://knome.org )
 - [euIRC]( https://www.euirc.net/covid/de/index.html )
 - [The Internationalized Deliberately Unreadable Network NOtation (I-DUNNO)](https://www.rfc-editor.org/rfc/rfc8771.txt )
-- [CRYPTOCURRENCY SYSTEM USING BODY ACTIVITY DATA]( https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2020060606&tab=PCTDESCRIPTION )
-- https://guix.gnu.org/blog/2020/deprecating-support-for-the-linux-kernel/
+- [CRYPTOCURRENCY SYSTEM USING BODY ACTIVITY DATA](https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2020060606&tab=PCTDESCRIPTION)
+- [Deprecating support for the Linux kernel](https://guix.gnu.org/blog/2020/deprecating-support-for-the-linux-kernel/)
 
 ## Toter der Woche
 - [TrueOS]( https://www.heise.de/newsticker/meldung/Weiterentwicklung-von-TrueOS-offiziell-eingestellt-4694954.html )
 - [Alle RIPE ROA entries]( https://www.ripe.net/support/service-announcements/accidental-roa-deletion/ )
-  - [email]( https://pixie.town/_matrix/media/r0/download/pixie.town/gSchxcDEBNLMjhAjfizmoMur )
-
-
+  - [email]( https://pixie.town/_matrix/media/r0/download/pixie.town/gSchxcDEBNLMjhAjfizmoMur)
 
 ## Untoter der Woche
-- [ytmnd](https://ytmnd.com )
-- [zeitumstellung]( https://www.zdf.de/nachrichten/panorama/zeitumstellung-sommerzeit-uhrumstellung-eu-100.html )
+- [ytmnd](https://ytmnd.com)
+- [zeitumstellung]( https://www.zdf.de/nachrichten/panorama/zeitumstellung-sommerzeit-uhrumstellung-eu-100.html)
 
 ## News
-
 - [theia]( https://www.linux-magazin.de/news/theia-1-0-eclipses-vs-code-alternative-wird-stabil/ )
   * [glitch]( https://glitch.com/ )
 - [archive.org National emergency Library]( https://blog.archive.org/2020/03/24/announcing-a-national-emergency-library-to-provide-digitized-books-to-students-and-the-public/ )
@@ -63,7 +60,7 @@ Das mit dem Audio üben wir noch...
 ## Mimimi der Woche
 - 'fatal: option '-i' must come before non-option arguments'
   - ["gnu-style" arguments ftw]( https://www.gnu.org/software/libc/manual/html_node/Argument-Syntax.html ) - " Options typically precede other non-option arguments. "
-- /etc/samba/smb.conf alte Einstellung
+- `/etc/samba/smb.conf` alte Einstellung
 - [Cabel FritzBox]( https://www.teltarif.de/avm-verbot-weiterverkauf-fritzbox-cable/news/80148.html )
 - studio link
 - podcasts :(
@@ -73,7 +70,6 @@ Das mit dem Audio üben wir noch...
 - [FacialHairMask]( https://www.cdc.gov/niosh/npptl/pdfs/FacialHairWmask11282017-508.pdf )
 
 ## Picks 
-
 - [opensourcerover]( https://opensourcerover.jpl.nasa.gov/ )
 - [Drawing in only CSS - A Pure CSS Landscape - From start to finish]( https://www.youtube.com/watch?v=rUCVBNNyjC4 )
 - [LEGO 3Dfx Voodoo 3D Card]( https://technabob.com/blog/2020/03/29/lego-ideas-x-3dfx-voodoo-3d-card/ )
@@ -83,7 +79,3 @@ Das mit dem Audio üben wir noch...
 - [wget ftp]( https://stackoverflow.com/questions/113886/how-to-recursively-download-a-folder-via-ftp-on-linux )
 - [2FA cli]( https://gist.github.com/MineRobber9000/722a902f67bbd1a1c8c57f7ec0b5034e )
 - [Neue Tab-Steuerung in Firefox - jetzt Preferences fixen!](  https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly )
-
-
-
-
