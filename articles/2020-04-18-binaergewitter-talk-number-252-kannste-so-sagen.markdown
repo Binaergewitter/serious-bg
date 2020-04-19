@@ -61,7 +61,7 @@ Die folgenden Sendungen verschieben sich wegen Groupware Diskusionen um mehrere 
 ## Picks 
 - [imisstheoffice](https://imisstheoffice.eu/)
 - [A Commodore 64 Skin for Windows Terminal](https://github.com/KillerFeature/WT64)
-https://github.com/8051Enthusiast/regex2fat
+- [regex2fat](https://github.com/8051Enthusiast/regex2fat)
 - [IRON SKY – DICTATOR’S CUT (2013)]( https://ironsky.net/quarantine-relief-program/dictators-cut/ )
 - [http://krepel.us/](http://krepel.us/)
 - [Penguin](https://www.instagram.com/p/B_FbOhRgnjU/ )
