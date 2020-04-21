@@ -17,13 +17,13 @@ Die folgenden Sendungen verschieben sich wegen Groupware Diskusionen um mehrere 
 
 ## Toter der Woche
 - [Zimbra wird proprietär]( https://www.pro-linux.de/news/1/27946/zimbra-wird-propriet%C3%A4r.html )
-- Tine
-- Open Xchange
-- Kopano
-- egroupware
-- [RadioTux Groupware Sendung]( https://www.radiotux.de/index.php?/archives/876-RadioTux-Sendung-Zarafa.html )
-- [roundcube](https://roundcube.net/ )
-- [RadioTux KDE Itinerary]( https://www.radiotux.de/index.php?/archives/8058-RadioTux-Sendung-Februar-2020.html )
+  * Tine  
+  * Open Xchange
+  * Kopano
+  * egroupware
+  * [RadioTux Groupware Sendung]( https://www.radiotux.de/index.php?/archives/876-RadioTux-Sendung-Zarafa.html )
+  * [roundcube](https://roundcube.net/ )
+  * [RadioTux KDE Itinerary]( https://www.radiotux.de/index.php?/archives/8058-RadioTux-Sendung-Februar-2020.html )
 
 ## News
 
