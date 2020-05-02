@@ -25,7 +25,7 @@ Felix, Markus und Ingo freuen sich über Farben und heulen rum.
   * [SeaMonkey](https://en.wikipedia.org/wiki/SeaMonkey )
 - [John Conway]( https://www.golem.de/news/covid-19-mathematiker-john-conway-ist-gestorben-2004-147842.html )
 - [GVU]( https://www.heise.de/newsticker/meldung/GVU-Insolvenz-Die-Piratenjaeger-sind-pleite-4713156.html )
-- [Automatic (nicht Wordpress Automatic)]( https://twitter.com/evandcoleman/status/1256261178759753728 ) 
+- [Automatic (nicht Wordpress Automattic)]( https://twitter.com/evandcoleman/status/1256261178759753728 ) 
 
 ## News
 
