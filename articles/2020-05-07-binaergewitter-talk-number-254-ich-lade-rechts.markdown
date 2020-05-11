@@ -17,21 +17,21 @@ Noch einmal eine große Runde mit Felix², Markus und Ingo...
 ## Blast from the Past
 
 - [rambox community edition]( https://rambox.pro/#ce )
- * [franz]( https://www.meetfranz.com/de/ )
+  * [franz]( https://www.meetfranz.com/de/ )
 - [0700 IG]( https://www.ig0700.de/ )
-- Nextcloud Notification Problem: Debugged & Fixed https://github.com/nextcloud/activity/issues/459
- * [Deactivate Workspaces](https://help.nextcloud.com/t/i-want-to-hide-the-add-notes-field-at-the-top-of-the-file-list-on-nc18/68574/8)
+- [Nextcloud Notification Problem: Debugged & Fixed](https://github.com/nextcloud/activity/issues/459)
+  * [Deactivate Workspaces](https://help.nextcloud.com/t/i-want-to-hide-the-add-notes-field-at-the-top-of-the-file-list-on-nc18/68574/8)
 - [openmediavault 5](https://www.openmediavault.org/?p=2685)
 - [Fedora 32](https://fedoramagazine.org/announcing-fedora-32/)
 - der felix hat nen eigenen pad server
- * https://github.com/ether/etherpad-lite/issues/3963#issuecomment-622609084 "Host your own pad instance. It's really easy to do. Search for Etherpad docker or k8s."
+  * ["Host your own pad instance. It's really easy to do. Search for Etherpad docker or k8s."](https://github.com/ether/etherpad-lite/issues/3963#issuecomment-622609084)
 
 
 ## Toter der Woche
 
 - [pro-linux](www.pro-linux.de)
- * [linuxnews.de]( https://linuxnews.de )
- * [linux-magazin](https://www.linux-magazin.de/)
+  * [linuxnews.de]( https://linuxnews.de )
+  * [linux-magazin](https://www.linux-magazin.de/)
 
  
 
