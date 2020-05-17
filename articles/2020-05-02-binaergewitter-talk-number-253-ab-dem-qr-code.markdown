@@ -6,6 +6,7 @@ comments: true
 categories: talk
 sharing: true
 published: true
+chapters: http://download.binaergewitter.de/2020-05-01.Binaergewitter.Talk.253.chapters.txt
 audioformats:
   mp3: http://download.binaergewitter.de/2020-05-01.Binaergewitter.Talk.253.mp3
   ogg: http://download.binaergewitter.de/2020-05-01.Binaergewitter.Talk.253.ogg

@@ -17,38 +17,45 @@
       </p>
       <script>
         head.ready('podlove', function () {
-          podlovePlayer('#live-player', {
-            theme: {
-              main: '#7FAF1B'
-            },
-            link: 'http://stream.radiotux.de:8000/binaergewitter.mp3',
-            title: 'Live',
-            poster: '/img/binaergewitter_logo1x1.jpg',
-            show: {
-              link: 'http://' + location.host,
-              title: 'Binärgewitter. Der Podcast rundum Web, Technologie und Opensource',
-              summary: 'Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt'
-            },
-            audio: [          
-              {
-                url: 'http://stream.radiotux.de:8000/binaergewitter.mp3',
-                mimeType: 'audio/mp3',
-                size: 100000000,
-                title: 'Audio Mp3'
+            podlovePlayer('#live-player',
+            {
+              link:  `http://stream.radiotux.de:8000/binaergewitter.mp3`,
+              title: 'Live',
+              poster: '/img/binaergewitter_logo1x1.png',
+              audio: [
+                    {
+                      url: 'http://stream.radiotux.de:8000/binaergewitter.mp3',
+                      mimeType: 'audio/mp3',
+                      size: 100000000,
+                      title: 'Audio Mp3'
+                    },
+              ],
+            }, {
+              version: 5,
+              base: '/podlove-web-player/',
+              theme: {
+                  tokens: {
+                     brand: "#7FAF1B",
+                     brandDark: "#202c07",
+                     brandDarkest: "#000",
+                     brandLightest: "#7faf1b",
+                     shadeDark: "#807E7C",
+                     shadeBase: "#807E7C",
+                     contrast: "#fff",
+                     alt: "#fff"
+                 }
               },
-           ],
-            visibleComponents: [
-              'tabAudio',
-              'poster',
-              'showTitle',
-              'episodeTitle',
-            ],
-            reference: {
-              share: '/podlove-web-player/share',
-              base: '/podlove-web-player/dist'
-            }
-        });
-      });
+              share: {
+                  channels: [
+                    "twitter",
+                    "mail",
+                    "link"
+                  ],
+                  outlet: "/share.html",
+                  sharePlaytime: true
+              }
+            });
+          });
       </script>
     </div>
   </div>

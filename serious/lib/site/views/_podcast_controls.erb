@@ -1,26 +1,19 @@
 <% unless article.audioformats.empty? %>
-       
+
         <div class="podcast_player" style="width:100%;">
           <p>
           <div id="<%= article.permalink %>-player"></div>
           </p>
           <script>
           head.ready('podlove', function () {
-            podlovePlayer('#<%= article.permalink %>-player', {
-             
-              theme: {
-                main: '#7FAF1B'
-              },
-              link: 'http://'+location.host+'<%= article.url %>',
+            podlovePlayer('#<%= article.permalink %>-player',
+            {
+              link:  `{location.protocol}//{location.host}<%= article.url %>`,
               title: '<%= article.title %>',
-              poster: '/img/binaergewitter_logo1x1.svg',
-              show: {
-                  link: 'http://'+location.host,
-                  title: 'Binärgewitter. Der Podcast rundum Web, Technologie und Opensource',
-                  summary: 'Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt'
-              },
-   
-              audio: [          
+              //duration: '02:23:47.468',
+              poster: '/img/binaergewitter_logo1x1.png',
+              chapters: <%= article.chapter %>,
+              audio: [
                <% article.audioformats.each_pair do |audio_format, audio_url| %>
                 {
                   url: '<%= audio_url %>',
@@ -28,21 +21,38 @@
                   size: <%= article.audio_file_sizes[audio_format].to_i.to_s %>,
                   title: 'Audio <%= audio_format %>'
                 },
-              <% end %> 
+              <% end %>
                ],
-               visibleComponents: [
-                'tabDownload',
-                'tabAudio',
-                'tabShare',
-                'poster',
-                'showTitle',
-                'episodeTitle',
-                'progressbar',
-                'controlSteppers'
-              ],
-              reference: {
-                  base: '/podlove-web-player/'
-              }
+            }, {
+              version: 5,
+              base: '/podlove-web-player/',
+              theme: {
+                  tokens: {
+                     brand: "#7FAF1B",
+                     brandDark: "#202c07",
+                     brandDarkest: "#1B4D3E",
+                     brandLightest: "#7faf1b",
+                     shadeDark: "#807E7C",
+                     shadeBase: "#807E7C",
+                     contrast: "#fff",
+                     alt: "#fff"
+                 }
+              },
+              share: {
+                  channels: [
+                    "twitter",
+                    "mail",
+                    "link"
+                  ],
+                  outlet: "/share.html",
+                  sharePlaytime: true
+              }/*,
+              "subscribe-button": {
+                  feed: `http://{location.host}/podcast_feed/all/mp3/rss.xml`,
+                  clients: [
+                      { "id": "rss" },
+                  ]
+              }*/
             });
           });
         </script>

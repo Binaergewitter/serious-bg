@@ -125,6 +125,13 @@ class Serious::Article
     @audio_file_sizes
   end
 
+  def chapters_url
+    @chapters_url ||= yaml["chapters"]
+  end
+
+  def chapter
+    return @chapter ||= Background.get_chapters(chapters_url)
+  end
   
   # Is the article published? by default it is
   def published?

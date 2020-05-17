@@ -6,6 +6,7 @@ comments: true
 categories: talk
 sharing: true
 published: true
+chapters: http://download.binaergewitter.de/2020-02-26.Binaergewitter.Talk.248.chapters.txt
 audioformats:
   mp3: http://download.binaergewitter.de/2020-02-26.Binaergewitter.Talk.248.mp3
   ogg: http://download.binaergewitter.de/2020-02-26.Binaergewitter.Talk.248.ogg
