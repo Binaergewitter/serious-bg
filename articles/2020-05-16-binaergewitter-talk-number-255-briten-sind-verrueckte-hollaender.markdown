@@ -15,28 +15,21 @@ audioformats:
 Doch noch mal in voller Besetzung...
 
 ## Blast from the Past
-
 - [AVM bekommt recht bei Streit um generalüberholte Fritzboxen]( https://www.heise.de/newsticker/meldung/Urteil-im-Fritzbox-Streit-AVM-gewinnt-in-erster-Instanz-4721698.html )
 - MX Linux, weil ganz oben
 
-
-
 ## Toter der Woche
-
 - [Double Rainbow Guy]( https://time.com/5835065/double-rainbow-guy-viral-video-dies/ )
 - UKW (in der Schweiz)
-  * https://ukw.fm/
-  * https://de.wikipedia.org/wiki/Digital_Audio_Broadcasting
+  * [UKW - Unsere kleine Welt](https://ukw.fm/)
+  * [Digital Audio Broadcasting DAB](https://de.wikipedia.org/wiki/Digital_Audio_Broadcasting)
 - [The James Damore lawsuite]( https://gizmodo.com/after-screaming-about-discrimination-ex-google-enginee-1843366034 )
 
 
-
 ## McAfee der Woche
-
 - [Bitcoin-Erfinder enttarnt?]( https://boerse.ard.de/anlageformen/kryptowaehrungen/bitcoin-erfinder-enttarnt100.html )
 
 ## News
-
 - [Facebook is buying Giphy and integrating it with Instagram]( https://www.theverge.com/2020/5/15/21259965/facebook-giphy-gif-acquisition-buy-instagram-integration-cost )
 - [Wireguard]( https://www.wireguard.com/ )
   * nach Linux 5.6
@@ -50,7 +43,7 @@ Doch noch mal in voller Besetzung...
   * [thunderspy]( https://thunderspy.io/ )
 - [bundeswehr nutzt matrix]( https://www.heise.de/newsticker/meldung/Bundeswehr-setzt-kuenftig-auf-Matrix-als-Messenger-4719474.html )
 - [Pi-hole v5.0]( https://pi-hole.net/2020/05/10/pi-hole-v5-0-is-here/#page-content )
-- Der Ubuntu-Installer loggt das Plattenkrypto-Passwort im Klartext. https://bugs.launchpad.net/ubuntu/+source/curtin/+bug/1878115
+- [Der Ubuntu-Installer loggt das Plattenkrypto-Passwort im Klartext.](https://bugs.launchpad.net/ubuntu/+source/curtin/+bug/1878115)
 - [Mehrere Hochleistungsrechenzentren in Europa angegriffen](https://www.heise.de/security/meldung/Mehrere-Hochleistungsrechenzentren-in-Europa-angegriffen-4721393.html )
   - [CSIRT Artikel]( https://csirt.egi.eu/academic-data-centers-abused-for-crypto-currency-mining/ ) 
 - [Twitter: Mitarbeiter können "für immer" Homeoffice machen](https://www.heise.de/newsticker/meldung/Twitter-Mitarbeiter-koennen-fuer-immer-Homeoffice-machen-4719946.html)
@@ -60,30 +53,18 @@ Doch noch mal in voller Besetzung...
   * [Specs](https://github.com/corona-warn-app/cwa-documentation/blob/master/translations/scoping_document.de.md)
   * [Corona-Warn-App Org on GitHub]( https://github.com/corona-warn-app )
 
-
 ## Mimimi der Woche
-
 - CPU Temperatur
 
-
-
 ## Lesefoo
-
-
 - [How does a TCP Reset Attack work?]( https://robertheaton.com/2020/04/27/how-does-a-tcp-reset-attack-work/ )
 - [Solving Uninitialized Stack Memory on Windows]( https://msrc-blog.microsoft.com/2020/05/13/solving-uninitialized-stack-memory-on-windows/ )
 - [The Confessions of Marcus Hutchins (@MalwareTechBlog), the Hacker Who Saved the Internet]( https://www.wired.com/story/confessions-marcus-hutchins-hacker-who-saved-the-internet/ )
 - [Write Libraries, Not Frameworks]( https://www.brandonsmith.ninja/blog/libraries-not-frameworks )
 - [ZFS 101—Understanding ZFS storage and performance](https://arstechnica.com/information-technology/2020/05/zfs-101-understanding-zfs-storage-and-performance/)
 
-
 ## Picks
-
 - [Limit Everything: Timeouts for Shell Commands in Ruby](https://johnnunemaker.com/limit-everything-timeouts-for-commands-in-ruby/)
 - [gptconv.py](https://github.com/powernap/gptconv)
 - [the best way to apply thermal paste?]( https://twitter.com/bob_burrough/status/1260055853920477189 )
 - [Double Ratchet Messaging Encryption - Computerphile]( https://www.youtube.com/watch?v=9sO2qdTci-s )
-
-
-
-
