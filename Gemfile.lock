@@ -31,7 +31,7 @@ GEM
     nio4r (2.5.2)
     power_assert (1.1.5)
     public_suffix (4.0.2)
-    puma (4.3.3)
+    puma (4.3.5)
       nio4r (~> 2.0)
     rack (2.0.8)
     rack-protection (2.0.7)
