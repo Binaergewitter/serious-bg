@@ -21,7 +21,7 @@ mit Felix, Felix und Ingo
 
 ## Toter der Woche
 - [ZFS: Oracle Talks Up BTRFS Rather Than ZFS]( https://phoronix.com/scan.php?page=news_item&px=Oracle-Btrfs-UEK6 ) (hab ich auch gerade gesehen :))
-  - [Oracle wiki]( https://blogs.oracle.com/linux/btrfs-on-the-unbreakable-enterprise-kernel-6 )
+  * [Oracle wiki]( https://blogs.oracle.com/linux/btrfs-on-the-unbreakable-enterprise-kernel-6 )
 
 ## Untoter der Woche
 
@@ -40,10 +40,12 @@ mit Felix, Felix und Ingo
 - [Trend Micro Rootkit Remover als Rootkit installer]( https://d4stiny.github.io/How-to-use-Trend-Micro-Rootkit-Remover-to-Install-a-Rootkit/ )
 - [Gnome einigt sich mit Patent troll]( https://www.gnome.org/news/2020/05/patent-case-against-gnome-resolved/ )
 - [Grafana 7](https://www.heise.de/developer/meldung/Monitoring-Grafana-7-bringt-flexiblere-Plug-ins-und-Datentransformationen-4723881.html)
-  - [Uhrzeit plugin]( https://grafana.com/grafana/plugins/grafana-clock-panel )
+  * [Uhrzeit plugin]( https://grafana.com/grafana/plugins/grafana-clock-panel )
 
 ## Themen
-Microsoft is bringing Linux GUI apps to Windows 10 and GPU hardware acceleration support. Some really solid improvements coming to WSL for developers. https://www.theverge.com/2020/5/19/21263377/microsoft-windows-10-linux-gui-apps-gpu-acceleration-wsl-features
+- [Microsoft is bringing Linux GUI apps to Windows 10](https://www.theverge.com/2020/5/19/21263377/microsoft-windows-10-linux-gui-apps-gpu-acceleration-wsl-features)
+  * Microsoft is bringing Linux GUI apps to Windows 10 and GPU hardware acceleration support. 
+  * Some really solid improvements coming to WSL for developers. 
 - 10gbits @home
 - Firewall Distros
 - OPNsense
@@ -56,12 +58,9 @@ Microsoft is bringing Linux GUI apps to Windows 10 and GPU hardware acceleration
 ## Lesefoo
 - [Die Kunst des klaren Denkens: 52 Denkfehler, die Sie besser anderen überlassen]( https://www.dobelli.com/de/bucher/die-kunst-des-klaren-denkens/ )
   * [Thinking, Fast and slow]( https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555 )
-
-- [elements of python style]( 
-https://github.com/amontalenti/elements-of-python-style )
+- [elements of python style]( https://github.com/amontalenti/elements-of-python-style )
   * flake8
   * [black](https://github.com/psf/black)
-
 
 ## Picks
 - [Collection of Unofficial APIs]( https://github.com/Rolstenhouse/unofficial-apis )
