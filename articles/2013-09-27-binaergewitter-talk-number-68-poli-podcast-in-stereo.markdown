@@ -5,6 +5,7 @@ date: 2013-09-27 12:00
 comments: true
 categories: talk
 sharing: true
+chapters: http://download.binaergewitter.de/2013-09-26.Binaergewitter.Talk.68.chapters.txt
 audioformats:
   mp3: http://download.binaergewitter.de/2013-09-26.Binaergewitter.Talk.68.mp3
   ogg: http://download.binaergewitter.de/2013-09-26.Binaergewitter.Talk.68.ogg

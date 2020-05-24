@@ -14,6 +14,7 @@ require 'builder'
 require 'ruby_ext'
 require 'net/http'
 require 'json'
+require 'uri'
 
 puts "CUSTOM"
 
@@ -35,6 +36,35 @@ class Background
     end
     
     stream_response
+  end
+
+  def self.get_chapters(url)
+    chapters = '[]'
+    begin
+      uri = URI.parse(url)
+      #create connection
+      Net::HTTP.start(uri.host, 80, {read_timeout: 5, open_timeout: 5}) {|http|
+        http.read_timeout = 5
+        http.open_timeout = 5
+        response = http.get(uri.path)
+
+        #get data
+        if response.kind_of? Net::HTTPSuccess
+          chapters = '['
+          chapters << '{ "start": "00:00:00.000", "title": "Intro" },'
+          response.body.force_encoding("UTF-8").each_line do |line|
+            time,title = line.split(' ', 2)
+            chapters << "{ \"start\": \"#{time}\", \"title\": \"#{title.strip}\"},"
+          end
+          chapters << ']'
+        end
+      }
+    rescue Exception => e
+      chapters = '[]'
+      puts e
+    end
+
+    chapters
   end
 end
 
