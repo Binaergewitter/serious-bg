@@ -16,33 +16,22 @@ audioformats:
 Nur zu zweit und trotzdem nicht so kurz. l33tname und Ingo präsentieren euch die aktuelle Ausgabe.
 
 ## Blast from the Past
-
 - Berliner Luft musst du mit Sojavanillemilch
 
-
-
 ## In eigener Sache
-
 - neuer Podlove Web Player 5 mit Kapitelmarken
 - [Patreon Pre Show](https://www.patreon.com/posts/die-verlorene-37915918 )
 
 
 ## Toter der Woche
-
 - [apt mirror](https://github.com/apt-mirror/apt-mirror )
   * [aptly](https://www.aptly.info/ )
 - twitter
 
-
-
 ## Untoter der Woche
-
 - [SELFHTML wird 25](https://blog.selfhtml.org/2020/06/04/zusammenhaenge-schaffen-selfhtml-wird-25/)
 
-
-
 ## News
-
 - [Youtube führt Kapitel für Videos ein](https://www.golem.de/news/google-youtube-fuehrt-kapitel-fuer-videos-ein-2005-148806.html )
 - [ZDF gibt Sachen als Creative Commons frei]( https://www.heise.de/news/ZDF-gibt-Bildungsinhalte-nicht-nur-fuer-Schulen-und-Wikipedia-frei-4778640.html )
   * [OverSimplified](https://www.youtube.com/channel/UCNIuvl7V8zACPpTmmNIqP2A )
@@ -57,38 +46,28 @@ Nur zu zweit und trotzdem nicht so kurz. l33tname und Ingo präsentieren euch di
 - [CallStranger]( https://www.heise.de/news/CallStranger-Universal-Plug-and-Play-Schwachstelle-in-Milliarden-von-Geraeten-4779177.html )
 - [Coming in Hot: Watch Together & Chill](https://www.plex.tv/blog/coming-in-hot-watch-together-chill/)
 - [Fujifilm macht seine X-Kameras Webcam-tauglich](https://www.heise.de/news/Fujifilm-macht-seine-X-Kameras-Webcam-tauglich-4768455.html)
-- [Plasma 5.19]( https://kde.org/announcements/plasma-5.19.0 )
- - i3
+- [Plasma 5.19]( https://kde.org/announcements/plasma-5.19.0 )  
+  * [i3](https://i3wm.org/)
 
 ## Themen
-
 - Grafana 7
 - [CPU Monitoring](https://l33tsource.com/blog/2020/05/24/cpu-temperature-monitoring/)
 
-
-
 ## Mimimi der Woche
-
 - [ETS Inside]( https://www.knx.org/knx-en/for-professionals/software/ets-inside/index.php ) 
 - Laptop stürtzt ab im Akku Betrieb wenn Display auf Maxium
 
 ## Lesefoo
-
 - [U7 Storage Performance: Update]( https://blog.uberspace.de/u7-storage-performance-update/ )
 - [The Day AppGet Died.]( https://keivan.io/the-day-appget-died/ )
 
 ## Picks
-
 - [borgmatic]( https://torsion.org/borgmatic )
 - [backy2](http://www.backy2.com/ )
 - [plaudible]( https://plausible.io/ )
-  * https://github.com/plausible-insights/plausible
-- https://space.stackexchange.com/questions/9243/what-computer-and-software-is-used-by-the-falcon-9/9446#9446
+  * [github](https://github.com/plausible-insights/plausible)
+- [What computer and software is used by the Falcon 9?](https://space.stackexchange.com/questions/9243/what-computer-and-software-is-used-by-the-falcon-9/9446#9446)
   * They use Chromium and JavaScript for the Dragon 2 flight interface.
 - [No-class CSS frameworks](https://twitter.com/JoshWComeau/status/1265006317422477313)
   * [watercss](https://watercss.kognise.dev/)
   * [latex](https://latex.now.sh/)
-
-
-
-
