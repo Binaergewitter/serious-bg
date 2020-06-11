@@ -45,7 +45,7 @@ Nur zu zweit und trotzdem nicht so kurz. l33tname und Ingo präsentieren euch di
 
 - [Youtube führt Kapitel für Videos ein](https://www.golem.de/news/google-youtube-fuehrt-kapitel-fuer-videos-ein-2005-148806.html )
 - [ZDF gibt Sachen als Creative Commons frei]( https://www.heise.de/news/ZDF-gibt-Bildungsinhalte-nicht-nur-fuer-Schulen-und-Wikipedia-frei-4778640.html )
-  * [OverSimplified]https://www.youtube.com/channel/UCNIuvl7V8zACPpTmmNIqP2A
+  * [OverSimplified](https://www.youtube.com/channel/UCNIuvl7V8zACPpTmmNIqP2A )
 - [US Air Force says upcoming B-21 stealth bomber will run Kubernetes]( https://www.theregister.com/2020/06/03/kubernetes_b_21_bomber/ )
   * [Space X Linux]( https://www.linux-magazin.de/news/spacex-raketen-mit-echtzeit-linux/ )
   * [outdated: overview]( https://www.osadl.org/Realtime-Linux.projects-realtime-linux.0.html )
@@ -69,27 +69,22 @@ Nur zu zweit und trotzdem nicht so kurz. l33tname und Ingo präsentieren euch di
 
 ## Mimimi der Woche
 
-- ETS Inside 
+- [ETS Inside]( https://www.knx.org/knx-en/for-professionals/software/ets-inside/index.php ) 
 - Laptop stürtzt ab im Akku Betrieb wenn Display auf Maxium
-
-
 
 ## Lesefoo
 
 - [U7 Storage Performance: Update]( https://blog.uberspace.de/u7-storage-performance-update/ )
 - [The Day AppGet Died.]( https://keivan.io/the-day-appget-died/ )
 
-
-
 ## Picks
 
-- https://torsion.org/borgmatic
-- backy2
-- https://plausible.io/
+- [borgmatic]( https://torsion.org/borgmatic )
+- [backy2](http://www.backy2.com/ )
+- [plaudible]( https://plausible.io/ )
   * https://github.com/plausible-insights/plausible
 - https://space.stackexchange.com/questions/9243/what-computer-and-software-is-used-by-the-falcon-9/9446#9446
   * They use Chromium and JavaScript for the Dragon 2 flight interface.
-
 - [No-class CSS frameworks](https://twitter.com/JoshWComeau/status/1265006317422477313)
   * [watercss](https://watercss.kognise.dev/)
   * [latex](https://latex.now.sh/)
