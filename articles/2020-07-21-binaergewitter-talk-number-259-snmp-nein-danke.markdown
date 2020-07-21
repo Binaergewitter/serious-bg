@@ -6,6 +6,7 @@ comments: true
 categories: talk
 sharing: true
 published: true
+chapters: http://download.binaergewitter.de/2020-07-20.Binaergewitter.Talk.259.chapters.txt
 audioformats:
   mp3: http://download.binaergewitter.de/2020-07-20.Binaergewitter.Talk.259.mp3
   ogg: http://download.binaergewitter.de/2020-07-20.Binaergewitter.Talk.259.ogg
@@ -25,7 +26,7 @@ Die GNUTLS Edition mit Felix, Felix und Ingo
 
 ## Toter der Woche
 - [privacy shield]( https://netzpolitik.org/2020/datentransfers-eu-gericht-zerschlaegt-privacy-shield/ )
-  * https://rechtsbelehrung.com/privacy-shield-wie-es-jetzt-weitergeht-rechtsbelehrung-folge-79/
+  * [Privacy Shield – wie es jetzt weitergeht – Rechtsbelehrung Folge #79](https://rechtsbelehrung.com/privacy-shield-wie-es-jetzt-weitergeht-rechtsbelehrung-folge-79/)
 
 ## Untoter der Woche
 - [Worms Armageddon]( https://www.heise.de/news/Worms-Armageddon-Neues-Update-21-Jahre-nach-Release-4848029.html )
