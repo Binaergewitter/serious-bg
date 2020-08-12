@@ -21,8 +21,8 @@ audioformats:
 
 ## Toter der Woche
 
-- https://www.heise.de/news/Miterfinder-der-Computermaus-William-English-mit-91-Jahren-gestorben-4860951.html
-- https://www.heise.de/news/Gegen-die-unsichtbare-Wand-zum-Tode-von-Frances-Allen-4866834.html
+- [Miterfinder der Computermaus: William English mit 91 Jahren gestorben](https://www.heise.de/news/Miterfinder-der-Computermaus-William-English-mit-91-Jahren-gestorben-4860951.html)
+- [Gegen die unsichtbare Wand – zum Tode der Informatikerin Frances Allen](https://www.heise.de/news/Gegen-die-unsichtbare-Wand-zum-Tode-von-Frances-Allen-4866834.html)
 - [scrot]( https://twitter.com/golfmikesierra/status/1289522077423161346 )
   - [flameshot](https://flameshot.js.org/)
   - `nix-shell -p scrot --run scrot`
@@ -34,7 +34,7 @@ audioformats:
 - [systemd 246]( https://github.com/systemd/systemd/blob/v246/NEWS#L145 )
 - [Have I Been Pwned: Software-Basis der Passwort-Leak-Website wird Open-Source]( https://www.heise.de/news/Have-I-Been-Pwned-Software-Basis-der-Passwort-Leak-Website-wird-Open-Source-4866019.html )
 - [C-Bibliothek: Release 2.32 der GNU C Library unterstützt Unicode 13]( https://www.heise.de/news/C-Bibliothek-Release-2-32-der-GNU-C-Library-unterstuetzt-Unicode-13-4865147.html )
-- [FSF hat neuen Anführer](https://linuxnews.de/2020/08/fsf-waehlt-nachfolger-von-richard-stallman/ ) 00:36:40 ingo versucht Jeoffrey Knauth auszusprechen
+- [FSF hat neuen Anführer](https://linuxnews.de/2020/08/fsf-waehlt-nachfolger-von-richard-stallman/ )
 - [Boothole]( https://www.zdnet.com/article/boothole-attack-impacts-windows-and-linux-systems-using-grub2-and-secure-boot/ )  
   * bei allen ist nach update kapuuuuuut
 - [Intel firmware leaks](https://www.heise.de/news/Intel-Leak-Firmware-Quellcode-und-Dokumente-gestohlen-4865293.html )
