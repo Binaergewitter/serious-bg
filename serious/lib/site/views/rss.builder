@@ -15,19 +15,6 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd", "xmlns:a
     xml.itunes :author, Serious.author
     xml.copyright "Creative Commons BY-SA 3.0 DE"
 
-    if Serious.flattr
-      flattr_link = 'https://flattr.com/submit/auto?url='
-      flattr_link << CGI::escape(Serious.url)
-      flattr_link << '&'
-      flattr_link << "user_id=#{CGI::escape(Serious.flattr_uid)}"
-      flattr_link << "&"
-      flattr_link << "title=#{CGI::escape(Serious.title)}"
-      flattr_link << "&"
-      flattr_link << "category=audio"
-      flattr_link << "&"
-      flattr_link << "tags=#{CGI::escape(Serious.flattr_tags.join(','))}"
-      xml.tag!("atom:link", "rel" => 'payment', 'type' => 'text/html', 'href' => flattr_link)
-    end
     xml.itunes :subtitle, "Web, Technologie und OpenSource Software"
     xml.itunes :summary, Serious.description
     xml.itunes :keywords, "technology, gadgets, web, opensource, krepel"
@@ -68,20 +55,6 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd", "xmlns:a
           #According to the RSS Advisory Board's Best Practices Profile,
           #when an enclosure's size cannot be determined, a publisher should use a length of 0.
           xml.enclosure "url" => url, 'length' => article.audio_file_sizes[selected_codec].to_i.to_s, 'type' => type
-        end
-        if Serious.flattr
-          flattr_link = 'https://flattr.com/submit/auto?url='
-          # Nasty hack to support our "old" flattr items. Stupid /blog/ ...
-          flattr_link << CGI::escape("#{Serious.url}/blog#{article.url}/")
-          flattr_link << '&'
-          flattr_link << "user_id=#{CGI::escape(Serious.flattr_uid)}"
-          flattr_link << "&"
-          flattr_link << "title=#{CGI::escape(article.title)}"
-          flattr_link << "&"
-          flattr_link << "category=audio"
-          flattr_link << "&"
-          flattr_link << "tags=#{CGI::escape(Serious.flattr_tags.join(','))}"
-          xml.tag!("atom:link", "rel" => 'payment', 'type' => 'text/html', 'href' => flattr_link)
         end
       end
     end
