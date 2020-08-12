@@ -14,22 +14,20 @@ audioformats:
   opus: http://download.binaergewitter.de/2020-08-10.Binaergewitter.Talk.260.opus
 ---
 ## Blast from the Past
-00:02:02
+
 - [chapter-marker]( https://github.com/makefu/chapter-marker )
 - https://jellyfin.org/
 
 ## Toter der Woche
-00:10:12
+
 - https://www.heise.de/news/Miterfinder-der-Computermaus-William-English-mit-91-Jahren-gestorben-4860951.html
 - https://www.heise.de/news/Gegen-die-unsichtbare-Wand-zum-Tode-von-Frances-Allen-4866834.html
 - [scrot]( https://twitter.com/golfmikesierra/status/1289522077423161346 )
   - [flameshot]()
   - `nix-shell -p scrot --run scrot`
 
-
-
 ## News
-00:18:25
+
 - [Kernel 5.8]( https://kernelnewbies.org/Linux_5.8 )
   * [To Allow Swapping Fn / Ctrl Keys On Apple Keyboards]( https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.8-Swap-Apple-Fn-Ctrl )
 - [systemd 246]( https://github.com/systemd/systemd/blob/v246/NEWS#L145 )
@@ -44,15 +42,9 @@ audioformats:
     - https://www.youtube.com/watch?v=mHdrosltGJA
 - [IBM benutzt homomorph verschlüsselung in feldtest]( https://arstechnica.com/gadgets/2020/07/ibm-completes-successful-field-trials-on-fully-homomorphic-encryption/ )
 
-## Themen
-01:02:59
-keine
-## Mimimi der Woche
-01:03:10
-niemand was zu weinen?
 ## Lesefoo
-01:03:23
-- https://www.sueddeutsche.de/digital/windows-linux-microsoft-betriebsystem-1.4965794
+
+- [von Windows nach Linux]( https://www.sueddeutsche.de/digital/windows-linux-microsoft-betriebsystem-1.4965794 )
 
 https://jalammar.github.io/how-gpt3-works-visualizations-animations/
 - [The world in which IPv6 was a good design]( https://apenwarr.ca/log/20170810 )
@@ -63,10 +55,8 @@ https://pythonspeed.com/articles/docker-history/
   * [Introspektion - Selbsterkenntnis]( https://de.wiktionary.org/wiki/Introspektion )
 
 ## Picks
-01:19:40
-
-https://git-send-email.io/#step-1
+- https://git-send-email.io/#step-1
 - [CRIU]( https://criu.org/Main_Page )
-  - [CRIU for Firefox]( https://invidio.us/watch?v=kjhuzSl6JYc )
+  * [CRIU for Firefox]( https://invidio.us/watch?v=kjhuzSl6JYc )
 - [youtube: grainydays]( https://www.youtube.com/channel/UCx4MHIcTdwdcmJ5accSDlPA )
-- []( https://www.heise.de/news/Mediaworkstations-a-X2P-Koffer-PC-mit-bis-zu-128-Zen-2-Kernen-und-6-Displays-4866174.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag )
+- [der Koffer]( https://www.heise.de/news/Mediaworkstations-a-X2P-Koffer-PC-mit-bis-zu-128-Zen-2-Kernen-und-6-Displays-4866174.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag )
