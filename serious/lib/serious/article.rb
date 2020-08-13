@@ -132,6 +132,23 @@ class Serious::Article
   def chapter
     return @chapter ||= Background.get_chapters(chapters_url)
   end
+
+  def chapter_json
+    if chapter.empty?
+      return '[]'
+    end
+
+    chapters = '['
+    chapters << '{ "start": "00:00:00.000", "title": "Intro" },'
+
+    for mark in chapter do
+       chapters << "{ \"start\": \"#{mark[:time]}\", \"title\": \"#{mark[:title]}\"},"
+    end
+    chapters << ']'
+    
+    chapters
+  end
+    
   
   # Is the article published? by default it is
   def published?

@@ -2,7 +2,7 @@ require 'cgi'
 require 'time'
 
 xml.instruct! :xml, :version=>"1.0", :encoding=>"UTF-8"
-xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd", "xmlns:atom" => "http://www.w3.org/2005/Atom", "xmlns:content" => "http://purl.org/rss/1.0/modules/content/", "xmlns:media" => "http://search.yahoo.com/mrss/",  :version => "2.0" do
+xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd", "xmlns:atom" => "http://www.w3.org/2005/Atom", "xmlns:content" => "http://purl.org/rss/1.0/modules/content/", "xmlns:media" => "http://search.yahoo.com/mrss/", :version => "2.0" do
   xml.channel do
     xml.title catetory_tite(@category)
     xml.link category_url(@category)
@@ -15,19 +15,6 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd", "xmlns:a
     xml.itunes :author, Serious.author
     xml.copyright "Creative Commons BY-SA 3.0 DE"
 
-    if Serious.flattr
-      flattr_link = 'https://flattr.com/submit/auto?url='
-      flattr_link << CGI::escape(Serious.url)
-      flattr_link << '&'
-      flattr_link << "user_id=#{CGI::escape(Serious.flattr_uid)}"
-      flattr_link << "&"
-      flattr_link << "title=#{CGI::escape(Serious.title)}"
-      flattr_link << "&"
-      flattr_link << "category=audio"
-      flattr_link << "&"
-      flattr_link << "tags=#{CGI::escape(Serious.flattr_tags.join(','))}"
-      xml.tag!("atom:link", "rel" => 'payment', 'type' => 'text/html', 'href' => flattr_link)
-    end
     xml.itunes :subtitle, "Web, Technologie und OpenSource Software"
     xml.itunes :summary, Serious.description
     xml.itunes :keywords, "technology, gadgets, web, opensource, krepel"
@@ -69,19 +56,12 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd", "xmlns:a
           #when an enclosure's size cannot be determined, a publisher should use a length of 0.
           xml.enclosure "url" => url, 'length' => article.audio_file_sizes[selected_codec].to_i.to_s, 'type' => type
         end
-        if Serious.flattr
-          flattr_link = 'https://flattr.com/submit/auto?url='
-          # Nasty hack to support our "old" flattr items. Stupid /blog/ ...
-          flattr_link << CGI::escape("#{Serious.url}/blog#{article.url}/")
-          flattr_link << '&'
-          flattr_link << "user_id=#{CGI::escape(Serious.flattr_uid)}"
-          flattr_link << "&"
-          flattr_link << "title=#{CGI::escape(article.title)}"
-          flattr_link << "&"
-          flattr_link << "category=audio"
-          flattr_link << "&"
-          flattr_link << "tags=#{CGI::escape(Serious.flattr_tags.join(','))}"
-          xml.tag!("atom:link", "rel" => 'payment', 'type' => 'text/html', 'href' => flattr_link)
+
+        # chapter marks
+        xml.tag!("psc:chapters", "xmlns:psc" => "http://podlove.org/simple-chapters", :version => "1.2") do
+          for item in article.chapter do
+            xml.tag!("psc:chapter", :start => item[:start], :title => item[:title])
+          end
         end
       end
     end

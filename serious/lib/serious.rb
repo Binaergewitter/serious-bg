@@ -39,7 +39,7 @@ class Background
   end
 
   def self.get_chapters(url)
-    chapters = '[]'
+    chapters = Array.new
     begin
       uri = URI.parse(url)
       #create connection
@@ -50,17 +50,14 @@ class Background
 
         #get data
         if response.kind_of? Net::HTTPSuccess
-          chapters = '['
-          chapters << '{ "start": "00:00:00.000", "title": "Intro" },'
           response.body.force_encoding("UTF-8").each_line do |line|
             time,title = line.split(' ', 2)
-            chapters << "{ \"start\": \"#{time}\", \"title\": \"#{title.strip}\"},"
+            chapters << {:start => "#{time}", :title => "#{title.strip}"}
           end
-          chapters << ']'
         end
       }
     rescue Exception => e
-      chapters = '[]'
+      chapters = Array.new
       puts e
     end
 

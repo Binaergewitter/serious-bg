@@ -12,7 +12,7 @@
               title: '<%= article.title %>',
               //duration: '02:23:47.468',
               poster: '/img/binaergewitter_logo1x1.png',
-              chapters: <%= article.chapter %>,
+              chapters: <%= article.chapter_json %>,
               audio: [
                <% article.audioformats.each_pair do |audio_format, audio_url| %>
                 {
