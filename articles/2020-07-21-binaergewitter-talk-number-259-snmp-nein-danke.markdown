@@ -70,4 +70,5 @@ Die GNUTLS Edition mit Felix, Felix und Ingo
 - [How to disable the Signal PIN](https://chaos.social/@infosechandbook/104488470835260293)
 - [Sam Drucker](https://github.com/dlangille/SamDrucker)
 - [git commit multi line](https://twitter.com/stefanjudis/status/1280762105109544960)
-- [link cleaner]( https://addons.mozilla.org/en-US/firefox/addon/link-cleaner/ )
+- [link cleaner (old)]( https://addons.mozilla.org/en-US/firefox/addon/link-cleaner/ )
+  * [Link Cleaner+ (fork)]( https://github.com/apiraino/link_cleaner ) 
