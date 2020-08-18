@@ -142,7 +142,7 @@ class Serious::Article
     chapters << '{ "start": "00:00:00.000", "title": "Intro" },'
 
     for mark in chapter do
-       chapters << "{ \"start\": \"#{mark[:time]}\", \"title\": \"#{mark[:title]}\"},"
+        chapters << "{ \"start\": \"#{mark[:start]}\", \"title\": \"#{mark[:title]}\"},"
     end
     chapters << ']'
     
