@@ -8,7 +8,7 @@
           head.ready('podlove', function () {
             podlovePlayer('#<%= article.permalink %>-player',
             {
-              link:  `{location.protocol}//{location.host}<%= article.url %>`,
+              link: `${location.protocol}//${location.host}<%= article.url %>`,
               title: '<%= article.title %>',
               //duration: '02:23:47.468',
               poster: '/img/binaergewitter_logo1x1.png',
