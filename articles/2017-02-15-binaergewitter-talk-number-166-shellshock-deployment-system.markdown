@@ -37,7 +37,7 @@ https://developers.slashdot.org/story/17/02/02/1453229/gitlab-says-it-found-lost
 - [Jenkins 16 CVEs](https://jenkins.io/security/advisory/2017-02-01/)
   * [Nix string templating example](http://nixos.org/nix/manual/#idm140737318143472)
   * Ruby string templating example: `"Hallo Welt #{ 2 + 9 }"`
-* [Denuvo hat seinen daten auf public Webserver vergessen](google: denuvo revolt)
+* [Denuvo hat seinen daten auf public Webserver vergessen]( https://www.heise.de/newsticker/meldung/Denuvo-Fehlkonfigurierter-Server-gibt-Interna-der-Sicherheitsfirma-preis-3618252.html )
 * [The next big thing: ram-only malware](https://www.heise.de/newsticker/meldung/Dateilose-Infektion-Einbruch-ohne-Spuren-3623084.html)
 - [Ticketbleed](https://filippo.io/Ticketbleed/)
 - [QI für Apple Geräte](https://www.heise.de/newsticker/meldung/Drahtlose-Ladetechnik-Qi-Apple-tritt-Wireless-Power-Consortium-bei-3623750.html)
@@ -78,4 +78,3 @@ https://developers.slashdot.org/story/17/02/02/1453229/gitlab-says-it-found-lost
 - [Rollercoaster Tycoon Classic Android](https://play.google.com/store/apps/details?id=com.atari.mobile.rctc&hl=de)
 - [dnscrypt-proxy](https://github.com/jedisct1/dnscrypt-proxy/wiki)
   * [NixOS Config](http://cgit.euer.krebsco.de/stockholm/diff/makefu/2configs/dnscrypt.nix?id=9f90562662f7fffa4aa97c704dd5d27325dbe9b7)
-

@@ -21,12 +21,12 @@ Felix, Markus und Ingo freuen sich über Farben und heulen rum.
 ## Toter der Woche
 
 - [Shoelace by Google]( https://www.engadget.com/google-shoelace-shutdown-035517446.html )
-  - [Knuddels (symbolbild)]( i.imgur.com/R3h2Rmz.png )
+  - [Knuddels (symbolbild)](https://i.imgur.com/R3h2Rmz.png )
 - [Cliqz]( https://www.heise.de/newsticker/meldung/Burda-Aus-fuer-Privatsphaere-Browser-Cliqz-4712053.html )
   * [SeaMonkey](https://en.wikipedia.org/wiki/SeaMonkey )
 - [John Conway]( https://www.golem.de/news/covid-19-mathematiker-john-conway-ist-gestorben-2004-147842.html )
 - [GVU]( https://www.heise.de/newsticker/meldung/GVU-Insolvenz-Die-Piratenjaeger-sind-pleite-4713156.html )
-- [Automatic (nicht Wordpress Automattic)]( https://twitter.com/evandcoleman/status/1256261178759753728 ) 
+- [Automatic (nicht Wordpress Automattic)]( https://twitter.com/evandcoleman/status/1256261178759753728 )
 
 ## News
 
@@ -55,13 +55,11 @@ Felix, Markus und Ingo freuen sich über Farben und heulen rum.
 
 ## Lesefoo
 - [Gewinner Revision 256byte Demoscene (youtube)]( https://www.youtube.com/watch?v=Imquk_3oFf4 )
-  - [Detaillierte Beschreibung aller effekte]( http://www.sizecoding.org/wiki/Memories ) 
+  - [Detaillierte Beschreibung aller effekte]( http://www.sizecoding.org/wiki/Memories )
 - [Types of 3D Printing Technology]( https://all3dp.com/1/types-of-3d-printers-3d-printing-technology/ )
   - [Will A Resin Printer Retire Your Filament-based One?]( https://hackaday.com/2020/04/30/3d-printering-will-a-resin-printer-retire-your-filament-based-one/ )
 
-## Picks 
+## Picks
 
 - [Free images from the british museum]( https://www.ianvisits.co.uk/blog/2020/04/28/british-museum-makes-1-9-million-images-available-for-free/ )
 - [Surviv.io]( https://surviv.io/ )
-
-

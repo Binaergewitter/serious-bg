@@ -71,4 +71,4 @@ Die GNUTLS Edition mit Felix, Felix und Ingo
 - [Sam Drucker](https://github.com/dlangille/SamDrucker)
 - [git commit multi line](https://twitter.com/stefanjudis/status/1280762105109544960)
 - [link cleaner (old)]( https://addons.mozilla.org/en-US/firefox/addon/link-cleaner/ )
-  * [Link Cleaner+ (fork)]( https://github.com/apiraino/link_cleaner ) 
+  * [Link Cleaner+ (fork)]( https://github.com/apiraino/link_cleaner )

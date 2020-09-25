@@ -56,7 +56,7 @@ audioformats:
     * [RAM compression paper](http://terpconnect.umd.edu/~barua/matt-compress-tr.pdf)
 - [SMB2 by default](http://arstechnica.com/apple/2013/06/new-os-x-uses-windows-file-sharing-by-default/)
 - [Mac Pro](http://arstechnica.com/apple/2013/06/a-critical-look-at-the-new-mac-pro/)
-    * [Bild](lh5.googleusercontent.com/-r4tMDuud5q8/Ubcdr1fQYBI/AAAAAAAAOdk/exnMsSTf64Y/w433-h612-no/photo.jpg)
+    * [Bild](https://lh5.googleusercontent.com/-r4tMDuud5q8/Ubcdr1fQYBI/AAAAAAAAOdk/exnMsSTf64Y/w433-h612-no/photo.jpg)
 - [IOS 7](http://arstechnica.com/apple/2013/06/apple-announces-flatter-sleeker-ios-7/)
     * [iOS 7 von Matt Gemmel](http://mattgemmell.com/2013/06/12/ios-7/)
 - [iTunes Radio](http://arstechnica.com/apple/2013/06/apple-steps-to-spotify-and-google-with-itunes-radio/)
@@ -119,4 +119,3 @@ https://itunes.apple.com/de/app/adobe-kuler/id632313714?l=en&mt=8)
 - [App die dir eine Guenstige Alternative fuer teuren Wein aussucht](http://au.businessinsider.com/sydney-chemists-are-building-an-app-that-can-identify-cheap-replacements-for-luxury-wines-2013-6)
     - [Drogen mit guenstigsten Mitteln simulieren](http://www.ein-plan.de/schoener/index.html)
     - [passiert](http://www.dieter-gase.de/page3.htm)
-

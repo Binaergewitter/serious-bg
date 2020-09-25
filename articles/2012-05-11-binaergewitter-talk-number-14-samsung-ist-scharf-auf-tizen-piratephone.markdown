@@ -100,7 +100,7 @@ Wieder mal sehr albern sprechen pfleidi, felix, ingo und jan über die News der 
 * [logcheck](http://logcheck.org/) (ingo)
 * [Hipster-ass Hipster bike for Hipsters](https://i.imgur.com/wdmu0.jpg) (makefu)
 * [Wasser IN SPACE](http://www.golem.de/news/raumfahrt-wasser-wabert-im-weltall-1205-91621.html)
-  * [Ganzes Wasser der Erde in einer Kugel](ga.water.usgs.gov/edu/2010/pictures/full-size/global-water-volume-large.jpg)
+  * [Ganzes Wasser der Erde in einer Kugel](https://ga.water.usgs.gov/edu/2010/pictures/full-size/global-water-volume-large.jpg)
 * [Notorious Siri](http://robb.is/working-on/notorious-siri/) (Jan)
 * [Taskmanager.xls Killer Shellcode](http://blog.didierstevens.com/2012/05/01/update-taskmanager-xls-v0-1-3-killer-shellcode/)
     - [Kill dash nine](http://www.monzy.com/intro/killdashnine_lyrics.html)

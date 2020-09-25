@@ -45,7 +45,7 @@ Mat und Felix treffen sich im Zwischenmodus um über Shellshock und Windows 10 z
 - [ReSSL](http://www.heise.de/security/meldung/ReSSL-Der-naechste-Schritt-weg-von-OpenSSL-2408561.html)
 
 - Windows 10 ... oder so
-  * [Bill Gates erklaert Windows 910](lh5.googleusercontent.com/-ULOXGAt9zJc/VC6ipZd0c9I/AAAAAAAADX0/HOQVBahYMFc/w460-h396-no/win9.jpg)
+  * [Bill Gates erklaert Windows 910](https://lh5.googleusercontent.com/-ULOXGAt9zJc/VC6ipZd0c9I/AAAAAAAADX0/HOQVBahYMFc/w460-h396-no/win9.jpg)
   * [Angeblicher Grund für Windows 10 statt Windows 9](https://i.imgur.com/p7eQQK3.png)
   * [Searchcode Suche](https://searchcode.com/?q=if%28version%2Cstartswith%28%22windows+9%22%29)
   * [Why is software OS specific](http://arstechnica.com/information-technology/2014/10/why-is-software-os-specific/)

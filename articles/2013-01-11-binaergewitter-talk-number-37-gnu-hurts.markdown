@@ -40,7 +40,7 @@ Willkommen im neuen Jahr. Bei uns bleibt trotzdem alles gleich. Der Marc ist imm
 - [Batterien mit Bluetooth 4.0 support](http://www.golem.de/news/fernsteuerung-die-bluetooth-batterie-macher-zeigen-tethercell-1301-96826.html)
 - [Welcome to Star Wars - Der deutsche Superlaser](http://singularityhub.com/2013/01/07/german-military-laser-destroys-targets-over-1km-away/)
 - [Instagram will all deine Bilder verkaufen](http://tech.slashdot.org/story/12/12/18/1334204/instagram-wants-to-sell-users-photos-without-notice)
-    - [.. und rudert etwas zurueck nach backfire](INSERT_LINK_HERE)
+    - .. und rudert etwas zurueck nach backfire
 - [Ruby on Rails verschiedene(!) Sicherheitsprobleme]()
     * [SQL-Injection mit bekanntem Secret Token](http://blog.phusion.nl/2013/01/03/rails-sql-injection-vulnerability-hold-your-horses-here-are-the-facts/)
     * [Remote Code Execution in RoR (massiv-nuklear kritisch)](https://groups.google.com/forum/#!topic/rubyonrails-security/61bkgvnSGTQ/discussion)
@@ -85,4 +85,3 @@ Willkommen im neuen Jahr. Bei uns bleibt trotzdem alles gleich. Der Marc ist imm
 - [Howdoi](https://github.com/gleitz/howdoi)
 - [AltJS](http://altjs.org/) (pfleidi)
 - [Mr Spock erklaert `The Hobbit`](http://www.youtube.com/watch?v=ZQ_duzQzS1I)
-
