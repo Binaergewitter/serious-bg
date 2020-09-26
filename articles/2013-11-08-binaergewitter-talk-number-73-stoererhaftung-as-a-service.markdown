@@ -43,7 +43,7 @@ Wieder mal alle dabei bei der großen Party. Diesmal gehts wieder um Bitcoin, vi
 ## News
 
 - [Netty 4](https://blog.twitter.com/2013/netty-4-at-twitter-reduced-gc-overhead)
-- [Adobe hat unendlich viele Passwrter verloren](LINK ME)
+- [Adobe hat unendlich viele Passwörter verloren]( https://krebsonsecurity.com/2013/10/adobe-breach-impacted-at-least-38-million-users/ )
     * [XKCD dazu](http://www.explainxkcd.com/wiki/index.php?title=1286)
 - [Bitcoin ist unendlich viel Geld wert](http://bitcoinity.org/markets)
 - [Bitcoin wallet service inputs.io gepwned](https://inputs.io/)

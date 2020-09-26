@@ -15,7 +15,7 @@ Das neue Studiosetup ist so gut wie fertig, dafür haben wir pfleidi diesmal ver
 ## Rubrik der Woche
 ### Security Fuckups der Woche
 * [App Locker App stirbt an Smileys](http://www.androidincanada.ca/news/vulnerability-for-asus-app-app-locker-found/)
-* [Yahoo Username/Passwoerter frei zum Download](HN Artikel)
+* Yahoo Username/Passwoerter frei zum Download
 * [Instagram Friendship Authorization](http://packetstormsecurity.org/files/114639/instagram-auth.txt)
 * [Need a debit card](https://twitter.com/NeedADebitCard)
 * [Heise Bericht über manipulierbare Kartenterminals](http://www.heise.de/newsticker/meldung/EC-Karten-PIN-Klau-am-Kartenterminal-moeglich-1636550.html)
@@ -87,4 +87,3 @@ Das neue Studiosetup ist so gut wie fertig, dafür haben wir pfleidi diesmal ver
 - [fsarchiver](http://www.fsarchiver.org)
 - [tahoe-lafs](https://tahoe-lafs.org/trac/tahoe-lafs)
 - [Mailbox for Python](http://docs.python.org/library/mailbox.html)
-

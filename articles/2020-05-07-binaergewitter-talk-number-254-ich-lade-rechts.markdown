@@ -29,11 +29,11 @@ Noch einmal eine große Runde mit Felix², Markus und Ingo...
 
 ## Toter der Woche
 
-- [pro-linux](www.pro-linux.de)
+- [pro-linux]( https://www.pro-linux.de )
   * [linuxnews.de]( https://linuxnews.de )
   * [linux-magazin](https://www.linux-magazin.de/)
 
- 
+
 
 ## News
 

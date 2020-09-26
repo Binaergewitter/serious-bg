@@ -18,7 +18,7 @@ Live vom #36c3 aus dem Sendezentrum. Wir sind in Leipzig und reden über den Con
 - Danke fürs Bier und Mate
   * [Flora Power](https://www.flora-power.de/)
 - uMatrix als Nerdalternative zu uBlock origin
-- ein etherpad mit farben - [board.net](board.net)
+- ein etherpad mit farben - [board.net](https://board.net)
 
 ## Toter der Woche
 - [Computerclub Wolfgang Beck ist tot]( https://www.heise.de/newsticker/meldung/WDR-Computerclub-Wolfgang-Back-ist-tot-4620607.html )
@@ -31,13 +31,13 @@ Live vom #36c3 aus dem Sendezentrum. Wir sind in Leipzig und reden über den Con
 
 ## News
 - [Vim 8.2]( https://www.vim.org/vim-8.2-released.php )
-- [Purism drei Varianten des Librem Server mit coreboot]( https://www.heise.de/newsticker/meldung/Rack-Server-mit-offener-BIOS-Alternative-Coreboot-4619206.html )
+- [Purism drei Varianten des Librem Server mit coreboot](https://www.heise.de/newsticker/meldung/Rack-Server-mit-offener-BIOS-Alternative-Coreboot-4619206.html )
 - [FUSE for MacOS]( https://www.theregister.co.uk/2019/12/16/fuse_for_macos_why_a_popular_open_source_library_became_closed_source_and_commercially_licensed/ )
 - [Maschienengewehre an Drohnen](https://tech.slashdot.org/story/19/12/13/1840229/turkey-is-getting-military-drones-armed-with-machine-guns )
  * EU Mitlitär Fond
 - [Cern wird MS frei](https://www.pro-linux.de/news/1/27689/cern-beginnt-mit-abkehr-von-microsoft.html )
-- [Free Software Song um 00:00]( 
-https://www.youtube.com/watch?v=9sJUDx7iEJw ) 
+- [Free Software Song um 00:00](
+https://www.youtube.com/watch?v=9sJUDx7iEJw )
 - [Ruby 2.7.0]( https://www.ruby-lang.org/en/news/2019/12/25/ruby-2-7-0-relezased/ )
   * [list of changes]( https://prathamesh.tech/2019/12/25/all-you-need-to-know-about-ruby-2-7/ )
   * [on heroku now]( https://blog.heroku.com/ruby-2-7-0-holiday-release )
@@ -46,7 +46,7 @@ https://www.youtube.com/watch?v=9sJUDx7iEJw )
   * IRB mit syntax highlighting
   * Pattern matching (Experimental)
   * Argument forwarding `(...)` [Feature #16253](https://bugs.ruby-lang.org/issues/16253)
-  * Introducting Module#const_source_location 
+  * Introducting Module#const_source_location
   * Better JIT (still optional with `--jit`)
 - [OpenZFS Developer Summit 2019]( http://www.open-zfs.org/wiki/OpenZFS_Developer_Summit_2019 )
   * [SAN/NAS planer]( https://www.osnexus.com/zfs-designer )
