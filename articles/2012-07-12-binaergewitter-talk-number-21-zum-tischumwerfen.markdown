@@ -41,7 +41,7 @@ Das neue Studiosetup ist so gut wie fertig, dafür haben wir pfleidi diesmal ver
 * [Nokia mobile maps webapp](http://m.maps.nokia.com/#action=search&params=%7B%7D&bmk=1)
  * [Nokia hat Navteq gekauft](http://de.wikipedia.org/wiki/Navteq)
 - [Gridspot](https://gridspot.com/compute/)
-* [Mac OS Mountain Lion GM](internet://InstallESD.dmg)
+* [Mac OS Mountain Lion GM]( https://www.heise.de/mac-and-i/meldung/Apple-liefert-Golden-Master-von-OS-X-Mountain-Lion-aus-1635328.html )
 * [Apple verliert "Green Hardware" Certification](http://apple.slashdot.org/story/12/07/07/2140231/apple-exits-green-hardware-certification-program)
 * [Von Neuroscience zum Militaerprojekt](http://chronicle.com/article/From-Bench-to-Bunker-/132743/)
   * [Binärgewitter Spezial 4](http://blog.binaergewitter.de/blog/2012/05/17/binaergewitter-spezial-number-4-distributed-computing/)
@@ -71,10 +71,10 @@ Das neue Studiosetup ist so gut wie fertig, dafür haben wir pfleidi diesmal ver
 * [Blerg](https://github.com/Binaergewitter/serious-bg)
 
 ## Lesefoo
-* [NginX Architecture overview](http://www.aosabook.org/en/nginx.html)  (Marc)
+* [NGINX Architecture overview](http://www.aosabook.org/en/nginx.html)  (Marc)
 
 ## Mimimi der Woche
-* [C++](wtf://lol) (Marc)
+* C++ (Marc)
 
 ## Picks
 - [Pancake Kissen](https://lh5.googleusercontent.com/-zkz8G_CUnvE/T_7tBMbrhEI/AAAAAAAAIn4/g0_c6hlBoCA/s735/Pancake.jpeg)
@@ -86,4 +86,4 @@ Das neue Studiosetup ist so gut wie fertig, dafür haben wir pfleidi diesmal ver
 - [Bootswatch](http://bootswatch.com/)
 - [fsarchiver](http://www.fsarchiver.org)
 - [tahoe-lafs](https://tahoe-lafs.org/trac/tahoe-lafs)
-- [Mailbox for Python](http://docs.python.org/library/mailbox.html)
+- [Mailbox for Python](https://docs.python.org/3/library/mailbox.html)
