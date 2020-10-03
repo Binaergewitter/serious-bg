@@ -11,7 +11,7 @@ audioformats:
   m4a: http://download.binaergewitter.de/2013-04-18.Binaergewitter.Talk.49.m4a
   opus: http://download.binaergewitter.de/2013-04-18.Binaergewitter.Talk.49.opus
 ---
-Alle wieder beisammen tiegern wir durch die News der letzten Woche. Marc berichtet wieder über Bitcoins und wir streiten uns über den (Un)Sinn Autos mit Versicherungen zu verbinden....
+Alle wieder beisammen tigern wir durch die News der letzten Woche. Marc berichtet wieder über Bitcoins und wir streiten uns über den (Un)Sinn Autos mit Versicherungen zu verbinden....
 
 ## Toter der Woche
 
@@ -62,7 +62,7 @@ http://www.dailymail.co.uk/news/article-2304985/Romanian-lawyer-sues-bishop-prie
     * [Bitfloor zu](https://bitfloor.com/)
 - [Amazons anonymous mobile payments](http://www.heise.de/newsticker/meldung/Amazon-patentiert-anonymes-Bezahlverfahren-1844154.html)
     * [Cryptcard](https://cryptcard.org/)
-    * [Paysafecard](wtf:://bbq)
+    * [Paysafecard]( https://https://www.paysafecard.com)
 - [Postgres bekommt mehr JSON Funktionen](http://www.heise.de/developer/meldung/PostgreSQL-bekommt-mehr-JSON-Funktionen-1839686.html)
     * [Solr vs Elasticsearch](http://solr-vs-elasticsearch.com/)
 - [Immer weniger Leute benutzen die GPL](http://www.golem.de/news/lizenzen-der-rueckgang-der-gpl-1304-98809.html)

@@ -61,7 +61,7 @@ Security Foo.
     * [John Carmac - Listen to the daaaaawg](http://superuser.com/questions/419070/transatlantic-ping-faster-than-sending-a-pixel-to-the-screen)
     * [Hypercritical #68](http://5by5.tv/hypercritical/68)
 - [The Zynga Counterrevolution](http://www.mediumdifficulty.com/2012/07/11/0-xp-the-zynga-counterrevolution/)
-- [research chemicals](lol://drogen)
+- [research chemicals]( https://checkit.wien/substanzen/research-chemicals-rcs/ )
 - [Gizmodo hat herausgefunden wofuer Bitcoins gut sind - Waffen und Pr0n](http://gizmodo.com/5927379)
 
 ## Lesefoo
@@ -94,5 +94,3 @@ Security Foo.
         - Fix: Turn off the Service
     - [PJL DMINFO ASCIIHEX](http://techref.massmind.org/techref/printer/hp/pmlfaq.htm)
     - [Hacking Printer Basics](http://hackonadime.blogspot.de/2011/12/hacking-printers-pjl-basics.html)
-
-
