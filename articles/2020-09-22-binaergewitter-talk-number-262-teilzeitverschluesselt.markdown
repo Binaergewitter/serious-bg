@@ -25,7 +25,7 @@ Felix, Felix und Ingo. Müssen reden. Über Messanger und UMTS Abschaltung. Gara
 - [piratebay.org unter falscher Flagge]( https://piratebay.org/ )
 
 ## Toter der Woche
-- Chaos Communication Congress 
+- Chaos Communication Congress
  * [rC3 – remote Chaos Experience]( https://events.ccc.de/2020/09/04/rc3-remote-chaos-experience/ )
 - [uMatrix]( https://www.ghacks.net/2020/09/20/umatrix-development-has-ended/ )
 - [UMTS in Deutschland]( https://www.heise.de/news/Deutsche-Telekom-UMTS-wird-im-Sommer-2021-abgeschaltet-4905633.html )
@@ -38,8 +38,8 @@ Felix, Felix und Ingo. Müssen reden. Über Messanger und UMTS Abschaltung. Gara
   * [system76](https://system76.com/ )
   * [tuxedo](https://www.tuxedocomputers.com/)
 - [Wireshark version in dev (3.3.0)]( https://twitter.com/chrissanders88/status/1306262108665982976 )
-- [Leben auf Venus?]( )
-  * [Carl Sagan hats gesagt, 1967]( https://mashable.com/article/venus-life-theory-carl-sagan/?europe=true ) 
+- [Leben auf Venus?]( https://www.tagesschau.de/inland/leben-venus-101.html )
+  * [Carl Sagan hats gesagt, 1967]( https://mashable.com/article/venus-life-theory-carl-sagan/?europe=true )
   * [XKCD]( https://xkcd.com/2359/ )
 - [Die drei Sonne](https://amzn.to/3kB4x9Q )
 - [Der dunkle Wald](https://amzn.to/3hVqRsW )
@@ -62,7 +62,7 @@ Felix, Felix und Ingo. Müssen reden. Über Messanger und UMTS Abschaltung. Gara
 ## Themen
 - [Staubsauger Roborock S6]( https://amzn.to/30040Gu )
   * [Valentudo - alternative Firmware]( https://valetudo.cloud/ )
-  * [Neato Signature Pro (keine Cloud)]( )
+  * [Neato Signature Pro (keine Cloud)]( https://www.amazon.de/NEATO-945-0065-Neato-Signature-Pro )
   * [The Roomba That Screams When it Bumps Into Stuff]( https://youtu.be/mvz3LRK263E )
 
 
@@ -79,9 +79,9 @@ Felix, Felix und Ingo. Müssen reden. Über Messanger und UMTS Abschaltung. Gara
 ## Picks
 
 - [NixOS]( https://nixos.org/ )
-- [wifi-backup](https://pypi.org/project/wifi-backup/ )
+- [wifi-backup]( https://pypi.org/project/wifi-backup/ )
   - /etc/NetworkManager/system-connections evtl auch bei euch
 - [Kubernetes YAML generator]( https://k8syaml.com/ )
 - [Ventoy - Next-gen Universal Boot CD?]( https://www.ventoy.net/en/index.html )
 - [DSL over a banana]( https://twitter.com/vidister/status/1304542559210024962 )
-  * [Broadband over 'wet string' tested for fun](https://www.bbc.com/news/technology-42338067)
+  * [Broadband over 'wet string' tested for fun]( https://www.bbc.com/news/technology-42338067 )
