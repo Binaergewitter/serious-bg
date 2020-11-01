@@ -37,7 +37,7 @@ Eine Sendung über Distros und passiv, agressives Smarthome.
 - USB stick
 - ["I want to be a pirate": Monkey Island feiert 30. Geburtstag]( https://www.heise.de/news/I-want-to-be-a-pirate-Monkey-Island-feiert-30-Geburtstag-4929626.html )
 - Bill Gates
-  * https://forum.dangerousthings.com/uploads/default/original/2X/4/455ff443a8a422ad09a403698bc6cfbc483d9f68.jpeg
+  * [change my mind](https://forum.dangerousthings.com/uploads/default/original/2X/4/455ff443a8a422ad09a403698bc6cfbc483d9f68.jpeg)
 - John MacAfee - September 18, 1945
 
 ## News
@@ -72,7 +72,7 @@ Eine Sendung über Distros und passiv, agressives Smarthome.
 - [The Tao of Microservices - Richard Rodger]( https://www.amazon.com/Tao-Microservices-Richard-Rodger/dp/1617293148 )
 - [nocode]( https://github.com/kelseyhightower/nocode )
 - [Und plötzlich war Frau Honig da]( https://amzn.to/3oEGPfC )
-  - [Finger Up Down Meme]( https://i.imgur.com/YAGpXPd.png )
+  * [Finger Up Down Meme]( https://i.imgur.com/YAGpXPd.png )
 
 ## Picks
 - [bongo.cat]( https://bongo.cat/ )
