@@ -70,9 +70,10 @@ audioformats:
 - LoRa?
     - [LoRa auf Wikipedia](https://en.wikipedia.org/wiki/LoRa#LoRaWAN)
     - [LoRa/LoraWAN Video](https://youtu.be/hMOwbNUpDQA)
+
 ## Luftqualität
 
-pfleidi
+**pfleidi:**
 
 - Awair
 - [CO2 Sensor](https://esphome.io/components/sensor/mhz19.html)
@@ -82,7 +83,7 @@ pfleidi
 - [IQAir integration](https://www.home-assistant.io/integrations/airvisual/)
 - [World Air Quality Index Integration](https://www.home-assistant.io/integrations/waqi/)
 
-Marc:
+**Marc:**
 
 - [SDS011](https://esphome.io/components/sensor/sds011.html)
 - CO2 ist kaputt weil Marc nicht löten kann (glaub ich)
@@ -93,7 +94,6 @@ Marc:
 - Miflora
 
 ## Outputs
-
 
 - Licht
 - Heizung
@@ -109,7 +109,6 @@ Marc:
 - Staubsauger
 
 # Kamera Zeug
-
 
 - YIHome Indoor / Outdoor + hack
   - Hacker werden hacken:
@@ -129,4 +128,3 @@ Marc:
 - Solargebimmel:
     - Zuerst: USB zeug + battery pack
     - Nun: Panel + Batterie + Controller
-
