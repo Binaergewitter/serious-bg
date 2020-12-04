@@ -7,10 +7,10 @@ categories: westcoast
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2020-11-26.Binaergewitter.Westcoast.7.mp3
-  ogg: http://download.binaergewitter.de/2020-11-26.Binaergewitter.Westcoast.7.ogg
-  m4a: http://download.binaergewitter.de/2020-11-26.Binaergewitter.Westcoast.7.m4a
-  opus: http://download.binaergewitter.de/2020-11-26.Binaergewitter.Westcoast.7.opus
+  mp3: http://download.binaergewitter.de/2020-12-04.Binaergewitter.Westcoast.7.mp3
+  ogg: http://download.binaergewitter.de/2020-12-04.Binaergewitter.Westcoast.7.ogg
+  m4a: http://download.binaergewitter.de/2020-12-04.Binaergewitter.Westcoast.7.m4a
+  opus: http://download.binaergewitter.de/2020-12-04.Binaergewitter.Westcoast.7.opus
 ---
 
 Mit [@pfleidi](https://twitter.com/pfleidi) und [Marc](https://twitter.com/rb2k)
