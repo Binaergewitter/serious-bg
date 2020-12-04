@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Binärgewitter Westcoast #7: Ethernet Loch"
-date: 2020-11-26 16:00
+date: 2020-12-04 16:00
 comments: true
 categories: westcoast
 sharing: true
