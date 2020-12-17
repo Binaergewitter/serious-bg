@@ -54,11 +54,11 @@ Wir wünschen euch trotzallem eine schöne Weihnachtszeit und hören uns hoffent
   * [speedrun]( https://www.youtube.com/watch?v=jtMeBV85Wdo )
   * [Fix the manhole covers](https://www.change.org/p/the-cyberpunk-developers-fix-the-manhole-covers-in-cyberpunk-2077 )
 - [FreeBSD Import kernel WireGuard support](https://svnweb.freebsd.org/base?view=revision&revision=368163 )
-- Kampf dem Krank-Googlen! https://www.linux-magazin.de/news/google-und-gesundheitsministerium-starten-knowledge-panels/
-  - [Grippe bei makefu]( https://p.krebsco.de/image/012k0p7 )
+- [Kampf dem Krank-Googlen!](https://www.linux-magazin.de/news/google-und-gesundheitsministerium-starten-knowledge-panels/)
+  * [Grippe bei makefu]( https://p.krebsco.de/image/012k0p7 )
 - [Gimp wird 25 Jahre alt]( https://www.heise.de/news/Freie-Bildbearbeitung-Gimp-wird-25-Jahre-alt-4961575.html )
   * [GIMP, 2.99.2 mit native support for Wayland and HiDPI displays](https://www.gimp.org/news/2020/11/06/gimp-2-99-2-released/)
-  * https://github.com/glimpse-editor/Glimpse
+  * [Glimpse](https://github.com/glimpse-editor/Glimpse)
 - [Pulse Audio wird ausrangiert](https://www.linux-magazin.de/news/fedora-diskutiert-neues-audio-videoframework/)
   * [CRE 209 Das Linux system](https://cre.fm/cre209-das-linux-system)
 - [Finding Critical Open Source Projects]( https://opensource.googleblog.com/2020/12/finding-critical-open-source-projects.html )
@@ -70,7 +70,6 @@ Wir wünschen euch trotzallem eine schöne Weihnachtszeit und hören uns hoffent
   * [ARM Chips Wikipedia]( https://de.wikipedia.org/wiki/Arm-Architektur )
 - [How-To Revert HP Printer Firmware Ban on 3rd-Party Toner Cartridges]( https://kevin.deldycke.com/2020/11/revert-hp-printer-ban-on-third-party-ink-cartridges/ )
 - [GitHub Source Code Leak](https://resynth1943.net/articles/github-source-code-leak/ )
-
 
 ## Mimimi der Woche
 - [pass app for android](https://twitter.com/l33tname/status/1337133694776172544 )
