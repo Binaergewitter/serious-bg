@@ -16,13 +16,13 @@ audioformats:
 Live vom rC3 im Sendezentrum und damit unter Zeitdruck senden wir zu 4 unseren Jahresausklang.
 
 - rC3
- * 2D World
-   * Interessant für die Arbeit?
-   * Badges
- * Vorträge
- ** [3D Printing basics]( https://media.ccc.de/v/cccs-rc3-3dprinting )
- ** [Marc Uwe Kling ]( )
- ** [Uwe / Premium "als Gemeinschaft stark durch Kriesen"]( https://media.ccc.de/v/rc3-335505-als_gemeinschaft_stark_durch_krisen#t=1565 )
+  * 2D World
+    - Interessant für die Arbeit?
+    - Badges
+  * Vorträge
+    - [3D Printing basics]( https://media.ccc.de/v/cccs-rc3-3dprinting )
+    - [Marc Uwe Kling ]( )
+    - [Uwe / Premium "als Gemeinschaft stark durch Kriesen"]( https://media.ccc.de/v/rc3-335505-als_gemeinschaft_stark_durch_krisen#t=1565 )
  * Hörertreffen
  * [NoiseTorch]( https://github.com/lawl/NoiseTorch )
 
@@ -44,11 +44,6 @@ Live vom rC3 im Sendezentrum und damit unter Zeitdruck senden wir zu 4 unseren J
 - [RAM Riegel wird zu WLAN sender]( https://winfuture.de/news,120073.html )
 - [Geb 4.0]( https://twitter.com/GebFramework/status/1343577567337582592 )
 
-## Themen
-
-- interessante Weihnachtsgeschenke bekommen?
--> Nein.
-
 ## Mimimi der Woche
 - rc3 Merch
 - XQD-Speicherkarten Preise
@@ -59,5 +54,3 @@ Live vom rC3 im Sendezentrum und damit unter Zeitdruck senden wir zu 4 unseren J
 - 5 jahre [5 Minuten Harry Podcast #18 - Popobums](https://www.youtube.com/watch?v=gkBGYmc9Adk)
 - [GitHub Wrapped]( https://githubwrapped.tech/ )
 - [PRET: Printer exploitation Kit]( https://github.com/RUB-NDS/PRET )
-
-
