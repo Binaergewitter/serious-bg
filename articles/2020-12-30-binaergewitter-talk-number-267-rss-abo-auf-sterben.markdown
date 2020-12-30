@@ -15,16 +15,15 @@ audioformats:
 ---
 Live vom rC3 im Sendezentrum und damit unter Zeitdruck senden wir zu 4 unseren Jahresausklang.
 
-- rC3
-  * 2D World
-    - Interessant für die Arbeit?
-    - Badges
-  * Vorträge
-    - [3D Printing basics]( https://media.ccc.de/v/cccs-rc3-3dprinting )
-    - [Marc Uwe Kling ]( )
-    - [Uwe / Premium "als Gemeinschaft stark durch Kriesen"]( https://media.ccc.de/v/rc3-335505-als_gemeinschaft_stark_durch_krisen#t=1565 )
- * Hörertreffen
- * [NoiseTorch]( https://github.com/lawl/NoiseTorch )
+* 2D World
+  - Interessant für die Arbeit?
+  - Badges
+* Vorträge
+  - [3D Printing basics]( https://media.ccc.de/v/cccs-rc3-3dprinting )
+  - [Marc Uwe Kling ]( )
+  - [Uwe / Premium "als Gemeinschaft stark durch Kriesen"]( https://media.ccc.de/v/rc3-335505-als_gemeinschaft_stark_durch_krisen#t=1565 )
+* Hörertreffen
+* [NoiseTorch]( https://github.com/lawl/NoiseTorch )
 
 ## Toter der Woche
 - [Let's Crack Zodiac - Episode 5 - The 340 Is Solved!(video)]( https://www.youtube.com/watch?v=-1oQLPRE21o )
