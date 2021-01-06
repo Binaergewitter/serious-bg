@@ -50,7 +50,7 @@ Die folgenden Sendungen verschieben sich wegen Groupware Diskusionen um mehrere 
 - [Kontakt-Tracking API in Android und iOS]( https://www.heise.de/newsticker/meldung/Coronavirus-Kontaktverfolgung-wird-Teil-von-Android-und-iOS-4702166.html )
  * [Erklärvideo: Die Tracking App die nicht trackt]( https://twitter.com/jschieb/status/1251210851526291457 )
  * [Streit um PEPP-PT zwischen Schweizern und Deutschen]( https://www.bzbasel.ch/leben/digital/eklat-bei-europaeischer-corona-app-deutsche-schmeissen-schweizer-loesung-raus-137675176 )
- https://www.cnet.com/news/apple-and-google-say-they-will-shut-down-covid-19-tracking-tools-once-pandemic-ends/
+ * [Apple, Google to terminate COVID-19 tracking tools once pandemic ends](https://www.cnet.com/news/apple-and-google-say-they-will-shut-down-covid-19-tracking-tools-once-pandemic-ends/)
 
 ## Mimimi der Woche
 - Disney+  
