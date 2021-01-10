@@ -1,9 +1,0 @@
-sudo: false
-language: ruby
-# NOTE: install bundler 2.0 manually
-# https://docs.travis-ci.com/user/languages/ruby/#bundler-20
-before_install:
-    - gem install bundler
-cache: bundler
-rvm:
-  - 2.7.1
