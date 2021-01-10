@@ -17,13 +17,11 @@ audioformats:
 Felix, Felix, Markus und Ingo präsentieren euch auch 2021 wieder ihre News der letzten Tage :)
 
 # Intro
-
 - 10 Jahre
   * [NoSQL Sendung](http://blog.binaergewitter.de/2011/01/09/binaergewitter-number-1-nosql/ )
   * [BTG stats]( https://github.com/Binaergewitter/stats )
 
 ## Toter der Woche
-
 - ["Please be aware travis-ci.org will be shutting down in several weeks, with all accounts migrating to travis-ci.com. Please stay tuned here for more information."]( https://docs.travis-ci.com/user/migrate/open-source-repository-migration )
   * [The new pricing model for travis-ci.com](https://blog.travis-ci.com/2020-11-02-travis-ci-new-billing)
 - [Whatsapp wird Daten teilen]( https://www.heise.de/news/WhatsApp-aendert-Nutzungsbedingungen-Daten-werden-mit-Facebook-geteilt-5005893.html )
@@ -31,11 +29,10 @@ Felix, Felix, Markus und Ingo präsentieren euch auch 2021 wieder ihre News der 
   * [Messenger Überblick]( https://wiki.piratenpartei.de/Sichere_Messenger )
 
 ## Blast from the Past
-
 - [Zeitzone Wuhan GMT+8]( http://blog.binaergewitter.de/2020/12/30/binaergewitter-talk-number-267-rss-abo-auf-sterben/#isso-1852 )
   * Nepal GMT+5:45
   * [World Map]( https://upload.wikimedia.org/wikipedia/commons/8/88/World_Time_Zones_Map.png )
-  * https://citymonitor.ai/horizons/here-are-some-worlds-most-stupid-time-zones-2863
+  * [Here are some of the world's most stupid time zones](https://citymonitor.ai/horizons/here-are-some-worlds-most-stupid-time-zones-2863)
 - [Borderlands 3]( http://blog.binaergewitter.de/2020/04/18/binaergewitter-talk-number-252-kannste-so-sagen/ )
   * yay Chaptermarks
   * 1x crashed
@@ -51,7 +48,6 @@ Felix, Felix, Markus und Ingo präsentieren euch auch 2021 wieder ihre News der 
   * T-mobile G1
 
 ## News
-
 - [Docker Hub rate limiting]( https://www.docker.com/blog/what-you-need-to-know-about-upcoming-docker-hub-rate-limiting/ )
 - [Linux: Experimenteller Wayland-Treiber für Wine vorgestellt](https://www.heise.de/news/Linux-Experimenteller-Wayland-Treiber-fuer-Wine-vorgestellt-4995698.html)
 - [Russia Cyber Hack]( https://www.nytimes.com/2021/01/06/us/politics/russia-cyber-hack.html )
@@ -70,7 +66,7 @@ Felix, Felix, Markus und Ingo präsentieren euch auch 2021 wieder ihre News der 
 ## Mimimi der Woche
 - [Nvidia GTX 980](https://www.if-not-true-then-false.com/2015/fedora-nvidia-guide/)
 - "Möchtest du YouTube wirklich verlassen?" Fragen
-- [Netzwerkspeaker]
+- Netzwerkspeaker
   * [Phoniebox](http://phoniebox.de/ )
   * [RPi Jukebox](https://github.com/MiczFlor/RPi-Jukebox-RFID )
   * [Musiccast 20](https://de.yamaha.com/de/products/audio_visual/desktop_audio/musiccast_20/index.html )
@@ -92,4 +88,4 @@ Felix, Felix, Markus und Ingo präsentieren euch auch 2021 wieder ihre News der 
 - [JoplinApp](https://joplinapp.org/ )
 - [Sci-Hub]( https://twitter.com/NathOnSecurity/status/1347554046635364354 )
 - [fosdem]( https://fosdem.org/2021/ )
-- https://pine64.com/product/pinecil-smart-mini-portable-soldering-iron/?v=0446c16e2e66
+- [PINECIL – Smart Mini Portable Soldering Iron](https://pine64.com/product/pinecil-smart-mini-portable-soldering-iron/?v=0446c16e2e66)
