@@ -16,7 +16,7 @@ audioformats:
 10 Jahre Binärgewitter. Das müssen wir mit einer Sendung feiern :)
 Felix, Felix, Markus und Ingo präsentieren euch auch 2021 wieder ihre News der letzten Tage :)
 
-#Intro
+# Intro
 
 - 10 Jahre
   * [NoSQL Sendung](http://blog.binaergewitter.de/2011/01/09/binaergewitter-number-1-nosql/ )
@@ -25,9 +25,9 @@ Felix, Felix, Markus und Ingo präsentieren euch auch 2021 wieder ihre News der 
 ## Toter der Woche
 
 - ["Please be aware travis-ci.org will be shutting down in several weeks, with all accounts migrating to travis-ci.com. Please stay tuned here for more information."]( https://docs.travis-ci.com/user/migrate/open-source-repository-migration )
-* https://blog.travis-ci.com/2020-11-02-travis-ci-new-billing
+  * [The new pricing model for travis-ci.com](https://blog.travis-ci.com/2020-11-02-travis-ci-new-billing)
 - [Whatsapp wird Daten teilen]( https://www.heise.de/news/WhatsApp-aendert-Nutzungsbedingungen-Daten-werden-mit-Facebook-geteilt-5005893.html )
-  * https://www.heise.de/news/Signal-Messenger-Ansturm-neuer-Nutzer-ueberlastet-Signals-Anmeldesystem-5018215.html
+  * [Signal Messenger: Ansturm neuer Nutzer überlastet Signals Anmeldesystem](https://www.heise.de/news/Signal-Messenger-Ansturm-neuer-Nutzer-ueberlastet-Signals-Anmeldesystem-5018215.html)
   * [Messenger Überblick]( https://wiki.piratenpartei.de/Sichere_Messenger )
 
 ## Blast from the Past
