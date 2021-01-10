@@ -2,7 +2,7 @@
 
 Oh hai!
 
-[![Build Status](https://travis-ci.org/Binaergewitter/serious-bg.svg?branch=master)](https://travis-ci.org/Binaergewitter/serious-bg)
+[![CI](https://github.com/Binaergewitter/serious-bg/workflows/CI/badge.svg?branch=master)](https://github.com/Binaergewitter/serious-bg/actions/)
 [![Support us on Patreon](http://ionicabizau.github.io/badges/patreon.svg)](https://www.patreon.com/Binaergewitter) 
 [![Donate](https://img.shields.io/liberapay/patrons/Binaergewitter.svg?logo=liberapay)](https://liberapay.com/Binaergewitter)
 
