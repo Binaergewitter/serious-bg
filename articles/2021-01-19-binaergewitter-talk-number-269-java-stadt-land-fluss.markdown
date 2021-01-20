@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Binärgewitter Talk #268: Java Stadt, Land, Fluss"
+title: "Binärgewitter Talk #269: Java Stadt, Land, Fluss"
 date: 2021-01-19 18:30
 comments: true
 categories: talk
@@ -24,7 +24,7 @@ Diesmal hoffentlich mit lauterem l33tname und viel elastic.
 - [Prophezeiung: Fitbit ist im "soon-to-be-killed-by-google" Club!]( https://www.heise.de/news/Google-schliesst-Fitbit-Uebernahme-ab-5024699.html )
   * [Xiaomi Amazfit Bip]( https://amzn.to/33YQupg )
   * [Pinetime]( https://www.pine64.org/pinetime/ )
-  * [Pebble]( https://de.wikipedia.org/wiki/Pebble_(Smartwatch))
+  * [Pebble]( https://de.wikipedia.org/wiki/Pebble_\(Smartwatch\))
 - Kibana / Elastic
   * [Difference between MongoDB SSPL and GNU AGPL]( https://opensource.stackexchange.com/questions/8025/difference-between-mongodb-sspl-and-gnu-agpl )
   * [The Dark Side of MongoDB’s New License]( https://www.scylladb.com/2018/10/22/the-dark-side-of-mongodbs-new-license/ )
@@ -63,14 +63,11 @@ rc3 als inspiration
 deployment von Workadventure im internen netzwerk (docker, Intercepting proxies, coturn)
 Sehr positives feedback und viele Ideen
 
-Wie bewältigt ihr euren Arbeitsalltag?
--> mit Schlittenfahren
-
 eigene Karten
  - tiled
 - deployment:
-    - NixOS: https://git.shackspace.de/rz/stockholm/blob/master/makefu/2configs/workadventure/workadventure.nix
-    - Upstream: https://github.com/thecodingmachine/workadventure/blob/develop/deeployer.libsonnet
+    - NixOS: [config](https://git.shackspace.de/rz/stockholm/blob/master/makefu/2configs/workadventure/workadventure.nix)
+    - Upstream: [config](https://github.com/thecodingmachine/workadventure/blob/develop/deeployer.libsonnet)
 
 ## Mimimi der Woche
 - mastodon update
