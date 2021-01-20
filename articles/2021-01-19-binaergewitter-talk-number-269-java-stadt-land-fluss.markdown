@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Binärgewitter Talk #268: Java Stadt, Land, Fluss"
-date: 2021-01-09 18:30
+date: 2021-01-19 18:30
 comments: true
 categories: talk
 sharing: true
