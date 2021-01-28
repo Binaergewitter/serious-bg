@@ -40,6 +40,7 @@ class Background
 
   def self.get_chapters(url)
     chapters = Array.new
+    return chapters if url.nil?
     begin
       uri = URI.parse(url)
       #create connection

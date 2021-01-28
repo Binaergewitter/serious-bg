@@ -12,6 +12,7 @@ class SmokeTest < Test::Unit::TestCase
 
   def setup
     stub_request(:head, /download.binaergewitter.de.*/).to_return(:status => 200, :body => "", :headers => {'Content-Length' => '123456'})
+    stub_request(:get, /download.binaergewitter.de.*/).to_return(:status => 200, :body => "", :headers => {'Content-Length' => '123456'})
   end
 
   def app
