@@ -51,13 +51,13 @@ Wir sind wieder da.
   * [12 Factor](https://12factor.net/ )
   * [OCIS Architecture sketch](https://owncloud.github.io/ocis/ )
   * [isitsoup](https://isitsoup.l33t.name/#/)
-- https://www.linux-magazin.de/news/insider-red-hat-hatte-kein-interesse-mehr-an-centos/
-- https://linuxnews.de/2021/01/rocky-linux-red-hat-kontert-mit-kostenfreien-lizenzen/
-- https://www.heise.de/news/Online-Storage-Dienstleister-Backblaze-veroeffentlicht-Festplatten-Ausfallraten-5040846.html
-- https://www.heise.de/news/Vernetzte-Register-Bundestag-macht-die-Steuer-ID-zur-Buergernummer-5040215.html
-- https://netzpolitik.org/2021/registermodernisierung-jetzt-kommt-die-nummer-mit-der-staatliche-datenbanken-zusammengefuehrt-werden-koennen/
+- [Insider: Red Hat hatte kein Interesse mehr an CentOS](https://www.linux-magazin.de/news/insider-red-hat-hatte-kein-interesse-mehr-an-centos/)
+  * [Rocky Linux: Red Hat kontert mit kostenfreien Lizenzen](https://linuxnews.de/2021/01/rocky-linux-red-hat-kontert-mit-kostenfreien-lizenzen/)
+- [Online-Storage-Dienstleister Backblaze veröffentlicht Festplatten-Ausfallraten](https://www.heise.de/news/Online-Storage-Dienstleister-Backblaze-veroeffentlicht-Festplatten-Ausfallraten-5040846.html)
+- [Vernetzte Register: Bundestag macht die Steuer-ID zur Bürgernummer](https://www.heise.de/news/Vernetzte-Register-Bundestag-macht-die-Steuer-ID-zur-Buergernummer-5040215.html)
+  * [Jetzt kommt die Nummer, mit der staatliche Datenbanken zusammengeführt werden können](https://netzpolitik.org/2021/registermodernisierung-jetzt-kommt-die-nummer-mit-der-staatliche-datenbanken-zusammengefuehrt-werden-koennen/)
 - [Raspberry Pi Pico]( https://de.rs-online.com/web/p/raspberry-pi/2122161/ )
-- https://www.heise.de/news/Debian-in-der-Hosentasche-PinePhone-Community-Edition-mit-Mobian-vorgestellt-5029104.html
+- [Debian in der Hosentasche: PinePhone Community-Edition mit Mobian vorgestellt]( https://www.heise.de/news/Debian-in-der-Hosentasche-PinePhone-Community-Edition-mit-Mobian-vorgestellt-5029104.html )
   * [Padphone(video) aus BGT#1]( https://www.youtube.com/watch?v=Z2ANnpHnUrc )
 - [Wireguard in pfSense]( https://twitter.com/NetgateUSA/status/1351544945744769025 )
 - [twifa]( https://unternehmerzeitung.ch/unternehmen/detail/wuerden-sie-ihr-kind-twifia-oder-twifius-taufen/ )
