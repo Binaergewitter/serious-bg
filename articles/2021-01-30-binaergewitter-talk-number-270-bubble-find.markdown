@@ -66,7 +66,7 @@ Wir sind wieder da.
 
 ## Themen
 - [CS3 - Cloud Storage Synchronization and Sharing]( https://indico.cern.ch/event/970232/videoconference/ )
-- [gather.town](gather.town)
+- [gather.town](https://gather.town)
   * [CyberLand Late Night Enterprise Edition](https://cyberland.ijug.eu/)
 - work adventure
   * [traefik]( https://github.com/traefik/traefik )
