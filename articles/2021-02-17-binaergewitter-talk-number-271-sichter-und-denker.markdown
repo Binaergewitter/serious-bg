@@ -16,19 +16,14 @@ audioformats:
 Wikipedia, iptables und andere krude Sachen haben Felix, Felix, Markus und Ingo in dieser Show versammelt.
 
 ## Preshow
-
-https://de.wikipedia.org/wiki/-ismus
-https://de.wikipedia.org/wiki/Det_Missionerande_Kopimistsamfundet
+- [ismus](https://de.wikipedia.org/wiki/-ismus)
+- [Det Missionerande Kopimistsamfundet](https://de.wikipedia.org/wiki/Det_Missionerande_Kopimistsamfundet)
 
 ## Blast from the Past
-
 - [Chaptermarks]( http://blog.binaergewitter.de/2021/01/30/binaergewitter-talk-number-270-bubble-find/#isso-1881 )
 - [libsodium]( http://blog.binaergewitter.de/2021/01/30/binaergewitter-talk-number-270-bubble-find/#isso-1880 )
 
-
-
 ## Untoter der Woche
-
 - [Amarok]( https://linuxnews.de/2021/02/amarok-ist-zurueck/ )
     * [QT 6 Lizenz]( https://www.heise.de/news/Qt-6-Abomodell-koennte-zum-Fallstrick-fuer-kommerzielle-Kunden-werden-4942027.html )
 - [inetutils 2.0]( https://www.heise.de/news/inetutils-2-0-Nach-sechs-Jahren-ein-Update-fuer-ifconfig-traceroute-und-ping-5049455.html )
@@ -39,11 +34,9 @@ https://de.wikipedia.org/wiki/Det_Missionerande_Kopimistsamfundet
 - [CD Project]( https://tarnkappe.info/cyberpunk-2077-quellcode-nach-ransomware-angriff-verkauft/ )
 
 ## News
-
 - [Ubuntu 21.04 Will Use Wayland By Default]( https://www.omgubuntu.co.uk/2021/01/ubuntu-21-04-will-use-wayland-by-default )
 - [FreeBSD/i386 demoted to Tier 2 for FreeBSD 13.x]( https://lists.freebsd.org/pipermail/freebsd-announce/2021-January/002006.html )
-    * [14 Linux Distros mit 32bit]( https://itsfoss.com/32-bit-linux-distributions/ )
-
+  * [14 Linux Distros mit 32bit]( https://itsfoss.com/32-bit-linux-distributions/ )
 - [Rust Foundation]( https://foundation.rust-lang.org/posts/2021-02-08-hello-world/ )
   * [Cryptography mit RUST als Build-Dep]( https://github.com/pyca/cryptography/issues/5771 )
 - [Sicherheitslücke in Chrome]( https://www.linux-magazin.de/blogs/sicherheitsluecke-im-chrome-browser/ )
@@ -59,30 +52,27 @@ https://de.wikipedia.org/wiki/Det_Missionerande_Kopimistsamfundet
 - [Pinecil]( https://www.pine64.org/pinecil/ )
 - https://www.pine64.org/2021/02/15/february-update-show-and-tell/
     * [PCI-X]( https://en.wikipedia.org/wiki/PCI-X )
-
 - Nextcloud 20 - Dashbord
     * [abschalten](https://github.com/nextcloud/server/issues/24059 )
 - [Fosdem 2021 (n-gate)]( http://n-gate.com/fosdem/2021/02/01/0/ ) - "Thank you for watching two straight days of Youtube videos that could have been blog posts.  Look on the bright side -- at least you didn't get the benefit of postproduction!"
 
 ## Mimimi der Woche
-
 - [openTTD Signale]( https://gaming.stackexchange.com/questions/124936/can-someone-explain-me-openttds-train-signals-quick-and-easy )
-- [ruby 3.0 gems]
+- ruby 3.0 gems
   * [bug 253104]( https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=253104 )
   * [bug 251484]( https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=251484 )
 
 ## Lesefoo
 - [Why I built Litestream]( https://litestream.io/blog/why-i-built-litestream/ )
   * [hba.conf](https://www.postgresql.org/docs/9.1/auth-pg-hba-conf.html)
-- http://trillian.mit.edu/~jc/humor/ATT_Copyright_true.html
-- https://nitter.kavin.rocks/OverSoftNL/status/1357296455615197184
-
+- [The /bin/true Command and Copyright](http://trillian.mit.edu/~jc/humor/ATT_Copyright_true.html)
+- [FootfallCam 3D plus](https://nitter.kavin.rocks/OverSoftNL/status/1357296455615197184)
 
 ## Picks
 - [resholve](https://t-ravis.com/post/nix/write_a_simple_shell_package_with_resholve/)
   * [shellcheck]( https://www.shellcheck.net/ )
-- https://killedbygoogle.com/ 
-- https://weirdorconfusing.com/
+- [Killed by Google](https://killedbygoogle.com/)
+- [Sell me something weird or confusing](https://weirdorconfusing.com/)
 - [Shit User Stories @shituserstories]( https://twitter.com/shituserstories )
 - [Radio.garden]( http://radio.garden/ )
 - [HDMI Capture Card 1080p]( https://s.click.aliexpress.com/e/_AZnAEC )
