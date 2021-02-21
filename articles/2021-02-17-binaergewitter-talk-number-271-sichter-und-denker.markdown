@@ -50,7 +50,7 @@ Wikipedia, iptables und andere krude Sachen haben Felix, Felix, Markus und Ingo 
 ## Themen
 
 - [Pinecil]( https://www.pine64.org/pinecil/ )
-- https://www.pine64.org/2021/02/15/february-update-show-and-tell/
+- [February Update: Show and Tell](https://www.pine64.org/2021/02/15/february-update-show-and-tell/)
     * [PCI-X]( https://en.wikipedia.org/wiki/PCI-X )
 - Nextcloud 20 - Dashbord
     * [abschalten](https://github.com/nextcloud/server/issues/24059 )
