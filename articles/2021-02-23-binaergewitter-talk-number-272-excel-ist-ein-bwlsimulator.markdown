@@ -16,10 +16,9 @@ audioformats:
 Wir trauern um Daft Punk und freuen uns über Autorenfarben in der Nextcloud 21.
 
 ## Blast from the Past
-
 - [phoenix up and running](https://l33tsource.com/blog/2015/09/06/phoenix-up-and-running/ )
 - [cfengine](https://de.wikipedia.org/wiki/CFEngine )
-- [USS Tuna](https://en.wikipedia.org/wiki/USS_Tuna_(SS-203))
+- [USS Tuna](https://en.wikipedia.org/wiki/USS_Tuna_(SS-203\))
 - [Fedora Workstation nutzt Wayland seit Fedora 25]( http://blog.binaergewitter.de/2021/02/17/binaergewitter-talk-number-271-sichter-und-denker/#isso-1886 )
 - [OpenTTD]( http://blog.binaergewitter.de/2021/02/17/binaergewitter-talk-number-271-sichter-und-denker/#isso-1885 )
     * [Offroads Trucks]( https://www.gamestar.de/artikel/spintires-offroad-truck-simulator-im-test-roehrende-monster-in-russischen-waeldern,3057052.html )
@@ -29,7 +28,6 @@ Wir trauern um Daft Punk und freuen uns über Autorenfarben in der Nextcloud 21.
 - [Daft Punk]( https://www.youtube.com/watch?v=DuDX6wNfjqc )
 
 ## News
-
 - [Linux on Mars]( https://www.theverge.com/2021/2/19/22291324/linux-perseverance-mars-curiosity-ingenuity )
   - [Postillion Arikel]( https://www.der-postillon.com/2021/02/perseverance.html )
 - [How NASA Designed a Helicopter That Could Fly Autonomously on Mars]( https://spectrum.ieee.org/automaton/aerospace/robotic-exploration/nasa-designed-perseverance-helicopter-rover-fly-autonomously-mars )
@@ -62,7 +60,6 @@ Wir trauern um Daft Punk und freuen uns über Autorenfarben in der Nextcloud 21.
 - [dRAID, Finally!]( https://klarasystems.com/articles/openzfs-draid-finally/ )
 
 ## Themen
-
 - 3D Print
   * [ANET A8]( https://anet3d.com/pages/a8 )
   * [octoprint]( https://community.octoprint.org/t/setting-up-octoprint-on-a-raspberry-pi-running-raspbian-or-raspberry-pi-os/2337 )
@@ -82,7 +79,7 @@ Wir trauern um Daft Punk und freuen uns über Autorenfarben in der Nextcloud 21.
 - [hello world](https://www.gnu.org/fun/jokes/helloworld.html)
 - [scrcpy - Screen Copy]( https://github.com/Genymobile/scrcpy )
 - [Logitech C922 PRO]( https://amzn.to/3bus75f )
-- https://sixsixsix.ch/
+- [666 - sixsixsix](https://sixsixsix.ch/)
 - [Jokari Secura Super Entmanteler No. 15]( https://amzn.to/2OTRlSP )
 - [guthib]( https://guthib.com/ )
 - [longdog]( https://longdogechallenge.com/ )
