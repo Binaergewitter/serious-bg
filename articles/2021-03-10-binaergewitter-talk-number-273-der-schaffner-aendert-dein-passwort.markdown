@@ -43,7 +43,7 @@ Markus stellt uns Photoprim vor und wir warten auf SofortJS.
 
 ## Themen
 
-- PhotoPrism hands on.
+- [PhotoPrism](https://photoprism.app/) hands on.
 - [auch für freebsd]( https://docs.photoprism.org/getting-started/advanced/freebsd/ )
 
 ## Mimimi der Woche
