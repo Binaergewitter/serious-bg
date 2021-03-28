@@ -54,6 +54,7 @@ Wir sind gekommen um zu bleiben....
   * [My dashboard]( https://twitter.com/l33tname/status/1372291372552716296 )
   * [hEX S snmp]( https://github.com/mprasil/telegraf-snmp-mikrotik/pull/3 )
   * [mikrotik-exporter]( https://github.com/nshttpd/mikrotik-exporter )
+  * [Grafana Dashboards für Unifi](https://github.com/WaterByWind/grafana-dashboards/tree/master/UniFi-UAP)
 
 ## Mimimi der Woche
 - USB Zigbee Hardware KABEL!!!
