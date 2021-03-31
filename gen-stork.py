@@ -30,7 +30,10 @@ base_directory = "./."
 files = [
 """)
 def footer():
-    print("]")
+    print("""]
+[output]
+filename = "bgt.st"
+""")
 
 def main():
     header()

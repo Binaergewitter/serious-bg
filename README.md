@@ -29,3 +29,14 @@ iTunes feed that uses m4a with a fallback to mp3 if there is no m4a for that epi
     /podcast_feed/talk/itunes/rss.xml
 
 Note: You can also add a feed_size parameter and a page parameter to the URL ("?feed_size=4&page=3")
+
+
+# Stork search
+
+For every release the stork index has to be built like this:
+
+```
+python gen-stork.py > stork.toml
+stork --build stork.toml
+```
+then we need to make it available at https://blog.binaergewitter.de/bgt.st
