@@ -28,18 +28,16 @@
     </div>
   </div>
 
-  <!-- DDG Search !-->
-  <form role="search" action="https://duckduckgo.com/" name="search">
-    <input type="hidden" name="sites" value="blog.binaergewitter.de">
-    <div class="widget-DDG form-group">
-      <div class="widget-DDG_start"></div>
-      <div class="widget-DDG_input input-group">
-        <span class="input-group-addon">
-          <span class="glyphicon glyphicon-search"></span>
-        </span>
-        <input id="search" name="q" type="text" class="DDGinput form-control" placeholder='Suche' />
-      </div>
-      <div class="widget-DDG_end" onclick="document.x.submit()" class="btn btn-default"></div>
-    </div>
-  </form>
+  <!-- Stork Search !-->
+  <div class="stork-wrapper">
+    <input data-stork="bgt" />
+    <div data-stork="bgt-output"></div>
+  </div>
+  <script src="https://files.stork-search.net/stork.js"></script>
+<script>
+    stork.register(
+        'bgt',
+        '/bgt.st'
+    )
+</script>
 </div>
