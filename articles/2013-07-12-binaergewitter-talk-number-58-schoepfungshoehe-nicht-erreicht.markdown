@@ -5,6 +5,7 @@ date: 2013-07-12 10:45
 comments: true
 categories: talk
 sharing: true
+chapters: http://download.binaergewitter.de/2013-07-04.Binaergewitter.Talk.58.chapters.txt
 audioformats:
   mp3: http://download.binaergewitter.de/2013-07-11.Binaergewitter.Talk.58.mp3
   ogg: http://download.binaergewitter.de/2013-07-11.Binaergewitter.Talk.58.ogg
