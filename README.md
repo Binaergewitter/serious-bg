@@ -32,6 +32,7 @@ Note: You can also add a feed_size parameter and a page parameter to the URL ("?
 
 
 # Stork search
+Prerequisits: [install stork](https://stork-search.net/docs/install)
 
 For every release the stork index has to be built like this:
 
@@ -39,4 +40,5 @@ For every release the stork index has to be built like this:
 python gen-stork.py > stork.toml
 stork --build stork.toml
 ```
-then we need to make it available at https://blog.binaergewitter.de/bgt.st
+
+then a github action builds and publishes `bgt.st` to https://comments.binaergewitter.de/bgt.st.
