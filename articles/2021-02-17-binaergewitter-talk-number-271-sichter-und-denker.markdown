@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Binärgewitter Talk #271: Sicher und Denker"
+title: "Binärgewitter Talk #271: Sichter und Denker"
 date: 2021-02-17 17:30
 comments: true
 categories: talk
