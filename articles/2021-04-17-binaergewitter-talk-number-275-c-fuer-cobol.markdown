@@ -17,9 +17,7 @@ Osterpause vorbei. Felix, Felix und Ingo sind wieder am Start. Diesmal mit einer
 
 ## Blast from the Past
 - Endlich Glasfaser
-
-    * Telekom aka "Wir können keine Leitung schalten weil die noch belegt ist"
-
+  * Telekom aka "Wir können keine Leitung schalten weil die noch belegt ist"
 - RMS kann weg
   * [openletter]( https://rms-open-letter.github.io/ )
   * [redhat gibt der fsf nix mehr](https://www.redhat.com/en/blog/red-hat-statement-about-richard-stallmans-return-free-software-foundation-board )
@@ -35,7 +33,6 @@ Osterpause vorbei. Felix, Felix und Ingo sind wieder am Start. Diesmal mit einer
 -  Kennt Ihr schon die App Photosync? (Jens via twitter)
   * [syncthing]( http://blog.binaergewitter.de/2021/03/23/binaergewitter-talk-number-274-fortran-nein-danke/#isso-1904 )
 
-
 ## Toter der Woche
 - [mesos]( https://lists.apache.org/thread.html/raed89cc5ab78531c48f56aa1989e1e7eb05f89a6941e38e9bc8803ff%40%3Cuser.mesos.apache.org%3E )
 - [das GNU/ in GNU/Linux (in golang repo)]( https://github.com/golang/go/commit/13a4e8c41cd1d242a435d44e7f66f370e5306a8c )
@@ -45,18 +42,14 @@ Osterpause vorbei. Felix, Felix und Ingo sind wieder am Start. Diesmal mit einer
 * [Google Shopping App]( https://arstechnica.com/gadgets/2021/04/google-is-killing-the-google-shopping-app/ )
 - [Yahoo Answers]( https://it.slashdot.org/story/21/04/05/208236/yahoo-answers-a-repository-for-stupid-questions-is-shutting-down )
 
-
 ## Untoter der Woche
 - [neue SCO klagt mal wieder]( https://linuxnews.de/2021/04/von-den-toten-auferstanden-sco-gegen-linux/ )
 - [Zurück in die Zukunft: IBM erstellt COBOL-Compiler für Linux und die Cloud]( https://www.heise.de/news/Zurueck-in-die-Zukunft-IBM-erstellt-einen-COBOL-Compiler-fuer-Linux-und-die-Cloud-6007013.html )
 - FTP is 50
-* Volltextsuche
-
-    * [Stork]( https://stork-search.net/ )
-
+- [Volltextsuche!](https://github.com/Binaergewitter/serious-bg/pull/337)
+  * [Stork]( https://stork-search.net/ )
 
 ## News
-
 - [PHP Changes to Git commit workflow](https://news-web.php.net/php.internals/113838)
   - `php -S 0:8001`
 - [Whistleblower: Ubiquiti Breach Catastrophic]( https://krebsonsecurity.com/2021/03/whistleblower-ubiquiti-breach-catastrophic/ )
@@ -69,28 +62,24 @@ Osterpause vorbei. Felix, Felix und Ingo sind wieder am Start. Diesmal mit einer
   * BSD grep
 - [Eyecam]( https://www.heise.de/news/Eyecam-Webcam-ahmt-menschliches-Auge-nach-6012624.html )
 - [Google gewinnt gegen Oracle]( https://www.heise.de/news/Java-Verwendung-in-Android-Google-gewinnt-Rechtsstreit-gegen-Oracle-6005536.html )
-
-    * [Google migiert zu SAP]( https://www.heise.de/news/Google-migriert-Finanzsoftware-von-Oracle-zu-SAP-6005704.html )
-
+  * [Google migiert zu SAP]( https://www.heise.de/news/Google-migriert-Finanzsoftware-von-Oracle-zu-SAP-6005704.html )
 - [Programmiersprache: Android springt auf den Rust-Zug auf]( https://www.heise.de/news/Programmiersprache-Android-springt-auf-den-Rust-Zug-auf-6006946.html )
 - [E-Commerce besser für die Umwelt (laut amazon)]( https://www.heise.de/news/Studie-E-Commerce-besser-fuer-die-Umwelt-als-stationaerer-Einzelhandel-6012248.html )
 - [FreeBSD ports on git]( https://cgit.freebsd.org/ports/ )
   * [wiki]( https://wiki.freebsd.org/git )
   * [felix' cgit]( https://cgit.euer.krebsco.de/ )
 - [The French army is testing Boston Dynamics’ robot dog Spot in combat scenarios]( https://www.theverge.com/2021/4/7/22371590/boston-dynamics-spot-robot-military-exercises-french-army )
-  - [Surprised Kirk]( https://i.kym-cdn.com/entries/icons/original/000/023/180/notsurprisedkirk.jpg )
+  * [Surprised Kirk]( https://i.kym-cdn.com/entries/icons/original/000/023/180/notsurprisedkirk.jpg )
 - [URL Open RCE]( https://positive.security/blog/url-open-rce )
 - [Padfone Next Generation]( https://www.heise.de/news/Motorola-Moto-G100-Das-Desktop-Smartphone-5998288.html )
   * [original Padfone]( https://www.youtube.com/watch?v=Z2ANnpHnUrc )
 - [Nvidia erster ARM-Prozessor für Supercomputer]( https://www.heise.de/news/Grace-Nvidias-erster-ARM-Prozessor-fuer-Supercomputer-6011917.html )
-
 
 ## Themen
 - Bike tracking
   * Komoot
   * Strava
   * [Opentracks]( https://f-droid.org/en/packages/de.dennisguse.opentracks/ ) [original MyTracks]( https://en.wikipedia.org/wiki/MyTracks )
-
 
 ## Mimimi der Woche
 - Felix und ctrl+j
@@ -111,5 +100,3 @@ Osterpause vorbei. Felix, Felix und Ingo sind wieder am Start. Diesmal mit einer
 - [What exactly was the point of [ “x$var” = “xval” ]?]( https://www.vidarholen.net/contents/blog/?p=1035 )
 - [Use console.log like a pro]( https://markodenic.com/use-console-log-like-a-pro/ )
 - [Mario Basler - Der große Buhmann (video)](https://www.youtube.com/watch?v=-E-b7MEMGXc)
-
-
