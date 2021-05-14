@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: '3.x'
       - run: python gen-stork.py > stork.toml
-      - run: wget https://files.stork-search.net/releases/latest/stork-ubuntu-latest
+      - run: wget https://github.com/jameslittle230/stork/releases/download/v1.2.0/stork-ubuntu-latest
       - run: chmod +x stork-ubuntu-latest
       - run: ./stork-ubuntu-latest --build stork.toml
       - name: Deploy to bgt server
