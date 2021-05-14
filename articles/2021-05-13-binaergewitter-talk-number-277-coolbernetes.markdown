@@ -1,11 +1,12 @@
 ---
 layout: post
 title: "Binärgewitter Talk #277: Coolbernetes"
-date: 2021-05-14 18:30
+date: 2021-05-14 18:00
 comments: true
 categories: talk
 sharing: true
 published: true
+chapters: http://download.binaergewitter.de/2021-05-13.Binaergewitter.Talk.277.chapters.txt
 audioformats:
   mp3: http://download.binaergewitter.de/2021-05-13.Binaergewitter.Talk.277.mp3
   ogg: http://download.binaergewitter.de/2021-05-13.Binaergewitter.Talk.277.ogg
@@ -19,17 +20,11 @@ Die Männertagssendung mit Felix, Felix und Ingo.
   * [chaptermerge]( https://gitlab.com/Kaligule/chaptermerge )
 - [chapter-marker]( https://github.com/makefu/chapter-marker )
 - [Community verärgert über Telemetrie-Pläne von Audacity]( https://www.golem.de/news/open-source-community-veraergert-ueber-telemetrie-plaene-von-audacity-2105-156354.html )
-
-    + und Fork https://github.com/yonderbread/foss_audacity
-
-    + und den einzig wahren Fork https://github.com/Binaergewitter/audiocity
-
-
+    * [und Fork](https://github.com/yonderbread/foss_audacity )
+    * [und den einzig wahren Fork](https://github.com/Binaergewitter/audiocity )
 
 ## Toter der Woche
-- [audacity]( )
-
-## Untoter der Woche
+- [audacity]( https://www.audacityteam.org/ )
 
 ## News
 
@@ -50,15 +45,7 @@ Die Männertagssendung mit Felix, Felix und Ingo.
 - [Zyxel XGS1210-12 (managed)]( https://www.zyxel.com/de/de/products_services/12-Port-Web-Managed-Multi-Gigabit-Switch-with-2-Port-2-5G-and-2-Port-10G-SFP--XGS1210-12/ )
   * [Zyxel XGS1010-12]( https://www.zyxel.com/de/de/products_services/12-Port-Unmanaged-Multi-Gigabit-Switch-with-2-Port-2-5G-and-2-Port-10G-SFP--XGS1010-12/ )
   * [SFP+]( https://www.fs.com/de/products/66613.html )
-  * no snmp
-  * no ipv6 (mgmt)
-  * cheap
-  * lüfterlos
-  * klein
-  * ethtool force speed
-- [Multitool]( https://www.voelkner.de/products/3423872/Fein-MULTIMASTER-AMM-500-Plus-top-7-129-33-61-00-0-Akku-Multifunktionswerkzeug-35teilig-18V-3Ah.html )
-
-
+- [FEIN Multitool]( https://amzn.to/3eS0JBf )
 
 ## Mimimi der Woche
 - [problems with the PPPoE Login]( https://as13030.net/status/?ticket=NE-372 )
