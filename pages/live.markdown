@@ -13,8 +13,8 @@ Binärgewitter Spezial wird unregelmäßig produziert und ggf. auch live gestrea
 
 ## Live-Chat
 
-Unseren Chat findet ihr im Freenode IRC unter \#Binaergewitter. Während der Sendung kann man uns dort antreffen und mit anderen Hörern diskutieren.
+Unseren Chat findet ihr im Libera.chat IRC unter \#Binaergewitter. Während der Sendung kann man uns dort antreffen und mit anderen Hörern diskutieren.
 
-[irc://irc.freenode.net/binaergewitter](irc://irc.freenode.net/binaergewitter)
+[irc://irc.libera.chat:6697/binaergewitter](irc://irc.libera.chat:6697/binaergewitter)
 
-Oder ihr benutzt den [Webchat](http://webchat.freenode.net/?channels=binaergewitter)
+Oder ihr benutzt den [Webchat](https://web.libera.chat//?channels=binaergewitter)
