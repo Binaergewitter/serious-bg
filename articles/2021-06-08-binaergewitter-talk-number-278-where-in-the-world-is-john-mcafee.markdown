@@ -18,25 +18,24 @@ Markus, Felix und Ingo sind wieder da und trauern freenode und tizen hinterher..
 ## Toter der Woche
 - [freenode]( https://linuxnews.de/2021/05/irc-netzwerk-freenode-feindliche-uebernahme/ )
 - [tizen]( https://www.heise.de/news/Wearables-Google-und-Samsung-verschmelzen-Tizen-und-Wear-OS-6048926.html )
-    - [JingOS](https://linuxnews.de/2021/06/jingos-0-9-veroeffentlicht-tablet-im-herbst/ )
-    - [e](https://e.foundation/)
-
+  * [JingOS](https://linuxnews.de/2021/06/jingos-0-9-veroeffentlicht-tablet-im-herbst/ )
+  * [e](https://e.foundation/)
 - [Charlie Bit My Finger]( https://news.slashdot.org/story/21/05/25/0118259/charlie-bit-my-finger-is-leaving-youtube-after-760999-nft-sale )
- - [Original Video]( https://www.youtube.com/watch?v=_OBlgSz8sSM )
+  * [Original Video]( https://www.youtube.com/watch?v=_OBlgSz8sSM )
 - [Samsung Smartthings hub v1]( https://arstechnica.com/gadgets/2021/06/samsung-is-killing-the-first-gen-smartthings-hub-this-month/ )
 
 ## News
 - [FuchsiaOS]( https://9to5google.com/2021/05/25/google-releases-fuchsia-os-nest-hub/ )
 - [Apple Silicon Premium Vulnerability]( https://m1racles.com/ )
 - WWDC: FaceTime für nicht iOS Geräte
-eine Apple News? https://www.golem.de/news/homeoffice-apples-mitarbeiter-wollen-nicht-ins-buero-zurueck-2106-157076.html
+eine Apple News? 
+- [Apple-Mitarbeiter wollen nicht ins Büro zurück](https://www.golem.de/news/homeoffice-apples-mitarbeiter-wollen-nicht-ins-buero-zurueck-2106-157076.html)
 - [Half Double hammering]( https://security.googleblog.com/2021/05/introducing-half-double-new-hammering.html )
 - [How Replit went from supporting 50 languages to all of them]( https://blog.replit.com/nix )
 - [Norton360 erntet Etherium für dich]( https://slashdot.org/story/21/06/03/0358213/norton-360-antivirus-now-lets-you-mine-ethereum-cryptocurrency )
-  - [Musk darf was McAfee ins Gefängnis brachte]( https://www.crypto-news-flash.com/de/john-mcafee-ging-ins-gefaengnis-fuer-das-was-elon-musk-tut-sagt-ehefrau/ )
-  Bitcoin
-  https://de.wikipedia.org/wiki/Ecuador
-https://www.tagesschau.de/ausland/europa/datenschutz-cookies-noyb-101.html
+  * [Musk darf was McAfee ins Gefängnis brachte]( https://www.crypto-news-flash.com/de/john-mcafee-ging-ins-gefaengnis-fuer-das-was-elon-musk-tut-sagt-ehefrau/ )
+  * [Ecuadorian Presidential Candidate Proposes a National Cryptocurrency but It Won't Replace the Dollar]( https://news.bitcoin.com/ecuadorian-presidential-candidate-proposes-a-national-cryptocurrency-but-it-wont-replace-the-dollar/ )
+- [Beschwerdewelle gegen Cookie-Banner](https://www.tagesschau.de/ausland/europa/datenschutz-cookies-noyb-101.html)
 - [USB-C gibt MEHR ENERGIEEEEE]( https://www.theverge.com/circuitbreaker/2021/5/25/22453936/usb-c-power-delivery-extended-power-range-epr )
 - ["Gute" Ratings im Apple Store]( https://twitter.com/keleftheriou/status/1397288720357679104 )
 - [Bundestag erlaubt autonome Autos ohne Sicherheitsfahrer]( https://www.golem.de/news/weltweites-novum-bundestag-erlaubt-autonome-autos-ohne-sicherheitsfahrer-2105-156669.html )
@@ -49,7 +48,6 @@ https://www.tagesschau.de/ausland/europa/datenschutz-cookies-noyb-101.html
 
 
 ## Themen / Blast
-
 - [Audacity will CLA etablieren]( https://www.heise.de/news/Audacity-Entwickler-verunsichern-Anwender-mit-neuen-Lizenzplaenen-6060798.html )
 - Ergänzung zur Redmine/JIRA/xxx Diskussion: [OpenProject in Nextcloud]( https://www.heise.de/news/OpenProject-wird-in-Nextcloud-integriert-6035438.html )
 
@@ -62,5 +60,3 @@ https://www.tagesschau.de/ausland/europa/datenschutz-cookies-noyb-101.html
 - [The Ultimate French Press Technique (video)]( https://www.youtube.com/watch?v=st571DYYTR8 )
 - [SUSECon Music Videos]( https://www.youtube.com/watch?v=4VrhlyIgo3M )
 - [Can't Unsee]( https://cantunsee.space/ )
-
-
