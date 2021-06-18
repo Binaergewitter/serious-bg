@@ -72,7 +72,7 @@ Wir sind gekommen um zu bleiben....
 - [conditionally configure your Git]( https://www.jessedejonge.com/blog/use-different-git-email-addresses )
 - [courses are offered by University of Helsinki's]( https://www.mooc.fi/en#courses )
 - [pdf-editor]( https://github.com/ShizukuIchi/pdf-editor )
-   [Svelte UI Webframework]( https://svelte.dev/ )
+  - [Svelte UI Webframework]( https://svelte.dev/ )
 - [Only Fans (de)]( https://nurluefter.de/luefter/ )
 - [Tweeteble Zip Image]( https://mobile.twitter.com/David3141593/status/1371974874856587268 )
 - [Poetry Python Setup]( https://l33tsource.com/blog/2021/03/21/Poetry-Python-setup/ )
