@@ -16,13 +16,12 @@ audioformats:
 Große Themen, große Verluste und Audioprobleme plagen Felix, Felix und Ingo.
 
 ## Blast from the Past
-- https://github.com/madmas/backupAnalyzer/blob/main/README.md
+- [madmas/backupAnalyzer](https://github.com/madmas/backupAnalyzer/blob/main/README.md)
 - Android Mail Clients: FairEmail oder Geld auf K9Mail schmeißen
 
 ## Toter der Woche
 
 ### Best of John McAfee
-
 - [30 Sendungen]( https://github.com/Binaergewitter/serious-bg/search?q=John+McAfee&type=code )
   * [Erste Erwaehnung (Binärgewitter Talk #32 - Jimmy Wales Starrzeit)]( http://blog.binaergewitter.de/2012/11/16/binaergewitter-talk-number-32-jimmy-wales-starrzeit/ )
 - ["burying himself in the sand with a cardboard box over his head"](https://nymag.com/intelligencer/2012/11/bath-salts-expert-john-mcafee-says-hes-innocent.html )
@@ -38,7 +37,6 @@ Große Themen, große Verluste und Audioprobleme plagen Felix, Felix und Ingo.
 - [E-Mail ist kompliziert (nicht nur für IBM]( https://www.heise.de/news/Viele-IBM-Mitarbeiter-seit-Tagen-ohne-E-Mails-6127407.html )
 
 ## News
-
 - [Cash Moneys für Tim Berners-Lee]( https://news.slashdot.org/story/21/06/30/1846213/tim-berners-lee-sells-web-source-code-nft-for-54-million )
 - [Probleme mit Modern Solution]( https://www.heise.de/news/Datenleck-bei-Modern-Solution-Sicherheitsluecke-betrifft-rund-700-000-Kaeufer-6127690.html )
 - [Bittorrent ist 20]( https://torrentfreak.com/bittorrent-turns-20-the-file-sharing-revolution-revisited-210702/ )
@@ -49,7 +47,6 @@ Große Themen, große Verluste und Audioprobleme plagen Felix, Felix und Ingo.
 - [zfs-2.1.0]( https://github.com/openzfs/zfs/releases/tag/zfs-2.1.0 )
   * dRAID
   * InfluxDB Support
-
 - [GitHub Copilot]( https://copilot.github.com/ )
   * [Trainiert auf GPL Code]( https://mspoweruser.com/github-copilot-receives-criticism-from-copyright-enthusiasts/ )
   * [jemand von heise sagt, dass github copilot voll keine Open Source Lizenzen verletzt]( https://juliareda.eu/2021/07/github-copilot-is-not-infringing-your-copyright/ )
@@ -73,8 +70,6 @@ Große Themen, große Verluste und Audioprobleme plagen Felix, Felix und Ingo.
 - [Motivation]( https://jamesclear.com/motivation )
 
 ## Picks
-- [Brickit LEGO app]( https://brickit.app/ )[[Video]( https://twitter.com/AlexanderNL/status/1410253599502962692 )]
+- [Brickit LEGO app]( https://brickit.app/ ) [[Video]( https://twitter.com/AlexanderNL/status/1410253599502962692 )]
 - [Fussball augmented reality]( https://twitter.com/svblxyz/status/1411409142993113093 )
 - [Klimawandelrisiken in Deutschland]( https://klima-risiken.vislab.io/ )
-
-
