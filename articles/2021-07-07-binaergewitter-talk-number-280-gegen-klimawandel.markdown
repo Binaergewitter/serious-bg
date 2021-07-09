@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Binärgewitter Talk #280: Reproduzierbare Builds gegen den Klimawandel"
-date: 2021-07-08 210:30
+date: 2021-07-08 21:30
 comments: true
 categories: talk
 sharing: true
 published: true
-chapters: http://download.binaergewitter.de/22021-07-06.Binaergewitter.Talk.280.chapters.txt
+chapters: http://download.binaergewitter.de/2021-07-06.Binaergewitter.Talk.280.chapters.txt
 audioformats:
   mp3: http://download.binaergewitter.de/2021-07-06.Binaergewitter.Talk.280.mp3
   ogg: http://download.binaergewitter.de/2021-07-06.Binaergewitter.Talk.280.ogg
