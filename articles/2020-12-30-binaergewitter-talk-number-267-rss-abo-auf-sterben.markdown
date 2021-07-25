@@ -39,7 +39,7 @@ Live vom rC3 im Sendezentrum und damit unter Zeitdruck senden wir zu 4 unseren J
 - [FreeBSD Git Transition]( https://wiki.freebsd.org/git )
   * [This is the first Git commit to src.]( https://cgit.freebsd.org/src/commit/?id=5ef5f51d2bef80b0ede9b10ad5b0e9440b60518c )
 - [Github kommt ohne GDPR "Cookie-Warnung" aus]( https://github.blog/2020-12-17-no-cookie-for-you/ )
- - [Constent-o-matic]( https://addons.mozilla.org/en-US/firefox/addon/consent-o-matic/ )
+ - [Consent-o-matic]( https://addons.mozilla.org/en-US/firefox/addon/consent-o-matic/ )
 - [RAM Riegel wird zu WLAN sender]( https://winfuture.de/news,120073.html )
 - [Geb 4.0]( https://twitter.com/GebFramework/status/1343577567337582592 )
 
