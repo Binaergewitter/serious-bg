@@ -34,8 +34,8 @@ Mit Markus, Felix und Ingo.
 - [Geld für Poop]( https://www.theregister.com/2021/07/12/korean_craptocurrency/ )
 - [Steam Deck]( https://store.steampowered.com/steamdeck )
 - [Audacity wieder ohne Tracking]( https://www.heise.de/news/Audioedtior-Audacity-Das-mit-der-Datensammlerei-das-war-gar-nicht-so-gemeint-6147420.html )
-- [franz. Regierung (Bildungsministerium) promoted Nextcloud] https://apps.education.fr/
-- Threema on Prem https://www.heise.de/news/Messenger-fuer-Firmen-und-Behoerden-Threema-bietet-On-Premise-Variante-an-6148131.html
+- [franz. Regierung (Bildungsministerium) promoted Nextcloud]( https://apps.education.fr/ )
+- [Threema on Prem]( https://www.heise.de/news/Messenger-fuer-Firmen-und-Behoerden-Threema-bietet-On-Premise-Variante-an-6148131.html )
 - [Linux Root Vulnerabilities]( https://www.openwall.com/lists/oss-security/2021/07/20/1 )
 - [HiveNightmare]( https://www.heise.de/news/HiveNightmare-Nutzer-koennen-die-Windows-Passwort-Datenbank-auslesen-6143746.html )
 - [Würmer als Bio-Roboter]( https://www.heise.de/news/Roboworm-Forscher-verwandeln-Wuermer-in-Bio-Roboter-6143292.html )
