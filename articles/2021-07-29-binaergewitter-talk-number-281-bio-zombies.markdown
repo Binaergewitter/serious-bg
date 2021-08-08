@@ -53,10 +53,12 @@ Mit Markus, Felix und Ingo.
 - [Decoded: OpenTDD]( http://www.maizure.org/projects/decoded-openttd/index.html )
 
 ## Picks
-- https://refined.blog/
-- [bund.dev]( https://bund.dev/ ) 
-https://svgur.com/i/YXa.svg
-https://svgur.com/i/YY8.svg
-https://svgur.com/i/Y_A.svg
+- [Refined Blog](https://refined.blog/)
+- [bund.dev]( https://bund.dev/ )
+- Shortcuts
+  * [Features of KRunner, Command launcher by KDE](https://svgur.com/i/YXa.svg)
+  * [Shortcuts for Konsole and Yakuake, the KDE Terminal Emulators](https://svgur.com/i/YY8.svg
+)
+  * [Mouse tips for KDE Plasma Desktop](https://svgur.com/i/Y_A.svg)
 - [93% of Paint Splatters are Valid Perl Programs]( https://www.mcmillen.dev/sigbovik/ )
 - [Alles ist eins Film]( https://allesisteins.film/ )
