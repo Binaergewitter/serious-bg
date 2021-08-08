@@ -17,7 +17,7 @@ Mit Markus, Felix und Ingo.
 
 ## Blast from the Past
 - k9mail
-- [K-9 Mail 5.800]: Neue Version nach längerer Pause ( https://k9mail.app/2021/07/24/K-9-Mail-is-back )
+- [K-9 Mail 5.800]( https://k9mail.app/2021/07/24/K-9-Mail-is-back ): Neue Version nach längerer Pause 
 - [JMAP Format](https://jmap.io/spec-mail.html )
 - [Firma hinter Martix bekommt 30 Mil]( https://matrix.org/blog/2021/07/27/element-raises-30-m-to-boost-matrix )
 - [WoeUSB]( https://github.com/WoeUSB/WoeUSB-ng )
