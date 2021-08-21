@@ -30,7 +30,7 @@ Mit Markus, Felix, der andere und Ingo.
 - [PulseAudio 15](https://www.freedesktop.org/wiki/Software/PulseAudio/Notes/15.0/)
 - [CSV-2021-22555](https://google.github.io/security-research/pocs/linux/cve-2021-22555/writeup.html)
 - [xeyes update]( https://twitter.com/zekjur/status/1423325054226472965 )
-* Apple und die Totalüberwachung (https://www.heise.de/news/Apple-plant-iPhone-Scanning-auf-Kinderpornos-Sicherheitsforscher-alarmiert-6156542.html)
+- [Apple und die Totalüberwachung](https://www.heise.de/news/Apple-plant-iPhone-Scanning-auf-Kinderpornos-Sicherheitsforscher-alarmiert-6156542.html)
 - [Debian 11]( https://linuxnews.de/2021/08/debian-gnu-linux-11-bullseye-freigegeben/ )
   * extFat
 - [built-in citation support to GitHub]( https://twitter.com/natfriedman/status/1420122675813441540 )
@@ -41,7 +41,7 @@ Mit Markus, Felix, der andere und Ingo.
 
 
 ## Mimimi der Woche
-* Hetzner IPv4 Adressen werden teuerer https://docs.hetzner.com/de/general/others/ipv4-pricing/
+* [Hetzner IPv4 Adressen werden teuerer]( https://docs.hetzner.com/de/general/others/ipv4-pricing/ )
 * Headspace offline
 * [Pixel 5a]( https://www.theverge.com/22628205/google-pixel-5a-review-price-screen-battery-specs )
 
