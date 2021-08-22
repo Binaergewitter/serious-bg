@@ -19,6 +19,9 @@
             <a href="<%= article.url %>"><%= article.title %> <%= "(On Air)" if article.title == "Live" && is_live? %></a>
           </li>
         <% end %>
+        <li>
+          <a href="<%= catetory_archive_path(@category) %>">Archives</a>
+        </li>
       </ul>
     </div>
   </div>
