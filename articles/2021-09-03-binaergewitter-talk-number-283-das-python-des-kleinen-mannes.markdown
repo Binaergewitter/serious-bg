@@ -17,7 +17,7 @@ Wir routieren wieder. Diesmal mit Felix(x2) und Ingo. Sorry haben das Intro verg
 
 ## Blast from the Past
 
-- Hörerkommentar Ventoy http://blog.binaergewitter.de/2021/08/19/binaegewitter-talk-number-282-warten-auf-ipv8/#isso-1978 (und Makefus comment)
+- [Hörerkommentar Ventoy]( http://blog.binaergewitter.de/2021/08/19/binaegewitter-talk-number-282-warten-auf-ipv8/#isso-1978 )
 
 ## Toter der Woche
 - [Kobol Team is pulling the plug ;(]( https://blog.kobol.io/2021/08/25/we-are-pulling-the-plug/ )
@@ -30,12 +30,11 @@ Wir routieren wieder. Diesmal mit Felix(x2) und Ingo. Sorry haben das Intro verg
 
 ## News
 - [Alternative zu letsencrypt]( https://scotthelme.co.uk/heres-another-free-ca-as-an-alternative-to-lets-encrypt/ )
-    * [Geant TCS](https://www.geant.org/Services/Trust_identity_and_security/Pages/TCS.aspx )
+  * [Geant TCS](https://www.geant.org/Services/Trust_identity_and_security/Pages/TCS.aspx )
 
 - Neue Git Version mit neuer Merge-Strategie (rewritten, wartbarkeit wieder hergestellt)
 - [30 Jahre Linux]( https://taz.de/Linux-feiert-Geburtstag/!5791414/ )
-    * [Kernel 5.14]( https://www.heise.de/news/Linux-5-14-mit-geheimem-Speicher-und-sicherem-Hyperthreading-6179070.html )
-
+  * [Kernel 5.14]( https://www.heise.de/news/Linux-5-14-mit-geheimem-Speicher-und-sicherem-Hyperthreading-6179070.html )
 - [MicroPython  v1.17]( https://twitter.com/micropython/status/1433386245770682369 )
 - [After years of forewarning, disable the RSA/SHA-1]( https://github.com/openssh/openssh-portable/commit/234475025 )
 - [Braktooth]( https://www.heise.de/news/Braktooth-Neue-Bluetooth-Luecken-bedrohen-unzaehlige-Geraete-6180540.html )
@@ -45,7 +44,6 @@ Wir routieren wieder. Diesmal mit Felix(x2) und Ingo. Sorry haben das Intro verg
 - [Android client Nextcloud 3.17]( https://nextcloud.com/blog/android-client-3-17-released-with-a-new-video-player-ui-improvements-and-more/ )
 
 ## Themen
-
 - Fitness Tracker
   * [OPPO Smart Watch]( https://www.amazon.in/OPPO-Smart-Watch-46MM-Black/dp/B08DVF8W3B )
   * [Fitbit Charge 4]( https://www.fitbit.com/global/us/products/trackers/charge4 )
@@ -53,7 +51,6 @@ Wir routieren wieder. Diesmal mit Felix(x2) und Ingo. Sorry haben das Intro verg
   * [Whoop]( https://www.whoop.com/ )
   * [Xiaomi Smart Band 4]( https://www.mi.com/de/mi-smart-band-4/ )
   * [gadgetbridge]( https://gadgetbridge.org/ )
-
 
 ## Mimimi der Woche
 - [Nested LXD in Debian]( https://discuss.linuxcontainers.org/t/nested-lxd-with-debian-bullseye/11954/2 )
@@ -65,6 +62,6 @@ Wir routieren wieder. Diesmal mit Felix(x2) und Ingo. Sorry haben das Intro verg
 ## Picks
 - [Pixelator]( https://github.com/connor-makowski/pixelator )
 - [Add an image to a spreadsheet (google spreadsheets)]( https://support.google.com/docs/answer/9224754?hl=en&co=GENIE.Platform%3DDesktop&authuser=0 )
-  - [Libre Office Images]( https://p.krebsco.de/image/16yrmql )
+  * [Libre Office Images]( https://p.krebsco.de/image/16yrmql )
 - [RadioTux August]( https://www.radiotux.de/index.php?/archives/8074-RadioTux-Sendung-August-2021.html )
 - [Siedler 2 RTTR]( https://www.siedler25.org )
