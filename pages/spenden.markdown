@@ -13,7 +13,6 @@ Es gibt verschiedene Wege uns zu unterstützen
 * [Patreon](https://www.patreon.com/binaergewitter)
 * [flattr](https://flattr.com/@binaergewitter)
 * Überweisung
-
-Name: Ingo Ebel
-IBAN: DE74 2004 1133 0738 8606 05
-BIC: COBADEHD001
+ Name: Ingo Ebel
+ IBAN: DE74 2004 1133 0738 8606 05
+ BIC: COBADEHD001
