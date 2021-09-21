@@ -41,7 +41,7 @@ Das Jahr von Linux Viren und SMS auf dem Desktop... oder so. Mit Felix, Felix un
 - [Linux Malware für Windows]( https://www.heise.de/news/Laeuft-unter-WSL-Erste-Linux-Malware-in-Windows-aufgetaucht-6195952.html )
 - [Omigod]( https://www.horizon3.ai/news/blog/omigod )
 - [Batterie-Entwicklung: Großer Sprung in kleinem Wearable]( https://www.heise.de/hintergrund/Batterie-Entwicklung-Grosser-Sprung-in-kleinem-Wearable-6188497.html )
-- https://www.youtube.com/watch?v=EZdZ-SkE9Wc
+  * [Xiaomi Mi Band 6 vs Amazfit Band 5 | Fitness Tech Review](https://www.youtube.com/watch?v=EZdZ-SkE9Wc)
 - [8 Years Hass]( https://twitter.com/home_assistant/status/1436155243813748771 )
 - [ESPHome 2021.8.0]( https://www.heise.de/news/Smarthome-ESPHome-kann-nun-mehr-6182581.html )
   - [WLED]( https://github.com/Aircoookie/WLED )
@@ -49,10 +49,9 @@ Das Jahr von Linux Viren und SMS auf dem Desktop... oder so. Mit Felix, Felix un
   * By a rough & quick estimate about ~120(¹) of ~260 patches
   * Kernel 5.15
 - [Library Genesis in ipfs]( https://news.ycombinator.com/item?id=28585208 )
-  * https://wiki.c3d2.de/Bibliotheken_online
+  * [Bibliotheken online](https://wiki.c3d2.de/Bibliotheken_online)
 
 ## Mimimi der Woche
-
 - Fetch Bots auf dl.binaergewitter.de
   - [nginx config]( https://www.nginx.com/blog/rate-limiting-nginx/ )
 - [grafana7]( https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=258134 )
@@ -62,10 +61,10 @@ Das Jahr von Linux Viren und SMS auf dem Desktop... oder so. Mit Felix, Felix un
 - [OPAC Bibliothek-Interfaces]()
     * [opacclient]( https://github.com/opacapp/opacclient/blob/b6f3fd71f73f7570cf1f423d51d0a3ea91d40582/opacclient/libopac/src/main/java/de/geeksfactory/opacclient/apis/Adis.java#L52 )
     * [bibchecker]( https://github.com/makefu/bibchecker )
-    * https://github.com/janeczku/calibre-web
+    * [calibre-web](https://github.com/janeczku/calibre-web)
 - [SMS auf laptops empfangen auf der CLI]( )
-  - [gnokii]()
-  - [modemmanager]()
+  * [gnokii]()
+  * [modemmanager]()
 
 
 ## Lesefoo
@@ -82,4 +81,3 @@ Das Jahr von Linux Viren und SMS auf dem Desktop... oder so. Mit Felix, Felix un
   * [disabling a workaround]( https://twitter.com/cperciva/status/1435417195505278977 )
 - [@kernellogger]( https://twitter.com/kernellogger )
 - [Datetime von $stdout(video)]( https://www.youtube.com/watch?v=D_-9ZxVqq8Q )
-
