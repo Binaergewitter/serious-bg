@@ -130,7 +130,15 @@ class Serious::Article
   end
 
   def chapter
-    return @chapter ||= Background.get_chapters(chapters_url)
+    return @chapter if defined?(@chapter)
+    $chapter_chache ||= {}
+    if $chapter_chache.key?(chapters_url)
+      @chapter = $chapter_chache[chapters_url]
+    else
+      @chapter = Background.get_chapters(chapters_url)
+      $chapter_chache[chapters_url] = @chapter
+    end
+    @chapter
   end
 
   def chapter_json
