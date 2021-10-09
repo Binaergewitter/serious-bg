@@ -37,13 +37,13 @@ audioformats:
   * [blog]( https://github.com/Binaergewitter/serious-bg )
 - [#WEKO und #Init7 gewinnen vor Bundesverwaltungsgericht #BVGER gegen Swisscom in Sachen Glasfaser-Ausbau]( https://drive.google.com/file/d/1fOUoGb--SlWVGFxKUWLn4d-e0M4TJb5s/view )
 - [tzdata drama]( https://www.theregister.com/2021/09/28/time_zone_database_controversy/ )
-  * https://twitter.com/fanf/status/1442968907606757383
-  * https://www.iana.org/time-zones - tz-data mailing liste
+  * [twitter thread zusammenfassung](https://twitter.com/fanf/status/1442968907606757383)
+  * [tz-data mailing liste](https://www.iana.org/time-zones)
   * [Australia has 5 time zones](https://twitter.com/maz_jovanovich/status/1444524436548296705 )
 - [(Mal wieder) neue Logos für USB-C]( https://arstechnica.com/gadgets/2021/09/usb-if-is-once-again-trying-to-logo-its-way-out-of-usb-c-confusion/ )
 * [ebay kleinanzeigen mit sms verifizierung]( https://www.heise.de/news/Ebay-Kleinanzeigen-Verpflichtende-SMS-Verifizierung-zum-Schutz-vor-Belaestigung-6198020.html )
 - Facebook ist down
-  * [post mortem von facebook]( https://engineering.fb.com/2021/10/04/networking-traffic/outage/ 
+  * [post mortem von facebook]( https://engineering.fb.com/2021/10/04/networking-traffic/outage/ )
   * [post mortem von cloudflare](https://blog.cloudflare.com/october-2021-facebook-outage/ )
   * [facebook ("Das Internet") down für nen halben Tag]( https://twitter.com/chriswigginsnz/status/1445104478286270485 )
 - [Schwungrad statt Akku]( https://www.heise.de/hintergrund/Riesen-Schwungrad-speichert-Windstrom-6203207.html )
@@ -67,7 +67,7 @@ audioformats:
 - [ssh-key-confirmer]( https://github.com/benjojo/ssh-key-confirmer )
 - [OpenZFS Developer Summit 2021]( https://openzfs.org/wiki/OpenZFS_Developer_Summit_2021 )
 - [yealink w52p]( https://amzn.to/3At3CQ9 )
-        * [telekom einstellungen]( https://geschaeftskunden.telekom.de/hilfe-und-service/hilfe-themen/hilfe-rund-um-internet-und-dsl/telefonieanpassung/yealink-telefone )
+  * [telekom einstellungen]( https://geschaeftskunden.telekom.de/hilfe-und-service/hilfe-themen/hilfe-rund-um-internet-und-dsl/telefonieanpassung/yealink-telefone )
 - [ShopSuey]( https://addons.mozilla.org/en-US/firefox/addon/shopsuey/ )
 - [Unifi USW-Flex-Mini]( https://amzn.to/3uVBlAB )
 - [NFT PTR]( https://github.com/zhuowei/nft_ptr )
