@@ -10,7 +10,7 @@
             {
               link: `${location.protocol}//${location.host}<%= article.url %>`,
               title: '<%= article.title %>',
-              //duration: '02:23:47.468',
+              duration: '<%= article.duration_timestring %>',
               poster: '/img/binaergewitter_logo1x1.png',
               chapters: <%= article.chapter_json %>,
               audio: [

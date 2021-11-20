@@ -54,11 +54,36 @@ class Background
         end
       }
     rescue Exception => e
+      # return clean empty array
       chapters = Array.new
       puts e
     end
 
     chapters
+  end
+
+  def self.get_metadata(url)
+    metadata = nil
+    return metadata if url.nil?
+    begin
+      uri = URI.parse(url)
+      #create connection
+      Net::HTTP.start(uri.host, 80, {read_timeout: 5, open_timeout: 5}) {|http|
+        http.read_timeout = 5
+        http.open_timeout = 5
+        response = http.get(uri.path)
+
+        #get data
+        if response.kind_of? Net::HTTPSuccess
+          metadata = JSON.parse(response.body.force_encoding("UTF-8"))
+        end
+      }
+    rescue Exception => e
+      metadata = nil
+      puts e
+    end
+
+    metadata
   end
 end
 

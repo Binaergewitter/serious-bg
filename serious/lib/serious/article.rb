@@ -3,7 +3,7 @@
 # Backend for file-system based articles
 #
 
-require 'excon'
+require 'time'
 
 class Serious::Article
   # Exception for invalid filenames
@@ -67,7 +67,6 @@ class Serious::Article
     end
     
     private
-    
       # Returns all article files in articles path
       def article_paths
         @article_paths ||= Dir[File.join(Serious.articles, '*')].sort.reverse
@@ -87,6 +86,11 @@ class Serious::Article
     @title ||= yaml["title"]
   end
 
+  # Lazy-loading date_time accessor
+  def date_time
+    @date_time ||= Time.parse(yaml["date"])
+  end
+
   # Lazy-loading release accessor
   def release
     @release ||= yaml["release"]
@@ -97,32 +101,66 @@ class Serious::Article
     @audio ||= yaml["audioformats"] || {}
   end
 
+  # Hash for each file format the matching file size
   def audio_file_sizes
     return @audio_file_sizes if defined?(@audio_file_sizes)
+
     @audio_file_sizes = {}
-    $http_connections ||= {}
-    $file_sizes ||= {}
-    
-    threads = []
-    audioformats.each do |format, url|
-      uri = URI(url)
-      unless $http_connections.key?([uri.hostname, uri.port])
-        puts "Opening connection to server: #{uri.hostname}:#{uri.port}"
-        $http_connections[[uri.hostname, uri.port]] = Excon.new("#{uri.scheme}://#{uri.hostname}:#{uri.port}", :persistent => true) rescue nil
+    if not podcast_metadata.nil?
+      podcast_metadata["output_files"].each do |meta|
+        @audio_file_sizes[meta["ending"]] = meta["size"]
       end
-      conn = $http_connections[[uri.hostname, uri.port]]
-      if $file_sizes.key?(uri.to_s)
-        @audio_file_sizes[format] = $file_sizes[uri.to_s]
-      else
-        puts "Making head request for #{uri.to_s}"
-        threads << Thread.new do
-          @audio_file_sizes[format] = conn.request(:method => :head, :path => uri.path).headers['Content-Length'].to_i rescue 0
-          $file_sizes[uri.to_s] = @audio_file_sizes[format]
-        end
+    else
+      # fallback to 0 size
+      audioformats.each do |format, url|
+        @audio_file_sizes[format] = 0
       end
     end
-    threads.each{|t| t.join }
+
     @audio_file_sizes
+  end
+
+  # Duration as string formated as used by itunes:duration
+  def duration_timestring
+    return @duration_timestring if defined?(@duration_timestring)
+
+    if not podcast_metadata.nil?
+      @duration_timestring = podcast_metadata["length_timestring"]
+      # because feed duration does not support HH:MM:SS.000
+      # https://validator.w3.org/feed/docs/error/InvalidDuration.html
+      @duration_timestring = @duration_timestring.split(".")[0]
+    else
+      # fallback to 0 time
+      @duration_timestring = "00:00:00"
+    end
+
+    @duration_timestring
+  end
+
+  # Download and cache the json meta data produced by auphonic
+  # used for file size and length
+  def podcast_metadata
+    return @podcast_metadata if defined?(@podcast_metadata)
+
+    # NOTE(l33tname):
+    # this is a hack maybe we should configure the meta data file
+    # in the same way as we do the chaptermarks and then we could
+    # drop the audioformats
+    format_, url = audioformats.first
+    metadata_url = url.sub(".#{format_}", ".json")
+
+    $metadata_json_chache ||= {}
+    if $metadata_json_chache.key?(metadata_url)
+      @podcast_metadata = $metadata_json_chache[metadata_url]
+    else
+      @podcast_metadata = Background.get_metadata(metadata_url)
+      if not @podcast_metadata.nil?
+        @podcast_metadata.delete_if { |key, value| key.to_s.match(/(txt|json)/) }
+        $metadata_json_chache[metadata_url] = @podcast_metadata
+      end
+    end
+
+    @podcast_metadata
   end
 
   def chapters_url
@@ -156,8 +194,7 @@ class Serious::Article
     
     chapters
   end
-    
-  
+
   # Is the article published? by default it is
   def published?
     return @published if defined?(@published) && @published
@@ -168,7 +205,7 @@ class Serious::Article
     end
   end
 
-  # Lazy-loading audioformats accessor
+  # Lazy-loading categories accessor with fallback to empty array
   def categories
     @categories ||= yaml["categories"] || []
   end
