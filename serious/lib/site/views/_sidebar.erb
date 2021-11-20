@@ -31,14 +31,22 @@
   <!-- Stork Search !-->
   <div class="stork-wrapper form-group has-feedback has-search">
    <span class="glyphicon glyphicon-search form-control-feedback" style="top:0px"></span>
-    <input data-stork="bgt" class="form-control" placeholder="Search"><div class="stork-progress" style="width: 100%; opacity: 0;"></div>
+    <input data-stork="bgt" class="form-control" placeholder="Search" onfocus="loadStork()"><div class="stork-progress" style="width: 100%; opacity: 0;"></div>
     <div data-stork="bgt-output" class=""></div>
   </div>
   <script src="https://files.stork-search.net/stork.js"></script>
 <script>
-    stork.register(
-        'bgt',
-        'https://comments.binaergewitter.de/bgt.st'
-    )
+  var loading_stork_search = false;
+  function loadStork() {
+    if(!loading_stork_search){
+      loading_stork_search = true;
+      console.log("start loading stork search");
+      stork.register(
+          'bgt',
+          'https://comments.binaergewitter.de/bgt.st'
+      );
+      console.log("finshed loading stork search");
+    }
+  }
 </script>
 </div>
