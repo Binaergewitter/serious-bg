@@ -11,8 +11,12 @@ class SmokeTest < Test::Unit::TestCase
   include Rack::Test::Methods
 
   def setup
-    stub_request(:head, /download.binaergewitter.de.*/).to_return(:status => 200, :body => "", :headers => {'Content-Length' => '123456'})
+    # chaptermarks for example
     stub_request(:get, /download.binaergewitter.de.*/).to_return(:status => 200, :body => "", :headers => {'Content-Length' => '123456'})
+
+    # stub requests to meta data file
+    json_data = File.open(File.join(File.dirname(__FILE__), "testdata/2021-11-10.Binaergewitter.Talk.286.json")).read
+    stub_request(:get, /download.binaergewitter.de.*.json/).to_return(:status => 200, :body => json_data, :headers => {'Content-Length' => '123456'})
   end
 
   def app
@@ -125,7 +129,8 @@ class SmokeTest < Test::Unit::TestCase
   end
 
   def test_the_podcast_is_not_live
-    stub_request(:head, "http://stream.radiotux.de:8000/binaergewitter.mp3").to_return(:status => [404, "404 - The file you requested could not be found"])
+    stub_request(:head, "http://stream.radiotux.de:8000/binaergewitter.mp3")
+      .to_return(:status => [404, "404 - The file you requested could not be found"])
 
     assert_equal(false, Background.update_is_live)
   end
@@ -134,5 +139,11 @@ class SmokeTest < Test::Unit::TestCase
     stub_request(:head, "http://stream.radiotux.de:8000/binaergewitter.mp3").to_timeout
 
     assert_equal(false, Background.update_is_live)
+  end
+
+  def test_broken_metadata_file
+    stub_request(:get, /download.binaergewitter.de.*.json/).to_timeout
+
+    assert_equal(nil, Background.get_metadata("http://download.binaergewitter.de/2021-11-10.Binaergewitter.Talk.286.json"))
   end
 end
