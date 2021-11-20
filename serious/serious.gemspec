@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.executables = ['serious']
 
   s.add_dependency 'sinatra', ">= 1.0.0"
-  s.add_dependency 'stupid_formatter', '>= 0.2.0'
+  s.add_dependency 'stupider_formatter', '>= 0.3.0'
   s.add_dependency 'builder', ">= 2.1.2"
   s.add_dependency 'excon', '>= 0.49.0'
 

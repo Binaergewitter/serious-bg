@@ -80,6 +80,7 @@ class Background
       }
     rescue Exception => e
       metadata = nil
+      puts url
       puts e
     end
 
