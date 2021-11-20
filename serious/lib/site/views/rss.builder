@@ -51,11 +51,13 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd", "xmlns:a
             selected_codec = @selected_audio_codec
           end
           url = article.audioformats[selected_codec]
-          type = "audio/x-#{selected_codec}"
+          type = "audio/#{selected_codec}"
           #According to the RSS Advisory Board's Best Practices Profile,
           #when an enclosure's size cannot be determined, a publisher should use a length of 0.
           xml.enclosure "url" => url, 'length' => article.audio_file_sizes[selected_codec].to_i.to_s, 'type' => type
         end
+
+        xml.itunes :duration, article.duration_timestring
 
         # chapter marks
         xml.tag!("psc:chapters", "xmlns:psc" => "http://podlove.org/simple-chapters", :version => "1.2") do
