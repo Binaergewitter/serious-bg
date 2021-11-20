@@ -31,6 +31,7 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd", "xmlns:a
     @articles.each do |article|
       xml.item do
         xml.title article.title
+        xml.description article.automatic_summary
         xml.pubDate article.date.rfc2822
         xml.itunes :author, Serious.author
         xml.itunes :summary, article.automatic_summary
