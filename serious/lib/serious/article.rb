@@ -3,6 +3,8 @@
 # Backend for file-system based articles
 #
 
+require 'time'
+
 class Serious::Article
   # Exception for invalid filenames
   class InvalidFilename < StandardError
@@ -82,6 +84,11 @@ class Serious::Article
   # Lazy-loading title accessor
   def title
     @title ||= yaml["title"]
+  end
+
+  # Lazy-loading date_time accessor
+  def date_time
+    @date_time ||= Time.parse(yaml["date"])
   end
 
   # Lazy-loading release accessor

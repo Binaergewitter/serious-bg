@@ -10,8 +10,8 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd", "xmlns:a
     xml.tag!("atom:link", :rel => 'next', :href => @next_url) if defined?(@next_url) && @next_url
     xml.description Serious.description
     xml.language 'de'
-    xml.pubDate @articles.first.date.rfc2822 unless @articles.empty?
-    xml.lastBuildDate @articles.first.date.rfc2822 unless @articles.empty?
+    xml.pubDate @articles.first.date_time.rfc2822 unless @articles.empty?
+    xml.lastBuildDate @articles.first.date_time.rfc2822 unless @articles.empty?
     xml.itunes :author, Serious.author
     xml.copyright "Creative Commons BY-SA 3.0 DE"
 
@@ -32,7 +32,7 @@ xml.rss "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd", "xmlns:a
       xml.item do
         xml.title article.title
         xml.description article.automatic_summary
-        xml.pubDate article.date.rfc2822
+        xml.pubDate article.date_time.rfc2822
         xml.itunes :author, Serious.author
         xml.itunes :summary, article.automatic_summary
         # In case we fudged the initial release, we can set the parameter
