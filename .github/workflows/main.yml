@@ -22,7 +22,7 @@ jobs:
       - run: python gen-stork.py > stork.toml
       - run: wget https://files.stork-search.net/releases/latest/stork-ubuntu-20-04
       - run: chmod +x stork-ubuntu-20-04
-      - run: ./stork-ubuntu-20-04 --build stork.toml
+      - run: ./stork-ubuntu-20-04 build --input stork.toml --output bgt.st
       - name: Deploy to bgt server
         if: github.ref == 'refs/heads/master'
         uses: appleboy/scp-action@master

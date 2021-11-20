@@ -31,8 +31,6 @@ files = [
 """)
 def footer():
     print("""]
-[output]
-filename = "bgt.st"
 """)
 
 def main():
