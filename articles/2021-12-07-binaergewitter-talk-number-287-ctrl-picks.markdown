@@ -6,6 +6,8 @@ comments: true
 categories: talk
 sharing: true
 published: true
+release: 2
+chapters: http://download.binaergewitter.de/2021-12-06.Binaergewitter.Talk.287.chapters.txt
 audioformats:
   mp3: http://download.binaergewitter.de/2021-12-06.Binaergewitter.Talk.287.mp3
   ogg: http://download.binaergewitter.de/2021-12-06.Binaergewitter.Talk.287.ogg
