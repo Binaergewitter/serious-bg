@@ -1,8 +1,7 @@
 require 'test/unit'
 require "rack/test"
+require 'webmock/test_unit'
 require 'feed_validator/assertions'
-
-#OUTER_APP = Rack::Builder.parse_file('config.ru').first
 
 class FeedTest < Test::Unit::TestCase
   include Rack::Test::Methods
@@ -17,7 +16,7 @@ class FeedTest < Test::Unit::TestCase
   end
 
   def app
-    OUTER_APP
+    Rack::Builder.parse_file('config.ru').first
   end
 
   def test_feed_validates
@@ -38,6 +37,11 @@ class FeedTest < Test::Unit::TestCase
       assert last_response.ok?
       assert_equal number, last_response.body.scan('<item>').size
     end
+  end
+
+  def test_feed_without_feed_size
+    get "/podcast_feed/all/mp3/rss.xml?&page=1"
+    assert last_response.ok?
   end
 
   def test_mp3_feed_works_with_feed_size_and_page_size

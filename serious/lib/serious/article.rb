@@ -86,9 +86,20 @@ class Serious::Article
     @title ||= yaml["title"]
   end
 
+  def extract_date
+    datetime = DateTime.new()
+    if yaml["date"].is_a?(String)
+      datetime = Time.parse(yaml["date"])
+    elsif yaml["date"].is_a?(Date)
+      datetime = yaml["date"]
+    end
+
+    datetime
+  end
+
   # Lazy-loading date_time accessor
   def date_time
-    @date_time ||= Time.parse(yaml["date"])
+    @date_time ||= extract_date()
   end
 
   # Lazy-loading release accessor

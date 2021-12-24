@@ -4,8 +4,6 @@ require 'webmock/test_unit'
 require "net/http"
 require 'typhoeus'
 
-OUTER_APP = Rack::Builder.parse_file('config.ru').first
-
 class SmokeTest < Test::Unit::TestCase
   include Rack::Test::Methods
 
@@ -19,7 +17,7 @@ class SmokeTest < Test::Unit::TestCase
   end
 
   def app
-    OUTER_APP
+    Rack::Builder.parse_file('config.ru').first
   end
 
   def test_homepage_is_a_200
