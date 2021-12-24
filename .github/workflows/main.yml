@@ -11,7 +11,7 @@ jobs:
           ruby-version: 3.0.2 # Not needed with a .ruby-version file
           bundler-cache: true
       - run: bundle install
-      - run: bundle exec rake
+      - run: bundle exec rake TESTOPTS=-v
   build-search:
     runs-on: ubuntu-latest
     steps:
