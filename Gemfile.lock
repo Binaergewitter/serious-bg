@@ -18,7 +18,7 @@ GEM
       rexml
     ethon (0.15.0)
       ffi (>= 1.15.0)
-    excon (0.88.0)
+    excon (0.89.0)
     feedvalidator (0.2.2)
     ffi (1.15.4)
     hashdiff (1.0.1)
@@ -55,7 +55,7 @@ GEM
     stupider_formatter (0.3.0)
       coderay (>= 0.9.0)
       rdiscount (>= 1.5.0)
-    test-unit (3.5.1)
+    test-unit (3.5.3)
       power_assert
     tilt (2.0.10)
     typhoeus (1.4.0)
@@ -84,4 +84,4 @@ RUBY VERSION
    ruby 3.0.2p107
 
 BUNDLED WITH
-   2.2.31
+   2.3.2
