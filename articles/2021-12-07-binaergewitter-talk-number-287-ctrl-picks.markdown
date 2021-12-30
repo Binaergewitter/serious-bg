@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Binärgewitter Talk #288: Binärgewitter Plus"
-date: 2021-12-07 15:00
+date: 2021-12-30 15:00
 comments: true
 categories: talk
 sharing: true
