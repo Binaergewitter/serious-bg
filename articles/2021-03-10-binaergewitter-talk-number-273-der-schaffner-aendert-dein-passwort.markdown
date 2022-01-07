@@ -13,7 +13,7 @@ audioformats:
   m4a: http://download.binaergewitter.de/2021-03-08.Binaergewitter.Talk.273.m4a
   opus: http://download.binaergewitter.de/2021-03-08.Binaergewitter.Talk.273.opus
 ---
-Markus stellt uns Photoprim vor und wir warten auf SofortJS.
+Markus stellt uns Photoprism vor und wir warten auf SofortJS.
 
 ## Blast from the Past
 - [Bitwarden]( http://blog.binaergewitter.de/2021/02/23/binaergewitter-talk-number-272-excel-ist-ein-bwlsimulator/#isso-1889 )
