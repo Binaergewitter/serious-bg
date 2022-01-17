@@ -6,6 +6,7 @@ comments: true
 categories: talk
 sharing: true
 published: true
+chapters: http://download.binaergewitter.de/2022-01-14.Binaergewitter.Talk.289.chapters.txt
 audioformats:
   mp3: http://download.binaergewitter.de/2022-01-14.Binaergewitter.Talk.289.mp3
   ogg: http://download.binaergewitter.de/2022-01-14.Binaergewitter.Talk.289.ogg
