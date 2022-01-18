@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Binärgewitter Talk #79 - Für ein Hundertstel Instagram"
-date: 2014-17-20 11:00
+date: 2014-01-20 11:00
 comments: true
 categories: talk
 sharing: true
