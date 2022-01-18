@@ -158,6 +158,7 @@ class Serious::Article
     # in the same way as we do the chaptermarks and then we could
     # drop the audioformats
     format_, url = audioformats.first
+    return nil unless url # return nil if no url defined
     metadata_url = url.sub(".#{format_}", ".json")
 
     $metadata_json_chache ||= {}
