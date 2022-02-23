@@ -54,29 +54,27 @@ Mit Felix, Felix, Markus und Ingo.
 ## Themen
 
 - Mailserver
- * dovecot (MDA)
- * postfix (MTA)
- * sieve Mail Filter
- * spamassasin / amavis
- * RSpamD
- * dane, dmarc, spf, dkim
- * roundcube
- * außerdem anbindung nextcloud
- * Mailserver-Backup und restore
-
-     * borg backup
-
- * [OpenSMTPD on FreeBSD]( https://l33tsource.com/blog/2015/07/26/mail-part-1-setup-smtp-opensmtpd/ )
- * [mail-tester]( https://www.mail-tester.com/ )
-* [Simple NixOS Mailserver]( https://gitlab.com/simple-nixos-mailserver/nixos-mailserver )
+  * dovecot (MDA)
+  * postfix (MTA)
+  * sieve Mail Filter
+  * spamassasin / amavis
+  * RSpamD
+  * dane, dmarc, spf, dkim
+  * roundcube
+  * außerdem anbindung nextcloud
+  * Mailserver-Backup und restore
+    - borg backup
+  * [OpenSMTPD on FreeBSD]( https://l33tsource.com/blog/2015/07/26/mail-part-1-setup-smtp-opensmtpd/ )
+  * [mail-tester]( https://www.mail-tester.com/ )
+  * [Simple NixOS Mailserver]( https://gitlab.com/simple-nixos-mailserver/nixos-mailserver )
 
 oder fertig Lösungen
- https://mailinabox.email/
- https://mailcow.email/
+
+- [mailinabox]( https://mailinabox.email/ )
+- [mailcow]( https://mailcow.email/ )
 
 
 ## Mimimi der Woche
-
 - DFS Radar WIFI 5Ghz
 - [net-mgmt/telegraf SNMP input]( https://forums.freebsd.org/threads/net-mgmt-telegraf-snmp-input-could-not-find-module-named-if-mib.83679/ )
 - [dnsmasq]( https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2022q1/016015.html )
@@ -85,9 +83,7 @@ oder fertig Lösungen
 - [Constant references are not always your friends]( https://belaycpp.com/2022/02/15/constant-references-are-not-always-your-friends/ )
 - [Die Elite-Hacker des FSB]( https://interaktiv.br.de/elite-hacker-fsb/index.html )
 - [Forever Falls]( https://mwl.io/archives/2348 )
-
-    * [Neuromancer]( https://www.goodreads.com/book/show/6088007-neuromancer )
-
+  * [Neuromancer]( https://www.goodreads.com/book/show/6088007-neuromancer )
 - [The Effects of Online Mindfulness Meditation on Mental Health and Economic Behavior]( https://economics.mit.edu/files/22355 )
 - [CppCon 2018: Matt Godbolt “The Bits Between the Bits: How We Get to main()”]( https://www.youtube.com/watch?v=dOfucXtyEsU )
 - [You don't know gif ]( https://blog.darrien.dev/posts/you-dont-know-gif/ )
