@@ -326,7 +326,7 @@ class Serious::Article
         # ---
         # markdown stuff
         if File.read(path) =~ /\A(---\s*\n.*?\n?)^(---\s*$\n?)(.*)/m
-          @yaml = YAML.load($1)
+          @yaml = YAML.load($1, permitted_classes: [Date])
           @content = $3
         end        
       rescue StandardError => e
