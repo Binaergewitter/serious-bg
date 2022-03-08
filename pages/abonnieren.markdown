@@ -31,7 +31,6 @@ Habt Spaß am Gerät.
   <td><a href="http://blog.binaergewitter.de/podcast_feed/all/opus/rss.xml">Opus Feed</a></td>
   <td><a href="http://itunes.apple.com/de/podcast/binargewitter/id216877594">auf iTunes/Apple</a></td>
   <td><a href="https://open.spotify.com/show/19LedqK0fGWfzfKzySDoVW">auf Spotify</a></td>
-  <td><a href="https://www.deezer.com/de/show/480032">auf Deezer</a></td>
   </tr>
   <tr>
     <td><a href="/categories/talk">Talk</a></td>
