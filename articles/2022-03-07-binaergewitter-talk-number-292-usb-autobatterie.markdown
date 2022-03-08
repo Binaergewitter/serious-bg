@@ -36,36 +36,31 @@ Felix, Felix, Markus und Ingo sind wieder dabei und haben diesmal das Thema Audi
   * [The Dirty Pipe Vulnerability]( https://dirtypipe.cm4all.com/ )
 - [10 years Raspberry Pi]( https://www.raspberrypi.com/news/happy-birthday-to-us-3/ )
 - [SailfishOS / Jolla will russische Investoren loswerden]( https://www.heise.de/news/Sailfish-OS-Jolla-will-russischen-Investor-loswerden-6528918.html )
-
-    * [radiotux sendung]( https://www.radiotux.de/index.php?/archives/8078-RadioTux-Sendung-Februar-2022.html )
-
+  * [radiotux sendung]( https://www.radiotux.de/index.php?/archives/8078-RadioTux-Sendung-Februar-2022.html )
 - [Frankreichs Aktionsplan für Open Source]( https://joinup.ec.europa.eu/collection/open-source-observatory-osor/news/new-action-plan-open-source-french-administration )
-
-    - [prototype fund](https://prototypefund.de/ )
-
-    - [nextcloud podcast](https://nextcloud.com/blog/nextcloud-podcast-15-interview-about-collectives-app-and-prototype-fund/ )
-
+  * [prototype fund](https://prototypefund.de/ )
+  * [nextcloud podcast](https://nextcloud.com/blog/nextcloud-podcast-15-interview-about-collectives-app-and-prototype-fund/ )
 - [NVIDIA confirms data was stolen in recent cyberattack]( https://www.bleepingcomputer.com/news/security/nvidia-confirms-data-was-stolen-in-recent-cyberattack/ )
-  - [fuck you nvidia]( https://www.youtube.com/watch?v=_36yNWw_07g )
+  * [fuck you nvidia]( https://www.youtube.com/watch?v=_36yNWw_07g )
 - [Execution and Static Analysis Support for MSVC on Compiler Explorer]( https://devblogs.microsoft.com/cppblog/execution-and-static-analysis-support-for-msvc-on-compiler-explorer/ )
-  - [Online Disassembler]( https://onlinedisassembler.com/odaweb/ )
+  * [Online Disassembler]( https://onlinedisassembler.com/odaweb/ )
 - [Ntfs2btrfs]( https://github.com/maharmstone/ntfs2btrfs )
 
 ## Themen
 - Personal Audio Server
-    * Protokolle (DAAP, Subsonic, UPnp, )
-    * [navidrome]( https://www.navidrome.org/ )
-    * [Ampache]( https://ampache.org/ )
-    * Clients
-      - [DSub]( https://play.google.com/store/apps/details?id=github.daneren2005.dsub&hl=en&gl=US )
-      - iSub (iOS)
-      - Substreamer (iOS)
-    * [Plex]( https://www.plex.tv/ )
-    * [MPD]( https://musicpd.org/ )
-      - [ympd]( https://www.ympd.org/ ) 
-    * [Die Phoniebox]( http://phoniebox.de/ )
-    * [toniebox-audio-match]( https://github.com/croesnick/toniebox-audio-match )
-    * [HiFiBerry]( https://www.hifiberry.com/ )
+  * Protokolle (DAAP, Subsonic, UPnp, )
+  * [navidrome]( https://www.navidrome.org/ )
+  * [Ampache]( https://ampache.org/ )
+  * Clients
+    - [DSub]( https://play.google.com/store/apps/details?id=github.daneren2005.dsub&hl=en&gl=US )
+    - iSub (iOS)
+    - Substreamer (iOS)
+  * [Plex]( https://www.plex.tv/ )
+  * [MPD]( https://musicpd.org/ )
+    - [ympd]( https://www.ympd.org/ ) 
+  * [Die Phoniebox]( http://phoniebox.de/ )
+  * [toniebox-audio-match]( https://github.com/croesnick/toniebox-audio-match )
+  * [HiFiBerry]( https://www.hifiberry.com/ )
 
 ## Mimimi der Woche
 - [Plantuml Go]( https://github.com/bykof/go-plantuml )
