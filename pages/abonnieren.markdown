@@ -22,7 +22,6 @@ Habt Spaß am Gerät.
     <th>Opus</th>
     <th>iTunes</th>
     <th>Spotify</th>
-    <th>deezer</th>
   </tr>
   <tr>
   <td><a href="/">Alle</a></td>
