@@ -18,13 +18,15 @@ class FeedTest < Test::Unit::TestCase
   def app
     Rack::Builder.parse_file('config.ru').first
   end
-
-  def test_feed_validates
-    get "/podcast_feed/all/itunes/rss.xml"
-    WebMock.allow_net_connect!
-    assert_valid_feed(last_response.body)
-    WebMock.disable_net_connect!
-  end
+ 
+  # TODO(FN): find a new way to check the feed
+  # feedvalidator has stoped working reliable
+  #def test_feed_validates
+  #  get "/podcast_feed/all/itunes/rss.xml"
+  #  WebMock.allow_net_connect!
+  #  assert_valid_feed(last_response.body)
+  #  WebMock.disable_net_connect!
+  #end
 
   def test_mp3_feed_works
     get "/podcast_feed/all/mp3/rss.xml"
