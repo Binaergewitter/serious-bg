@@ -38,8 +38,8 @@ Wieder alle da.
   * [I'm something of a database myself]( https://p.krebsco.de/1756d9n )
 - [The Worlds most boring person discovered by researchers]( https://www.essex.ac.uk/news/2022/03/18/the-most-boring-person-in-the-world-discovered-by-researchers )
 - [USA schafft DST ab (so wie die EU)]( https://yro.slashdot.org/story/22/03/15/200203/senate-passes-bill-to-make-daylight-saving-time-permanent )
- * ( https://de.wikipedia.org/wiki/Swatch-Internetzeit )
-- Linux 5.17 https://kernelnewbies.org/LinuxChanges
+ * Swatch Internetzeit( https://de.wikipedia.org/wiki/Swatch-Internetzeit )
+- [Linux 5.17]( https://kernelnewbies.org/LinuxChanges )
   * [Pull btrfs updates]( https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=5191290407668028179f2544a11ae9b57f0bcf07 )
   * [Random Number Generator]( https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.17-RNG )
 - [Python: bugs.python.org to GitHub Issues]( https://discuss.python.org/t/github-issues-migration-status-update/14573 )
@@ -54,7 +54,7 @@ Wieder alle da.
 
 ## Mimimi der Woche
 - [git only checkout]( https://forums.freebsd.org/threads/poudriere-ports-and-git.80371/#post-511422 )
-- unifi video ist tot - lässt sich nur noch mit uralt java starten ( https://www.going-flying.com/blog/unifi-video-java-update.html )
+- unifi video ist tot - lässt sich [nur noch mit uralt java starten]( https://www.going-flying.com/blog/unifi-video-java-update.html )
 
 ## Lesefoo
 - [Demystifying IPsec expressions]( https://thermalcircle.de/doku.php?id=blog:linux:nftables_demystifying_ipsec_expressions )
