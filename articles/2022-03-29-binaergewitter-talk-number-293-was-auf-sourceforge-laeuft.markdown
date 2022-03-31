@@ -38,7 +38,7 @@ Wieder alle da.
   * [I'm something of a database myself]( https://p.krebsco.de/1756d9n )
 - [The Worlds most boring person discovered by researchers]( https://www.essex.ac.uk/news/2022/03/18/the-most-boring-person-in-the-world-discovered-by-researchers )
 - [USA schafft DST ab (so wie die EU)]( https://yro.slashdot.org/story/22/03/15/200203/senate-passes-bill-to-make-daylight-saving-time-permanent )
- * Swatch Internetzeit( https://de.wikipedia.org/wiki/Swatch-Internetzeit )
+ * [Swatch Internetzeit]( https://de.wikipedia.org/wiki/Swatch-Internetzeit )
 - [Linux 5.17]( https://kernelnewbies.org/LinuxChanges )
   * [Pull btrfs updates]( https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=5191290407668028179f2544a11ae9b57f0bcf07 )
   * [Random Number Generator]( https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.17-RNG )
