@@ -33,24 +33,19 @@ Die Post-Oster-Show mit viel Freude über Monkey Island...
 ## News
 - [Witziger Festplattenausfall bei Hetzner]( https://www.heise.de/news/Hetzner-Festplattenausfall-sorgt-fuer-Cloud-Datenverlust-von-1500-Snapshots-6693181.html )
 - [LXD 5]( https://discuss.linuxcontainers.org/t/lxd-5-0-lts-has-been-released/13723 )
-
-    - [Bazaar](https://bazaar.canonical.com/en/)
-
-    - [Launchpad](https://launchpad.net/)
-
+  * [Bazaar](https://bazaar.canonical.com/en/)
+  * [Launchpad](https://launchpad.net/)
 - [OpenSSH 9.0/9.0p1]( https://www.openssh.com/releasenotes.html )
   * [switching the scp command to the SFTP subsystem by default]( https://twitter.com/zekjur/status/1513183606948208641 )
 - [FreeBSD 13.1-RC3]( https://lists.freebsd.org/archives/freebsd-stable/2022-April/000718.html )
 - [mac OS on Windows]( https://www.heise.de/ratgeber/Anleitung-macOS-unter-Windows-ausprobieren-mit-dem-Subsystem-fuer-Linux-und-QEMU-6663861.html )
-
-    * [OnClick MacOS mit KVM]( https://github.com/notAperson535/OneClick-macOS-Simple-KVM )
-
+  * [OnClick MacOS mit KVM]( https://github.com/notAperson535/OneClick-macOS-Simple-KVM )
 - [twitter undo]( https://twitter.com/swyx/status/1513301310434529288 )
 
 ## Themen
 
 ## Mimimi der Woche
--[www/grafana8: update to 8.4.6]( https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=263251#add_comment )
+- [www/grafana8: update to 8.4.6]( https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=263251#add_comment )
 - Billig NAS Synology - couldn't mount RDWR because of unsupported optional features (400) - ext4 lesen ist schwer
 
 
@@ -63,9 +58,7 @@ Die Post-Oster-Show mit viel Freude über Monkey Island...
 ## Picks
 
 - [contra chrome]( https://contrachrome.com/ )
-
-    - https://de.wikipedia.org/wiki/Verschluss_(Kamera)
-
+  * https://de.wikipedia.org/wiki/Verschluss_(Kamera)
 - [froxlor]( https://froxlor.org/ ) 
 - [native image lazy loading]( https://twitter.com/hdjirdeh/status/1508644628995600389 )
 - [How do I get notified on ECC error]( https://serverfault.com/questions/643542/how-do-i-get-notified-of-ecc-errors-in-linux )
