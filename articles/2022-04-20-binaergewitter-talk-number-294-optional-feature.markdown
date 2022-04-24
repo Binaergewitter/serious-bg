@@ -58,7 +58,7 @@ Die Post-Oster-Show mit viel Freude über Monkey Island...
 ## Picks
 
 - [contra chrome]( https://contrachrome.com/ )
-  * https://de.wikipedia.org/wiki/Verschluss_(Kamera)
+  * [Verschluss (Wikipedia)]( https://de.wikipedia.org/wiki/Verschluss_(Kamera) )
 - [froxlor]( https://froxlor.org/ ) 
 - [native image lazy loading]( https://twitter.com/hdjirdeh/status/1508644628995600389 )
 - [How do I get notified on ECC error]( https://serverfault.com/questions/643542/how-do-i-get-notified-of-ecc-errors-in-linux )
