@@ -17,7 +17,7 @@ audioformats:
 Die Post-Oster-Show mit viel Freude über Monkey Island...
 
 ## Blast from the Past
-- 1. April
+- 1\. April
   * [Synology FloppyStation]( https://twitter.com/Synology/status/1509939175625265153 )
 - TP-Link Omada via Hoerer
   * [A Quick Overview of EAP Management Method]( https://www.tp-link.com/us/configuration-guides/methods_for_managing_the_omada_eaps_network/?configurationId=21103#_idTextAnchor014 )
@@ -58,7 +58,7 @@ Die Post-Oster-Show mit viel Freude über Monkey Island...
 ## Picks
 
 - [contra chrome]( https://contrachrome.com/ )
-  * [Verschluss (Wikipedia)]( https://de.wikipedia.org/wiki/Verschluss_(Kamera) )
+  * [Verschluss (Wikipedia)]( https://de.wikipedia.org/wiki/Verschluss_\(Kamera\) )
 - [froxlor]( https://froxlor.org/ ) 
 - [native image lazy loading]( https://twitter.com/hdjirdeh/status/1508644628995600389 )
 - [How do I get notified on ECC error]( https://serverfault.com/questions/643542/how-do-i-get-notified-of-ecc-errors-in-linux )
