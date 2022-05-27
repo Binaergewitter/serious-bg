@@ -17,4 +17,4 @@ Unseren Chat findet ihr im Libera.chat IRC unter \#Binaergewitter. Während der 
 
 [irc://irc.libera.chat:6697/binaergewitter](irc://irc.libera.chat:6697/binaergewitter)
 
-Oder ihr benutzt den [Webchat](https://web.libera.chat//?channels=binaergewitter)
+Oder ihr benutzt den [Webchat](https://web.libera.chat//?channels=#binaergewitter)
