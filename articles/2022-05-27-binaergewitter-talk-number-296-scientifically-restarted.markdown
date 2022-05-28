@@ -23,7 +23,7 @@ Unsere lägendäre Vatertagssendung mit Felix, Felix, Markus und Ingo. Wir sprec
 ## Toter der Woche
 - [fairmail](https://linuxnews.de/2022/05/fairemail-wegen-google-restriktionen-eingestellt/ )
 - total comandander
-- [E Book Store für alte Kindle](https://www.heise.de/news/E-Reader-Amazon-schliesst-Store -auf-aelteren-Kindle-Geraeten-7122259.html)
+- [E Book Store für alte Kindle](https://www.heise.de/news/E-Reader-Amazon-schliesst-Store-auf-aelteren-Kindle-Geraeten-7122259.html)
 - [Boox Nova3]( https://onyxboox.com/boox_nova3 )
 
 ## Untoter der Woche
@@ -32,10 +32,8 @@ Unsere lägendäre Vatertagssendung mit Felix, Felix, Markus und Ingo. Wir sprec
 - [Linux 5.18]( https://kernelnewbies.org/Linux_5.18 )
     * Software Defined Silicon (SDSi) -> Intel macht einen auf IBM
     * wechselt auf neueren C Standard (C89 -> C11)
-
 - [Neue Version von Inkscape]( https://www.linux-magazin.de/news/inkscape-1-2-zahlreiche-nuetzliche-aenderungen-2/ )
 - [krita für digitales malen]( https://krita.org )
-
 - 9 euren ticket
   - Ingo fährt Berlin/Brandenburg
   - [Bahnhöfe in Deutschland]( https://map.railway-stations.org/ )
@@ -63,7 +61,6 @@ Unsere lägendäre Vatertagssendung mit Felix, Felix, Markus und Ingo. Wir sprec
     * ["zu verschenken"]( https://preview.redd.it/30fynhahcse31.jpg?width=600&auto=webp&s=5bbffe2eda366e1bb085c3083e0ff76823f5d908 ) 
     * Was macht man mit X tausend Kaltgeräte steckern
     * EU Regelung zu USB-C / Apple Lightning
-
 * Projekte ordnen
 
 ## Mimimi der Woche
@@ -71,7 +68,7 @@ Unsere lägendäre Vatertagssendung mit Felix, Felix, Markus und Ingo. Wir sprec
   * gross
   * kein aux
   * finger print im screen
-    * [Fingerprint in Power Button Patent von HP]( https://patents.google.com/patent/US20170147800A1/en )
+    - [Fingerprint in Power Button Patent von HP]( https://patents.google.com/patent/US20170147800A1/en )
   * [ersatzteile]( http://blog.binaergewitter.de/2022/05/17/binaergewitter-talk-number-295-masterclass/#isso-2098 )
 - Signal
 
