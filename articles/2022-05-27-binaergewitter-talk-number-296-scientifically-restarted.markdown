@@ -39,7 +39,7 @@ Unsere lägendäre Vatertagssendung mit Felix, Felix, Markus und Ingo. Wir sprec
   - [Bahnhöfe in Deutschland]( https://map.railway-stations.org/ )
   - [Hyper Loop Traffic Jam]( https://www.indiatimes.com/trending/social-relevance/elon-musk-boring-company-tunnel-traffic-jam-las-vegas-558798.html )
   - [NL Startup baut ersten europäischen Hyperloop]( https://www.ingenieur.de/technik/fachbereiche/verkehr/europas-erster-hyperloop-ist-fertig/ )
-  - [Nahverkehrsticket nicht mit 9Euro Ticket - IC-Strecken](  )
+  - [Nahverkehrsticket nicht mit 9Euro Ticket - IC-Strecken]( https://www.rnd.de/reise/9-euro-ticket-wann-reisende-auch-mit-dem-ice-fahren-duerfen-HLKPPWVDNVDTDDVWI5PGYTQWJU.html )
   - Auto abgemeldet online unter Linux
       - [Ausweisapp2]( https://www.ausweisapp.bund.de/home/ )
   - Sommersby Mango & Lime
