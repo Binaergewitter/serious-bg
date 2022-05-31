@@ -13,7 +13,7 @@ Binärgewitter umfasst eigentlich drei verschiedene Podcasts. Einmal den zwei-w�
 Binärgewitter entstand bei [RadioTux](http://blog.radiotux.de/), dem Internetradio rund um Linux und Open Source. Die Talk-Sendung ist eine Weiterführung der bis dahin produzieren RadioTux Talk bzw. RadioTux@HoRadS-Show die 150 Folgen lang lief. Also wir sind nicht so neu im Geschäft und haben trotzdem immer noch Spaß daran :)
 
 ### Das Team
-- Ingo Ebel ([@ingoebel](https://twitter.com/ingoebel))
+- Ingo Ebel (Twitter: [@ingoebel](https://twitter.com/ingoebel)) (Mastodon: [@ingo](https://jit.social/@ingo))
 - Sven Pfleiderer ([@pfleidi](https://twitter.com/pfleidi)) ([blog](http://blog.roothausen.de/))
 - Felix Richter ([@makefoo](https://twitter.com/makefoo)) ([blog](http://euer.krebsco.de/))
 - Markus Schlichting ([@madmas](https://twitter.com/madmas)) ([blog](http://www.mynethome.de/))
