@@ -19,7 +19,7 @@ Und ist heiß und den Netzwerk Komponenten auch, trotzdem senden Markus, Felix u
 
 * Hörer-Comment: startpage.com als Datensparsame Suchmaschine
 
-* Chatbot schaltet Anwalt ein https://www.forschung-und-wissen.de/nachrichten/technik/umstrittene-ki-von-google-hat-anwalt-eingeschaltet-13376370 https://www.iflscience.com/it-hired-a-lawyer-the-story-of-lamda-and-the-google-engineer-just-got-even-weirder-64229
+* [Chatbot schaltet Anwalt ein]( https://www.forschung-und-wissen.de/nachrichten/technik/umstrittene-ki-von-google-hat-anwalt-eingeschaltet-13376370 ) [eng]( https://www.iflscience.com/it-hired-a-lawyer-the-story-of-lamda-and-the-google-engineer-just-got-even-weirder-64229 )
 
 ## Toter der Woche
 
@@ -39,7 +39,10 @@ Und ist heiß und den Netzwerk Komponenten auch, trotzdem senden Markus, Felix u
 
 ## Themen
 
-- max2play für Home-Audio
+- [max2play]( https://www.max2play.com/ ) für Home-Audio
+  - [dual mono output](  https://www.max2play.com/howtos/howto-dual-mono-ausgang-mit-dac-oder-amp/ )     
+  - [hifiberry]( https://www.hifiberry.com/ )
+  - [hifiberry AMP2]( https://www.idealo.de/preisvergleich/OffersOfProduct/6645645_-amp2-hifiberry.html ) ([bei max2play](https://shop.max2play.com/de/hifiberry-amp2.html))
   - [home-assistant 'snapshot' and 'restore']( https://www.home-assistant.io/integrations/sonos/#service-sonossnapshot )
 
 ## Mimimi der Woche
