@@ -294,9 +294,7 @@ class Serious < Sinatra::Base
     halt 404 unless @article = Article.first(*params[:captures])
     # redirect to the url with / because isso needs
     # it to map it to the comment thread
-    # enforce https on non localhost
-    add_s = 's' unless %w(localhost 127.0.0.1).include? request.host
-    redirect "http#{add_s}://#{request.host}:#{request.port}#{request.path_info}/", 302 unless request.path_info[-1] == "/"
+    redirect to(request.path_info + "/"), 301 unless request.path_info[-1] == "/"
     render_article @article
   end
 
