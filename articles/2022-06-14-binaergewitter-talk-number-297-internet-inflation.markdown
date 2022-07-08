@@ -20,7 +20,7 @@ Mit Felix, Markus und Ingo.
 
 ## Toter der Woche
 - [Atom]( https://linuxnews.de/2022/06/open-source-texteditor-atom-wird-eingestellt/ )
-  * [Electron](https://de.wikipedia.org/wiki/Electron_(Framework) )
+  * [Electron](https://de.wikipedia.org/wiki/Electron_(Framework\) )
 - [New York City letztes Bezahltelefon]( https://www.cnbc.com/2022/05/23/new-york-city-removes-the-last-payphone-from-service.html )
 
 ## Untoter der Woche
