@@ -13,7 +13,7 @@ audioformats:
   m4a: http://download.binaergewitter.de/2022-07-11.Binaergewitter.Talk.299.m4a
   opus: http://download.binaergewitter.de/2022-07-11.Binaergewitter.Talk.299.opus
 ---
-Dank unserer Hörer haben wie soviele Gute Nachrichten für euch. Z.B. dass wir schon wieder eine neue Sendung online haben. Viel Spaß :)
+Dank unserer Hörer haben wir soviele Gute Nachrichten für euch. Z.B. dass wir schon wieder eine neue Sendung online haben. Viel Spaß :)
 
 
 ## Blast from the Past
@@ -32,9 +32,7 @@ Dank unserer Hörer haben wie soviele Gute Nachrichten für euch. Z.B. dass wir 
 - [Thunderbird-Team hat 20 Vollzeitstellen]( https://www.golem.de/news/e-mail-client-thunderbird-team-hat-20-vollzeitstellen-2205-165773.html )
 - [Linux containers on FreeBSD]( https://twitter.com/FreeBSDHelp/status/1536842326580281344?s=20&t=ayoxaNQ7dcIb37hpn1DyFw )
 - [Shadowy Strava users spy on Israeli military with fake routes in bases]( https://www.theguardian.com/world/2022/jun/21/strava-users-spy-israeli-military-fake-routes-in-bases )
-
-    - https://photoprism.app/editions
-
+    - [photoprism](https://photoprism.app/editions)
 - [Steam vs Ubisoft]( https://www.heise.de/news/Steam-Ubisoft-loescht-offenbar-mehrere-Spiele-aus-Bibliotheken-7168799.html )
 - [Böses Sony löscht Filme]( https://www.heise.de/news/Playstation-Store-Sony-loescht-gekaufte-Filme-aus-der-Bibliothek-7166332.html )
 
@@ -48,7 +46,6 @@ Dank unserer Hörer haben wie soviele Gute Nachrichten für euch. Z.B. dass wir 
 ## Mimimi der Woche
 - USB on (most) planes
     - [Hager/Berker Steckdosen mit USB-C](https://hager.com/de/aktuelles/2021-10/berker/steckdose-schuko-mit-usb )
-
 - [https on our blog]( https://github.com/Binaergewitter/serious-bg/issues/376 )
 
 ## Lesefoo
