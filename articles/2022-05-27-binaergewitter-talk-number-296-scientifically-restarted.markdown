@@ -22,7 +22,7 @@ Unsere lägendäre Vatertagssendung mit Felix, Felix, Markus und Ingo. Wir sprec
 
 ## Toter der Woche
 - [fairmail](https://linuxnews.de/2022/05/fairemail-wegen-google-restriktionen-eingestellt/ )
-- total comandander
+- [Total Commander](https://www.androidpolice.com/total-commander-apk-installation-block/)
 - [E Book Store für alte Kindle](https://www.heise.de/news/E-Reader-Amazon-schliesst-Store-auf-aelteren-Kindle-Geraeten-7122259.html)
 - [Boox Nova3]( https://onyxboox.com/boox_nova3 )
 
@@ -58,7 +58,7 @@ Unsere lägendäre Vatertagssendung mit Felix, Felix, Markus und Ingo. Wir sprec
     * Kabelbinder
     * [Hanging Storage Bags]( https://kk.org/cooltools/organizing-cables-and-other-gear-using-hanging-storage-bags/ )
     * quadratische Boxen + Plastiktüten
-    * ["zu verschenken"]( https://preview.redd.it/30fynhahcse31.jpg?width=600&auto=webp&s=5bbffe2eda366e1bb085c3083e0ff76823f5d908 ) 
+    * ["zu verschenken"]( https://preview.redd.it/30fynhahcse31.jpg?width=600&auto=webp&s=5bbffe2eda366e1bb085c3083e0ff76823f5d908 )
     * Was macht man mit X tausend Kaltgeräte steckern
     * EU Regelung zu USB-C / Apple Lightning
 * Projekte ordnen
