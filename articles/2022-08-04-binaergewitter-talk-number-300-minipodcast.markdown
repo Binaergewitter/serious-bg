@@ -23,19 +23,18 @@ Auch Folge 300 liefern wir in gewohnter Qualität und Souveränität ab. Freut e
 ## Toter der Woche
 - [Amazon Drive]( https://www.golem.de/news/cloud-speicher-amazon-drive-wird-eingestellt-2207-167273.html )
 - [Optane]( https://www.heise.de/news/Optane-Intel-stampft-seine-letzte-Speichersparte-ein-7194159.html )
-  - [Download More RAM]( https://downloadmoreram.com/ )
-  - [Optane in Westcoast Nummer 1 (2017)]( https://blog.binaergewitter.de/2017/04/04/binaergewitter-westcoast-number-1/ )
+  * [Download More RAM]( https://downloadmoreram.com/ )
+  * [Optane in Westcoast Nummer 1 (2017)]( https://blog.binaergewitter.de/2017/04/04/binaergewitter-westcoast-number-1/ )
 - [Google Timer]( https://news.ycombinator.com/item?id=32295674 )
 - [Google Stadia]( )
 
 ## Untoter der Woche
 
 ## News
-
 - [RETBleed]( https://en.wikipedia.org/wiki/Retbleed )
 - [Linux 5.19 - Linus nutzt jetzt Apple ARM](https://kernelnewbies.org/Linux_5.19)
   - [XKCD Trackpoint]( https://xkcd.com/243/ )
-- https://twitter.com/stephenlacy/status/1554697077430505473?t=LwYzJ-4_HZeNCtsWhsWTug&s=19
+- [35k repositories are infected]( https://twitter.com/stephenlacy/status/1554697077430505473)
 - neuer Datensatz Mozilla Voice
 - Linux Mint 21 fertig
 - [Opnsense 22.7]( https://github.com/opnsense/changelog/blob/aa73d9bd7dd2009d10c775184625f56ffabf053e/community/22.7/22.7#L142 )
@@ -46,24 +45,19 @@ Auch Folge 300 liefern wir in gewohnter Qualität und Souveränität ab. Freut e
 - [Schaltsekunde]( https://www.golem.de/news/it-zeitprobleme-die-schaltsekunde-soll-weg-und-das-ist-auch-gut-so-2207-167192.html )
   * https://en.wikipedia.org/wiki/Swatch_Internet_Time
 - [Meta empfiehlt Rust anstatt C++]( https://www.linux-magazin.de/news/meta-empfiehlt-rust-fuer-clis-und-als-c-alternative/ )
-  - [Felix empfielt Posix Shell für Kleber]
+  * Felix empfielt Posix Shell für Kleber
 
 ## Themen
 ### Froschcon
-
 - [froscon]( https://www.froscon.de/ )
 
 
 ### Meetups
 - NixOS Meetup:
-
-    - [Stuttgart am 9.August (in Vaihiningen)]( https://discourse.nixos.org/t/relaunch-of-the-meetup-in-stuttgart-actually-vaihingen-on-the-9th-of-august-2022/20747 )[matrix]( https://matrix.to/#/#nixos-stuttgart:matrix.org )
-
-    - [München am 2. August]( https://discourse.nixos.org/t/new-meetup-in-munich-actually-garching-on-the-2th-august-2022/20614/6 )[matrix]( https://matrix.to/#/#nixos-munich:thalheim.io )
-
-    - [Berlin am 9.August]( https://www.meetup.com/de-DE/Berlin-NixOS-Meetup/?_locale=de-DE )
-
-    - [Online jeden Mittwoch]( https://discourse.nixos.org/t/german-casual-mumble-meetup-every-wednesday-19-00-23-00-cest/7941 )
+  - [Stuttgart am 9.August (in Vaihiningen)]( https://discourse.nixos.org/t/relaunch-of-the-meetup-in-stuttgart-actually-vaihingen-on-the-9th-of-august-2022/20747 )[matrix]( https://matrix.to/#/#nixos-stuttgart:matrix.org )
+  - [München am 2. August]( https://discourse.nixos.org/t/new-meetup-in-munich-actually-garching-on-the-2th-august-2022/20614/6 )[matrix]( https://matrix.to/#/#nixos-munich:thalheim.io )
+  - [Berlin am 9.August]( https://www.meetup.com/de-DE/Berlin-NixOS-Meetup/?_locale=de-DE )
+  - [Online jeden Mittwoch]( https://discourse.nixos.org/t/german-casual-mumble-meetup-every-wednesday-19-00-23-00-cest/7941 )
 
 
 ## Mimimi der Woche
@@ -75,9 +69,7 @@ Auch Folge 300 liefern wir in gewohnter Qualität und Souveränität ab. Freut e
 
 ## Lesefoo
 - [Interneting is Hard]( https://www.internetingishard.com/ )
-
     * [Edward Tufte]( https://de.wikipedia.org/wiki/Edward_Tufte ) und [Beautiful Evidence](https://amzn.to/3Qec0vi)
-
 - [One Big Server]( https://specbranch.com/posts/one-big-server/ )
 - [How Google got to rolling Linux releases for Desktops]( https://cloud.google.com/blog/topics/developers-practitioners/how-google-got-to-rolling-linux-releases-for-desktops?authuser=0 )
 - [Use flake.nix, not Dockerfile @MCH2022 (video)]( https://www.youtube.com/watch?v=0uixRE8xlbY )
@@ -86,8 +78,8 @@ Auch Folge 300 liefern wir in gewohnter Qualität und Souveränität ab. Freut e
 
 ## Picks
 - [Dalle2 or NotDalle2]( https://crul.github.io/rDalle2OrRNotDalle2/ )
- - https://old.reddit.com/r/dalle2
- - https://old.reddit.com/r/notdalle2
+ - [dalle2]( https://old.reddit.com/r/dalle2 ) 
+ - [notdalle2]( https://old.reddit.com/r/notdalle2 )
 - Getränkekarton
 - [Beer crate battery holder for AAAA, also half the size]( https://www.thingiverse.com/thing:4927883 )
   - [AAAA Video]( https://www.youtube.com/watch?v=V-T3f4ukgOk )
