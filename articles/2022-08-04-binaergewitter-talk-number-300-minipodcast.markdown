@@ -43,7 +43,7 @@ Auch Folge 300 liefern wir in gewohnter Qualität und Souveränität ab. Freut e
   * [Freissl]( https://github.com/Binaergewitter/freiSSl )
 - [Leistungsschutzrecht bei Ecosia]( https://www.heise.de/news/Leistungsschutzrecht-kommt-Suchmaschine-Ecosia-teuer-7191894.html )
 - [Schaltsekunde]( https://www.golem.de/news/it-zeitprobleme-die-schaltsekunde-soll-weg-und-das-ist-auch-gut-so-2207-167192.html )
-  * https://en.wikipedia.org/wiki/Swatch_Internet_Time
+  * [Wikipedia: Swatch Internet Time]( https://en.wikipedia.org/wiki/Swatch_Internet_Time )
 - [Meta empfiehlt Rust anstatt C++]( https://www.linux-magazin.de/news/meta-empfiehlt-rust-fuer-clis-und-als-c-alternative/ )
   * Felix empfielt Posix Shell für Kleber
 
