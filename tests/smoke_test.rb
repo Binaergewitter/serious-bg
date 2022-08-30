@@ -58,14 +58,14 @@ class SmokeTest < Test::Unit::TestCase
     requests = []
     Serious::Article.all.each do |post|
       post.audioformats.each do |format, link|
-        req = Typhoeus::Request.new(link, {:method => :head})
+        req = Typhoeus::Request.new(link, {:method => :head, :followlocation => true})
         requests << req
         hydra.queue req
       end
     end
     hydra.run
     requests.each do |req|
-      assert req.response.success?, "Audio file was not available: #{req.url}"
+      assert req.response.success?, "Audio file was not available: '#{req.url}'"
     end
     WebMock.disable_net_connect!
   end
