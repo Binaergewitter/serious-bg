@@ -27,7 +27,7 @@ class Background
         #get data
         stream_response = response.body.include? "binaergewitter.mp3"
       }
-    rescue Exception => e
+    rescue Exception
       stream_response = false
     end
     

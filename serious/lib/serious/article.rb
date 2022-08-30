@@ -53,7 +53,7 @@ class Serious::Article
       # Reformat arguments (one-digit months and days should be converted to two-digit format)
       args = args.map {|a| a.to_s =~ /^\d{1}$/ ? "%02d" % a : a }
       now = DateTime.now
-      articles = article_paths.select {|path| File.basename(path) =~ /#{args.join('-')}/i }.map do |path|
+      article_paths.select {|path| File.basename(path) =~ /#{args.join('-')}/i }.map do |path|
         article = new(path)
         article if article && (Serious.future || article.date <= now)
       end.compact
@@ -289,13 +289,13 @@ class Serious::Article
     
     begin
       summary.formatted  
-    rescue => err
+    rescue
       errors << "Failed to format summary"
     end
     
     begin
       body.formatted
-    rescue => err
+    rescue
       errors << "Failed to format body"
     end
   ensure
@@ -309,7 +309,7 @@ class Serious::Article
       match = File.basename(path).match(/(\d{4})-(\d{1,2})-(\d{1,2})-([^\.]+)/)
       @date = Date.new(match[1].to_i, match[2].to_i, match[3].to_i)
       @permalink = match[4]
-    rescue NoMethodError => err
+    rescue NoMethodError
       raise InvalidFilename, "Failed to extract date or permalink from #{File.basename(path)}"
     end
     
