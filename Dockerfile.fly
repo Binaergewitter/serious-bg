@@ -6,8 +6,12 @@ WORKDIR /src
 ENV LC_ALL=C.UTF-8
 ENV LANG=en_US.UTF-8
 ENV LANGUAGE=en_US.UTF-8
-RUN apt update && apt install -y libffi-dev gcc make automake autoconf libtool && rm -rf /var/lib/apt/lists/*
-RUN bundle install --jobs=3 --retry=3 --deployment --path=vendor/bundle
+RUN apt update && \
+    apt install -y libffi-dev gcc make automake autoconf libtool && \
+    rm -rf /var/lib/apt/lists/*
+RUN bundle config set --global deployment true && \
+    bundle config set --global path vendor/bundle && \
+    bundle install --jobs=3 --retry=3
 
 EXPOSE 8080
 
