@@ -1,11 +1,14 @@
-FROM ruby:3.0.2
+FROM ruby:3.1.2
 ADD . /src
 WORKDIR /src
 
 ENV LC_ALL=C.UTF-8
 ENV LANG=en_US.UTF-8
 ENV LANGUAGE=en_US.UTF-8
-RUN bundle install --jobs=3 --retry=3 --deployment --path=vendor/bundle
+RUN bundle config set --global deployment true && \
+    bundle config set --global path vendor/bundle && \
+    bundle config set --global jobs 3 && \
+    bundle install
 RUN bundle exec rake test
 
 EXPOSE 9292
