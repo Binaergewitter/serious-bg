@@ -12,7 +12,7 @@ RUN apt update && \
 RUN bundle config set --global deployment true && \
     bundle config set --global path vendor/bundle && \
     bundle config set --global jobs 3 && \
-    bundle install --retry=3
+    bundle install
 
 EXPOSE 8080
 
