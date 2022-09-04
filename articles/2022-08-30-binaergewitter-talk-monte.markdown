@@ -24,7 +24,6 @@ audioformats:
 ## Untoter der Woche
 
 ## News
-
 - [Amazon kauft iRobot für 1.7 Instas]( https://techacute.com/amazon-to-acquire-irobot/ )
 - [CCC zeigt das VideoIdent kaputt ist]( https://www.ccc.de/updates/2022/chaos-computer-club-hackt-video-ident )
 - [Plex warns users to reset passwords after data breach]( https://techcrunch.com/2022/08/24/plex-streaming-breach-passwords/ )
@@ -49,16 +48,15 @@ Froscon
 - [Datenkreuzung Telegraf]( https://media.ccc.de/v/froscon2022-2748-datenkreuzung_telegraf )
 
 ## Mimimi der Woche
-
 - [Anleitung zum Laden des Intel Rapid Storage Technology-Treibers zur Installation des Betriebssystems auf NVMe-Speicher]( https://www.dell.com/support/kbdoc/de-ch/000132969/how-to-load-intel-rapid-storage-technology-driver-to-install-os-on-nvme-memory?dgc=SM&cid=339178&lid=spr4765907907&RefID=dtw21_spr4765907907 )
   * [XPS 13 9315 driver]( https://www.dell.com/support/home/de-ch/product-support/product/xps-13-9315-laptop/drivers )
   * [Extracting files from windows executables (.exe) in linux]( https://www.linuxwave.info/2016/04/extracting-files-from-windows.html )
 - [Python glob `recursive=True`]( https://stackoverflow.com/questions/73469567/glob-finds-the-same-file-10-times )
-  - https://docs.python.org/3/library/pathlib.html#pathlib.Path.glob
+  * [pathlib — Object-oriented filesystem paths](https://docs.python.org/3/library/pathlib.html#pathlib.Path.glob)
   
 ## Lesefoo
 - [An introduction to PipeWire]( https://bootlin.com/blog/an-introduction-to-pipewire/ )
-- [ Latency translated to human ]( https://twitter.com/pr0grammerhum0r/status/1560884484999897089?s=21&t=sZTRumSgtcsvkZ-RUpiZLw )
+- [Latency translated to human]( https://twitter.com/pr0grammerhum0r/status/1560884484999897089?s=21&t=sZTRumSgtcsvkZ-RUpiZLw )
 - [Getting Home Assistant running in a FreeBSD 13.1 jail]( https://dan.langille.org/2022/08/27/getting-home-assistant-running-in-a-freebsd-13-1-jail/ )
 
 ## Picks
@@ -74,6 +72,3 @@ Froscon
 - [WDR Videotext]( https://mobiltext.wdr.de/ )
 - [Linux software raid]( https://twitter.com/tqbf/status/1559325486412697604 )
 - [giving snakes there legs back. (video)]( https://www.youtube.com/watch?v=1SgGfMlbCoM )
-
-
-
