@@ -18,7 +18,7 @@ audioformats:
   * [Switch fly deployment to docker container with jemalloc ruby]( https://github.com/Binaergewitter/serious-bg/commit/418d5948e269e25f3b23b3ba7f871363db40d68e )
 
 ## Toter der Woche
-- [Peter Eckersley]( https://en.wikipedia.org/wiki/Peter_Eckersley_(computer_scientist))
+- [Peter Eckersley]( https://en.wikipedia.org/wiki/Peter_Eckersley_(computer_scientist\))
 - [E Post Brief](https://www.linux-magazin.de/news/digitaler-brief-gmx-und-web-de-kooperieren-mit-der-post/ )
 - [CODEX]( https://torrentfreak.com/iconic-game-cracking-group-codex-shuts-down-220224/ )
 - [SmartDry Internet Ding]( https://arstechnica.com/gadgets/2022/08/smartdrys-useful-laundry-sensor-to-be-cloud-bricked-next-month/ )
