@@ -18,18 +18,13 @@ audioformats:
   * [Switch fly deployment to docker container with jemalloc ruby]( https://github.com/Binaergewitter/serious-bg/commit/418d5948e269e25f3b23b3ba7f871363db40d68e )
 
 ## Toter der Woche
-- [Peter Eckersley]( https://en.wikipedia.org/wiki/Peter_Eckersley_(computer_scientist) )
+- [Peter Eckersley]( https://en.wikipedia.org/wiki/Peter_Eckersley_(computer_scientist))
 - [E Post Brief](https://www.linux-magazin.de/news/digitaler-brief-gmx-und-web-de-kooperieren-mit-der-post/ )
 - [CODEX]( https://torrentfreak.com/iconic-game-cracking-group-codex-shuts-down-220224/ )
 - [SmartDry Internet Ding]( https://arstechnica.com/gadgets/2022/08/smartdrys-useful-laundry-sensor-to-be-cloud-bricked-next-month/ )
-
-    * [openhabian]( https://www.openhab.org/docs/installation/openhabian.html )
-
-    * [NodeRed]( https://nodered.org/ )
-
-    * [Temperatur Dashboard](https://twitter.com/l33tname/status/1566128843282341888/photo/1)
-
-
+  * [openhabian]( https://www.openhab.org/docs/installation/openhabian.html )
+  * [NodeRed]( https://nodered.org/ )
+  * [Temperatur Dashboard](https://twitter.com/l33tname/status/1566128843282341888/photo/1)
 
 ## Untoter der Woche
 - [Disketten in Japan]( https://www.heise.de/news/Disketten-Zwang-nervt-Japans-Digitalminister-7249922.html )
@@ -38,7 +33,6 @@ audioformats:
 - [MX Linux 21.2]( https://www.theregister.com/2022/08/31/mx_linux_212/ )
 
 ## AI der Woche
-
 - [Creepy Frau in AI Bildern]( https://www.vice.com/en/article/g5vjw3/why-does-this-horrifying-woman-keep-appearing-in-ai-generated-images ) 
 - [AI-generierte Bilder in Kunst-Communities]( https://arstechnica.com/information-technology/2022/09/flooded-with-ai-generated-images-some-art-communities-ban-them-completely/ )
 - [AI tool to generate colour palettes from any text prompt](https://twitter.com/mattdesl/status/1569457645182152705)
@@ -53,18 +47,11 @@ audioformats:
 - [30% Speicherplatz sparen mit zstd](https://www.linux-magazin.de/news/aws-spart-30-prozent-speicherplatz-dank-zstd/ )
 - [70% Langsamere VMs](https://www.heise.de/news/Bis-zu-70-Prozent-langsamer-Kernel-Fix-gegen-Retbleed-macht-Linux-VMs-lahm-7261222.html )
 
-
-## Themen
-
-## Mimimi der Woche
-
 ## Lesefoo
-
 - [Die Queen in Wikipedia]( https://twitter.com/depthsofwiki/status/1568101529273643008 ) 
 - [Edge Case Poisoning]( https://buttondown.email/hillelwayne/archive/edge-case-poisoning/ ) 
 
 ## Picks
-
 - [Hacktoberfest: Pretember!]( https://hacktoberfest.com )
 - [TinkerCAD]( https://www.tinkercad.com/dashboard )
 - [Shortest URLs on the Internet]( https://jameswillia.ms/posts/shortest-urls.html )
