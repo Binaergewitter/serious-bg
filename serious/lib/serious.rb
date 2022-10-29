@@ -292,11 +292,16 @@ class Serious < Sinatra::Base
   # Specific article route
   get %r{/(\d{4})/(\d{1,2})/(\d{1,2})/([^\/]+)/?} do
     halt 404 unless @article = Article.first(*params[:captures])
-    # redirect to the url with / because isso needs
+    # redirect to the url without / because isso needs
     # it to map it to the comment thread
     # enforce https on non localhost
-    add_s = 's' unless %w(localhost 127.0.0.1).include? request.host
-    redirect "http#{add_s}://#{request.host_with_port}#{request.path_info}/", 302 unless request.path_info[-1] == "/"
+    if request.path_info[-1] == "/"
+        info = request.path_info.chomp('/')
+        add_s = 's' unless %w(localhost 127.0.0.1).include? request.host
+
+        redirect "http#{add_s}://#{request.host_with_port}#{info}", 302
+    end
+
     render_article @article
   end
 
