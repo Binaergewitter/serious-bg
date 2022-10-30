@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2018-10-18.Binaergewitter.Talk.213.mp3
-  ogg: http://download.binaergewitter.de/2018-10-18.Binaergewitter.Talk.213.ogg
-  m4a: http://download.binaergewitter.de/2018-10-18.Binaergewitter.Talk.213.m4a
-  opus: http://download.binaergewitter.de/2018-10-18.Binaergewitter.Talk.213.opus
+  mp3: https://download.binaergewitter.de/2018-10-18.Binaergewitter.Talk.213.mp3
+  ogg: https://download.binaergewitter.de/2018-10-18.Binaergewitter.Talk.213.ogg
+  m4a: https://download.binaergewitter.de/2018-10-18.Binaergewitter.Talk.213.m4a
+  opus: https://download.binaergewitter.de/2018-10-18.Binaergewitter.Talk.213.opus
 ---
 Die Felixe und er angeschlagene Ingo treffen sich zur Besprechung der News der letzten Woche und natürlich darf die übliche Zeitzonen Diskussion nicht fehlen.
 

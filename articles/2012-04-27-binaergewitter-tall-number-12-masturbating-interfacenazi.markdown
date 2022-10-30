@@ -6,8 +6,8 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2012-04-27.Binaergewitter.Talk.12.mp3
-  ogg: http://download.binaergewitter.de/2012-04-27.Binaergewitter.Talk.12.ogg
+  mp3: https://download.binaergewitter.de/2012-04-27.Binaergewitter.Talk.12.mp3
+  ogg: https://download.binaergewitter.de/2012-04-27.Binaergewitter.Talk.12.ogg
 ---
 Heute in kleiner Runde und auch mal etwas kürzer. Wir quatschen über Google Drive, Ubuntu 12.04, Meteor und definitiv nicht über ponys!!
 

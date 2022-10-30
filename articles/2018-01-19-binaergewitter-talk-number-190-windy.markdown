@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2018-01-18.Binaergewitter.Talk.190.mp3
-  ogg: http://download.binaergewitter.de/2018-01-18.Binaergewitter.Talk.190.ogg
-  m4a: http://download.binaergewitter.de/2018-01-18.Binaergewitter.Talk.190.m4a
-  opus: http://download.binaergewitter.de/2018-01-18.Binaergewitter.Talk.190.opus
+  mp3: https://download.binaergewitter.de/2018-01-18.Binaergewitter.Talk.190.mp3
+  ogg: https://download.binaergewitter.de/2018-01-18.Binaergewitter.Talk.190.ogg
+  m4a: https://download.binaergewitter.de/2018-01-18.Binaergewitter.Talk.190.m4a
+  opus: https://download.binaergewitter.de/2018-01-18.Binaergewitter.Talk.190.opus
 ---
 Piwik heißt jetzt Twix. Sonst ändert sich bei Felix, Markus und Ingo nix....
 

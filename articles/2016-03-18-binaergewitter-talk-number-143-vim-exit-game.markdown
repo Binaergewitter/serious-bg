@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2016-03-17.Binaergewitter.Talk.143.mp3
-  ogg: http://download.binaergewitter.de/2016-03-17.Binaergewitter.Talk.143.ogg
-  m4a: http://download.binaergewitter.de/2016-03-17.Binaergewitter.Talk.143.m4a
-  opus: http://download.binaergewitter.de/2016-03-17.Binaergewitter.Talk.143.opus
+  mp3: https://download.binaergewitter.de/2016-03-17.Binaergewitter.Talk.143.mp3
+  ogg: https://download.binaergewitter.de/2016-03-17.Binaergewitter.Talk.143.ogg
+  m4a: https://download.binaergewitter.de/2016-03-17.Binaergewitter.Talk.143.m4a
+  opus: https://download.binaergewitter.de/2016-03-17.Binaergewitter.Talk.143.opus
 ---
 
 Mit Mat, Felix und Ingo und natürlich mit "die Hölle friert mal wieder zu, weil MS Zeug auf Linux bringt".

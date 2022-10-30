@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2017-03-30.Binaergewitter.Talk.169.mp3
-  ogg: http://download.binaergewitter.de/2017-03-30.Binaergewitter.Talk.169.ogg
-  m4a: http://download.binaergewitter.de/2017-03-30.Binaergewitter.Talk.169.m4a
-  opus: http://download.binaergewitter.de/2017-03-30.Binaergewitter.Talk.169.opus
+  mp3: https://download.binaergewitter.de/2017-03-30.Binaergewitter.Talk.169.mp3
+  ogg: https://download.binaergewitter.de/2017-03-30.Binaergewitter.Talk.169.ogg
+  m4a: https://download.binaergewitter.de/2017-03-30.Binaergewitter.Talk.169.m4a
+  opus: https://download.binaergewitter.de/2017-03-30.Binaergewitter.Talk.169.opus
 ---
 Wir haben ja keine Ahnung von BSD. Sagt man jedenfalls. Darum haben wir diesmal den l33tname dazu geholt damit der mal Aufklärungsarbeit betreiben kann.
 

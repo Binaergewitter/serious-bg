@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2017-05-25.Binaergewitter.Talk.173.mp3
-  ogg: http://download.binaergewitter.de/2017-05-25.Binaergewitter.Talk.173.ogg
-  m4a: http://download.binaergewitter.de/2017-05-25.Binaergewitter.Talk.173.m4a
-  opus: http://download.binaergewitter.de/2017-05-25.Binaergewitter.Talk.173.opus
+  mp3: https://download.binaergewitter.de/2017-05-25.Binaergewitter.Talk.173.mp3
+  ogg: https://download.binaergewitter.de/2017-05-25.Binaergewitter.Talk.173.ogg
+  m4a: https://download.binaergewitter.de/2017-05-25.Binaergewitter.Talk.173.m4a
+  opus: https://download.binaergewitter.de/2017-05-25.Binaergewitter.Talk.173.opus
 ---
 Die Veröffentlichung hat sich leider etwas hingezogen, denn mal wieder ging etwas schief und Ingo hatte nicht genug zeit das früher zu fixen. Jetzt ist die
 Sendung mit l33tname, Markus und Ingo aber da.

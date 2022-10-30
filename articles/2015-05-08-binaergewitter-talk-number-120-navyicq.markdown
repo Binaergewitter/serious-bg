@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2015-05-07.Binaergewitter.Talk.120.mp3
-  ogg: http://download.binaergewitter.de/2015-05-07.Binaergewitter.Talk.120.ogg
-  m4a: http://download.binaergewitter.de/2015-05-07.Binaergewitter.Talk.120.m4a
-  opus: http://download.binaergewitter.de/2015-05-07.Binaergewitter.Talk.120.opus
+  mp3: https://download.binaergewitter.de/2015-05-07.Binaergewitter.Talk.120.mp3
+  ogg: https://download.binaergewitter.de/2015-05-07.Binaergewitter.Talk.120.ogg
+  m4a: https://download.binaergewitter.de/2015-05-07.Binaergewitter.Talk.120.m4a
+  opus: https://download.binaergewitter.de/2015-05-07.Binaergewitter.Talk.120.opus
 ---
 Mat ist mal wieder dabei. Zusammen mit Ingo gehts diesmal vor allem um Nokia und Microsoft und erschossene PCs.
 

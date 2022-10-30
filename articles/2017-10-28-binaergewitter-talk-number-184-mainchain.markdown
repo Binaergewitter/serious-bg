@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2017-10-26.Binaergewitter.Talk.184.mp3
-  ogg: http://download.binaergewitter.de/2017-10-26.Binaergewitter.Talk.184.ogg
-  m4a: http://download.binaergewitter.de/2017-10-26.Binaergewitter.Talk.184.m4a
-  opus: http://download.binaergewitter.de/2017-10-26.Binaergewitter.Talk.184.opus
+  mp3: https://download.binaergewitter.de/2017-10-26.Binaergewitter.Talk.184.mp3
+  ogg: https://download.binaergewitter.de/2017-10-26.Binaergewitter.Talk.184.ogg
+  m4a: https://download.binaergewitter.de/2017-10-26.Binaergewitter.Talk.184.m4a
+  opus: https://download.binaergewitter.de/2017-10-26.Binaergewitter.Talk.184.opus
 ---
 L33tname, Markus und Ingo präsentieren die Mainchain in der Ausgabe 184. Außerdem Grüßen wir alle Nextcloud Entwickler.
 

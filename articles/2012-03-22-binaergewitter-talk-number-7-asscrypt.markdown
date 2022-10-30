@@ -6,8 +6,8 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2012-03-21.Binaergewitter.Talk.7.mp3
-  ogg: http://download.binaergewitter.de/2012-03-21.Binaergewitter.Talk.7.ogg
+  mp3: https://download.binaergewitter.de/2012-03-21.Binaergewitter.Talk.7.mp3
+  ogg: https://download.binaergewitter.de/2012-03-21.Binaergewitter.Talk.7.ogg
 ---
 Wieder zur 4., rocken wir diesmal noch mal durchs Mail- und zum ersten Mal durchs Monitoringuniversum.
 

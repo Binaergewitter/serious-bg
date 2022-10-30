@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2021-05-04.Binaergewitter.Talk.276.mp3
-  ogg: http://download.binaergewitter.de/2021-05-04.Binaergewitter.Talk.276.ogg
-  m4a: http://download.binaergewitter.de/2021-05-04.Binaergewitter.Talk.276.m4a
-  opus: http://download.binaergewitter.de/2021-05-04.Binaergewitter.Talk.276.opus
+  mp3: https://download.binaergewitter.de/2021-05-04.Binaergewitter.Talk.276.mp3
+  ogg: https://download.binaergewitter.de/2021-05-04.Binaergewitter.Talk.276.ogg
+  m4a: https://download.binaergewitter.de/2021-05-04.Binaergewitter.Talk.276.m4a
+  opus: https://download.binaergewitter.de/2021-05-04.Binaergewitter.Talk.276.opus
 ---
 Mit Schluckauf und Paarberatung sind wir zu 4. durch die News der letzten Wochen....
 

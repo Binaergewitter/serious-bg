@@ -6,8 +6,8 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2012-05-10.Binaergewitter.Talk.14.mp3
-  ogg: http://download.binaergewitter.de/2012-05-10.Binaergewitter.Talk.14.ogg
+  mp3: https://download.binaergewitter.de/2012-05-10.Binaergewitter.Talk.14.mp3
+  ogg: https://download.binaergewitter.de/2012-05-10.Binaergewitter.Talk.14.ogg
 ---
 Wieder mal sehr albern sprechen pfleidi, felix, ingo und jan über die News der letzten Woche, über neue Rubriken, ob [RMS tot ist oder nicht](http://www.fsf.org/news/richard-stallman-speech-in-barcelona-canceled) und Webzeugs.
 

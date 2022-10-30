@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2014-02-27.Binaergewitter.Talk.85.mp3
-  ogg: http://download.binaergewitter.de/2014-02-27.Binaergewitter.Talk.85.ogg
-  m4a: http://download.binaergewitter.de/2014-02-27.Binaergewitter.Talk.85.m4a
-  opus: http://download.binaergewitter.de/2014-02-27.Binaergewitter.Talk.85.opus
+  mp3: https://download.binaergewitter.de/2014-02-27.Binaergewitter.Talk.85.mp3
+  ogg: https://download.binaergewitter.de/2014-02-27.Binaergewitter.Talk.85.ogg
+  m4a: https://download.binaergewitter.de/2014-02-27.Binaergewitter.Talk.85.m4a
+  opus: https://download.binaergewitter.de/2014-02-27.Binaergewitter.Talk.85.opus
 ---
 Leider mit ein paar technischen Problemen daher fehlen die ersten paar Minuten der Sendung. Trotzdem gibts wieder eine abwechslungsreiche Sendung bei der es auch zwei Sachen zu verlosen gibt.
 

@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2021-08-18.Binaergewitter.Talk.282.mp3
-  ogg: http://download.binaergewitter.de/2021-08-18.Binaergewitter.Talk.282.ogg
-  m4a: http://download.binaergewitter.de/2021-08-18.Binaergewitter.Talk.282.m4a
-  opus: http://download.binaergewitter.de/2021-08-18.Binaergewitter.Talk.282.opus
+  mp3: https://download.binaergewitter.de/2021-08-18.Binaergewitter.Talk.282.mp3
+  ogg: https://download.binaergewitter.de/2021-08-18.Binaergewitter.Talk.282.ogg
+  m4a: https://download.binaergewitter.de/2021-08-18.Binaergewitter.Talk.282.m4a
+  opus: https://download.binaergewitter.de/2021-08-18.Binaergewitter.Talk.282.opus
 ---
 Mit Markus, Felix, der andere und Ingo.
 

@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2017-02-02.Binaergewitter.Talk.165.mp3
-  ogg: http://download.binaergewitter.de/2017-02-02.Binaergewitter.Talk.165.ogg
-  m4a: http://download.binaergewitter.de/2017-02-02.Binaergewitter.Talk.165.m4a
-  opus: http://download.binaergewitter.de/2017-02-02.Binaergewitter.Talk.165.opus
+  mp3: https://download.binaergewitter.de/2017-02-02.Binaergewitter.Talk.165.mp3
+  ogg: https://download.binaergewitter.de/2017-02-02.Binaergewitter.Talk.165.ogg
+  m4a: https://download.binaergewitter.de/2017-02-02.Binaergewitter.Talk.165.m4a
+  opus: https://download.binaergewitter.de/2017-02-02.Binaergewitter.Talk.165.opus
 ---
 Der Mat ist wieder da. Außerdem mit dabei sind Markus und Ingo. Leider mussten wir die Sendung etwas früher beenden und sind daher mal unter 2
 Stunden fertig. Aber wir gleichen das ein anderes mal wieder aus :)

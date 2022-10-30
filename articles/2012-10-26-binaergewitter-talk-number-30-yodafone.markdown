@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2012-10-25.Binaergewitter.Talk.30.mp3
-  ogg: http://download.binaergewitter.de/2012-10-25.Binaergewitter.Talk.30.ogg
-  m4a: http://download.binaergewitter.de/2012-10-25.Binaergewitter.Talk.30.m4a
-  opus: http://download.binaergewitter.de/2012-10-25.Binaergewitter.Talk.30.opus
+  mp3: https://download.binaergewitter.de/2012-10-25.Binaergewitter.Talk.30.mp3
+  ogg: https://download.binaergewitter.de/2012-10-25.Binaergewitter.Talk.30.ogg
+  m4a: https://download.binaergewitter.de/2012-10-25.Binaergewitter.Talk.30.m4a
+  opus: https://download.binaergewitter.de/2012-10-25.Binaergewitter.Talk.30.opus
 ---
 Ohne Pfleidi aber mit News, Messen und mehr Graveyards....
 

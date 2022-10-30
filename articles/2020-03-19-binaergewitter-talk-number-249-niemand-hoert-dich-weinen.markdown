@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2020-03-18.Binaergewitter.Talk.249.mp3
-  ogg: http://download.binaergewitter.de/2020-03-18.Binaergewitter.Talk.249.ogg
-  m4a: http://download.binaergewitter.de/2020-03-18.Binaergewitter.Talk.249.m4a
-  opus: http://download.binaergewitter.de/2020-03-18.Binaergewitter.Talk.249.opus
+  mp3: https://download.binaergewitter.de/2020-03-18.Binaergewitter.Talk.249.mp3
+  ogg: https://download.binaergewitter.de/2020-03-18.Binaergewitter.Talk.249.ogg
+  m4a: https://download.binaergewitter.de/2020-03-18.Binaergewitter.Talk.249.m4a
+  opus: https://download.binaergewitter.de/2020-03-18.Binaergewitter.Talk.249.opus
 ---
 Felix, Markus und Ingo sind im Krisenmodus....
 

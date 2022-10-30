@@ -7,10 +7,10 @@ categories: westcoast
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2017-09-24.Binaergewitter.Westcoast.3.mp3
-  ogg: http://download.binaergewitter.de/2017-09-24.Binaergewitter.Westcoast.3.ogg
-  m4a: http://download.binaergewitter.de/2017-09-24.Binaergewitter.Westcoast.3.m4a
-  opus: http://download.binaergewitter.de/2017-09-24.Binaergewitter.Westcoast.3.opus
+  mp3: https://download.binaergewitter.de/2017-09-24.Binaergewitter.Westcoast.3.mp3
+  ogg: https://download.binaergewitter.de/2017-09-24.Binaergewitter.Westcoast.3.ogg
+  m4a: https://download.binaergewitter.de/2017-09-24.Binaergewitter.Westcoast.3.m4a
+  opus: https://download.binaergewitter.de/2017-09-24.Binaergewitter.Westcoast.3.opus
 ---
 
 ## Meta

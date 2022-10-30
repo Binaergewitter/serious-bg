@@ -6,12 +6,12 @@ comments: true
 categories: talk
 sharing: true
 published: true
-chapters: http://download.binaergewitter.de/2020-12-29.Binaergewitter.Talk.267.chapters.txt
+chapters: https://download.binaergewitter.de/2020-12-29.Binaergewitter.Talk.267.chapters.txt
 audioformats:
-  mp3: http://download.binaergewitter.de/2020-12-29.Binaergewitter.Talk.267.mp3
-  ogg: http://download.binaergewitter.de/2020-12-29.Binaergewitter.Talk.267.ogg
-  m4a: http://download.binaergewitter.de/2020-12-29.Binaergewitter.Talk.267.m4a
-  opus: http://download.binaergewitter.de/2020-12-29.Binaergewitter.Talk.267.opus
+  mp3: https://download.binaergewitter.de/2020-12-29.Binaergewitter.Talk.267.mp3
+  ogg: https://download.binaergewitter.de/2020-12-29.Binaergewitter.Talk.267.ogg
+  m4a: https://download.binaergewitter.de/2020-12-29.Binaergewitter.Talk.267.m4a
+  opus: https://download.binaergewitter.de/2020-12-29.Binaergewitter.Talk.267.opus
 ---
 Live vom rC3 im Sendezentrum und damit unter Zeitdruck senden wir zu 4 unseren Jahresausklang.
 

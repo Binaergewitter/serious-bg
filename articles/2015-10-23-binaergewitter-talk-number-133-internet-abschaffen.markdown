@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2015-10-22.Binaergewitter.Talk.133.mp3
-  ogg: http://download.binaergewitter.de/2015-10-22.Binaergewitter.Talk.133.ogg
-  m4a: http://download.binaergewitter.de/2015-10-22.Binaergewitter.Talk.133.m4a
-  opus: http://download.binaergewitter.de/2015-10-22.Binaergewitter.Talk.133.opus
+  mp3: https://download.binaergewitter.de/2015-10-22.Binaergewitter.Talk.133.mp3
+  ogg: https://download.binaergewitter.de/2015-10-22.Binaergewitter.Talk.133.ogg
+  m4a: https://download.binaergewitter.de/2015-10-22.Binaergewitter.Talk.133.m4a
+  opus: https://download.binaergewitter.de/2015-10-22.Binaergewitter.Talk.133.opus
 ---
 Wegen der Veröffentlichung von Ubuntu 15.10 fordern Mat, Felix und Ingo mal wieder dass die übernächste Version Yodeling Yeti heißen muss, außerdem reden wir über den JmStV, den Playboy und Redtu.. äh Youtube Red und freuen uns über den Abspann den uns [OffBeatHarry](https://soundcloud.com/offbeatharry) zur Verfügung gestellt hat mit Musik unterlegt von [eldienneproductions](https://soundcloud.com/eldienneproductions).
 

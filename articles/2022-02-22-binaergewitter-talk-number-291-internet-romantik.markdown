@@ -6,12 +6,12 @@ comments: true
 categories: talk
 sharing: true
 published: true
-chapters: http://download.binaergewitter.de/2022-02-21.Binaergewitter.Talk.291.chapters.txt
+chapters: https://download.binaergewitter.de/2022-02-21.Binaergewitter.Talk.291.chapters.txt
 audioformats:
-  mp3: http://download.binaergewitter.de/2022-02-21.Binaergewitter.Talk.291.mp3
-  ogg: http://download.binaergewitter.de/2022-02-21.Binaergewitter.Talk.291.ogg
-  m4a: http://download.binaergewitter.de/2022-02-21.Binaergewitter.Talk.291.m4a
-  opus: http://download.binaergewitter.de/2022-02-21.Binaergewitter.Talk.291.opus
+  mp3: https://download.binaergewitter.de/2022-02-21.Binaergewitter.Talk.291.mp3
+  ogg: https://download.binaergewitter.de/2022-02-21.Binaergewitter.Talk.291.ogg
+  m4a: https://download.binaergewitter.de/2022-02-21.Binaergewitter.Talk.291.m4a
+  opus: https://download.binaergewitter.de/2022-02-21.Binaergewitter.Talk.291.opus
 ---
 Wir schwämen über Mailserver, Gedenken Sven Guckes und streiten über die Aussprache von gif.
 Mit Felix, Felix, Markus und Ingo.

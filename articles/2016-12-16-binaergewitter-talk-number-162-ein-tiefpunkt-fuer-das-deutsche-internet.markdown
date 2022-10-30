@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2016-12-15.Binaergewitter.Talk.162.mp3
-  ogg: http://download.binaergewitter.de/2016-12-15.Binaergewitter.Talk.162.ogg
-  m4a: http://download.binaergewitter.de/2016-12-15.Binaergewitter.Talk.162.m4a
-  opus: http://download.binaergewitter.de/2016-12-15.Binaergewitter.Talk.162.opus
+  mp3: https://download.binaergewitter.de/2016-12-15.Binaergewitter.Talk.162.mp3
+  ogg: https://download.binaergewitter.de/2016-12-15.Binaergewitter.Talk.162.ogg
+  m4a: https://download.binaergewitter.de/2016-12-15.Binaergewitter.Talk.162.m4a
+  opus: https://download.binaergewitter.de/2016-12-15.Binaergewitter.Talk.162.opus
 ---
 In der letzten Sendung vor Weihnachten und der vorletzten in diesem Jahr geht es vor allem um seltsame Urteile und den Tod der Pebble.  Dabei sind wieder Felix, Markus und Ingo.
 

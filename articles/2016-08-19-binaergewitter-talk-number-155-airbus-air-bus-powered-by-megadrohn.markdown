@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2016-08-18.Binaergewitter.Talk.155.mp3
-  ogg: http://download.binaergewitter.de/2016-08-18.Binaergewitter.Talk.155.ogg
-  m4a: http://download.binaergewitter.de/2016-08-18.Binaergewitter.Talk.155.m4a
-  opus: http://download.binaergewitter.de/2016-08-18.Binaergewitter.Talk.155.opus
+  mp3: https://download.binaergewitter.de/2016-08-18.Binaergewitter.Talk.155.mp3
+  ogg: https://download.binaergewitter.de/2016-08-18.Binaergewitter.Talk.155.ogg
+  m4a: https://download.binaergewitter.de/2016-08-18.Binaergewitter.Talk.155.m4a
+  opus: https://download.binaergewitter.de/2016-08-18.Binaergewitter.Talk.155.opus
 ---
 Sommerloch Edition mit [Markus](https://twitter.com/madmas), [Felix](https://twitter.com/makefoo) und [Ingo](https://twitter.com/ingoebel)
 

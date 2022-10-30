@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2012-12-06.Binaergewitter.Talk.35.mp3
-  ogg: http://download.binaergewitter.de/2012-12-06.Binaergewitter.Talk.35.ogg
-  m4a: http://download.binaergewitter.de/2012-12-06.Binaergewitter.Talk.35.m4a
-  opus: http://download.binaergewitter.de/2012-12-06.Binaergewitter.Talk.35.opus
+  mp3: https://download.binaergewitter.de/2012-12-06.Binaergewitter.Talk.35.mp3
+  ogg: https://download.binaergewitter.de/2012-12-06.Binaergewitter.Talk.35.ogg
+  m4a: https://download.binaergewitter.de/2012-12-06.Binaergewitter.Talk.35.m4a
+  opus: https://download.binaergewitter.de/2012-12-06.Binaergewitter.Talk.35.opus
 ---
 Nur zu dritt, weil der Marc packen muss. Wir werden wieder über John und heulen über GWT und Oracle.
 

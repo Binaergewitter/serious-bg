@@ -6,12 +6,12 @@ comments: true
 categories: talk
 sharing: true
 published: true
-chapters: http://download.binaergewitter.de/2021-10-07.Binaergewitter.Talk.285.chapters.txt
+chapters: https://download.binaergewitter.de/2021-10-07.Binaergewitter.Talk.285.chapters.txt
 audioformats:
-  mp3: http://download.binaergewitter.de/2021-10-07.Binaergewitter.Talk.285.mp3
-  ogg: http://download.binaergewitter.de/2021-10-07.Binaergewitter.Talk.285.ogg
-  m4a: http://download.binaergewitter.de/2021-10-07.Binaergewitter.Talk.285.m4a
-  opus: http://download.binaergewitter.de/2021-10-07.Binaergewitter.Talk.285.opus
+  mp3: https://download.binaergewitter.de/2021-10-07.Binaergewitter.Talk.285.mp3
+  ogg: https://download.binaergewitter.de/2021-10-07.Binaergewitter.Talk.285.ogg
+  m4a: https://download.binaergewitter.de/2021-10-07.Binaergewitter.Talk.285.m4a
+  opus: https://download.binaergewitter.de/2021-10-07.Binaergewitter.Talk.285.opus
 ---
 
 ## Blast from the Past

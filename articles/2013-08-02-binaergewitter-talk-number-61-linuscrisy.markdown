@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2013-08-01.Binaergewitter.Talk.61.mp3
-  ogg: http://download.binaergewitter.de/2013-08-01.Binaergewitter.Talk.61.ogg
-  m4a: http://download.binaergewitter.de/2013-08-01.Binaergewitter.Talk.61.m4a
-  opus: http://download.binaergewitter.de/2013-08-01.Binaergewitter.Talk.61.opus
+  mp3: https://download.binaergewitter.de/2013-08-01.Binaergewitter.Talk.61.mp3
+  ogg: https://download.binaergewitter.de/2013-08-01.Binaergewitter.Talk.61.ogg
+  m4a: https://download.binaergewitter.de/2013-08-01.Binaergewitter.Talk.61.m4a
+  opus: https://download.binaergewitter.de/2013-08-01.Binaergewitter.Talk.61.opus
 ---
 Trotz Sommerloch und Temperaturen jenseits der 30 Grad im Studio  senden wir fröhlich weiter. Diesmal ohne Marc aber mit Pfleidis Test des ResPi als Mediacenter und wir diskutieren über Dikaturen, Amazons
 Umgang mit Kunden und Überwachung der (eigenen) Kinder.

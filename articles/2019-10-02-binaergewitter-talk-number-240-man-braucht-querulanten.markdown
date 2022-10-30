@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2019-10-01.Binaergewitter.Talk.240.mp3
-  ogg: http://download.binaergewitter.de/2019-10-01.Binaergewitter.Talk.240.ogg
-  m4a: http://download.binaergewitter.de/2019-10-01.Binaergewitter.Talk.240.m4a
-  opus: http://download.binaergewitter.de/2019-10-01.Binaergewitter.Talk.240.opus
+  mp3: https://download.binaergewitter.de/2019-10-01.Binaergewitter.Talk.240.mp3
+  ogg: https://download.binaergewitter.de/2019-10-01.Binaergewitter.Talk.240.ogg
+  m4a: https://download.binaergewitter.de/2019-10-01.Binaergewitter.Talk.240.m4a
+  opus: https://download.binaergewitter.de/2019-10-01.Binaergewitter.Talk.240.opus
 ---
 Wir sind nach länger Pause wieder da es geht um Klima, RMS und die Schweiz und goldene Stecker..
 

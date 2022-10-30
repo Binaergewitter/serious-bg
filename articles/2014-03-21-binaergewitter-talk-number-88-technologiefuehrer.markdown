@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2014-03-20.Binaergewitter.Talk.88.mp3
-  ogg: http://download.binaergewitter.de/2014-03-20.Binaergewitter.Talk.88.ogg
-  m4a: http://download.binaergewitter.de/2014-03-20.Binaergewitter.Talk.88.m4a
-  opus: http://download.binaergewitter.de/2014-03-20.Binaergewitter.Talk.88.opus
+  mp3: https://download.binaergewitter.de/2014-03-20.Binaergewitter.Talk.88.mp3
+  ogg: https://download.binaergewitter.de/2014-03-20.Binaergewitter.Talk.88.ogg
+  m4a: https://download.binaergewitter.de/2014-03-20.Binaergewitter.Talk.88.m4a
+  opus: https://download.binaergewitter.de/2014-03-20.Binaergewitter.Talk.88.opus
 ---
 Diesmal nur mit Mat und Ingo.
 

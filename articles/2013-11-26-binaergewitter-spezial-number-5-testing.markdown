@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2013-11-21.Binaergewitter.Spezial.5.mp3
-  ogg: http://download.binaergewitter.de/2013-11-21.Binaergewitter.Spezial.5.ogg
-  m4a: http://download.binaergewitter.de/2013-11-21.Binaergewitter.Spezial.5.m4a
-  opus: http://download.binaergewitter.de/2013-11-21.Binaergewitter.Spezial.5.opus
+  mp3: https://download.binaergewitter.de/2013-11-21.Binaergewitter.Spezial.5.mp3
+  ogg: https://download.binaergewitter.de/2013-11-21.Binaergewitter.Spezial.5.ogg
+  m4a: https://download.binaergewitter.de/2013-11-21.Binaergewitter.Spezial.5.m4a
+  opus: https://download.binaergewitter.de/2013-11-21.Binaergewitter.Spezial.5.opus
 ---
 Felix, Marc, Mat, Pfleidi und Ingo haben sich zusammen gefunden um über das Testen von Software zu sprechen.
 

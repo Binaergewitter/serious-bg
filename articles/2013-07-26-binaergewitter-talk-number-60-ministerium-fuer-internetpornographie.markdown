@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2013-07-25.Binaergewitter.Talk.60.mp3
-  ogg: http://download.binaergewitter.de/2013-07-25.Binaergewitter.Talk.60.ogg
-  m4a: http://download.binaergewitter.de/2013-07-25.Binaergewitter.Talk.60.m4a
-  opus: http://download.binaergewitter.de/2013-07-25.Binaergewitter.Talk.60.opus
+  mp3: https://download.binaergewitter.de/2013-07-25.Binaergewitter.Talk.60.mp3
+  ogg: https://download.binaergewitter.de/2013-07-25.Binaergewitter.Talk.60.ogg
+  m4a: https://download.binaergewitter.de/2013-07-25.Binaergewitter.Talk.60.m4a
+  opus: https://download.binaergewitter.de/2013-07-25.Binaergewitter.Talk.60.opus
 ---
 In der Ausgabe 210 oder 60 AT beschäftigen wir uns mit Schmuddelbildern im Internet, weil die gesperrt werden außerdem gehts um die neuen Google Produkte und Mobilefunkzeugs und viel anderer Nerdkram.
 

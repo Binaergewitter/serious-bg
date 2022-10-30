@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2015-05-28.Binaergewitter.Talk.121.mp3
-  ogg: http://download.binaergewitter.de/2015-05-28.Binaergewitter.Talk.121.ogg
-  m4a: http://download.binaergewitter.de/2015-05-28.Binaergewitter.Talk.121.m4a
-  opus: http://download.binaergewitter.de/2015-05-28.Binaergewitter.Talk.121.opus
+  mp3: https://download.binaergewitter.de/2015-05-28.Binaergewitter.Talk.121.mp3
+  ogg: https://download.binaergewitter.de/2015-05-28.Binaergewitter.Talk.121.ogg
+  m4a: https://download.binaergewitter.de/2015-05-28.Binaergewitter.Talk.121.m4a
+  opus: https://download.binaergewitter.de/2015-05-28.Binaergewitter.Talk.121.opus
 ---
 Außer der Reihe weil wir es letzte Woche leider nicht geschafft haben treffen sich Mat, Felix und Pfleidi um über Elon Musk zu witzeln und sich über Dinge und die Apple Watch zu unterhalten.
 

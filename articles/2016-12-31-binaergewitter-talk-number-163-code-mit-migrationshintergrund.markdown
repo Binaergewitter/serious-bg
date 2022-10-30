@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2016-12-29.Binaergewitter.Talk.163.mp3
-  ogg: http://download.binaergewitter.de/2016-12-29.Binaergewitter.Talk.163.ogg
-  m4a: http://download.binaergewitter.de/2016-12-29.Binaergewitter.Talk.163.m4a
-  opus: http://download.binaergewitter.de/2016-12-29.Binaergewitter.Talk.163.opus
+  mp3: https://download.binaergewitter.de/2016-12-29.Binaergewitter.Talk.163.mp3
+  ogg: https://download.binaergewitter.de/2016-12-29.Binaergewitter.Talk.163.ogg
+  m4a: https://download.binaergewitter.de/2016-12-29.Binaergewitter.Talk.163.m4a
+  opus: https://download.binaergewitter.de/2016-12-29.Binaergewitter.Talk.163.opus
 ---
 Live vom 33C3. Wir waren auf dem Congress und haben aus dem Sendezentrum eine Binärgewitter Live Sendung gemacht. Davon gibt es auch [eine Videoaufzeichnung](https://media.ccc.de/v/33c3-389-binargewitter_live).
 

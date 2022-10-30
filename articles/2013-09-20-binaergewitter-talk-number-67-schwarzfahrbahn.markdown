@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2013-09-19.Binaergewitter.Talk.67.mp3
-  ogg: http://download.binaergewitter.de/2013-09-19.Binaergewitter.Talk.67.ogg
-  m4a: http://download.binaergewitter.de/2013-09-19.Binaergewitter.Talk.67.m4a
-  opus: http://download.binaergewitter.de/2013-09-19.Binaergewitter.Talk.67.opus
+  mp3: https://download.binaergewitter.de/2013-09-19.Binaergewitter.Talk.67.mp3
+  ogg: https://download.binaergewitter.de/2013-09-19.Binaergewitter.Talk.67.ogg
+  m4a: https://download.binaergewitter.de/2013-09-19.Binaergewitter.Talk.67.m4a
+  opus: https://download.binaergewitter.de/2013-09-19.Binaergewitter.Talk.67.opus
 ---
 Mehr mobile als sonst, denn Ingo steigt zwangsweise auf Android um außerdem Selbstbierung und viel Lesefoo.
 

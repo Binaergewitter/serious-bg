@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2012-12-13.Binaergewitter.Talk.36.mp3
-  ogg: http://download.binaergewitter.de/2012-12-13.Binaergewitter.Talk.36.ogg
-  m4a: http://download.binaergewitter.de/2012-12-13.Binaergewitter.Talk.36.m4a
-  opus: http://download.binaergewitter.de/2012-12-13.Binaergewitter.Talk.36.opus
+  mp3: https://download.binaergewitter.de/2012-12-13.Binaergewitter.Talk.36.mp3
+  ogg: https://download.binaergewitter.de/2012-12-13.Binaergewitter.Talk.36.ogg
+  m4a: https://download.binaergewitter.de/2012-12-13.Binaergewitter.Talk.36.m4a
+  opus: https://download.binaergewitter.de/2012-12-13.Binaergewitter.Talk.36.opus
 ---
 Seelig unsere Kekse essend - DANKE IHR SEID SPITZE!!!, werden wir auch heute wieder unserem Untertitel "dumm, unlustig, geschmacklos" gerecht. Neben Stallmann und Co bringen wir euch auch Geschenk-Ideen für Weihnachten, insbesondere der Pfleidi nerded dabei über Kaffee ab. Leider ist das zugleich die letzte Sendung in diesem Jahr und wir wünschen euch frohe Weihnachten und kommt gut nach 2013 und so.
 

@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2019-08-22.Binaergewitter.Talk.238.mp3
-  ogg: http://download.binaergewitter.de/2019-08-22.Binaergewitter.Talk.238.ogg
-  m4a: http://download.binaergewitter.de/2019-08-22.Binaergewitter.Talk.238.m4a
-  opus: http://download.binaergewitter.de/2019-08-22.Binaergewitter.Talk.238.opus
+  mp3: https://download.binaergewitter.de/2019-08-22.Binaergewitter.Talk.238.mp3
+  ogg: https://download.binaergewitter.de/2019-08-22.Binaergewitter.Talk.238.ogg
+  m4a: https://download.binaergewitter.de/2019-08-22.Binaergewitter.Talk.238.m4a
+  opus: https://download.binaergewitter.de/2019-08-22.Binaergewitter.Talk.238.opus
 ---
 Wegen Urlaubszeiten mussten wir eine Pause einlegen. Jetzt sind wir wieder da und beschäftigen uns mit dem Sommerloch...
 

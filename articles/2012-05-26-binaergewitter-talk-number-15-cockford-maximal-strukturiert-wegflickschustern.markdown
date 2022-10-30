@@ -7,8 +7,8 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2012-05-24.Binaergewitter.Talk.15.mp3
-  ogg: http://download.binaergewitter.de/2012-05-24.Binaergewitter.Talk.15.ogg
+  mp3: https://download.binaergewitter.de/2012-05-24.Binaergewitter.Talk.15.mp3
+  ogg: https://download.binaergewitter.de/2012-05-24.Binaergewitter.Talk.15.ogg
 ---
 Felix und pfleidi allein im Studio. Nicht ganz eine 112 reloaded aber trotzdem mit witzigen und interessanten Themen gespickt.
 

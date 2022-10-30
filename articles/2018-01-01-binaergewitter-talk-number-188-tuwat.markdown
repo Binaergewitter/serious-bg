@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2017-12-29.Binaergewitter.Talk.188.mp3
-  ogg: http://download.binaergewitter.de/2017-12-29.Binaergewitter.Talk.188.ogg
-  m4a: http://download.binaergewitter.de/2017-12-29.Binaergewitter.Talk.188.m4a
-  opus: http://download.binaergewitter.de/2017-12-29.Binaergewitter.Talk.188.opus
+  mp3: https://download.binaergewitter.de/2017-12-29.Binaergewitter.Talk.188.mp3
+  ogg: https://download.binaergewitter.de/2017-12-29.Binaergewitter.Talk.188.ogg
+  m4a: https://download.binaergewitter.de/2017-12-29.Binaergewitter.Talk.188.m4a
+  opus: https://download.binaergewitter.de/2017-12-29.Binaergewitter.Talk.188.opus
 ---
 Wir treffen uns auf dem 34C3, hatten Spaß auf dem Hörertreffen und saßen am Podcasttisch des Sendezentrums um über den Kongress und ein paar News zu sprechen.
 Mit dabei sind Felix, L33tname, Markus und Ingo.

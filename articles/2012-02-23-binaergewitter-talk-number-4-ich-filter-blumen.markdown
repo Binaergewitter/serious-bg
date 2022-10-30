@@ -6,8 +6,8 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2012-02-22.Binaergewitter.Talk.4.mp3
-  ogg: http://download.binaergewitter.de/2012-02-22.Binaergewitter.Talk.4.ogg
+  mp3: https://download.binaergewitter.de/2012-02-22.Binaergewitter.Talk.4.mp3
+  ogg: https://download.binaergewitter.de/2012-02-22.Binaergewitter.Talk.4.ogg
 ---
 Komplett versammelt, gehts diesmal nicht nur um Tote sondern auch um Untote, außerdem haben wir uns dem Thema Mailserver gewidmet.
 

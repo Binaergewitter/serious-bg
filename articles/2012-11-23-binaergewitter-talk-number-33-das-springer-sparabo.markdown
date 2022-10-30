@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2012-11-22.Binaergewitter.Talk.33.mp3
-  ogg: http://download.binaergewitter.de/2012-11-22.Binaergewitter.Talk.33.ogg
-  m4a: http://download.binaergewitter.de/2012-11-22.Binaergewitter.Talk.33.m4a
-  opus: http://download.binaergewitter.de/2012-11-22.Binaergewitter.Talk.33.opus
+  mp3: https://download.binaergewitter.de/2012-11-22.Binaergewitter.Talk.33.mp3
+  ogg: https://download.binaergewitter.de/2012-11-22.Binaergewitter.Talk.33.ogg
+  m4a: https://download.binaergewitter.de/2012-11-22.Binaergewitter.Talk.33.m4a
+  opus: https://download.binaergewitter.de/2012-11-22.Binaergewitter.Talk.33.opus
 ---
 ## Kommentare zur Sendung
 

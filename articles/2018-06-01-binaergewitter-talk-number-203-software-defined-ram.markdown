@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2018-05-31.Binaergewitter.Talk.203.mp3
-  ogg: http://download.binaergewitter.de/2018-05-31.Binaergewitter.Talk.203.ogg
-  m4a: http://download.binaergewitter.de/2018-05-31.Binaergewitter.Talk.203.m4a
-  opus: http://download.binaergewitter.de/2018-05-31.Binaergewitter.Talk.203.opus
+  mp3: https://download.binaergewitter.de/2018-05-31.Binaergewitter.Talk.203.mp3
+  ogg: https://download.binaergewitter.de/2018-05-31.Binaergewitter.Talk.203.ogg
+  m4a: https://download.binaergewitter.de/2018-05-31.Binaergewitter.Talk.203.m4a
+  opus: https://download.binaergewitter.de/2018-05-31.Binaergewitter.Talk.203.opus
 ---
 L33tname, Markus und Ingo unterhalten sich mal wieder über die DSGVO aber auch über Leistungsschutzrecht und Bankingapps.
 

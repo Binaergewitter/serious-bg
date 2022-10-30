@@ -8,10 +8,10 @@ sharing: true
 published: true
 release: 2
 audioformats:
-  mp3: http://download.binaergewitter.de/2016-09-01.Binaergewitter.Talk.156.mp3
-  ogg: http://download.binaergewitter.de/2016-09-01.Binaergewitter.Talk.156.ogg
-  m4a: http://download.binaergewitter.de/2016-09-01.Binaergewitter.Talk.156.m4a
-  opus: http://download.binaergewitter.de/2016-09-01.Binaergewitter.Talk.156.opus
+  mp3: https://download.binaergewitter.de/2016-09-01.Binaergewitter.Talk.156.mp3
+  ogg: https://download.binaergewitter.de/2016-09-01.Binaergewitter.Talk.156.ogg
+  m4a: https://download.binaergewitter.de/2016-09-01.Binaergewitter.Talk.156.m4a
+  opus: https://download.binaergewitter.de/2016-09-01.Binaergewitter.Talk.156.opus
 ---
 Bald machen auch wir Sommerpause, aber diesmal sind Markus, Felix und Ingo noch beim Feiern von 25 Jahr Linux und freuen uns über die vielen Tizen News.
 

@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2017-02-23.Binaergewitter.Talk.167.mp3
-  ogg: http://download.binaergewitter.de/2017-02-23.Binaergewitter.Talk.167.ogg
-  m4a: http://download.binaergewitter.de/2017-02-23.Binaergewitter.Talk.167.m4a
-  opus: http://download.binaergewitter.de/2017-02-23.Binaergewitter.Talk.167.opus
+  mp3: https://download.binaergewitter.de/2017-02-23.Binaergewitter.Talk.167.mp3
+  ogg: https://download.binaergewitter.de/2017-02-23.Binaergewitter.Talk.167.ogg
+  m4a: https://download.binaergewitter.de/2017-02-23.Binaergewitter.Talk.167.m4a
+  opus: https://download.binaergewitter.de/2017-02-23.Binaergewitter.Talk.167.opus
 ---
 Ob wir unsere Tonprobleme bei einer All-Remote-Sendung mal hinbekommen ist noch nicht geklärt, was aber geklärt ist das Markus unbedingt Karneval feiern will und
 Felix und Ingo nur die Achseln zucken.

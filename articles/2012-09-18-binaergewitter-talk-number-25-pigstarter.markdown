@@ -6,9 +6,9 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2012-09-13.Binaergewitter.Talk.25.mp3
-  ogg: http://download.binaergewitter.de/2012-09-13.Binaergewitter.Talk.25.ogg
-  m4a: http://download.binaergewitter.de/2012-09-13.Binaergewitter.Talk.25.m4a
+  mp3: https://download.binaergewitter.de/2012-09-13.Binaergewitter.Talk.25.mp3
+  ogg: https://download.binaergewitter.de/2012-09-13.Binaergewitter.Talk.25.ogg
+  m4a: https://download.binaergewitter.de/2012-09-13.Binaergewitter.Talk.25.m4a
 ---
 Felix und Marc rocken alleine den Themenstau der letzten Wochen durch.
 

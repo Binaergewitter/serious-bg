@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2014-04-03.Binaergewitter.Talk.90.mp3
-  ogg: http://download.binaergewitter.de/2014-04-03.Binaergewitter.Talk.90.ogg
-  m4a: http://download.binaergewitter.de/2014-04-03.Binaergewitter.Talk.90.m4a
-  opus: http://download.binaergewitter.de/2014-04-03.Binaergewitter.Talk.90.opus
+  mp3: https://download.binaergewitter.de/2014-04-03.Binaergewitter.Talk.90.mp3
+  ogg: https://download.binaergewitter.de/2014-04-03.Binaergewitter.Talk.90.ogg
+  m4a: https://download.binaergewitter.de/2014-04-03.Binaergewitter.Talk.90.m4a
+  opus: https://download.binaergewitter.de/2014-04-03.Binaergewitter.Talk.90.opus
 ---
 Die Sendung zum 1. April mit Mat, Felix und Ingo. Komplett in deutsch, aber aus Wolgograd.
 

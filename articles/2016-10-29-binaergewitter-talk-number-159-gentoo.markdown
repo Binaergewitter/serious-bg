@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2016-10-27.Binaergewitter.Talk.159.mp3
-  ogg: http://download.binaergewitter.de/2016-10-27.Binaergewitter.Talk.159.ogg
-  m4a: http://download.binaergewitter.de/2016-10-27.Binaergewitter.Talk.159.m4a
-  opus: http://download.binaergewitter.de/2016-10-27.Binaergewitter.Talk.159.opus
+  mp3: https://download.binaergewitter.de/2016-10-27.Binaergewitter.Talk.159.mp3
+  ogg: https://download.binaergewitter.de/2016-10-27.Binaergewitter.Talk.159.ogg
+  m4a: https://download.binaergewitter.de/2016-10-27.Binaergewitter.Talk.159.m4a
+  opus: https://download.binaergewitter.de/2016-10-27.Binaergewitter.Talk.159.opus
 ---
 Markus, Felix und Ingo sprechen auch diese Woche wieder über so IT Themen :)
 

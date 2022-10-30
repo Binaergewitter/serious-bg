@@ -7,12 +7,12 @@ categories: talk
 sharing: true
 published: true
 release: 2
-chapters: http://download.binaergewitter.de/2021-12-29.Binaergewitter.Talk.288.chapters.txt
+chapters: https://download.binaergewitter.de/2021-12-29.Binaergewitter.Talk.288.chapters.txt
 audioformats:
-  mp3: http://download.binaergewitter.de/2021-12-29.Binaergewitter.Talk.288.mp3
-  ogg: http://download.binaergewitter.de/2021-12-29.Binaergewitter.Talk.288.ogg
-  m4a: http://download.binaergewitter.de/2021-12-29.Binaergewitter.Talk.288.m4a
-  opus: http://download.binaergewitter.de/2021-12-29.Binaergewitter.Talk.288.opus
+  mp3: https://download.binaergewitter.de/2021-12-29.Binaergewitter.Talk.288.mp3
+  ogg: https://download.binaergewitter.de/2021-12-29.Binaergewitter.Talk.288.ogg
+  m4a: https://download.binaergewitter.de/2021-12-29.Binaergewitter.Talk.288.m4a
+  opus: https://download.binaergewitter.de/2021-12-29.Binaergewitter.Talk.288.opus
 ---
 Auch die letzte Sendung des Jahres präsentieren wir euch komplett. Markus, Felix, Felix und Ingo starten den neuen Abo Service Binärgewitter Plug (nee Spaß) und wünschen euch einen gute Start ins Jahr 2022.
 

@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2013-06-27.Binaergewitter.Talk.56.mp3
-  ogg: http://download.binaergewitter.de/2013-06-27.Binaergewitter.Talk.56.ogg
-  m4a: http://download.binaergewitter.de/2013-06-27.Binaergewitter.Talk.56.m4a
-  opus: http://download.binaergewitter.de/2013-06-27.Binaergewitter.Talk.56.opus
+  mp3: https://download.binaergewitter.de/2013-06-27.Binaergewitter.Talk.56.mp3
+  ogg: https://download.binaergewitter.de/2013-06-27.Binaergewitter.Talk.56.ogg
+  m4a: https://download.binaergewitter.de/2013-06-27.Binaergewitter.Talk.56.m4a
+  opus: https://download.binaergewitter.de/2013-06-27.Binaergewitter.Talk.56.opus
 ---
 Nach einer Woche krankheitsbedingter Pause sind die vier Gladiatoren zurück im Ring.
 

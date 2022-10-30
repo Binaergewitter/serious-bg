@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2015-11-26.Binaergewitter.Talk.136.mp3
-  ogg: http://download.binaergewitter.de/2015-11-26.Binaergewitter.Talk.136.ogg
-  m4a: http://download.binaergewitter.de/2015-11-26.Binaergewitter.Talk.136.m4a
-  opus: http://download.binaergewitter.de/2015-11-26.Binaergewitter.Talk.136.opus
+  mp3: https://download.binaergewitter.de/2015-11-26.Binaergewitter.Talk.136.mp3
+  ogg: https://download.binaergewitter.de/2015-11-26.Binaergewitter.Talk.136.ogg
+  m4a: https://download.binaergewitter.de/2015-11-26.Binaergewitter.Talk.136.m4a
+  opus: https://download.binaergewitter.de/2015-11-26.Binaergewitter.Talk.136.opus
 ---
 Sehr sehr spontan, da der Marc festgestellt hat, dass er Feiertag hat, haben wir uns zusammen gesetzt und ein wenige gequatscht.
 

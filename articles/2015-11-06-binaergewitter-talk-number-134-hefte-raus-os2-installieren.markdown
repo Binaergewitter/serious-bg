@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2015-11-05.Binaergewitter.Talk.134.mp3
-  ogg: http://download.binaergewitter.de/2015-11-05.Binaergewitter.Talk.134.ogg
-  m4a: http://download.binaergewitter.de/2015-11-05.Binaergewitter.Talk.134.m4a
-  opus: http://download.binaergewitter.de/2015-11-05.Binaergewitter.Talk.134.opus
+  mp3: https://download.binaergewitter.de/2015-11-05.Binaergewitter.Talk.134.mp3
+  ogg: https://download.binaergewitter.de/2015-11-05.Binaergewitter.Talk.134.ogg
+  m4a: https://download.binaergewitter.de/2015-11-05.Binaergewitter.Talk.134.m4a
+  opus: https://download.binaergewitter.de/2015-11-05.Binaergewitter.Talk.134.opus
 ---
 Mal wieder in größere Runde mit pfleidi, mat, felix und ingo. Wir reden natürlich über Prime Music und selbst Messenger kommen vor.
 

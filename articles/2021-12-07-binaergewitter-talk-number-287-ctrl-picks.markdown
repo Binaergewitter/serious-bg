@@ -7,12 +7,12 @@ categories: talk
 sharing: true
 published: true
 release: 3
-chapters: http://download.binaergewitter.de/2021-12-06.Binaergewitter.Talk.287.chapters.txt
+chapters: https://download.binaergewitter.de/2021-12-06.Binaergewitter.Talk.287.chapters.txt
 audioformats:
-  mp3: http://download.binaergewitter.de/2021-12-06.Binaergewitter.Talk.287.mp3
-  ogg: http://download.binaergewitter.de/2021-12-06.Binaergewitter.Talk.287.ogg
-  m4a: http://download.binaergewitter.de/2021-12-06.Binaergewitter.Talk.287.m4a
-  opus: http://download.binaergewitter.de/2021-12-06.Binaergewitter.Talk.287.opus
+  mp3: https://download.binaergewitter.de/2021-12-06.Binaergewitter.Talk.287.mp3
+  ogg: https://download.binaergewitter.de/2021-12-06.Binaergewitter.Talk.287.ogg
+  m4a: https://download.binaergewitter.de/2021-12-06.Binaergewitter.Talk.287.m4a
+  opus: https://download.binaergewitter.de/2021-12-06.Binaergewitter.Talk.287.opus
 ---
 Mal wieder zu viert, wenn auch nicht bis zum bitteren Ende.
 Felix, Felix, Markus und Ingo bewerben NixOS und Fedora35...

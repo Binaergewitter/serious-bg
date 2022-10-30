@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2018-03-29.Binaergewitter.Talk.196.mp3
-  ogg: http://download.binaergewitter.de/2018-03-29.Binaergewitter.Talk.196.ogg
-  m4a: http://download.binaergewitter.de/2018-03-29.Binaergewitter.Talk.196.m4a
-  opus: http://download.binaergewitter.de/2018-03-29.Binaergewitter.Talk.196.opus
+  mp3: https://download.binaergewitter.de/2018-03-29.Binaergewitter.Talk.196.mp3
+  ogg: https://download.binaergewitter.de/2018-03-29.Binaergewitter.Talk.196.ogg
+  m4a: https://download.binaergewitter.de/2018-03-29.Binaergewitter.Talk.196.m4a
+  opus: https://download.binaergewitter.de/2018-03-29.Binaergewitter.Talk.196.opus
 ---
 Da sind wir schon wieder. Diesmal ohne Audio Probleme und mit 2 Felixen, 1 Markus und 1 Ingo. Frohe Ostern.
 

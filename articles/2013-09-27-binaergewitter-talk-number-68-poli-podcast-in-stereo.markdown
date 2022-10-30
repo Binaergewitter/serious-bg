@@ -5,12 +5,12 @@ date: 2013-09-27 12:00
 comments: true
 categories: talk
 sharing: true
-chapters: http://download.binaergewitter.de/2013-09-26.Binaergewitter.Talk.68.chapters.txt
+chapters: https://download.binaergewitter.de/2013-09-26.Binaergewitter.Talk.68.chapters.txt
 audioformats:
-  mp3: http://download.binaergewitter.de/2013-09-26.Binaergewitter.Talk.68.mp3
-  ogg: http://download.binaergewitter.de/2013-09-26.Binaergewitter.Talk.68.ogg
-  m4a: http://download.binaergewitter.de/2013-09-26.Binaergewitter.Talk.68.m4a
-  opus: http://download.binaergewitter.de/2013-09-26.Binaergewitter.Talk.68.opus
+  mp3: https://download.binaergewitter.de/2013-09-26.Binaergewitter.Talk.68.mp3
+  ogg: https://download.binaergewitter.de/2013-09-26.Binaergewitter.Talk.68.ogg
+  m4a: https://download.binaergewitter.de/2013-09-26.Binaergewitter.Talk.68.m4a
+  opus: https://download.binaergewitter.de/2013-09-26.Binaergewitter.Talk.68.opus
 ---
 Diesmal ohne Pfleidi und Marc, deswegen rangieren Felix und Ingo hart über iOS, tauschen Erfahrungen über Android aus und unterhalten sich über die Bundestagswahl 2013. Garniert natürlich mit den News der letzten Woche.
 

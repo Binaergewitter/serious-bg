@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2013-01-24.Binaergewitter.Talk.38.mp3
-  ogg: http://download.binaergewitter.de/2013-01-24.Binaergewitter.Talk.38.ogg
-  m4a: http://download.binaergewitter.de/2013-01-24.Binaergewitter.Talk.38.m4a
-  opus: http://download.binaergewitter.de/2013-01-24.Binaergewitter.Talk.38.opus
+  mp3: https://download.binaergewitter.de/2013-01-24.Binaergewitter.Talk.38.mp3
+  ogg: https://download.binaergewitter.de/2013-01-24.Binaergewitter.Talk.38.ogg
+  m4a: https://download.binaergewitter.de/2013-01-24.Binaergewitter.Talk.38.m4a
+  opus: https://download.binaergewitter.de/2013-01-24.Binaergewitter.Talk.38.opus
 ---
 Nur das dynamische Duo ist übrig, dafür gibts die üblich Kategorien und an dem Titel ist diesmal nur der Chat schuld.
 

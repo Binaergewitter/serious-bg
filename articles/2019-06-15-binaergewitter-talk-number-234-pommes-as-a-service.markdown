@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2019-06-14.Binaergewitter.Talk.234.mp3
-  ogg: http://download.binaergewitter.de/2019-06-14.Binaergewitter.Talk.234.ogg
-  m4a: http://download.binaergewitter.de/2019-06-14.Binaergewitter.Talk.234.m4a
-  opus: http://download.binaergewitter.de/2019-06-14.Binaergewitter.Talk.234.opus
+  mp3: https://download.binaergewitter.de/2019-06-14.Binaergewitter.Talk.234.mp3
+  ogg: https://download.binaergewitter.de/2019-06-14.Binaergewitter.Talk.234.ogg
+  m4a: https://download.binaergewitter.de/2019-06-14.Binaergewitter.Talk.234.m4a
+  opus: https://download.binaergewitter.de/2019-06-14.Binaergewitter.Talk.234.opus
 ---
 Die 4 Apokalyptische Reiter sind wieder unterwegs um vom Thema abzuscheifen.
 

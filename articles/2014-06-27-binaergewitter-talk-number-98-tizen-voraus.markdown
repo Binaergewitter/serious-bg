@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2014-06-26.Binaergewitter.Talk.98.mp3
-  ogg: http://download.binaergewitter.de/2014-06-26.Binaergewitter.Talk.98.ogg
-  m4a: http://download.binaergewitter.de/2014-06-26.Binaergewitter.Talk.98.m4a
-  opus: http://download.binaergewitter.de/2014-06-26.Binaergewitter.Talk.98.opus
+  mp3: https://download.binaergewitter.de/2014-06-26.Binaergewitter.Talk.98.mp3
+  ogg: https://download.binaergewitter.de/2014-06-26.Binaergewitter.Talk.98.ogg
+  m4a: https://download.binaergewitter.de/2014-06-26.Binaergewitter.Talk.98.m4a
+  opus: https://download.binaergewitter.de/2014-06-26.Binaergewitter.Talk.98.opus
 ---
 Nach einer Woche Pause meldet sich das 112 Dreamteam wieder zurück u.a. reden wir über die Google I/O, Tizen, Scam und Forks.
 

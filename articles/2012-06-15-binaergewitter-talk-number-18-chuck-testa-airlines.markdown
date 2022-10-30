@@ -6,9 +6,9 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2012-06-14.Binaergewitter.Talk.18.mp3
-  ogg: http://download.binaergewitter.de/2012-06-14.Binaergewitter.Talk.18.ogg
-  m4a: http://download.binaergewitter.de/2012-06-14.Binaergewitter.Talk.18.m4a
+  mp3: https://download.binaergewitter.de/2012-06-14.Binaergewitter.Talk.18.mp3
+  ogg: https://download.binaergewitter.de/2012-06-14.Binaergewitter.Talk.18.ogg
+  m4a: https://download.binaergewitter.de/2012-06-14.Binaergewitter.Talk.18.m4a
 ---
 Seit langem mal wieder eine wirklich grosse Runde mit Besuch aus dem EU-Ausland aus der Schweiz und den USA. Wir reden über News und Fails der vergangenen Woche, freuen uns über Skype4 für Linux und besprechen Performance und Skalierung im Web.
 

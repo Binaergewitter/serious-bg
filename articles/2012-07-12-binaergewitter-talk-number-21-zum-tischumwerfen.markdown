@@ -6,9 +6,9 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2012-07-12.Binaergewitter.Talk.21.mp3
-  ogg: http://download.binaergewitter.de/2012-07-12.Binaergewitter.Talk.21.ogg
-  m4a: http://download.binaergewitter.de/2012-07-12.Binaergewitter.Talk.21.m4a
+  mp3: https://download.binaergewitter.de/2012-07-12.Binaergewitter.Talk.21.mp3
+  ogg: https://download.binaergewitter.de/2012-07-12.Binaergewitter.Talk.21.ogg
+  m4a: https://download.binaergewitter.de/2012-07-12.Binaergewitter.Talk.21.m4a
 ---
 Das neue Studiosetup ist so gut wie fertig, dafür haben wir pfleidi diesmal verloren. Macht aber nix wir quatschen über Indoornavigation, Security Fuckups und vieles mehr.
 

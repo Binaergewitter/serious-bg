@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2018-07-19.Binaergewitter.Talk.207.mp3
-  ogg: http://download.binaergewitter.de/2018-07-19.Binaergewitter.Talk.207.ogg
-  m4a: http://download.binaergewitter.de/2018-07-19.Binaergewitter.Talk.207.m4a
-  opus: http://download.binaergewitter.de/2018-07-19.Binaergewitter.Talk.207.opus
+  mp3: https://download.binaergewitter.de/2018-07-19.Binaergewitter.Talk.207.mp3
+  ogg: https://download.binaergewitter.de/2018-07-19.Binaergewitter.Talk.207.ogg
+  m4a: https://download.binaergewitter.de/2018-07-19.Binaergewitter.Talk.207.m4a
+  opus: https://download.binaergewitter.de/2018-07-19.Binaergewitter.Talk.207.opus
 ---
 Felix und Ingo waren zusammen im Studio und der Schweizer Felix war zugeschaltet. Zusammen geht es diemal über toten Baum und den Google Play Store bzw. Google
 Marktmacht.

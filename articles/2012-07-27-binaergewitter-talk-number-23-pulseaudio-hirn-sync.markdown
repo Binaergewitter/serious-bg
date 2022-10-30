@@ -6,9 +6,9 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2012-07-26.Binaergewitter.Talk.23.mp3
-  ogg: http://download.binaergewitter.de/2012-07-26.Binaergewitter.Talk.23.ogg
-  m4a: http://download.binaergewitter.de/2012-07-26.Binaergewitter.Talk.23.m4a
+  mp3: https://download.binaergewitter.de/2012-07-26.Binaergewitter.Talk.23.mp3
+  ogg: https://download.binaergewitter.de/2012-07-26.Binaergewitter.Talk.23.ogg
+  m4a: https://download.binaergewitter.de/2012-07-26.Binaergewitter.Talk.23.m4a
 ---
 Wieder mal in Vollbesetzung düsen wir durch die News, die Felix ausgesucht hat. Nur mit dem Toten der Woche hat er es diesmal irgendwie nicht hinbekommen, dafür reden wir über (gesprochene) Sprachen und
 Security Foo.

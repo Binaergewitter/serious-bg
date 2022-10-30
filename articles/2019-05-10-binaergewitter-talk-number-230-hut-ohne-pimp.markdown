@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2019-05-10.Binaergewitter.Talk.230.mp3
-  ogg: http://download.binaergewitter.de/2019-05-10.Binaergewitter.Talk.230.ogg
-  m4a: http://download.binaergewitter.de/2019-05-10.Binaergewitter.Talk.230.m4a
-  opus: http://download.binaergewitter.de/2019-05-10.Binaergewitter.Talk.230.opus
+  mp3: https://download.binaergewitter.de/2019-05-10.Binaergewitter.Talk.230.mp3
+  ogg: https://download.binaergewitter.de/2019-05-10.Binaergewitter.Talk.230.ogg
+  m4a: https://download.binaergewitter.de/2019-05-10.Binaergewitter.Talk.230.m4a
+  opus: https://download.binaergewitter.de/2019-05-10.Binaergewitter.Talk.230.opus
 ---
 Wieder nur ein kleines Team mit Felix und Ingo die sich über Impfen, Europawahl und den Firefox Fail aufregen.
 

@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2017-02-13.Binaergewitter.Talk.166.mp3
-  ogg: http://download.binaergewitter.de/2017-02-13.Binaergewitter.Talk.166.ogg
-  m4a: http://download.binaergewitter.de/2017-02-13.Binaergewitter.Talk.166.m4a
-  opus: http://download.binaergewitter.de/2017-02-13.Binaergewitter.Talk.166.opus
+  mp3: https://download.binaergewitter.de/2017-02-13.Binaergewitter.Talk.166.mp3
+  ogg: https://download.binaergewitter.de/2017-02-13.Binaergewitter.Talk.166.ogg
+  m4a: https://download.binaergewitter.de/2017-02-13.Binaergewitter.Talk.166.m4a
+  opus: https://download.binaergewitter.de/2017-02-13.Binaergewitter.Talk.166.opus
 ---
 
 Mal wieder zu viert und Marc besucht uns im Studio. Wir reden Mac OS auf KVM und noch mal ein bisschen über Smarthome.

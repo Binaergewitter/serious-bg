@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2013-03-14.Binaergewitter.Talk.44.mp3
-  ogg: http://download.binaergewitter.de/2013-03-14.Binaergewitter.Talk.44.ogg
-  m4a: http://download.binaergewitter.de/2013-03-14.Binaergewitter.Talk.44.m4a
-  opus: http://download.binaergewitter.de/2013-03-14.Binaergewitter.Talk.44.opus
+  mp3: https://download.binaergewitter.de/2013-03-14.Binaergewitter.Talk.44.mp3
+  ogg: https://download.binaergewitter.de/2013-03-14.Binaergewitter.Talk.44.ogg
+  m4a: https://download.binaergewitter.de/2013-03-14.Binaergewitter.Talk.44.m4a
+  opus: https://download.binaergewitter.de/2013-03-14.Binaergewitter.Talk.44.opus
 ---
 Auch der Gast Jan konnt diese Sendung nicht retten und so fällt diese Sendung eindeutig wieder unter unseren Untertitel "dumm, geschmacklos und unlustig". Dabei hatte es so gut angefangen. Nur kurz den
 Papst erwähnt und Stallmann und GNU und Google Reader, aber irgendwie gings dann doch wieder abwärts mit der Sendung. Wir geloben Besserung und versuchen weniger Blödsinn zu reden und vor allem nicht mehr

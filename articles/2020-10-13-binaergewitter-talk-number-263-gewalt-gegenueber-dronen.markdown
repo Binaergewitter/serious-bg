@@ -6,12 +6,12 @@ comments: true
 categories: talk
 sharing: true
 published: true
-chapters: http://download.binaergewitter.de/2020-10-12.Binaergewitter.Talk.263.chapters.txt
+chapters: https://download.binaergewitter.de/2020-10-12.Binaergewitter.Talk.263.chapters.txt
 audioformats:
-  mp3: http://download.binaergewitter.de/2020-10-12.Binaergewitter.Talk.263.mp3
-  ogg: http://download.binaergewitter.de/2020-10-12.Binaergewitter.Talk.263.ogg
-  m4a: http://download.binaergewitter.de/2020-10-12.Binaergewitter.Talk.263.m4a
-  opus: http://download.binaergewitter.de/2020-10-12.Binaergewitter.Talk.263.opus
+  mp3: https://download.binaergewitter.de/2020-10-12.Binaergewitter.Talk.263.mp3
+  ogg: https://download.binaergewitter.de/2020-10-12.Binaergewitter.Talk.263.ogg
+  m4a: https://download.binaergewitter.de/2020-10-12.Binaergewitter.Talk.263.m4a
+  opus: https://download.binaergewitter.de/2020-10-12.Binaergewitter.Talk.263.opus
 ---
 Wir fixen endlich unsere Kommentare, wundern uns über Drohnen zuhause und heulen über 10Gbit/s.
 

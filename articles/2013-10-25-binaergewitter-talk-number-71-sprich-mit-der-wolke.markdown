@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2013-10-24.Binaergewitter.Talk.71.mp3
-  ogg: http://download.binaergewitter.de/2013-10-24.Binaergewitter.Talk.71.ogg
-  m4a: http://download.binaergewitter.de/2013-10-24.Binaergewitter.Talk.71.m4a
-  opus: http://download.binaergewitter.de/2013-10-24.Binaergewitter.Talk.71.opus
+  mp3: https://download.binaergewitter.de/2013-10-24.Binaergewitter.Talk.71.mp3
+  ogg: https://download.binaergewitter.de/2013-10-24.Binaergewitter.Talk.71.ogg
+  m4a: https://download.binaergewitter.de/2013-10-24.Binaergewitter.Talk.71.m4a
+  opus: https://download.binaergewitter.de/2013-10-24.Binaergewitter.Talk.71.opus
 ---
 Okay okay wir haben doch auch über Apple geredet, aber dafür gibt es diesmal auch wieder Kapitelmarken und ihr könnt den Apfel Teil einfach überspringen. Ansonsten gehts um Steuerflüchtige und Flagphones. Viel Spaß.
 

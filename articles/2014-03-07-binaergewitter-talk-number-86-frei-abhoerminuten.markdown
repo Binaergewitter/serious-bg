@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2014-03-06.Binaergewitter.Talk.86.mp3
-  ogg: http://download.binaergewitter.de/2014-03-06.Binaergewitter.Talk.86.ogg
-  m4a: http://download.binaergewitter.de/2014-03-06.Binaergewitter.Talk.86.m4a
-  opus: http://download.binaergewitter.de/2014-03-06.Binaergewitter.Talk.86.opus
+  mp3: https://download.binaergewitter.de/2014-03-06.Binaergewitter.Talk.86.mp3
+  ogg: https://download.binaergewitter.de/2014-03-06.Binaergewitter.Talk.86.ogg
+  m4a: https://download.binaergewitter.de/2014-03-06.Binaergewitter.Talk.86.m4a
+  opus: https://download.binaergewitter.de/2014-03-06.Binaergewitter.Talk.86.opus
 ---
 Bitcoin ist tot dafür lebt unser Opus Stream wieder. Mit dabei diesmal [Frank](https://twitter.com/fkarlitschek), viel Bitcoin und iOS im Auto und rumgeheule.
 

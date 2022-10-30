@@ -8,10 +8,10 @@ sharing: true
 release: 3
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2017-01-19.Binaergewitter.Talk.164.mp3
-  ogg: http://download.binaergewitter.de/2017-01-19.Binaergewitter.Talk.164.ogg
-  m4a: http://download.binaergewitter.de/2017-01-19.Binaergewitter.Talk.164.m4a
-  opus: http://download.binaergewitter.de/2017-01-19.Binaergewitter.Talk.164.opus
+  mp3: https://download.binaergewitter.de/2017-01-19.Binaergewitter.Talk.164.mp3
+  ogg: https://download.binaergewitter.de/2017-01-19.Binaergewitter.Talk.164.ogg
+  m4a: https://download.binaergewitter.de/2017-01-19.Binaergewitter.Talk.164.m4a
+  opus: https://download.binaergewitter.de/2017-01-19.Binaergewitter.Talk.164.opus
 ---
 Nach dem wir wieder gesund sind, unterhalten sich Markus und Ingo mit einem Gast, der sich mit Smarthome auskennt. Neben den üblichen Themen erklärt uns
 [Taki](https://twitter.com/stony2k) wie er sein Wohnung steuert.

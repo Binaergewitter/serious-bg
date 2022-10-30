@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2014-06-12.Binaergewitter.Talk.97.mp3
-  ogg: http://download.binaergewitter.de/2014-06-12.Binaergewitter.Talk.97.ogg
-  m4a: http://download.binaergewitter.de/2014-06-12.Binaergewitter.Talk.97.m4a
-  opus: http://download.binaergewitter.de/2014-06-12.Binaergewitter.Talk.97.opus
+  mp3: https://download.binaergewitter.de/2014-06-12.Binaergewitter.Talk.97.mp3
+  ogg: https://download.binaergewitter.de/2014-06-12.Binaergewitter.Talk.97.ogg
+  m4a: https://download.binaergewitter.de/2014-06-12.Binaergewitter.Talk.97.m4a
+  opus: https://download.binaergewitter.de/2014-06-12.Binaergewitter.Talk.97.opus
 ---
 Zu heiß. Viel zu heiß im Studio. Schwitzend besprechen wir diesmal uber, Turing Tests, 5Gs und Krautreporter.
 

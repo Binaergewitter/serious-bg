@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2017-09-14.Binaergewitter.Talk.181.mp3
-  ogg: http://download.binaergewitter.de/2017-09-14.Binaergewitter.Talk.181.ogg
-  m4a: http://download.binaergewitter.de/2017-09-14.Binaergewitter.Talk.181.m4a
-  opus: http://download.binaergewitter.de/2017-09-14.Binaergewitter.Talk.181.opus
+  mp3: https://download.binaergewitter.de/2017-09-14.Binaergewitter.Talk.181.mp3
+  ogg: https://download.binaergewitter.de/2017-09-14.Binaergewitter.Talk.181.ogg
+  m4a: https://download.binaergewitter.de/2017-09-14.Binaergewitter.Talk.181.m4a
+  opus: https://download.binaergewitter.de/2017-09-14.Binaergewitter.Talk.181.opus
 ---
 Felix und Markus haben sich einen Gast eingeladen der sich mit Messengern auskennt....
 

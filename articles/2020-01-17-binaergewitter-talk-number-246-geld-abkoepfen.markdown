@@ -6,12 +6,12 @@ comments: true
 categories: talk
 sharing: true
 published: true
-chapters: http://download.binaergewitter.de/2020-01-15.Binaergewitter.Talk.246.chapters.txt
+chapters: https://download.binaergewitter.de/2020-01-15.Binaergewitter.Talk.246.chapters.txt
 audioformats:
-  mp3: http://download.binaergewitter.de/2020-01-15.Binaergewitter.Talk.246.mp3
-  ogg: http://download.binaergewitter.de/2020-01-15.Binaergewitter.Talk.246.ogg
-  m4a: http://download.binaergewitter.de/2020-01-15.Binaergewitter.Talk.246.m4a
-  opus: http://download.binaergewitter.de/2020-01-15.Binaergewitter.Talk.246.opus
+  mp3: https://download.binaergewitter.de/2020-01-15.Binaergewitter.Talk.246.mp3
+  ogg: https://download.binaergewitter.de/2020-01-15.Binaergewitter.Talk.246.ogg
+  m4a: https://download.binaergewitter.de/2020-01-15.Binaergewitter.Talk.246.m4a
+  opus: https://download.binaergewitter.de/2020-01-15.Binaergewitter.Talk.246.opus
 ---
 Das neue Jahr geht los und wir sind voll dabei...
 

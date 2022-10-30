@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2013-04-11.Binaergewitter.Talk.48.mp3
-  ogg: http://download.binaergewitter.de/2013-04-11.Binaergewitter.Talk.48.ogg
-  m4a: http://download.binaergewitter.de/2013-04-11.Binaergewitter.Talk.48.m4a
-  opus: http://download.binaergewitter.de/2013-04-11.Binaergewitter.Talk.48.opus
+  mp3: https://download.binaergewitter.de/2013-04-11.Binaergewitter.Talk.48.mp3
+  ogg: https://download.binaergewitter.de/2013-04-11.Binaergewitter.Talk.48.ogg
+  m4a: https://download.binaergewitter.de/2013-04-11.Binaergewitter.Talk.48.m4a
+  opus: https://download.binaergewitter.de/2013-04-11.Binaergewitter.Talk.48.opus
 ---
 Nur zu Dritt und ohne extra Thema, aber mit Spaß an News präsentieren euch in gewohnt guter Laune pfleidi, Felix und Ingo folgende Themen:
 

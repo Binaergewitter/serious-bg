@@ -6,8 +6,8 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2012-05-03.Binaergewitter.Talk.13.mp3
-  ogg: http://download.binaergewitter.de/2012-05-03.Binaergewitter.Talk.13.ogg
+  mp3: https://download.binaergewitter.de/2012-05-03.Binaergewitter.Talk.13.mp3
+  ogg: https://download.binaergewitter.de/2012-05-03.Binaergewitter.Talk.13.ogg
 ---
 Die tragische Wahrheit kommt ans Licht. Alles kann kaputt gehen auch Tiere. Außerdem wollen wir alle die RAID Cloud, die
 Felix gerade für sich bastelt.

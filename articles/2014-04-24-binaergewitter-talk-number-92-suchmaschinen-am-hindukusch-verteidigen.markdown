@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2014-04-24.Binaergewitter.Talk.92.mp3
-  ogg: http://download.binaergewitter.de/2014-04-24.Binaergewitter.Talk.92.ogg
-  m4a: http://download.binaergewitter.de/2014-04-24.Binaergewitter.Talk.92.m4a
-  opus: http://download.binaergewitter.de/2014-04-24.Binaergewitter.Talk.92.opus
+  mp3: https://download.binaergewitter.de/2014-04-24.Binaergewitter.Talk.92.mp3
+  ogg: https://download.binaergewitter.de/2014-04-24.Binaergewitter.Talk.92.ogg
+  m4a: https://download.binaergewitter.de/2014-04-24.Binaergewitter.Talk.92.m4a
+  opus: https://download.binaergewitter.de/2014-04-24.Binaergewitter.Talk.92.opus
 ---
 Ostern ist vorbei. Die Eier sind gegessen und auf der großartigen Pfleidicon treffen sich Mat, Felix, Pfleidi und Ingo um über 25 Jahre Gameboy, Serien, SSL und Aufkäufe zu reden und auch viel rumzuheulen.
 

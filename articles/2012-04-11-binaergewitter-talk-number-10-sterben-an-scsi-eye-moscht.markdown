@@ -6,8 +6,8 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2012-04-11.Binaergewitter.Talk.10.mp3
-  ogg: http://download.binaergewitter.de/2012-04-11.Binaergewitter.Talk.10.ogg
+  mp3: https://download.binaergewitter.de/2012-04-11.Binaergewitter.Talk.10.mp3
+  ogg: https://download.binaergewitter.de/2012-04-11.Binaergewitter.Talk.10.ogg
 ---
 Kulturkampf in der Talk-Runde: Schwaben gegen Berliner oder so ähnlich. Neben diesem Schaukampf beschäftigen wir uns diesmal mit Automation.
 

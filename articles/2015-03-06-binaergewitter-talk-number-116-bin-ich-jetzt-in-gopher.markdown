@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2015-03-05.Binaergewitter.Talk.116.mp3
-  ogg: http://download.binaergewitter.de/2015-03-05.Binaergewitter.Talk.116.ogg
-  m4a: http://download.binaergewitter.de/2015-03-05.Binaergewitter.Talk.116.m4a
-  opus: http://download.binaergewitter.de/2015-03-05.Binaergewitter.Talk.116.opus
+  mp3: https://download.binaergewitter.de/2015-03-05.Binaergewitter.Talk.116.mp3
+  ogg: https://download.binaergewitter.de/2015-03-05.Binaergewitter.Talk.116.ogg
+  m4a: https://download.binaergewitter.de/2015-03-05.Binaergewitter.Talk.116.m4a
+  opus: https://download.binaergewitter.de/2015-03-05.Binaergewitter.Talk.116.opus
 ---
 Marc ist mal wieder übern großen Teich geflogen und zu ins die Sendung gekommen. Es geht mit Felix, Mat, Ingo und Marc um Spock, leaks, Windows XP und FREAK der Woche.
 

@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2012-11-29.Binaergewitter.Talk.34.mp3
-  ogg: http://download.binaergewitter.de/2012-11-29.Binaergewitter.Talk.34.ogg
-  m4a: http://download.binaergewitter.de/2012-11-29.Binaergewitter.Talk.34.m4a
-  opus: http://download.binaergewitter.de/2012-11-29.Binaergewitter.Talk.34.opus
+  mp3: https://download.binaergewitter.de/2012-11-29.Binaergewitter.Talk.34.mp3
+  ogg: https://download.binaergewitter.de/2012-11-29.Binaergewitter.Talk.34.ogg
+  m4a: https://download.binaergewitter.de/2012-11-29.Binaergewitter.Talk.34.m4a
+  opus: https://download.binaergewitter.de/2012-11-29.Binaergewitter.Talk.34.opus
 ---
 Mal wieder alle vereint. Wir sprechen über den Tod von wechselbaren CPUs,die Umwelt, Tiefgefrohrene Fische und unsterbliche Quallen und natürlich über jede Menge IT-Themen :)
 

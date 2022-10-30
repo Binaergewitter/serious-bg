@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2019-12-05.Binaergewitter.Talk.244.mp3
-  ogg: http://download.binaergewitter.de/2019-12-05.Binaergewitter.Talk.244.ogg
-  m4a: http://download.binaergewitter.de/2019-12-05.Binaergewitter.Talk.244.m4a
-  opus: http://download.binaergewitter.de/2019-12-05.Binaergewitter.Talk.244.opus
+  mp3: https://download.binaergewitter.de/2019-12-05.Binaergewitter.Talk.244.mp3
+  ogg: https://download.binaergewitter.de/2019-12-05.Binaergewitter.Talk.244.ogg
+  m4a: https://download.binaergewitter.de/2019-12-05.Binaergewitter.Talk.244.m4a
+  opus: https://download.binaergewitter.de/2019-12-05.Binaergewitter.Talk.244.opus
 ---
 Aus der Vorweihnachtspause zurück. Markus, Felix und Ingo über Tesla, Seifenblasen und Ipv6.
 

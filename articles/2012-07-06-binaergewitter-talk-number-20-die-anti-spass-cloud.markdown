@@ -6,9 +6,9 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2012-07-05.Binaergewitter.Talk.20.mp3
-  ogg: http://download.binaergewitter.de/2012-07-05.Binaergewitter.Talk.20.ogg
-  m4a: http://download.binaergewitter.de/2012-07-05.Binaergewitter.Talk.20.m4a
+  mp3: https://download.binaergewitter.de/2012-07-05.Binaergewitter.Talk.20.mp3
+  ogg: https://download.binaergewitter.de/2012-07-05.Binaergewitter.Talk.20.ogg
+  m4a: https://download.binaergewitter.de/2012-07-05.Binaergewitter.Talk.20.m4a
 ---
 Marc ist aus den USA zurück - mit einer Sekundenverspätung und wir sind nach unser Kurzpause auch alle wieder da und reden über das Gottesteilchen, Schaltsekunden und Clouds und natürlich Katzen.
 

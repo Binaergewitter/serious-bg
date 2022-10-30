@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2014-06-05.Binaergewitter.Talk.96.mp3
-  ogg: http://download.binaergewitter.de/2014-06-05.Binaergewitter.Talk.96.ogg
-  m4a: http://download.binaergewitter.de/2014-06-05.Binaergewitter.Talk.96.m4a
-  opus: http://download.binaergewitter.de/2014-06-05.Binaergewitter.Talk.96.opus
+  mp3: https://download.binaergewitter.de/2014-06-05.Binaergewitter.Talk.96.mp3
+  ogg: https://download.binaergewitter.de/2014-06-05.Binaergewitter.Talk.96.ogg
+  m4a: https://download.binaergewitter.de/2014-06-05.Binaergewitter.Talk.96.m4a
+  opus: https://download.binaergewitter.de/2014-06-05.Binaergewitter.Talk.96.opus
 ---
 Nach unser Männertagspause kommen wir zurück mit Pfleidi via VoIP und reden über die Wahlen, Tizen mal wieder, Openssl mal wieder und jammern auch so viel rum...
 

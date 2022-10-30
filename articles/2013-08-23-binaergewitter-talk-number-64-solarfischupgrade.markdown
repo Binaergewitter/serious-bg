@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2013-08-23.Binaergewitter.Talk.64.mp3
-  ogg: http://download.binaergewitter.de/2013-08-23.Binaergewitter.Talk.64.ogg
-  m4a: http://download.binaergewitter.de/2013-08-23.Binaergewitter.Talk.64.m4a
-  opus: http://download.binaergewitter.de/2013-08-23.Binaergewitter.Talk.64.opus
+  mp3: https://download.binaergewitter.de/2013-08-23.Binaergewitter.Talk.64.mp3
+  ogg: https://download.binaergewitter.de/2013-08-23.Binaergewitter.Talk.64.ogg
+  m4a: https://download.binaergewitter.de/2013-08-23.Binaergewitter.Talk.64.m4a
+  opus: https://download.binaergewitter.de/2013-08-23.Binaergewitter.Talk.64.opus
 ---
 Die fantastischen Vier sind wieder unterwegs und die compliance Lampe glühte schon vor der Sendung heftig. Während der Sendung ging auch unsere neue Webseite online. Wir hoffen alles funktioniert soweit wenn nicht seid ihr eingeladen euch zu beschweren oder patches in unser Github einzutragen.
 

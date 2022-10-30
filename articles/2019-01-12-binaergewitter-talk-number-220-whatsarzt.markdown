@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2019-01-10.Binaergewitter.Talk.220.mp3
-  ogg: http://download.binaergewitter.de/2019-01-10.Binaergewitter.Talk.220.ogg
-  m4a: http://download.binaergewitter.de/2019-01-10.Binaergewitter.Talk.220.m4a
-  opus: http://download.binaergewitter.de/2019-01-10.Binaergewitter.Talk.220.opus
+  mp3: https://download.binaergewitter.de/2019-01-10.Binaergewitter.Talk.220.mp3
+  ogg: https://download.binaergewitter.de/2019-01-10.Binaergewitter.Talk.220.ogg
+  m4a: https://download.binaergewitter.de/2019-01-10.Binaergewitter.Talk.220.m4a
+  opus: https://download.binaergewitter.de/2019-01-10.Binaergewitter.Talk.220.opus
 ---
 Neues Jahr und auch wir sind wieder da und beschäftigen uns mit dem Whatsarzt und anderen Dingen...
 

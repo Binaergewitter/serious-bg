@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2013-04-18.Binaergewitter.Talk.49.mp3
-  ogg: http://download.binaergewitter.de/2013-04-18.Binaergewitter.Talk.49.ogg
-  m4a: http://download.binaergewitter.de/2013-04-18.Binaergewitter.Talk.49.m4a
-  opus: http://download.binaergewitter.de/2013-04-18.Binaergewitter.Talk.49.opus
+  mp3: https://download.binaergewitter.de/2013-04-18.Binaergewitter.Talk.49.mp3
+  ogg: https://download.binaergewitter.de/2013-04-18.Binaergewitter.Talk.49.ogg
+  m4a: https://download.binaergewitter.de/2013-04-18.Binaergewitter.Talk.49.m4a
+  opus: https://download.binaergewitter.de/2013-04-18.Binaergewitter.Talk.49.opus
 ---
 Alle wieder beisammen tigern wir durch die News der letzten Woche. Marc berichtet wieder über Bitcoins und wir streiten uns über den (Un)Sinn Autos mit Versicherungen zu verbinden....
 

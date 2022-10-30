@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2017-08-10.Binaergewitter.Talk.178.mp3
-  ogg: http://download.binaergewitter.de/2017-08-10.Binaergewitter.Talk.178.ogg
-  m4a: http://download.binaergewitter.de/2017-08-10.Binaergewitter.Talk.178.m4a
-  opus: http://download.binaergewitter.de/2017-08-10.Binaergewitter.Talk.178.opus
+  mp3: https://download.binaergewitter.de/2017-08-10.Binaergewitter.Talk.178.mp3
+  ogg: https://download.binaergewitter.de/2017-08-10.Binaergewitter.Talk.178.ogg
+  m4a: https://download.binaergewitter.de/2017-08-10.Binaergewitter.Talk.178.m4a
+  opus: https://download.binaergewitter.de/2017-08-10.Binaergewitter.Talk.178.opus
 ---
 Wieder mit Doppelfelix und Ingo. Der Makefoo berichtet von der SHA2017. Ingo erzählt von seinem Echo daheim und von zukünftigen Z-Wave Experimenten.
 

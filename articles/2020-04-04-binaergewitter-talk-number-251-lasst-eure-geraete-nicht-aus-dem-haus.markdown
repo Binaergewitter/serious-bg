@@ -6,12 +6,12 @@ comments: true
 categories: talk
 sharing: true
 published: true
-chapters: http://download.binaergewitter.de/2020-04-03.Binaergewitter.Talk.251.chapters.txt
+chapters: https://download.binaergewitter.de/2020-04-03.Binaergewitter.Talk.251.chapters.txt
 audioformats:
-  mp3: http://download.binaergewitter.de/2020-04-03.Binaergewitter.Talk.251.mp3
-  ogg: http://download.binaergewitter.de/2020-04-03.Binaergewitter.Talk.251.ogg
-  m4a: http://download.binaergewitter.de/2020-04-03.Binaergewitter.Talk.251.m4a
-  opus: http://download.binaergewitter.de/2020-04-03.Binaergewitter.Talk.251.opus
+  mp3: https://download.binaergewitter.de/2020-04-03.Binaergewitter.Talk.251.mp3
+  ogg: https://download.binaergewitter.de/2020-04-03.Binaergewitter.Talk.251.ogg
+  m4a: https://download.binaergewitter.de/2020-04-03.Binaergewitter.Talk.251.m4a
+  opus: https://download.binaergewitter.de/2020-04-03.Binaergewitter.Talk.251.opus
 ---
 Leider mit etwas Echo auf der Spur, aber dafür mit voller Mannschaft aus Felix², Markus und Ingo.
 Das mit dem Audio üben wir noch...

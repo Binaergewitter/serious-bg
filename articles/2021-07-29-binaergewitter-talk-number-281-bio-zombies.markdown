@@ -6,12 +6,12 @@ comments: true
 categories: talk
 sharing: true
 published: true
-chapters: http://download.binaergewitter.de/2021-07-27.Binaergewitter.Talk.281.chapters.txt
+chapters: https://download.binaergewitter.de/2021-07-27.Binaergewitter.Talk.281.chapters.txt
 audioformats:
-  mp3: http://download.binaergewitter.de/2021-07-27.Binaergewitter.Talk.281.mp3
-  ogg: http://download.binaergewitter.de/2021-07-27.Binaergewitter.Talk.281.ogg
-  m4a: http://download.binaergewitter.de/2021-07-27.Binaergewitter.Talk.281.m4a
-  opus: http://download.binaergewitter.de/2021-07-27.Binaergewitter.Talk.281.opus
+  mp3: https://download.binaergewitter.de/2021-07-27.Binaergewitter.Talk.281.mp3
+  ogg: https://download.binaergewitter.de/2021-07-27.Binaergewitter.Talk.281.ogg
+  m4a: https://download.binaergewitter.de/2021-07-27.Binaergewitter.Talk.281.m4a
+  opus: https://download.binaergewitter.de/2021-07-27.Binaergewitter.Talk.281.opus
 ---
 Mit Markus, Felix und Ingo.
 

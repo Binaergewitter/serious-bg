@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2014-02-06.Binaergewitter.Talk.82.mp3
-  ogg: http://download.binaergewitter.de/2014-02-06.Binaergewitter.Talk.82.ogg
-  m4a: http://download.binaergewitter.de/2014-02-06.Binaergewitter.Talk.82.m4a
-  opus: http://download.binaergewitter.de/2014-02-06.Binaergewitter.Talk.82.mp3
+  mp3: https://download.binaergewitter.de/2014-02-06.Binaergewitter.Talk.82.mp3
+  ogg: https://download.binaergewitter.de/2014-02-06.Binaergewitter.Talk.82.ogg
+  m4a: https://download.binaergewitter.de/2014-02-06.Binaergewitter.Talk.82.m4a
+  opus: https://download.binaergewitter.de/2014-02-06.Binaergewitter.Talk.82.mp3
 ---
 Während Felix $Dinge installiert unterhalten sich Marc, der sich via Mumble zugeschaltet, Ingo, Pfleidi und Mat über RIM Jobs, IMSI-Catcher und Gelbe Säcke.
 

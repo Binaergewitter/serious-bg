@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2018-02-07.Binaergewitter.Talk.191.mp3
-  ogg: http://download.binaergewitter.de/2018-02-07.Binaergewitter.Talk.191.ogg
-  m4a: http://download.binaergewitter.de/2018-02-07.Binaergewitter.Talk.191.m4a
-  opus: http://download.binaergewitter.de/2018-02-07.Binaergewitter.Talk.191.opus
+  mp3: https://download.binaergewitter.de/2018-02-07.Binaergewitter.Talk.191.mp3
+  ogg: https://download.binaergewitter.de/2018-02-07.Binaergewitter.Talk.191.ogg
+  m4a: https://download.binaergewitter.de/2018-02-07.Binaergewitter.Talk.191.m4a
+  opus: https://download.binaergewitter.de/2018-02-07.Binaergewitter.Talk.191.opus
 ---
 Nach krankheitsbedingter Pause sind wir wieder zurück und feiern 20 Jahre Open Source.
 Mit Felix² und Ingo.

@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2018-11-10.Binaergewitter.Talk.215.mp3
-  ogg: http://download.binaergewitter.de/2018-11-10.Binaergewitter.Talk.215.ogg
-  m4a: http://download.binaergewitter.de/2018-11-10.Binaergewitter.Talk.215.m4a
-  opus: http://download.binaergewitter.de/2018-11-10.Binaergewitter.Talk.215.opus
+  mp3: https://download.binaergewitter.de/2018-11-10.Binaergewitter.Talk.215.mp3
+  ogg: https://download.binaergewitter.de/2018-11-10.Binaergewitter.Talk.215.ogg
+  m4a: https://download.binaergewitter.de/2018-11-10.Binaergewitter.Talk.215.m4a
+  opus: https://download.binaergewitter.de/2018-11-10.Binaergewitter.Talk.215.opus
 ---
 ## Blast
 - [Markus hat umsonst gejammert und Korrektur in einen Blogpost gepackt....OpenJDK kann JPEG schreiben! ](

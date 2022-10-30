@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2013-08-08.Binaergewitter.Talk.62.mp3
-  ogg: http://download.binaergewitter.de/2013-08-08.Binaergewitter.Talk.62.ogg
-  m4a: http://download.binaergewitter.de/2013-08-08.Binaergewitter.Talk.62.m4a
-  opus: http://download.binaergewitter.de/2013-08-08.Binaergewitter.Talk.62.opus
+  mp3: https://download.binaergewitter.de/2013-08-08.Binaergewitter.Talk.62.mp3
+  ogg: https://download.binaergewitter.de/2013-08-08.Binaergewitter.Talk.62.ogg
+  m4a: https://download.binaergewitter.de/2013-08-08.Binaergewitter.Talk.62.m4a
+  opus: https://download.binaergewitter.de/2013-08-08.Binaergewitter.Talk.62.opus
 ---
 Heute ohne Ingo aber mit dem Mailthema und wie immer den News der letzten Woche...
 

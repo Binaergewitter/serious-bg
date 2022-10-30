@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2013-02-28.Binaergewitter.Talk.42.mp3
-  ogg: http://download.binaergewitter.de/2013-02-28.Binaergewitter.Talk.42.ogg
-  m4a: http://download.binaergewitter.de/2013-02-28.Binaergewitter.Talk.42.m4a
-  opus: http://download.binaergewitter.de/2013-02-28.Binaergewitter.Talk.42.opus
+  mp3: https://download.binaergewitter.de/2013-02-28.Binaergewitter.Talk.42.mp3
+  ogg: https://download.binaergewitter.de/2013-02-28.Binaergewitter.Talk.42.ogg
+  m4a: https://download.binaergewitter.de/2013-02-28.Binaergewitter.Talk.42.m4a
+  opus: https://download.binaergewitter.de/2013-02-28.Binaergewitter.Talk.42.opus
 ---
 Ok vielleicht sind wir zuviel auf der Ziege rumgeritten, aber wir sind eben der dumme, unlustige und geschmacklose Podcast und darum hört ihr uns doch ;) Neben der Ziege geht es auch um Mobile Zeugs,
 Browserspiele und auch Linus Torvalds, McAffee und Stallmann fehlen (wie immer) nicht :)

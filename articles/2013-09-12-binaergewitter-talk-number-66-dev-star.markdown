@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2013-09-12.Binaergewitter.Talk.66.mp3
-  ogg: http://download.binaergewitter.de/2013-09-12.Binaergewitter.Talk.66.ogg
-  m4a: http://download.binaergewitter.de/2013-09-12.Binaergewitter.Talk.66.m4a
-  opus: http://download.binaergewitter.de/2013-09-12.Binaergewitter.Talk.66.opus
+  mp3: https://download.binaergewitter.de/2013-09-12.Binaergewitter.Talk.66.mp3
+  ogg: https://download.binaergewitter.de/2013-09-12.Binaergewitter.Talk.66.ogg
+  m4a: https://download.binaergewitter.de/2013-09-12.Binaergewitter.Talk.66.m4a
+  opus: https://download.binaergewitter.de/2013-09-12.Binaergewitter.Talk.66.opus
 ---
 Heute mal ohne Ingo, dafür aber mit 100% mehr horse_ebooks als sonst <3.
 

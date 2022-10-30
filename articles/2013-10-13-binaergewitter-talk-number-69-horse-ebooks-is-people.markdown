@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2013-10-10.Binaergewitter.Talk.69.mp3
-  ogg: http://download.binaergewitter.de/2013-10-10.Binaergewitter.Talk.69.ogg
-  m4a: http://download.binaergewitter.de/2013-10-10.Binaergewitter.Talk.69.m4a
-  opus: http://download.binaergewitter.de/2013-10-10.Binaergewitter.Talk.69.opus
+  mp3: https://download.binaergewitter.de/2013-10-10.Binaergewitter.Talk.69.mp3
+  ogg: https://download.binaergewitter.de/2013-10-10.Binaergewitter.Talk.69.ogg
+  m4a: https://download.binaergewitter.de/2013-10-10.Binaergewitter.Talk.69.m4a
+  opus: https://download.binaergewitter.de/2013-10-10.Binaergewitter.Talk.69.opus
 ---
 Ingo weilt im Urlaub und die 3er Bande rockt durch die vielen Themen und News der letzten 2 Wochen....
 

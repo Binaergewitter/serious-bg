@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2018-04-10.Binaergewitter.Talk.198.mp3
-  ogg: http://download.binaergewitter.de/2018-04-10.Binaergewitter.Talk.198.ogg
-  m4a: http://download.binaergewitter.de/2018-04-10.Binaergewitter.Talk.198.m4a
-  opus: http://download.binaergewitter.de/2018-04-10.Binaergewitter.Talk.198.opus
+  mp3: https://download.binaergewitter.de/2018-04-10.Binaergewitter.Talk.198.mp3
+  ogg: https://download.binaergewitter.de/2018-04-10.Binaergewitter.Talk.198.ogg
+  m4a: https://download.binaergewitter.de/2018-04-10.Binaergewitter.Talk.198.m4a
+  opus: https://download.binaergewitter.de/2018-04-10.Binaergewitter.Talk.198.opus
 ---
 Felix, Markus und Ingo versuchen die DSGVO und EU Urheberrecht zu erklären. Außerdem haben wir wieder ein Windows Thema ;))
 

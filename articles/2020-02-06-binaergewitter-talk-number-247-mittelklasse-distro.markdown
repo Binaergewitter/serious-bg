@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2020-02-06.Binaergewitter.Talk.247.mp3
-  ogg: http://download.binaergewitter.de/2020-02-06.Binaergewitter.Talk.247.ogg
-  m4a: http://download.binaergewitter.de/2020-02-06.Binaergewitter.Talk.247.m4a
-  opus: http://download.binaergewitter.de/2020-02-06.Binaergewitter.Talk.247.opus
+  mp3: https://download.binaergewitter.de/2020-02-06.Binaergewitter.Talk.247.mp3
+  ogg: https://download.binaergewitter.de/2020-02-06.Binaergewitter.Talk.247.ogg
+  m4a: https://download.binaergewitter.de/2020-02-06.Binaergewitter.Talk.247.m4a
+  opus: https://download.binaergewitter.de/2020-02-06.Binaergewitter.Talk.247.opus
 ---
 ## Blast
 

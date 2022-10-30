@@ -8,10 +8,10 @@ sharing: true
 published: true
 release: 2
 audioformats:
-  mp3: http://download.binaergewitter.de/2015-07-09.Binaergewitter.Talk.124.mp3
-  ogg: http://download.binaergewitter.de/2015-07-09.Binaergewitter.Talk.124.ogg
-  m4a: http://download.binaergewitter.de/2015-07-09.Binaergewitter.Talk.124.m4a
-  opus: http://download.binaergewitter.de/2015-07-09.Binaergewitter.Talk.124.opus
+  mp3: https://download.binaergewitter.de/2015-07-09.Binaergewitter.Talk.124.mp3
+  ogg: https://download.binaergewitter.de/2015-07-09.Binaergewitter.Talk.124.ogg
+  m4a: https://download.binaergewitter.de/2015-07-09.Binaergewitter.Talk.124.m4a
+  opus: https://download.binaergewitter.de/2015-07-09.Binaergewitter.Talk.124.opus
 ---
 Nachdem die Sendung letzte Woche leider wegen Hitze ausgefallen ist setzten sich Felix, Mat und Ingo zusammen um zumindest eine Zwischen Sendung einzufügen. Leider ist beim Setup und bei der Aufnahme einiges schief gegangen daher ist die Audioqualität leider schlechter. Insbesondere nach etwas über einer Stunde mussten wir auf die Backupaufzeichnung zurückreifen, die leider nur vom internen Laptop Micro stammt. Nächste Woche ist dann wieder alles normal.
 

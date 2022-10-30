@@ -7,10 +7,10 @@ categories: westcoast
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2020-10-29.Binaergewitter.Westcoast.6.mp3
-  ogg: http://download.binaergewitter.de/2020-10-29.Binaergewitter.Westcoast.6.ogg
-  m4a: http://download.binaergewitter.de/2020-10-29.Binaergewitter.Westcoast.6.m4a
-  opus: http://download.binaergewitter.de/2020-10-29.Binaergewitter.Westcoast.6.opus
+  mp3: https://download.binaergewitter.de/2020-10-29.Binaergewitter.Westcoast.6.mp3
+  ogg: https://download.binaergewitter.de/2020-10-29.Binaergewitter.Westcoast.6.ogg
+  m4a: https://download.binaergewitter.de/2020-10-29.Binaergewitter.Westcoast.6.m4a
+  opus: https://download.binaergewitter.de/2020-10-29.Binaergewitter.Westcoast.6.opus
 ---
 
 # Wer sind wir denn?

@@ -6,10 +6,10 @@ comments: true
 categories: spezial
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2017-09-20.Binaergewitter.Spezial.7.mp3
-  ogg: http://download.binaergewitter.de/2017-09-20.Binaergewitter.Spezial.7.ogg
-  m4a: http://download.binaergewitter.de/2017-09-20.Binaergewitter.Spezial.7.m4a
-  opus: http://download.binaergewitter.de/2017-09-20.Binaergewitter.Spezial.7.opus
+  mp3: https://download.binaergewitter.de/2017-09-20.Binaergewitter.Spezial.7.mp3
+  ogg: https://download.binaergewitter.de/2017-09-20.Binaergewitter.Spezial.7.ogg
+  m4a: https://download.binaergewitter.de/2017-09-20.Binaergewitter.Spezial.7.m4a
+  opus: https://download.binaergewitter.de/2017-09-20.Binaergewitter.Spezial.7.opus
 ---
 Endlich ist sie da. Die Spezial Sendung zu NixOS. Felix und Jörg sind NixOS Jünger und lassen sich von Ingo mal befragen wie Nix und NixOS so funktionieren.
 

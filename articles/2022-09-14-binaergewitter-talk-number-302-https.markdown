@@ -6,12 +6,12 @@ comments: true
 categories: talk
 sharing: true
 published: true
-chapters: http://download.binaergewitter.de/2022-09-13.Binaergewitter.Talk.302.chapters.txt
+chapters: https://download.binaergewitter.de/2022-09-13.Binaergewitter.Talk.302.chapters.txt
 audioformats:
-  mp3: http://download.binaergewitter.de/2022-09-13.Binaergewitter.Talk.302.mp3
-  ogg: http://download.binaergewitter.de/2022-09-13.Binaergewitter.Talk.302.ogg
-  m4a: http://download.binaergewitter.de/2022-09-13.Binaergewitter.Talk.302.m4a
-  opus: http://download.binaergewitter.de/2022-09-13.Binaergewitter.Talk.302.opus
+  mp3: https://download.binaergewitter.de/2022-09-13.Binaergewitter.Talk.302.mp3
+  ogg: https://download.binaergewitter.de/2022-09-13.Binaergewitter.Talk.302.ogg
+  m4a: https://download.binaergewitter.de/2022-09-13.Binaergewitter.Talk.302.m4a
+  opus: https://download.binaergewitter.de/2022-09-13.Binaergewitter.Talk.302.opus
 ---
 ## Blast from the Past
 - fly.io - RAM Probleme und Erklärung dass das VMs sind firecracker

@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2016-03-31.Binaergewitter.Talk.144.mp3
-  ogg: http://download.binaergewitter.de/2016-03-31.Binaergewitter.Talk.144.ogg
-  m4a: http://download.binaergewitter.de/2016-03-31.Binaergewitter.Talk.144.m4a
-  opus: http://download.binaergewitter.de/2016-03-31.Binaergewitter.Talk.144.opus
+  mp3: https://download.binaergewitter.de/2016-03-31.Binaergewitter.Talk.144.mp3
+  ogg: https://download.binaergewitter.de/2016-03-31.Binaergewitter.Talk.144.ogg
+  m4a: https://download.binaergewitter.de/2016-03-31.Binaergewitter.Talk.144.m4a
+  opus: https://download.binaergewitter.de/2016-03-31.Binaergewitter.Talk.144.opus
 ---
 
 Diesmal ist viel schief gegangen, dass die Sendung überhaupt erschienen ist, ist ein Wunder. Es gab erst am Ende einen Live-Stream, die Tonverbindung war zeitweise unterbrochen und Ingo musste alleine quatschen und die Aufnahmen waren auch nicht syncron. Trotzdem hier ist sie nun die Sendung von Null auf Hitler in unter 2 Stunden.

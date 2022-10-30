@@ -8,10 +8,10 @@ sharing: true
 published: true
 release: 2
 audioformats:
-  mp3: http://download.binaergewitter.de/2015-04-09.Binaergewitter.Talk.119.mp3
-  ogg: http://download.binaergewitter.de/2015-04-09.Binaergewitter.Talk.119.ogg
-  m4a: http://download.binaergewitter.de/2015-04-09.Binaergewitter.Talk.119.m4a
-  opus: http://download.binaergewitter.de/2015-04-09.Binaergewitter.Talk.119.opus
+  mp3: https://download.binaergewitter.de/2015-04-09.Binaergewitter.Talk.119.mp3
+  ogg: https://download.binaergewitter.de/2015-04-09.Binaergewitter.Talk.119.ogg
+  m4a: https://download.binaergewitter.de/2015-04-09.Binaergewitter.Talk.119.m4a
+  opus: https://download.binaergewitter.de/2015-04-09.Binaergewitter.Talk.119.opus
 ---
 Ostern ist vorbei, der Frühling ist da und auch Pfleidi, Felix und Ingo sind wieder online.
 

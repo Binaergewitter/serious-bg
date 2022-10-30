@@ -6,12 +6,12 @@ comments: true
 categories: talk
 sharing: true
 published: true
-chapters: http://download.binaergewitter.de/2022-01-14.Binaergewitter.Talk.289.chapters.txt
+chapters: https://download.binaergewitter.de/2022-01-14.Binaergewitter.Talk.289.chapters.txt
 audioformats:
-  mp3: http://download.binaergewitter.de/2022-01-14.Binaergewitter.Talk.289.mp3
-  ogg: http://download.binaergewitter.de/2022-01-14.Binaergewitter.Talk.289.ogg
-  m4a: http://download.binaergewitter.de/2022-01-14.Binaergewitter.Talk.289.m4a
-  opus: http://download.binaergewitter.de/2022-01-14.Binaergewitter.Talk.289.opus
+  mp3: https://download.binaergewitter.de/2022-01-14.Binaergewitter.Talk.289.mp3
+  ogg: https://download.binaergewitter.de/2022-01-14.Binaergewitter.Talk.289.ogg
+  m4a: https://download.binaergewitter.de/2022-01-14.Binaergewitter.Talk.289.m4a
+  opus: https://download.binaergewitter.de/2022-01-14.Binaergewitter.Talk.289.opus
 ---
 Frohes neues Jahr. Wir sind wieder zurück im Jahr des Linux Desktops. Aber dieses Jahr bestimmt wirklich. Mit dabei sind Markus, Felix, Felix und Ingo
 

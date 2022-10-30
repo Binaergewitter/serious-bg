@@ -8,10 +8,10 @@ sharing: true
 release: 2
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2015-02-12.Binaergewitter.Talk.114.mp3
-  ogg: http://download.binaergewitter.de/2015-02-12.Binaergewitter.Talk.114.ogg
-  m4a: http://download.binaergewitter.de/2015-02-12.Binaergewitter.Talk.114.m4a
-  opus: http://download.binaergewitter.de/2015-02-12.Binaergewitter.Talk.114.opus
+  mp3: https://download.binaergewitter.de/2015-02-12.Binaergewitter.Talk.114.mp3
+  ogg: https://download.binaergewitter.de/2015-02-12.Binaergewitter.Talk.114.ogg
+  m4a: https://download.binaergewitter.de/2015-02-12.Binaergewitter.Talk.114.m4a
+  opus: https://download.binaergewitter.de/2015-02-12.Binaergewitter.Talk.114.opus
 ---
 Felix, Pfleidi und Ingo verabreden sich zum Testen von Top und dem Vivaldi und sprechen über Tote Software, merkern über Maßeinheiten und nehmen das ganze via Osmose auf.
 

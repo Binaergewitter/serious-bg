@@ -6,12 +6,12 @@ comments: true
 categories: talk
 sharing: true
 published: true
-chapters: http://download.binaergewitter.de/2022-06-13.Binaergewitter.Talk.297.chapters.txt
+chapters: https://download.binaergewitter.de/2022-06-13.Binaergewitter.Talk.297.chapters.txt
 audioformats:
-  mp3: http://download.binaergewitter.de/2022-06-13.Binaergewitter.Talk.297.mp3
-  ogg: http://download.binaergewitter.de/2022-06-13.Binaergewitter.Talk.297.ogg
-  m4a: http://download.binaergewitter.de/2022-06-13.Binaergewitter.Talk.297.m4a
-  opus: http://download.binaergewitter.de/2022-06-13.Binaergewitter.Talk.297.opus
+  mp3: https://download.binaergewitter.de/2022-06-13.Binaergewitter.Talk.297.mp3
+  ogg: https://download.binaergewitter.de/2022-06-13.Binaergewitter.Talk.297.ogg
+  m4a: https://download.binaergewitter.de/2022-06-13.Binaergewitter.Talk.297.m4a
+  opus: https://download.binaergewitter.de/2022-06-13.Binaergewitter.Talk.297.opus
 ---
 Mit Felix, Markus und Ingo.
 

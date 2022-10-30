@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2015-08-27.Binaergewitter.Talk.129.mp3
-  ogg: http://download.binaergewitter.de/2015-08-27.Binaergewitter.Talk.129.ogg
-  m4a: http://download.binaergewitter.de/2015-08-27.Binaergewitter.Talk.129.m4a
-  opus: http://download.binaergewitter.de/2015-08-27.Binaergewitter.Talk.129.opus
+  mp3: https://download.binaergewitter.de/2015-08-27.Binaergewitter.Talk.129.mp3
+  ogg: https://download.binaergewitter.de/2015-08-27.Binaergewitter.Talk.129.ogg
+  m4a: https://download.binaergewitter.de/2015-08-27.Binaergewitter.Talk.129.m4a
+  opus: https://download.binaergewitter.de/2015-08-27.Binaergewitter.Talk.129.opus
 ---
 Leider mal wieder mit Technikproblemen und etwas verspäteter Veröffentlichung. Aber Mat, Pfleidi und Felix sind am Start und reden übers alt sein, Mail und Schimpansen.
 

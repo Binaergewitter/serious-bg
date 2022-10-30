@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2013-03-21.Binaergewitter.Talk.45.mp3
-  ogg: http://download.binaergewitter.de/2013-03-21.Binaergewitter.Talk.45.ogg
-  m4a: http://download.binaergewitter.de/2013-03-21.Binaergewitter.Talk.45.m4a
-  opus: http://download.binaergewitter.de/2013-03-21.Binaergewitter.Talk.45.opus
+  mp3: https://download.binaergewitter.de/2013-03-21.Binaergewitter.Talk.45.mp3
+  ogg: https://download.binaergewitter.de/2013-03-21.Binaergewitter.Talk.45.ogg
+  m4a: https://download.binaergewitter.de/2013-03-21.Binaergewitter.Talk.45.m4a
+  opus: https://download.binaergewitter.de/2013-03-21.Binaergewitter.Talk.45.opus
 ---
 Pfleidi is back. Also ist endlich alles wie immer. Oder? Zumindest gehen wir durch die News der letzten Wochen und quatschen über Kollaborative Editoren.
 

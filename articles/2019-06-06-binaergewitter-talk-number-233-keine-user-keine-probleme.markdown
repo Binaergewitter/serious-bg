@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2019-06-06.Binaergewitter.Talk.233.mp3
-  ogg: http://download.binaergewitter.de/2019-06-06.Binaergewitter.Talk.233.ogg
-  m4a: http://download.binaergewitter.de/2019-06-06.Binaergewitter.Talk.233.m4a
-  opus: http://download.binaergewitter.de/2019-06-06.Binaergewitter.Talk.233.opus
+  mp3: https://download.binaergewitter.de/2019-06-06.Binaergewitter.Talk.233.mp3
+  ogg: https://download.binaergewitter.de/2019-06-06.Binaergewitter.Talk.233.ogg
+  m4a: https://download.binaergewitter.de/2019-06-06.Binaergewitter.Talk.233.m4a
+  opus: https://download.binaergewitter.de/2019-06-06.Binaergewitter.Talk.233.opus
 ---
 WOLOLO wir sind wieder da. Zur Dritt führen wir euch durch unseren Wochenrückblick....
 

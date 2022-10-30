@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2016-07-21.Binaergewitter.Talk.153.mp3
-  ogg: http://download.binaergewitter.de/2016-07-21.Binaergewitter.Talk.153.ogg
-  m4a: http://download.binaergewitter.de/2016-07-21.Binaergewitter.Talk.153.m4a
-  opus: http://download.binaergewitter.de/2016-07-21.Binaergewitter.Talk.153.opus
+  mp3: https://download.binaergewitter.de/2016-07-21.Binaergewitter.Talk.153.mp3
+  ogg: https://download.binaergewitter.de/2016-07-21.Binaergewitter.Talk.153.ogg
+  m4a: https://download.binaergewitter.de/2016-07-21.Binaergewitter.Talk.153.m4a
+  opus: https://download.binaergewitter.de/2016-07-21.Binaergewitter.Talk.153.opus
 ---
 ## Toter der Woche
 - [Skype für Windows 8](https://www.computerbase.de/2016-07/skype-client-aeltere-betriebssysteme/)

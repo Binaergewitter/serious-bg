@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2013-10-17.Binaergewitter.Talk.70.mp3
-  ogg: http://download.binaergewitter.de/2013-10-17.Binaergewitter.Talk.70.ogg
-  m4a: http://download.binaergewitter.de/2013-10-17.Binaergewitter.Talk.70.m4a
-  opus: http://download.binaergewitter.de/2013-10-17.Binaergewitter.Talk.70.opus
+  mp3: https://download.binaergewitter.de/2013-10-17.Binaergewitter.Talk.70.mp3
+  ogg: https://download.binaergewitter.de/2013-10-17.Binaergewitter.Talk.70.ogg
+  m4a: https://download.binaergewitter.de/2013-10-17.Binaergewitter.Talk.70.m4a
+  opus: https://download.binaergewitter.de/2013-10-17.Binaergewitter.Talk.70.opus
 ---
 In dieser Ausgabe präsentieren wir mehr Tote, mehr Irrsin, mehr Tumblers und mehr geheule, außerdem gehen wir der Frage nach wie gefährlich Oreos sind, aber sonst ist alles wie immer :)
 

@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2016-04-22.Binaergewitter.Talk.146.mp3
-  ogg: http://download.binaergewitter.de/2016-04-22.Binaergewitter.Talk.146.ogg
-  m4a: http://download.binaergewitter.de/2016-04-22.Binaergewitter.Talk.146.m4a
-  opus: http://download.binaergewitter.de/2016-04-22.Binaergewitter.Talk.146.opus
+  mp3: https://download.binaergewitter.de/2016-04-22.Binaergewitter.Talk.146.mp3
+  ogg: https://download.binaergewitter.de/2016-04-22.Binaergewitter.Talk.146.ogg
+  m4a: https://download.binaergewitter.de/2016-04-22.Binaergewitter.Talk.146.m4a
+  opus: https://download.binaergewitter.de/2016-04-22.Binaergewitter.Talk.146.opus
 ---
 Wieder in der sehr kleinen Runde mit Felix und Ingo. Wir versuchen hart die nächste Ubuntu Version Yodeling Yeti zu nennen und reden lustig mit einander so das selbst die Compliance Lampe zumindest dunkelgelb wird, da wir schlecht versuchen das BKA Gesetz wie John Oliver zu erklären.
 

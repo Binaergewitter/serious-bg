@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2013-05-16.Binaergewitter.Talk.52.mp3
-  ogg: http://download.binaergewitter.de/2013-05-16.Binaergewitter.Talk.52.ogg
-  m4a: http://download.binaergewitter.de/2013-05-16.Binaergewitter.Talk.52.m4a
-  opus: http://download.binaergewitter.de/2013-05-16.Binaergewitter.Talk.52.opus
+  mp3: https://download.binaergewitter.de/2013-05-16.Binaergewitter.Talk.52.mp3
+  ogg: https://download.binaergewitter.de/2013-05-16.Binaergewitter.Talk.52.ogg
+  m4a: https://download.binaergewitter.de/2013-05-16.Binaergewitter.Talk.52.m4a
+  opus: https://download.binaergewitter.de/2013-05-16.Binaergewitter.Talk.52.opus
 ---
 Ohne Marc aber mit viel IO, mit viel + und Hochwissenschaftlichen Themen.
 

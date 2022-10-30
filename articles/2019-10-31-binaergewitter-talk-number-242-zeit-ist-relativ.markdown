@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2019-10-30.Binaergewitter.Talk.242.mp3
-  ogg: http://download.binaergewitter.de/2019-10-30.Binaergewitter.Talk.242.ogg
-  m4a: http://download.binaergewitter.de/2019-10-30.Binaergewitter.Talk.242.m4a
-  opus: http://download.binaergewitter.de/2019-10-30.Binaergewitter.Talk.242.opus
+  mp3: https://download.binaergewitter.de/2019-10-30.Binaergewitter.Talk.242.mp3
+  ogg: https://download.binaergewitter.de/2019-10-30.Binaergewitter.Talk.242.ogg
+  m4a: https://download.binaergewitter.de/2019-10-30.Binaergewitter.Talk.242.m4a
+  opus: https://download.binaergewitter.de/2019-10-30.Binaergewitter.Talk.242.opus
 ---
 Winterzeit, Windows 10 und wichtige Sicherheitlücken (WWW) sind unsere Themen der Sendung. Mit dabei sind Felix, Markus und Ingo.
 Leider mussten wir den Downmix nehmen und Markus hat daher ab und zu "Aussetzer". Sorry!

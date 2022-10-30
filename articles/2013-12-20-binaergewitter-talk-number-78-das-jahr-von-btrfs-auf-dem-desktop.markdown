@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2013-12-19.Binaergewitter.Talk.78.mp3
-  ogg: http://download.binaergewitter.de/2013-12-19.Binaergewitter.Talk.78.ogg
-  m4a: http://download.binaergewitter.de/2013-12-19.Binaergewitter.Talk.78.m4a
-  opus: http://download.binaergewitter.de/2013-12-19.Binaergewitter.Talk.78.opus
+  mp3: https://download.binaergewitter.de/2013-12-19.Binaergewitter.Talk.78.mp3
+  ogg: https://download.binaergewitter.de/2013-12-19.Binaergewitter.Talk.78.ogg
+  m4a: https://download.binaergewitter.de/2013-12-19.Binaergewitter.Talk.78.m4a
+  opus: https://download.binaergewitter.de/2013-12-19.Binaergewitter.Talk.78.opus
 ---
 Mat, Felix und Ingo bestreiten die letzte Sendung für das Jahr 2013 und sprechen über das Jolla Phone, die Alt Tech Talks Berlin und Geschenke für Weihnachten.
 

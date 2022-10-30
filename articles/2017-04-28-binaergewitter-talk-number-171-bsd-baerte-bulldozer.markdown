@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2017-04-27.Binaergewitter.Talk.171.mp3
-  ogg: http://download.binaergewitter.de/2017-04-27.Binaergewitter.Talk.171.ogg
-  m4a: http://download.binaergewitter.de/2017-04-27.Binaergewitter.Talk.171.m4a
-  opus: http://download.binaergewitter.de/2017-04-27.Binaergewitter.Talk.171.opus
+  mp3: https://download.binaergewitter.de/2017-04-27.Binaergewitter.Talk.171.mp3
+  ogg: https://download.binaergewitter.de/2017-04-27.Binaergewitter.Talk.171.ogg
+  m4a: https://download.binaergewitter.de/2017-04-27.Binaergewitter.Talk.171.m4a
+  opus: https://download.binaergewitter.de/2017-04-27.Binaergewitter.Talk.171.opus
 ---
 Wieder mit Doppelfelix und Ingo. Leider ohne Mat. Dafür diesmal mit guten Audio und Btrfs/ZFS Flamewars :)
 

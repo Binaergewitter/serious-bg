@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2014-12-18.Binaergewitter.Talk.111.mp3
-  ogg: http://download.binaergewitter.de/2014-12-18.Binaergewitter.Talk.111.ogg
-  m4a: http://download.binaergewitter.de/2014-12-18.Binaergewitter.Talk.111.m4a
-  opus: http://download.binaergewitter.de/2014-12-18.Binaergewitter.Talk.111.opus
+  mp3: https://download.binaergewitter.de/2014-12-18.Binaergewitter.Talk.111.mp3
+  ogg: https://download.binaergewitter.de/2014-12-18.Binaergewitter.Talk.111.ogg
+  m4a: https://download.binaergewitter.de/2014-12-18.Binaergewitter.Talk.111.m4a
+  opus: https://download.binaergewitter.de/2014-12-18.Binaergewitter.Talk.111.opus
 ---
 Bei der letzten Sendung im Jahr 2014 haben wir einen Gast dabei: Marcel, den ihr vielleicht auch vom Retinacast kennt.
 Wir quatschen über potentielle Weihnachtsgeschenke über Ironsky 2 und über FireTV mit Plex sowie die Pebble Uhr.
