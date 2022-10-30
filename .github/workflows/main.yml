@@ -5,7 +5,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.1.2
@@ -15,8 +15,8 @@ jobs:
   build-search:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
         with:
           python-version: '3.x'
       - run: python gen-stork.py > stork.toml
@@ -24,7 +24,7 @@ jobs:
       - run: chmod +x stork-ubuntu-20-04
       - run: ./stork-ubuntu-20-04 build --input stork.toml --output bgt.st
       - name: Deploy to bgt server
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/main'
         uses: appleboy/scp-action@master
         with:
           host: ${{ secrets.DEPLOY_HOST }}
