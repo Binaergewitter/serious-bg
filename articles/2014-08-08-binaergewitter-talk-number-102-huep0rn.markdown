@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2014-08-07.Binaergewitter.Talk.102.mp3
-  ogg: http://download.binaergewitter.de/2014-08-07.Binaergewitter.Talk.102.ogg
-  m4a: http://download.binaergewitter.de/2014-08-07.Binaergewitter.Talk.102.m4a
-  opus: http://download.binaergewitter.de/2014-08-07.Binaergewitter.Talk.102.opus
+  mp3: https://download.binaergewitter.de/2014-08-07.Binaergewitter.Talk.102.mp3
+  ogg: https://download.binaergewitter.de/2014-08-07.Binaergewitter.Talk.102.ogg
+  m4a: https://download.binaergewitter.de/2014-08-07.Binaergewitter.Talk.102.m4a
+  opus: https://download.binaergewitter.de/2014-08-07.Binaergewitter.Talk.102.opus
 ---
 Nach einer kurzen Kreativpause sind wieder wieder da. So unlustig und geschmaklos wie immer, doch ab jetzt nur noch alle zwei Wochen. Mat, Pfleidi und Ingo regen sich diesmal über Homeautomation auf und über Leute die mit sich bzw. Angst verkaufen.
 

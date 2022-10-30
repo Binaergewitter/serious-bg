@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2016-06-09.Binaergewitter.Talk.150.mp3
-  ogg: http://download.binaergewitter.de/2016-06-09.Binaergewitter.Talk.150.ogg
-  m4a: http://download.binaergewitter.de/2016-06-09.Binaergewitter.Talk.150.m4a
-  opus: http://download.binaergewitter.de/2016-06-09.Binaergewitter.Talk.150.opus
+  mp3: https://download.binaergewitter.de/2016-06-09.Binaergewitter.Talk.150.mp3
+  ogg: https://download.binaergewitter.de/2016-06-09.Binaergewitter.Talk.150.ogg
+  m4a: https://download.binaergewitter.de/2016-06-09.Binaergewitter.Talk.150.m4a
+  opus: https://download.binaergewitter.de/2016-06-09.Binaergewitter.Talk.150.opus
 ---
 Wieder einmal sind wieder bei 150 Ausgaben. Wahnsinn wie doch die Zeit vergeht. Felix und Ingo präsentieren euch diese Ausgabe der Unlustigsten Show der Welt.
 

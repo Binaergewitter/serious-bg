@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2018-12-28.Binaergewitter.Talk.219.mp3
-  ogg: http://download.binaergewitter.de/2018-12-28.Binaergewitter.Talk.219.ogg
-  m4a: http://download.binaergewitter.de/2018-12-28.Binaergewitter.Talk.219.m4a
-  opus: http://download.binaergewitter.de/2018-12-28.Binaergewitter.Talk.219.opus
+  mp3: https://download.binaergewitter.de/2018-12-28.Binaergewitter.Talk.219.mp3
+  ogg: https://download.binaergewitter.de/2018-12-28.Binaergewitter.Talk.219.ogg
+  m4a: https://download.binaergewitter.de/2018-12-28.Binaergewitter.Talk.219.m4a
+  opus: https://download.binaergewitter.de/2018-12-28.Binaergewitter.Talk.219.opus
 ---
 Wieder ist ein Jahr rum und wir sind zwischen den Jahren auf dem Congress. Vom Podcasttisch des Sendezentrums berichten euch Felix², Markus und Ingo von den
 Erlebnissen auf dem #35C3 und witzeln sich durch die News der letzten Zeit.

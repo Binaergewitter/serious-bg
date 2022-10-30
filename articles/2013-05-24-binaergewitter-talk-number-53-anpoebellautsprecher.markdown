@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2013-05-23.Binaergewitter.Talk.53.mp3
-  ogg: http://download.binaergewitter.de/2013-05-23.Binaergewitter.Talk.53.ogg
-  m4a: http://download.binaergewitter.de/2013-05-23.Binaergewitter.Talk.53.m4a
-  opus: http://download.binaergewitter.de/2013-05-23.Binaergewitter.Talk.53.opus
+  mp3: https://download.binaergewitter.de/2013-05-23.Binaergewitter.Talk.53.mp3
+  ogg: https://download.binaergewitter.de/2013-05-23.Binaergewitter.Talk.53.ogg
+  m4a: https://download.binaergewitter.de/2013-05-23.Binaergewitter.Talk.53.m4a
+  opus: https://download.binaergewitter.de/2013-05-23.Binaergewitter.Talk.53.opus
 ---
 In Meterschritten quatschen wir diesmal über Tumblr, Hangouts, LinuxTag und natürlich diese komische XFail One. Den großteil der Sendung bestreiten Marc und Pfleidi alleine....
 

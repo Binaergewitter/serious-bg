@@ -6,12 +6,12 @@ comments: true
 categories: talk
 sharing: true
 published: true
-chapters: http://download.binaergewitter.de/2020-04-17.Binaergewitter.Talk.252.chapters.txt
+chapters: https://download.binaergewitter.de/2020-04-17.Binaergewitter.Talk.252.chapters.txt
 audioformats:
-  mp3: http://download.binaergewitter.de/2020-04-17.Binaergewitter.Talk.252.mp3
-  ogg: http://download.binaergewitter.de/2020-04-17.Binaergewitter.Talk.252.ogg
-  m4a: http://download.binaergewitter.de/2020-04-17.Binaergewitter.Talk.252.m4a
-  opus: http://download.binaergewitter.de/2020-04-17.Binaergewitter.Talk.252.opus
+  mp3: https://download.binaergewitter.de/2020-04-17.Binaergewitter.Talk.252.mp3
+  ogg: https://download.binaergewitter.de/2020-04-17.Binaergewitter.Talk.252.ogg
+  m4a: https://download.binaergewitter.de/2020-04-17.Binaergewitter.Talk.252.m4a
+  opus: https://download.binaergewitter.de/2020-04-17.Binaergewitter.Talk.252.opus
 ---
 Die folgenden Sendungen verschieben sich wegen Groupware Diskusionen um mehrere Minuten...
 

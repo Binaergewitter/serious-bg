@@ -6,12 +6,12 @@ comments: true
 categories: talk
 sharing: true
 published: true
-chapters: http://download.binaergewitter.de/2021-01-09.Binaergewitter.Talk.268.chapters.txt
+chapters: https://download.binaergewitter.de/2021-01-09.Binaergewitter.Talk.268.chapters.txt
 audioformats:
-  mp3: http://download.binaergewitter.de/2021-01-09.Binaergewitter.Talk.268.mp3
-  ogg: http://download.binaergewitter.de/2021-01-09.Binaergewitter.Talk.268.ogg
-  m4a: http://download.binaergewitter.de/2021-01-09.Binaergewitter.Talk.268.m4a
-  opus: http://download.binaergewitter.de/2021-01-09.Binaergewitter.Talk.268.opus
+  mp3: https://download.binaergewitter.de/2021-01-09.Binaergewitter.Talk.268.mp3
+  ogg: https://download.binaergewitter.de/2021-01-09.Binaergewitter.Talk.268.ogg
+  m4a: https://download.binaergewitter.de/2021-01-09.Binaergewitter.Talk.268.m4a
+  opus: https://download.binaergewitter.de/2021-01-09.Binaergewitter.Talk.268.opus
 ---
 10 Jahre Binärgewitter. Das müssen wir mit einer Sendung feiern :)
 Felix, Felix, Markus und Ingo präsentieren euch auch 2021 wieder ihre News der letzten Tage :)

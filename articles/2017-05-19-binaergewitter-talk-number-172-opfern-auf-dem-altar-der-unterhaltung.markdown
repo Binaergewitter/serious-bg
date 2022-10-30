@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2017-05-18.Binaergewitter.Talk.172.mp3
-  ogg: http://download.binaergewitter.de/2017-05-18.Binaergewitter.Talk.172.ogg
-  m4a: http://download.binaergewitter.de/2017-05-18.Binaergewitter.Talk.172.m4a
-  opus: http://download.binaergewitter.de/2017-05-18.Binaergewitter.Talk.172.opus
+  mp3: https://download.binaergewitter.de/2017-05-18.Binaergewitter.Talk.172.mp3
+  ogg: https://download.binaergewitter.de/2017-05-18.Binaergewitter.Talk.172.ogg
+  m4a: https://download.binaergewitter.de/2017-05-18.Binaergewitter.Talk.172.m4a
+  opus: https://download.binaergewitter.de/2017-05-18.Binaergewitter.Talk.172.opus
 ---
 Der Mat ist ein letztes Mal zu Gast bevor der die Biegung gen Westen macht. Auch Felix und Ingo sind mit von der Partie und natürlich reden wir über die Security
 Dinge der letzten Wochen....

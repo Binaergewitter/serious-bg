@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2022-10-28.Binaergewitter.Talk.304.mp3
-  ogg: http://download.binaergewitter.de/2022-10-28.Binaergewitter.Talk.304.ogg
-  m4a: http://download.binaergewitter.de/2022-10-28.Binaergewitter.Talk.304.m4a
-  opus: http://download.binaergewitter.de/2022-10-28.Binaergewitter.Talk.304.opus
+  mp3: https://download.binaergewitter.de/2022-10-28.Binaergewitter.Talk.304.mp3
+  ogg: https://download.binaergewitter.de/2022-10-28.Binaergewitter.Talk.304.ogg
+  m4a: https://download.binaergewitter.de/2022-10-28.Binaergewitter.Talk.304.m4a
+  opus: https://download.binaergewitter.de/2022-10-28.Binaergewitter.Talk.304.opus
 ---
 Zeitumstellung. Alle so yeah... und auch Felix, Ingo und Markus sind begeistert.
 

@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 release: 2
 audioformats:
-  mp3: http://download.binaergewitter.de/2014-01-16.Binaergewitter.Talk.79.mp3
-  ogg: http://download.binaergewitter.de/2014-01-16.Binaergewitter.Talk.79.ogg
-  m4a: http://download.binaergewitter.de/2014-01-16.Binaergewitter.Talk.79.m4a
-  opus: http://download.binaergewitter.de/2014-01-16.Binaergewitter.Talk.79.opus
+  mp3: https://download.binaergewitter.de/2014-01-16.Binaergewitter.Talk.79.mp3
+  ogg: https://download.binaergewitter.de/2014-01-16.Binaergewitter.Talk.79.ogg
+  m4a: https://download.binaergewitter.de/2014-01-16.Binaergewitter.Talk.79.m4a
+  opus: https://download.binaergewitter.de/2014-01-16.Binaergewitter.Talk.79.opus
 ---
 Wir sind wieder zurück aus der Winter äh naja Sommerpause. Die erste Sendung 2014 bestreiten Mat, Pfleidi und Felix.
 

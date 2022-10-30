@@ -6,12 +6,12 @@ comments: true
 categories: talk
 sharing: true
 published: true
-chapters: http://download.binaergewitter.de/2022-08-03.Binaergewitter.Talk.300.chapters.txt
+chapters: https://download.binaergewitter.de/2022-08-03.Binaergewitter.Talk.300.chapters.txt
 audioformats:
-  mp3: http://download.binaergewitter.de/2022-08-03.Binaergewitter.Talk.300.mp3
-  ogg: http://download.binaergewitter.de/2022-08-03.Binaergewitter.Talk.300.ogg
-  m4a: http://download.binaergewitter.de/2022-08-03.Binaergewitter.Talk.300.m4a
-  opus: http://download.binaergewitter.de/2022-08-03.Binaergewitter.Talk.300.opus
+  mp3: https://download.binaergewitter.de/2022-08-03.Binaergewitter.Talk.300.mp3
+  ogg: https://download.binaergewitter.de/2022-08-03.Binaergewitter.Talk.300.ogg
+  m4a: https://download.binaergewitter.de/2022-08-03.Binaergewitter.Talk.300.m4a
+  opus: https://download.binaergewitter.de/2022-08-03.Binaergewitter.Talk.300.opus
 ---
 Auch Folge 300 liefern wir in gewohnter Qualität und Souveränität ab. Freut euch auf Felix, Felix, Markus und Ingo - eure Freunde des Podcasts.
 

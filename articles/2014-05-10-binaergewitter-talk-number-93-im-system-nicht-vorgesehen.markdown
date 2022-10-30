@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2014-05-08.Binaergewitter.Talk.93.mp3
-  ogg: http://download.binaergewitter.de/2014-05-08.Binaergewitter.Talk.93.ogg
-  m4a: http://download.binaergewitter.de/2014-05-08.Binaergewitter.Talk.93.m4a
-  opus: http://download.binaergewitter.de/2014-05-08.Binaergewitter.Talk.93.opus
+  mp3: https://download.binaergewitter.de/2014-05-08.Binaergewitter.Talk.93.mp3
+  ogg: https://download.binaergewitter.de/2014-05-08.Binaergewitter.Talk.93.ogg
+  m4a: https://download.binaergewitter.de/2014-05-08.Binaergewitter.Talk.93.m4a
+  opus: https://download.binaergewitter.de/2014-05-08.Binaergewitter.Talk.93.opus
 ---
 Die erste Sendung im Wonnemonat Mai. Mat, Felix und Ingo treffen sich zum Mateplausch.
 

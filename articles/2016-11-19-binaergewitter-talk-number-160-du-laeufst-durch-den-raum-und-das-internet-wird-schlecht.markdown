@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2016-11-17.Binaergewitter.Talk.160.mp3
-  ogg: http://download.binaergewitter.de/2016-11-17.Binaergewitter.Talk.160.ogg
-  m4a: http://download.binaergewitter.de/2016-11-17.Binaergewitter.Talk.160.m4a
-  opus: http://download.binaergewitter.de/2016-11-17.Binaergewitter.Talk.160.opus
+  mp3: https://download.binaergewitter.de/2016-11-17.Binaergewitter.Talk.160.mp3
+  ogg: https://download.binaergewitter.de/2016-11-17.Binaergewitter.Talk.160.ogg
+  m4a: https://download.binaergewitter.de/2016-11-17.Binaergewitter.Talk.160.m4a
+  opus: https://download.binaergewitter.de/2016-11-17.Binaergewitter.Talk.160.opus
 ---
 Nach dem wir letzte Woche ausgesetzt haben darf uns diesmal Markus erklären was Kubernetes ist und wir haben mal wieder ein Tizen der Woche. Freut euch auf die Sendung mit Felix, Markus und Ingo.
 

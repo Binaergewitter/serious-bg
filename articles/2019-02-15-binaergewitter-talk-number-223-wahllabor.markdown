@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2019-02-13.Binaergewitter.Talk.223.mp3
-  ogg: http://download.binaergewitter.de/2019-02-13.Binaergewitter.Talk.223.ogg
-  m4a: http://download.binaergewitter.de/2019-02-13.Binaergewitter.Talk.223.m4a
-  opus: http://download.binaergewitter.de/2019-02-13.Binaergewitter.Talk.223.opus
+  mp3: https://download.binaergewitter.de/2019-02-13.Binaergewitter.Talk.223.mp3
+  ogg: https://download.binaergewitter.de/2019-02-13.Binaergewitter.Talk.223.ogg
+  m4a: https://download.binaergewitter.de/2019-02-13.Binaergewitter.Talk.223.m4a
+  opus: https://download.binaergewitter.de/2019-02-13.Binaergewitter.Talk.223.opus
 ---
 
 Artikel 13 ist schon wieder da genau so wie madmas, l33tname und makefu.

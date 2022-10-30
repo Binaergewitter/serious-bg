@@ -6,12 +6,12 @@ comments: true
 categories: talk
 sharing: true
 published: true
-chapters: http://download.binaergewitter.de/2022-10-03.Binaergewitter.Talk.303.chapters.txt
+chapters: https://download.binaergewitter.de/2022-10-03.Binaergewitter.Talk.303.chapters.txt
 audioformats:
-  mp3: http://download.binaergewitter.de/2022-10-03.Binaergewitter.Talk.303.mp3
-  ogg: http://download.binaergewitter.de/2022-10-03.Binaergewitter.Talk.303.ogg
-  m4a: http://download.binaergewitter.de/2022-10-03.Binaergewitter.Talk.303.m4a
-  opus: http://download.binaergewitter.de/2022-10-03.Binaergewitter.Talk.303.opus
+  mp3: https://download.binaergewitter.de/2022-10-03.Binaergewitter.Talk.303.mp3
+  ogg: https://download.binaergewitter.de/2022-10-03.Binaergewitter.Talk.303.ogg
+  m4a: https://download.binaergewitter.de/2022-10-03.Binaergewitter.Talk.303.m4a
+  opus: https://download.binaergewitter.de/2022-10-03.Binaergewitter.Talk.303.opus
 ---
 Am Tag der deutschen Einheit sind Felix, Felix und Ingo wieder für euch in der IT Welt unterwegs.
 

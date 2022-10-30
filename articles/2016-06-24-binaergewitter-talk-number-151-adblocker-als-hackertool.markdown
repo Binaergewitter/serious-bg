@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2016-06-23.Binaergewitter.Talk.151.mp3
-  ogg: http://download.binaergewitter.de/2016-06-23.Binaergewitter.Talk.151.ogg
-  m4a: http://download.binaergewitter.de/2016-06-23.Binaergewitter.Talk.151.m4a
-  opus: http://download.binaergewitter.de/2016-06-23.Binaergewitter.Talk.151.opus
+  mp3: https://download.binaergewitter.de/2016-06-23.Binaergewitter.Talk.151.mp3
+  ogg: https://download.binaergewitter.de/2016-06-23.Binaergewitter.Talk.151.ogg
+  m4a: https://download.binaergewitter.de/2016-06-23.Binaergewitter.Talk.151.m4a
+  opus: https://download.binaergewitter.de/2016-06-23.Binaergewitter.Talk.151.opus
 ---
 Brexit Edition mit Felix und Ingo.
 

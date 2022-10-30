@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2018-03-08.Binaergewitter.Talk.194.mp3
-  ogg: http://download.binaergewitter.de/2018-03-08.Binaergewitter.Talk.194.ogg
-  m4a: http://download.binaergewitter.de/2018-03-08.Binaergewitter.Talk.194.m4a
-  opus: http://download.binaergewitter.de/2018-03-08.Binaergewitter.Talk.194.opus
+  mp3: https://download.binaergewitter.de/2018-03-08.Binaergewitter.Talk.194.mp3
+  ogg: https://download.binaergewitter.de/2018-03-08.Binaergewitter.Talk.194.ogg
+  m4a: https://download.binaergewitter.de/2018-03-08.Binaergewitter.Talk.194.m4a
+  opus: https://download.binaergewitter.de/2018-03-08.Binaergewitter.Talk.194.opus
 ---
 Große Runde mit Felix², Markus und Ingo.
 

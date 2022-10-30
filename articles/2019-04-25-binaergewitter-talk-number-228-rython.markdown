@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2019-04-24.Binaergewitter.Talk.228.mp3
-  ogg: http://download.binaergewitter.de/2019-04-24.Binaergewitter.Talk.228.ogg
-  m4a: http://download.binaergewitter.de/2019-04-24.Binaergewitter.Talk.228.m4a
-  opus: http://download.binaergewitter.de/2019-04-24.Binaergewitter.Talk.228.opus
+  mp3: https://download.binaergewitter.de/2019-04-24.Binaergewitter.Talk.228.mp3
+  ogg: https://download.binaergewitter.de/2019-04-24.Binaergewitter.Talk.228.ogg
+  m4a: https://download.binaergewitter.de/2019-04-24.Binaergewitter.Talk.228.m4a
+  opus: https://download.binaergewitter.de/2019-04-24.Binaergewitter.Talk.228.opus
 ---
 ## Toter der Woche
 - [Scientific Linux](https://www.pro-linux.de/news/1/26992/scientific-linux-wird-eingestellt.html)

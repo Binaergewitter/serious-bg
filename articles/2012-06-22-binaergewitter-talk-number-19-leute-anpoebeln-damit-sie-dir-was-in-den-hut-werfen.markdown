@@ -6,9 +6,9 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2012-06-21.Binaergewitter.Talk.19.mp3
-  ogg: http://download.binaergewitter.de/2012-06-21.Binaergewitter.Talk.19.ogg
-  m4a: http://download.binaergewitter.de/2012-06-21.Binaergewitter.Talk.19.m4a
+  mp3: https://download.binaergewitter.de/2012-06-21.Binaergewitter.Talk.19.mp3
+  ogg: https://download.binaergewitter.de/2012-06-21.Binaergewitter.Talk.19.ogg
+  m4a: https://download.binaergewitter.de/2012-06-21.Binaergewitter.Talk.19.m4a
 ---
 Trotz Sommerloch treffen sich Sven, Felix und Ingo und quatschen über Nvida, HMTL5 und Microsoft Surface.
 

@@ -8,10 +8,10 @@ sharing: true
 published: true
 release: 2
 audioformats:
-  mp3: http://download.binaergewitter.de/2018-08-25.Binaergewitter.Talk.208.mp3
-  ogg: http://download.binaergewitter.de/2018-08-25.Binaergewitter.Talk.208.ogg
-  m4a: http://download.binaergewitter.de/2018-08-25.Binaergewitter.Talk.208.m4a
-  opus: http://download.binaergewitter.de/2018-08-25.Binaergewitter.Talk.208.opus
+  mp3: https://download.binaergewitter.de/2018-08-25.Binaergewitter.Talk.208.mp3
+  ogg: https://download.binaergewitter.de/2018-08-25.Binaergewitter.Talk.208.ogg
+  m4a: https://download.binaergewitter.de/2018-08-25.Binaergewitter.Talk.208.m4a
+  opus: https://download.binaergewitter.de/2018-08-25.Binaergewitter.Talk.208.opus
 ---
 Live von der froscon 2018. Markus und Felix haben sich den Schmittlauch geschnappt und reden über das freie Internet.
 

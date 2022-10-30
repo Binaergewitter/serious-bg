@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2017-03-16.Binaergewitter.Talk.168.mp3
-  ogg: http://download.binaergewitter.de/2017-03-16.Binaergewitter.Talk.168.ogg
-  m4a: http://download.binaergewitter.de/2017-03-16.Binaergewitter.Talk.168.m4a
-  opus: http://download.binaergewitter.de/2017-03-16.Binaergewitter.Talk.168.opus
+  mp3: https://download.binaergewitter.de/2017-03-16.Binaergewitter.Talk.168.mp3
+  ogg: https://download.binaergewitter.de/2017-03-16.Binaergewitter.Talk.168.ogg
+  m4a: https://download.binaergewitter.de/2017-03-16.Binaergewitter.Talk.168.m4a
+  opus: https://download.binaergewitter.de/2017-03-16.Binaergewitter.Talk.168.opus
 ---
 Mal wieder eine kleine feine Sendung mit Felix, Markus und Ingo. Und obwohl der Pfleidi nicht dabei ist müssen wir mal wieder über Messenger reden. Wegen Gitter
 und XKCD.

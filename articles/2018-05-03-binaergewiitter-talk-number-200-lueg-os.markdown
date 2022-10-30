@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2018-05-02.Binaergewitter.Talk.200.mp3
-  ogg: http://download.binaergewitter.de/2018-05-02.Binaergewitter.Talk.200.ogg
-  m4a: http://download.binaergewitter.de/2018-05-02.Binaergewitter.Talk.200.m4a
-  opus: http://download.binaergewitter.de/2018-05-02.Binaergewitter.Talk.200.opus
+  mp3: https://download.binaergewitter.de/2018-05-02.Binaergewitter.Talk.200.mp3
+  ogg: https://download.binaergewitter.de/2018-05-02.Binaergewitter.Talk.200.ogg
+  m4a: https://download.binaergewitter.de/2018-05-02.Binaergewitter.Talk.200.m4a
+  opus: https://download.binaergewitter.de/2018-05-02.Binaergewitter.Talk.200.opus
 ---
 Ausgabe 200 ist da!!! Aber statt zu feiern liefern wir euch eine solide Ausgabe diesmal auch ohne Audioprobleme.
 Mit dabei sind beide Felixe, Markus und Ingo.

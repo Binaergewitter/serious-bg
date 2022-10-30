@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2013-02-07.Binaergewitter.Talk.40.mp3
-  ogg: http://download.binaergewitter.de/2013-02-07.Binaergewitter.Talk.40.ogg
-  m4a: http://download.binaergewitter.de/2013-02-07.Binaergewitter.Talk.40.m4a
-  opus: http://download.binaergewitter.de/2013-02-07.Binaergewitter.Talk.40.opus
+  mp3: https://download.binaergewitter.de/2013-02-07.Binaergewitter.Talk.40.mp3
+  ogg: https://download.binaergewitter.de/2013-02-07.Binaergewitter.Talk.40.ogg
+  m4a: https://download.binaergewitter.de/2013-02-07.Binaergewitter.Talk.40.m4a
+  opus: https://download.binaergewitter.de/2013-02-07.Binaergewitter.Talk.40.opus
 ---
 Die lustige dreier Runde aus Felix, Marc und Ingo erklärt euch diesmal warum ihr unbedingt eure eigene Kirche aufmachen sollte und was man beim Laptopkauf beachten kann.
 

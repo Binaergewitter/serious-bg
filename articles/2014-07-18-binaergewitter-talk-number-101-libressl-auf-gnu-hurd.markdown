@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2014-07-17.Binaergewitter.Talk.101.mp3
-  ogg: http://download.binaergewitter.de/2014-07-17.Binaergewitter.Talk.101.ogg
-  m4a: http://download.binaergewitter.de/2014-07-17.Binaergewitter.Talk.101.m4a
-  opus: http://download.binaergewitter.de/2014-07-17.Binaergewitter.Talk.101.opus
+  mp3: https://download.binaergewitter.de/2014-07-17.Binaergewitter.Talk.101.mp3
+  ogg: https://download.binaergewitter.de/2014-07-17.Binaergewitter.Talk.101.ogg
+  m4a: https://download.binaergewitter.de/2014-07-17.Binaergewitter.Talk.101.m4a
+  opus: https://download.binaergewitter.de/2014-07-17.Binaergewitter.Talk.101.opus
 ---
 Die illustren Runde trifft sich um über die Telekom zu heulen, sich übers Airbnd Logo und LibreSSL lustig zu machen außerdem preisen wir systemd, Aaron Swartz und Jeff Jarvis.
 

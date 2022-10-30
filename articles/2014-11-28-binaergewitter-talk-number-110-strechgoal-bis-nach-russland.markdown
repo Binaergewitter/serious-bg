@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2014-11-28.Binaergewitter.Talk.110.mp3
-  ogg: http://download.binaergewitter.de/2014-11-28.Binaergewitter.Talk.110.ogg
-  m4a: http://download.binaergewitter.de/2014-11-28.Binaergewitter.Talk.110.m4a
-  opus: http://download.binaergewitter.de/2014-11-28.Binaergewitter.Talk.110.opus
+  mp3: https://download.binaergewitter.de/2014-11-28.Binaergewitter.Talk.110.mp3
+  ogg: https://download.binaergewitter.de/2014-11-28.Binaergewitter.Talk.110.ogg
+  m4a: https://download.binaergewitter.de/2014-11-28.Binaergewitter.Talk.110.m4a
+  opus: https://download.binaergewitter.de/2014-11-28.Binaergewitter.Talk.110.opus
 ---
 Wir mussten mal wieder die Compliance Lampe auspacken, denn es geht um Japaner, Barbies, USB Kondome und Krieg. Getreu dem Motto: dumm, geschmacklos und unlustig weichen wir oft vom Thema ab und reden über Themen von denen wir nichts verstehen. Aber das erwartet ihr doch von uns oder? :)
 

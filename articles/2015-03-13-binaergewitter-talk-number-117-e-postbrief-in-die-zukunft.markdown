@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2015-03-12.Binaergewitter.Talk.117.mp3
-  ogg: http://download.binaergewitter.de/2015-03-12.Binaergewitter.Talk.117.ogg
-  m4a: http://download.binaergewitter.de/2015-03-12.Binaergewitter.Talk.117.m4a
-  opus: http://download.binaergewitter.de/2015-03-12.Binaergewitter.Talk.117.opus
+  mp3: https://download.binaergewitter.de/2015-03-12.Binaergewitter.Talk.117.mp3
+  ogg: https://download.binaergewitter.de/2015-03-12.Binaergewitter.Talk.117.ogg
+  m4a: https://download.binaergewitter.de/2015-03-12.Binaergewitter.Talk.117.m4a
+  opus: https://download.binaergewitter.de/2015-03-12.Binaergewitter.Talk.117.opus
 ---
 Heute mal komplett remote und nur zu zweit. Daher auch nicht die optimale Qualität aber trotzdem nicht minder lustig. Felix und Ingo reden über Security Foo, WLAN Gesetze und USB-C.
 Durch einen Bug bei nuza.de konnten uns die Live Hörer leider nicht richtig zuhören, da Ingos Spur nach einiger Zeit nicht übertragen wurde. Wir hoffen das lässt sich bald fixen.

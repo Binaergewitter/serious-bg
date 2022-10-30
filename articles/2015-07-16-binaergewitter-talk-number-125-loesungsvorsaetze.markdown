@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2015-07-16.Binaergewitter.Talk.125.mp3
-  ogg: http://download.binaergewitter.de/2015-07-16.Binaergewitter.Talk.125.ogg
-  m4a: http://download.binaergewitter.de/2015-07-16.Binaergewitter.Talk.125.m4a
-  opus: http://download.binaergewitter.de/2015-07-16.Binaergewitter.Talk.125.opus
+  mp3: https://download.binaergewitter.de/2015-07-16.Binaergewitter.Talk.125.mp3
+  ogg: https://download.binaergewitter.de/2015-07-16.Binaergewitter.Talk.125.ogg
+  m4a: https://download.binaergewitter.de/2015-07-16.Binaergewitter.Talk.125.m4a
+  opus: https://download.binaergewitter.de/2015-07-16.Binaergewitter.Talk.125.opus
 ---
 Alle Man(n) an Board. Wobei uns die Hitze fast zu Kopf steigt. Mat, Felix, Pfleidi und Ingo reden über Container und Flash, UEFI Lücken und mehr.
 

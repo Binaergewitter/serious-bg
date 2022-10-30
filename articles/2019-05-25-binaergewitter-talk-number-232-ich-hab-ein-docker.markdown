@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2019-05-23.Binaergewitter.Talk.232.mp3
-  ogg: http://download.binaergewitter.de/2019-05-23.Binaergewitter.Talk.232.ogg
-  m4a: http://download.binaergewitter.de/2019-05-23.Binaergewitter.Talk.232.m4a
-  opus: http://download.binaergewitter.de/2019-05-23.Binaergewitter.Talk.232.opus
+  mp3: https://download.binaergewitter.de/2019-05-23.Binaergewitter.Talk.232.mp3
+  ogg: https://download.binaergewitter.de/2019-05-23.Binaergewitter.Talk.232.ogg
+  m4a: https://download.binaergewitter.de/2019-05-23.Binaergewitter.Talk.232.m4a
+  opus: https://download.binaergewitter.de/2019-05-23.Binaergewitter.Talk.232.opus
 ---
 In Vollbesetzung und mit schlechter Laune zum Europawahlfinale...
 

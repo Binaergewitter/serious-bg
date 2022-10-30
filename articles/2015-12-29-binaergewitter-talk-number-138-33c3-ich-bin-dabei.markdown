@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2015-12-28.Binaergewitter.Talk.138.mp3
-  ogg: http://download.binaergewitter.de/2015-12-28.Binaergewitter.Talk.138.ogg
-  m4a: http://download.binaergewitter.de/2015-12-28.Binaergewitter.Talk.138.m4a
-  opus: http://download.binaergewitter.de/2015-12-28.Binaergewitter.Talk.138.opus
+  mp3: https://download.binaergewitter.de/2015-12-28.Binaergewitter.Talk.138.mp3
+  ogg: https://download.binaergewitter.de/2015-12-28.Binaergewitter.Talk.138.ogg
+  m4a: https://download.binaergewitter.de/2015-12-28.Binaergewitter.Talk.138.m4a
+  opus: https://download.binaergewitter.de/2015-12-28.Binaergewitter.Talk.138.opus
 ---
 Live vom 32C3 (aka der Congress) aus Hamburg aus dem Sendezentrum: Mit Felix, Markus, Mat und Ingo.
 Wir reden natürlich über den Congress, freuen uns hart über den McAfee der Woche und quatschen kurz über Passwortmanager. Leider hatten wir nur 1,5 Zeit, aber wir hoffen Ihr habt Spaß beim Hören.

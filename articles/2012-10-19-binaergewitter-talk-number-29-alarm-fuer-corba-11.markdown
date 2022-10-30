@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2012-10-18.Binaergewitter.Talk.29.mp3
-  ogg: http://download.binaergewitter.de/2012-10-18.Binaergewitter.Talk.29.ogg
-  m4a: http://download.binaergewitter.de/2012-10-18.Binaergewitter.Talk.29.m4a
-  opus: http://download.binaergewitter.de/2012-10-18.Binaergewitter.Talk.29.opus
+  mp3: https://download.binaergewitter.de/2012-10-18.Binaergewitter.Talk.29.mp3
+  ogg: https://download.binaergewitter.de/2012-10-18.Binaergewitter.Talk.29.ogg
+  m4a: https://download.binaergewitter.de/2012-10-18.Binaergewitter.Talk.29.m4a
+  opus: https://download.binaergewitter.de/2012-10-18.Binaergewitter.Talk.29.opus
 ---
 Auch giftige Kontaktlinsenflüssigkeit hält uns nicht davon ab euch auch diesmal unsere Weisheiten des Lebens zu präsentieren, damit dies gelingt gründen wir eine Selbsthilfegruppe...
 

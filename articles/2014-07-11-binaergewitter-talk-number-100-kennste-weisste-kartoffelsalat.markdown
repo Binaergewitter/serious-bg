@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2014-07-10.Binaergewitter.Talk.100.mp3
-  ogg: http://download.binaergewitter.de/2014-07-10.Binaergewitter.Talk.100.ogg
-  m4a: http://download.binaergewitter.de/2014-07-10.Binaergewitter.Talk.100.m4a
-  opus: http://download.binaergewitter.de/2014-07-10.Binaergewitter.Talk.100.opus
+  mp3: https://download.binaergewitter.de/2014-07-10.Binaergewitter.Talk.100.mp3
+  ogg: https://download.binaergewitter.de/2014-07-10.Binaergewitter.Talk.100.ogg
+  m4a: https://download.binaergewitter.de/2014-07-10.Binaergewitter.Talk.100.m4a
+  opus: https://download.binaergewitter.de/2014-07-10.Binaergewitter.Talk.100.opus
 ---
 Hurra, wir sind 100. Und bis auf Marc ist das Kernteam auch bei dieser Folge dabei. Diesmal wegen Sommerloch aber kaum Themen ;)
 

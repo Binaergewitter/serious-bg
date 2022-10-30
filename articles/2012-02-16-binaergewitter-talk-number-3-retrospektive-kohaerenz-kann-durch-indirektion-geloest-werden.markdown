@@ -6,8 +6,8 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2012-02-15.Binaergewitter.Talk.3.mp3
-  ogg: http://download.binaergewitter.de/2012-02-15.Binaergewitter.Talk.3.ogg
+  mp3: https://download.binaergewitter.de/2012-02-15.Binaergewitter.Talk.3.mp3
+  ogg: https://download.binaergewitter.de/2012-02-15.Binaergewitter.Talk.3.ogg
 ---
 ## Nachtrag
 

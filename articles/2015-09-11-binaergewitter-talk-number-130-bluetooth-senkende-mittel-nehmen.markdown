@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2015-09-10.Binaergewitter.Talk.130.mp3
-  ogg: http://download.binaergewitter.de/2015-09-10.Binaergewitter.Talk.130.ogg
-  m4a: http://download.binaergewitter.de/2015-09-10.Binaergewitter.Talk.130.m4a
-  opus: http://download.binaergewitter.de/2015-09-10.Binaergewitter.Talk.130.opus
+  mp3: https://download.binaergewitter.de/2015-09-10.Binaergewitter.Talk.130.mp3
+  ogg: https://download.binaergewitter.de/2015-09-10.Binaergewitter.Talk.130.ogg
+  m4a: https://download.binaergewitter.de/2015-09-10.Binaergewitter.Talk.130.m4a
+  opus: https://download.binaergewitter.de/2015-09-10.Binaergewitter.Talk.130.opus
 ---
 Mat, Felix und Ingo heulen über die Content Industrie und freuen sich über den McAfee der Woche.
 

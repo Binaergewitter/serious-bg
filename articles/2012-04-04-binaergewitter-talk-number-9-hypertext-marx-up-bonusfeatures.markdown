@@ -6,8 +6,8 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2012-04-04.Binaergewitter.Talk.9.mp3
-  ogg: http://download.binaergewitter.de/2012-04-04.Binaergewitter.Talk.9.ogg
+  mp3: https://download.binaergewitter.de/2012-04-04.Binaergewitter.Talk.9.mp3
+  ogg: https://download.binaergewitter.de/2012-04-04.Binaergewitter.Talk.9.ogg
 ---
 Die Erleuchtung ereilt uns diesmal, denn alles geht kaputt. Die Knalltüten reden diesmal vorallem über tolle Aprilscherze und Clientseitiger Webentwicklung.
 

@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2013-02-21.Binaergewitter.Talk.41.mp3
-  ogg: http://download.binaergewitter.de/2013-02-21.Binaergewitter.Talk.41.ogg
-  m4a: http://download.binaergewitter.de/2013-02-21.Binaergewitter.Talk.41.m4a
-  opus: http://download.binaergewitter.de/2013-02-21.Binaergewitter.Talk.41.opus
+  mp3: https://download.binaergewitter.de/2013-02-21.Binaergewitter.Talk.41.mp3
+  ogg: https://download.binaergewitter.de/2013-02-21.Binaergewitter.Talk.41.ogg
+  m4a: https://download.binaergewitter.de/2013-02-21.Binaergewitter.Talk.41.m4a
+  opus: https://download.binaergewitter.de/2013-02-21.Binaergewitter.Talk.41.opus
 ---
 aka Tizen aus Stahl. Melden sich dieses mal Marc, Felix und Ingo nach einer Woche Pause zurück.
 

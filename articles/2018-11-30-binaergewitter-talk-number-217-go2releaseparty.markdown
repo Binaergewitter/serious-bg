@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2018-11-29.Binaergewitter.Talk.217.mp3
-  ogg: http://download.binaergewitter.de/2018-11-29.Binaergewitter.Talk.217.ogg
-  m4a: http://download.binaergewitter.de/2018-11-29.Binaergewitter.Talk.217.m4a
-  opus: http://download.binaergewitter.de/2018-11-29.Binaergewitter.Talk.217.opus
+  mp3: https://download.binaergewitter.de/2018-11-29.Binaergewitter.Talk.217.mp3
+  ogg: https://download.binaergewitter.de/2018-11-29.Binaergewitter.Talk.217.ogg
+  m4a: https://download.binaergewitter.de/2018-11-29.Binaergewitter.Talk.217.m4a
+  opus: https://download.binaergewitter.de/2018-11-29.Binaergewitter.Talk.217.opus
 ---
 Felix² und Markus gehen dem ePostbrief, Ingo 0-4 und der Cebit auf den Grund.
 

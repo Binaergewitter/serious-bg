@@ -6,12 +6,12 @@ comments: true
 categories: talk
 sharing: true
 published: true
-chapters: http://download.binaergewitter.de/2021-09-20.Binaergewitter.Talk.284.chapters.txt
+chapters: https://download.binaergewitter.de/2021-09-20.Binaergewitter.Talk.284.chapters.txt
 audioformats:
-  mp3: http://download.binaergewitter.de/2021-09-20.Binaergewitter.Talk.284.mp3
-  ogg: http://download.binaergewitter.de/2021-09-20.Binaergewitter.Talk.284.ogg
-  m4a: http://download.binaergewitter.de/2021-09-20.Binaergewitter.Talk.284.m4a
-  opus: http://download.binaergewitter.de/2021-09-20.Binaergewitter.Talk.284.opus
+  mp3: https://download.binaergewitter.de/2021-09-20.Binaergewitter.Talk.284.mp3
+  ogg: https://download.binaergewitter.de/2021-09-20.Binaergewitter.Talk.284.ogg
+  m4a: https://download.binaergewitter.de/2021-09-20.Binaergewitter.Talk.284.m4a
+  opus: https://download.binaergewitter.de/2021-09-20.Binaergewitter.Talk.284.opus
 ---
 
 Das Jahr von Linux Viren und SMS auf dem Desktop... oder so. Mit Felix, Felix und Ingo.

@@ -6,12 +6,12 @@ comments: true
 categories: talk
 sharing: true
 published: true
-chapters: http://download.binaergewitter.de/2022-05-26.Binaergewitter.Talk.296.chapters.txt
+chapters: https://download.binaergewitter.de/2022-05-26.Binaergewitter.Talk.296.chapters.txt
 audioformats:
-  mp3: http://download.binaergewitter.de/2022-05-26.Binaergewitter.Talk.296.mp3
-  ogg: http://download.binaergewitter.de/2022-05-26.Binaergewitter.Talk.296.ogg
-  m4a: http://download.binaergewitter.de/2022-05-26.Binaergewitter.Talk.296.m4a
-  opus: http://download.binaergewitter.de/2022-05-26.Binaergewitter.Talk.296.opus
+  mp3: https://download.binaergewitter.de/2022-05-26.Binaergewitter.Talk.296.mp3
+  ogg: https://download.binaergewitter.de/2022-05-26.Binaergewitter.Talk.296.ogg
+  m4a: https://download.binaergewitter.de/2022-05-26.Binaergewitter.Talk.296.m4a
+  opus: https://download.binaergewitter.de/2022-05-26.Binaergewitter.Talk.296.opus
 ---
 Unsere lägendäre Vatertagssendung mit Felix, Felix, Markus und Ingo. Wir sprechen über Linux 5.18, das 9 Euro Ticket und Kabel.
 

@@ -5,8 +5,8 @@ date: 2011-04-16 19:26
 comments: true
 categories: spezial
 audioformats:
-  mp3: http://download.binaergewitter.de/2011-04-13.RadioTux.Binaergewitter.2.mp3
-  ogg: http://download.binaergewitter.de/2011-04-13.RadioTux.Binaergewitter.2.ogg
+  mp3: https://download.binaergewitter.de/2011-04-13.RadioTux.Binaergewitter.2.mp3
+  ogg: https://download.binaergewitter.de/2011-04-13.RadioTux.Binaergewitter.2.ogg
 ---
 
 Ausgabe 2 von Binärgewitter dreht sich rund um Sichere Systeme und grundlägende Begriffe von Sicherheit bzw. IT Security. Mit dabei sind Pfleidi, Felix und Prof. Walter Kriha, moderiert von Ingo Ebel. Die Sendung soll einen Einblick in Sicherheit und Sichere Systeme geben. Eine weitere Binärgewitterfolge wird sich dann mit einzelnen Angriff- und Abwehrmaßnahmen beschäftigen.

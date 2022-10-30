@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2020-07-06.Binaergewitter.Talk.258.mp3
-  ogg: http://download.binaergewitter.de/2020-07-06.Binaergewitter.Talk.258.ogg
-  m4a: http://download.binaergewitter.de/2020-07-06.Binaergewitter.Talk.258.m4a
-  opus: http://download.binaergewitter.de/2020-07-06.Binaergewitter.Talk.258.opus
+  mp3: https://download.binaergewitter.de/2020-07-06.Binaergewitter.Talk.258.mp3
+  ogg: https://download.binaergewitter.de/2020-07-06.Binaergewitter.Talk.258.ogg
+  m4a: https://download.binaergewitter.de/2020-07-06.Binaergewitter.Talk.258.m4a
+  opus: https://download.binaergewitter.de/2020-07-06.Binaergewitter.Talk.258.opus
 ---
 Doppel Felix und Ingo regen sich über Zertifikate auf und den Rat der Cyberweisen.
 

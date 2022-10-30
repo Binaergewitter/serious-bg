@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2015-06-11.Binaergewitter.Talk.122.mp3
-  ogg: http://download.binaergewitter.de/2015-06-11.Binaergewitter.Talk.122.ogg
-  m4a: http://download.binaergewitter.de/2015-06-11.Binaergewitter.Talk.122.m4a
-  opus: http://download.binaergewitter.de/2015-06-11.Binaergewitter.Talk.122.opus
+  mp3: https://download.binaergewitter.de/2015-06-11.Binaergewitter.Talk.122.mp3
+  ogg: https://download.binaergewitter.de/2015-06-11.Binaergewitter.Talk.122.ogg
+  m4a: https://download.binaergewitter.de/2015-06-11.Binaergewitter.Talk.122.m4a
+  opus: https://download.binaergewitter.de/2015-06-11.Binaergewitter.Talk.122.opus
 ---
 Große Runde. Alle sind wieder da trotzdem gibt uns der Chat nur das Qualititäsurteil: dünn, fade, geschmacksneutral und ohne Zusatzstoffe, aber hört selbst.
 

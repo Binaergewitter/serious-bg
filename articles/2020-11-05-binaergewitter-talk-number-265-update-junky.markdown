@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2020-11-04.Binaergewitter.Talk.265.mp3
-  ogg: http://download.binaergewitter.de/2020-11-04.Binaergewitter.Talk.265.ogg
-  m4a: http://download.binaergewitter.de/2020-11-04.Binaergewitter.Talk.265.m4a
-  opus: http://download.binaergewitter.de/2020-11-04.Binaergewitter.Talk.265.opus
+  mp3: https://download.binaergewitter.de/2020-11-04.Binaergewitter.Talk.265.mp3
+  ogg: https://download.binaergewitter.de/2020-11-04.Binaergewitter.Talk.265.ogg
+  m4a: https://download.binaergewitter.de/2020-11-04.Binaergewitter.Talk.265.m4a
+  opus: https://download.binaergewitter.de/2020-11-04.Binaergewitter.Talk.265.opus
 ---
 Markus ist mal wieder dabei. Und obwohl wir depimiert sind wegen der US Wahl machen wir eine Sendung.
 

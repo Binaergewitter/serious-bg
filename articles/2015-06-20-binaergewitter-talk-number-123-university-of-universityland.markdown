@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2015-06-18.Binaergewitter.Talk.123.mp3
-  ogg: http://download.binaergewitter.de/2015-06-18.Binaergewitter.Talk.123.ogg
-  m4a: http://download.binaergewitter.de/2015-06-18.Binaergewitter.Talk.123.m4a
-  opus: http://download.binaergewitter.de/2015-06-18.Binaergewitter.Talk.123.opus
+  mp3: https://download.binaergewitter.de/2015-06-18.Binaergewitter.Talk.123.mp3
+  ogg: https://download.binaergewitter.de/2015-06-18.Binaergewitter.Talk.123.ogg
+  m4a: https://download.binaergewitter.de/2015-06-18.Binaergewitter.Talk.123.m4a
+  opus: https://download.binaergewitter.de/2015-06-18.Binaergewitter.Talk.123.opus
 ---
 Huch kommen die jetzt wieder im Wochenmodus? Nicht nur ihr, sondern auch der Pfleidi ist verwirrt. Ist aber ganz einfach. Wir hatten soviele ausgefallene Sendungen das eigentlich letzte Woche die Ausnahme war und diese Woche wieder die Regel. Macht ja auch nix. Dies mal geht es um Bezahlmodelle anhand von Instacast, Web Assembly und Dinge die kaputt gegangen sind.
 

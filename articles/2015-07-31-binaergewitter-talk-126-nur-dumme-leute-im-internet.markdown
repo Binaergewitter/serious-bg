@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2015-07-30.Binaergewitter.Talk.126.mp3
-  ogg: http://download.binaergewitter.de/2015-07-30.Binaergewitter.Talk.126.ogg
-  m4a: http://download.binaergewitter.de/2015-07-30.Binaergewitter.Talk.126.m4a
-  opus: http://download.binaergewitter.de/2015-07-30.Binaergewitter.Talk.126.opus
+  mp3: https://download.binaergewitter.de/2015-07-30.Binaergewitter.Talk.126.mp3
+  ogg: https://download.binaergewitter.de/2015-07-30.Binaergewitter.Talk.126.ogg
+  m4a: https://download.binaergewitter.de/2015-07-30.Binaergewitter.Talk.126.m4a
+  opus: https://download.binaergewitter.de/2015-07-30.Binaergewitter.Talk.126.opus
 ---
 Minimalbesetzung mit Felix und Ingo, weil alle anderen in den USA weilen. Dafür mehr Security und Politikthemen ;)
 

@@ -6,8 +6,8 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2012-05-31.Binaergewitter.Talk.16.mp3
-  ogg: http://download.binaergewitter.de/2012-05-31.Binaergewitter.Talk.16.ogg
+  mp3: https://download.binaergewitter.de/2012-05-31.Binaergewitter.Talk.16.mp3
+  ogg: https://download.binaergewitter.de/2012-05-31.Binaergewitter.Talk.16.ogg
 ---
 Wieder die 3 von der Tankstelle, die euch mit aktuellen Toten, News, Lesefoo und einer Diskussion übers Programmieren lernen beglücken.
 

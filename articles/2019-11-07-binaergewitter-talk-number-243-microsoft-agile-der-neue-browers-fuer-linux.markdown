@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2019-11-06.Binaergewitter.Talk.243.mp3
-  ogg: http://download.binaergewitter.de/2019-11-06.Binaergewitter.Talk.243.ogg
-  m4a: http://download.binaergewitter.de/2019-11-06.Binaergewitter.Talk.243.m4a
-  opus: http://download.binaergewitter.de/2019-11-06.Binaergewitter.Talk.243.opus
+  mp3: https://download.binaergewitter.de/2019-11-06.Binaergewitter.Talk.243.mp3
+  ogg: https://download.binaergewitter.de/2019-11-06.Binaergewitter.Talk.243.ogg
+  m4a: https://download.binaergewitter.de/2019-11-06.Binaergewitter.Talk.243.m4a
+  opus: https://download.binaergewitter.de/2019-11-06.Binaergewitter.Talk.243.opus
 ---
 2x Felix 1x Ingo
 

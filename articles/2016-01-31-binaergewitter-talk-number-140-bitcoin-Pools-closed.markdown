@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2016-01-28.Binaergewitter.Talk.140.mp3
-  ogg: http://download.binaergewitter.de/2016-01-28.Binaergewitter.Talk.140.ogg
-  m4a: http://download.binaergewitter.de/2016-01-28.Binaergewitter.Talk.140.m4a
-  opus: http://download.binaergewitter.de/2016-01-28.Binaergewitter.Talk.140.opus
+  mp3: https://download.binaergewitter.de/2016-01-28.Binaergewitter.Talk.140.mp3
+  ogg: https://download.binaergewitter.de/2016-01-28.Binaergewitter.Talk.140.ogg
+  m4a: https://download.binaergewitter.de/2016-01-28.Binaergewitter.Talk.140.m4a
+  opus: https://download.binaergewitter.de/2016-01-28.Binaergewitter.Talk.140.opus
 ---
 Der Winter ist schon wieder vorbei und wir haben Besuch von der Westküste der USA. Leider ist die Aufnahme kaputt gegangen und wir mussten auf das Backup
 zurückgreifen, daher nicht wundern wenn der Pfleidi schlechter klingt als sonst. Mit dabei sind Felix, Marc, Mat und Pfleidi.

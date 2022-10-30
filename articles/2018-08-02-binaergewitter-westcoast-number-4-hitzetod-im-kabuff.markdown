@@ -7,10 +7,10 @@ categories: westcoast
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2018-08-02.Binaergewitter.Westcoast.4.mp3
-  ogg: http://download.binaergewitter.de/2018-08-02.Binaergewitter.Westcoast.4.ogg
-  m4a: http://download.binaergewitter.de/2018-08-02.Binaergewitter.Westcoast.4.m4a
-  opus: http://download.binaergewitter.de/2018-08-02.Binaergewitter.Westcoast.4.opus
+  mp3: https://download.binaergewitter.de/2018-08-02.Binaergewitter.Westcoast.4.mp3
+  ogg: https://download.binaergewitter.de/2018-08-02.Binaergewitter.Westcoast.4.ogg
+  m4a: https://download.binaergewitter.de/2018-08-02.Binaergewitter.Westcoast.4.m4a
+  opus: https://download.binaergewitter.de/2018-08-02.Binaergewitter.Westcoast.4.opus
 ---
 
 Traditionell hatte sowohl Marc’s Backup Recorder versagt also auch die Primäre Aufnahme Probleme. Tonqualität ist also eher auf Dosentelefon Level. Wir versuchen uns zu verbessern.

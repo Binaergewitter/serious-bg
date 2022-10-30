@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2014-03-13.Binaergewitter.Talk.87.mp3
-  ogg: http://download.binaergewitter.de/2014-03-13.Binaergewitter.Talk.87.ogg
-  m4a: http://download.binaergewitter.de/2014-03-13.Binaergewitter.Talk.87.m4a
-  opus: http://download.binaergewitter.de/2014-03-13.Binaergewitter.Talk.87.opus
+  mp3: https://download.binaergewitter.de/2014-03-13.Binaergewitter.Talk.87.mp3
+  ogg: https://download.binaergewitter.de/2014-03-13.Binaergewitter.Talk.87.ogg
+  m4a: https://download.binaergewitter.de/2014-03-13.Binaergewitter.Talk.87.m4a
+  opus: https://download.binaergewitter.de/2014-03-13.Binaergewitter.Talk.87.opus
 ---
 Große Runde im Shackspace. Wir singen nicht Happy Birthday und unterhalten uns über Schleimpilz, Kant, Bitcoins und Spielefoo.
 

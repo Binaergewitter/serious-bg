@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2014-03-27.Binaergewitter.Talk.89.mp3
-  ogg: http://download.binaergewitter.de/2014-03-27.Binaergewitter.Talk.89.ogg
-  m4a: http://download.binaergewitter.de/2014-03-27.Binaergewitter.Talk.89.m4a
-  opus: http://download.binaergewitter.de/2014-03-27.Binaergewitter.Talk.89.opus
+  mp3: https://download.binaergewitter.de/2014-03-27.Binaergewitter.Talk.89.mp3
+  ogg: https://download.binaergewitter.de/2014-03-27.Binaergewitter.Talk.89.ogg
+  m4a: https://download.binaergewitter.de/2014-03-27.Binaergewitter.Talk.89.m4a
+  opus: https://download.binaergewitter.de/2014-03-27.Binaergewitter.Talk.89.opus
 ---
 
 ## Moderation

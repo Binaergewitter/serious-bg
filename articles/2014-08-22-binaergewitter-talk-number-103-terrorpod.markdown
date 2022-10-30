@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2014-08-21.Binaergewitter.Talk.103.mp3
-  ogg: http://download.binaergewitter.de/2014-08-21.Binaergewitter.Talk.103.ogg
-  m4a: http://download.binaergewitter.de/2014-08-21.Binaergewitter.Talk.103.m4a
-  opus: http://download.binaergewitter.de/2014-08-21.Binaergewitter.Talk.103.opus
+  mp3: https://download.binaergewitter.de/2014-08-21.Binaergewitter.Talk.103.mp3
+  ogg: https://download.binaergewitter.de/2014-08-21.Binaergewitter.Talk.103.ogg
+  m4a: https://download.binaergewitter.de/2014-08-21.Binaergewitter.Talk.103.m4a
+  opus: https://download.binaergewitter.de/2014-08-21.Binaergewitter.Talk.103.opus
 ---
 Nach 14-Tagen melden wir uns wieder zurück. Ohne Pfleidi aber dafür mit Canvas Fingerprinting als Thema, Zeitreisen ins Jahr 2038 und anderen spannenden News.
 

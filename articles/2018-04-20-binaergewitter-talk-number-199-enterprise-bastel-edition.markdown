@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2018-04-19.Binaergewitter.Talk.199.mp3
-  ogg: http://download.binaergewitter.de/2018-04-19.Binaergewitter.Talk.199.ogg
-  m4a: http://download.binaergewitter.de/2018-04-19.Binaergewitter.Talk.199.m4a
-  opus: http://download.binaergewitter.de/2018-04-19.Binaergewitter.Talk.199.opus
+  mp3: https://download.binaergewitter.de/2018-04-19.Binaergewitter.Talk.199.mp3
+  ogg: https://download.binaergewitter.de/2018-04-19.Binaergewitter.Talk.199.ogg
+  m4a: https://download.binaergewitter.de/2018-04-19.Binaergewitter.Talk.199.m4a
+  opus: https://download.binaergewitter.de/2018-04-19.Binaergewitter.Talk.199.opus
 ---
 Wir machen das mit dem Audio ja zum ersten Mal. Jedenfalls fühlt es sich auch nach 199 Ausgaben so an. Diesmal ein Setup das leider zu Hall geführt hat. Wir
 bitten das zu entschuldigen. Nächstes mal wieder ohne Hall. Versprochen.

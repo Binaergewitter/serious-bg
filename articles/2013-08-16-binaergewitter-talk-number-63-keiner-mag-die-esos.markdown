@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2013-08-15.Binaergewitter.Talk.63.mp3
-  ogg: http://download.binaergewitter.de/2013-08-15.Binaergewitter.Talk.63.ogg
-  m4a: http://download.binaergewitter.de/2013-08-15.Binaergewitter.Talk.63.m4a
-  opus: http://download.binaergewitter.de/2013-08-15.Binaergewitter.Talk.63.opus
+  mp3: https://download.binaergewitter.de/2013-08-15.Binaergewitter.Talk.63.mp3
+  ogg: https://download.binaergewitter.de/2013-08-15.Binaergewitter.Talk.63.ogg
+  m4a: https://download.binaergewitter.de/2013-08-15.Binaergewitter.Talk.63.m4a
+  opus: https://download.binaergewitter.de/2013-08-15.Binaergewitter.Talk.63.opus
 ---
 Gut dass Ingo diesmal wieder dabei ware sonst hättet ihr den Atompodcast hören müssen, so geht es aber in gewohnt unlustigerweise über Mail made in Germany, über das Beenden von Dingen und Schildkröten
 und jeder Menge Techniknews.

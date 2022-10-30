@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2019-12-28.Binaergewitter.Talk.245.mp3
-  ogg: http://download.binaergewitter.de/2019-12-28.Binaergewitter.Talk.245.ogg
-  m4a: http://download.binaergewitter.de/2019-12-28.Binaergewitter.Talk.245.m4a
-  opus: http://download.binaergewitter.de/2019-12-28.Binaergewitter.Talk.245.opus
+  mp3: https://download.binaergewitter.de/2019-12-28.Binaergewitter.Talk.245.mp3
+  ogg: https://download.binaergewitter.de/2019-12-28.Binaergewitter.Talk.245.ogg
+  m4a: https://download.binaergewitter.de/2019-12-28.Binaergewitter.Talk.245.m4a
+  opus: https://download.binaergewitter.de/2019-12-28.Binaergewitter.Talk.245.opus
 ---
 Live vom #36c3 aus dem Sendezentrum. Wir sind in Leipzig und reden über den Congress und die IT Dinge in unserem Leben.
 

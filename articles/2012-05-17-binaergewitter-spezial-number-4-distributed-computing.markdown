@@ -6,8 +6,8 @@ comments: true
 categories: spezial
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2012-05-17.Binaergewitter.Spezial.4.mp3
-  ogg: http://download.binaergewitter.de/2012-05-17.Binaergewitter.Spezial.4.ogg
+  mp3: https://download.binaergewitter.de/2012-05-17.Binaergewitter.Spezial.4.mp3
+  ogg: https://download.binaergewitter.de/2012-05-17.Binaergewitter.Spezial.4.ogg
 ---
 BOINC gibt es zwar schon lange und es wird immer noch viel benutzt. Felix und Ingo sprechen mit Torbjörn und Andreas über den Rechenkraft.net e.V., Distributed Computing, BOINC, Einsatzszenarien und
 Alternativen zu BOINC.

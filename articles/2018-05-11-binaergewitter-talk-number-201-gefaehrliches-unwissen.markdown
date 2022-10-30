@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2018-05-10.Binaergewitter.Talk.201.mp3
-  ogg: http://download.binaergewitter.de/2018-05-10.Binaergewitter.Talk.201.ogg
-  m4a: http://download.binaergewitter.de/2018-05-10.Binaergewitter.Talk.201.m4a
-  opus: http://download.binaergewitter.de/2018-05-10.Binaergewitter.Talk.201.opus
+  mp3: https://download.binaergewitter.de/2018-05-10.Binaergewitter.Talk.201.mp3
+  ogg: https://download.binaergewitter.de/2018-05-10.Binaergewitter.Talk.201.ogg
+  m4a: https://download.binaergewitter.de/2018-05-10.Binaergewitter.Talk.201.m4a
+  opus: https://download.binaergewitter.de/2018-05-10.Binaergewitter.Talk.201.opus
 ---
 Wieder gibt es etwas zu feiern. Diesmal Vatertag und Felix, Felix und Ingo sind gut dabei wie man auf Twitter und Co sehen konnte.
 

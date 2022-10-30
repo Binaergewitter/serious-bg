@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2019-01-18.Binaergewitter.Talk.221.mp3
-  ogg: http://download.binaergewitter.de/2019-01-18.Binaergewitter.Talk.221.ogg
-  m4a: http://download.binaergewitter.de/2019-01-18.Binaergewitter.Talk.221.m4a
-  opus: http://download.binaergewitter.de/2019-01-18.Binaergewitter.Talk.221.opus
+  mp3: https://download.binaergewitter.de/2019-01-18.Binaergewitter.Talk.221.mp3
+  ogg: https://download.binaergewitter.de/2019-01-18.Binaergewitter.Talk.221.ogg
+  m4a: https://download.binaergewitter.de/2019-01-18.Binaergewitter.Talk.221.m4a
+  opus: https://download.binaergewitter.de/2019-01-18.Binaergewitter.Talk.221.opus
 ---
 Und weiter gehts mit der zweiten Sendung in 2019. Ohne unseren ZFSler müssen wir über ZFS on Linux herziehen und besprechen die neuen Leaks...
 Mit Felix, Ingo und Markus.

@@ -5,12 +5,12 @@ date: 2013-07-12 10:45
 comments: true
 categories: talk
 sharing: true
-chapters: http://download.binaergewitter.de/2013-07-04.Binaergewitter.Talk.58.chapters.txt
+chapters: https://download.binaergewitter.de/2013-07-04.Binaergewitter.Talk.58.chapters.txt
 audioformats:
-  mp3: http://download.binaergewitter.de/2013-07-11.Binaergewitter.Talk.58.mp3
-  ogg: http://download.binaergewitter.de/2013-07-11.Binaergewitter.Talk.58.ogg
-  m4a: http://download.binaergewitter.de/2013-07-11.Binaergewitter.Talk.58.m4a
-  opus: http://download.binaergewitter.de/2013-07-11.Binaergewitter.Talk.58.opus
+  mp3: https://download.binaergewitter.de/2013-07-11.Binaergewitter.Talk.58.mp3
+  ogg: https://download.binaergewitter.de/2013-07-11.Binaergewitter.Talk.58.ogg
+  m4a: https://download.binaergewitter.de/2013-07-11.Binaergewitter.Talk.58.m4a
+  opus: https://download.binaergewitter.de/2013-07-11.Binaergewitter.Talk.58.opus
 ---
 Mit Pfleidi, Felix und Ingo und auch gar nicht so lang aber wieder dumm, unlustig und geschmacklos.
 

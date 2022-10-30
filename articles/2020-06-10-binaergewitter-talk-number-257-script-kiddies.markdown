@@ -6,12 +6,12 @@ comments: true
 categories: talk
 sharing: true
 published: true
-chapters: http://download.binaergewitter.de/2020-06-09.Binaergewitter.Talk.257.chapters.txt
+chapters: https://download.binaergewitter.de/2020-06-09.Binaergewitter.Talk.257.chapters.txt
 audioformats:
-  mp3: http://download.binaergewitter.de/2020-06-09.Binaergewitter.Talk.257.mp3
-  ogg: http://download.binaergewitter.de/2020-06-09.Binaergewitter.Talk.257.ogg
-  m4a: http://download.binaergewitter.de/2020-06-09.Binaergewitter.Talk.257.m4a
-  opus: http://download.binaergewitter.de/2020-06-09.Binaergewitter.Talk.257.opus
+  mp3: https://download.binaergewitter.de/2020-06-09.Binaergewitter.Talk.257.mp3
+  ogg: https://download.binaergewitter.de/2020-06-09.Binaergewitter.Talk.257.ogg
+  m4a: https://download.binaergewitter.de/2020-06-09.Binaergewitter.Talk.257.m4a
+  opus: https://download.binaergewitter.de/2020-06-09.Binaergewitter.Talk.257.opus
 ---
 Nur zu zweit und trotzdem nicht so kurz. l33tname und Ingo präsentieren euch die aktuelle Ausgabe.
 

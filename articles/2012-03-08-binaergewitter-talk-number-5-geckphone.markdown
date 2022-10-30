@@ -6,8 +6,8 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2012-03-07.Binaergewitter.Talk.5.mp3
-  ogg: http://download.binaergewitter.de/2012-03-07.Binaergewitter.Talk.5.ogg
+  mp3: https://download.binaergewitter.de/2012-03-07.Binaergewitter.Talk.5.mp3
+  ogg: https://download.binaergewitter.de/2012-03-07.Binaergewitter.Talk.5.ogg
 ---
 Wegen Head-Crash ohne die Computergenerierte Stimme Ingo. Aber mit [pfleidi](http://twitter.com/pfleidi), der die Moderation übernommen hat und sowie [Marc](http://twitter.com/rb2k) und [felix](http://twitter.com/makefoo).
 

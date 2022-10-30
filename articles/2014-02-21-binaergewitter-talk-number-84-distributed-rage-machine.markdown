@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2014-02-20.Binaergewitter.Talk.84.mp3
-  ogg: http://download.binaergewitter.de/2014-02-20.Binaergewitter.Talk.84.ogg
-  m4a: http://download.binaergewitter.de/2014-02-20.Binaergewitter.Talk.84.m4a
-  opus: http://download.binaergewitter.de/2014-02-20.Binaergewitter.Talk.84.opus
+  mp3: https://download.binaergewitter.de/2014-02-20.Binaergewitter.Talk.84.mp3
+  ogg: https://download.binaergewitter.de/2014-02-20.Binaergewitter.Talk.84.ogg
+  m4a: https://download.binaergewitter.de/2014-02-20.Binaergewitter.Talk.84.m4a
+  opus: https://download.binaergewitter.de/2014-02-20.Binaergewitter.Talk.84.opus
 ---
 Diese Woche rage und heulen sich pfleidi und Felix glücklich.
 

@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2018-03-22.Binaergewitter.Talk.195.mp3
-  ogg: http://download.binaergewitter.de/2018-03-22.Binaergewitter.Talk.195.ogg
-  m4a: http://download.binaergewitter.de/2018-03-22.Binaergewitter.Talk.195.m4a
-  opus: http://download.binaergewitter.de/2018-03-22.Binaergewitter.Talk.195.opus
+  mp3: https://download.binaergewitter.de/2018-03-22.Binaergewitter.Talk.195.mp3
+  ogg: https://download.binaergewitter.de/2018-03-22.Binaergewitter.Talk.195.ogg
+  m4a: https://download.binaergewitter.de/2018-03-22.Binaergewitter.Talk.195.m4a
+  opus: https://download.binaergewitter.de/2018-03-22.Binaergewitter.Talk.195.opus
 ---
 Kurzzeitig zu Viert bis uns der L33tname wegen Verbindungsproblemen verlassen musste. Das ist ein Prerelease da es zuviele Audiospuren gibt und es lange dauert
 das zu bereinigen. Daher hier der Streamdump der etwas schlechtere Qualität hat als normal. SORRY.

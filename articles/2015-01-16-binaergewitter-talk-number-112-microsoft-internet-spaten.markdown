@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2015-01-15.Binaergewitter.Talk.112.mp3
-  ogg: http://download.binaergewitter.de/2015-01-15.Binaergewitter.Talk.112.ogg
-  m4a: http://download.binaergewitter.de/2015-01-15.Binaergewitter.Talk.112.m4a
-  opus: http://download.binaergewitter.de/2015-01-15.Binaergewitter.Talk.112.opus
+  mp3: https://download.binaergewitter.de/2015-01-15.Binaergewitter.Talk.112.mp3
+  ogg: https://download.binaergewitter.de/2015-01-15.Binaergewitter.Talk.112.ogg
+  m4a: https://download.binaergewitter.de/2015-01-15.Binaergewitter.Talk.112.m4a
+  opus: https://download.binaergewitter.de/2015-01-15.Binaergewitter.Talk.112.opus
 ---
 Wir begrüßen euch im Jahr 2015. Der Zukunft oder so. Jedenfalls wird es das Jahr von Tizen und unsere Compliance Lampe geht schon am Anfang der Sendung auf Rot. Mat, Felix und Ingo machen den Abgesang auf den Internet Explorer, reden über Smarte TVs und den 31C3.
 

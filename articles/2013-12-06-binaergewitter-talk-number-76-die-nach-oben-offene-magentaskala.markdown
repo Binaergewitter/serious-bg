@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2013-12-05.Binaergewitter.Talk.76.mp3
-  ogg: http://download.binaergewitter.de/2013-12-05.Binaergewitter.Talk.76.ogg
-  m4a: http://download.binaergewitter.de/2013-12-05.Binaergewitter.Talk.76.m4a
-  opus: http://download.binaergewitter.de/2013-12-05.Binaergewitter.Talk.76.opus
+  mp3: https://download.binaergewitter.de/2013-12-05.Binaergewitter.Talk.76.mp3
+  ogg: https://download.binaergewitter.de/2013-12-05.Binaergewitter.Talk.76.ogg
+  m4a: https://download.binaergewitter.de/2013-12-05.Binaergewitter.Talk.76.m4a
+  opus: https://download.binaergewitter.de/2013-12-05.Binaergewitter.Talk.76.opus
 ---
 Mat, pfleidi und Ingo auf Tour durch die News der letzten Woche und viel Lesefoo.
 

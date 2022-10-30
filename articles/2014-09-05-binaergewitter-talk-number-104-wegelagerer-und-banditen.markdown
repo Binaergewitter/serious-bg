@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 release: 2
 audioformats:
-  mp3: http://download.binaergewitter.de/2014-09-04.Binaergewitter.Talk.104.mp3
-  ogg: http://download.binaergewitter.de/2014-09-04.Binaergewitter.Talk.104.ogg
-  m4a: http://download.binaergewitter.de/2014-09-04.Binaergewitter.Talk.104.m4a
-  opus: http://download.binaergewitter.de/2014-09-04.Binaergewitter.Talk.104.opus
+  mp3: https://download.binaergewitter.de/2014-09-04.Binaergewitter.Talk.104.mp3
+  ogg: https://download.binaergewitter.de/2014-09-04.Binaergewitter.Talk.104.ogg
+  m4a: https://download.binaergewitter.de/2014-09-04.Binaergewitter.Talk.104.m4a
+  opus: https://download.binaergewitter.de/2014-09-04.Binaergewitter.Talk.104.opus
 ---
 pfleidi, Felix und Ingo quatschen so lange dass sie gar keine Zeit mehr für die eigentlichen Themen haben. Macht nix. Aufgeschoben ist ja nicht aufgehoben. Dafür ragen wir noch mal über SSL, Medienkonsum und Webinterfaces von Providern.
 

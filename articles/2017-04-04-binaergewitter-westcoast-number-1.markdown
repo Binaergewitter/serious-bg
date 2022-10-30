@@ -7,10 +7,10 @@ categories: westcoast
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2017-04-03.Binaergewitter.Westcoast.1.mp3
-  ogg: http://download.binaergewitter.de/2017-04-03.Binaergewitter.Westcoast.1.ogg
-  m4a: http://download.binaergewitter.de/2017-04-03.Binaergewitter.Westcoast.1.m4a
-  opus: http://download.binaergewitter.de/2017-04-03.Binaergewitter.Westcoast.1.opus
+  mp3: https://download.binaergewitter.de/2017-04-03.Binaergewitter.Westcoast.1.mp3
+  ogg: https://download.binaergewitter.de/2017-04-03.Binaergewitter.Westcoast.1.ogg
+  m4a: https://download.binaergewitter.de/2017-04-03.Binaergewitter.Westcoast.1.m4a
+  opus: https://download.binaergewitter.de/2017-04-03.Binaergewitter.Westcoast.1.opus
 ---
 Pfleidi und Marc haben sich mal zusammen gesetzt und eine Westcoast Edition aufgenommen.
 

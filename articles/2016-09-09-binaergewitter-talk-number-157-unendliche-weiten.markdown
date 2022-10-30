@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2016-09-08.Binaergewitter.Talk.157.mp3
-  ogg: http://download.binaergewitter.de/2016-09-08.Binaergewitter.Talk.157.ogg
-  m4a: http://download.binaergewitter.de/2016-09-08.Binaergewitter.Talk.157.m4a
-  opus: http://download.binaergewitter.de/2016-09-08.Binaergewitter.Talk.157.opus
+  mp3: https://download.binaergewitter.de/2016-09-08.Binaergewitter.Talk.157.mp3
+  ogg: https://download.binaergewitter.de/2016-09-08.Binaergewitter.Talk.157.ogg
+  m4a: https://download.binaergewitter.de/2016-09-08.Binaergewitter.Talk.157.m4a
+  opus: https://download.binaergewitter.de/2016-09-08.Binaergewitter.Talk.157.opus
 ---
 Felix hat die Aufnahme leider verpasst und so begeben sich nur Markus und Ingo auf die Reise in die unendlichen Weiten des Internets, dorthin wo noch nie ein Podcast gewesen ist... oder so ähnlich.
 

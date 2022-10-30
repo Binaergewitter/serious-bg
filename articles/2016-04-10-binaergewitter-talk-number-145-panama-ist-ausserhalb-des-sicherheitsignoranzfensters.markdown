@@ -8,10 +8,10 @@ sharing: true
 published: true
 release: 2
 audioformats:
-  mp3: http://download.binaergewitter.de/2016-04-07.Binaergewitter.Talk.145.mp3
-  ogg: http://download.binaergewitter.de/2016-04-07.Binaergewitter.Talk.145.ogg
-  m4a: http://download.binaergewitter.de/2016-04-07.Binaergewitter.Talk.145.m4a
-  opus: http://download.binaergewitter.de/2016-04-07.Binaergewitter.Talk.145.opus
+  mp3: https://download.binaergewitter.de/2016-04-07.Binaergewitter.Talk.145.mp3
+  ogg: https://download.binaergewitter.de/2016-04-07.Binaergewitter.Talk.145.ogg
+  m4a: https://download.binaergewitter.de/2016-04-07.Binaergewitter.Talk.145.m4a
+  opus: https://download.binaergewitter.de/2016-04-07.Binaergewitter.Talk.145.opus
 ---
 Selbst mit dem normalen Studio kann einem die Aufnahme um die Ohren fliegen. Nämlich wenn der Pfleidi seine Spur vom internen Micro aufzeichnet und der Backup Mix Down überschrieben wird weil die Internetverbindung kurz weg war.
 Trotz der diesmal schlechteren Audioqualität bieten wir knapp 4 Stunden beste unterhaltung mit Felix, Mat, Pfleidi und Ingo.

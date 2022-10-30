@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 release: 2
 audioformats:
-  mp3: http://download.binaergewitter.de/2013-04-04.Binaergewitter.Talk.47.mp3
-  ogg: http://download.binaergewitter.de/2013-04-04.Binaergewitter.Talk.47.ogg
-  m4a: http://download.binaergewitter.de/2013-04-04.Binaergewitter.Talk.47.m4a
-  opus: http://download.binaergewitter.de/2013-04-04.Binaergewitter.Talk.47.opus
+  mp3: https://download.binaergewitter.de/2013-04-04.Binaergewitter.Talk.47.mp3
+  ogg: https://download.binaergewitter.de/2013-04-04.Binaergewitter.Talk.47.ogg
+  m4a: https://download.binaergewitter.de/2013-04-04.Binaergewitter.Talk.47.m4a
+  opus: https://download.binaergewitter.de/2013-04-04.Binaergewitter.Talk.47.opus
 ---
 Ostern ist vorbei. Binärgewitter ist wieder da und das in vollzähliger Stammbesetzung. Heiß her gehts diesmal über den Sinn von Atomkraftwerken und über das vermessene Selbst....
 

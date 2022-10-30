@@ -6,12 +6,12 @@ comments: true
 categories: talk
 sharing: true
 published: true
-chapters: http://download.binaergewitter.de/2022-07-04.Binaergewitter.Talk.298.chapters.txt
+chapters: https://download.binaergewitter.de/2022-07-04.Binaergewitter.Talk.298.chapters.txt
 audioformats:
-  mp3: http://download.binaergewitter.de/2022-07-04.Binaergewitter.Talk.298.mp3
-  ogg: http://download.binaergewitter.de/2022-07-04.Binaergewitter.Talk.298.ogg
-  m4a: http://download.binaergewitter.de/2022-07-04.Binaergewitter.Talk.298.m4a
-  opus: http://download.binaergewitter.de/2022-07-04.Binaergewitter.Talk.298.opus
+  mp3: https://download.binaergewitter.de/2022-07-04.Binaergewitter.Talk.298.mp3
+  ogg: https://download.binaergewitter.de/2022-07-04.Binaergewitter.Talk.298.ogg
+  m4a: https://download.binaergewitter.de/2022-07-04.Binaergewitter.Talk.298.m4a
+  opus: https://download.binaergewitter.de/2022-07-04.Binaergewitter.Talk.298.opus
 ---
 Und ist heiß und den Netzwerk Komponenten auch, trotzdem senden Markus, Felix und Ingo für euch wieder Binärgewitter.
 

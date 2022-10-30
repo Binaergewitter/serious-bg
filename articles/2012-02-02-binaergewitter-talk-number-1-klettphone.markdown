@@ -6,8 +6,8 @@ comments: true
 sharing: true
 categories: talk
 audioformats:
-  mp3: http://download.binaergewitter.de/2012-02-01.Binaergewitter.Talk.1.mp3
-  ogg: http://download.binaergewitter.de/2012-02-01.Binaergewitter.Talk.1.ogg
+  mp3: https://download.binaergewitter.de/2012-02-01.Binaergewitter.Talk.1.mp3
+  ogg: https://download.binaergewitter.de/2012-02-01.Binaergewitter.Talk.1.ogg
 ---
 ## In eigener Sache
 - Octopod nun mit weniger Fehlern und mehr Awesomeness

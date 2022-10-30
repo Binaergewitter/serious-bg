@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2017-10-06.Binaergewitter.Talk.182.mp3
-  ogg: http://download.binaergewitter.de/2017-10-06.Binaergewitter.Talk.182.ogg
-  m4a: http://download.binaergewitter.de/2017-10-06.Binaergewitter.Talk.182.m4a
-  opus: http://download.binaergewitter.de/2017-10-06.Binaergewitter.Talk.182.opus
+  mp3: https://download.binaergewitter.de/2017-10-06.Binaergewitter.Talk.182.mp3
+  ogg: https://download.binaergewitter.de/2017-10-06.Binaergewitter.Talk.182.ogg
+  m4a: https://download.binaergewitter.de/2017-10-06.Binaergewitter.Talk.182.m4a
+  opus: https://download.binaergewitter.de/2017-10-06.Binaergewitter.Talk.182.opus
 ---
 Mal wieder zu viert und trotzdem Spaß dabei. Hier ist die Nummer 182.
 

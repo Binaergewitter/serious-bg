@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2016-05-27.Binaergewitter.Talk.148.mp3
-  ogg: http://download.binaergewitter.de/2016-05-27.Binaergewitter.Talk.148.ogg
-  m4a: http://download.binaergewitter.de/2016-05-27.Binaergewitter.Talk.148.m4a
-  opus: http://download.binaergewitter.de/2016-05-27.Binaergewitter.Talk.148.opus
+  mp3: https://download.binaergewitter.de/2016-05-27.Binaergewitter.Talk.148.mp3
+  ogg: https://download.binaergewitter.de/2016-05-27.Binaergewitter.Talk.148.ogg
+  m4a: https://download.binaergewitter.de/2016-05-27.Binaergewitter.Talk.148.m4a
+  opus: https://download.binaergewitter.de/2016-05-27.Binaergewitter.Talk.148.opus
 ---
 Mat war auf Konferenz Hopping und erzählt was es auf der Google IO Neues gab und wie die UIKonf war. Ingo regt sich dafür über Nokia auf.
 

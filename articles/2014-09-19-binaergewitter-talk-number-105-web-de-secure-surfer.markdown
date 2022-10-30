@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2014-09-18.Binaergewitter.Talk.105.mp3
-  ogg: http://download.binaergewitter.de/2014-09-18.Binaergewitter.Talk.105.ogg
-  m4a: http://download.binaergewitter.de/2014-09-18.Binaergewitter.Talk.105.m4a
-  opus: http://download.binaergewitter.de/2014-09-18.Binaergewitter.Talk.105.opus
+  mp3: https://download.binaergewitter.de/2014-09-18.Binaergewitter.Talk.105.mp3
+  ogg: https://download.binaergewitter.de/2014-09-18.Binaergewitter.Talk.105.ogg
+  m4a: https://download.binaergewitter.de/2014-09-18.Binaergewitter.Talk.105.m4a
+  opus: https://download.binaergewitter.de/2014-09-18.Binaergewitter.Talk.105.opus
 ---
 Mat, Felix und Ingo reden diesmal vorallem über Sidechannel Attacks, DNSSec, Mailpile und warum U2, BtrFS sowie FreeNAS blöd sind.
 

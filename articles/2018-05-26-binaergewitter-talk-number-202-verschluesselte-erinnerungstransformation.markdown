@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2018-05-24.Binaergewitter.Talk.202.mp3
-  ogg: http://download.binaergewitter.de/2018-05-24.Binaergewitter.Talk.202.ogg
-  m4a: http://download.binaergewitter.de/2018-05-24.Binaergewitter.Talk.202.m4a
-  opus: http://download.binaergewitter.de/2018-05-24.Binaergewitter.Talk.202.opus
+  mp3: https://download.binaergewitter.de/2018-05-24.Binaergewitter.Talk.202.mp3
+  ogg: https://download.binaergewitter.de/2018-05-24.Binaergewitter.Talk.202.ogg
+  m4a: https://download.binaergewitter.de/2018-05-24.Binaergewitter.Talk.202.m4a
+  opus: https://download.binaergewitter.de/2018-05-24.Binaergewitter.Talk.202.opus
 ---
 - [We've updated our Privacy Policy](http://pbs.twimg.com/media/Dd43mBlV4AEBeP1.jpg:large)
 

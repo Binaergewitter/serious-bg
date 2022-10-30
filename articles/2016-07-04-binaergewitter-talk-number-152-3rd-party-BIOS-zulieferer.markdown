@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2016-06-04.Binaergewitter.Talk.152.mp3
-  ogg: http://download.binaergewitter.de/2016-06-04.Binaergewitter.Talk.152.ogg
-  m4a: http://download.binaergewitter.de/2016-06-04.Binaergewitter.Talk.152.m4a
-  opus: http://download.binaergewitter.de/2016-06-04.Binaergewitter.Talk.152.opus
+  mp3: https://download.binaergewitter.de/2016-06-04.Binaergewitter.Talk.152.mp3
+  ogg: https://download.binaergewitter.de/2016-06-04.Binaergewitter.Talk.152.ogg
+  m4a: https://download.binaergewitter.de/2016-06-04.Binaergewitter.Talk.152.m4a
+  opus: https://download.binaergewitter.de/2016-06-04.Binaergewitter.Talk.152.opus
 ---
 After Brexit Show mit Marc, Felix und Ingo.
 

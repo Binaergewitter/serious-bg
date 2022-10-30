@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2019-05-01.Binaergewitter.Talk.229.mp3
-  ogg: http://download.binaergewitter.de/2019-05-01.Binaergewitter.Talk.229.ogg
-  m4a: http://download.binaergewitter.de/2019-05-01.Binaergewitter.Talk.229.m4a
-  opus: http://download.binaergewitter.de/2019-05-01.Binaergewitter.Talk.229.opus
+  mp3: https://download.binaergewitter.de/2019-05-01.Binaergewitter.Talk.229.mp3
+  ogg: https://download.binaergewitter.de/2019-05-01.Binaergewitter.Talk.229.ogg
+  m4a: https://download.binaergewitter.de/2019-05-01.Binaergewitter.Talk.229.m4a
+  opus: https://download.binaergewitter.de/2019-05-01.Binaergewitter.Talk.229.opus
 ---
 ## Untoter der Woche
 - [MS Paint](https://arstechnica.com/?p=1495025)

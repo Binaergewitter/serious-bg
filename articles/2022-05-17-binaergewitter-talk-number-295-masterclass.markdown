@@ -6,12 +6,12 @@ comments: true
 categories: talk
 sharing: true
 published: true
-chapters: http://download.binaergewitter.de/2022-05-16.Binaergewitter.Talk.295.chapters.txt
+chapters: https://download.binaergewitter.de/2022-05-16.Binaergewitter.Talk.295.chapters.txt
 audioformats:
-  mp3: http://download.binaergewitter.de/2022-05-16.Binaergewitter.Talk.295.mp3
-  ogg: http://download.binaergewitter.de/2022-05-16.Binaergewitter.Talk.295.ogg
-  m4a: http://download.binaergewitter.de/2022-05-16.Binaergewitter.Talk.295.m4a
-  opus: http://download.binaergewitter.de/2022-05-16.Binaergewitter.Talk.295.opus
+  mp3: https://download.binaergewitter.de/2022-05-16.Binaergewitter.Talk.295.mp3
+  ogg: https://download.binaergewitter.de/2022-05-16.Binaergewitter.Talk.295.ogg
+  m4a: https://download.binaergewitter.de/2022-05-16.Binaergewitter.Talk.295.m4a
+  opus: https://download.binaergewitter.de/2022-05-16.Binaergewitter.Talk.295.opus
 ---
 
 Leider etwas übersteuerter Ingo, aber l33tname hat viele Anschaubefehle und Felix freut sich über dein Revival des 3D Movie Maker.

@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2013-12-12.Binaergewitter.Talk.77.mp3
-  ogg: http://download.binaergewitter.de/2013-12-12.Binaergewitter.Talk.77.ogg
-  m4a: http://download.binaergewitter.de/2013-12-12.Binaergewitter.Talk.77.m4a
-  opus: http://download.binaergewitter.de/2013-12-12.Binaergewitter.Talk.77.opus
+  mp3: https://download.binaergewitter.de/2013-12-12.Binaergewitter.Talk.77.mp3
+  ogg: https://download.binaergewitter.de/2013-12-12.Binaergewitter.Talk.77.ogg
+  m4a: https://download.binaergewitter.de/2013-12-12.Binaergewitter.Talk.77.m4a
+  opus: https://download.binaergewitter.de/2013-12-12.Binaergewitter.Talk.77.opus
 ---
 Full House bzw. Full Mumble. Denn Marc und unser Physik-Experte Marcel waren uns per VoIP zugeschaltet. Glückseelig Kekse futternd geht es durch die News der letzten Woche und um die Post.
 

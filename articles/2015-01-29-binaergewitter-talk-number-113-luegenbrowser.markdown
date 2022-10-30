@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2015-01-28.Binaergewitter.Talk.113.mp3
-  ogg: http://download.binaergewitter.de/2015-01-28.Binaergewitter.Talk.113.ogg
-  m4a: http://download.binaergewitter.de/2015-01-28.Binaergewitter.Talk.113.m4a
-  opus: http://download.binaergewitter.de/2015-01-28.Binaergewitter.Talk.113.opus
+  mp3: https://download.binaergewitter.de/2015-01-28.Binaergewitter.Talk.113.mp3
+  ogg: https://download.binaergewitter.de/2015-01-28.Binaergewitter.Talk.113.ogg
+  m4a: https://download.binaergewitter.de/2015-01-28.Binaergewitter.Talk.113.m4a
+  opus: https://download.binaergewitter.de/2015-01-28.Binaergewitter.Talk.113.opus
 ---
 Etwas außer der Reihe treffen sich Mat und Felix zum Stelldichein.
 

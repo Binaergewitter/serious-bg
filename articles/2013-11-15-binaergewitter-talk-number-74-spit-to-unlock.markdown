@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2013-11-14.Binaergewitter.Talk.74.mp3
-  ogg: http://download.binaergewitter.de/2013-11-14.Binaergewitter.Talk.74.ogg
-  m4a: http://download.binaergewitter.de/2013-11-14.Binaergewitter.Talk.74.m4a
-  opus: http://download.binaergewitter.de/2013-11-14.Binaergewitter.Talk.74.opus
+  mp3: https://download.binaergewitter.de/2013-11-14.Binaergewitter.Talk.74.mp3
+  ogg: https://download.binaergewitter.de/2013-11-14.Binaergewitter.Talk.74.ogg
+  m4a: https://download.binaergewitter.de/2013-11-14.Binaergewitter.Talk.74.m4a
+  opus: https://download.binaergewitter.de/2013-11-14.Binaergewitter.Talk.74.opus
 ---
 Diesmal sogar zu fünft, denn Mat verstärkt uns und daher seit langem auch mal wieder über 3 Stunden Content über viel Java, JavaScript, Smartphone und warum man JSON mit XML verheiraten will.
 

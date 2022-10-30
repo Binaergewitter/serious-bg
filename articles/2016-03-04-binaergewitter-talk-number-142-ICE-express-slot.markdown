@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2016-03-03.Binaergewitter.Talk.142.mp3
-  ogg: http://download.binaergewitter.de/2016-03-03.Binaergewitter.Talk.142.ogg
-  m4a: http://download.binaergewitter.de/2016-03-03.Binaergewitter.Talk.142.m4a
-  opus: http://download.binaergewitter.de/2016-03-03.Binaergewitter.Talk.142.opus
+  mp3: https://download.binaergewitter.de/2016-03-03.Binaergewitter.Talk.142.mp3
+  ogg: https://download.binaergewitter.de/2016-03-03.Binaergewitter.Talk.142.ogg
+  m4a: https://download.binaergewitter.de/2016-03-03.Binaergewitter.Talk.142.m4a
+  opus: https://download.binaergewitter.de/2016-03-03.Binaergewitter.Talk.142.opus
 ---
 
 So alle wieder gesund und Mat ist aus den USA zurück daher hier die 142 Ausgabe unserer unlustigen Show.

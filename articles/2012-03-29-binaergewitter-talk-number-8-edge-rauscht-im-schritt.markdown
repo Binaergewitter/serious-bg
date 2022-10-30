@@ -6,8 +6,8 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2012-03-28.Binaergewitter.Talk.8.mp3
-  ogg: http://download.binaergewitter.de/2012-03-28.Binaergewitter.Talk.8.ogg
+  mp3: https://download.binaergewitter.de/2012-03-28.Binaergewitter.Talk.8.mp3
+  ogg: https://download.binaergewitter.de/2012-03-28.Binaergewitter.Talk.8.ogg
 ---
 Vollbesetzt rauschen wir durch die Wasserleitung, bringen alles über IP und qutaschen über Webprojekte.
 

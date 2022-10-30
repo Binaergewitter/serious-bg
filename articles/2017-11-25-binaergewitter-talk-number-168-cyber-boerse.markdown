@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2017-11-22.Binaergewitter.Talk.186.mp3
-  ogg: http://download.binaergewitter.de/2017-11-22.Binaergewitter.Talk.186.ogg
-  m4a: http://download.binaergewitter.de/2017-11-22.Binaergewitter.Talk.186.m4a
-  opus: http://download.binaergewitter.de/2017-11-22.Binaergewitter.Talk.186.opus
+  mp3: https://download.binaergewitter.de/2017-11-22.Binaergewitter.Talk.186.mp3
+  ogg: https://download.binaergewitter.de/2017-11-22.Binaergewitter.Talk.186.ogg
+  m4a: https://download.binaergewitter.de/2017-11-22.Binaergewitter.Talk.186.m4a
+  opus: https://download.binaergewitter.de/2017-11-22.Binaergewitter.Talk.186.opus
 ---
 Markus, Felix und Ingo reden über ICOs, Coins und es gibt Spieletipps.
 

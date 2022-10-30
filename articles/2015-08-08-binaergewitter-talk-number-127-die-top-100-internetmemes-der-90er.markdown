@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2015-08-06.Binaergewitter.Talk.127.mp3
-  ogg: http://download.binaergewitter.de/2015-08-06.Binaergewitter.Talk.127.ogg
-  m4a: http://download.binaergewitter.de/2015-08-06.Binaergewitter.Talk.127.m4a
-  opus: http://download.binaergewitter.de/2015-08-06.Binaergewitter.Talk.127.opus
+  mp3: https://download.binaergewitter.de/2015-08-06.Binaergewitter.Talk.127.mp3
+  ogg: https://download.binaergewitter.de/2015-08-06.Binaergewitter.Talk.127.ogg
+  m4a: https://download.binaergewitter.de/2015-08-06.Binaergewitter.Talk.127.m4a
+  opus: https://download.binaergewitter.de/2015-08-06.Binaergewitter.Talk.127.opus
 ---
 Mal wieder mit Marc, der zum Urlaub in der Gegend ist. Leider ist uns mittendrin die Aufnahme abgestürzt und so fehlen ca. 10 Minuten der Sendung. We are sorry. Dafür gehts ums Bargeld und Marc hat einiges an Lesefoo gesammelt.
 

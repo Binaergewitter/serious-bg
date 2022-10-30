@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2014-10-09.Binaergewitter.Talk.106.mp3
-  ogg: http://download.binaergewitter.de/2014-10-09.Binaergewitter.Talk.106.ogg
-  m4a: http://download.binaergewitter.de/2014-10-09.Binaergewitter.Talk.106.m4a
-  opus: http://download.binaergewitter.de/2014-10-09.Binaergewitter.Talk.106.opus
+  mp3: https://download.binaergewitter.de/2014-10-09.Binaergewitter.Talk.106.mp3
+  ogg: https://download.binaergewitter.de/2014-10-09.Binaergewitter.Talk.106.ogg
+  m4a: https://download.binaergewitter.de/2014-10-09.Binaergewitter.Talk.106.m4a
+  opus: https://download.binaergewitter.de/2014-10-09.Binaergewitter.Talk.106.opus
 ---
 Mat und Felix treffen sich im Zwischenmodus um über Shellshock und Windows 10 zu quatschen.
 

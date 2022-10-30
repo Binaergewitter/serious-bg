@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2013-08-29.Binaergewitter.Talk.65.mp3
-  ogg: http://download.binaergewitter.de/2013-08-29.Binaergewitter.Talk.65.ogg
-  m4a: http://download.binaergewitter.de/2013-08-29.Binaergewitter.Talk.65.m4a
-  opus: http://download.binaergewitter.de/2013-08-29.Binaergewitter.Talk.65.opus
+  mp3: https://download.binaergewitter.de/2013-08-29.Binaergewitter.Talk.65.mp3
+  ogg: https://download.binaergewitter.de/2013-08-29.Binaergewitter.Talk.65.ogg
+  m4a: https://download.binaergewitter.de/2013-08-29.Binaergewitter.Talk.65.m4a
+  opus: https://download.binaergewitter.de/2013-08-29.Binaergewitter.Talk.65.opus
 ---
 Wir fordern die Atom Feeds abzuschalten und bereiten uns damit langsam auf die Bundestagswahl vor, aber natürlich gehts ansonsten wie immer unlustig durch die News der letzte Woche.
 

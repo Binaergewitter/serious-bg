@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2014-10-16.Binaergewitter.Talk.107.mp3
-  ogg: http://download.binaergewitter.de/2014-10-16.Binaergewitter.Talk.107.ogg
-  m4a: http://download.binaergewitter.de/2014-10-16.Binaergewitter.Talk.107.m4a
-  opus: http://download.binaergewitter.de/2014-10-16.Binaergewitter.Talk.107.opus
+  mp3: https://download.binaergewitter.de/2014-10-16.Binaergewitter.Talk.107.mp3
+  ogg: https://download.binaergewitter.de/2014-10-16.Binaergewitter.Talk.107.ogg
+  m4a: https://download.binaergewitter.de/2014-10-16.Binaergewitter.Talk.107.m4a
+  opus: https://download.binaergewitter.de/2014-10-16.Binaergewitter.Talk.107.opus
 ---
 Große Runde bei Binärgewitter mit Importen aus USA und Heidelberg. Es dreht sich um Konferenzen und mal wieder Sicherheitslücken.
 

@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2018-07-12.Binaergewitter.Talk.206.mp3
-  ogg: http://download.binaergewitter.de/2018-07-12.Binaergewitter.Talk.206.ogg
-  m4a: http://download.binaergewitter.de/2018-07-12.Binaergewitter.Talk.206.m4a
-  opus: http://download.binaergewitter.de/2018-07-12.Binaergewitter.Talk.206.opus
+  mp3: https://download.binaergewitter.de/2018-07-12.Binaergewitter.Talk.206.mp3
+  ogg: https://download.binaergewitter.de/2018-07-12.Binaergewitter.Talk.206.ogg
+  m4a: https://download.binaergewitter.de/2018-07-12.Binaergewitter.Talk.206.m4a
+  opus: https://download.binaergewitter.de/2018-07-12.Binaergewitter.Talk.206.opus
 ---
 Eine kurze Sendung vor unserer nicht vorhandenen Sommerpause. Allen eine frohe Ferienzeit. L33tname, Markus und Ingo quatschen über ein paar News und auch noch
 mal über Podcast-Clients. Zur Feier hat diese Sendung sogar ein paar wenige Kapitelmarken bekommen.

@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2018-11-23.Binaergewitter.Talk.216.mp3
-  ogg: http://download.binaergewitter.de/2018-11-23.Binaergewitter.Talk.216.ogg
-  m4a: http://download.binaergewitter.de/2018-11-23.Binaergewitter.Talk.216.m4a
-  opus: http://download.binaergewitter.de/2018-11-23.Binaergewitter.Talk.216.opus
+  mp3: https://download.binaergewitter.de/2018-11-23.Binaergewitter.Talk.216.mp3
+  ogg: https://download.binaergewitter.de/2018-11-23.Binaergewitter.Talk.216.ogg
+  m4a: https://download.binaergewitter.de/2018-11-23.Binaergewitter.Talk.216.m4a
+  opus: https://download.binaergewitter.de/2018-11-23.Binaergewitter.Talk.216.opus
 ---
 Diesmal sind wir nicht demimierend dafür wütend. Mit Felix² und Ingo.
 

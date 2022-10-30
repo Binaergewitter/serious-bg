@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2014-10-30.Binaergewitter.Talk.108.mp3
-  ogg: http://download.binaergewitter.de/2014-10-30.Binaergewitter.Talk.108.ogg
-  m4a: http://download.binaergewitter.de/2014-10-30.Binaergewitter.Talk.108.m4a
-  opus: http://download.binaergewitter.de/2014-10-30.Binaergewitter.Talk.108.opus
+  mp3: https://download.binaergewitter.de/2014-10-30.Binaergewitter.Talk.108.mp3
+  ogg: https://download.binaergewitter.de/2014-10-30.Binaergewitter.Talk.108.ogg
+  m4a: https://download.binaergewitter.de/2014-10-30.Binaergewitter.Talk.108.m4a
+  opus: https://download.binaergewitter.de/2014-10-30.Binaergewitter.Talk.108.opus
 ---
 Die fantastischen Vier quatschen diesmal über die Zukunft, MultiSIMs, glückliche Weihnachtsmänner und natürlich Systemd. Warum haben wir diesmal eigentlich Tizen vergessen zu erwähnen? tsts
 

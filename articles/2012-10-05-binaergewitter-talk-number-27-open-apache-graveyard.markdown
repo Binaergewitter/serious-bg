@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2012-10-04.Binaergewitter.Talk.27.mp3
-  ogg: http://download.binaergewitter.de/2012-10-04.Binaergewitter.Talk.27.ogg
-  m4a: http://download.binaergewitter.de/2012-10-04.Binaergewitter.Talk.27.m4a
-  opus: http://download.binaergewitter.de/2012-10-04.Binaergewitter.Talk.27.opus
+  mp3: https://download.binaergewitter.de/2012-10-04.Binaergewitter.Talk.27.mp3
+  ogg: https://download.binaergewitter.de/2012-10-04.Binaergewitter.Talk.27.ogg
+  m4a: https://download.binaergewitter.de/2012-10-04.Binaergewitter.Talk.27.m4a
+  opus: https://download.binaergewitter.de/2012-10-04.Binaergewitter.Talk.27.opus
 ---
 Seit langem mal wieder vollzählig, auch wenn Ingo immer noch oft rumhustet.
 

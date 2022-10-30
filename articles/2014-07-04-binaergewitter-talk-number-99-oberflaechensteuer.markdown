@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2014-07-03.Binaergewitter.Talk.99.mp3
-  ogg: http://download.binaergewitter.de/2014-07-03.Binaergewitter.Talk.99.ogg
-  m4a: http://download.binaergewitter.de/2014-07-03.Binaergewitter.Talk.99.m4a
-  opus: http://download.binaergewitter.de/2014-07-03.Binaergewitter.Talk.99.opus
+  mp3: https://download.binaergewitter.de/2014-07-03.Binaergewitter.Talk.99.mp3
+  ogg: https://download.binaergewitter.de/2014-07-03.Binaergewitter.Talk.99.ogg
+  m4a: https://download.binaergewitter.de/2014-07-03.Binaergewitter.Talk.99.m4a
+  opus: https://download.binaergewitter.de/2014-07-03.Binaergewitter.Talk.99.opus
 ---
 Mit vereinten Kräften geht es diesmal um Microsoft, Fusionen, Ausbeutung und Team Messaging. Natürlich haben wir auch Tizen im Programm aber hört doch selbst.
 

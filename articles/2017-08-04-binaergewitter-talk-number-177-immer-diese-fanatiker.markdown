@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2017-08-03.Binaergewitter.Talk.177.mp3
-  ogg: http://download.binaergewitter.de/2017-08-03.Binaergewitter.Talk.177.ogg
-  m4a: http://download.binaergewitter.de/2017-08-03.Binaergewitter.Talk.177.m4a
-  opus: http://download.binaergewitter.de/2017-08-03.Binaergewitter.Talk.177.opus
+  mp3: https://download.binaergewitter.de/2017-08-03.Binaergewitter.Talk.177.mp3
+  ogg: https://download.binaergewitter.de/2017-08-03.Binaergewitter.Talk.177.ogg
+  m4a: https://download.binaergewitter.de/2017-08-03.Binaergewitter.Talk.177.m4a
+  opus: https://download.binaergewitter.de/2017-08-03.Binaergewitter.Talk.177.opus
 ---
 Nach einer kurzen Sommerpause sind wir wieder da. Felix/Makefoo ist noch auf der SHA, aber L33tname, Markus und Ingo unterhalten sich über ZFS und Online
 Fotoverwaltung.

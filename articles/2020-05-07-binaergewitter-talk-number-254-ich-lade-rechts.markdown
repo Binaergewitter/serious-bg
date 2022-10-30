@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2020-05-06.Binaergewitter.Talk.254.mp3
-  ogg: http://download.binaergewitter.de/2020-05-06.Binaergewitter.Talk.254.ogg
-  m4a: http://download.binaergewitter.de/2020-05-06.Binaergewitter.Talk.254.m4a
-  opus: http://download.binaergewitter.de/2020-05-06.Binaergewitter.Talk.254.opus
+  mp3: https://download.binaergewitter.de/2020-05-06.Binaergewitter.Talk.254.mp3
+  ogg: https://download.binaergewitter.de/2020-05-06.Binaergewitter.Talk.254.ogg
+  m4a: https://download.binaergewitter.de/2020-05-06.Binaergewitter.Talk.254.m4a
+  opus: https://download.binaergewitter.de/2020-05-06.Binaergewitter.Talk.254.opus
 ---
 Noch einmal eine große Runde mit Felix², Markus und Ingo...
 

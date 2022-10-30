@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: false
 audioformats:
-  mp3: http://download.binaergewitter.de/2017-04-13.Binaergewitter.Talk.170.mp3
-  ogg: http://download.binaergewitter.de/2017-04-13.Binaergewitter.Talk.170.ogg
-  m4a: http://download.binaergewitter.de/2017-04-13.Binaergewitter.Talk.170.m4a
-  opus: http://download.binaergewitter.de/2017-04-13.Binaergewitter.Talk.170.opus
+  mp3: https://download.binaergewitter.de/2017-04-13.Binaergewitter.Talk.170.mp3
+  ogg: https://download.binaergewitter.de/2017-04-13.Binaergewitter.Talk.170.ogg
+  m4a: https://download.binaergewitter.de/2017-04-13.Binaergewitter.Talk.170.m4a
+  opus: https://download.binaergewitter.de/2017-04-13.Binaergewitter.Talk.170.opus
 ---
 Ostern 2017 und auch wir müssen über die Toten der Woche reden. Mit Felix, Felix und Ingo.
 

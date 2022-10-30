@@ -8,10 +8,10 @@ sharing: true
 published: true
 release: 2
 audioformats:
-  mp3: http://download.binaergewitter.de/2015-02-26.Binaergewitter.Talk.115.mp3
-  ogg: http://download.binaergewitter.de/2015-02-26.Binaergewitter.Talk.115.ogg
-  m4a: http://download.binaergewitter.de/2015-02-26.Binaergewitter.Talk.115.m4a
-  opus: http://download.binaergewitter.de/2015-02-26.Binaergewitter.Talk.115.opus
+  mp3: https://download.binaergewitter.de/2015-02-26.Binaergewitter.Talk.115.mp3
+  ogg: https://download.binaergewitter.de/2015-02-26.Binaergewitter.Talk.115.ogg
+  m4a: https://download.binaergewitter.de/2015-02-26.Binaergewitter.Talk.115.m4a
+  opus: https://download.binaergewitter.de/2015-02-26.Binaergewitter.Talk.115.opus
 ---
 Neuer Release der Sendung. Diesmal mit besserer Pfleidi Spur.
 In der Sendung gehts diesmal mit Felix, Pfleidi, Mat und Ingo gottsei dank nicht über die Hautfarbe der Emojis sondern um Superphish und Pfleidis Website Frontend Developer Erfahrungen.

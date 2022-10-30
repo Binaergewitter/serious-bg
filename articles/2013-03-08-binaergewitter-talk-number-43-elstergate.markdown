@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2013-03-07.Binaergewitter.Talk.43.mp3
-  ogg: http://download.binaergewitter.de/2013-03-07.Binaergewitter.Talk.43.ogg
-  m4a: http://download.binaergewitter.de/2013-03-07.Binaergewitter.Talk.43.m4a
-  opus: http://download.binaergewitter.de/2013-03-07.Binaergewitter.Talk.43.opus
+  mp3: https://download.binaergewitter.de/2013-03-07.Binaergewitter.Talk.43.mp3
+  ogg: https://download.binaergewitter.de/2013-03-07.Binaergewitter.Talk.43.ogg
+  m4a: https://download.binaergewitter.de/2013-03-07.Binaergewitter.Talk.43.m4a
+  opus: https://download.binaergewitter.de/2013-03-07.Binaergewitter.Talk.43.opus
 ---
 Wieder nur das dynamische Duo (toller Seitenhiep auf die Batman-Story ;)) bestehend aus Felix und Ingo. Dafür diese Woche mehr Linux, mehr Atombomben und weniger Web oder so...
 

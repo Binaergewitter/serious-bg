@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2016-10-20.Binaergewitter.Talk.158.mp3
-  ogg: http://download.binaergewitter.de/2016-10-20.Binaergewitter.Talk.158.ogg
-  m4a: http://download.binaergewitter.de/2016-10-20.Binaergewitter.Talk.158.m4a
-  opus: http://download.binaergewitter.de/2016-10-20.Binaergewitter.Talk.158.opus
+  mp3: https://download.binaergewitter.de/2016-10-20.Binaergewitter.Talk.158.mp3
+  ogg: https://download.binaergewitter.de/2016-10-20.Binaergewitter.Talk.158.ogg
+  m4a: https://download.binaergewitter.de/2016-10-20.Binaergewitter.Talk.158.m4a
+  opus: https://download.binaergewitter.de/2016-10-20.Binaergewitter.Talk.158.opus
 ---
 Wir sind wieder zurück. Zumindest in kleiner Runde. Viel was in den letzten Woche passiert ist wie Pixel Phones und Samsung Notes lassen wir weg, aber SSL Foo behandeln wir ausführlich.
 Mit dabei sind Felix und Ingo.

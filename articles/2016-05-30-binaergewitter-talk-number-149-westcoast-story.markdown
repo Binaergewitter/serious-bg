@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2016-05-29.Binaergewitter.Talk.149.mp3
-  ogg: http://download.binaergewitter.de/2016-05-29.Binaergewitter.Talk.149.ogg
-  m4a: http://download.binaergewitter.de/2016-05-29.Binaergewitter.Talk.149.m4a
-  opus: http://download.binaergewitter.de/2016-05-29.Binaergewitter.Talk.149.ogg
+  mp3: https://download.binaergewitter.de/2016-05-29.Binaergewitter.Talk.149.mp3
+  ogg: https://download.binaergewitter.de/2016-05-29.Binaergewitter.Talk.149.ogg
+  m4a: https://download.binaergewitter.de/2016-05-29.Binaergewitter.Talk.149.m4a
+  opus: https://download.binaergewitter.de/2016-05-29.Binaergewitter.Talk.149.ogg
 ---
 Wait? Schon wieder ne Sendung? Marc hat sich einen Kollegen geschnappt und Startet die Westcoast Edition.
 BGT Talk 149 von der Sonnenseite der Welt, mit [Thomas](https://github.com/tkadauke) und [Marc](http://twitter.com/rb2k)

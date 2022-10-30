@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2013-04-25.Binaergewitter.Talk.50.mp3
-  ogg: http://download.binaergewitter.de/2013-04-25.Binaergewitter.Talk.50.ogg
-  m4a: http://download.binaergewitter.de/2013-04-25.Binaergewitter.Talk.50.m4a
-  opus: http://download.binaergewitter.de/2013-04-25.Binaergewitter.Talk.50.opus
+  mp3: https://download.binaergewitter.de/2013-04-25.Binaergewitter.Talk.50.mp3
+  ogg: https://download.binaergewitter.de/2013-04-25.Binaergewitter.Talk.50.ogg
+  m4a: https://download.binaergewitter.de/2013-04-25.Binaergewitter.Talk.50.m4a
+  opus: https://download.binaergewitter.de/2013-04-25.Binaergewitter.Talk.50.opus
 ---
 Auch wir 4 reden natürlich über das was die Telekom da veranstaltet, aber auch über TOR, 64bit und andere Web und Open Source Themen. Hört rein :)
 

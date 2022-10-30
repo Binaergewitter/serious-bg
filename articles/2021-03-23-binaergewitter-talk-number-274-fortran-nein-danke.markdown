@@ -6,12 +6,12 @@ comments: true
 categories: talk
 sharing: true
 published: true
-chapters: http://download.binaergewitter.de/2021-03-22.Binaergewitter.Talk.274.chapters.txt
+chapters: https://download.binaergewitter.de/2021-03-22.Binaergewitter.Talk.274.chapters.txt
 audioformats:
-  mp3: http://download.binaergewitter.de/2021-03-22.Binaergewitter.Talk.274.mp3
-  ogg: http://download.binaergewitter.de/2021-03-22.Binaergewitter.Talk.274.ogg
-  m4a: http://download.binaergewitter.de/2021-03-22.Binaergewitter.Talk.274.m4a
-  opus: http://download.binaergewitter.de/2021-03-22.Binaergewitter.Talk.274.opus
+  mp3: https://download.binaergewitter.de/2021-03-22.Binaergewitter.Talk.274.mp3
+  ogg: https://download.binaergewitter.de/2021-03-22.Binaergewitter.Talk.274.ogg
+  m4a: https://download.binaergewitter.de/2021-03-22.Binaergewitter.Talk.274.m4a
+  opus: https://download.binaergewitter.de/2021-03-22.Binaergewitter.Talk.274.opus
 ---
 
 Wir sind gekommen um zu bleiben....

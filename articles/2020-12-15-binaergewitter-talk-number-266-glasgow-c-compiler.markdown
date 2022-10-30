@@ -6,12 +6,12 @@ comments: true
 categories: talk
 sharing: true
 published: true
-chapters: http://download.binaergewitter.de/2020-12-15.Binaergewitter.Talk.266.chapters.txt
+chapters: https://download.binaergewitter.de/2020-12-15.Binaergewitter.Talk.266.chapters.txt
 audioformats:
-  mp3: http://download.binaergewitter.de/2020-12-15.Binaergewitter.Talk.266.mp3
-  ogg: http://download.binaergewitter.de/2020-12-15.Binaergewitter.Talk.266.ogg
-  m4a: http://download.binaergewitter.de/2020-12-15.Binaergewitter.Talk.266.m4a
-  opus: http://download.binaergewitter.de/2020-12-15.Binaergewitter.Talk.266.opus
+  mp3: https://download.binaergewitter.de/2020-12-15.Binaergewitter.Talk.266.mp3
+  ogg: https://download.binaergewitter.de/2020-12-15.Binaergewitter.Talk.266.ogg
+  m4a: https://download.binaergewitter.de/2020-12-15.Binaergewitter.Talk.266.m4a
+  opus: https://download.binaergewitter.de/2020-12-15.Binaergewitter.Talk.266.opus
 ---
 Wir hoffen die Sendung ist nicht tl;dh (too long; didn't hear), aber zu 4. sind wir diesmal wieder fast an den 3 Stunden dran.
 Wir wünschen euch trotzallem eine schöne Weihnachtszeit und hören uns hoffentlich nach dem Fest noch mal zum Chaos Content.

@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2013-01-31.Binaergewitter.Talk.39.mp3
-  ogg: http://download.binaergewitter.de/2013-01-31.Binaergewitter.Talk.39.ogg
-  m4a: http://download.binaergewitter.de/2013-01-31.Binaergewitter.Talk.39.m4a
-  opus: http://download.binaergewitter.de/2013-01-31.Binaergewitter.Talk.39.opus
+  mp3: https://download.binaergewitter.de/2013-01-31.Binaergewitter.Talk.39.mp3
+  ogg: https://download.binaergewitter.de/2013-01-31.Binaergewitter.Talk.39.ogg
+  m4a: https://download.binaergewitter.de/2013-01-31.Binaergewitter.Talk.39.m4a
+  opus: https://download.binaergewitter.de/2013-01-31.Binaergewitter.Talk.39.opus
 ---
 Reunited und endlich wieder geschmacklos und unlustig außerdem mit Thema "Mobiles Instantmessaging".
 

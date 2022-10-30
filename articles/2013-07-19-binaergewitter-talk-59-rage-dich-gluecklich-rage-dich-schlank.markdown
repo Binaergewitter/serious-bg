@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2013-07-18.Binaergewitter.Talk.59.mp3
-  ogg: http://download.binaergewitter.de/2013-07-18.Binaergewitter.Talk.59.ogg
-  m4a: http://download.binaergewitter.de/2013-07-18.Binaergewitter.Talk.59.m4a
-  opus: http://download.binaergewitter.de/2013-07-18.Binaergewitter.Talk.59.opus
+  mp3: https://download.binaergewitter.de/2013-07-18.Binaergewitter.Talk.59.mp3
+  ogg: https://download.binaergewitter.de/2013-07-18.Binaergewitter.Talk.59.ogg
+  m4a: https://download.binaergewitter.de/2013-07-18.Binaergewitter.Talk.59.m4a
+  opus: https://download.binaergewitter.de/2013-07-18.Binaergewitter.Talk.59.opus
 ---
 aka Plutionium Bootstrap, aka XML ist wie Schalldämpfer an Waffen aka Es gibt nicht genügend Schimpforte um diese Sendung zu betiteln!
 Damit auch die NSA wieder zuhört viele tolle Begriffe gleich am Anfang. Wir rangieren vollbesetzt durch die News der letzten Woche.

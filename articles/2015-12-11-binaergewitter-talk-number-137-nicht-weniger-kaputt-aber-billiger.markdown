@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2015-12-10.Binaergewitter.Talk.137.mp3
-  ogg: http://download.binaergewitter.de/2015-12-10.Binaergewitter.Talk.137.ogg
-  m4a: http://download.binaergewitter.de/2015-12-10.Binaergewitter.Talk.137.m4a
-  opus: http://download.binaergewitter.de/2015-12-10.Binaergewitter.Talk.137.opus
+  mp3: https://download.binaergewitter.de/2015-12-10.Binaergewitter.Talk.137.mp3
+  ogg: https://download.binaergewitter.de/2015-12-10.Binaergewitter.Talk.137.ogg
+  m4a: https://download.binaergewitter.de/2015-12-10.Binaergewitter.Talk.137.m4a
+  opus: https://download.binaergewitter.de/2015-12-10.Binaergewitter.Talk.137.opus
 ---
 Felix und Ingo treffen sich zum Kekse essen (Danke Denny!) und quatschen über die News der letzten Woche und die vielen Ding die mal wieder drauf gehen wie Firefox OS.
 

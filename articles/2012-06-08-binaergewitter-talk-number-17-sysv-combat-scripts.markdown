@@ -6,8 +6,8 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2012-06-07.Binaergewitter.Talk.17.mp3
-  ogg: http://download.binaergewitter.de/2012-06-07.Binaergewitter.Talk.17.ogg
+  mp3: https://download.binaergewitter.de/2012-06-07.Binaergewitter.Talk.17.mp3
+  ogg: https://download.binaergewitter.de/2012-06-07.Binaergewitter.Talk.17.ogg
 ---
 Drei Zombies essen Pokemons, tanzen wieder durch die News der letzten Woche und quatschen über Systemd.
 

@@ -6,12 +6,12 @@ comments: true
 categories: talk
 sharing: true
 published: true
-chapters: http://download.binaergewitter.de/2020-03-26.Binaergewitter.Talk.250.chapters.txt
+chapters: https://download.binaergewitter.de/2020-03-26.Binaergewitter.Talk.250.chapters.txt
 audioformats:
-  mp3: http://download.binaergewitter.de/2020-03-26.Binaergewitter.Talk.250.mp3
-  ogg: http://download.binaergewitter.de/2020-03-26.Binaergewitter.Talk.250.ogg
-  m4a: http://download.binaergewitter.de/2020-03-26.Binaergewitter.Talk.250.m4a
-  opus: http://download.binaergewitter.de/2020-03-26.Binaergewitter.Talk.250.opus
+  mp3: https://download.binaergewitter.de/2020-03-26.Binaergewitter.Talk.250.mp3
+  ogg: https://download.binaergewitter.de/2020-03-26.Binaergewitter.Talk.250.ogg
+  m4a: https://download.binaergewitter.de/2020-03-26.Binaergewitter.Talk.250.m4a
+  opus: https://download.binaergewitter.de/2020-03-26.Binaergewitter.Talk.250.opus
 ---
 Wieder 1,5 h IT News aus dem Homeoffice mit Markus, Felix und Ingo.
 

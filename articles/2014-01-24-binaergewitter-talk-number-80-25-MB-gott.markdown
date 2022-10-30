@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2014-01-23.Binaergewitter.Talk.80.mp3
-  ogg: http://download.binaergewitter.de/2014-01-23.Binaergewitter.Talk.80.ogg
-  m4a: http://download.binaergewitter.de/2014-01-23.Binaergewitter.Talk.80.m4a
-  opus: http://download.binaergewitter.de/2014-01-23.Binaergewitter.Talk.80.opus
+  mp3: https://download.binaergewitter.de/2014-01-23.Binaergewitter.Talk.80.mp3
+  ogg: https://download.binaergewitter.de/2014-01-23.Binaergewitter.Talk.80.ogg
+  m4a: https://download.binaergewitter.de/2014-01-23.Binaergewitter.Talk.80.m4a
+  opus: https://download.binaergewitter.de/2014-01-23.Binaergewitter.Talk.80.opus
 ---
 Wir läuten das Jahr des Btrfs ein und reden über Gott und die News der letzten Tage. Mit dabei sind Mat, Felix, Pfleidi und Ingo.
 

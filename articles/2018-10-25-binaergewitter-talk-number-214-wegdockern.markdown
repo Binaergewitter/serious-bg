@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2018-10-24.Binaergewitter.Talk.214.mp3
-  ogg: http://download.binaergewitter.de/2018-10-24.Binaergewitter.Talk.214.ogg
-  m4a: http://download.binaergewitter.de/2018-10-24.Binaergewitter.Talk.214.m4a
-  opus: http://download.binaergewitter.de/2018-10-24.Binaergewitter.Talk.214.opus
+  mp3: https://download.binaergewitter.de/2018-10-24.Binaergewitter.Talk.214.mp3
+  ogg: https://download.binaergewitter.de/2018-10-24.Binaergewitter.Talk.214.ogg
+  m4a: https://download.binaergewitter.de/2018-10-24.Binaergewitter.Talk.214.m4a
+  opus: https://download.binaergewitter.de/2018-10-24.Binaergewitter.Talk.214.opus
 ---
 Lasst euch von der 4er Power wegdockern oder so. Felix², Markus und Ingo sind Himmelhoch jauchzend, zu Tode betrübt.
 Vielleicht auch nur weil das piratenpad zu macht und sie immer noch keine Alternative benutzten....

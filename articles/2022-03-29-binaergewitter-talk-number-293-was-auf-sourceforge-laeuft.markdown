@@ -6,12 +6,12 @@ comments: true
 categories: talk
 sharing: true
 published: true
-chapters: http://download.binaergewitter.de/2022-03-28.Binaergewitter.Talk.293.chapters.txt
+chapters: https://download.binaergewitter.de/2022-03-28.Binaergewitter.Talk.293.chapters.txt
 audioformats:
-  mp3: http://download.binaergewitter.de/2022-03-28.Binaergewitter.Talk.293.mp3
-  ogg: http://download.binaergewitter.de/2022-03-28.Binaergewitter.Talk.293.ogg
-  m4a: http://download.binaergewitter.de/2022-03-28.Binaergewitter.Talk.293.m4a
-  opus: http://download.binaergewitter.de/2022-03-28.Binaergewitter.Talk.293.opus
+  mp3: https://download.binaergewitter.de/2022-03-28.Binaergewitter.Talk.293.mp3
+  ogg: https://download.binaergewitter.de/2022-03-28.Binaergewitter.Talk.293.ogg
+  m4a: https://download.binaergewitter.de/2022-03-28.Binaergewitter.Talk.293.m4a
+  opus: https://download.binaergewitter.de/2022-03-28.Binaergewitter.Talk.293.opus
 ---
 
 Wieder alle da.

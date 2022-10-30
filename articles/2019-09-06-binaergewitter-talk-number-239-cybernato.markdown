@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2019-09-05.Binaergewitter.Talk.239.mp3
-  ogg: http://download.binaergewitter.de/2019-09-05.Binaergewitter.Talk.239.ogg
-  m4a: http://download.binaergewitter.de/2019-09-05.Binaergewitter.Talk.239.m4a
-  opus: http://download.binaergewitter.de/2019-09-05.Binaergewitter.Talk.239.opus
+  mp3: https://download.binaergewitter.de/2019-09-05.Binaergewitter.Talk.239.mp3
+  ogg: https://download.binaergewitter.de/2019-09-05.Binaergewitter.Talk.239.ogg
+  m4a: https://download.binaergewitter.de/2019-09-05.Binaergewitter.Talk.239.m4a
+  opus: https://download.binaergewitter.de/2019-09-05.Binaergewitter.Talk.239.opus
 ---
 Zurück vom Camp...
 

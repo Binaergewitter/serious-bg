@@ -6,9 +6,9 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2012-07-20.Binaergewitter.Talk.22.mp3
-  ogg: http://download.binaergewitter.de/2012-07-20.Binaergewitter.Talk.22.ogg
-  m4a: http://download.binaergewitter.de/2012-07-20.Binaergewitter.Talk.22.m4a
+  mp3: https://download.binaergewitter.de/2012-07-20.Binaergewitter.Talk.22.mp3
+  ogg: https://download.binaergewitter.de/2012-07-20.Binaergewitter.Talk.22.ogg
+  m4a: https://download.binaergewitter.de/2012-07-20.Binaergewitter.Talk.22.m4a
 ---
 Das muss man wirklich wissen, ist man nun bei 0 Grad Kelvin ganz tot? Neben den üblichen IT- und Security-News weinen wir über Alsa und Archlinux.
 

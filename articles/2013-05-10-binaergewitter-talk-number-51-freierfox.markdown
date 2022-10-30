@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2013-05-09.Binaergewitter.Talk.51.mp3
-  ogg: http://download.binaergewitter.de/2013-05-09.Binaergewitter.Talk.51.ogg
-  m4a: http://download.binaergewitter.de/2013-05-09.Binaergewitter.Talk.51.m4a
-  opus: http://download.binaergewitter.de/2013-05-09.Binaergewitter.Talk.51.opus
+  mp3: https://download.binaergewitter.de/2013-05-09.Binaergewitter.Talk.51.mp3
+  ogg: https://download.binaergewitter.de/2013-05-09.Binaergewitter.Talk.51.ogg
+  m4a: https://download.binaergewitter.de/2013-05-09.Binaergewitter.Talk.51.m4a
+  opus: https://download.binaergewitter.de/2013-05-09.Binaergewitter.Talk.51.opus
 ---
 Am Herrentag/Männertag/Vatertag oder auch Himmelfahrt haben wir uns natürlich mit Alkohol und Bollerwagen im Studio eingefunden. Daher ist die Sendung mal wieder an ein paar Stellen gemacklos und manchmal
 kommen Wörter zustande die es gar nicht gibt. Aber es hätte auch viel schlimmer kommen können.....

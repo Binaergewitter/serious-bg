@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2017-08-20.Binaergewitter.Talk.179.mp3
-  ogg: http://download.binaergewitter.de/2017-08-20.Binaergewitter.Talk.179.ogg
-  m4a: http://download.binaergewitter.de/2017-08-20.Binaergewitter.Talk.179.m4a
-  opus: http://download.binaergewitter.de/2017-08-20.Binaergewitter.Talk.179.opus
+  mp3: https://download.binaergewitter.de/2017-08-20.Binaergewitter.Talk.179.mp3
+  ogg: https://download.binaergewitter.de/2017-08-20.Binaergewitter.Talk.179.ogg
+  m4a: https://download.binaergewitter.de/2017-08-20.Binaergewitter.Talk.179.m4a
+  opus: https://download.binaergewitter.de/2017-08-20.Binaergewitter.Talk.179.opus
 ---
 Live von der [FrOSCon 2017](http://froscon.de/). Felix, der jüngere, Markus und Ingo waren in St. Augustin und besprechen wie immer die News und was es
 interessantes vor Ort gibt.

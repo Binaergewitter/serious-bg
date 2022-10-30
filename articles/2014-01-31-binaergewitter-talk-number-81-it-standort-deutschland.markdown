@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2014-01-30.Binaergewitter.Talk.81.mp3
-  ogg: http://download.binaergewitter.de/2014-01-30.Binaergewitter.Talk.81.ogg
-  m4a: http://download.binaergewitter.de/2014-01-30.Binaergewitter.Talk.81.m4a
-  opus: http://download.binaergewitter.de/2014-01-30.Binaergewitter.Talk.81.opus
+  mp3: https://download.binaergewitter.de/2014-01-30.Binaergewitter.Talk.81.mp3
+  ogg: https://download.binaergewitter.de/2014-01-30.Binaergewitter.Talk.81.ogg
+  m4a: https://download.binaergewitter.de/2014-01-30.Binaergewitter.Talk.81.m4a
+  opus: https://download.binaergewitter.de/2014-01-30.Binaergewitter.Talk.81.opus
 ---
 Wegen Krankheit und Verletzungen nur in Minimalbesetzung rocken Felix und Mat den IT Standort Deutschland.
 

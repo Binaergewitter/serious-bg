@@ -6,12 +6,12 @@ comments: true
 categories: talk
 sharing: true
 published: true
-chapters: http://download.binaergewitter.de/2021-04-16.Binaergewitter.Talk.275.chapters.txt
+chapters: https://download.binaergewitter.de/2021-04-16.Binaergewitter.Talk.275.chapters.txt
 audioformats:
-  mp3: http://download.binaergewitter.de/2021-04-16.Binaergewitter.Talk.275.mp3
-  ogg: http://download.binaergewitter.de/2021-04-16.Binaergewitter.Talk.275.ogg
-  m4a: http://download.binaergewitter.de/2021-04-16.Binaergewitter.Talk.275.m4a
-  opus: http://download.binaergewitter.de/2021-04-16.Binaergewitter.Talk.275.opus
+  mp3: https://download.binaergewitter.de/2021-04-16.Binaergewitter.Talk.275.mp3
+  ogg: https://download.binaergewitter.de/2021-04-16.Binaergewitter.Talk.275.ogg
+  m4a: https://download.binaergewitter.de/2021-04-16.Binaergewitter.Talk.275.m4a
+  opus: https://download.binaergewitter.de/2021-04-16.Binaergewitter.Talk.275.opus
 ---
 Osterpause vorbei. Felix, Felix und Ingo sind wieder am Start. Diesmal mit einer neuen Suche, die wir auch gleich aktiv verwenden....
 

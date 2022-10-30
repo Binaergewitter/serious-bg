@@ -7,10 +7,10 @@ categories: talk
 sharing: true
 published: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2019-01-30.Binaergewitter.Talk.222.mp3
-  ogg: http://download.binaergewitter.de/2019-01-30.Binaergewitter.Talk.222.ogg
-  m4a: http://download.binaergewitter.de/2019-01-30.Binaergewitter.Talk.222.m4a
-  opus: http://download.binaergewitter.de/2019-01-30.Binaergewitter.Talk.222.opus
+  mp3: https://download.binaergewitter.de/2019-01-30.Binaergewitter.Talk.222.mp3
+  ogg: https://download.binaergewitter.de/2019-01-30.Binaergewitter.Talk.222.ogg
+  m4a: https://download.binaergewitter.de/2019-01-30.Binaergewitter.Talk.222.m4a
+  opus: https://download.binaergewitter.de/2019-01-30.Binaergewitter.Talk.222.opus
 ---
 Double Felix und Markus führen euch durch die Themen der Woche...
 

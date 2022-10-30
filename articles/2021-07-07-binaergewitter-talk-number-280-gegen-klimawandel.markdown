@@ -6,12 +6,12 @@ comments: true
 categories: talk
 sharing: true
 published: true
-chapters: http://download.binaergewitter.de/2021-07-06.Binaergewitter.Talk.280.chapters.txt
+chapters: https://download.binaergewitter.de/2021-07-06.Binaergewitter.Talk.280.chapters.txt
 audioformats:
-  mp3: http://download.binaergewitter.de/2021-07-06.Binaergewitter.Talk.280.mp3
-  ogg: http://download.binaergewitter.de/2021-07-06.Binaergewitter.Talk.280.ogg
-  m4a: http://download.binaergewitter.de/2021-07-06.Binaergewitter.Talk.280.m4a
-  opus: http://download.binaergewitter.de/2021-07-06.Binaergewitter.Talk.280.opus
+  mp3: https://download.binaergewitter.de/2021-07-06.Binaergewitter.Talk.280.mp3
+  ogg: https://download.binaergewitter.de/2021-07-06.Binaergewitter.Talk.280.ogg
+  m4a: https://download.binaergewitter.de/2021-07-06.Binaergewitter.Talk.280.m4a
+  opus: https://download.binaergewitter.de/2021-07-06.Binaergewitter.Talk.280.opus
 ---
 Große Themen, große Verluste und Audioprobleme plagen Felix, Felix und Ingo.
 

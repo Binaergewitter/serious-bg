@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2013-01-10.Binaergewitter.Talk.37.mp3
-  ogg: http://download.binaergewitter.de/2013-01-10.Binaergewitter.Talk.37.ogg
-  m4a: http://download.binaergewitter.de/2013-01-10.Binaergewitter.Talk.37.m4a
-  opus: http://download.binaergewitter.de/2013-01-10.Binaergewitter.Talk.37.opus
+  mp3: https://download.binaergewitter.de/2013-01-10.Binaergewitter.Talk.37.mp3
+  ogg: https://download.binaergewitter.de/2013-01-10.Binaergewitter.Talk.37.ogg
+  m4a: https://download.binaergewitter.de/2013-01-10.Binaergewitter.Talk.37.m4a
+  opus: https://download.binaergewitter.de/2013-01-10.Binaergewitter.Talk.37.opus
 ---
 Willkommen im neuen Jahr. Bei uns bleibt trotzdem alles gleich. Der Marc ist immer noch in den USA und wir vertingeln und wieder mal mit Witzen über Titzen ;)
 

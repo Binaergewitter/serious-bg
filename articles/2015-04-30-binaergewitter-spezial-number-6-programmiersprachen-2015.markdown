@@ -7,10 +7,10 @@ categories: spezial
 sharing: true
 release: 2
 audioformats:
-  mp3: http://download.binaergewitter.de/2015-04-28.Binaergewitter.Spezial.6.mp3
-  ogg: http://download.binaergewitter.de/2015-04-28.Binaergewitter.Spezial.6.ogg
-  m4a: http://download.binaergewitter.de/2015-04-28.Binaergewitter.Spezial.6.m4a
-  opus: http://download.binaergewitter.de/2015-04-28.Binaergewitter.Spezial.6.opus
+  mp3: https://download.binaergewitter.de/2015-04-28.Binaergewitter.Spezial.6.mp3
+  ogg: https://download.binaergewitter.de/2015-04-28.Binaergewitter.Spezial.6.ogg
+  m4a: https://download.binaergewitter.de/2015-04-28.Binaergewitter.Spezial.6.m4a
+  opus: https://download.binaergewitter.de/2015-04-28.Binaergewitter.Spezial.6.opus
 ---
 Felix lernt Lua und Pfleidi schaut sich dieses Jahr mal Elixir angeschaut. Beide berichten über ihre Erfahrungen und warum man sich vielleicht dieses mal Sprache mal anschauen sollte.
 

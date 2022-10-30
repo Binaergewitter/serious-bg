@@ -6,8 +6,8 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2012-04-19.Binaergewitter.Talk.11.mp3
-  ogg: http://download.binaergewitter.de/2012-04-19.Binaergewitter.Talk.11.ogg
+  mp3: https://download.binaergewitter.de/2012-04-19.Binaergewitter.Talk.11.mp3
+  ogg: https://download.binaergewitter.de/2012-04-19.Binaergewitter.Talk.11.ogg
 ---
 Was ist eigentlich unhosted? Das fragen wir unseren Gast Jan. Er erklärt uns auch warum die Semi.coli sterben und wir trauern darum dass nicht gleich das Wireless World Wide Web erfunden wurde.
 

@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2014-04-10.Binaergewitter.Talk.91.mp3
-  ogg: http://download.binaergewitter.de/2014-04-10.Binaergewitter.Talk.91.ogg
-  m4a: http://download.binaergewitter.de/2014-04-10.Binaergewitter.Talk.91.m4a
-  opus: http://download.binaergewitter.de/2014-04-10.Binaergewitter.Talk.91.opus
+  mp3: https://download.binaergewitter.de/2014-04-10.Binaergewitter.Talk.91.mp3
+  ogg: https://download.binaergewitter.de/2014-04-10.Binaergewitter.Talk.91.ogg
+  m4a: https://download.binaergewitter.de/2014-04-10.Binaergewitter.Talk.91.m4a
+  opus: https://download.binaergewitter.de/2014-04-10.Binaergewitter.Talk.91.opus
 ---
 Das Internet ist kaputt. Und zwar so richtig. Darum treffen sich Mat, Felix, Pfleidi und Ingo um die Lage zu besprechen.
 

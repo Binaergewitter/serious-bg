@@ -6,10 +6,10 @@ comments: true
 categories: talk
 sharing: true
 audioformats:
-  mp3: http://download.binaergewitter.de/2013-10-31.Binaergewitter.Talk.72.mp3
-  ogg: http://download.binaergewitter.de/2013-10-31.Binaergewitter.Talk.72.ogg
-  m4a: http://download.binaergewitter.de/2013-10-31.Binaergewitter.Talk.72.m4a
-  opus: http://download.binaergewitter.de/2013-10-31.Binaergewitter.Talk.72.opus
+  mp3: https://download.binaergewitter.de/2013-10-31.Binaergewitter.Talk.72.mp3
+  ogg: https://download.binaergewitter.de/2013-10-31.Binaergewitter.Talk.72.ogg
+  m4a: https://download.binaergewitter.de/2013-10-31.Binaergewitter.Talk.72.m4a
+  opus: https://download.binaergewitter.de/2013-10-31.Binaergewitter.Talk.72.opus
 ---
 Felix und Ingo präsentieren diese Woche den "wirhabendochkeineAhnung Talk", denn so oder so ähnlich ist diese Sendung über riechende Notebooks, freigegebene H.264 Blops und andere News der letzten Woche.
 
