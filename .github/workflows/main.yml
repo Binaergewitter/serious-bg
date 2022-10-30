@@ -38,7 +38,7 @@ jobs:
   deploy-fly:
     runs-on: ubuntu-latest
     name: Deploy app to fly
-    if: github.ref == 'refs/heads/master'
+    if: github.ref == 'refs/heads/main'
     needs: [test, build-search]
     steps:
       - uses: actions/checkout@v2
