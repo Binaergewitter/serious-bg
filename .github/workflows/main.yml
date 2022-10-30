@@ -10,6 +10,8 @@ jobs:
         with:
           ruby-version: 3.1.2
           bundler-cache: true
+      # FIXME: Do a curl otherwise the tests fail when trying to download files O.o
+      - run: curl -I https://download.binaergewitter.de/2022-10-28.Binaergewitter.Talk.304.mp3
       - run: bundle install
       - run: bundle exec rake TESTOPTS=-v
   build-search:
