@@ -25,8 +25,6 @@ Präsentiert von Felix, Felix und Ingo.
 - [chapter_marker v3.5 mit whisper und silero]( https://github.com/Binaergewitter/chapter-marker_v3/commit/f68c2b57531f4dac69f62ca2eca08cdbb716aa1e )
 - [wdisplay]( https://blog.binaergewitter.de/2022/10/04/binaergewitter-talk-number-303-pyrolyse/#isso-2201 ) 
 
-
-
 ## Toter der Woche
 - blauer Haken auf Twitter
 
@@ -38,8 +36,8 @@ Präsentiert von Felix, Felix und Ingo.
 
 ## News
 - [Obsidian Release v1.0.0]( https://forum.obsidian.md/t/obsidian-release-v1-0-0/44873 )
- * Logseq
- * Joplin
+  * [Logseq]( https://logseq.com/ )
+  * [Joplin]( https://joplinapp.org/ )
 - [Fedora Linux 37 update]( https://fedoramagazine.org/fedora-linux-37-update/ )
 - [Stranger Strings: An exploitable flaw in SQLite]( https://blog.trailofbits.com/2022/10/25/sqlite-vulnerability-july-2022-library-api/ )
 - [LinuxFoundation Europe]( https://linuxfoundation.eu/ )
@@ -47,13 +45,13 @@ Präsentiert von Felix, Felix und Ingo.
   * [Python 3.12 support for the Linux perf profiler]( https://docs.python.org/dev/howto/perf_profiling.html )
 - [angie]( https://linuxnews.de/2022/11/03/angie-nginx-fork-vorgestellt/ )
 
-
 ## Themen
 - [NixOS]( https://l33tsource.com/blog/2022/11/06/Build-a-dns-server-on-NixOS/ )
 - [NixOS Options]( https://search.nixos.org/options )
   - `boot.kernelPackages = pkgs.linuxKernel.packages.linux_6_0;`
   - `fetchurl`
-  - `networking.hostFiles = [ (fetchurl "https://....") ./meine-heruntergeladene-file.txt ];` - https://nixos.org/manual/nixpkgs/stable/#fetchurl
+  - `networking.hostFiles = [ (fetchurl "https://....") ./meine-heruntergeladene-file.txt ];` 
+  - [fetchurl]( https://nixos.org/manual/nixpkgs/stable/#fetchurl )
 
 ## Mimimi der Woche
 
@@ -67,5 +65,3 @@ Präsentiert von Felix, Felix und Ingo.
 - [cmdchallenge]( https://cmdchallenge.com/ )
 - [rust uf Schwizerdütsch]( https://github.com/Georg-code/roeschti )
 - [The Cult of DD]( https://eklitzke.org/the-cult-of-dd )
-
-
