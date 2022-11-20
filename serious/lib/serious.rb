@@ -122,8 +122,8 @@ class Serious < Sinatra::Base
       render :erb, :"_podcast_controls", :locals => { :article => article }, :layout => false
     end
 
-    def render_isso()
-      render :erb, :"_isso", :layout => false
+    def render_isso(title)
+      render :erb, :"_isso", :locals => { :title => title }, :layout => false
     end
 
     def render_flattr(article=nil)
