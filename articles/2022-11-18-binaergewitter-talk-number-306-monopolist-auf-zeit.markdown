@@ -22,7 +22,6 @@ Mit Felix, Felix, Markus und Ingo.
 - chapter-marker jetzt mit allen 3 speech-to-text engines. Ist es besser? Das müsst Ihr entscheiden!
 - [Twitter gekauft](https://cultur.social/@marcuwekling/109347512624356611 )
 - [Gnulinux.ch Note-taking Apps](https://gnulinux.ch/tag/serie )
-
     - [Podcast: Nextcloud Collectives](https://nextcloud.com/blog/nextcloud-podcast-15-interview-about-collectives-app-and-prototype-fund/ )
 
 
@@ -45,15 +44,15 @@ Mit Felix, Felix, Markus und Ingo.
 ## Themen
 
 - Rezepte Datenbank
-  * https://apps.nextcloud.com/apps/cookbook
-  * https://github.com/TandoorRecipes/recipes (Homepage https://tandoor.dev/ )
-  * https://hay-kot.github.io/mealie/
+  * [cookbook](https://apps.nextcloud.com/apps/cookbook)
+  * [TandoorRecipes](https://github.com/TandoorRecipes/recipes) (Homepage [tandoor.dev](https://tandoor.dev/) )
+  * [mealie](https://hay-kot.github.io/mealie/)
   * [grocy]( https://grocy.info/de )
-  * https://github.com/clarklab/chowdown
+  * [chowdown]( https://github.com/clarklab/chowdown )
 
 ## Mimimi der Woche
 - Cloud Init with Ubuntu 22.04 and vsphere
-  * https://stackoverflow.com/a/72768538/1279355
+  * [stackoverflow]( https://stackoverflow.com/a/72768538/1279355 )
 - Faxe über all Faxe... Ingo war beim Arzt
 - [Stream error in the HTTP/2 framing layer]( https://github.com/Binaergewitter/serious-bg/issues/399 )
 
@@ -71,15 +70,13 @@ Mit Felix, Felix, Markus und Ingo.
 - [fq: jq for binary formats]( https://github.com/wader/fq/ )
 - [Marcel, the french Docker - Marcel, le docker français]( https://github.com/brouberol/marcel )
 - [javabubble.org]( https://javabubble.org )
-  - [Ash Ketchum ist nach 25 Jahren endlich Pokemon-Meister]( https://www.npr.org/2022/11/13/1136294515/pokemon-world-championship-ash-ketchum-25-years-later )
+  * [Ash Ketchum ist nach 25 Jahren endlich Pokemon-Meister]( https://www.npr.org/2022/11/13/1136294515/pokemon-world-championship-ash-ketchum-25-years-later )
 - [vscode-pets](https://marketplace.visualstudio.com/items?itemName=tonybaloney.vscode-pets)
 - [snek]( https://www.youtube.com/watch?v=0arsPXEaIUY )
-
-- https://wiki.bitlbee.org/HowtoMastodon
+- [HowtoMastodon](https://wiki.bitlbee.org/HowtoMastodon)
 ```
 account add mastodon @makefu
 account mastodon set base_url https://jit.social
 account mastodon on
 ```
-
 - [toot CLI Mastodon Client]( https://github.com/ihabunek/toot )
