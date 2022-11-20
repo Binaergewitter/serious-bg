@@ -16,7 +16,7 @@ Binärgewitter entstand bei [RadioTux](http://blog.radiotux.de/), dem Internetra
 - Ingo Ebel (Twitter: [@ingoebel](https://twitter.com/ingoebel)) (Mastodon: [@ingo](https://jit.social/@ingo))
 - Sven Pfleiderer ([@pfleidi](https://twitter.com/pfleidi)) ([blog](http://blog.roothausen.de/))
 - Felix Richter ([@makefoo](https://twitter.com/makefoo)) ([blog](http://euer.krebsco.de/))
-- Markus Schlichting ([@madmas/mastodon](@madmas/mastodon.social)) ([madmas/pixelfed](https://pixelfed.de/madmas)) ([@madmas/Twitter](https://twitter.com/madmas)) ([blog](http://www.mynethome.de/))
+- Markus Schlichting ([@madmas/mastodon](https://mastodon.social/@madmas)) ([madmas/pixelfed](https://pixelfed.de/madmas)) ([@madmas/Twitter](https://twitter.com/madmas)) ([blog](http://www.mynethome.de/))
 - Marc Seeger ([@rb2k](https://twitter.com/rb2k)) ([blog](http://blog.marc-seeger.de/))
 - Matthias Wenz ([@ranterle](https://twitter.com/ranterle))
 - Felix ([@l33tname](https://twitter.com/l33tname))
