@@ -17,11 +17,8 @@ audioformats:
 Felix, Felix, Markus und Ingo sind glücklich im Fediverse und wünschen euch eine frohe Vorweihnachtszeit.
 
 ## Blast from the Past
-
 - [madodir](https://mastodir.de/informatik-it )
-
-    - [web0]( https://web0.small-web.org/ )
-
+  * [web0]( https://web0.small-web.org/ )
 - [Upgrade auf Mastodon 4]( https://techbits.io/mastodon-4-upgrade/ )
 - [Spotify wrapped]( https://wrappedforpodcasters.byspotify.com/de/?id=c142b7380a3278e29d44d06603952e49d17662f9c84d8d39b812df8bb2e1f381 )
 
@@ -43,7 +40,7 @@ Felix, Felix, Markus und Ingo sind glücklich im Fediverse und wünschen euch ei
 - [Unstable Diffusion]( https://slashdot.org/story/22/11/17/2346235/meet-unstable-diffusion-the-group-trying-to-monetize-ai-porn-generators )
 - [Core ML Stable Diffusion]( https://github.com/apple/ml-stable-diffusion )
 - [OpenAI Chat]( https://arstechnica.com/information-technology/2022/12/openai-invites-everyone-to-test-new-ai-powered-chatbot-with-amusing-results/#p3 )
- * [Der große Filter] ( https://scienceblogs.de/astrodicticum-simplex/2018/02/07/der-grosse-filter-oder-warum-es-vielleicht-gut-ist-wenn-wir-keine-aliens-entdecken/ )
+ * [Der große Filter]( https://scienceblogs.de/astrodicticum-simplex/2018/02/07/der-grosse-filter-oder-warum-es-vielleicht-gut-ist-wenn-wir-keine-aliens-entdecken/ )
 
 ## News
 - [Angeblich 487 Millionen Telefonnummern über WhatsApp geleakt]( https://www.heise.de/news/Angeblich-487-Millionen-Telefonnummern-ueber-WhatsApp-geleakt-7352670.html )
@@ -53,7 +50,6 @@ Felix, Felix, Markus und Ingo sind glücklich im Fediverse und wünschen euch ei
 - [The leap second’s time is up: world votes to stop pausing clocks](https://www.nature.com/articles/d41586-022-03783-5)
   * [geo.de]( https://www.geo.de/wissen/was-die-abschaffung-der-schaltsekunde-bedeutet-32941666.html )
   * [Nepal]( https://www.worldtimeserver.com/current_time_in_NP.aspx )
-
 - [Warp Shell (not-yet-open-source) - but super-fast thanks to Rust]( https://www.warp.dev/ )
   * [Google reports decline in Android memory safety vulnerabilities as Rust usage grows]( https://9to5google.com/2022/12/01/android-memory-safety-rust/ )
   * [alacritty (auch Rust)]( https://github.com/alacritty/alacritty )
@@ -65,15 +61,15 @@ Felix, Felix, Markus und Ingo sind glücklich im Fediverse und wünschen euch ei
 ## Themen
 
 ### Codeberg
-- a Gitea-based software forge. (https://gitea.io/)
-- it also has pages https://codeberg.page/
-- it also has a CI, Woodpecker (https://github.com/woodpecker-ci/woodpecker), which is a libre fork of drone (https://www.drone.io/) (before licence changes were made.)
+- a [Gitea-based](https://gitea.io/) software forge. 
+- it also has [pages](https://codeberg.page/)
+- it also has a CI, [Woodpecker](https://github.com/woodpecker-ci/woodpecker), which is a libre fork of [drone](https://www.drone.io/) (before licence changes were made.)
 - [Hermes Phettberg]( https://en.wikipedia.org/wiki/Hermes_Phettberg )
  
 ## Mimimi der Woche
 - KDE Plasma Captive Portal erkannt, obwohl keines da ist
 - Android
-  * https://github.com/swaywm/sway/issues/595#issuecomment-214131422
+  * `export _JAVA_AWT_WM_NONREPARENTING=1` [source](https://github.com/swaywm/sway/issues/595#issuecomment-214131422)
   * androidx
 - Canonical
   * netplan
@@ -83,7 +79,6 @@ Felix, Felix, Markus und Ingo sind glücklich im Fediverse und wünschen euch ei
   * LXD
 
 ## Lesefoo
-
 - [Excel remains a disastrous choice for data management]( https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008984 ) [and it even kills people via @f2harrell]( https://mastodon.online/@f2harrell/109393070399166714 )
   - [Gene umbenennen]( https://blog.binaergewitter.de/2022/03/29/binaergewitter-talk-number-293-was-auf-sourceforge-laeuft ) 
 - [Bandwidth, IOPS and Latency]( https://blog.koehntopp.info/2022/11/07/bandwidth-iops-and-latency.html )
@@ -95,7 +90,6 @@ Felix, Felix, Markus und Ingo sind glücklich im Fediverse und wünschen euch ei
   - [Board-DB]( https://hackerboards.com/ ) 
 
 ## Picks
-
 - [UwUntu 22.10](https://uwuntuos.site/)
   * [hotdog linux]( http://hotdoglinux.com/ )
 - [github actions lokal]( https://github.com/nektos/act )
@@ -106,7 +100,6 @@ Felix, Felix, Markus und Ingo sind glücklich im Fediverse und wünschen euch ei
 - [neue RadioTux Sendung Ultra Star Play]( https://www.radiotux.de/index.php?/archives/8084-RadioTux-Sendung-November-2022.html )
 
 ### Adventskalender
-
 - [Advent of Code]( https://adventofcode.com/ )
 - [Advent of Code Community]( https://doctoolchain.org/aoc-2022/ )
 - [heise.de]( https://www.heise.de/news/Der-Heise-Adventskalender-Taeglich-neue-Angebote-und-Geschenke-7359684.html ) 
@@ -115,5 +108,3 @@ Felix, Felix, Markus und Ingo sind glücklich im Fediverse und wünschen euch ei
 - [Adventure Treff Adventskalender](https://www.adventure-treff.de/forum/62 )
 - [Advents-Tooter selbst bauen]( https://gnulinux.ch/der-mastodon-adventskalender )
 - [Advent of Cyber 2022]( https://tryhackme.com/room/adventofcyber4 )
-
-
