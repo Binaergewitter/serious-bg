@@ -25,10 +25,9 @@ Wir wünschen euch eine frohe Weihnachtszeit.
 ## Toter der Woche
 - [Elon als Twitter CEO]( https://twitter.com/elonmusk/status/1604617643973124097 )
 
-
 ## Untoter der Woche
 - [Mammut]( https://www.heise.de/hintergrund/Dieser-Mann-will-das-Mammut-zurueckbringen-7165486.html )
-  - [Mammuts Essen ]( https://www.spektrum.de/news/verspeisten-gaeste-des-explorer-club-tatsaechlich-mammutfleisch/1398256 ) 
+  - [Mammuts Essen]( https://www.spektrum.de/news/verspeisten-gaeste-des-explorer-club-tatsaechlich-mammutfleisch/1398256 ) 
 - (Offtopic) [RISC-V Prozessor fürs Rechenzentrum]( https://www.golem.de/news/ventana-veyron-risc-v-kommt-ins-rechenzentrum-2212-170460.html)
 - [Cross-compiling and deploying nixos ]( https://blog.thalheim.io/2022/11/27/cross-compiling-and-deploying-nixos/ )
 - [Gigabyte Brix s GB-BRR3H-4300 (AMD Ryzen 3 4300U, 1 x HDMI)]( https://www.digitec.ch/de/s1/product/gigabyte-brix-s-gb-brr3h-4300-amd-ryzen-3-4300u-1-x-hdmi-barebone-15655855 )
@@ -41,16 +40,16 @@ Wir wünschen euch eine frohe Weihnachtszeit.
 
 ## News
 - [Offiziell Datum fuer all-usb-c]( https://www.appgefahren.de/ab-28-dezember-2024-kabelgebundenes-laden-fuer-smartphones-nur-noch-mit-usb-c-329020.html )
- - [XKCD: USB Cables]( https://xkcd.com/1892/ )
-- [WebMention] ( https://www.w3.org/TR/webmention/ )
+  - [XKCD: USB Cables]( https://xkcd.com/1892/ )
+- [WebMention]( https://www.w3.org/TR/webmention/ )
   - [Wordpress plugin]( https://wordpress.org/plugins/webmention/ )
 - [3rd party appstores on iOS?]( https://www.bloomberg.com/news/articles/2022-12-13/will-apple-allow-users-to-install-third-party-app-stores-sideload-in-europe)
 - [Raspberry Pi]( https://mastodon.social/@LambdaCalculus@hackers.town/109479594327604763 )
-  * https://www.buzzfeednews.com/article/chrisstokelwalker/raspberry-pi-hired-ex-cop-mastodon-controversy
+  * [Why The Computer Company Raspberry Pi’s New Hire Caused A Social Media Firestorm](https://www.buzzfeednews.com/article/chrisstokelwalker/raspberry-pi-hired-ex-cop-mastodon-controversy)
 - [Practically-exploitable Cryptographic Vulnerabilities in Matrix]( https://nebuchadnezzar-megolm.github.io/ ) - Pecvim
 - [MacDirtyCow]( https://github.com/zhuowei/MacDirtyCowDemo )
 - [Prometheus Turns 10]( https://promlabs.com/blog/2022/11/24/prometheus-turns-10 )
-- [Bafögämter müssen Anträge ausdrucken - mit extra Personal!] ( https://www.spiegel.de/panorama/bildung/bafoeg-aemter-muessen-antraege-ausdrucken-teils-mit-extra-personal-a-1546979e-be25-4605-aad3-2121a6d44cae )
+- [Bafögämter müssen Anträge ausdrucken - mit extra Personal!]( https://www.spiegel.de/panorama/bildung/bafoeg-aemter-muessen-antraege-ausdrucken-teils-mit-extra-personal-a-1546979e-be25-4605-aad3-2121a6d44cae )
 
 ## Themen
 - [Cosmic Desktop]( https://www.michlfranken.de/cosmic-desktop-auf-rust-basis-system76-mit-leckerbissen/ )
@@ -72,7 +71,6 @@ Wir wünschen euch eine frohe Weihnachtszeit.
   - [The Birth of docker]( https://miro.medium.com/max/882/1*Ibnwjo9LtUFxRY1MZgOcvg.png )
 - [--machine-id]( https://bugs.launchpad.net/cloud-init/+bug/1999680 )
 
-
 ## Lesefoo
 - [IDN is crazy]( https://daniel.haxx.se/blog/2022/12/14/idn-is-crazy/ )
 - [Fire Punch]( https://myanimelist.net/manga/98270/Fire_Punch )
@@ -84,4 +82,3 @@ Wir wünschen euch eine frohe Weihnachtszeit.
 - [Podcast mit Pallenberg zu Mastodon und mehr]( https://cogneon.de/2022/12/14/loa101-keine-mastodon-101-mit-sascha-pallenberg/)
 - [Python 3.10 Readiness]( https://pyreadiness.org/3.10/ )
 - [xdot](https://pypi.org/project/xdot/)
-
