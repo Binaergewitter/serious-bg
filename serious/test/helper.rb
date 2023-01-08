@@ -20,7 +20,6 @@ class Test::Unit::TestCase
   Serious.set :pages, File.join(File.dirname(__FILE__), 'pages')
   Serious.set :author, "TheDeadSerious"
   Serious.set :url, 'http://example.com'
-  StupidFormatter.chain = [StupidFormatter::Erb, StupidFormatter::RDiscount]
 
   def app
     Serious
