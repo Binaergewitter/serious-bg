@@ -355,8 +355,9 @@ end
 require 'serious/version'
 require 'serious/article'
 require 'serious/page'
+require 'serious/commonmarker_formater'
 # Set up default stupid_formatter chain
-StupidFormatter.chain = [StupidFormatter::Erb, StupidFormatter::RDiscount]
+StupidFormatter.chain = [StupidFormatter::Erb, StupidFormatter::CommonMarker]
 
 # Set up defaults for app
 Serious.set :root, File.join(File.dirname(__FILE__), 'site')
