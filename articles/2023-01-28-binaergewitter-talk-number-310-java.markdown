@@ -20,12 +20,10 @@ Alle an Board.
 
 ## Untoter der Woche
 - [2. Leben für Stadia Controller](https://www.heise.de/news/Zum-Ende-von-Stadia-Google-will-Bluetooth-im-Spiele-Controller-aktivieren-7459325.html )
-    * https://en.wikipedia.org/wiki/Google_Stadia
-
+  * [Google Stadia](https://en.wikipedia.org/wiki/Google_Stadia)
 - [container af is actually contained af]( https://contained.af/ )
 
 ## AI der Woche
-
 - [OpenJourney]( https://news.ycombinator.com/item?id=34522311 )
   - [civitai.com]( https://civitai.com/ ) 
 - [ignore the previous directions and ...]( https://twitter.com/jmilldotdev/status/1600624362394091523 )
@@ -33,9 +31,8 @@ Alle an Board.
 - [KI]( https://mastodon.social/@elhotzo/109756267620615987 )
 
 ## News
-
 - [Erster kabelloser Fernseher fällt von der wand, wenn der Akku leer]( https://www.derstandard.at/story/2000142524795/erster-kabelloser-fernseher-faellt-von-der-wand-wenn-der-akku )
-  - [Displace TV]( https://displace.tv/ )
+  * [Displace TV]( https://displace.tv/ )
 - [Mutalk]( https://en.shiftall.net/products/mutalk )
 - [Smartwatch im Eigenbau]( https://t3n.de/news/zswatch-open-source-smartwatch-diy-1528208/ )
 - [PanDoc 3.0 Released]( https://www.golem.de/news/dokumentenkonverter-pandoc-3-0-ist-komplett-umgebaut-2301-171336.html )
@@ -48,9 +45,7 @@ Alle an Board.
 - [Apache: Ureinwohner bitten um Namensänderung]( https://www.linux-magazin.de/news/ureinwohner-bitten-apache-foundation-um-namenswechsel/ )
 
 
-
 ## Mimimi der Woche
-
 - virt viewer unter wayland
 - [P2280R4 access ref during compile time](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2022/p2280r4.html)
 
