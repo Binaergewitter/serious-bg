@@ -58,7 +58,7 @@ Wir sind in Feierlaune (Naja eigentlich nur der Markus). Aber ne kleine Sendung 
 
 
 ## Lesefoo
-- [Scene Report: LAN Parties(video)]( https://www.ardmediathek.de/video/szene-report/folge-2-jugendtrend-lan-party-2001-s01-e02/ard-kultur )/Y3JpZDovL21kci5kZS9iZWl0cmFnL2Ntcy8wYmMyMGM5ZS0yYzYzLTRhZWUtYTQxMC02NzhkNzA3Njk4ZjY )
+- [Scene Report: LAN Parties(video)](https://www.ardmediathek.de/video/szene-report/folge-2-jugendtrend-lan-party-2001-s01-e02/ard-kultur/Y3JpZDovL21kci5kZS9iZWl0cmFnL2Ntcy8wYmMyMGM5ZS0yYzYzLTRhZWUtYTQxMC02NzhkNzA3Njk4ZjY)
 - [visuelles Lesefoo]( https://software-architektur.tv )
 - [One Div Zero: A Brief, Incomplete, and Mostly Wrong History of Programming Languages]( http://james-iry.blogspot.com/2009/05/brief-incomplete-and-mostly-wrong.html )
 
