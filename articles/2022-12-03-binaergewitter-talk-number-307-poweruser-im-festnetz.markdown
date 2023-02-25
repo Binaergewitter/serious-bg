@@ -33,14 +33,14 @@ Felix, Felix, Markus und Ingo sind glücklich im Fediverse und wünschen euch ei
   * [What happened to PHP 6](https://www.slideshare.net/andreizm/the-good-the-bad-and-the-ugly-what-happened-to-unicode-and-php-6)
 - [mydlink Home]( https://www.golem.de/news/mydlink-home-d-link-macht-smart-home-geraete-unbrauchbar-2211-170105.html )
 - [Tumblr will das ActivityPub-Protokoll unterstützen – das nutzt etwa Mastodon](https://www.heise.de/news/Tumblr-will-das-ActivityPub-Protokoll-unterstuetzen-das-nutzt-etwa-Mastodon-7349932.html )
- * [Dotcom´s MegaUpload Weggefährte verstorben]( https://winfuture.de/news,130184.html )
+  * [Dotcom´s MegaUpload Weggefährte verstorben]( https://winfuture.de/news,130184.html )
 
 ## AI der Woche
 - [Stable Diffusion v2]( https://stability.ai/blog/stable-diffusion-v2-release )
 - [Unstable Diffusion]( https://slashdot.org/story/22/11/17/2346235/meet-unstable-diffusion-the-group-trying-to-monetize-ai-porn-generators )
 - [Core ML Stable Diffusion]( https://github.com/apple/ml-stable-diffusion )
 - [OpenAI Chat]( https://arstechnica.com/information-technology/2022/12/openai-invites-everyone-to-test-new-ai-powered-chatbot-with-amusing-results/#p3 )
- * [Der große Filter]( https://scienceblogs.de/astrodicticum-simplex/2018/02/07/der-grosse-filter-oder-warum-es-vielleicht-gut-ist-wenn-wir-keine-aliens-entdecken/ )
+  * [Der große Filter]( https://scienceblogs.de/astrodicticum-simplex/2018/02/07/der-grosse-filter-oder-warum-es-vielleicht-gut-ist-wenn-wir-keine-aliens-entdecken/ )
 
 ## News
 - [Angeblich 487 Millionen Telefonnummern über WhatsApp geleakt]( https://www.heise.de/news/Angeblich-487-Millionen-Telefonnummern-ueber-WhatsApp-geleakt-7352670.html )
