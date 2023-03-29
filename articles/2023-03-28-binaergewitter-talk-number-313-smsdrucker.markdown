@@ -15,9 +15,6 @@ audioformats:
 ---
 Die SMSAusdrucker Markus, Felix und Ingo präsentieren euch die Sendung.
 
-## Blast from the Past
-- SMS Briefmarken in CH
-
 ## Toter der Woche
 - [SMS-Briefmarke in der Schweiz]( https://www.inside-it.ch/die-sms-briefmarke-hat-ausfrankiert-20230301 )
  - https://www.s25atonce.de/
@@ -39,7 +36,7 @@ Die SMSAusdrucker Markus, Felix und Ingo präsentieren euch die Sendung.
 ## News
 
 - [JEP 430 String Templates]( https://openjdk.org/jeps/430 )
-- opentracker.io gestartet (Anfang März) - opentracker.io/faq.html
+- [opentracker.io gestartet (Anfang März6)]( opentracker.io/faq.html )
  * [opentracker software]( https://erdgeist.org/arts/software/opentracker/ )
  * [libowfat]( https://github.com/NixOS/nixpkgs/blob/master/pkgs/development/libraries/lijbowfat/default.nix )
 - [Twitter Quellcode]( https://www.tagesschau.de/wirtschaft/twitter-software-code-101.html )
@@ -52,11 +49,11 @@ Die SMSAusdrucker Markus, Felix und Ingo präsentieren euch die Sendung.
 ## Themen
 
 Docker will OpenSource organisations / unpaid orgs löschen https://blog.alexellis.io/docker-is-deleting-open-source-images/
-- und rudert zurück: https://www.heise.de/news/Docker-rudert-zurueck-Kostenloses-Angebot-bleibt-erhalten-8109708.html
-Privatsphäre - https://www.heise.de/news/USA-Katholikenorganisation-kauft-App-Daten-und-findet-Priester-auf-Grindr-Co-7543463.html
+- [und rudert zurück:]( https://www.heise.de/news/Docker-rudert-zurueck-Kostenloses-Angebot-bleibt-erhalten-8109708.html )
+- [Privatsphäre](https://www.heise.de/news/USA-Katholikenorganisation-kauft-App-Daten-und-findet-Priester-auf-Grindr-Co-7543463.html )
 
 ## Mimimi der Woche
-- nanoleaf wifi (nimmt einfach DHCP angebot nicht an)
+- nanoleaf wifi: nimmt einfach DHCP Angebot nicht an
   - [WLED]( https://kno.wled.ge/ ), [Website installer]( https://install.wled.me/ )
 - Google Play Console - uuuuuunglaublich LANGSAM 
 - Telekom Cloud PBX - erzwungendes Upgrade zwingt, kostenplfichtige Zusatzpakete zu aktzeptieren
@@ -71,7 +68,7 @@ Privatsphäre - https://www.heise.de/news/USA-Katholikenorganisation-kauft-App-D
 
 ## Picks
 
-- 2023.revision-party.net/
+- [2023.revision-party.net/](http://2023.revision-party.net/ )
 - [20 Years of Nix](https://20th.nixos.org/)
 
 
