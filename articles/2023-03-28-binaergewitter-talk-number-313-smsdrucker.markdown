@@ -23,7 +23,7 @@ Die SMSAusdrucker Markus, Felix und Ingo präsentieren euch die Sendung.
 
 - [Abraham Lempel und Jacob Ziv gestorben]( https://mastodon.social/@dosnostalgic/110090845335895604 )
  * [LZW]( https://de.wikipedia.org/wiki/Lempel-Ziv-Welch-Algorithmus )
- * [LZO]https://de.wikipedia.org/wiki/Lempel-Ziv-Oberhumer )
+ * [LZO]( https://de.wikipedia.org/wiki/Lempel-Ziv-Oberhumer )
 - [Team Andro]( https://www.gannikus.de/news/bodybuilding-plattform-team-andro-abgeschaltet/ )
 
 ## AI der Woche
