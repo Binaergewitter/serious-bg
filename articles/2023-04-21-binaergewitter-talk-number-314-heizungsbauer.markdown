@@ -18,10 +18,11 @@ Alle wieder da. Ohne April Witze und mit Audioproblemen bei Ingo.
 
 ## Blast from the Past
 
-2023-06-02 ... 04 FSCK2023, Backnang https://wiki.events.hacknang.de/2023/
-2023-06-08 ... 11 21. Gulaschprogrammiernacht, Karlsruhe
-2023-06-16 ... 18 CoSin, in Biel, Schweiz https://www.cosin.ch/de/
-2023-08-15 ... CCCamp2023
+* Community Events
+   - 2023-06-02 ... 04 FSCK2023, Backnang https://wiki.events.hacknang.de/2023/
+   - 2023-06-08 ... 11 21. Gulaschprogrammiernacht, Karlsruhe
+   - 2023-06-16 ... 18 CoSin, in Biel, Schweiz https://www.cosin.ch/de/
+   - 2023-08-15 ... CCCamp2023
 
 * Recap Internet Archive / Bücher: Der springende Punkt war, das die Kopplung phys. Bücher <> Ausleihen aufgehoben wurde und damit das Fair Use verletzt.(Danke an Dani für den Kommentar)
 
@@ -65,8 +66,8 @@ Alle wieder da. Ohne April Witze und mit Audioproblemen bei Ingo.
 - [How to stop a loop on shutdown in FastAPI?](https://stackoverflow.com/questions/75975807/how-to-stop-a-loop-on-shutdown-in-fastapi/75988746)
 
 ## Lesefoo
-* Miriam Seyffarth – Why isn't the German administration procuring more FOSS?" https://www.youtube.com/watch?v=1GxPlNavFrE&list=PLq-odUc2x7i9Zrs4oyM1I3V5xlYICEL2g 
-  * gesamte FOSS Backstage Playlist: https://www.youtube.com/playlist?list=PLq-odUc2x7i9Zrs4oyM1I3V5xlYICEL2g
+* [Miriam Seyffarth – Why isn't the German administration procuring more FOSS?"]( https://www.youtube.com/watch?v=1GxPlNavFrE&list=PLq-odUc2x7i9Zrs4oyM1I3V5xlYICEL2g )
+  * [gesamte FOSS Backstage Playlist:]( https://www.youtube.com/playlist?list=PLq-odUc2x7i9Zrs4oyM1I3V5xlYICEL2g )
 * [Old Coder Guy (video)]( https://www.youtube.com/watch?v=qTf88P8HTxI ) [Teil 2]( https://www.youtube.com/watch?v=FHFZyU4IYQA ) [Teil 3]( https://www.youtube.com/watch?v=GaEb-kXrspU )
 * [Using Modern C++ to Eliminate Virtual Functions - Jonathan Gopel - CppCon 2022](https://www.youtube.com/watch?v=gTNJXVmuRRA)
 * [Classifying LEGO Bricks with Machine Learning - presented by Piotr Rybak]( https://www.youtube.com/watch?v=bzyG4Wf1Nkc )
