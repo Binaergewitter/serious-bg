@@ -17,6 +17,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'sinatra', ">= 1.0.0"
   s.add_dependency 'stupider_formatter', '>= 0.3.0'
+  s.add_dependency 'commonmarker', '>= 1.0.0.pre7'
   s.add_dependency 'builder', ">= 2.1.2"
   s.add_dependency 'excon', '>= 0.49.0'
 
