@@ -17,7 +17,7 @@ Es ist heiß draußen und wir hangeln uns mal wieder durch die heißesten Linux 
 
 ## Blast from the Past
 
-- [Backup: Kopia] (https://kopia.io/)
+- [Backup: Kopia](https://kopia.io/)
 - [rsync]( https://blog.binaergewitter.de/2023/05/19/binaergewitter-talk-number-315-chatgpt#isso-2271 )
   - `journalctl -D /path/to/external/journal`
 - BorgBackup2
