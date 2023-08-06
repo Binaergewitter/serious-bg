@@ -19,9 +19,7 @@ Sommerloch mit Felix, Markus und Ingo.
 ## Blast from the Past
 - [Weck wieder da]( https://www.spiegel.de/wirtschaft/unternehmen/nach-insolvenz-geschaeft-mit-weck-glaesern-zieht-wieder-an-investor-gesucht-a-5acef579-a016-4bc2-bb6c-505a1d1f26f2 )
 
-
 ## Toter der Woche
-
 - [Intel NUC]( https://www.heise.de/news/NUC-Intel-gibt-seine-Mini-PCs-auf-9213526.html )
   - [Asus übernimmt Lizenz für NUC]( https://www.theverge.com/2023/7/19/23800006/intel-nuc-computers-asus-license-support )
 - ["Pay oder Okay" bei heise.de]( https://noyb.eu/de/pay-or-okay-tech-news-site-heisede-illegal-decides-german-dpa )
@@ -46,7 +44,6 @@ Sommerloch mit Felix, Markus und Ingo.
 ## Themen
 
 ## Mimimi der Woche
-
 * Platzoptimierung in der Adobe Cloud
 
 
@@ -59,11 +56,8 @@ Sommerloch mit Felix, Markus und Ingo.
 - [This will be easy]( https://www.bitecode.dev/p/this-will-be-easy )
 
 ## Picks
-
 - [Evil Nix]( https://discourse.nixos.org/t/evil-nix-a-nix-library-to-download-files-from-the-internet-without-requiring-a-hash/29648/2 )
 - [7 billion humans](https://tomorrowcorporation.com/7billionhumans )
   - [shenzhen.io]( https://store.steampowered.com/app/504210/SHENZHEN_IO/ )
   - [TIS-100]( https://store.steampowered.com/app/370360/TIS100/ )
 - [You on Kazoo(video)]( https://www.youtube.com/watch?v=cRpdIrq7Rbo )
-
-
