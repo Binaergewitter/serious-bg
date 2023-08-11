@@ -35,7 +35,7 @@ Nur eine Rumpfbesatzung muss diese Sendung bestreiten. Felix und Markus betreite
 
 ## News
 * [EC's crypto crackdown]( https://newsletter.mollywhite.net/p/issue-30-sturdy-finance-isnt-atlantis )
-* [Software AG übernommen und de-listed] ( https://www.heise.de/news/Software-AG-US-Investor-uebernimmt-aeltestes-deutsches-Softwarehaus-9224926.html ) 
+* [Software AG übernommen und de-listed]( https://www.heise.de/news/Software-AG-US-Investor-uebernimmt-aeltestes-deutsches-Softwarehaus-9224926.html ) 
 * [InkScape 1.3 released]( https://9to5linux.com/inkscape-1-3-open-source-svg-editor-is-out-with-new-shape-builder-tool-many-changes )
   - [Linux Magazin](https://www.linux-magazin.de/news/inkscape-1-3-erschienen/)
 * [Overture-Maps](https://www.heise.de/news/Open-Source-Karten-Overture-Maps-veroeffentlicht-ersten-Datensatz-9228125.html)
@@ -66,5 +66,5 @@ Meditation apps
 - [std::accumulate vs. std::reduce]( https://blog.tartanllama.xyz/accumulate-vs-reduce/ )
 
 ## Picks
-* [AppleDB.dev] (https://appledb.dev/)
+* [AppleDB.dev](https://appledb.dev/)
 * [Anleitung Werbe Blocker]( https://www.kuketz-blog.de/fuer-anfaenger-bequeme-werbung-und-tracker-unter-ios-android-systemweit-verbannen/ )
