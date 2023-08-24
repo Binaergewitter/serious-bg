@@ -41,13 +41,13 @@ Live vom CCCamp 2023 aus Mildenberg in Brandenburg. Mit Felix, Ingo und Sebastia
 ### Camp
 
 * Musik
-* Villiages
-  * Jugend Villiage
+* Villages
+  * Jugend Village
   - Family Village
   - Jugend Village
-  - [NixOS assembly]()
-  - [Bits und Bäume]()
-  - [Milliways]()
+  - NixOS assembly
+  - Bits und Bäume
+  - Milliways
 * Vorträge
 * Bahn
 * Gefährte
@@ -56,7 +56,7 @@ Live vom CCCamp 2023 aus Mildenberg in Brandenburg. Mit Felix, Ingo und Sebastia
 * Baden gehen
 * ein sehr cooles Badge
 * CTF
-* [NixOS Village](https://events.ccc.de/camp/2023/hub/camp23/en/assembly/NixOS/)
+* NixOS Village
 * post zum Camp
 * Chaospost
 
