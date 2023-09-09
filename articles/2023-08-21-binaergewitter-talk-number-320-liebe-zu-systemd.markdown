@@ -69,8 +69,8 @@ Live vom CCCamp 2023 aus Mildenberg in Brandenburg. Mit Felix, Ingo und Sebastia
 
 ## Lesefoo
 
-eher lesefoo: https://www.eweek.com/artificial-intelligence/ai-software/
-besser: https://github.com/amusi/awesome-ai-awesomeness
+* eher lesefoo: [Best Artificial Intelligence Software 2023](https://www.eweek.com/artificial-intelligence/ai-software/)
+* besser: [Awesome AI Awesomeness](https://github.com/amusi/awesome-ai-awesomeness)
 
 ## Picks
 
