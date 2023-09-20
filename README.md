@@ -41,4 +41,4 @@ python gen-stork.py > stork.toml
 stork --build stork.toml
 ```
 
-then a github action builds and publishes `bgt.st` to https://comments.binaergewitter.de/bgt.st.
+then a github action builds and publishes `bgt.st` to https://search.binaergewitter.de/bgt.st.

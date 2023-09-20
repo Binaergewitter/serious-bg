@@ -28,10 +28,11 @@ jobs:
         uses: appleboy/scp-action@master
         with:
           host: ${{ secrets.DEPLOY_HOST }}
+          port: 2299
           username: ${{ secrets.DEPLOY_USER }}
           key: ${{ secrets.DEPLOY_KEY }}
           source: "bgt.st"
-          target: "/var/www/html/"
+          target: "/var/www/search/"
 
   deploy-fly:
     runs-on: ubuntu-latest
