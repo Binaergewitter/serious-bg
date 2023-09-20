@@ -57,3 +57,27 @@ Wieder alle da. Mit Börsenspiel und Eselsbrücken.
 - [samba on freebsd]( https://www.netfence.it/sub/sambaonfreebsd/ )
 - [iocage]( https://github.com/iocage/iocage/issues/1289 )
 
+## Lesefoo
+- [Threema im Architekturreview]( https://www.embarc.de/architektur-portraet-threema/ )
+- [What's New in Compiler Explorer? - Matt Godbolt - C++ on Sea 2023 (video)]( https://www.youtube.com/watch?v=O5sEug_iaf4 )
+- [Standard C++ Toolset - Anastasia Kazakova - C++ on Sea 2023  (video)]( https://youtu.be/kLNCphYSggY?si=ppqKkjW72AcGaGth )
+- [C++ Features You Might Not Know - Jonathan Müller - C++ on Sea 2023 (video)]( https://youtu.be/zGWj7Qo_POY?si=u7On6OxlENRZHf_O )
+- [How to Build Cpp Interfaces That Are Hard to Use Incorrectly - Andreas Weis - C++ on Sea 2023 (video)]( https://youtu.be/lIK7NrBrw6Y?si=yxoVgAiev7ueaGE5 )
+- [Introduction to immutable Linux]( https://dataswamp.org/~solene/2023-07-12-intro-to-immutable-os.html )
+- [Don't ask if a monorepo is good for you – ask if you're good enough for a monorepo]( https://yosefk.com/blog/dont-ask-if-a-monorepo-is-good-for-you-ask-if-youre-good-enough-for-a-monorepo.html )
+- [Costs exposed: Monorepo vs. multirepo]( https://jmmv.dev/2023/08/costs-exposed-monorepo-multirepo.html )
+
+## Picks
+- [Foundation Season 2]( https://en.wikipedia.org/wiki/Foundation_(TV_series)#Season_2_(2023) )
+  * [Foundation book]( https://en.wikipedia.org/wiki/Foundation_(Asimov_novel) )
+  * [Dune 1984]( https://en.wikipedia.org/wiki/Dune_(1984_film) )
+  * [Asimov Mathematics and the Collapse of Empire]( https://www.thehistoryreader.com/world-history/asimov-empire/ )
+- [ OSOR Awards 2023: Submit your OSS project before Sept. 21st]( https://ec.europa.eu/eusurvey/runner/OSORawards2023 )
+- [Flying Propeller]( https://www.printables.com/model/574747-strong-flying-propeller-no-loose-parts )
+- [Benutzerkonto bei Petitionsseite des Bundestags statt anderen Plattformen - denn dort landen sie nach erreichen des Qurums direkt im Bundestag.]( https://epetitionen.bundestag.de/epet/startseite.nc.html )+1
+  * [Rücknahme der geplanten  Haushaltsmittel-Kürzungen für die Bundeszentrale für politische Bildung ](  https://epetitionen.bundestag.de/petitionen/_2023/_08/_06/Petition_155248.$$$.a.u.html )
+  * [Verhinderung der Aufweichung des Klimaschutzgesetzes durch die Loslösung von Klimaschutzzielen an bestimmten Sektoren]( https://epetitionen.bundestag.de/petitionen/_2023/_06/_21/Petition_152707.html )
+- [ Erfolg von OceanCleanup ]( https://youtube.com/shorts/f09BU4WXc7Y?si=Um5H_Wx2lNUuCbk2 )
+- [Dual-Slot NVMe Card With Eight E1.S SSDs Achieves 55 GB/s Performance]( https://www.tomshardware.com/news/dual-nvme-card-with-eight-e1s-ssds-achieves-55-gbs-performance )
+  - [ukrepl]( https://github.com/makefu/ukrepl )
+- [Airbus B612 Font Open Source]( https://b612-font.com/ )
