@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Binärgewitter Talk #321: 8 Sekunden sind uns zu wenig!"
-date: 2023-09-02 07:00
+title: "Binärgewitter Talk #322: markus von den Medien"
+date: 2023-09-20 07:00
 comments: true
 categories: talk
 sharing: true
