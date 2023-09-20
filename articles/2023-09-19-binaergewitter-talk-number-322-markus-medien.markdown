@@ -15,10 +15,10 @@ audioformats:
 ---
 Wieder alle da. Mit Börsenspiel und Eselsbrücken.
 
-### Backlog von Picks und Lesefoo aus der letzten Woche
+### Themen vor Beginn
 
-- https://de.wikipedia.org/wiki/Schlacht_bei_Issos
-- https://time.com/6314544/tiktok-roman-empire-trend/
+- [Schlacht bei Issos](https://de.wikipedia.org/wiki/Schlacht_bei_Issos)
+- [According to a New TikTok Trend, Men Think About the Roman Empire All the Time](https://time.com/6314544/tiktok-roman-empire-trend/)
 
 ## Blast from the Past
 - [Polnische Bahn benutzt rein analoge Signale, kein GSM-R]( https://blog.binaergewitter.de/2023/09/01/binaergewitter-talk-number-321-8-sekunden#isso-2313 )
@@ -35,9 +35,7 @@ Wieder alle da. Mit Börsenspiel und Eselsbrücken.
 ## AI der Woche
 - [AI Pastor in Austin Texas]( https://old.reddit.com/r/Damnthatsinteresting/comments/16faxq4/church_in_austin_thats_using_ai_instead_of_pastors/ )
 - [Creating a self-aware Lara Croft that Plays Tomb Raider (video)]( https://www.youtube.com/watch?v=0wTf_bbkW2U )
-
-    https://www.heise.de/news/Tomb-Raider-Original-Trilogie-wird-neu-aufgelegt-9307819.html
-
+  * ["Tomb Raider": Original-Trilogie wird neu aufgelegt](https://www.heise.de/news/Tomb-Raider-Original-Trilogie-wird-neu-aufgelegt-9307819.html )
 - [Elon Musk self-driving car]( https://news.yahoo.com/elon-musk-stormed-tesla-office-121529779.html )
 - [AI Spiralbilder]( https://arstechnica.com/information-technology/2023/09/dreamy-ai-generated-geometric-scenes-mesmerize-social-media-users/ )
 
