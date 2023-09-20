@@ -31,6 +31,7 @@ jobs:
           port: 2299
           username: ${{ secrets.DEPLOY_USER }}
           key: ${{ secrets.DEPLOY_KEY }}
+          overwrite: true  
           source: "bgt.st"
           target: "/var/www/search/"
 
