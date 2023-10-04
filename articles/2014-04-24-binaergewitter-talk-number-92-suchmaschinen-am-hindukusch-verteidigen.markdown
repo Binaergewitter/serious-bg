@@ -25,17 +25,17 @@ Ostern ist vorbei. Die Eier sind gegessen und auf der großartigen Pfleidicon tr
 
 - [25 Jahre Game Boy](https://de.wikipedia.org/wiki/Game_Boy)
 - [Samsung Tizen Fone](http://www.gulli.com/news/23709-neuer-versuch-samsungs-tizen-smartphone-erscheint-im-sommer-2014-04-16)
-- [Wireless Strom](http://www.golem.de/news/energieversorgung-forscher-uebertragen-strom-drahtlos-ueber-5-meter-1404-106002.html) via [@EricDanielski](http://twitter.com/EricDanielski)
+- [Wireless Strom](http://www.golem.de/news/energieversorgung-forscher-uebertragen-strom-drahtlos-ueber-5-meter-1404-106002.html) via [@EricDanielski](https://web.archive.org/web/20160207160254/http://twitter.com/EricDanielski)
 - [OS X Beta Seed Program für alle mit Apple-ID](https://appleseed.apple.com/sp/betaprogram)
 - [Security holes gefixt von iOS 7.1.1](http://arstechnica.com/security/2014/04/apple-users-left-exposed-to-serious-threats-for-weeks-former-employee-says/)
 - [Apple "nah" an neuer Product Category](http://www.theverge.com/2014/4/24/5644896/apple-closer-than-ever-to-entering-new-product-category-ceo-says)
-- [Apple heuert Leute für Mobile Payment an](http://recode.net/2014/04/21/apple-interviewing-job-candidates-for-mobile-payments-push/)
+- [Apple heuert Leute für Mobile Payment an](https://web.archive.org/web/20140425132132/http://recode.net/2014/04/21/apple-interviewing-job-candidates-for-mobile-payments-push/)
 - [Travel back in time with Google Street View](http://arstechnica.com/gadgets/2014/04/time-travel-is-just-a-click-away-google-opens-up-street-view-archives/)
-- [Google kauft Titan Aerospace](http://www.fastcompany.com/3029099/most-innovative-companies/google-buys-titan-aerospace-the-drone-company-facebook-had-its-eye)
+- [Google kauft Titan Aerospace](https://web.archive.org/web/20140518185739/http://www.fastcompany.com/3029099/most-innovative-companies/google-buys-titan-aerospace-the-drone-company-facebook-had-its-eye)
 - [Vic Gundotra verlässt Google](http://www.theverge.com/2014/4/24/5649366/google-boss-vic-gundotra-is-leaving-the-company)
 - [Netcat: Neues Album als Kernel-Modul](http://www.pro-linux.de/news/1/21020/netcat-neues-album-als-kernel-modul.html)
 - [Tom Preston-Werner verlässt Github](https://github.com/blog/1823-results-of-the-github-investigation)
-- [Amazon Prime Kunden bekommen alten HBO-Content](http://meedia.de/2014/04/23/hbo-serien-und-filme-bald-fuer-amazon-prime-kunden-verfuegbar/)
+- [Amazon Prime Kunden bekommen alten HBO-Content](https://web.archive.org/web/20140426083959/http://meedia.de/2014/04/23/hbo-serien-und-filme-bald-fuer-amazon-prime-kunden-verfuegbar/)
 - [Facebook kauft Moves.app](http://mashable.com/2014/04/24/facebook-acquires-moves-app/)
 - [Bind 10 stirbt und Bundy kommt](http://www.pro-linux.de/news/1/21010/aus-bind-10-wird-bundy.html)
 - [Debian 6.0 LTS](http://www.pro-linux.de/news/1/21003/debian-lts-wird-realitaet.html)
@@ -50,12 +50,12 @@ Ostern ist vorbei. Die Eier sind gegessen und auf der großartigen Pfleidicon tr
      * [OpenSSL Rampage](http://opensslrampage.org/)
      * [LibreSSL](http://www.libressl.org/)
 - [Kommentar von Antirez](http://antirez.com/news/76)
-- [LinuxFoundation startet Kampagne um OpenSSL und andere zu finanzieren](http://www.linuxfoundation.org/news-media/announcements/2014/04/amazon-web-services-cisco-dell-facebook-fujitsu-google-ibm-intel)
+- [LinuxFoundation startet Kampagne um OpenSSL und andere zu finanzieren](https://web.archive.org/web/20140425124353/http://www.linuxfoundation.org/news-media/announcements/2014/04/amazon-web-services-cisco-dell-facebook-fujitsu-google-ibm-intel)
 - [Andere Fragile SSL Implementierungen gehen beim test kaputt](https://isc.sans.edu/diary/Be+Careful+what+you+Scan+for%21/18017)
 
 ## Themen
 
-- [Easterhegg](http://eh14.easterhegg.eu/)
+- [Easterhegg](https://web.archive.org/web/20141219172906/http://eh14.easterhegg.eu/)
 - Linux Web Kiosk
     * [Intel NUC](http://www.intel.com/content/www/us/en/nuc/overview.html)
 
@@ -76,7 +76,7 @@ Ostern ist vorbei. Die Eier sind gegessen und auf der großartigen Pfleidicon tr
 ## Picks
 
 - [Paperbag](http://paperbag.io/)
-- [PointerPointer](http://www.pointerpointer.com/)
+- [PointerPointer](https://web.archive.org/web/20140425045329/http://www.pointerpointer.com/)
 - [Btrfs Deduplication (nicht bedup)](https://github.com/markfasheh/duperemove)
 - [80s Anime Version of Harry Potter (video)](http://www.wired.com/2014/04/harry-potter-anime/)
 - [Rick and Morty](http://www.imdb.com/title/tt2861424/)
@@ -87,5 +87,5 @@ Ostern ist vorbei. Die Eier sind gegessen und auf der großartigen Pfleidicon tr
 - [AppliedSensors Developer Support](http://mailman.twinspot.net/listinfo/iaqusb)
 - [Honest Trailers](https://www.youtube.com/playlist?list=PL86F4D497FD3CACCE)
 - [Cyanide and Happiness: Dentist](https://www.youtube.com/watch?v=gzsrooteAZw)
-- [1mobile store](http://www.1mobile.com/)
+- [1mobile store](https://web.archive.org/web/20140506153050/http://www.1mobile.com/)
 - [Mac Pro Daisy Chain Challenge](http://www.macworld.com/article/2146360/lab-tested-the-mac-pro-daisy-chain-challenge.html)

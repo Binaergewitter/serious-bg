@@ -37,7 +37,7 @@ eine Apple News?
   * [Ecuadorian Presidential Candidate Proposes a National Cryptocurrency but It Won't Replace the Dollar]( https://news.bitcoin.com/ecuadorian-presidential-candidate-proposes-a-national-cryptocurrency-but-it-wont-replace-the-dollar/ )
 - [Beschwerdewelle gegen Cookie-Banner](https://www.tagesschau.de/ausland/europa/datenschutz-cookies-noyb-101.html)
 - [USB-C gibt MEHR ENERGIEEEEE]( https://www.theverge.com/circuitbreaker/2021/5/25/22453936/usb-c-power-delivery-extended-power-range-epr )
-- ["Gute" Ratings im Apple Store]( https://twitter.com/keleftheriou/status/1397288720357679104 )
+- ["Gute" Ratings im Apple Store]( https://web.archive.org/web/20210608032805/https://twitter.com/keleftheriou/status/1397288720357679104 )
 - [Bundestag erlaubt autonome Autos ohne Sicherheitsfahrer]( https://www.golem.de/news/weltweites-novum-bundestag-erlaubt-autonome-autos-ohne-sicherheitsfahrer-2105-156669.html )
 
 
