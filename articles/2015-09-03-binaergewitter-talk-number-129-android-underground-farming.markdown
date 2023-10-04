@@ -29,7 +29,7 @@ Leider mal wieder mit Technikproblemen und etwas verspäteter Veröffentlichung.
 ## Future McAfee der Woche
 
 - [Commercially available Flamethrower](http://arstechnica.com/tech-policy/2015/08/facing-possible-ban-more-americans-are-buying-new-and-legal-900-flamethrowers/)
-  * [Link zum Store](http://store.xm42.com/category-s/106.htm)
+  * [Link zum Store](https://web.archive.org/web/20150803212950/http://store.xm42.com:80/category-s/106.htm)
 
 ## Blast
 
@@ -88,7 +88,7 @@ Leider mal wieder mit Technikproblemen und etwas verspäteter Veröffentlichung.
   * [Teil 2](http://www.alfajango.com/blog/rails-3-remote-links-and-forms-data-type-with-jquery/ )
 - [Introduction to Roda](http://twin.github.io/introduction-to-roda/)
 - [Radare2 Book](https://www.gitbook.com/book/radare/radare2book/details)
-  * [Radare2 Colors](http://radare.gitbooks.io/radare2book/content/configuration/colors.html)
+  * [Radare2 Colors](https://web.archive.org/web/20210224200546/https://radare.gitbooks.io/radare2book/content/configuration/colors.html)
 
 ## Mimimi der Woche
 
@@ -109,4 +109,4 @@ Leider mal wieder mit Technikproblemen und etwas verspäteter Veröffentlichung.
 - [ProTube](https://itunes.apple.com/de/app/protube-for-youtube/id931201696?l=en&mt=8)
   * [TubeX](https://itunes.apple.com/de/app/tubex-videos-music-for-youtube/id939906112?l=en&mt=8)
 - [Amazon Music](http://www.amazon.de/gp/feature.html?docId=1000755443)
-- [Wiso Steuer 2015](https://www.buhl.de/produkte/alle/wiso-steuer-mac/product.html)
+- [Wiso Steuer 2015](https://web.archive.org/web/20190703195054/https://www.buhl.de/produkte/wiso-steuer-mac)

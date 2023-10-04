@@ -16,7 +16,7 @@ Mit Felix² und Markus.
 
 ## Blast
 - [snapcast](https://github.com/badaix/snapcast)
-  * [HiFiberry](https://www.hifiberry.com/shop/boards/hifiberry-dac-pro/)
+  * [HiFiberry](https://web.archive.org/web/20180214220410/https://www.hifiberry.com/shop/boards/hifiberry-dac-pro/)
   * [python-mpd2 v1.0.0](https://github.com/Mic92/python-mpd2/releases/tag/v1.0.0)
 - [HiDPI](https://www.frumble.de/blog/2017/03/01/manjaro-linux-und-kde-plasma-5-das-frumble-kompendium-2017/#HiDPI)
   * [ansible config XServer settings](https://github.com/fliiiix/dotfiles/blob/45fd11096a7a5426cec23d75eff4c1b93ce19eec/functions/hidpi_display_settings.yml)
@@ -42,8 +42,7 @@ https://www.heise.de/security/meldung/Meltdown-Spectre-Microsofts-Compiler-Fix-w
 https://www.heise.de/newsticker/meldung/Dank-Algorithmen-Trump-musste-fuer-Facebook-Werbung-weniger-bezahlen-als-Clinton-3978417.html)
 - [iCloud auf google servern -> full circle](https://www.theregister.co.uk/2018/02/26/apple_icloud_on_google_servers/)
 - [unicode fun](https://securelist.com/zero-day-vulnerability-in-telegram/83800/)
-- [Auf Kamera: junge Webcam versteckt sich im MateBook X unter einer F-Taste](
-https://www.theverge.com/2018/2/25/17049094/huawei-matebook-x-pro-mediapad-m5-pro-release-date-mwc-2018)
+- [Auf Kamera: junge Webcam versteckt sich im MateBook X unter einer F-Taste](https://web.archive.org/web/20180225163802/https://www.theverge.com/2018/2/25/17049094/huawei-matebook-x-pro-mediapad-m5-pro-release-date-mwc-2018)
 - [30tb SSD zu kaufen von Samsung](https://arstechnica.com/gadgets/2018/02/samsung-crams-30tb-of-ssd-into-a-single-2-5-inch-drive/)
 - [Malware wenn die Version von Flight Sim piratisiert wurde](
 https://yro.slashdot.org/story/18/02/19/1923200/flight-sim-company-embeds-malware-to-steal-pirates-passwords)
@@ -55,7 +54,7 @@ https://infodump.blog/2018/02/11/five-ways-to-instantly-improve-blah-blah-your-p
 - [github trending repos](https://github.com/vitalets/github-trending-repos)
   * [Erlang Package manage naming mistake: mailinglist](http://erlang.org/pipermail/erlang-questions/2018-February/094769.html)
   * [Erlang the Movie II](https://www.youtube.com/watch?v=rRbY3TMUcgQ)
-- [The iPhone X: Apple’s underrated masterpiece](https://www.theverge.com/2018/2/1/16957594/iphone-x-apple-quarterly-report-review)
+- [The iPhone X: Apple’s underrated masterpiece](https://web.archive.org/web/20220823104937/https://www.theverge.com/2018/2/1/16957594/iphone-x-apple-quarterly-report-review)
 
 ## Mimimi der Woche
 - BeyondPod
