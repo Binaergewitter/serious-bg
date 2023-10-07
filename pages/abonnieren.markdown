@@ -25,6 +25,7 @@ Habt Spaß am Gerät.
     <th>Opus</th>
     <th>iTunes</th>
     <th>Spotify</th>
+    <th>Amazon</th>
   </tr>
   <tr>
   <td><a href="/">Alle</a></td>
