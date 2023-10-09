@@ -27,14 +27,13 @@ Doch wir können auch unter 2 Stunden bleiben. Diesmal mit Liedern, Tofu und dem
 ## Untoter der Woche
 - [Philips Hue will force users to upload their data]( https://www.home-assistant.io/blog/2023/09/22/philips-hue-force-users-upload-data-to-cloud/ )
   * or not
-- ingo hat n stick
+- [Zigbee Stick]( https://amzn.to/3RPfOqU )
 
 ## AI der Woche
 - [AI in Nextcloud: what, why and how]( https://nextcloud.com/blog/ai-in-nextcloud-what-why-and-how/ )
 
 ## Stallmann der Woche
-- er hat Krebs
-https://news.slashdot.org/story/23/09/29/1431234/richard-stallman-says-he-has-cancer
+- [er hat Krebs](https://news.slashdot.org/story/23/09/29/1431234/richard-stallman-says-he-has-cancer )
 
 ## News
 - [Terraform forked as OpenTofu]( https://www.linuxfoundation.org/press/announcing-opentofu )
@@ -44,9 +43,7 @@ https://news.slashdot.org/story/23/09/29/1431234/richard-stallman-says-he-has-ca
 - [Raspberry Pi 5]( https://www.raspberrypi.com/products/raspberry-pi-5/ )
 
 ## Themen
-- SteamDeck
-https://www.steamdeck.com/de/tech
-SteamOS 3.0 (auf Basis von Arch)
+- [SteamDeck](https://www.steamdeck.com/de/tech )
 -> GamePicks: Trüberbrook, Beyond a Steel Sky
 
 
@@ -55,16 +52,16 @@ SteamOS 3.0 (auf Basis von Arch)
 - nextcloud on Android
 
 ## Lesefoo
-* [Seminararbeit: Betrieb eines Mastodon Servers in D - Rechtlicher Rahmen]( https://seafile.do-m-inik.at/d/b307f5ebf5784c1ab7a7/ )
-* [Einsteig ins Fediverse]( https://ebildungslabor.de/blog/mikrocontent-einstieg-ins-fediverse/ )
+- [Seminararbeit: Betrieb eines Mastodon Servers in D - Rechtlicher Rahmen]( https://seafile.do-m-inik.at/d/b307f5ebf5784c1ab7a7/ )
+- [Einsteig ins Fediverse]( https://ebildungslabor.de/blog/mikrocontent-einstieg-ins-fediverse/ )
 - [Assembly, System Calls, and Hardware in C++ - David Sankel - CppNow 2023 (video)]( https://www.youtube.com/watch?v=7xwjjolDnwg )
 - [Value Oriented Programming Part 1: You Say You Want to Write a Function - Tony Van Eerd  CppNow 2023 (video)]( https://www.youtube.com/watch?v=b4p_tcLYDV0 )
 
 ## Picks
 - [Zfs Nixos]( https://l33tsource.com/blog/2023/10/01/zfs-nixos/ )
-* [solaar](https://pwr-solaar.github.io/Solaar/)
+- [solaar](https://pwr-solaar.github.io/Solaar/)
 - Xournal++
-- https://github.com/wagoodman/dive
-- https://www.humblebundle.com/books/software-architecture-oreilly-books
+- [dive](https://github.com/wagoodman/dive )
+- [humble bundle books](https://www.humblebundle.com/books/software-architecture-oreilly-books )
 * [EU verschenkt Zugtickets für junge Europäer.](https://www.tagesschau.de/ausland/europa/zugtickets-europa-100.html?at_medium=mastodon&at_campaign=tagesschau.de)
 
