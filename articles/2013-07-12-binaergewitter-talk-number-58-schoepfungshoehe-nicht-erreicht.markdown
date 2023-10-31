@@ -23,7 +23,7 @@ Mit Pfleidi, Felix und Ingo und auch gar nicht so lang aber wieder dumm, unlusti
 
 ##Toter der Woche
 
-* [Google Latitude](https://www.google.de/latitude/b/0)
+* [Google Latitude](https://web.archive.org/web/20140818184951/https://support.google.com/gmm/answer/3001634?p=maps_lat_faq)
 * [Geofencing](http://de.wikipedia.org/wiki/Geofencing)  
 * [PRISM](http://de.wikipedia.org/wiki/PRISM_%28%C3%9Cberwachungsprogramm%29)  
 * [NSA](http://de.wikipedia.org/wiki/National_Security_Agency)  
@@ -41,7 +41,7 @@ Mit Pfleidi, Felix und Ingo und auch gar nicht so lang aber wieder dumm, unlusti
 * Google hat einem wenigstens die Daten gegeben  
 * [Endomondo](http://www.endomondo.com/)  
 * [Open Street Map](http://www.openstreetmap.org/)  
-* [My Tracks](http://www.google.com/mobile/mytracks/)  
+* [My Tracks](https://web.archive.org/web/20120223010754/http://www.google.com/mobile/mytracks/)  
 * [Fitbit](http://www.fitbit.com/de)  
 
 ## Toder der Woche 
@@ -81,7 +81,7 @@ Mit Pfleidi, Felix und Ingo und auch gar nicht so lang aber wieder dumm, unlusti
 * [Carnegie Mellon University](http://www.cmu.edu/index.shtml)  
 * [Kein Urheberrechtsschutz für pr0n](http://www.heise.de/newsticker/meldung/Urteil-Kein-Urheberrechtsschutz-fuer-Pornos-1908794.html)
 * [Urheberrecht](http://de.wikipedia.org/wiki/Urheberrechtsschutz)  
-* [Marketingfail bei der NSA, NSA baut kostenloses Cloud-basiertes Backup](http://prism.andrevv.com/)  
+* [Marketingfail bei der NSA, NSA baut kostenloses Cloud-basiertes Backup](https://web.archive.org/web/20130616055659/http://prism.andrevv.com/)  
 * [Sähroboter](http://www.heise.de/newsticker/meldung/Saehroboter-fuer-den-englischen-Rasen-1916047.html)
 * [Arduino](http://arduino.cc/)  
 * [Monsanto](http://de.wikipedia.org/wiki/Monsanto)  
@@ -93,7 +93,7 @@ projizieren](http://www.telegraph.co.uk/finance/newsbysector/mediatechnologyandt
 * [Subliminale Botschaften](http://de.wikipedia.org/wiki/Subliminal_%28Psychologie%29)  
 * [Github bringt Release-Management](https://github.com/blog/1547-release-your-software)  
 * [Untertitelseite offline wegen Razia](http://www.heise.de/newsticker/meldung/Schwedische-Polizei-beschlagnahmt-Server-von-Untertitel-Webseite-1915924.html)
-* [Piratebay](http://thepiratebay.se)  
+* [Piratebay](https://web.archive.org/web/20130616055659/http://prism.andrevv.com/)  
 * [Flattr](http://flattr.com)  
 * [Undertexter](http://www.undertexter.se/)  
 * [Oracle ändert Lizenz von BerkeleyDB zu AGPL](http://developers.slashdot.org/story/13/07/05/1647215/oracle-quietly-switches-berkeleydb-to-agpl)
@@ -104,8 +104,8 @@ projizieren](http://www.telegraph.co.uk/finance/newsbysector/mediatechnologyandt
 * [Endlich saubere Energie!](http://www.extremetech.com/extreme/160131-thorium-nuclear-reactor-trial-begins-could-provide-cleaner-safer-almost-waste-free-energy)
 * [Thorium](http://de.wikipedia.org/wiki/Thorium)  
 * [Fukushima Daiichi](http://de.wikipedia.org/wiki/Kernkraftwerk_Fukushima_Daiichi)  
-* [Tagesschau Meldung zu Fukushima](http://www.tagesschau.de/ausland/japan-atomkraft104.html)  
-* [Ex-Manager von Fukushima an Krebs gestorben](http://www.tagesspiegel.de/weltspiegel/japan-ex-manager-von-fukushima-an-krebs-gestorben/8476138.html)  
+* [Tagesschau Meldung zu Fukushima](https://web.archive.org/web/20130714015954/http://www.tagesschau.de/ausland/japan-atomkraft104.html)  
+* [Ex-Manager von Fukushima an Krebs gestorben](https://web.archive.org/web/20130715223345/http://www.tagesspiegel.de/weltspiegel/japan-ex-manager-von-fukushima-an-krebs-gestorben/8476138.html)  
 * [Firefox Phone in Deutschland](http://www.heise.de/newsticker/meldung/Congstar-Firefox-Smartphone-ab-Herbst-in-Deutschland-1916056.html)
 * [Alcatel one touch](http://www.alcatelonetouch.com/de/)  
 * [Chrome 28 kommt mit Blink](http://thenextweb.com/google/2013/07/09/chrome-28-arrives-with-rich-notifications-for-apps-and-extensions-on-windows-mac-and-linux-coming-soon/)
@@ -152,9 +152,9 @@ projizieren](http://www.telegraph.co.uk/finance/newsbysector/mediatechnologyandt
     * Kapitelmarken (mp4chaps)
     * HTML (verschiedene Styles)
     * Markdown
-* [Shownot.es Flattr Page](https://flattr.com/profile/shownotes)  
-* [Binärgewitter Flattr Page](https://flattr.com/profile/binaergewitter)  
-* [Xenim](http://streams.xenim.de/)  
+* [Shownot.es Flattr Page](https://web.archive.org/web/20131206160029/https://flattr.com/profile/shownotes)  
+* [Binärgewitter Flattr Page](https://web.archive.org/web/20221024022902/https://flattr.com/@binaergewitter)  
+* [Xenim](https://web.archive.org/web/20130518151559/http://streams.xenim.de/)  
 * Das Shownot.es Team teilt hiermit mit, dass die meisten Probleme bereits gefixt sind  
 
 ## Picks
@@ -167,9 +167,9 @@ projizieren](http://www.telegraph.co.uk/finance/newsbysector/mediatechnologyandt
 * [Regex Tester](http://regexpal.com/)  
 * [Badland](https://itunes.apple.com/de/app/badland/id535176909?l=en&mt=8)  
 * [Where ist my Water?](https://itunes.apple.com/de/app/wheres-my-water/id449735650?mt=8)  
-* [Seeks - Decentralized Search and Filtering](http://www.seeks-project.info/site/)  
+* [Seeks - Decentralized Search and Filtering](https://web.archive.org/web/20130709130513/http://www.seeks-project.info/site/)  
 * [DuckDuckGo](https://duckduckgo.com)  
-* [ixquick](https://www.ixquick.com/)  
+* [ixquick](https://web.archive.org/web/20130531232702/https://www.startpage.com/)  
 * [MetaGer2](http://metager2.de/)  
 * [PubSubHubbub (PuSH)](http://de.wikipedia.org/wiki/PubSubHubbub)  
 

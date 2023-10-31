@@ -27,8 +27,8 @@ Mat muss als Microsoftexperte uns die neuen Produkte erklären, außerdem bleibt
 - [Pixel C](https://pixel.google.com/)
 - Android 6.0
 - neue Nexus Geräte
-  * [Nexus 5X](http://www.google.com/intl/de_de/nexus/5x/)
-  * [Nexus 6P](http://www.google.com/intl/de_de/nexus/6p/)
+  * [Nexus 5X](https://web.archive.org/web/20161001082118/https://www.google.com/intl/de_de/nexus/5x/)
+  * [Nexus 6P](https://web.archive.org/web/20151001234405/http://www.google.com/intl/de_de/nexus/6p)
 - [AMP HTML](https://github.com/ampproject/amphtml/blob/master/README.md)
 - [Chromecast](https://store.google.com/?playredirect=true)
 - [CloudPiercer](https://cloudpiercer.org/)
@@ -57,7 +57,7 @@ Mat muss als Microsoftexperte uns die neuen Produkte erklären, außerdem bleibt
 - SSL SHA2 Zertifikate und alte Software
 - und dann genau nach der letzten Sendung: HDMI-CEC mit TV und Receiver kaputt. Am Ende brachte nur kompletter Strom-Reset den Fix.
 - Firefox ist slow
-- QR Code Generatoren!!! [einer generator der nicht suckt](https://scan.me/qr-code-generator#/static)
+- QR Code Generatoren!!! [einer generator der nicht suckt](https://web.archive.org/web/20150927170258/https://scan.me/qr-code-generator)
 - Twitter saved searches filtern keine blocked und muted Accounts
 
 ## Picks
@@ -66,7 +66,7 @@ Mat muss als Microsoftexperte uns die neuen Produkte erklären, außerdem bleibt
 - [Xiaomi Mini](http://s.click.aliexpress.com/e/yneyfIQBe?af=130085010)
   * [Google Translate App](https://play.google.com/store/apps/details?id=com.google.android.apps.translate&hl=de)
 - [Paint With Donald Trump](http://paintwithdonaldtrump.com/) (via [@l33tname](https://twitter.com/l33tname))
-- [#worldwithoutlinux](http://www.linuxfoundation.org/world-without-linux)
+- [#worldwithoutlinux](https://web.archive.org/web/20151007015656/http://www.linuxfoundation.org/world-without-linux)
 - [Arachni Scanner](http://www.arachni-scanner.com/)
 - [Amazon Inspector](http://aws.amazon.com/de/inspector/)
 - [Shakesperean tragedy gif'd](https://twitter.com/senongo/status/650069453863014401)

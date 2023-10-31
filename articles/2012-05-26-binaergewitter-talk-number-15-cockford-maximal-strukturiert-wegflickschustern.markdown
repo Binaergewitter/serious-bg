@@ -16,7 +16,7 @@ Felix und pfleidi allein im Studio. Nicht ganz eine 112 reloaded aber trotzdem m
 
 ### Erfindung der Woche
 
-- [Nicht haftende Beschichtung in der Flasche und der Ketchup flutscht fuer immer](http://www.fastcoexist.com/1679878/mits-freaky-non-stick-coating-keeps-ketchup-flowing)
+- [Nicht haftende Beschichtung in der Flasche und der Ketchup flutscht fuer immer](https://web.archive.org/web/20120531053618/http://www.fastcoexist.com/1679878/mits-freaky-non-stick-coating-keeps-ketchup-flowing)
 - [Kerl baut aus seiner Ente ein Motorrad](http://hackaday.com/2012/05/21/man-stranded-in-the-desert-makes-a-motorcycle-from-his-broken-car/)
 - [Perpeto Mobile](http://www.wimp.com/perpetualmotion/)
 - [Danke Japan! Der Roboter Arsch](http://kotaku.com/5909139/japanese-researcher-made-robot-ass-for-you-to-spank-finally/gallery/1)
@@ -29,7 +29,7 @@ Felix und pfleidi allein im Studio. Nicht ganz eine 112 reloaded aber trotzdem m
 
 ## Untoter der Woche
 
-- [Jazz Legende auf Parkbank nach 36 Jahren gefunden](http://www.tagesschau.de/kultur/jazz104.html)
+- [Jazz Legende auf Parkbank nach 36 Jahren gefunden](https://web.archive.org/web/20120626231336/http://www.tagesschau.de/kultur/jazz104.html)
 
 ## News
 
@@ -90,13 +90,13 @@ zurueck...](http://arstechnica.com/gaming/2012/05/adobe-backs-down-will-secure-l
 - [Harvest, yield, and scalable tolerant systems](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.24.3690&rep=rep1&type=pdf)
 - [Avengers HUD Design](http://cargocollective.com/jayse/Avengers)
 - [The selfish gene](http://www.amazon.de/gp/product/0199291144/ref=as_li_ss_tl?tag=retinacast-21)
-- [Tahoe-lafs](https://tahoe-lafs.org/~zooko/lafs.pdf)
+- [Tahoe-lafs](https://web.archive.org/web/20120309005816/https://tahoe-lafs.org/~zooko/lafs.pdf)
 
 ## Mimimi der Woche
 
 - [Neues netcfg release bricht config](http://www.archlinux.org/news/netcfg-282-release/) (pfleidi)
 - [Cacti](http://cacti.net/)
-    * [Cacti debugging](http://docs.cacti.net/manual:087:4_help.2_debugging)
+    * [Cacti debugging](https://web.archive.org/web/20120531113722/http://docs.cacti.net/manual:087:4_help.2_debugging)
     * [Benutzt Munin](http://munin-monitoring.org/)
 - Snort braucht 512+ MB RAM
     - [verwendet mit SecurityOnion](http://securityonion.blogspot.de/)
@@ -106,8 +106,8 @@ zurueck...](http://arstechnica.com/gaming/2012/05/adobe-backs-down-will-secure-l
 - [Making the web faster, one Rails page at a time](http://www.youtube.com/watch?v=cUSucUxb40s) (pfleidi)
     * [W3C Navigation Timining API](https://dvcs.w3.org/hg/webperf/raw-file/tip/specs/NavigationTiming/Overview.html)
 - [Tron Dance](https://www.youtube.com/watch?v=-Rot9uaVO8s)
-- [Hübsche RFCs](http://pretty-rfc.herokuapp.com/) (pfleidi)
-- [Bearfood.com](http://bearfood.com/)
+- [Hübsche RFCs](https://web.archive.org/web/20120517234645/http://pretty-rfc.herokuapp.com/) (pfleidi)
+- [Bearfood.com](https://web.archive.org/web/20120524040612/http://bearfood.com/)
     - [Vogel Berserker](http://explodedsoda.tumblr.com/post/20119944789/knitmeapony-fyeahlilbitoeverything)
 - [Webpagetest](http://www.webpagetest.org/) (pfleidi)
 - [Gitolite](https://github.com/sitaramc/gitolite)

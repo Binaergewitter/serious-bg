@@ -16,7 +16,7 @@ Diesmal nur mit Minimalbesetzung aber mit Urgesteinen der Computergeschichte:
 ## Toter der Woche
 * [Altavista](http://de.altavista.com/)
 * [Ruby 1.8.7](http://www.ruby-lang.org/en/news/2013/06/30/we-retire-1-8-7/)
-* [Tizen](http://www.mobilegeeks.de/betriebssystem-alternative-tizen-so-gut-wie-tot/)
+* [Tizen](https://web.archive.org/web/20130706234850/http://www.mobilegeeks.de/betriebssystem-alternative-tizen-so-gut-wie-tot/)
     - [Jolla](http://jolla.com/)
     - SailfishOS
     - [Joyn](http://de.wikipedia.org/wiki/Joyn)
@@ -24,15 +24,15 @@ Diesmal nur mit Minimalbesetzung aber mit Urgesteinen der Computergeschichte:
     * [Mother of all Demos](https://www.youtube.com/watch?v=yJDv-zdhzMY)
 
 ## News
-* [Larry Reloaded](https://www.replaygamesinc.com/)
+* [Larry Reloaded](https://web.archive.org/web/20130618092846/https://www.replaygamesinc.com/)
     - [kleiner Bug in der Linux Version beim
 Speichern](http://www.bitblokes.de/2013/07/leisure-suit-larry-in-the-land-of-the-lounge-lizards-reloaded-nach-speichern-und-laden-unter-linux-ist-larry-verschwunden/)
  * [Kernel 3.10](http://kernelnewbies.org/Linux_3.10)
 * [Samsung kauf Boxee](http://www.heise.de/newsticker/meldung/Samsung-schluckt-Boxee-1911159.html)
-    - [Bye, bye, Boxee](http://gigaom.com/2013/07/04/boxee-acquired-cloud-dvr-shutting-down-post-mortem/)
-* [Flattr hat Bitcoin support](http://blog.flattr.net/2013/07/adding-bitcoin-support/)
+    - [Bye, bye, Boxee](https://web.archive.org/web/20130801094615/http://gigaom.com/2013/07/04/boxee-acquired-cloud-dvr-shutting-down-post-mortem/)
+* [Flattr hat Bitcoin support](https://web.archive.org/web/20130709180826/http://blog.flattr.net/2013/07/adding-bitcoin-support/)
     - [bips](http://bips.me)
-* [VPN Provider nicht per VISA/MASTERCARD](http://www.mobilegeeks.de/mastercard-und-visa-verbieten-zahlungen-an-vpn-provider/)
+* [VPN Provider nicht per VISA/MASTERCARD](https://web.archive.org/web/20130920050328/http://www.mobilegeeks.de/mastercard-und-visa-verbieten-zahlungen-an-vpn-provider/)
     - [Auf Torrentfreak](http://torrentfreak.com/mastercard-and-visa-start-banning-vpn-providers-130703/)
     - [Marc mag privateinternetaccess](https://www.privateinternetaccess.com/)
 * [Simplify](https://www.simplify.com/commerce/)
@@ -59,7 +59,7 @@ Speichern](http://www.bitblokes.de/2013/07/leisure-suit-larry-in-the-land-of-the
 
 ## Mimimi der Woche
 * cat /sys/block/sda/queue/scheduler
-* [JDK7 disabled MD2](http://www.richardnichols.net/2012/08/arrrggh-java-security-cert-certificateexception-certificates-does-not-conform-to-algorithm-constraints/)
+* [JDK7 disabled MD2](https://web.archive.org/web/20130921052959/http://www.richardnichols.net/2012/08/arrrggh-java-security-cert-certificateexception-certificates-does-not-conform-to-algorithm-constraints/)
 * Zoll Clusterfuck
 
 

@@ -19,7 +19,7 @@ Wieder die 3 von der Tankstelle, die euch mit aktuellen Toten, News, Lesefoo und
 
 ## Toter der Woche
 
-- [Mann springt aus Jux gegen die U-Bahn - tot](http://www.blick.ch/news/ausland/mann-springt-aus-jux-gegen-u-bahn-tot-id1901395.html)
+- [Mann springt aus Jux gegen die U-Bahn - tot](https://web.archive.org/web/20120601052902/http://www.blick.ch/news/ausland/mann-springt-aus-jux-gegen-u-bahn-tot-id1901395.html)
 - [Blaesshuehnerkueken vermutlich alle tot](http://www.suedkurier.de/region/bodenseekreis-oberschwaben/ueberlingen/Blaesshuhnkueken-vermutlich-alle-tot;art372495,5522455)
 - [Diablo-3-Spieler nach exzessiven Zocken gestorben ... or is he?](http://www.pcgameshardware.de/aid,886248/Diablo-3-Spieler-angeblich-nach-exzessivem-Zocken-verstorben-widerspruechliche-Berichterstattung/Rollenspiel-Adventure/News/)
 
@@ -29,7 +29,7 @@ Wieder die 3 von der Tankstelle, die euch mit aktuellen Toten, News, Lesefoo und
 * Wir filtern Blumen T-Shirt
  * [Bild von Georg](https://twitter.com/ingoebel/status/206019781470593024/photo/1)
 * [MS und OSS](http://www.heise.de/newsticker/meldung/Microsoft-und-Open-Source-sind-1588154.html)
-* Binaergewitter auch als [Torrent / Bitlove](http://bitlove.org/binaergewitter/talk)
+* Binaergewitter auch als [Torrent / Bitlove](https://web.archive.org/web/20120830231213/http://bitlove.org/binaergewitter/talk)
      - [S3 als Torrent](http://docs.amazonwebservices.com/AmazonS3/latest/API/RESTObjectGETtorrent.html)
      - [Aufzeichungen vom WebDay der HdM](http://events.mi.hdm-stuttgart.de/2012-05-25-5-webday)
 
@@ -38,18 +38,18 @@ Wieder die 3 von der Tankstelle, die euch mit aktuellen Toten, News, Lesefoo und
 - [Schon wieder ein HumbleBundle](http://www.humblebundle.com/)
 - [Backdoors in chinesischen militaer chips?](http://www.cl.cam.ac.uk/~sps32/sec_news.html#Assurance)
     * [Bogus: keine Backdoors in chinesischen militaerchips](http://erratasec.blogspot.de/2012/05/bogus-story-no-chinese-backdoor-in.html)
-- [Why cheap customers cost more](http://sachagreif.com/why-cheap-customers-cost-more/)
+- [Why cheap customers cost more](https://web.archive.org/web/20120601224758/http://sachagreif.com/why-cheap-customers-cost-more/)
     * [Dunning Kruger Effect](http://de.wikipedia.org/wiki/Dunning-Kruger-Effekt)
 - [Google evaluiert und durchsucht javascript Webseiten](http://search.slashdot.org/story/12/05/26/0310246/google-now-searches-javascript)
 - [Mark Zuckerberg versilbert einen teil seiner Aktien nach Boersenstart](http://news.ycombinator.net/item?id=4013142)
 - [Dragon kehrt wieder zur Erde zurück](http://www.golem.de/news/raumfahrt-dragon-kommt-zurueck-zur-erde-1205-92200.html)
     * [SpaceX Videos](http://vimeo.com/spacexlaunch/videos)
-- [HULK DoS Tool - evade the cache, hit the Application](http://www.pentestit.com/hulk-the-web-server-dos-tool/)
-- [Automated Exploit Generation](http://security.ece.cmu.edu/aeg/)
+- [HULK DoS Tool - evade the cache, hit the Application](https://web.archive.org/web/20120606224522/http://www.pentestit.com/hulk-the-web-server-dos-tool/)
+- [Automated Exploit Generation](https://web.archive.org/web/20120427055454/http://security.ece.cmu.edu/aeg/)
 - [Enyo Entwickler wechseln zu Google](http://arstechnica.com/gadgets/2012/05/team-behind-webos-enyo-framework-reportedly-leaving-hp-and-joining-google/)
-- [chromebox mit ner menge energie fuer nen HTPC](https://www.google.com/intl/en/chrome/devices/chromebox.html)
+- [chromebox mit ner menge energie fuer nen HTPC](https://web.archive.org/web/20120601005405/https://www.google.com/intl/en/chrome/devices/chromebox.html)
 - [Cubox](http://www.solid-run.com/products/cubox)
-- [monitoring becomes a big data problem](http://www.real-user-monitoring.com/too-much-information-monitoring-becomes-a-big-data-problem/)
+- [monitoring becomes a big data problem](https://web.archive.org/web/20120528102122/http://www.real-user-monitoring.com/too-much-information-monitoring-becomes-a-big-data-problem/)
 - rrdcollecd
 - [statsd](https://github.com/etsy/statsd)
 - Was kommt nach Web2.0? [Das Ueberallinternet](http://www.slideshare.net/maerys/relicamp12-ueberallinternet)
@@ -58,23 +58,23 @@ Wieder die 3 von der Tankstelle, die euch mit aktuellen Toten, News, Lesefoo und
 
 ### Diskussion: Sollte jeder programmieren lernen?
 
-- [Post von Jeff Attwood](http://www.codinghorror.com/blog/2012/05/please-dont-learn-to-code.html)
+- [Post von Jeff Attwood](https://web.archive.org/web/20120601043548/http://www.codinghorror.com/blog/2012/05/please-dont-learn-to-code.html)
     * [HN Kommentare](http://news.ycombinator.com/item?id=3975744)
 - [Post von Zed Shaw](http://learncodethehardway.org/blog/MAY_15_2012.html)
-- [Please learn to code](http://sachagreif.com/please-learn-to-code/)
+- [Please learn to code](https://web.archive.org/web/20120526053624/http://sachagreif.com/please-learn-to-code/)
 - [Please understand learning to code](http://dave.fayr.am/posts/2012-05-15-please-understand-learning-to-code.html)
-- [Please learn to write](http://www.randsinrepose.com/archives/2012/05/16/please_learn_to_write.html)
+- [Please learn to write](https://web.archive.org/web/20120526190949/http://www.randsinrepose.com/archives/2012/05/16/please_learn_to_write.html)
 - [Why I desperately needed to learn to code](http://influencehacks.com/why-i-desperately-needed-to-learn-to-code)
-- [Google vs Oracle Post-Mortem](http://www.brightsideofnews.com/news/2012/5/25/oracle-vs-google-post-mortem-judge-knows-programming.aspx)
+- [Google vs Oracle Post-Mortem](https://web.archive.org/web/20120530061357/http://www.brightsideofnews.com/news/2012/5/25/oracle-vs-google-post-mortem-judge-knows-programming.aspx)
 - [Liste weiterer Blogposts](http://edceekays.blogspot.de/2012/05/please-dont-learn-to-code-versus-please.html)
 - [Fiona lernt programmieren](https://fionalerntprogrammieren.wordpress.com/)
 
 ## Lesefoo
 
-- [InSecure 34](https://www.net-security.org/dl/insecure/INSECURE-Mag-34.pdf) (Felix)
+- [InSecure 34](https://web.archive.org/web/20120611151816/https://www.net-security.org/dl/insecure/INSECURE-Mag-34.pdf) (Felix)
 - [Hunting down my son's killer](http://matt.might.net/articles/my-sons-killer/) (pfleidi)
-- [This Is All Your App Is: a Collection of Tiny Details](http://www.codinghorror.com/blog/2012/05/this-is-all-your-app-is-a-collection-of-tiny-details.html) (pfleidi)
-- [Good bye CouchDB](http://saucelabs.com/blog/index.php/2012/05/goodbye-couchdb/) (pfleidi)
+- [This Is All Your App Is: a Collection of Tiny Details](https://web.archive.org/web/20120526191238/http://www.codinghorror.com/blog/2012/05/this-is-all-your-app-is-a-collection-of-tiny-details.html) (pfleidi)
+- [Good bye CouchDB](https://web.archive.org/web/20120515123535/http://saucelabs.com/blog/index.php/2012/05/goodbye-couchdb/) (pfleidi)
 
 ## Mimimi der Woche
 
@@ -91,8 +91,8 @@ Wieder die 3 von der Tankstelle, die euch mit aktuellen Toten, News, Lesefoo und
 - [YAPIS](http://yapis.geoclub.de/) (ingo)
 - [wiFite](http://code.google.com/p/wifite/)...nur nicht auf den code schauen
 - [Umzugskartons](http://www.amazon.de/gp/product/B004UF5KLK/ref=as_li_ss_tl?ie=UTF8&tag=retinacast-21) (pfleidi)
-- [iKAT - Interactive Kiosk Attack Tool](http://ikat.ha.cked.net/Linux/)
+- [iKAT - Interactive Kiosk Attack Tool](https://web.archive.org/web/20120524205613/http://ikat.ha.cked.net/Linux/)
 - [COCK FIGHTING SET](http://www.amazon.de/gp/product/B004NTE48I/ref=as_li_ss_tl?ie=UTF8&tag=retinacast-21)
-- [Clippy fuer deine Website](http://www.smore.com/clippy-js)
+- [Clippy fuer deine Website](https://web.archive.org/web/20120531204109/http://www.smore.com/clippy-js)
 - [Optimize Performance and Scalability with Parallelism and Concurrency](https://www.youtube.com/watch?v=ULdDuwf48kM) (pfleidi)
 

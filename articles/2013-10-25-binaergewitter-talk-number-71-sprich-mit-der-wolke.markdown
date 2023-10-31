@@ -15,14 +15,14 @@ Okay okay wir haben doch auch über Apple geredet, aber dafür gibt es diesmal a
 
 ## Toter der Woche
 
-- [Goole CHECKOUT](https://support.google.com/checkout/sell/answer/3080449) via [@marcelfuhrmann8](https://twitter.com/marcelfuhrmann8)
+- [Goole CHECKOUT](https://web.archive.org/web/20131020153034/https://support.google.com/checkout/sell/answer/3080449) via [@marcelfuhrmann8](https://twitter.com/marcelfuhrmann8)
 - [QYPE](http://www.heise.de/newsticker/meldung/Qype-schliesst-Ende-Oktober-1982465.html)
 - [iGoogle](http://www.heise.de/newsticker/meldung/iGoogle-schliesst-Alternativen-1981499.html)
 - [Dopplr](http://www.dopplr.com/)
 
 ##Tumblr der Woche
 
-- [Sad etsy boyfriends](http://sadetsyboyfriends.tumblr.com/)
+- [Sad etsy boyfriends](https://web.archive.org/web/20131102111758/http://sadetsyboyfriends.tumblr.com/)
 - [This OTP life](http://thisotplife.tumblr.com/)
 - [merkelphone](http://merkelphone.tumblr.com/)
 
@@ -30,44 +30,44 @@ Okay okay wir haben doch auch über Apple geredet, aber dafür gibt es diesmal a
 
 - [merkelphone](http://www.heise.de/newsticker/meldung/Lauschangriff-auf-Merkel-Pofalla-erklaert-die-NSA-Affaere-fuer-unbeendet-1985415.html)
     * [Pofalla beendet Dinge](http://pofallabeendetdinge.de/)
-- [NGX MRuby](http://matsumoto-r.github.io/ngx_mruby/)
-- [Phusion Passenger für Node.js wurde open sourced](http://blog.phusion.nl/2013/10/23/phusion-passengers-node-js-support-has-been-open-sourced/)
+- [NGX MRuby](https://web.archive.org/web/20131022180943/http://matsumoto-r.github.io/ngx_mruby/)
+- [Phusion Passenger für Node.js wurde open sourced](https://web.archive.org/web/20131023174658/http://blog.phusion.nl/2013/10/23/phusion-passengers-node-js-support-has-been-open-sourced/)
 - [Ghost](https://ghost.org/)
     * [Github Repository](https://github.com/TryGhost/Ghost)
 - [OwnCloud 6](https://owncloud.org/six/)
 - [US Navy Schiffe ab jetzt mit Linux](http://arstechnica.com/information-technology/2013/10/the-navys-newest-warship-is-powered-by-linux/)
     * [USS Enterprise](http://de.wikipedia.org/wiki/USS_Enterprise_(CVN-65\))
-- [CERN veröffentlicht Bilder unter CC](http://home.web.cern.ch/about/updates/2013/10/cern-releases-photos-under-creative-commons-licence)
+- [CERN veröffentlicht Bilder unter CC](https://web.archive.org/web/20131018082950/http://home.web.cern.ch/about/updates/2013/10/cern-releases-photos-under-creative-commons-licence)
 - [Geckphone release](https://blog.mozilla.org/blog/2013/10/22/telefonica-vivo-launches-firefox-os-smartphones-in-brazil/)
     * [Congstar](http://www.congstar.de/firefox-os/)
     * [Unboxing](http://danieru.com/2013/10/22/unboxing-the-firefox-os-zte-open-setup/)
 - [Serf](http://www.serfdom.io/)
-    * [Zookeeper](http://zookeeper.apache.org/doc/trunk/)
-    * [Accord](http://www.osrg.net/accord/)
+    * [Zookeeper](https://web.archive.org/web/20131001111413/http://zookeeper.apache.org/doc/trunk/)
+    * [Accord](https://web.archive.org/web/20131016071943/http://www.osrg.net/accord/)
     * [Doozerd](https://github.com/ha/doozerd)
     * [etcd](https://github.com/coreos/etcd)
-    * [Think distributed Postcast: Consensus](http://thinkdistributed.io/blog/2013/07/12/consensus.html)
+    * [Think distributed Postcast: Consensus](https://web.archive.org/web/20130908124708/http://thinkdistributed.io/blog/2013/07/12/consensus.html)
 - [Uru](https://bitbucket.org/jonforums/uru)
 - [RVM 2.0 Fundraiser](https://www.bountysource.com/fundraisers/489?)
-- [Monty Montgomery arbeitet nun für Mozilla](http://gigaom.com/2013/10/15/monty-montgomery-joins-mozilla-for-daala/)
+- [Monty Montgomery arbeitet nun für Mozilla](https://web.archive.org/web/20131015235322/http://gigaom.com/2013/10/15/monty-montgomery-joins-mozilla-for-daala/)
 - [Code climate bringt Support für JS](https://codeclimate.com/)
-    * [Coveralls](https://coveralls.io/docs/ruby)
+    * [Coveralls](https://web.archive.org/web/20140416075158/https://coveralls.io/docs/ruby)
 - [BBM](http://www.heise.de/mac-and-i/meldung/Neuer-Versuch-BBM-fuer-iOS-und-Android-verfuegbar-1983333.html)
 - Mac OS 10.9
     * [keine Lokale Sync mehr](http://www.golem.de/news/usb-und-wlan-synchronisation-mac-os-x-10-9-schraenkt-datentransfer-mit-ios-ein-1310-102328.html)
-- [Vemedio Bitcoin Party](http://vemedio.com/blog/posts/new-payment-option-bitcoin)
+- [Vemedio Bitcoin Party](https://web.archive.org/web/20131229194802/http://vemedio.com/blog/posts/new-payment-option-bitcoin)
 - [Bitcoin bei 200 Dollar](http://bitcoinity.org/markets)
-    * [Difficulty](http://bitcoindifficulty.com/)
+    * [Difficulty](https://web.archive.org/web/20131004123746/http://bitcoindifficulty.com/)
 
 ## Lesefoo
 
-- [The Genius and Folly of MongoDB](http://nyeggen.com/blog/2013/10/18/the-genius-and-folly-of-mongodb/)
+- [The Genius and Folly of MongoDB](https://web.archive.org/web/20131020173718/http://nyeggen.com/blog/2013/10/18/the-genius-and-folly-of-mongodb/)
 - [Ruby's top self object](http://www.sitepoint.com/rubys-top-self-object/)
 - [How hipchat scales to 1 billion messages](http://blog.hipchat.com/2013/10/16/how-hipchat-scales-to-1-billion-messages/)
 - [Sorting Lines in 5 Languages](http://devblog.avdi.org/2013/10/16/sorting-lines-in-5-languages/)
-- [Ruby Tips](http://globaldev.co.uk/2013/09/ruby-tips-part-1/)
+- [Ruby Tips](https://web.archive.org/web/20131005164513/http://globaldev.co.uk/2013/09/ruby-tips-part-1/)
 - [How to stub external services in tests](http://robots.thoughtbot.com/post/64474832169/how-to-stub-external-services-in-tests)
-- [Introducing Capybara 2.1](http://www.elabs.se/blog/60-introducing-capybara-2-1)
+- [Introducing Capybara 2.1](https://web.archive.org/web/20131006054148/http://www.elabs.se/blog/60-introducing-capybara-2-1)
 - [Making HTTP realtime with HTTP 2.0](https://docs.google.com/presentation/d/1eqae3OBCxwWswOsaWMAWRpqnmrVVrAfPQclfSqPkXrA/present)
 
 
@@ -84,7 +84,7 @@ Okay okay wir haben doch auch über Apple geredet, aber dafür gibt es diesmal a
 - [Crafting Gems](http://www.youtube.com/watch?v=Mmm1cVvPEYU) (video)
 - [LED Licht mit Bewegungssensor](http://www.amazon.de/gp/search/ref=as_li_qf_sp_sr_tl?ie=UTF8&camp=1638&creative=6742&index=aps&keywords=B002BX173I&linkCode=ur2&tag=pfleidi-21)
 - [Longest Ref Explanation ever](http://www.nfl.com/videos/baltimore-ravens/0ap2000000261300/Longest-ref-explanation-ever)
-- [The littlest ORM](http://confreaks.com/videos/2669-gogaruco2013-the-littlest-orm) (video)
+- [The littlest ORM](https://web.archive.org/web/20131005003000/http://confreaks.com/videos/2669-gogaruco2013-the-littlest-orm) (video)
 - [Open eCard](https://www.openecard.org/)
 - [Zeitraffer](https://itunes.apple.com/de/app/zeitraffer/id572526628?l=en&mt=12)
 - [Emojisaurus](http://emojisaurus.com/phrases)

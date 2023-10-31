@@ -36,7 +36,7 @@ Komplett versammelt, gehts diesmal nicht nur um Tote sondern auch um Untote, au√
 - [Deltacloud wird Apache Projekt](http://www.golem.de/news/rest-api-red-hats-deltacloud-wird-zum-apache-projekt-1202-89808.html)
 - [MS Vista's UAC fuer MAC OS X](http://news.hitb.org/content/os-x-mountain-lion-gatekeeper-can-it-really-keep-malware-out)
 - [Riak 1.1](https://github.com/basho/riak/blob/master/RELEASE-NOTES.org)
-- [Gitlab 2.2](http://blog.gitlabhq.com/gitlab-version-2-2)
+- [Gitlab 2.2](https://about.gitlab.com/releases/2012/02/22/gitlab-version-2-2/)
 - [Adobe plant Flash f√ºr Linux einzustellen](http://www.phoronix.com/scan.php?page=news_item&px=MTA2MDc)
 
 ### Google
@@ -49,12 +49,12 @@ Komplett versammelt, gehts diesmal nicht nur um Tote sondern auch um Untote, au√
 - [Scroogle ist tot](http://www.golem.de/news/suchmaschine-scroogle-ist-tot-1202-89947.html)
 
 ## Thema: Zeug
-- [Responsive text](http://www.frankieroberto.com/responsive_text)
+- [Responsive text](https://web.archive.org/web/20120302052132/http://www.frankieroberto.com/responsive_text)
 
 ## Thema: Email
 
 ### MTA
-- [MTA Comparison](http://shearer.org/MTA_Comparison)
+- [MTA Comparison](https://web.archive.org/web/20120206061529/http://shearer.org/MTA_Comparison)
 - [WP: Sendmail](http://de.wikipedia.org/wiki/Sendmail)
 - [Postfix](http://de.postfix.org/)
 - [Exim](http://www.exim.org/)
@@ -64,7 +64,7 @@ Komplett versammelt, gehts diesmal nicht nur um Tote sondern auch um Untote, au√
 #### Konfigurationshilfen
 - [IRedmail](http://www.iredmail.org/)
 - [Postfixadmin](http://postfixadmin.sourceforge.net/)
-- [Ratuus](http://www.ratuus.org/)
+- [Ratuus](https://web.archive.org/web/20120318071809/http://www.ratuus.org/)
 - [Webmin](http://webmin.com)
     - [Adminer SQL](http://www.adminer.org/)
 
@@ -79,14 +79,14 @@ Komplett versammelt, gehts diesmal nicht nur um Tote sondern auch um Untote, au√
 ## Lesefoo
 - [Erkl√§rung von Interface mit Hilfe von Pulp Fiction](http://stackoverflow.com/questions/9107385/multiple-inheritance-in-actionscript-3/9108998#9108998) (pfleidi)
 - [The great web framework shootout](https://github.com/seedifferently/the-great-web-framework-shootout) (pfleidi)
-- [If it Ain't Broke, Don't Fix it](http://www.computerworld.com/s/article/9224415/If_It_Ain_t_Broke_Don_t_Fix_It_Ancient_Computers_in_Use_Today?taxonomyId=12)
+- [If it Ain't Broke, Don't Fix it](https://web.archive.org/web/20120511031922/http://www.computerworld.com/s/article/9224415/If_It_Ain_t_Broke_Don_t_Fix_It_Ancient_Computers_in_Use_Today)
 - [How Mailinator compresses email by 90%](http://mailinator.blogspot.com/2012/02/how-mailinator-compresses-email-by-90.html) (rb2k)
 - [Characteristics of Machine Learning Model](http://horicky.blogspot.com/2012/02/characteristics-of-machine-learning.html) (rb2k)
 
 ## Picks
 - [Reeder](http://reederapp.com/) (pfleidi)
 - [Mullvad VPN](http://mullvad.net/) (rb2k)
-- [Basictex](http://www.tug.org/mactex/2011/morepackages.html) (pfleidi)
+- [Basictex](https://web.archive.org/web/20120825085949/http://www.tug.org/mactex/2011/morepackages.html) (pfleidi)
 - [Python Tutor(Stack Visualisierung)](http://people.csail.mit.edu/pgbovine/python/tutor.html#mode=visualize)(makefu)
 - [Mailcatcher](http://mailcatcher.me/) (rb2k)
 - Inline Editing with awk:
