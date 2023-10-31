@@ -55,5 +55,5 @@ https://www.swr.de/swraktuell/bw/sperrung-dauert-wohl-noch-bis-mitte-september/-
 ## Picks
 - [politicalcompass.org](https://www.politicalcompass.org)
 - [deinwal](https://deinwal.de/home)
-- [thankyouopensource.com](https://www.thankyouopensource.com/)
+- [thankyouopensource.com](https://web.archive.org/web/20170729063312/https://www.thankyouopensource.com/)
 - [best Website a programmer should visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit)

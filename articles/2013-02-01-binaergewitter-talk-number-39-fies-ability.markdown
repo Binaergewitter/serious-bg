@@ -40,7 +40,7 @@ Reunited und endlich wieder geschmacklos und unlustig außerdem mit Thema "Mobil
 - [Mann wurde erschossen weil GPS ihn zum Falschen Haus gelotst hat](http://mashable.com/2013/01/30/man-shot-gps/)
 - [Git Support fuer Visual Studio](http://www.hanselman.com/blog/GitSupportForVisualStudioGitTFSAndVSPutIntoContext.aspx)
 - [Realtime Political Fact-Checking](http://techcrunch.com/2013/01/29/realtime-political-fact-checking-becomes-a-reality-with-wapos-truth-teller/)
-- [Oracle: 'We have to fix Java'](http://www.esecurityplanet.com/network-security/oracle-we-have-to-fix-java.html)
+- [Oracle: 'We have to fix Java'](https://web.archive.org/web/20130920114526/http://www.esecurityplanet.com/network-security/oracle-we-have-to-fix-java.html)
 - [ PhantomJS hat nun GhostDriver ](https://github.com/ariya/phantomjs/blob/797b47ae819d510da3cb70706f08c7d316d1f29a/ChangeLog#L25)
 
 ## Themen
@@ -52,9 +52,9 @@ Reunited und endlich wieder geschmacklos und unlustig außerdem mit Thema "Mobil
     * [Sicherheitsprobleme](http://en.wikipedia.org/wiki/Whatsapp#Security_concerns)
 - [yaxim](https://github.com/pfleidi/yaxim/wiki)
 - [IM+](https://plus.im/)
-    * [Verbs](http://verbs.im/) ( [Blog](http://verbs.im/blog/) )
+    * [Verbs](https://web.archive.org/web/20130123070647/http://verbs.im/) ( [Blog](https://web.archive.org/web/20140802081431/http://verbs.im/blog/) )
 - [Facebook Messenger](https://www.facebook.com/mobile/messenger)
-    * [Facebook XEPS](https://developers.facebook.com/docs/chat/#features)
+    * [Facebook XEPS](https://web.archive.org/web/20130420233610/http://developers.facebook.com/docs/chat/)
 - [Skype](http://www.skype.com/)
 - [iMessage](https://www.apple.com/ios/messages/)
 - [Prosody](http://prosody.im/)
@@ -83,7 +83,7 @@ Reunited und endlich wieder geschmacklos und unlustig außerdem mit Thema "Mobil
 http://www.smithsonianmag.com/history-archaeology/For-40-Years-This-Russian-Family-Was-Cut-Off-From-Human-Contact-Unaware-of-World-War-II-188843001.html)
 - [When is a programming feature helpful?](http://cliffordbeshers.blogspot.co.uk/2013/01/when-is-programming-feature-helpful.html)
 - [wtfjs - ein blog ueber javascript insanity](http://wtfjs.com/)
-- [RSpec Matchers](https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers)
+- [RSpec Matchers](https://web.archive.org/web/20131004100404/https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers)
 - [Alles was man über Fett wissen sollte](http://blog.paleosophie.de/2012/03/04/alles-was-man-ueber-fett-wissen-sollte/) (Marc)
 - [Why we get fat](http://www.sciencebasedmedicine.org/index.php/why-we-get-fat/)
 - [Why we took cocaine out of soda](http://www.theatlantic.com/health/archive/2013/01/why-we-took-cocaine-out-of-soda/272694/) (Marc)
@@ -95,13 +95,13 @@ http://www.smithsonianmag.com/history-archaeology/For-40-Years-This-Russian-Fami
 - [Cinemagram](http://cinemagr.am/) (pfleidi)
     * [Giffer](https://itunes.apple.com/de/app/giffer!-pro-animated-gif-app/id521412113?l=en&mt=8)
 - Zinsraten innerhalb Europas (marc)
-    * [NL](http://moneyou.nl/sparen/particulier/moneyou-sparen-vrij-opneembaar.aspx), [DE](http://moneyou.de/tagesgeld/zinsen-konditionen.aspx)
+    * [NL](http://moneyou.nl/sparen/particulier/moneyou-sparen-vrij-opneembaar.aspx), [DE](https://web.archive.org/web/20130210040612/http://www.moneyou.de/tagesgeld/zinsen-konditionen.aspx)
 - Laptops ohne SSD (+1)
 - [ELSTER](http://www.heise.de/newsticker/meldung/BSI-warnt-vor-virenverseuchten-ELSTER-Steuerbescheiden-1795174.html)
 
 ## Picks
 
-- Das Internet ( [UCLA](http://oak.cs.ucla.edu/cs144/schedule.html) -> [HdM](http://oak.cs.ucla.edu/cs144/handouts/nosqldbs.pdf) -> [BG Talk](
+- Das Internet ( [UCLA](https://web.archive.org/web/20120630123233/http://oak.cs.ucla.edu/cs144/schedule.html) -> [HdM](https://web.archive.org/web/20130810033649/http://oak.cs.ucla.edu/cs144/handouts/nosqldbs.pdf) -> [BG Talk](
 http://blog.binaergewitter.de/blog/2011/01/09/binaergewitter-number-1-nosql/))
 - [Instacode](http://instacode.linology.info/)
     * [Test](http://instacode.linology.info/53653)

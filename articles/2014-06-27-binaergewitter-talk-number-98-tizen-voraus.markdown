@@ -57,7 +57,7 @@ Nach einer Woche Pause meldet sich das 112 Dreamteam wieder zurück u.a. reden w
 - [Unicode 7.0 mit Frau-Frau und Stinkefinger, ohne BTC](http://www.gulli.com/news/24016-unicode-70-2834-neue-zeichen-inklusive-stinkefinger-2014-06-17)[ und mit 'no piracy' symbol](http://torrentfreak.com/no-piracy-symbol-added-to-new-unicode-standard-140617/)
 - [fixed eure NTP Server](http://www.heise.de/newsticker/meldung/Weniger-NTP-Server-fuer-dDoS-ausnutzbar-aber-2239107.html) - SNMP auch
 - [alle c99 shells sind ge-backdoor-ed aka free shells](http://thehackerblog.com/every-c99-php-shell-is-backdoored-aka-free-shells/)
-  * [bessere php shell - weeverly](http://epinna.github.io/Weevely/)
+  * [bessere php shell - weeverly](https://web.archive.org/web/20140605210357/http://epinna.github.io/Weevely/)
   * [nur fuer sql zeugs - adminer](http://www.adminer.org/de/)
 - [US Marshal CC'd an alle potentiellen Interessenten der Bitcoins von Silkroad](http://arstechnica.com/tech-policy/2014/06/us-marshal-hits-reply-all-reveals-those-interested-in-anonymous-bitcoin-auction/)
 - [BoringSSL auf offiziellem Blog](https://www.imperialviolet.org/)
@@ -73,5 +73,5 @@ Nach einer Woche Pause meldet sich das 112 Dreamteam wieder zurück u.a. reden w
 - [tmux protocol version mismatch](https://plus.google.com/110139418387705691470/posts/BebrBSXMkBp)
 
 ## Picks
-- [Schwerkraft](https://play.google.com/store/apps/details?id=com.anfema.schwerkraft) via [@tobonaut](https://twitter.com/tobonaut)
+- [Schwerkraft](https://web.archive.org/web/20140917135252/https://play.google.com/store/apps/details?id=com.anfema.schwerkraft) via [@tobonaut](https://twitter.com/tobonaut)
 - [Conversations - XMPP Client](https://play.google.com/store/apps/details?id=eu.siacs.conversations) | [F-Droid-Link](https://f-droid.org/repository/browse/?fdfilter=conversations&fdid=eu.siacs.conversations)

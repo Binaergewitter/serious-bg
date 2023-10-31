@@ -30,7 +30,7 @@ Wieder einmal sind wieder bei 150 Ausgaben. Wahnsinn wie doch die Zeit vergeht. 
 - [BSI bringt Cyber Feuerwehr](http://www.heise.de/newsticker/meldung/BSI-Cyber-Feuerwehr-fuer-grosse-Hackerangriffe-soll-20-Personen-umfassen-3234170.html)
    * [Bundesamt für Sicherheit in der Informationstechnik](https://de.wikipedia.org/wiki/Bundesamt_f%C3%BCr_Sicherheit_in_der_Informationstechnik)
 - [Owncloud wird Nextcloud](http://www.golem.de/news/community-fork-und-neues-unternehmen-nextcloud-ist-der-neustart-fuer-owncloud-1606-121243.html)
-   * [CVE `code execution` in owncloud 2012](https://owncloud.org/security/advisory/?id=oc-sa-2012-004)
+   * [CVE `code execution` in owncloud 2012](https://web.archive.org/web/20160309114142/https://owncloud.org/security/advisory/?id=oC-SA-2012-004)
    * [Discourse](https://www.discourse.org/about/)
 - [Java APIs genutzt von google sind "Fair Use"](http://www.heise.de/developer/meldung/US-Jury-Googles-Nutzung-von-Oracles-Java-APIs-in-Android-ist-Fair-Use-3220847.html)
 - [Oracle Anwältin sagt dass das Open Source schadet](http://www.golem.de/news/oracle-anwaeltin-nach-niederlage-google-hat-die-gpl-getoetet-1605-121152.html)

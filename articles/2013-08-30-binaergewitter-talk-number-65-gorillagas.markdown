@@ -39,12 +39,12 @@ Wir fordern die Atom Feeds abzuschalten und bereiten uns damit langsam auf die B
     * [Nokia Handy mit einem Monat Akkulaufzeit](http://www.golem.de/news/nokia-515-handy-im-alugehaeuse-mit-einem-monat-akkulaufzeit-1308-101267.html)
     * [One Microsoft](http://www.microsoft.com/en-us/news/press/2013/jul13/07-11onemicrosoft.aspx)
 - [Polizeidrohnen werden endlich bewaffnet](https://netzpolitik.org/2013/bewaffnung-polizeilicher-drohnen-schreitet-voran-neues-zum-eu-forschungsprojekt-aeroceptor/)
-    * [aeroceptor.eu](http://www.aeroceptor.eu/)
+    * [aeroceptor.eu](https://web.archive.org/web/20130930082724/http://www.aeroceptor.eu/)
 - [Apple macht SSL gegen Plexconnect](http://langui.sh/2013/08/27/appletv-ssl-plexconnect/)
 - google handy ist fucking billig
-    * [Google Ball](https://dailyappshow.s3.amazonaws.com/wp-content/uploads/2013/02/nexus-4-wireless-charger-2.jpg)
+    * [Google Ball](https://web.archive.org/web/20140220205936/http://dailyappshow.s3.amazonaws.com/wp-content/uploads/2013/02/nexus-4-wireless-charger-2.jpg)
 - [Erstes Brain2Brain Interface](http://www.washington.edu/news/2013/08/27/researcher-controls-colleagues-motions-in-1st-human-brain-to-brain-interface/)
-- [Holi Hippies](http://www.express.de/koeln/festival-besucher-beschweren-sich-holi-farbe-laesst-sich-nicht-auswaschen-,2856,24109562.html)
+- [Holi Hippies](https://web.archive.org/web/20130827010124/http://www.express.de/koeln/festival-besucher-beschweren-sich-holi-farbe-laesst-sich-nicht-auswaschen-,2856,24109562.html)
 - [Google Hangout macht VP8](http://arstechnica.com/gadgets/2013/08/google-hangouts-upgrading-to-hd-video-chat-switching-to-vp8-webrtc/)
 - [htc baut ein neues mobile os](http://www.go2android.de/htc-setzt-auf-eigenes-betriebssystem-in-china/) via rene
 - [Neuseeland verbannt Software Patente](http://arstechnica.com/tech-policy/2013/08/in-historic-vote-new-zealand-bans-software-patents/)
@@ -56,7 +56,7 @@ Wir fordern die Atom Feeds abzuschalten und bereiten uns damit langsam auf die B
 - [Humble Comedy Bundle](https://www.humblebundle.com/)
 - [Tor nutzung verdoppelt](http://www.paritynews.com/2013/08/29/2534/tor-usage-more-than-doubles-in-august/)
 - [Sourceforge ist kaputt](http://www.gluster.org/2013/08/how-far-the-once-mighty-sourceforge-has-fallen/)
-- [Socket Reusing in Linux 3.9](http://freeprogrammersblog.vhex.net/post/linux-39-introdued-new-way-of-writing-socket-servers/2)
+- [Socket Reusing in Linux 3.9](https://web.archive.org/web/20130824195016/http://freeprogrammersblog.vhex.net/post/linux-39-introdued-new-way-of-writing-socket-servers/2)
 - [Oculus Rift Pr0n](http://www.uproxx.com/gammasquad/2013/07/of-course-the-oculus-rift-has-a-porn-game/)
 - [Backdoor im Copyright Teil der GPL](http://blog.sucuri.net/2013/08/open-source-backdoor-copyrighted-under-gnu-gpl.html)
 
@@ -67,7 +67,7 @@ Wir fordern die Atom Feeds abzuschalten und bereiten uns damit langsam auf die B
 - [Code Keyboard](http://codekeyboards.com/)
 - IBM Model M
 - [wasdkeyboards](http://www.wasdkeyboards.com/)
-- [Apple Wireless Keybard](http://www.apple.com/de/keyboard/)
+- [Apple Wireless Keybard](https://web.archive.org/web/20151101101556/http://www.apple.com/de/magic-accessories)
 - [Neo Belegung](http://de.wikipedia.org/wiki/Neo_(Tastaturbelegung\))
 
 ## Mehr News
@@ -114,9 +114,9 @@ Wir fordern die Atom Feeds abzuschalten und bereiten uns damit langsam auf die B
 - [DB Zugradar](http://www.bahn.de/zugradar)
 - [Simquadrat](https://www.simquadrat.de/)
 - [Wahl o mat](http://www.wahl-o-mat.de/)
-    * [FTP NDP QUARK](http://fdp-npd-quark.de/)
-    * [Bundeswahlkompass](http://www.bundeswahlkompass.de/)
-- [Showterm](http://showterm.io/)
+    * [FTP NDP QUARK](https://web.archive.org/web/20130827143927/http://fdp-npd-quark.de/)
+    * [Bundeswahlkompass](https://web.archive.org/web/20130820111656/http://www.bundeswahlkompass.de/)
+- [Showterm](https://web.archive.org/web/20130825085706/http://showterm.io/)
     * [Github Repo](https://github.com/ConradIrwin/showterm.io)
     * [unix `script`](http://de.wikipedia.org/wiki/Script_\(Unix\))
 - [Oh really, why is that? Web performance for the curious](https://www.youtube.com/watch?v=kiPe7DPmEgE)

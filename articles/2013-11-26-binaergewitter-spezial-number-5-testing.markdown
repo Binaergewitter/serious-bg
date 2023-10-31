@@ -83,7 +83,7 @@ Felix, Marc, Mat, Pfleidi und Ingo haben sich zusammen gefunden um über das Tes
     * [Unittest](http://docs.python.org/2/library/unittest.html)
     * [Doctest](http://docs.python.org/2/library/doctest.html)
         - [Doclet](http://de.wikipedia.org/wiki/Doclet)
-        - [Docblock](http://www.stack.nl/~dimitri/doxygen/manual/docblocks.html)
+        - [Docblock](https://web.archive.org/web/20131109174801/http://www.stack.nl/~dimitri/doxygen/manual/docblocks.html)
         - [docopt](https://github.com/docopt/docopt)
 - [Python Testing Überblick](https://wiki.python.org/moin/PythonTestingToolsTaxonomy)
 
@@ -91,12 +91,12 @@ Felix, Marc, Mat, Pfleidi und Ingo haben sich zusammen gefunden um über das Tes
 
 - [Test-Unit](http://www.ruby-doc.org/stdlib-1.8.7/libdoc/test/unit/rdoc/Test/Unit.html) (aka: old stdlib)
 - [Minitest](https://github.com/seattlerb/minitest) (aka: stdlib)
-    * [WHY NO BEFORE?](http://bfts.rubyforge.org/minitest/MiniTest/Unit.html#method-c-after_tests)
+    * [WHY NO BEFORE?](https://web.archive.org/web/20130630102840/http://bfts.rubyforge.org/minitest/MiniTest/Unit.html#method-c-after_tests)
 - [RSpec](http://rspec.info/)
-    * [2](https://www.relishapp.com/rspec)
-    * [1](http://old.rspec.info/)
+    * [2](https://web.archive.org/web/20131015131408/https://www.relishapp.com/rspec)
+    * [1](https://web.archive.org/web/20131019152741/http://old.rspec.info/)
 - [Mocha](http://gofreerange.com/mocha/docs/)
-- [Cucumber](http://cukes.info/) (Behavior Driven Testing)
+- [Cucumber](https://web.archive.org/web/20131127081231/http://cukes.info/) (Behavior Driven Testing)
 - [HTTP Client testing](http://robots.thoughtbot.com/how-to-stub-external-services-in-tests/)
     * [VCR](https://github.com/vcr/vcr)
     * [Faraday Mock Adapter](https://github.com/lostisland/faraday)
@@ -108,14 +108,14 @@ Felix, Marc, Mat, Pfleidi und Ingo haben sich zusammen gefunden um über das Tes
 ## JS Frameworks
 
 - [Vows](http://vowsjs.org/)
-- [Jasmine](http://pivotal.github.io/jasmine/)
-- [Mocha](http://visionmedia.github.io/mocha/)
+- [Jasmine](https://web.archive.org/web/20131029005105/http://pivotal.github.io/jasmine/)
+- [Mocha](https://web.archive.org/web/20131029064407/http://visionmedia.github.io/mocha/)
 - [QUnit](http://qunitjs.com/)
 
 ## PHP
 
 - [PHPUnit](http://phpunit.de/manual/current/en/index.html)
-- [Simpletest](http://www.simpletest.org/)
+- [Simpletest](https://web.archive.org/web/20131027054952/http://www.simpletest.org/)
 - [Behat](http://behat.org/)
 
 ## Unsere Projekte
@@ -145,8 +145,8 @@ Felix, Marc, Mat, Pfleidi und Ingo haben sich zusammen gefunden um über das Tes
 
 ## Vorträge
 
-- [Therapeutic Refactoring](http://www.confreaks.com/videos/1071-cascadiaruby2012-therapeutic-refactoring)
-- [Boundaries](http://confreaks.com/videos/1314-rubyconf2012-boundaries)
+- [Therapeutic Refactoring](https://web.archive.org/web/20130828140347/http://www.confreaks.com/videos/1071-cascadiaruby2012-therapeutic-refactoring)
+- [Boundaries](https://web.archive.org/web/20130806011412/http://confreaks.com/videos/1314-rubyconf2012-boundaries)
 
 ## Bücher zum Thema
 

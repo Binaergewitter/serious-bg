@@ -21,7 +21,7 @@ audioformats:
 
 ## News
 
-- [Leistungsschutzgesetz](http://www.techweekeurope.co.uk/news/german-law-to-make-google-pay-for-news-snippets-66592)
+- [Leistungsschutzgesetz](https://web.archive.org/web/20120315165752/http://www.techweekeurope.co.uk/news/german-law-to-make-google-pay-for-news-snippets-66592)
 - [10 Jahre ArchLinux!!!](http://www.pro-linux.de/news/1/18142/zehn-jahre-arch-linux.html)
 - [Spotfy startet in Deutschland](http://www.golem.de/news/gema-spotify-in-deutschland-ohne-gema-vertrag-gestartet-1203-90468.html)
 - [Kickstarter funktioniert](http://www.heise.de/newsticker/meldung/Fans-spenden-Tim-Schafer-mehr-als-3-Millionen-Dollar-fuer-Spieleentwicklung-1470983.html)
@@ -34,7 +34,7 @@ audioformats:
   * [StackVM](http://stackvm.com/)  (rb2k)
 - [Neuer Cloud Speicher Anbieter Space Monkey](http://www.golem.de/news/space-monkey-eine-mischung-aus-dropbox-und-bittorrent-1203-90385.html) (rb2k)
   * [SpiderOak scaling back Refer-A-Friend program](https://spideroak.com/blog/20120309151526-spideroak-scaling-back-refer-a-friend-program)
-  * [Wuala hat auch kein trading mehr](https://forum.wuala.com/viewtopic.php?f=39&t=2231#p9341)
+  * [Wuala hat auch kein trading mehr](https://web.archive.org/web/20120424230123/https://forum.wuala.com/viewtopic.php?f=39&t=2231#p9341)
 - [Apple benutzt OSM](http://blog.osmfoundation.org/2012/03/08/welcome-apple/) (rb2k)
   * [Golem Artikel](http://www.golem.de/news/iphoto-apple-nutzt-openstreetmap-statt-google-maps-1203-90369.html)
 - [OSM Ändert Lizenz auch wenn Daten gelöscht werden sollen](http://www.golem.de/news/openatreetmap-lizenzwechsel-kommt-auch-wenn-daten-geloescht-werden-muessen-1203-90479.html)
@@ -43,11 +43,11 @@ audioformats:
 ## Themen
 
 - SSH KnowHow
-  * [Bash as a Service](http://www.devthought.com/2012/03/13/bash-as-a-service/)
-  * [Komfortabel Arbeiten mit SSH](http://blog.roothausen.de/2006/12/17/komfortabel-arbeiten-mit-ssh/)
-  * [Tunneln mit SSH](http://blog.roothausen.de/2006/03/29/ssh-tunnel/)
+  * [Bash as a Service](https://web.archive.org/web/20120315165212/http://www.devthought.com/2012/03/13/bash-as-a-service/)
+  * [Komfortabel Arbeiten mit SSH](https://web.archive.org/web/20100107160712/http://blog.roothausen.de/2006/12/17/komfortabel-arbeiten-mit-ssh/)
+  * [Tunneln mit SSH](https://web.archive.org/web/20100106105523/http://blog.roothausen.de/2006/03/29/ssh-tunnel/)
   * [Tunneln mit Putty](http://blog.marc-seeger.de/2007/11/08/tunneling-everything-via-ssh-aka-fighting-the-nazi-firewall-of-death/)
-  * [~/.ssh/config](http://www.linuxmanpages.com/man5/ssh_config.5.php)
+  * [~/.ssh/config](https://web.archive.org/web/20120430004453/http://www.linuxmanpages.com/man5/ssh_config.5.php)
   * Enterprise-Loop: while true; do ssh host ; done
   * [SSH Hacks](http://matt.might.net/articles/ssh-hacks/)
   * [Prompt](http://www.panic.com/blog/2011/04/introducing-prompt-ssh-for-ios/)
@@ -63,8 +63,8 @@ audioformats:
 - [Making a fast website](http://www.scirra.com/blog/74/making-a-fast-website) (pfleidi)
   * Benutzen von // beim Einbinden von Resourcen
 - [The Personal Analytics of My Life](http://blog.stephenwolfram.com/2012/03/the-personal-analytics-of-my-life/)  (rb2k)
-- [PyCon US 2012](http://pyvideo.org/category/17/pycon-us-2012) (makefu)
-- [How Apple.com will serve retina images to new iPads](http://cloudfour.com/how-apple-com-will-serve-retina-images-to-new-ipads/)
+- [PyCon US 2012](https://web.archive.org/web/20120313034224/http://pyvideo.org/category/17/pycon-us-2012) (makefu)
+- [How Apple.com will serve retina images to new iPads](https://web.archive.org/web/20120315215216/http://cloudfour.com/how-apple-com-will-serve-retina-images-to-new-ipads/)
 - [time.is auf HN](http://news.ycombinator.net/item?id=3690435) (makefu)
 - [Google+ is not deserted. It is a Social Network for Ninjas](http://weknowmemes.com/wp-content/uploads/2012/03/google-plus-is-a-social-network-for-ninjas.jpg)
 
