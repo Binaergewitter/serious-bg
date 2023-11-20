@@ -92,4 +92,4 @@ Mit Felix, Felix und Markus und tötlichen Robotern.
 - [Giza 3D]( http://giza.fas.harvard.edu/giza3d/ )
 * [Neue Grabkammer in Cheops Pyramide endeckt]( https://www.tagesschau.de/wissen/forschung/cheops-pyramide-neuer-raum-entdeckt-aegypten-101.html )
 - NixOS Experience: `nix run  github:numtide/nixos-anywhere -- --flake .#savarcast savarcast`
-- https://lesetagebu.ch
+- [https://lesetagebu.ch]( https://lesetagebu.ch )
