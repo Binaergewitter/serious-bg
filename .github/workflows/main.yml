@@ -39,7 +39,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Deploy app to fly
     if: github.ref == 'refs/heads/main'
-    needs: [test, build-search]
+    needs: [test]
     steps:
       - uses: actions/checkout@v3
       - uses: superfly/flyctl-actions/setup-flyctl@master
