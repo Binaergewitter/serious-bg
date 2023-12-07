@@ -52,7 +52,6 @@ Mit Felix, Felix und Markus und tötlichen Robotern.
   - [MX zu systemd]( https://mxlinux.org/wiki/system/systemd/ )[Wiki: systemd overview]( https://mxlinux.org/wiki/system/systemd-overview/ )
 - [FreeBSD 14]( https://www.freebsd.org/releases/14.0R/schedule/ )
   * [not ready]( https://lists.freebsd.org/archives/freebsd-stable/2023-November/001662.html )
-
 - Congress: Aktueller Stand der Dinge
   * [Congress Azubi](https://chaos.social/@piko/111393028837167828)
   * [Events Blog 37c3 Tag]( https://events.ccc.de/category/37c3/ )
@@ -61,13 +60,9 @@ Mit Felix, Felix und Markus und tötlichen Robotern.
   * [CCH: Räume als JPEG]( https://www.cch.de/planen/raeume-flaechen/auf-einen-blick )
 - [GIMP 2.10.36 Released]( https://www.gimp.org/news/2023/11/07/gimp-2-10-36-released/ )
   * [Bildbearbeitung: Angreifer können Gimp Schadcode unterjubeln]( https://www.heise.de/news/Bildbearbeitung-Angreifer-koennen-Gimp-Schadcode-unterjubeln-9531394.html )
-  
 - [ Blender 4.0]( https://wiki.blender.org/wiki/Reference/Release_Notes/4.0 )
   * [Blender 4.0 Release Seite]( https://www.blender.org/download/releases/4-0/ )
 - [EU: Adblocker Blocker von Youtube verstoßen gegen geltendes Recht]( https://www.wired.com/story/youtube-ad-blocker-detection-eu-privacy-law/ )
-
-## Themen
-
 
 ## Mimimi der Woche
 - [Decide which Python versions we're supporting]( https://github.com/google/flatbuffers/issues/6329 )
@@ -78,9 +73,7 @@ Mit Felix, Felix und Markus und tötlichen Robotern.
 
 - [Level up Your python]( https://henryiii.github.io/level-up-your-python/notebooks/0%20Intro.html )
 - [DaringFireball about M3 Macbook Pro]( https://daringfireball.net/2023/11/the_2023_m3_macbook_pros )
-
 - [Logineo Schulplattform NRW - vom Rohbau zur Kernsanierung]( https://www.heise.de/hintergrund/Missing-Link-Schulplattform-Logineo-NRW-vom-Rohbau-zur-Kernsanierung-9329370.html )
-
 - [Internet cables]( https://www.cnet.com/home/internet/features/the-secret-life-of-the-500-cables-that-run-the-internet/ )
 - [Physical Units and a System of Quantities (podcast)]( https://cppcast.com/physical_units_and_a_system_of_quantities/ )
 - [Post Mortem on Cloudflare Control Plane and Analytics Outage]( https://blog.cloudflare.com/post-mortem-on-cloudflare-control-plane-and-analytics-outage/ )
