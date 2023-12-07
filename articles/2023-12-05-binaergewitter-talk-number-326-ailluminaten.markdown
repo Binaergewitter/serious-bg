@@ -52,9 +52,7 @@ Genauso wie Felix, Felix, Markus und Ingo auch.
 - [weniger Geld für Open Source]( https://www.heise.de/news/Bundeshaushaltsplan-2024-Mittel-fuer-OSS-und-digitale-Souveraenitaet-halbiert-9539672.html )
 - [Sicherheitslücken in Owncloud]( https://tarnkappe.info/artikel/it-sicherheit/sicherheitsluecke-in-owncloud-entdeckt-was-man-darueber-wissen-sollte-284041.html )
 - [BLUFFS]( https://www.heise.de/news/BLUFFS-Neue-Angriffe-gefaehrden-Bluetooth-Datensicherheit-auf-Milliarden-Geraeten-9544862.html )
-
-    * https://francozappa.github.io/post/2023/bluffs-ccs23/
-
+  * [Bluetooth Forward and Future Secrecy Attacks and Defenses](https://francozappa.github.io/post/2023/bluffs-ccs23/)
 - [PsFree Webkit Exploit für PS4/PS5]( https://tarnkappe.info/artikel/jailbreaks/psfree-neuer-webkit-exploit-erschienen-284216.html )
 - [Reptar]( https://lock.cmpxchg8b.com/reptar.html )
 - [Celebrating 20 years of Inkscape]( https://inkscape.org/forums/inks-news/inkscapes-20th-anniversary-celebration/ )
@@ -62,7 +60,7 @@ Genauso wie Felix, Felix, Markus und Ingo auch.
 - [Roundcube + Nextcloud]( https://linuxnews.de/roundcube-fusioniert-mit-nextcloud/ )
 - [Pipewire 1.0.0]( https://linuxnews.de/pipewire-erreicht-stabile-version-1-0-0/ )
 - [NixOS 23.11]( https://nixos.org/manual/nixos/stable/release-notes )
-  - Feature: nix-collect-garbage bei voller platte
+  * Feature: nix-collect-garbage bei voller platte
 
 ## Themen
 - [zlib]( https://github.com/madler/zlib/issues/868 )
@@ -88,5 +86,3 @@ Genauso wie Felix, Felix, Markus und Ingo auch.
 - [Portal on the Nintendo 64 is incredible]( https://www.youtube.com/watch?v=nT0Z_M-fJyM )
 - [advent of code]( https://adventofcode.com/ )
 - [Perodic Table of tools]( https://periodictableoftools.com/index.html )[archive.org mirror]( https://web.archive.org/web/20230122005237/https://periodictableoftools.com/ )
-
-
