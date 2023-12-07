@@ -200,6 +200,8 @@ class Serious::Article
     chapters << '{ "start": "00:00:00.000", "title": "Intro" },'
 
     for mark in chapter do
+        # Note: replace " as it would lead to invalid json otherwise
+        mark[:title].gsub!('"', '\'')
         chapters << "{ \"start\": \"#{mark[:start]}\", \"title\": \"#{mark[:title]}\"},"
     end
     chapters << ']'
