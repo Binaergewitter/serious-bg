@@ -1,81 +1,88 @@
 ---
 layout: post
-title: "Binärgewitter Talk #327: meine AI ist in der Pubertät"
-date: 2023-12-19 22:00
+title: "Binärgewitter Talk #326: AI-lluminaten"
+date: 2023-12-05 20:00
 comments: true
 categories: talk
 sharing: true
 published: true
-chapters: http://download.binaergewitter.de/2023-12-18.Binaergewitter.Talk.327.chapters.txt
+chapters: http://download.binaergewitter.de/2023-12-04.Binaergewitter.Talk.326.chapters.txt
 audioformats:
-  mp3: https://download.binaergewitter.de/2023-12-18.Binaergewitter.Talk.327.mp3
-  ogg: https://download.binaergewitter.de/2023-12-18.Binaergewitter.Talk.327.ogg
-  m4a: https://download.binaergewitter.de/2023-12-18.Binaergewitter.Talk.327.m4a
-  opus: https://download.binaergewitter.de/2023-12-18.Binaergewitter.Talk.327.opus
+  mp3: https://download.binaergewitter.de/2023-12-04.Binaergewitter.Talk.326.mp3
+  ogg: https://download.binaergewitter.de/2023-12-04.Binaergewitter.Talk.326.ogg
+  m4a: https://download.binaergewitter.de/2023-12-04.Binaergewitter.Talk.326.m4a
+  opus: https://download.binaergewitter.de/2023-12-04.Binaergewitter.Talk.326.opus
 ---
-Vor Weihnachtliche Sendung mit Markus, Felix und Ingo.
+Die AIlluminaten sind unter euch! 
+Genauso wie Felix, Felix, Markus und Ingo auch.
 
 ## Blast from the Past
 
-* der l33tname redet nächstes mal über FreeBSD
-* [Kommentar Android Insulinpumpen]( https://blog.binaergewitter.de/2023/12/05/binaergewitter-talk-number-326-ailluminaten )
-* [PS4 exploit webkit / kernel exploit nicht ohne USB-Stick]( https://wololo.net/2023/12/04/psfree-webkit-exploit-for-ps4-6-00-to-9-60-and-ps5-1-00-to-5-50-quickhen-toolkit-announced/ )
+* [Nitrokey NetHSM]( https://www.nitrokey.com/products/nethsm )
+* [RadioTux Sendung](https://www.radiotux.de/index.php?/archives/8093-RadioTux-Sendung-November-2023.html )
+* ILeakage: Artikel [computerbase]( https://www.computerbase.de/2023-10/ileakage-x-safari-spectre-nun-auch-bei-apple-cpus-ein-thema/ ): Risiko überschaubar, da sehr Zeitaufwändig
+  - [Apple: Tim Cook Nachfolger]( https://www.heise.de/news/Apple-Chef-Tim-Cook-Fuer-die-Nachfolge-stehen-mehrere-Kandidaten-bereit-9535563.html )
+* [ActivityPub Lesetagebuch: Bookwyrm]( https://bookwyrm.social/about )
+* FreeBSD 14
+  - [Some late-breaking FreeBSD 14 breakage]( http://www.daemonology.net/blog/2023-11-21-late-breaking-FreeBSD-14-breakage.html )
+  - [Valuable FreeBSD 14.0-RELEASE Updates]( https://vermaden.wordpress.com/2023/11/17/valuable-freebsd-14-0-release-updates/ )
+  - [Coming /home]( https://group.miletic.net/en/blog/2023-11-13-coming-home/ )
+  - [FreeBSD Errata Notices and Security Advisories]( https://www.freebsd.org/security/advisories/FreeBSD-EN-23:16.openzfs.asc )
+  - [SEEK_DATA fails randomly]( https://github.com/openzfs/zfs/issues/11900 )
 
 ## Toter der Woche
-
-- [Google Groups is ending support for Usenet]( https://support.google.com/groups/answer/11036538?hl=en )
-- Ingos Google Account
+- [RHEL 10 kommt ohne X.Org-Server](https://linuxnews.de/rhel-10-kommt-ohne-x-org-server/)
+  - [Wayland Isn't Going to Save The Linux Desktop]( https://dudemanguy.github.io/blog/posts/2022-06-10-wayland-xorg/wayland-xorg.html )
+- [Cookie Banner (bei firefox 120)]( https://www.heise.de/news/Firefox-120-kann-Cookie-Banner-automatisch-ablehnen-9536339.html )
+- [Insulin Pumpe mit Bug]( https://www.omnipod.com/fsn-11-2023 )
 
 ## Untoter der Woche
-
-- [Zug-Reparatur in Polen]( https://arstechnica.com/tech-policy/2023/12/manufacturer-deliberately-bricked-trains-repaired-by-competitors-hackers-find/ )
-- [Rolltreppen Uni Stuttgart defekt]( https://www.spiegel.de/netzwelt/web/memes-auf-rolltreppen-in-stuttgart-deutsche-bahn-gibt-ihren-widerstand-auf-a-96949e2b-d555-4dcf-8629-f8d9b5cfbed1 )
-  - [Techniker ist Informiert (Uni Mainz)]( https://www.vice.com/de/article/evbz7z/techniker-ist-informiert-hinter-der-viralsten-tur-deutschlands-steckt-eine-grosse-luge )
+- [Zero Punctuation -> Fully Ramblomatic]( https://www.youtube.com/@SecondWindGroup )
 
 ## AI der Woche
-- [Facebook hat endlich einen neuen weg gefunden eure Bilder zu monetarisieren]( https://arstechnica.com/information-technology/2023/12/metas-new-ai-image-generator-was-trained-on-1-1-billion-instagram-and-facebook-photos/ ) 
-- [Writer.com with indirect prompt injection]( https://promptarmor.substack.com/p/data-exfiltration-from-writercom )
-- [ChatGPT wird faul, OpenAI weiss nicht warum]( https://www.golem.de/news/ki-chatgpt-wird-faul-openai-weiss-nicht-warum-2312-180214.html )
+- [Interview: Sam Altman on being fired and rehired by OpenAI]( https://www.theverge.com/2023/11/29/23982046/sam-altman-interview-openai-ceo-rehired )
+  * [What happened with OpenAI (video)]( https://www.youtube.com/watch?v=L6mmzBDfRS4 )
+- [SD-XL turbo]( https://old.reddit.com/r/StableDiffusion/comments/1869cnk/real_time_prompting_with_sdxl_turbo_and_comfyui/ )
+  * [New Kids Turbo]( https://www.imdb.com/title/tt1648112/ )
+- [AI Influencer]( https://fortune.com/europe/2023/11/23/spanish-influencer-agency-earned-11000-ai-model-posers/ )
+- [ONE TRILLION PARAMETERS]( https://www.techradar.com/pro/the-gpt-to-rule-them-all-training-for-one-trillion-parameter-model-backed-by-intel-and-us-government-has-just-begun )
+- [PoliGPT - Der Chatbot für politische Klarheit]( https://frag-den-bundestag.de/ )
 
 ## News
-- [ext4 data corruption in 6.1.64]( https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1057843 )
-- https://micronews.debian.org/2023/1702150551.html
-  * https://linuxnews.de/debian-12-4-bookworm-behebt-kernel-bug/
-- https://www.atomicjar.com/2023/12/atomicjar-is-now-part-of-docker/
-- [5Ghoul]( https://tarnkappe.info/artikel/entertainment/smartphones/5ghoul-sicherheitsluecke-in-5g-modems-betrifft-ios-und-android-284439.html )
-  - [Original Website]( https://asset-group.github.io/disclosures/5ghoul/ )
-  - 4 von 5 auf der Binärgewitter Security Skala
-- [terrapin]( https://terrapin-attack.com/ )
-  - 3 von 5 auf der Binärgewitter Security Skala
-- [Excel World Championships 2023 Finals (videos)]( https://www.youtube.com/watch?v=UDGdPE_C9u8 )
- - 2v2 exceln
- - verschiedene wertungskriterien
- - Graphen
- - Kartenspiel (Supertrumpf)
-
+- [weniger Geld für Open Source]( https://www.heise.de/news/Bundeshaushaltsplan-2024-Mittel-fuer-OSS-und-digitale-Souveraenitaet-halbiert-9539672.html )
+- [Sicherheitslücken in Owncloud]( https://tarnkappe.info/artikel/it-sicherheit/sicherheitsluecke-in-owncloud-entdeckt-was-man-darueber-wissen-sollte-284041.html )
+- [BLUFFS]( https://www.heise.de/news/BLUFFS-Neue-Angriffe-gefaehrden-Bluetooth-Datensicherheit-auf-Milliarden-Geraeten-9544862.html )
+  * [Bluetooth Forward and Future Secrecy Attacks and Defenses](https://francozappa.github.io/post/2023/bluffs-ccs23/)
+- [PsFree Webkit Exploit für PS4/PS5]( https://tarnkappe.info/artikel/jailbreaks/psfree-neuer-webkit-exploit-erschienen-284216.html )
+- [Reptar]( https://lock.cmpxchg8b.com/reptar.html )
+- [Celebrating 20 years of Inkscape]( https://inkscape.org/forums/inks-news/inkscapes-20th-anniversary-celebration/ )
+- [Digitale Avatare für übernächstes KISS Konzert]( https://www.heise.de/news/Kiss-Nach-Abschlusstournee-sollen-digitale-Avatare-die-Auftritte-uebernehmen-9547273.html )
+- [Roundcube + Nextcloud]( https://linuxnews.de/roundcube-fusioniert-mit-nextcloud/ )
+- [Pipewire 1.0.0]( https://linuxnews.de/pipewire-erreicht-stabile-version-1-0-0/ )
+- [NixOS 23.11]( https://nixos.org/manual/nixos/stable/release-notes )
+  * Feature: nix-collect-garbage bei voller platte
 
 ## Themen
-
-- Congress
-
-- Ticketverfügbarkeit
-- Fahrplan
-- Congress App
-
-## Mimimi der Woche
-
-- Medium - don't publish there! (and the bad thing that blogs like angular.io are using it)
+- [zlib]( https://github.com/madler/zlib/issues/868 )
 
 ## Lesefoo
 
-- [Pipe Dreams: The life and times of Yahoo Pipes]( https://retool.com/pipes )
+- [a guide to your own mail server]( https://workaround.org/ )
+  - [mailcow]( https://mailcow.email/ )
+  - [Simple NixOS Mailserver]( https://gitlab.com/simple-nixos-mailserver/nixos-mailserver )
+  - [Mail Part 1 Setup Smtp Opensmtpd]( https://l33tsource.com/blog/2015/07/26/mail-part-1-setup-smtp-opensmtpd/ )
+- [Paper: You Want My Password or a Dead Patient?]( https://cohost.org/mononcqc/post/3647311-paper-you-want-my-p )
+- [Bcachefs Performance in Linux 6.7]( https://www.phoronix.com/review/bcachefs-benchmarks-linux67/ )
 
 ## Picks
-
-- [fsfe podcast]( https://fsfe.org/news/podcast/episode-22.html )
-- [mixxx]( https://mixxx.org )
-- [PragmaticVersioning]( https://github.com/seveibar/pragmaticversioning )
-- https://de.wikipedia.org/wiki/Mitteleurop%C3%A4ische_Zeit
-
-
-
+- [Positive Hackernews]( https://github.com/garritfra/positive_hackernews )
+- [Smarter Everyday "I Was SCARED To Say This To NASA... (But I said it anyway)" (video)]( https://www.youtube.com/watch?v=OoJsPvmFixU )
+- [QEmu Adventskalender]( https://qemu-advent-calendar.org/2023/ )
+- [[Markdown] An option to highlight a "Note" and "Warning" using blockquote]( https://github.com/orgs/community/discussions/16925 )
+  * [Asciidoc Quick Reference]( https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/ )
+  * [Admonitions in AsciiDoc]( https://docs.asciidoctor.org/asciidoc/latest/blocks/admonitions/ )
+- [Half-Life: 25th Anniversary Documentary (video)]( https://www.youtube.com/watch?v=TbZ3HzvFEto )
+- [Travelynx]( https://travelynx.de/ )
+- [Portal on the Nintendo 64 is incredible]( https://www.youtube.com/watch?v=nT0Z_M-fJyM )
+- [advent of code]( https://adventofcode.com/ )
+- [Perodic Table of tools]( https://periodictableoftools.com/index.html )[archive.org mirror]( https://web.archive.org/web/20230122005237/https://periodictableoftools.com/ )
