@@ -17,10 +17,9 @@ Die SMSAusdrucker Markus, Felix und Ingo präsentieren euch die Sendung.
 
 ## Toter der Woche
 - [SMS-Briefmarke in der Schweiz]( https://www.inside-it.ch/die-sms-briefmarke-hat-ausfrankiert-20230301 )
- - https://www.s25atonce.de/
+- [s24 @ once](https://www.s25atonce.de/)
 - [Gordon Moore]( https://www.heise.de/news/Gordon-Moore-ist-tot-8024317.html )
-  - [2010 in den News: Researchers create 4nm transistor with seven atoms]( https://science.slashdot.org/story/10/05/26/1412214/researchers-create-4nm-transistor-with-seven-atoms )
-
+  * [2010 in den News: Researchers create 4nm transistor with seven atoms]( https://science.slashdot.org/story/10/05/26/1412214/researchers-create-4nm-transistor-with-seven-atoms )
 - [Abraham Lempel und Jacob Ziv gestorben]( https://mastodon.social/@dosnostalgic/110090845335895604 )
  * [LZW]( https://de.wikipedia.org/wiki/Lempel-Ziv-Welch-Algorithmus )
  * [LZO]( https://de.wikipedia.org/wiki/Lempel-Ziv-Oberhumer )
@@ -70,5 +69,3 @@ Docker will OpenSource organisations / unpaid orgs löschen https://blog.alexell
 
 - [2023.revision-party.net/](http://2023.revision-party.net/ )
 - [20 Years of Nix](https://20th.nixos.org/)
-
-
