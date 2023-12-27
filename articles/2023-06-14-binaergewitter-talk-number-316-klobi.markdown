@@ -12,6 +12,11 @@ audioformats:
   ogg: https://download.binaergewitter.de/2023-06-13.Binaergewitter.Talk.316.ogg
   m4a: https://download.binaergewitter.de/2023-06-13.Binaergewitter.Talk.316.m4a
   opus: https://download.binaergewitter.de/2023-06-13.Binaergewitter.Talk.316.opus
+voices:
+  ingo: true
+  makefu: true
+  l33tname: true
+  madmas: true
 ---
 Es ist heiß draußen und wir hangeln uns mal wieder durch die heißesten Linux News :)
 

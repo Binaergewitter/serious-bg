@@ -12,6 +12,11 @@ audioformats:
   ogg: https://download.binaergewitter.de/2023-08-31.Binaergewitter.Talk.321.ogg
   m4a: https://download.binaergewitter.de/2023-08-31.Binaergewitter.Talk.321.m4a
   opus: https://download.binaergewitter.de/2023-08-31.Binaergewitter.Talk.321.opus
+voices:
+  ingo: false
+  makefu: false
+  l33tname: true
+  madmas: true
 ---
 Felix, Felix und Markus präsentieren euch diese Show.
 

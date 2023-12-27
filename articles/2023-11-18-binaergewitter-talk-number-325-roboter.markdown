@@ -12,6 +12,11 @@ audioformats:
   ogg: https://download.binaergewitter.de/2023-11-17.Binaergewitter.Talk.325.ogg
   m4a: https://download.binaergewitter.de/2023-11-17.Binaergewitter.Talk.325.m4a
   opus: https://download.binaergewitter.de/2023-11-17.Binaergewitter.Talk.325.opus
+voices:
+  ingo: true
+  makefu: true
+  l33tname: true
+  madmas: true
 ---
 Mit Felix, Felix und Markus und tötlichen Robotern.
 

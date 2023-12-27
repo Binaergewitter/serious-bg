@@ -12,6 +12,11 @@ audioformats:
   ogg: https://download.binaergewitter.de/2023-07-19.Binaergewitter.Talk.318.ogg
   m4a: https://download.binaergewitter.de/2023-07-19.Binaergewitter.Talk.318.m4a
   opus: https://download.binaergewitter.de/2023-07-19.Binaergewitter.Talk.318.opus
+voices:
+  ingo: true
+  makefu: true
+  l33tname: false
+  madmas: true
 ---
 Sommerloch mit Felix, Markus und Ingo.
 

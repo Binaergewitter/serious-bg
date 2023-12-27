@@ -11,6 +11,11 @@ audioformats:
   ogg: https://download.binaergewitter.de/2023-03-09.Binaergewitter.Talk.312.ogg
   m4a: https://download.binaergewitter.de/2023-03-09.Binaergewitter.Talk.312.m4a
   opus: https://download.binaergewitter.de/2023-03-09.Binaergewitter.Talk.312.opus
+voices:
+  ingo: true
+  makefu: true
+  l33tname: false
+  madmas: true  
 ---
 Eine neue Binärgewitter Woche bricht an mit Felix, Markus und Ingo.
 

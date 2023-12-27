@@ -12,6 +12,11 @@ audioformats:
   ogg: https://download.binaergewitter.de/2023-03-27.Binaergewitter.Talk.313.ogg
   m4a: https://download.binaergewitter.de/2023-03-27.Binaergewitter.Talk.313.m4a
   opus: https://download.binaergewitter.de/2023-03-27.Binaergewitter.Talk.313.opus
+voices:
+  ingo: true
+  makefu: true
+  l33tname: false
+  madmas: true
 ---
 Die SMSAusdrucker Markus, Felix und Ingo präsentieren euch die Sendung.
 

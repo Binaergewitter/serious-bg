@@ -12,6 +12,11 @@ audioformats:
   ogg: https://download.binaergewitter.de/2023-10-04.Binaergewitter.Talk.323.ogg
   m4a: https://download.binaergewitter.de/2023-10-04.Binaergewitter.Talk.323.m4a
   opus: https://download.binaergewitter.de/2023-10-04.Binaergewitter.Talk.323.opus
+voices:
+  ingo: true
+  makefu: false
+  l33tname: true
+  madmas: true
 ---
 Doch wir können auch unter 2 Stunden bleiben. Diesmal mit Liedern, Tofu und dem Steamdeck.
 

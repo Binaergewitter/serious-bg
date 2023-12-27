@@ -12,6 +12,12 @@ audioformats:
   ogg: https://download.binaergewitter.de/2023-08-18.Binaergewitter.Talk.320.ogg
   m4a: https://download.binaergewitter.de/2023-08-18.Binaergewitter.Talk.320.m4a
   opus: https://download.binaergewitter.de/2023-08-18.Binaergewitter.Talk.320.opus
+voices:
+  ingo: true
+  makefu: true
+  l33tname: false
+  madmas: false
+  sebastian: true
 ---
 Live vom CCCamp 2023 aus Mildenberg in Brandenburg. Mit Felix, Ingo und Sebastian als Gast. Wir sprechen vor allem über das Chaos Communication Camp.
 
