@@ -12,6 +12,11 @@ audioformats:
   ogg: https://download.binaergewitter.de/2023-08-08.Binaergewitter.Talk.319.ogg
   m4a: https://download.binaergewitter.de/2023-08-08.Binaergewitter.Talk.319.m4a
   opus: https://download.binaergewitter.de/2023-08-08.Binaergewitter.Talk.319.opus
+voices:
+  ingo: false
+  makefu: false
+  l33tname: true
+  madmas: true  
 ---
 Nur eine Rumpfbesatzung muss diese Sendung bestreiten. Felix und Markus betreiten diese Sendung alleine. Daher auch wieder per KI generierte Chaptermarks. Nächstes Mal vielleicht wieder die Alten.....
 

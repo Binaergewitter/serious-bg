@@ -12,6 +12,11 @@ audioformats:
   ogg: https://download.binaergewitter.de/2023-01-26.Binaergewitter.Talk.310.ogg
   m4a: https://download.binaergewitter.de/2023-01-26.Binaergewitter.Talk.310.m4a
   opus: https://download.binaergewitter.de/2023-01-26.Binaergewitter.Talk.310.opus
+voices:
+  ingo: true
+  makefu: true
+  l33tname: true
+  madmas: true
 ---
 Alle an Board.
 

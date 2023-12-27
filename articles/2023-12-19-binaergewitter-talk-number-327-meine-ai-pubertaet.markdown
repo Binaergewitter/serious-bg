@@ -12,6 +12,11 @@ audioformats:
   ogg: https://download.binaergewitter.de/2023-12-18.Binaergewitter.Talk.327.ogg
   m4a: https://download.binaergewitter.de/2023-12-18.Binaergewitter.Talk.327.m4a
   opus: https://download.binaergewitter.de/2023-12-18.Binaergewitter.Talk.327.opus
+voices:
+  ingo: true
+  makefu: true
+  l33tname: false
+  madmas: true
 ---
 Vor Weihnachtliche Sendung mit Markus, Felix und Ingo.
 

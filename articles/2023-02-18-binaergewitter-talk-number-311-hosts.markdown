@@ -12,6 +12,11 @@ audioformats:
   ogg: https://download.binaergewitter.de/2023-02-18.Binaergewitter.Talk.311.ogg
   m4a: https://download.binaergewitter.de/2023-02-18.Binaergewitter.Talk.311.m4a
   opus: https://download.binaergewitter.de/2023-02-18.Binaergewitter.Talk.311.opus
+voices:
+  ingo: true
+  makefu: true
+  l33tname: false
+  madmas: true
 ---
 Wir sind in Feierlaune (Naja eigentlich nur der Markus). Aber ne kleine Sendung passt noch rein...
 

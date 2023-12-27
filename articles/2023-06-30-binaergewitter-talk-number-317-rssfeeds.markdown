@@ -12,6 +12,11 @@ audioformats:
   ogg: https://download.binaergewitter.de/2023-06-29.Binaergewitter.Talk.317.ogg
   m4a: https://download.binaergewitter.de/2023-06-29.Binaergewitter.Talk.317.m4a
   opus: https://download.binaergewitter.de/2023-06-29.Binaergewitter.Talk.317.opus
+voices:
+  ingo: true
+  makefu: true
+  l33tname: false
+  madmas: true
 ---
 Was macht eigentlich RedHat da? Wir sprechen über Gartenbau und die aktuelle Situation bei Enterprise Linux....
 

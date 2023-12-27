@@ -12,6 +12,11 @@ audioformats:
   ogg: https://download.binaergewitter.de/2023-04-20.Binaergewitter.Talk.314.ogg
   m4a: https://download.binaergewitter.de/2023-04-20.Binaergewitter.Talk.314.m4a
   opus: https://download.binaergewitter.de/2023-04-20.Binaergewitter.Talk.314.opus
+voices:
+  ingo: true
+  makefu: true
+  l33tname: true
+  madmas: true
 ---
 
 Alle wieder da. Ohne April Witze und mit Audioproblemen bei Ingo.

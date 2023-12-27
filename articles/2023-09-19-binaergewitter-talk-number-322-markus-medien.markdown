@@ -12,6 +12,11 @@ audioformats:
   ogg: https://download.binaergewitter.de/2023-09-18.Binaergewitter.Talk.322.ogg
   m4a: https://download.binaergewitter.de/2023-09-18.Binaergewitter.Talk.322.m4a
   opus: https://download.binaergewitter.de/2023-09-18.Binaergewitter.Talk.322.opus
+voices:
+  ingo: true
+  makefu: false
+  l33tname: true
+  madmas: true
 ---
 Wieder alle da. Mit Börsenspiel und Eselsbrücken.
 

@@ -12,6 +12,11 @@ audioformats:
   ogg: https://download.binaergewitter.de/2023-11-01.Binaergewitter.Talk.324.ogg
   m4a: https://download.binaergewitter.de/2023-11-01.Binaergewitter.Talk.324.m4a
   opus: https://download.binaergewitter.de/2023-11-01.Binaergewitter.Talk.324.opus
+voices:
+  ingo: true
+  makefu: true
+  l33tname: true
+  madmas: true
 ---
 Die After Halloween Show mit Markus, Felix, Felix und Ingo.
 

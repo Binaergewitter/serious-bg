@@ -12,6 +12,11 @@ audioformats:
   ogg: https://download.binaergewitter.de/2023-05-18.Binaergewitter.Talk.315.ogg
   m4a: https://download.binaergewitter.de/2023-05-18.Binaergewitter.Talk.315.m4a
   opus: https://download.binaergewitter.de/2023-05-18.Binaergewitter.Talk.315.opus
+voices:
+  ingo: true
+  makefu: true
+  l33tname: true
+  madmas: true
 ---
 Unsere mit Witzen angereicherte Männer/Vaterstagssendung. Wie jedes Jahr mit ein bisschen Alkohol und einer Menge Spaß. 
 Präsentiert von Felix, Felix, Markus und Ingo.
