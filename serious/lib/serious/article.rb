@@ -112,6 +112,10 @@ class Serious::Article
     @audio ||= yaml["audioformats"] || {}
   end
 
+  def voices
+    @voices ||= yaml["voices"] || {}
+  end
+
   # Hash for each file format the matching file size
   def audio_file_sizes
     return @audio_file_sizes if defined?(@audio_file_sizes)
