@@ -8,7 +8,7 @@ sharing: true
 published: true
 chapters: https://download.binaergewitter.de/2023-03-27.Binaergewitter.Talk.313.chapters.txt
 audioformats:
-  mp3: https://download.binaergewitter.de/2023-03-27.Binaergewitter.Talk.313_112k.mp3
+  mp3: https://download.binaergewitter.de/2023-03-27.Binaergewitter.Talk.313.mp3
   ogg: https://download.binaergewitter.de/2023-03-27.Binaergewitter.Talk.313.ogg
   m4a: https://download.binaergewitter.de/2023-03-27.Binaergewitter.Talk.313.m4a
   opus: https://download.binaergewitter.de/2023-03-27.Binaergewitter.Talk.313.opus
