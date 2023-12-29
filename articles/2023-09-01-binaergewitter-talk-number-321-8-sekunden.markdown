@@ -14,7 +14,7 @@ audioformats:
   opus: https://download.binaergewitter.de/2023-08-31.Binaergewitter.Talk.321.opus
 voices:
   ingo: false
-  makefu: false
+  makefu: true
   l33tname: true
   madmas: true
 ---
