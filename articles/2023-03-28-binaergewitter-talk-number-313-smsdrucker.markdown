@@ -22,12 +22,12 @@ Die SMSAusdrucker Markus, Felix und Ingo präsentieren euch die Sendung.
 
 ## Toter der Woche
 - [SMS-Briefmarke in der Schweiz]( https://www.inside-it.ch/die-sms-briefmarke-hat-ausfrankiert-20230301 )
-- [s24 @ once](https://www.s25atonce.de/)
+- [s25 @ once](https://www.s25atonce.de/)
 - [Gordon Moore]( https://www.heise.de/news/Gordon-Moore-ist-tot-8024317.html )
   * [2010 in den News: Researchers create 4nm transistor with seven atoms]( https://science.slashdot.org/story/10/05/26/1412214/researchers-create-4nm-transistor-with-seven-atoms )
 - [Abraham Lempel und Jacob Ziv gestorben]( https://mastodon.social/@dosnostalgic/110090845335895604 )
- * [LZW]( https://de.wikipedia.org/wiki/Lempel-Ziv-Welch-Algorithmus )
- * [LZO]( https://de.wikipedia.org/wiki/Lempel-Ziv-Oberhumer )
+  * [LZW]( https://de.wikipedia.org/wiki/Lempel-Ziv-Welch-Algorithmus )
+  * [LZO]( https://de.wikipedia.org/wiki/Lempel-Ziv-Oberhumer )
 - [Team Andro]( https://www.gannikus.de/news/bodybuilding-plattform-team-andro-abgeschaltet/ )
 
 ## AI der Woche
@@ -41,10 +41,10 @@ Die SMSAusdrucker Markus, Felix und Ingo präsentieren euch die Sendung.
 
 - [JEP 430 String Templates]( https://openjdk.org/jeps/430 )
 - [opentracker.io gestartet (Anfang März6)]( opentracker.io/faq.html )
- * [opentracker software]( https://erdgeist.org/arts/software/opentracker/ )
- * [libowfat]( https://github.com/NixOS/nixpkgs/blob/master/pkgs/development/libraries/lijbowfat/default.nix )
+  * [opentracker software]( https://erdgeist.org/arts/software/opentracker/ )
+  * [libowfat]( https://github.com/NixOS/nixpkgs/blob/master/pkgs/development/libraries/lijbowfat/default.nix )
 - [Twitter Quellcode]( https://www.tagesschau.de/wirtschaft/twitter-software-code-101.html )
-  - [10 Million Users in Mastodon]( https://www.computing.co.uk/news/4086914/mastodon-tops-million-users )
+  * [10 Million Users in Mastodon]( https://www.computing.co.uk/news/4086914/mastodon-tops-million-users )
 - [Github RSA host key rotation]( https://github.blog/2023-03-23-we-updated-our-rsa-ssh-host-key/ )
 - [Smart Contract Reverse Hack]( https://www.heise.de/news/Kryptowaehrungen-Gericht-laesst-Smart-Contract-umprogrammieren-7533982.html?seite=all )
 - [E-Book ausleihen ilegal]( https://www.heise.de/news/Klage-gegen-Internet-Archive-Ausleihen-von-E-Books-war-rechtswidrig-8080944.html )
