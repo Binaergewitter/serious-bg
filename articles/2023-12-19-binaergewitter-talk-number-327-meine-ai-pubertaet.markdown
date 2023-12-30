@@ -44,9 +44,9 @@ Vor Weihnachtliche Sendung mit Markus, Felix und Ingo.
 
 ## News
 - [ext4 data corruption in 6.1.64]( https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1057843 )
-- https://micronews.debian.org/2023/1702150551.html
-  * https://linuxnews.de/debian-12-4-bookworm-behebt-kernel-bug/
-- https://www.atomicjar.com/2023/12/atomicjar-is-now-part-of-docker/
+- [issue in ext4 with data corruption]( https://micronews.debian.org/2023/1702150551.html )
+  * [Debian 12.4 »Bookworm« behebt Kernel-Bug]( https://linuxnews.de/debian-12-4-bookworm-behebt-kernel-bug/
+- [AtomicJar is now part of Docker!]( https://www.atomicjar.com/2023/12/atomicjar-is-now-part-of-docker/ )
 - [5Ghoul]( https://tarnkappe.info/artikel/entertainment/smartphones/5ghoul-sicherheitsluecke-in-5g-modems-betrifft-ios-und-android-284439.html )
   - [Original Website]( https://asset-group.github.io/disclosures/5ghoul/ )
   - 4 von 5 auf der Binärgewitter Security Skala
@@ -58,14 +58,12 @@ Vor Weihnachtliche Sendung mit Markus, Felix und Ingo.
  - Graphen
  - Kartenspiel (Supertrumpf)
 
-
 ## Themen
 
 - Congress
-
-- Ticketverfügbarkeit
-- Fahrplan
-- Congress App
+  - Ticketverfügbarkeit
+  - Fahrplan
+  - Congress App
 
 ## Mimimi der Woche
 
@@ -81,6 +79,3 @@ Vor Weihnachtliche Sendung mit Markus, Felix und Ingo.
 - [mixxx]( https://mixxx.org )
 - [PragmaticVersioning]( https://github.com/seveibar/pragmaticversioning )
 - https://de.wikipedia.org/wiki/Mitteleurop%C3%A4ische_Zeit
-
-
-
