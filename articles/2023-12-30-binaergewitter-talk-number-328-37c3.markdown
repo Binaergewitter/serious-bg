@@ -30,7 +30,6 @@ Sehr kurze Sendung mit Felix und Markus vom Congress. Dank der rasenden Zeit gib
   * [iocage has been abandoned]( https://mastodon.social/@dvl/111545471830733682 )
 
 ## 37c3
-
 - [shout-out to the sendezentrum]( https://events.ccc.de/congress/2023/hub/en/assembly/sendezentrum/ )
 - [wiki - dating]( https://events.ccc.de/congress/2023/hub/en/wiki/Dating/ )
 - whoop 
@@ -48,18 +47,13 @@ Sehr kurze Sendung mit Felix und Markus vom Congress. Dank der rasenden Zeit gib
     * logbuch netzpolitik podcast
   - [Hacking the Climate]( https://media.ccc.de/v/37c3-11870-hacking_the_climate )
   - [Toniebox reverse engineering]( https://media.ccc.de/v/37c3-11993-toniebox_reverse_engineering )
-
       - Phoniebox
-
-  - Hirne hacken: Hackback edition
+  - [Hirne hacken: Hackback edition]( https://media.ccc.de/v/37c3-12134-hirne_hacken_hackback_edition )
   - [Why Railway Is Safe But Not Secure]( https://media.ccc.de/v/37c3-11717-why_railway_is_safe_but_not_secure )
   - [Fuzz Everything, Everywhere, All at Once]( https://media.ccc.de/v/37c3-12102-fuzz_everything_everywhere_all_at_once )
   - [Fuzzing the TCP/IP stack]( https://media.ccc.de/v/37c3-12235-fuzzing_the_tcp_ip_stack )
   - [Lightning Talks Day 2]( https://media.ccc.de/v/37c3-11696-lightning_talks_day_2 )
-  - new important instructions
+  - [New Important Instructions]( https://media.ccc.de/v/37c3-12292-new_important_instructions )
   - [Heimlich-Manöver]( https://events.ccc.de/congress/2023/hub/de/event/heimlich-manover/ )
   - [Gemeinsam gegen rechten Terror! Aber wie?]( https://media.ccc.de/v/37c3-12094-gemeinsam_gegen_rechten_terror_aber_wie )
   - [promt battle]( https://events.ccc.de/congress/2023/hub/de/event/prompt_battle/ )
-
-
-
