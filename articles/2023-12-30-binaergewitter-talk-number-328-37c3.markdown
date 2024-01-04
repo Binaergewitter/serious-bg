@@ -44,7 +44,7 @@ Sehr kurze Sendung mit Felix und Markus vom Congress. Dank der rasenden Zeit gib
 
 - Talks
   - [ZPS Afd-verbot.de]( https://media.ccc.de/v/37c3-12345-scholz_greift_durch_die_afd_wird_verboten_-_deepfakes_auch )
-    * logbuch netzpolitik podcast
+    * logbuch netzpolitik podcast: [LNP477 Die Anwälte sind die wahren Künstler]( https://logbuch-netzpolitik.de/lnp477-die-anwaelte-sind-die-wahren-kuenstler )
   - [Hacking the Climate]( https://media.ccc.de/v/37c3-11870-hacking_the_climate )
   - [Toniebox reverse engineering]( https://media.ccc.de/v/37c3-11993-toniebox_reverse_engineering )
       - Phoniebox
