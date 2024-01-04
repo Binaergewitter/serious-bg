@@ -11,7 +11,6 @@ Es gibt verschiedene Wege uns zu unterstützen
 
 * [Liberapay](https://liberapay.com/Binaergewitter/)
 * [Patreon](https://www.patreon.com/binaergewitter)
-* [flattr](https://flattr.com/@binaergewitter)
 * Überweisung
  Name: Ingo Ebel
  IBAN: DE74 2004 1133 0738 8606 05
