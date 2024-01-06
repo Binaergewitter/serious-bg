@@ -126,23 +126,6 @@ class Serious < Sinatra::Base
       render :erb, :"_isso", :locals => { :title => title }, :layout => false
     end
 
-    def render_flattr(article=nil)
-      if article.nil?
-        options = {
-          :url => Serious.url,
-          :title => Serious.title,
-          :description => Serious.description
-        }
-      else
-        options = {
-          :url => "#{Serious.url}/blog#{article.url}",
-          :title => article.title,
-          :description => article.automatic_summary
-        }
-      end
-      render :erb, :"_flattr", :locals => options, :layout => false
-    end
-
     def render_article(article, summary_only=false)
       render :erb, :'_article', :locals => { :article => article, :summary_only => summary_only }, :layout => !summary_only
     end
@@ -373,5 +356,4 @@ Serious.set :environment, :test
 Serious.set :date_format, "%B %o %Y"
 Serious.set :disqus, false
 Serious.set :google_analytics, false
-Serious.set :flattr, false
 Serious.set :feed_url, '/rss.xml'
