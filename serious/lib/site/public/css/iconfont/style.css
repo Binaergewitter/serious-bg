@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'bgt';
   src:
-    url('fonts/bgt.ttf?65iov5') format('truetype'),
-    url('fonts/bgt.woff?65iov5') format('woff'),
-    url('fonts/bgt.svg?65iov5#bgt') format('svg');
+    url('fonts/bgt.ttf?5uetal') format('truetype'),
+    url('fonts/bgt.woff?5uetal') format('woff'),
+    url('fonts/bgt.svg?5uetal#bgt') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -34,6 +34,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-patreon:before {
+  content: "\e902";
+}
 .icon-mastodon:before {
   content: "\e900";
 }
