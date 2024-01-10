@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Binärgewitter Talk #329: Turbo Niklas"
+title: "Binärgewitter Talk #329: Turbo Niklaus"
 date: 2024-01-05 20:00
 comments: true
 categories: talk
@@ -62,7 +62,7 @@ Wir blicken zurück auf den Congress und wagen Aussagen für 2024. Mit Felix, Fe
 
 #### more interesting talks
 
-- netzpolitische Neujahrsansprache (https://media.ccc.de/v/37c3-11970-die_netzpolitische_neujahrsansprache )
+- [netzpolitische Neujahrsansprache](https://media.ccc.de/v/37c3-11970-die_netzpolitische_neujahrsansprache )
 - [FNord]( https://media.ccc.de/v/37c3-11933-fnord-jahresruckblick-ruckblick )
 - [Gesundheitssystem/ePA]( https://media.ccc.de/v/37c3-11942-von_der_epa_zum_ehds_7_thesen_zur_aktuellen_digitalen_gesundheitspolitik )
 - [Writing secure software]( https://media.ccc.de/v/37c3-11811-writing_secure_software )
@@ -98,6 +98,4 @@ Wir blicken zurück auf den Congress und wagen Aussagen für 2024. Mit Felix, Fe
 - [Spec-Ops: The Line]( https://store.steampowered.com/app/50300/Spec_Ops_The_Line/ )
 - [uBlacklist]( https://iorate.github.io/ublacklist/docs )
 - [JShelter]( https://hostux.social/@fsf/111666185896305103 ) 
-  * Did you know that malicious web sites can identify you through fingerprinting or use other tactics for tracking your activity? #JShelter aims to improve the privacy and security of your Web browsing. #FreeJS https://u.fsf.org/3gc
-
-
+  * Did you know that malicious web sites can identify you through fingerprinting or use other tactics for tracking your activity? #JShelter aims to improve the privacy and security of your Web browsing. [#FreeJS]( https://u.fsf.org/3gc )
