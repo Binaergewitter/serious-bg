@@ -42,3 +42,25 @@ stork --build stork.toml
 ```
 
 then a github action builds and publishes `bgt.st` to https://search.binaergewitter.de/bgt.st.
+
+# Update comments after rename
+
+If you rename a post you should migrate the old comments.
+Since the id for comments is the post title: <https://github.com/Binaergewitter/serious-bg/blob/main/serious/lib/site/views/_isso.erb#L8>.
+
+1. Get the `comments.db`
+1. Create a backup
+1. Look up the old id and new id in the `threads` table (i use `sqlitebrowser`)
+1. Run the update command `UPDATE comments SET tid=$newid WHERE tid=$oldid;`
+1. Save file!
+1. Upload `comments.db` again
+
+
+```
+scp binaergewitter:/var/lib/isso/comments.db ~/Downloads/comments.db
+cp ~/Downloads/comments.db ~/Downloads/comments_bak.db
+
+sqlitebrowser
+
+scp ~/Downloads/comments.db binaergewitter:/var/lib/isso/comments.db
+```
