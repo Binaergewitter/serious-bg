@@ -85,10 +85,9 @@ Of course! Let’s imagine we’re talking about counting toys. 🧸
 - [What's that touchscreen in my room?]( https://laplab.me/posts/whats-that-touchscreen-in-my-room/ )
 
 ## Picks
-https://linuxstar.info/dpkg-statoverride/
+- [dpkg-statoverride command-override ownership and mode]( https://linuxstar.info/dpkg-statoverride/ )
 - [systemd-tmpfiles.d]( https://www.freedesktop.org/software/systemd/man/latest/tmpfiles.d.html )
 - [systemdUltras Quote]( https://systemdultras.github.io/ )
-https://github.com/tavinus/cloudsend.sh
-- https://rclone.org/
+- [cloudsend]( https://github.com/tavinus/cloudsend.sh )
+   * [rclone]( https://rclone.org/ )
 - [Neues Sicherheitsfeature in iOS]( https://freiburg.social/@masek@infosec.exchange/111804720037377733 )
-
