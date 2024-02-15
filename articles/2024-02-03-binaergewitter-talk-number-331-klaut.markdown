@@ -54,21 +54,19 @@ Mit Startschwierigkeiten aber mit der Klaut bringen euch Felix, Felix und Markus
 
 ## Themen
 - [Why numbering should start at zero]( https://www.cs.utexas.edu/users/EWD/transcriptions/EWD08xx/EWD831.html )
+
 chatgpt:
-```
-Of course! Let’s imagine we’re talking about counting toys. 🧸
-
-    Starting Point: Imagine you have a bunch of toy cars lined up. We want to give each car a special number so we can talk about them easily. But where do we begin? Well, we start counting from zero! So the first car gets the number zero, like a superhero with a secret identity.
-
-    Counting Up: As we move along the line of cars, we give each one a higher number. The second car gets the number one, the third car gets two, and so on. It’s like giving each car a special badge with its own number.
-
-    Why Zero Matters: Starting at zero is like saying, “Before anything else, there was nothing, and that’s where we begin.” It’s like the very first step in a big adventure. So when we count, we don’t skip zero—it’s our trusty sidekick!
-
-    Other Ways: Some people start counting from one, but that can be confusing. Imagine if we started counting days of the week from Monday instead of Sunday! Zero makes everything simpler.
-
-    Remember: Zero isn’t just a number; it’s our magical starting point. So next time you count your toys, remember that zero is where the fun begins! 🌟
-
-```
+> Of course! Let’s imagine we’re talking about counting toys. 🧸
+>
+>    Starting Point: Imagine you have a bunch of toy cars lined up. We want to give each car a special number so we can talk about them easily. But where do we begin? Well, we start counting from zero! So the first car gets the number zero, like a superhero with a secret identity.
+>
+>    Counting Up: As we move along the line of cars, we give each one a higher number. The second car gets the number one, the third car gets two, and so on. It’s like giving each car a special badge with its own number.
+>
+>    Why Zero Matters: Starting at zero is like saying, “Before anything else, there was nothing, and that’s where we begin.” It’s like the very first step in a big adventure. So when we count, we don’t skip zero—it’s our trusty sidekick!
+>
+>    Other Ways: Some people start counting from one, but that can be confusing. Imagine if we started counting days of the week from Monday instead of Sunday! Zero makes everything simpler.
+>
+>    Remember: Zero isn’t just a number; it’s our magical starting point. So next time you count your toys, remember that zero is where the fun begins! 🌟
 
 - [DFN-MailSupport]( https://www.mailsupport.dfn.de/news/google-plant-verschaerfung-der-mailannahmeregeln )
 - [DKIMpocalypse]( https://mastodon.sdf.org/@riastradh/111835007756902067 )
