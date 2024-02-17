@@ -20,7 +20,6 @@ voices:
 ---
 Wir sind wieder da mit einer neuen Ausgabe von Binärschneesturm Talk.
 
-
 ## Blast from the Past
 - [fix comments]( https://github.com/Binaergewitter/serious-bg/pull/427 )
   * [isso]( https://isso-comments.de/ )
@@ -28,7 +27,6 @@ Wir sind wieder da mit einer neuen Ausgabe von Binärschneesturm Talk.
 - [fefe kann css files laden!]( https://blog.binaergewitter.de/2024/01/05/binaergewitter-talk-number-329-turbo-niklaus#isso-2373 )
 
 ## Toter der Woche
-
 - [Virtual tour of Museum of Failure]( https://collection.museumoffailure.com/ )
   - [A Million Ways to Die on the Web]( https://wiki.archiveteam.org/index.php/A_Million_Ways_to_Die_on_the_Web )
 - [Bash.org]( https://news.ycombinator.com/item?id=38950721 )
@@ -36,16 +34,12 @@ Wir sind wieder da mit einer neuen Ausgabe von Binärschneesturm Talk.
   - [German-bash seit 2021]( https://old.reddit.com/r/de/comments/oy3hrc/german_bash_ist_tot/ )
 - [X removes support for NFT profile pictures]( https://techcrunch.com/2024/01/10/x-removes-support-for-nft-profile-pictures/?guccounter=1 )
 - [Tachiyomi]( https://news.ycombinator.com/item?id=38984506 )
-
-- Open Source - Es lebe "Post Open Source". https://www.heise.de/hintergrund/Missing-Link-Open-Source-ist-tot-es-lebe-Post-Open-Source-9595891.html
- (Reaktion auf 50 Jahre Freie Software und 30 Jahre Open Source - was wurde erreicht, was kann besser laufen - besserer name wird noch gesucht) Es wird komplizierter. Lizenzen funktionieren nicht mehr (zuletzt RedHat, RHEL, Centos), Cloud Dienste (HasiCorp, Elastic, Neo4j, MongoDB) und jede weitere Last auf dem Rücken des Kmales Open Source ist eine zuviel - Zeit für einen Folgeansatz, der auch persönliche Daten inkludiert
+- [Open Source - Es lebe "Post Open Source".]( https://www.heise.de/hintergrund/Missing-Link-Open-Source-ist-tot-es-lebe-Post-Open-Source-9595891.html )
 
 ## Untoter der Woche
-
-- Hackerparagraph - https://www.golem.de/news/modern-solution-it-experte-wegen-nutzung-einer-zugriffssoftware-verurteilt-2401-181296.html
+- [Hackerparagraph]( https://www.golem.de/news/modern-solution-it-experte-wegen-nutzung-einer-zugriffssoftware-verurteilt-2401-181296.html )
   * [modernsolution]( https://www.modernsolution.net/ )
 - [Linux nach Windows BSOD]( https://www.tomshardware.com/software/operating-systems/driver-hack-lets-you-run-linux-after-windows-bsods-no-reboot-required )
-
 
 ## Ei der Woche
 - [Auto Wiki by Mutable.ai]( https://wiki.mutable.ai/ )
@@ -55,8 +49,8 @@ Wir sind wieder da mit einer neuen Ausgabe von Binärschneesturm Talk.
 ## News
 - [Glosse: Linus steckt im Schnee ohne Strom und Internet]( https://jit.social/@torvalds@social.kernel.org/111772745019545317 )
 - [Mister MP3 macht immersives Audio]( https://www.heise.de/news/Brandenburg-Labs-Mister-mp3-macht-jetzt-immersives-Audio-9596385.html )
-  - M4A als BGT format deprecated Ende des Jahres
-  - [goaccess für nginx logs]( https://goaccess.io/ )
+  * M4A als BGT format deprecated Ende des Jahres
+  * [goaccess für nginx logs]( https://goaccess.io/ )
 - [The package that broke NPM (accidentally)]( https://uncenter.dev/posts/npm-install-everything/ )
 - [Timezone in Vostok Antarctic Base UTC+5 starting 18.December via Schmittlauch]( https://mm.icann.org/pipermail/tz/2023-December/033343.html )
   - [Lebanon DST disputed]( https://mm.icann.org/pipermail/tz/2023-March/032752.html )
@@ -85,7 +79,6 @@ Wir sind wieder da mit einer neuen Ausgabe von Binärschneesturm Talk.
 - [Immutable FreeBSD - Dave Cottlehuber - EuroBSDcon 2023(video)]( https://www.youtube.com/watch?v=5oHLU9w1vVk )
 
 ## Picks
-
 - [Chromium Money Tree Browser]( https://lyra.horse/misc/chromium_vrp_tree.html )
 - [cooked.wiki](https://cooked.wiki)
   * [Tandoor]( https://docs.tandoor.dev/ )
@@ -96,5 +89,3 @@ Wir sind wieder da mit einer neuen Ausgabe von Binärschneesturm Talk.
 - [pandocfilters v1.5.1]( https://github.com/jgm/pandocfilters )
 - [(Fine) Wine and MSVC - Yannic Staudt - Lightning Talks @ Meeting C++ 2023 (video)]( https://www.youtube.com/watch?v=fI_7TV47io0 )
 - [Was It Good? - Mirror's Edge (video)]( https://www.youtube.com/watch?v=7h5wCc8fBEY )
-
-
