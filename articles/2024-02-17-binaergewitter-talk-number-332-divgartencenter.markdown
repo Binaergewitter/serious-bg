@@ -20,7 +20,6 @@ voices:
 ---
 Auch diese Woche wieder für euch im Garten Center im Einsatz. Die Binärgewitter Gang.
 
-
 ## Blast from the Past
 - [Zaehlen bei 1]( https://blog.binaergewitter.de/2024/02/03/binaergewitter-talk-number-331-klaut#isso-2391 )
 
@@ -47,13 +46,11 @@ Auch diese Woche wieder für euch im Garten Center im Einsatz. Die Binärgewitte
 - [sudo für Windows]( https://devblogs.microsoft.com/commandline/introducing-sudo-for-windows/ )
   * [Word on OpenBSD]( https://marc.info/?l=openbsd-tech&m=170742832804260&w=2 )
 - [virtualbox mit kvm]( https://linuxnews.de/virtualbox-erhaelt-kvm-backend/ )
-  - [end of free esxi]( https://kb.vmware.com/s/article/2107518 )
+  * [end of free esxi]( https://kb.vmware.com/s/article/2107518 )
 - [macbook air 16 jahre alt?]( https://www.inverse.com/tech/macbook-air-16-year-anniversary )
 - [QEMU virtual block devices]( https://stefano-garzarella.github.io/posts/2024-02-12-vdpa-blk/ )
 - [ROCm als AMD cuda alternative]( https://www.phoronix.com/review/radeon-cuda-zluda )
-
-    * https://de.wikipedia.org/wiki/OpenCL
-
+  * [OpenCL](https://de.wikipedia.org/wiki/OpenCL)
 - [OpenZFS Native Encryption Use Raises Data Corruption Concerns]( https://www.phoronix.com/news/OpenZFS-Encrypt-Corrupt )
 
 
@@ -75,5 +72,3 @@ Auch diese Woche wieder für euch im Garten Center im Einsatz. Die Binärgewitte
 * [git absorb]( https://github.com/tummychow/git-absorb )
 * [How to center a div (2024 edition)]( https://www.joshwcomeau.com/css/center-a-div/ )
 * [libcommunism]( https://libcommunism.blraaz.me/ )
-
-
