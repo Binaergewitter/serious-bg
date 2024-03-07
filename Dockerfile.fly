@@ -1,4 +1,4 @@
-ARG RUBY_VERSION=3.2.1-jemalloc
+ARG RUBY_VERSION=3.3.0-jemalloc
 FROM quay.io/evl.ms/fullstaq-ruby:${RUBY_VERSION}-slim
 ADD . /src
 WORKDIR /src
