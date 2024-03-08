@@ -16,7 +16,7 @@ class FeedTest < Test::Unit::TestCase
   end
 
   def app
-    Rack::Builder.parse_file('config.ru').first
+    Rack::Builder.parse_file('config.ru')
   end
  
   # TODO(FN): find a new way to check the feed

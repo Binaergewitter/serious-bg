@@ -17,7 +17,7 @@ class SmokeTest < Test::Unit::TestCase
   end
 
   def app
-    Rack::Builder.parse_file('config.ru').first
+    Rack::Builder.parse_file('config.ru')
   end
 
   def test_homepage_is_a_200
