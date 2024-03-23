@@ -41,14 +41,13 @@ Endlich die Ausgabe 333. Mit Issos.. ihr wisst schon. Außerdem mit Floppys, nos
   * [29. Februar Tanksäulen]( https://www.spiegel.de/netzwelt/web/neuseeland-tanksaeulen-wegen-schalttag-softwarefehlers-ausgefallen-a-f5d51bd0-f5a4-4009-bbf5-688879634d57 )
 - [Open sourcing Pingora: our Rust framework for building programmable network services]( https://blog.cloudflare.com/pingora-open-source )
 - [Bielefeld Verschwörung vor Gericht]( https://www.lto.de/recht/kurioses/k/bielefeld-gibt-es-nicht-verschwoerung-klage-millionen-landgericht-scherz/ )
-  - [nett hier Sticker]( https://shop.thelaend.de/sticker-set-nett-hier.html?language=de )
+  * [nett hier Sticker]( https://shop.thelaend.de/sticker-set-nett-hier.html?language=de )
 - [HDMI 2.1 unter Linux]( https://www.heise.de/news/AMD-HDMI-Forum-verhindert-HDMI-2-1-unter-Linux-9643729.html )
 - [Family.Cards]( https://www.heise.de/news/Family-Cards-soll-Senioren-weiter-am-digitalen-Leben-teilhaben-lassen-9641704.html )
 - [Beylond linux from scratch (systemd Edition)]( https://www.linuxfromscratch.org/blfs/view/stable-systemd/index.html )
 - [ZED - Text editor]( https://zed.dev/ )
 - [HP Drucker nur noch mit Abo]( https://arstechnica.com/gadgets/2024/02/hp-wants-you-to-pay-up-to-36-month-to-rent-a-printer-that-it-monitors/ )
 - [Avast verkauft Browserdaten]( https://tarnkappe.info/artikel/it-sicherheit/datenschutz/avast-verkauft-jahrelang-browserdaten-seiner-nutzer-289661.html )
-
 
 ## Themen
  - Ingo am CERN und auf der Kubecon
@@ -74,7 +73,7 @@ Endlich die Ausgabe 333. Mit Issos.. ihr wisst schon. Außerdem mit Floppys, nos
 ## Picks
 - [linkwarden]( https://github.com/linkwarden/linkwarden )
 - [Searchable Linux Syscall Table]( https://filippo.io/linux-syscall-table/ )
-- [CorPower Ocean deploys C4 Wave Energy Converter(video)]( https://www.youtube.com/watch?v=UdF8GpOFALQ )
+- [CorPower Ocean deploys C4 Wave Energy Converter (video)]( https://www.youtube.com/watch?v=UdF8GpOFALQ )
 - [Bash Debugging]( https://wizardzines.com/comics/bash-debugging/ )
 - [FreeBSD NixOS]( https://github.com/nixos-bsd/nixbsd )
   - [Link zum Screenshot]( https://jit.social/@artemist@mildlyfunctional.gay/112035547351075705 )
