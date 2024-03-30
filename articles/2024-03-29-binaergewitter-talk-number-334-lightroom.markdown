@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Binärgewitter Talk #334: "
+title: "Binärgewitter Talk #334: Die Adobe Lightroom Downloader App"
 date: 2024-03-29 21:00
 comments: true
 categories: talk
@@ -18,7 +18,7 @@ voices:
   ingo: true
   felix: true
 ---
-Mal wieder eine große Runde.
+Mal wieder eine große Runde. Über die Kubecon, lustige Browsergames und viele tote und wieder auferstandende Projekte.
 
 ## Blast from the Past
 
@@ -36,9 +36,7 @@ Mal wieder eine große Runde.
 - [OCSP]( https://www.heise.de/news/Digitale-Zertifikate-Online-Sperrung-wird-optional-Sperrlisten-zur-Pflicht-9655904.html )
 - [New Game bei Computerspielen]( https://www.heise.de/news/Spieler-von-Dragon-s-Dogma-2-koennen-bald-neues-Spiel-starten-9666571.html )
 - [Gravis]( https://www.heise.de/news/Apple-Haendler-Gravis-macht-dicht-Freenet-will-Filialen-abwickeln-9656208.html )
-
     - [Gerücht: Apple will AI bei Google einkaufen]( https://www.heise.de/news/Bericht-Apple-angeblich-an-Gemini-von-Google-fuers-iPhone-interessiert-9657584.html )
-
 - [GIL in python 3.13]( https://www.heise.de/news/Python-3-13-Endlich-effizienteres-Multithreading-ohne-Global-Interpreter-Lock-9655663.html )
 - [Simon Riggs]( https://www.postgresql.org/message-id/171155416775.7100.16346482309098314395%40wrigleys.postgresql.org )
 
@@ -69,10 +67,7 @@ Mal wieder eine große Runde.
 ## Themen
  - Kubecon
  über 12.000 Besucher
- ai
- opentofu
- https://www.linux-magazin.de/news/kubecon-cloudnativecon-europe-logo-wettbewerb-zum-10-jaehrigen-von-kubernetes/
---> nächste RadioTux Sendung
+ - [Logo Wettbewerb](https://www.linux-magazin.de/news/kubecon-cloudnativecon-europe-logo-wettbewerb-zum-10-jaehrigen-von-kubernetes/ )
 
 - [CRA - Einsatz für OpenSource erfolgreich!]( https://www.linux-magazin.de/news/osi-erfreut-ueber-geaenderten-cyber-resilience-act/ )
 
