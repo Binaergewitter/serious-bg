@@ -59,7 +59,7 @@ Wir sind zurück. Mit Disketten, Zügen und viel AI.
   - [Poettering: dlopen für systemd]( https://mastodon.social/@pid_eins/112256363180973672 )
 - [wiki.nixos.org](https://wiki.nixos.org)
   * lassulus: sagt mal an, dass es ein neues offizielles nixos wiki gibt, die leute benutzen teilweise noch das alte
-- [NixCon CA Funding Drama]( https://nixos-users-for-western-mil-and-govs.github.io/ )
+- [NixCon CA Funding Drama]( https://nixos-users-against-mic-sponsorship.github.io/ )
   * [NixOS Foundation event sponsorship policy]( https://discourse.nixos.org/t/nixos-foundation-event-sponsorship-policy/43110 )
 - [AirBuds mit Wechselakku]( https://www.heise.de/news/Fairphone-Fairbuds-In-Ears-mit-Wechselakku-9678684.html )
 - [Chrome schickt jede URL nach Hause]( https://jit.social/@schenklklopfer@chaos.social/112234189879246667)
