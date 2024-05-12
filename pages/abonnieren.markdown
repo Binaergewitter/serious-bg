@@ -21,37 +21,34 @@ Habt Spaß am Gerät.
   <tr>
     <th>Sendeformat</th>
     <th>MP3</th>
-    <th>AAC</th>
     <th>Opus</th>
     <th>iTunes</th>
     <th>Spotify</th>
     <th>Amazon</th>
+    <th>Deezer</th>
   </tr>
   <tr>
   <td><a href="/">Alle</a></td>
   <td><a href="http://blog.binaergewitter.de/podcast_feed/all/mp3/rss.xml">MP3 Feed</a></td>
-  <td><a href="http://blog.binaergewitter.de/podcast_feed/all/m4a/rss.xml">AAC Feed</a></td>
   <td><a href="http://blog.binaergewitter.de/podcast_feed/all/opus/rss.xml">Opus Feed</a></td>
   <td><a href="http://itunes.apple.com/de/podcast/binargewitter/id216877594">bei Apple</a></td>
   <td><a href="https://open.spotify.com/show/19LedqK0fGWfzfKzySDoVW">auf Spotify</a></td>
   <td><a href="https://music.amazon.de/podcasts/bc6ecd5a-2681-44cb-8217-ad5192a14871/bin%C3%A4rgewitter">bei Amazon Music</a></td>  
+  <td><a href="https://www.deezer.com/de/show/4465117">bei Deezer</a></td>
   </tr>
   <tr>
     <td><a href="/categories/talk">Talk</a></td>
     <td><a href="http://blog.binaergewitter.de/podcast_feed/talk/mp3/rss.xml">MP3 Feed</a></td>
-    <td><a href="http://blog.binaergewitter.de/podcast_feed/talk/m4a/rss.xml">AAC Feed</a></td>
     <td><a href="http://blog.binaergewitter.de/podcast_feed/talk/opus/rss.xml">Opus Feed</a></td>
   </tr>
   <tr>
     <td><a href="/categories/westcoast">Westcoast</a></td>
     <td><a href="http://blog.binaergewitter.de/podcast_feed/westcoast/mp3/rss.xml">MP3 Feed</a></td>
-    <td><a href="http://blog.binaergewitter.de/podcast_feed/westcoast/m4a/rss.xml">AAC Feed</a></td>
     <td><a href="http://blog.binaergewitter.de/podcast_feed/westcoast/opus/rss.xml">Opus Feed</a></td>
   </tr>
   <tr>
     <td><a href="/categories/spezial">Spezial</a></td>
     <td><a href="http://blog.binaergewitter.de/podcast_feed/spezial/mp3/rss.xml">MP3 Feed</a></td>
-    <td><a href="http://blog.binaergewitter.de/podcast_feed/spezial/m4a/rss.xml">AAC Feed</a></td>
     <td><a href="http://blog.binaergewitter.de/podcast_feed/spezial/opus/rss.xml">Opus Feed</a></td>
   </tr>
 </table>
