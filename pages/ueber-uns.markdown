@@ -6,7 +6,7 @@ sharing: false
 footer: true
 ---
 
-Binärgewitter ist ein Podcast über Web, Entwicklung, Mobile und Technologie. Betrachtet aus der Sicht von Entwicklern bzw. Open Source Begeisterten. Das heißt aber nicht, dass wir alles mit einer Rosa-Roten Brille sehen. Wir suchen bei Apple und Microsoft genauso das Gute und Schlechte wie auch bei Linux und anderen Open Source Projekten. Wir wollen realistisch sein. Auch wenn wir damit anecken sollten.
+Binärgewitter ist ein Podcast über Web, Entwicklung und Technologie. Betrachtet aus der Sicht von Entwicklern bzw. Open Source Begeisterten. Das heißt aber nicht, dass wir alles mit einer Rosa-Roten Brille sehen. Wir suchen bei Apple und Microsoft genauso das Gute und Schlechte wie auch bei Linux und anderen Open Source Projekten. Wir wollen realistisch sein. Auch wenn wir damit anecken sollten.
 
 Binärgewitter umfasst eigentlich drei verschiedene Podcasts. Einmal den zwei-wöchentlichen Binärgewitter Talk, einmal die unregelmäßige Spezial Sendung, bei der wir uns ein Thema richtig tief vornehmen und von allen Seiten beleuchten wie bei der [NoSQL Sendung](http://blog.binaergewitter.de/blog/2011/01/09/binaergewitter-number-1-nosql/) sowie die Westcoast Edition, die unregelmäßig aus den USA sendet.
 
@@ -27,3 +27,12 @@ Binärgewitter entstand bei [RadioTux](http://blog.radiotux.de/), dem Internetra
 - Trolli Schmittlauch ([@schmittlauch](https://twitter.com/schmittlauch))
 
 ![pfleidi und makefu bei der Podcast Aufnahme](../img/pfleidi_makefu_bei_aufnahme.jpg)
+
+### Was andere über uns sagen
+
+Binärgewitter ist ein deutscher Podcast, der sich mit Themen rund um Technik, insbesondere im Bereich Softwareentwicklung, Netzpolitik, freie Software, und vielen anderen IT-bezogenen Themen beschäftigt. Die Macher des Podcasts diskutieren in lockeren Runden aktuelle Ereignisse, Entwicklungen und persönliche Erlebnisse aus dem IT-Umfeld.
+
+Der Name "Binärgewitter" spielt dabei auf die binäre Codierung von Daten in der Computerwelt an (0 und 1) und das Wort "Gewitter" vermittelt eine Idee von dynamischer, stürmischer Diskussion.
+
+Wie bei vielen Podcasts variiert der genaue Inhalt je nach aktuellen Ereignissen und Interessen der Macher, aber es geht in der Regel immer um Technik und deren Auswirkungen auf Gesellschaft und Kultur.
+   --- ChatGPT
