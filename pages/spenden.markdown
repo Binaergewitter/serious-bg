@@ -12,14 +12,15 @@ Es gibt verschiedene Wege uns zu unterstützen z.B.
 
 * [Liberapay](https://liberapay.com/Binaergewitter/)
 * [Patreon](https://www.patreon.com/binaergewitter)
+* [Paypal]( https://paypal.me/binaergewitter?country.x=DE&locale.x=de_DE)
 
 
 Wir freuen uns auch über Daueraufträge oder Einmalzahlungen auf:
 
 * Überweisung
-  Name: Ingo Ebel
-  IBAN: DE74 2004 1133 0738 8606 05
-  BIC: COBADEHD001
+    Name: Ingo Ebel
+    IBAN: DE74 2004 1133 0738 8606 05
+    BIC: COBADEHD001
 
 
 ![Bezahl QR Code](../img/bankqrcode.png)
