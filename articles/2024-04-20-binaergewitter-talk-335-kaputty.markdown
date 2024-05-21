@@ -69,7 +69,7 @@ Wir sind zurück. Mit Disketten, Zügen und viel AI.
 - [Fanciest Minecraft exploit]( https://github.com/spawnmason/randar-explanation/blob/master/README.md )
 - [Linux Privilege Escalation]( https://www.heise.de/news/Linux-Kernel-Neuer-Exploit-verschafft-Root-Privilegien-9682586.html )
 - ["Stasi-Paragraph": US-Parlament vor Ausweitung des Spionage-Zwangs](https://www.heise.de/news/Stasi-Paragraph-US-Parlament-vor-Ausweitung-des-Spionage-Zwangs-9687201.html)
-(X tread mit Erklärung und CTA für US-Amerikaner: https://threadreaderapp.com/thread/1779885131873800582.html)
+(X thread mit Erklärung und CTA für US-Amerikaner: [link](https://threadreaderapp.com/thread/1779885131873800582.html))
 - [Commonhouse Foundation]( https://www.commonhaus.org/ )
 - [LXQT 2.0 auf QT 6 und wayland]( https://linuxnews.de/lxqt-2-0-setzt-auf-qt-6-und-wayland/ )
 - [Volla Tablet]( https://winfuture.de/news,142307.html )
@@ -90,7 +90,7 @@ MS Exchange/Outlook und Serientermine: Man kann nicht "alle ereignisse ab jetzt"
 - [hardest Problem in Computer Science: Centering Things]( https://tonsky.me/blog/centering/ )
 - [Sovereign Tech Fund Beitrag in der LdN]( 
 https://lagedernation.org/podcast/ldn378-iran-bombardiert-israel-update-vaeterrechte-kommission-zu-abtreibungen-reform-des-klimaschutzgesetzes-update-waldwege-xz-attacke-schutz-wichtiger-software-fiona-krakenbuerger-sovereign/ )
- - [nextcloud podcast: prototyp fund]( https://nextcloud.com/blog/nextcloud-podcast-15-interview-about-collectives-app-and-prototype-fund-new/ )
+  * [nextcloud podcast: prototyp fund]( https://nextcloud.com/blog/nextcloud-podcast-15-interview-about-collectives-app-and-prototype-fund-new/ )
 - [ChatGPT Can Predict the future when it tells stories set in the future]( https://arxiv.org/abs/2404.07396 )
 
 ## Picks
