@@ -31,7 +31,7 @@ Allerdings mit weniger Drinks als sonst dafür vollgepackt mit Infos.
 ## Toter der Woche
 - [ext2](https://www.osnews.com/story/139068/ext2-filesystem-driver-now-marked-as-deprecated/)
 - [Xamarin]( https://dotnet.microsoft.com/en-us/platform/support/policy/xamarin )
-  * https://github.com/Sonarr/Sonarr
+  * [Sonarr](https://github.com/Sonarr/Sonarr)
   * openSimulator
 - [IBM to aquire HashiCorp]( https://newsroom.ibm.com/2024-04-24-IBM-to-Acquire-HashiCorp-Inc-Creating-a-Comprehensive-End-to-End-Hybrid-Cloud-Platform )
 - [Google Fit API]( https://www.heise.de/news/Google-Fit-Android-APIs-werden-Mitte-2025-eingestellt-Google-Fit-vor-dem-Ende-9708791.html )
@@ -76,21 +76,20 @@ Allerdings mit weniger Drinks als sonst dafür vollgepackt mit Infos.
 
 ## Themen
 
-Gefährliche Tendenz: [Bitkom: 6 von 10 Deutschen befürworten eVoting]( https://www.bitkom.org/Presse/Presseinformation/6-von-10-Deutschen-wuerden-gern-online-waehlen )
-* [Vgl LNP, z.b. 458]( https://logbuch-netzpolitik.de/lnp458-shedhallenfittinge )
-* [Privacy Week 2017: Probleme mit eVoting]( https://media.ccc.de/v/pw17-167-probleme_mit_e-voting/related )
-* [KIT E-Voting Zentrum]( https://evoting.kastel.secuso.org/ )
-* [Flyer CCC CH gegen eVoting]( https://hacktivism.ch/e-voting-stopp.pdf )
-* [BGT 224 Swiss Evoting]( https://blog.binaergewitter.de/2019/02/28/binaergewitter-talk-number-224-urheberunrecht )
-* [Why Electronic Voting is a BAD Idea - Computerphile]( https://www.youtube.com/watch?v=w3_0x6oaDmI )
-* [Why Electronic Voting Is Still A Bad Idea]( https://www.youtube.com/watch?v=LkH2r-sNjQs )
-
+- Gefährliche Tendenz: 
+  * [Bitkom: 6 von 10 Deutschen befürworten eVoting]( https://www.bitkom.org/Presse/Presseinformation/6-von-10-Deutschen-wuerden-gern-online-waehlen )
+  * [Vgl LNP, z.b. 458]( https://logbuch-netzpolitik.de/lnp458-shedhallenfittinge )
+  * [Privacy Week 2017: Probleme mit eVoting]( https://media.ccc.de/v/pw17-167-probleme_mit_e-voting/related )
+  * [KIT E-Voting Zentrum]( https://evoting.kastel.secuso.org/ )
+  * [Flyer CCC CH gegen eVoting]( https://hacktivism.ch/e-voting-stopp.pdf )
+  * [BGT 224 Swiss Evoting]( https://blog.binaergewitter.de/2019/02/28/binaergewitter-talk-number-224-urheberunrecht )
+  * [Why Electronic Voting is a BAD Idea - Computerphile]( https://www.youtube.com/watch?v=w3_0x6oaDmI )
+  * [Why Electronic Voting Is Still A Bad Idea]( https://www.youtube.com/watch?v=LkH2r-sNjQs )
 * Nextcloud Mail
   * [Email Klassifikation Issue](https://github.com/nextcloud/mail/issues/6390)
 
 ## Mimimi der Woche
 - no ipv6
-
 
 ## Lesefoo
 - [Heat Death of the Internet]( https://www.takahe.org.nz/heat-death-of-the-internet/ )
@@ -107,5 +106,3 @@ Gefährliche Tendenz: [Bitkom: 6 von 10 Deutschen befürworten eVoting]( https:/
 - [Test your Adblocker]( https://d3ward.github.io/toolz/adblock )
 - [ollama]( https://ollama.com/ )
 - [flatten json cli]( https://github.com/say4n/jf )
-
-
