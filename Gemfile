@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby "3.2.3"
+ruby "3.3.1"
 
 gem "rake"
 gem "serious", :path => './serious'
