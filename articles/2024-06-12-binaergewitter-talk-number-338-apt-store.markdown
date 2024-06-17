@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Binärgewitter Talk #337: neu in eurem apt store"
+title: "Binärgewitter Talk #338: neu in eurem apt store"
 date: 2024-06-12 22:00
 comments: true
 categories: talk
@@ -21,9 +21,9 @@ voices:
 Die Post Wahl Show mit smarten Zahnbürsten.
 
 
-die Wahl
-    - Piratenpartei verliert Mandat
-    - [Wahlrecht.de Sitzverteilung](https://www.wahlrecht.de/news/2024/europawahl-2024.html#sitzverteilung )
+## Zur Europawahl
+- Piratenpartei verliert Mandat
+- [Wahlrecht.de Sitzverteilung](https://www.wahlrecht.de/news/2024/europawahl-2024.html#sitzverteilung )
 
 ## Blast from the Past
 - [paydirekt](https://www.linux-magazin.de/news/paydirekt-vor-dem-aus/ )
@@ -77,10 +77,7 @@ die Wahl
 ## Themen
 
 - GPN
-  - Vorträge?
-
-      https://media.ccc.de/c/gpn22
-
+  - [Vorträge]( https://media.ccc.de/c/gpn22 )
   - GPN-Wifi vs Freifunk
 
 ## Mimimi der Woche
