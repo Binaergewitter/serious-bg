@@ -70,7 +70,7 @@ Wir sind wieder da mit einer neuen Ausgabe von Binärschneesturm Talk.
   * [liberapay]( https://en.liberapay.com/ )
 - Debian
   * flatbuffer & grpc
-  * [Nixos.wiki: Building RPM/DEB with nixpkgs]( https://nixos.wiki/wiki/Nixpkgs/Building_RPM_DEB_with_nixpkgs )
+  * [Nixos.wiki: Building RPM/DEB with nixpkgs]( https://wiki.nixos.org/wiki/Nixpkgs/Building_RPM_DEB_with_nixpkgs )
 
 ## Lesefoo
 - [Hans Reiser on ReiserFS deprecation]( https://lore.kernel.org/lkml/b98b29cf-27d9-49e0-b10b-1848399badfd@kittens.ph/T/#u )

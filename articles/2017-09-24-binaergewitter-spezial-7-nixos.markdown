@@ -135,5 +135,5 @@ Endlich ist sie da. Die Spezial Sendung zu NixOS. Felix und Jörg sind NixOS Jü
   - `sudo install -d -m755 -o $USER -g $USER /nix`
   - `curl https://nixos.org/nix/install | sh`
 - ...oder per Paketmanager installieren ([AUR](https://aur.archlinux.org/packages/nix-multiuser/)):
-- [Auch ohne root nutzbar](https://nixos.wiki/wiki/Nix_Package_Manager#Install_Nix_without_root_permissions)
-- [Handbuch](https://nixos.org/nixos/manual/index.html), [Wiki](https://nixos.wiki), IRC: #nixos auf freenode, [Nix Pills](https://nixos.org/nixos/nix-pills/index.html)
+- [Auch ohne root nutzbar](https://wiki.nixos.org/wiki/Nix_Package_Manager#Install_Nix_without_root_permissions)
+- [Handbuch](https://nixos.org/nixos/manual/index.html), [Wiki](https://wiki.nixos.org), IRC: #nixos auf freenode, [Nix Pills](https://nixos.org/nixos/nix-pills/index.html)
