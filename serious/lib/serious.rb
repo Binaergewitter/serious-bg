@@ -19,9 +19,9 @@ class Background
     stream_response = false
     begin
       #create connection
-      Net::HTTP.start('stream.radiotux.de', 8000, {read_timeout: 5, open_timeout: 5}) {|http|
-        http.read_timeout = 5
-        http.open_timeout = 5
+      Net::HTTP.start('stream.radiotux.de', 8000, {read_timeout: 10, open_timeout: 10}) {|http|
+        http.read_timeout = 10
+        http.open_timeout = 10
         response = http.get('/status.xsl')
             
         #get data
@@ -40,9 +40,9 @@ class Background
     begin
       uri = URI.parse(url)
       #create connection
-      Net::HTTP.start(uri.host, 80, {read_timeout: 5, open_timeout: 5}) {|http|
-        http.read_timeout = 5
-        http.open_timeout = 5
+      Net::HTTP.start(uri.host, 80, {read_timeout: 10, open_timeout: 10}) {|http|
+        http.read_timeout = 10
+        http.open_timeout = 10
         response = http.get(uri.path)
 
         #get data
@@ -68,9 +68,9 @@ class Background
     begin
       uri = URI.parse(url)
       #create connection
-      Net::HTTP.start(uri.host, 80, {read_timeout: 5, open_timeout: 5}) {|http|
-        http.read_timeout = 5
-        http.open_timeout = 5
+      Net::HTTP.start(uri.host, 80, {read_timeout: 10, open_timeout: 10}) {|http|
+        http.read_timeout = 10
+        http.open_timeout = 10
         response = http.get(uri.path)
 
         #get data
