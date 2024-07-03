@@ -72,7 +72,7 @@ Es ist heiß draußen und wir hangeln uns mal wieder durch die heißesten Linux 
 - Easyroam / DFN - Zertifikate statt Username/Passwort
 - [How do I upgrade Nixos to use a new channel nixos version?]( https://unix.stackexchange.com/questions/491727/how-do-i-upgrade-nixos-to-use-a-new-channel-nixos-version )
   * `nix-collect-garbage -d`
-  * [Storage Optimizations]( https://nixos.wiki/wiki/Storage_optimization )
+  * [Storage Optimizations]( https://wiki.nixos.org/wiki/Storage_optimization )
 
 
 ## Lesefoo
