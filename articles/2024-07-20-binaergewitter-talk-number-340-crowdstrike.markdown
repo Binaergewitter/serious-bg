@@ -1,11 +1,12 @@
----
+#---
 layout: post
-title: "Binärgewitter Talk #339: Extention Blast"
+title: "Binärgewitter Talk #340: the crowd strikes back"
 date: 2024-06-28 20:00
 comments: true
 categories: talk
 sharing: true
 published: true
+release: 2
 chapters: http://download.binaergewitter.de/2023-07-19.Binaergewitter.Talk.340.chapters.txt
 audioformats:
   mp3: https://download.binaergewitter.de/2023-07-19.Binaergewitter.Talk.340.mp3
