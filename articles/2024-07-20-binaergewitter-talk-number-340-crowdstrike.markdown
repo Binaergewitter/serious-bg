@@ -1,7 +1,7 @@
 #---
 layout: post
 title: "Binärgewitter Talk #340: the crowd strikes back"
-date: 2024-06-28 20:00
+date: 2024-06-28 22:00
 comments: true
 categories: talk
 sharing: true
@@ -42,16 +42,10 @@ alles kaputt
 - Cellebrite und die Smartphones...
 https://t3n.social/@t3n/112807996399706362
 - crowdstrike
-
     - [Maus Radio]( https://www.wdrmaus.de/hoeren/mauslive.php5 )
-
     - [MausZoom: "Großes Chaos weltweit wegen Computer-Problem"]( https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/315/3150112/3150112_58325306.mp3 )
-
-https://de.wikipedia.org/wiki/Stuxnet
-
-- regresshion
-https://en.wikipedia.org/wiki/RegreSSHion
-
+- [WP: Stuxnet](https://de.wikipedia.org/wiki/Stuxnet )
+- [regresshion](https://en.wikipedia.org/wiki/RegreSSHion )
 - [Atlassian verliert 15 Millionen E-Mail Adressen von Trello Nutzern]( https://www.heise.de/news/Atlassian-bestaetigt-Leak-von-15-Millionen-E-Mail-Adressen-von-Trello-Nutzern-9806155.html )
 - [Rockyou2024]( https://cybernews.com/security/rockyou2024-largest-password-compilation-leak/ )
 - [Linux Kernel Privilege Escalation]( https://www.crowdstrike.com/blog/active-exploitation-linux-kernel-privilege-escalation-vulnerability/ )
@@ -61,18 +55,15 @@ https://en.wikipedia.org/wiki/RegreSSHion
 - [BLAST RADIUS]( https://www.blastradius.fail/ )
 - [Firefox](https://www.heise.de/news/Fuer-Werbung-Firefox-sammelt-ab-sofort-standardmaessig-Nutzerdaten-9801279.html )
   - [Mastodon: Gabriele Svelto]( https://fosstodon.org/@gabrielesvelto/112779506156690032 )
-- https://linuxnews.de/nvidia-stellt-auf-open-source-gpu-kernelmodule-um/
+- [Nvida Kernelmodule](https://linuxnews.de/nvidia-stellt-auf-open-source-gpu-kernelmodule-um/ )
 - [Butter aus Luft]( https://www.heise.de/news/Butter-aus-Luft-Forscher-fangen-CO-ein-und-machen-daraus-kuenstliches-Fett-9796516.html )
 - [Rechtschreibrat: Geliked, geliket oder gelikt]( https://www.heise.de/news/Rechtschreibrat-Geliked-geliket-oder-gelikt-9794769.html )
 
-## Themen
-
-## Mimimi der Woche
 
 ## Lesefoo
 - [What you need to know about laziness]( https://nixcademy.com/posts/what-you-need-to-know-about-laziness/ )
-- https://climatejustice.social/@stefanmuelller/112718094101537957
-- https://sdomi.pl/weblog/20-pwning-a-labelmaker/
+- [1% der Bevölkerung](https://climatejustice.social/@stefanmuelller/112718094101537957 )
+- [Brother Labelmaker](https://sdomi.pl/weblog/20-pwning-a-labelmaker/ )
 
 ## Picks
 - [Pipes]( https://github.com/pipes-digital/pipes )
