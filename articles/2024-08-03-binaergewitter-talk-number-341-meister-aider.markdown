@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "Binärgewitter Talk #340: the crowd strikes back"
-date: 2024-08-03 16:00
+title: "Binärgewitter Talk #341: Meister Aider"
+date: 2024-08-03 16:20
 comments: true
 categories: talk
 sharing: true
 published: true
+release: 2
 chapters: http://download.binaergewitter.de/2023-07-19.Binaergewitter.Talk.340.chapters.txt
 audioformats:
   mp3: https://download.binaergewitter.de/2024-08-02.Binaergewitter.Talk.341.mp3
@@ -37,10 +38,10 @@ Trotz Sommerzeit und Sommerloch sind wir für euch da.
   - [Musterfragebogen Selbstauskunft]( https://www.heise.de/news/DSGVO-So-nutzen-Sie-Ihre-Auskunftsrechte-4429886.html?seite=all )
 
 ## AI der Woche
-https://mstdn.social/@pennydaflos/112686525091612281
-https://arstechnica.com/information-technology/2024/07/when-counting-quickly-openais-new-voice-mode-stops-to-catch-its-breath/
-https://arstechnica.com/tech-policy/2024/07/meta-ai-called-trump-shooting-fake-despite-being-programmed-to-ignore-questions/
-https://aider.chat/ 
+- [Inside the AI technology trained on B.C. wildfires](https://mstdn.social/@pennydaflos/112686525091612281
+- [Openai new voice](https://arstechnica.com/information-technology/2024/07/when-counting-quickly-openais-new-voice-mode-stops-to-catch-its-breath/ )
+- [Fake trump Shooting](https://arstechnica.com/tech-policy/2024/07/meta-ai-called-trump-shooting-fake-despite-being-programmed-to-ignore-questions/ )
+- [Aider](https://aider.chat/ )
 - [Friend AI]( https://www.wired.com/story/friend-ai-pendant/ )
  - [Heise]( https://www.heise.de/news/Der-KI-Freund-der-immer-mithoert-Schlimmer-als-Recall-9822605.html )
 - [Stable fast 3D]( https://stability.ai/news/introducing-stable-fast-3d )
@@ -48,13 +49,9 @@ https://aider.chat/
 ## News
 
 - [Schweiz: Public Money - Public Code! ]( https://joinup.ec.europa.eu/collection/open-source-observatory-osor/news/new-open-source-law-switzerland )
-
     * [ARD Mediathek: Erdrückende Papierflut](https://www.ardmediathek.de/video/fakt/erdrueckende-papierflut/das-erste/Y3JpZDovL21kci5kZS9zZW5kdW5nLzI4MTA2MC8yMDI0MDcyMzIxNDUvZmFrdC0xNDEw)
-
 - [OctoPrint's anonymous usage stats were manipulated]( https://octoprint.org/blog/2024/06/28/stats-manipulation/ )
-
     * [OctoPrint authors Gina Häußge github profile]( https://github.com/foosel )
-
     * [More manipulation of OctoPrint's anonymous usage stats]( https://octoprint.org/blog/2024/07/04/more-stats-manipulation/ )
 
 - [Google Docs with Markdown support]( https://arstechnica.com/gadgets/2024/07/real-actual-markdown-support-is-arriving-in-google-docs-not-a-moment-too-soon/ )
