@@ -92,6 +92,6 @@ class SmokeTest < Test::Unit::TestCase
   def test_broken_metadata_file
     stub_request(:get, /download.binaergewitter.de.*.json/).to_timeout
 
-    assert_equal(nil, Background.get_metadata("http://download.binaergewitter.de/2021-11-10.Binaergewitter.Talk.286.json"))
+    assert_equal(nil, Background.get_metadata("https://download.binaergewitter.de/2021-11-10.Binaergewitter.Talk.286.json"))
   end
 end

@@ -7,7 +7,7 @@ categories: talk
 sharing: true
 published: true
 release: 3
-chapters: http://download.binaergewitter.de/2023-07-19.Binaergewitter.Talk.340.chapters.txt
+chapters: https://download.binaergewitter.de/2023-07-19.Binaergewitter.Talk.340.chapters.txt
 audioformats:
   mp3: https://download.binaergewitter.de/2024-08-02.Binaergewitter.Talk.341.mp3
   ogg: https://download.binaergewitter.de/2024-08-02.Binaergewitter.Talk.341.ogg

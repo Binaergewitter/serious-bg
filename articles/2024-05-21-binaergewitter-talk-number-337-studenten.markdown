@@ -6,7 +6,7 @@ comments: true
 categories: talk
 sharing: true
 published: true
-chapters: http://download.binaergewitter.de/2023-05-20.Binaergewitter.Talk.337.chapters.txt
+chapters: https://download.binaergewitter.de/2023-05-20.Binaergewitter.Talk.337.chapters.txt
 audioformats:
   mp3: https://download.binaergewitter.de/2023-05-20.Binaergewitter.Talk.337.mp3
   ogg: https://download.binaergewitter.de/2023-05-20.Binaergewitter.Talk.337.ogg

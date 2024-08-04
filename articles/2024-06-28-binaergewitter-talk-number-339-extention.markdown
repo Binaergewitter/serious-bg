@@ -6,7 +6,7 @@ comments: true
 categories: talk
 sharing: true
 published: true
-chapters: http://download.binaergewitter.de/2024-06-27.Binaergewitter.Talk.339.chapters.txt
+chapters: https://download.binaergewitter.de/2024-06-27.Binaergewitter.Talk.339.chapters.txt
 audioformats:
   mp3: https://download.binaergewitter.de/2024-06-27.Binaergewitter.Talk.339.mp3
   ogg: https://download.binaergewitter.de/2024-06-27.Binaergewitter.Talk.339.ogg

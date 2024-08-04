@@ -6,7 +6,7 @@ comments: true
 categories: talk
 sharing: true
 published: true
-chapters: http://download.binaergewitter.de/2023-08-18.Binaergewitter.Talk.320.chapters.txt
+chapters: https://download.binaergewitter.de/2023-08-18.Binaergewitter.Talk.320.chapters.txt
 audioformats:
   mp3: https://download.binaergewitter.de/2023-08-18.Binaergewitter.Talk.320.mp3
   ogg: https://download.binaergewitter.de/2023-08-18.Binaergewitter.Talk.320.ogg

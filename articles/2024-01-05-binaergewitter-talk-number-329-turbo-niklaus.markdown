@@ -6,7 +6,7 @@ comments: true
 categories: talk
 sharing: true
 published: true
-chapters: http://download.binaergewitter.de/2024-01-04.Binaergewitter.Talk.329.chapters.txt
+chapters: https://download.binaergewitter.de/2024-01-04.Binaergewitter.Talk.329.chapters.txt
 audioformats:
   mp3: https://download.binaergewitter.de/2024-01-04.Binaergewitter.Talk.329.mp3
   ogg: https://download.binaergewitter.de/2024-01-04.Binaergewitter.Talk.329.ogg
