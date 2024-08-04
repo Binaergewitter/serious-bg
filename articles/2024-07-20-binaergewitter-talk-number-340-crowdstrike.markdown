@@ -39,8 +39,7 @@ Sommerurlaubszeit. Es ist heiß und auch die Computer striken. Felix und Ingo be
 ## News
 
 alles kaputt
-- Cellebrite und die Smartphones...
-https://t3n.social/@t3n/112807996399706362
+- [Cellebrite und die Smartphones...](https://t3n.de/news/cellebrite-dokument-welche-smartphones-fbi-knacken-kann-1636414/)
 - crowdstrike
     - [Maus Radio]( https://www.wdrmaus.de/hoeren/mauslive.php5 )
     - [MausZoom: "Großes Chaos weltweit wegen Computer-Problem"]( https://wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/315/3150112/3150112_58325306.mp3 )
@@ -68,4 +67,3 @@ https://t3n.social/@t3n/112807996399706362
 ## Picks
 - [Pipes]( https://github.com/pipes-digital/pipes )
 - [NixCon2024]( https://2024.nixcon.org/ )
-
