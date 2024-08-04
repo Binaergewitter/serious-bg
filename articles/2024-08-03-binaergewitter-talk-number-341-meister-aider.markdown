@@ -27,7 +27,7 @@ Trotz Sommerzeit und Sommerloch sind wir für euch da.
 - [CrowdStrike AGB]( https://blog.binaergewitter.de/2024/07/20/binaergewitter-talk-number-340-crowdstrike#isso-2478 )
   - [Uber Eats Gutscheine]( https://www.pcgamer.com/software/windows/after-crashing-85-million-computers-crowdstrike-says-sorry-to-its-partners-with-a-dollar10-uber-eats-gift-card-which-was-also-broken/ )
 - [Firefox]( https://blog.binaergewitter.de/2024/07/20/binaergewitter-talk-number-340-crowdstrike#isso-2479 )
- - https://awesomekling.github.io/Ladybird-a-new-cross-platform-browser-project/
+ - [Ladybird: A new cross-platform browser project](https://awesomekling.github.io/Ladybird-a-new-cross-platform-browser-project/)
 
 ## Toter der Woche
 - [Humble Games]( https://www.theverge.com/2024/8/2/24211410/humble-games-layoffs-indie-studios-uncertainty )
@@ -38,7 +38,7 @@ Trotz Sommerzeit und Sommerloch sind wir für euch da.
   - [Musterfragebogen Selbstauskunft]( https://www.heise.de/news/DSGVO-So-nutzen-Sie-Ihre-Auskunftsrechte-4429886.html?seite=all )
 
 ## AI der Woche
-- [Inside the AI technology trained on B.C. wildfires](https://mstdn.social/@pennydaflos/112686525091612281
+- [Inside the AI technology trained on B.C. wildfires](https://mstdn.social/@pennydaflos/112686525091612281)
 - [Openai new voice](https://arstechnica.com/information-technology/2024/07/when-counting-quickly-openais-new-voice-mode-stops-to-catch-its-breath/ )
 - [Fake trump Shooting](https://arstechnica.com/tech-policy/2024/07/meta-ai-called-trump-shooting-fake-despite-being-programmed-to-ignore-questions/ )
 - [Aider](https://aider.chat/ )
@@ -53,16 +53,14 @@ Trotz Sommerzeit und Sommerloch sind wir für euch da.
 - [OctoPrint's anonymous usage stats were manipulated]( https://octoprint.org/blog/2024/06/28/stats-manipulation/ )
     * [OctoPrint authors Gina Häußge github profile]( https://github.com/foosel )
     * [More manipulation of OctoPrint's anonymous usage stats]( https://octoprint.org/blog/2024/07/04/more-stats-manipulation/ )
-
 - [Google Docs with Markdown support]( https://arstechnica.com/gadgets/2024/07/real-actual-markdown-support-is-arriving-in-google-docs-not-a-moment-too-soon/ )
 - [Gollum 6.0]( https://github.com/gollum/gollum/wiki/6.0-Release-Notes )
-
 - [Ubiquity ]( https://www.it-daily.net/it-sicherheit/cybercrime/ueber-20-000-kameras-und-router-von-ubiquiti-anfaellig-fuer-cyberangriffe )
-
 - [Ben the floating benchie]( https://www.printables.com/model/377-ben-the-floating-benchmark-benchy )
+
+
 ## Themen
 - Teaser: Ingo und Felix haben nen 3d Drucker
-
 
 ## Mimimi der Woche
 
@@ -72,10 +70,10 @@ Trotz Sommerzeit und Sommerloch sind wir für euch da.
 - [Wie ein bisschen Rate-Limiting uns schleichend ruiniert hat, und jetzt nicht mehr]( https://blog.uberspace.de/2024/07/wie-ein-bisschen-rate-limiting/ )
 - [Scaling One Million Checkboxes to 650,000,000 checks]( https://eieio.games/essays/scaling-one-million-checkboxes/ )
 - [The linux audio stack demystified]( https://blog.rtrace.io/posts/the-linux-audio-stack-demystified/ )
-  - `pw-cli load-module libpipewire-module-raop-discover`
-  - [Pi]( https://docs.pipewire.org/page_module_raop_discover.html )
+  * `pw-cli load-module libpipewire-module-raop-discover`
+  * [Pi]( https://docs.pipewire.org/page_module_raop_discover.html )
 - [It takes 68 steps to deploy odoo with nixos]( https://numtide.com/blog/it-takes-68-steps-to-deploy-odoo-with-nixos/ )
- - https://twenty.com/
+  * [twenty](https://twenty.com/)
 
 ## Picks
 
@@ -86,7 +84,5 @@ Trotz Sommerzeit und Sommerloch sind wir für euch da.
 - Firefox: about:processes
 - [tab auto-gc (chrome+ff)]( https://github.com/Mic92/chrome-tab-gc )
 - [neues Jolla Phone](https://www.youtube.com/watch?v=OVyOmaVySZc )
-
-    - [Jolla Mind2](https://www.jollamind2.com/ )
-
+  * [Jolla Mind2](https://www.jollamind2.com/ )
 - [Live Train Board]( https://www.ourkengineering.com/en/trainboard/ )
