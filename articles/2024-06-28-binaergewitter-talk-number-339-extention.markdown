@@ -41,9 +41,7 @@ voices:
 ## News
 - [Microsoft Antitrust again - this episode: Teams]( https://techcrunch.com/2024/06/25/eu-accuses-microsoft-of-competition-breach-over-teams-bundling/ )
 - [Bundeskanzleramt pusht Microsoft und macht druck auf IT-Planungsrat]( https://www.linux-magazin.de/news/azure-ableger-osba-warnt-it-planungsrat-vor-vertraegen-mit-delos/ )
-
-    - [Wem gehört DELOS](https://www.deloscloud.de/about-us.html )
-
+  * [Wem gehört DELOS](https://www.deloscloud.de/about-us.html )
 - [Julian Assange ist frei!]( https://www.heise.de/news/Freiheit-fuer-Assange-9776632.html ) 
   * [Linux Magazin](https://www.linux-magazin.de/news/julian-assange-ist-frei/ )
 - [Videoschnitt auf Linux: OpenShot 3.2 erschienen]( https://www.linux-magazin.de/news/openshot-3-2-verbessert-bedienung-und-leistung/ )
@@ -58,12 +56,9 @@ voices:
 
 ## Mimimi der Woche
 - linux installieren auf einem windows laptop
- - fuck secure boot
- - fuck rst
-
-     https://superuser.com/questions/1675984/how-can-i-turn-off-intel-rst-without-losing-all-my-data/1676017#1676017
-
- - fuck bitlocker
+  * fuck secure boot
+  * fuck rst - [How can I turn off Intel RST](https://superuser.com/questions/1675984/how-can-i-turn-off-intel-rst-without-losing-all-my-data/1676017#1676017)
+  * fuck bitlocker
 
 ## Lesefoo
 - [chats mit ransomware menschen](https://ransomch.at )
