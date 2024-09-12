@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Binärgewitter Talk #342: Doppeldiskettenbrief"
+title: "Binärgewitter Talk #342: Alle 10 Jahre updaten"
 date: 2024-09-12 05:30
 comments: true
 categories: talk
@@ -73,7 +73,7 @@ Discord und Slack als Community plattformen: Ein Verlust für das offene Netz un
   - [discourse]( https://www.discourse.org/ )
 
 Ingo hat nen 3D Drucker, Felix auch
-- https://bambulab.com/de-de/a1-mini
+- [A1 Mini](https://bambulab.com/de-de/a1-mini )
 - [P1S]( https://eu.store.bambulab.com/products/p1s?srsltid=AfmBOoq63nVx9PgsVzlQEYroyaH4wXOCvPj2eYlbPkmgEEJ_vuzAofhA )
 - [tinkercad]( https://www.tinkercad.com/ )
 
@@ -88,7 +88,7 @@ Ingo hat nen 3D Drucker, Felix auch
 
 ## Mimimi der Woche
 
-https://www.inside-it.ch/starlink-satellit-trat-ueber-schweiz-in-atmosphaere-ein-20240828
+- [Starlink Satellit stürzt über der Schweiz ab](https://www.inside-it.ch/starlink-satellit-trat-ueber-schweiz-in-atmosphaere-ein-20240828 )
 
 ## Lesefoo
 
@@ -101,7 +101,7 @@ https://www.inside-it.ch/starlink-satellit-trat-ueber-schweiz-in-atmosphaere-ein
 ## Picks
 
 - [Crow]( https://crowcpp.org/master/ )
-- https://eci.ec.europa.eu/038/public/#/screen/home - besonders für Freunde im EU Ausland!
+- [EU Bürgerinitiative Einführung einer Vermögenssteuer](https://eci.ec.europa.eu/038/public/#/screen/home )- besonders für Freunde im EU Ausland!
 - [litecli]( https://github.com/dbcli/litecli )
 - [Punnily - wikipedia puns]( https://punnily.com/puns?word=nix )
 
