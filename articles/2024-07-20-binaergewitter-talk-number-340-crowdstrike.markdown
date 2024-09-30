@@ -7,12 +7,12 @@ categories: talk
 sharing: true
 published: true
 release: 2
-chapters: https://download.binaergewitter.de/2023-07-19.Binaergewitter.Talk.340.chapters.txt
+chapters: https://download.binaergewitter.de/2024-07-19.Binaergewitter.Talk.340.chapters.txt
 audioformats:
-  mp3: https://download.binaergewitter.de/2023-07-19.Binaergewitter.Talk.340.mp3
-  ogg: https://download.binaergewitter.de/2023-07-19.Binaergewitter.Talk.340.ogg
-  m4a: https://download.binaergewitter.de/2023-07-19.Binaergewitter.Talk.340.m4a
-  opus: https://download.binaergewitter.de/2023-07-19.Binaergewitter.Talk.340.opus
+  mp3: https://download.binaergewitter.de/2024-07-19.Binaergewitter.Talk.340.mp3
+  ogg: https://download.binaergewitter.de/2024-07-19.Binaergewitter.Talk.340.ogg
+  m4a: https://download.binaergewitter.de/2024-07-19.Binaergewitter.Talk.340.m4a
+  opus: https://download.binaergewitter.de/2024-07-19.Binaergewitter.Talk.340.opus
 voices:
   l33tname: false
   madmas: false
