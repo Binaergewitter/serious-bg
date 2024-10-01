@@ -6,12 +6,12 @@ comments: true
 categories: talk
 sharing: true
 published: true
-chapters: https://download.binaergewitter.de/2023-05-20.Binaergewitter.Talk.337.chapters.txt
+chapters: https://download.binaergewitter.de/2024-05-20.Binaergewitter.Talk.337.chapters.txt
 audioformats:
-  mp3: https://download.binaergewitter.de/2023-05-20.Binaergewitter.Talk.337.mp3
-  ogg: https://download.binaergewitter.de/2023-05-20.Binaergewitter.Talk.337.ogg
-  m4a: https://download.binaergewitter.de/2023-05-20.Binaergewitter.Talk.337.m4a
-  opus: https://download.binaergewitter.de/2023-05-20.Binaergewitter.Talk.337.opus
+  mp3: https://download.binaergewitter.de/2024-05-20.Binaergewitter.Talk.337.mp3
+  ogg: https://download.binaergewitter.de/2024-05-20.Binaergewitter.Talk.337.ogg
+  m4a: https://download.binaergewitter.de/2024-05-20.Binaergewitter.Talk.337.m4a
+  opus: https://download.binaergewitter.de/2024-05-20.Binaergewitter.Talk.337.opus
 voices:
   l33tname: true
   madmas: false

@@ -6,12 +6,12 @@ comments: true
 categories: talk
 sharing: true
 published: true
-chapters: https://download.binaergewitter.de/2023-06-11.Binaergewitter.Talk.338.chapters.txt
+chapters: https://download.binaergewitter.de/2024-06-11.Binaergewitter.Talk.338.chapters.txt
 audioformats:
-  mp3: https://download.binaergewitter.de/2023-06-11.Binaergewitter.Talk.338.mp3
-  ogg: https://download.binaergewitter.de/2023-06-11.Binaergewitter.Talk.338.ogg
-  m4a: https://download.binaergewitter.de/2023-06-11.Binaergewitter.Talk.338.m4a
-  opus: https://download.binaergewitter.de/2023-06-11.Binaergewitter.Talk.338.opus
+  mp3: https://download.binaergewitter.de/2024-06-11.Binaergewitter.Talk.338.mp3
+  ogg: https://download.binaergewitter.de/2024-06-11.Binaergewitter.Talk.338.ogg
+  m4a: https://download.binaergewitter.de/2024-06-11.Binaergewitter.Talk.338.m4a
+  opus: https://download.binaergewitter.de/2024-06-11.Binaergewitter.Talk.338.opus
 voices:
   l33tname: true
   madmas: true

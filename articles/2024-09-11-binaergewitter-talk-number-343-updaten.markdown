@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Binärgewitter Talk #342: Alle 10 Jahre updaten"
+title: "Binärgewitter Talk #343: Alle 10 Jahre updaten"
 date: 2024-09-12 05:30
 comments: true
 categories: talk
