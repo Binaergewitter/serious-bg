@@ -26,7 +26,7 @@ GEM
       rexml
     ethon (0.16.0)
       ffi (>= 1.15.0)
-    excon (0.111.0)
+    excon (0.112.0)
     feedvalidator (0.2.2)
     ffi (1.17.0-aarch64-linux-gnu)
     ffi (1.17.0-aarch64-linux-musl)
@@ -39,10 +39,10 @@ GEM
     listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    mustermann (3.0.1)
+    mustermann (3.0.3)
       ruby2_keywords (~> 0.0.1)
     nio4r (2.7.3)
-    power_assert (2.0.3)
+    power_assert (2.0.4)
     public_suffix (6.0.1)
     puma (6.4.3)
       nio4r (~> 2.0)
@@ -61,8 +61,7 @@ GEM
     rdiscount (2.2.7.3)
     rerun (0.14.0)
       listen (~> 3.0)
-    rexml (3.3.6)
-      strscan
+    rexml (3.3.8)
     ruby2_keywords (0.0.5)
     sinatra (4.0.0)
       mustermann (~> 3.0)
@@ -70,7 +69,6 @@ GEM
       rack-protection (= 4.0.0)
       rack-session (>= 2.0.0, < 3)
       tilt (~> 2.0)
-    strscan (3.1.0)
     stupider_formatter (0.3.0)
       coderay (>= 0.9.0)
       rdiscount (>= 1.5.0)
@@ -79,7 +77,7 @@ GEM
     tilt (2.4.0)
     typhoeus (1.4.1)
       ethon (>= 0.9.0)
-    webmock (3.23.1)
+    webmock (3.24.0)
       addressable (>= 2.8.0)
       crack (>= 0.3.2)
       hashdiff (>= 0.4.0, < 2.0.0)
@@ -106,7 +104,7 @@ DEPENDENCIES
   webmock
 
 RUBY VERSION
-   ruby 3.3.4p94
+   ruby 3.3.5p100
 
 BUNDLED WITH
-   2.5.17
+   2.5.21
