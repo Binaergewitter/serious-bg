@@ -61,7 +61,7 @@ GEM
     rdiscount (2.2.7.3)
     rerun (0.14.0)
       listen (~> 3.0)
-    rexml (3.3.8)
+    rexml (3.3.9)
     ruby2_keywords (0.0.5)
     sinatra (4.0.0)
       mustermann (~> 3.0)
