@@ -51,7 +51,7 @@ Zurück auf eure Ohren. In dieser Episode von Binärgewitter Talk diskutieren In
 
 ## Themen
 - ein Herz für NixOS: Server rebuild von zfs -> ext4
-- [jit.social Mastodon](https://jit.social jetzt mastodon 4.3 )
+- [jit.social Mastodon: jetzt mastodon 4.3](https://jit.social )
 - subscribe 11
   * [Christian Blog Artikel](https://cstan.io/post/2024/10/subscribe-11/ )
 - [Binärgewitter Issues]( https://github.com/Binaergewitter/serious-bg/issues )
