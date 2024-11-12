@@ -45,7 +45,7 @@ Kurz und knackig diese Folge. Die Mauerfallausgabe mit Felix, Markus und Ingo.
 ## Themen
 
 - Modern Solution
-  * Kommentar bei Heise https://www.heise.de/meinung/Kommentar-zu-Modern-Solution-Wer-gemeinnuetzig-handelt-wird-bestraft-10010193.html?wt_mc=sm.red.ho.mastodon.mastodon.md_beitraege.md_beitraege&utm_source=mastodon
+  * [Kommentar bei Heise]( https://www.heise.de/meinung/Kommentar-zu-Modern-Solution-Wer-gemeinnuetzig-handelt-wird-bestraft-10010193.html )
 
 ## 3D Druck der Woche
 
