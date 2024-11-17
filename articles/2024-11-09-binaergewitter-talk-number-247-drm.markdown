@@ -56,3 +56,11 @@ Kurz und knackig diese Folge. Die Mauerfallausgabe mit Felix, Markus und Ingo.
 
 - [Haunted Domains]( https://www.bryanbraun.com/2024/10/25/before-you-buy-a-domain-name-first-check-to-see-if-its-haunted/ )
 - [auth.wiki]( https://auth.wiki/ )
+
+
+## Picks
+
+- [CfP Chemnitzer LinuxTage]( https://chemnitzer.linux-tage.de/2025/de/presse/mitteilungen/news02 )
+- [What is the point of an online conference?]( https://www.scattered-thoughts.net/writing/what-is-the-point-of-an-online-conference/ )
+- [The Booze of Monkey Island]( https://bean-adventure-agency.itch.io/the-booze-of-monkey-island )
+- [`inxi -v2`]( https://wiki.ubuntuusers.de/inxi/ )
