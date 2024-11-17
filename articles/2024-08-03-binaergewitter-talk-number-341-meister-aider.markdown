@@ -66,7 +66,7 @@ Trotz Sommerzeit und Sommerloch sind wir für euch da.
 
 ## Lesefoo
 
-- [Delphinhaut für Schiffspropeller] https://newatlas.com/science/dolphin-mimicking-propeller-increases-fuel-efficency-cargo-ships/
+- [Delphinhaut für Schiffspropeller](https://newatlas.com/science/dolphin-mimicking-propeller-increases-fuel-efficency-cargo-ships/)
 - [Wie ein bisschen Rate-Limiting uns schleichend ruiniert hat, und jetzt nicht mehr]( https://blog.uberspace.de/2024/07/wie-ein-bisschen-rate-limiting/ )
 - [Scaling One Million Checkboxes to 650,000,000 checks]( https://eieio.games/essays/scaling-one-million-checkboxes/ )
 - [The linux audio stack demystified]( https://blog.rtrace.io/posts/the-linux-audio-stack-demystified/ )

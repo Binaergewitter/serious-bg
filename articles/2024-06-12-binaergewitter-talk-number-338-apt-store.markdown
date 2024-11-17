@@ -30,7 +30,7 @@ Die Post Wahl Show mit smarten Zahnbürsten.
 
 ## Toter der Woche
 - [In Memory of Mike Karels]( https://freebsdfoundation.org/mike_karels/?hss_channel=tw-50052513 )
-- [strok]( https://github.com/jameslittle230/stork/discussions/360 )
+- [stork]( https://github.com/jameslittle230/stork/discussions/360 )
 - [Google Pay app]( https://arstechnica.com/gadgets/2024/06/google-shuts-down-the-google-pay-app/ )
 - [Oral-B smart toothbrush]( https://arstechnica.com/gadgets/2024/06/oral-b-bricks-ability-to-set-up-alexa-on-230-smart-toothbrush/ )
     - [OldCoderGuy]( https://www.youtube.com/@oldcoderguy )
