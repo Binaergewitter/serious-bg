@@ -32,14 +32,14 @@ Mehr dann wohl in der Januar Sendung, denn ganz ehrlich in einer Stunde kommen w
 
 ## Themen
 
-###38C3
+### 38C3
 
 - [Volksdaten](https://events.ccc.de/congress/2024/hub/en/event/wir-wissen-wo-dein-auto-steht-volksdaten-von-volkswagen/ )
     - [xkcd: GPS precision]( https://xkcd.com/2170/ )
 
 - [ePA]( https://fahrplan.events.ccc.de/congress/2024/fahrplan/talk/SRXRMA/ )
     - Einfacher Zugriff mit simpler SQL injection
-    - Service-Link AOK Rheinland: https://www.aok.de/pk/versichertenservice/epa-widerspruch/
+    - [Service-Link AOK Rheinland]( https://www.aok.de/pk/versichertenservice/epa-widerspruch/ )
     - [Mastodon Thread zum opt-out]( https://chaos.social/@foosel/113604873729931653 )
     - [heise: ePA soll unausgereift Starten]( https://www.heise.de/select/ct/2024/28/2432615320214834630 )
     - [heise: ePA für Kinder nicht empfohlen]( https://www.heise.de/news/ePA-3-0-Warum-Aerzte-vor-der-elektronischen-Patientenakte-fuer-Kinder-warnen-10200700.html )
@@ -47,7 +47,7 @@ Mehr dann wohl in der Januar Sendung, denn ganz ehrlich in einer Stunde kommen w
 - [Thüring Test]( https://events.ccc.de/congress/2024/hub/en/event/der-thring-test-fr-wahlsoftware/ )
     * [PC-Wahl]( https://www.wahlinfo.de/pcwahl/update10/index.html )
 - [btrfs]( https://events.ccc.de/congress/2024/hub/en/event/btrfs-corruption-what-now/ )
-  - [Tool zum Retten von Btrfs auf Github]https://github.com/zet-root/btrfs-recon
+  - [Tool zum Retten von Btrfs auf Github]( https://github.com/zet-root/btrfs-recon )
 
 - Hörertreffen
 
