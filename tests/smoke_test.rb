@@ -54,21 +54,34 @@ class SmokeTest < Test::Unit::TestCase
 
   def test_that_all_episodes_can_be_downloaded
     WebMock.allow_net_connect!
-    hydra = Typhoeus::Hydra.hydra
-    requests = []
-    Serious::Article.all.each do |post|
-      post.audioformats.each do |format, link|
-        req = Typhoeus::Request.new(link, {:method => :head, :followlocation => true})
-        requests << req
-        hydra.queue req
+    
+    begin
+      hydra = Typhoeus::Hydra.new(max_concurrency: 10)
+      requests = []
+      
+      Serious::Article.all.each do |post|
+        post.audioformats.each do |format, link|
+          req = Typhoeus::Request.new(link, method: :head, followlocation: true)
+          req.on_complete do |response|
+            unless response.success?
+              puts "Fehler bei '#{link}': #{response.status_message} (HTTP #{response.code})"
+            end
+          end
+          requests << req
+          hydra.queue req
+        end
       end
+      
+      hydra.run
+      
+      requests.each do |req|
+        assert req.response.success?, "Audio file was not available: '#{req.url}'"
+      end
+    ensure
+      WebMock.disable_net_connect!
     end
-    hydra.run
-    requests.each do |req|
-      assert req.response.success?, "Audio file was not available: '#{req.url}'"
-    end
-    WebMock.disable_net_connect!
   end
+  
 
   def test_the_podcast_is_live
     stub_request(:get, "http://stream.radiotux.de:8000/status.xsl")
