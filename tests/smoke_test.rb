@@ -39,11 +39,23 @@ class SmokeTest < Test::Unit::TestCase
 
   def test_that_all_posts_on_the_archive_page_work
     get "/archives"
+    assert last_response.ok?, "Archiv-Seite konnte nicht geladen werden."
+  
+    invalid_urls = []
     last_response.body.scan(/a href=["'](\/2.*)["']>/).each do |match|
-      get match[0]
-      assert last_response.ok?
+      url = match[0]
+      get url
+      unless last_response.ok?
+        invalid_urls << { url: url, status: last_response.status, body: last_response.body[0..200] }
+      end
     end
+  
+    assert invalid_urls.empty?, <<~MSG
+      Folgende Links sind ungültig:
+      #{invalid_urls.map { |entry| "- #{entry[:url]} (HTTP #{entry[:status]})\n#{entry[:body]}" }.join("\n")}
+    MSG
   end
+  
 
   def test_archive_categories_is_a_200
     ['all', 'talk', 'westcoast', 'spezial'].each do |category|
@@ -54,21 +66,34 @@ class SmokeTest < Test::Unit::TestCase
 
   def test_that_all_episodes_can_be_downloaded
     WebMock.allow_net_connect!
-    hydra = Typhoeus::Hydra.hydra
-    requests = []
-    Serious::Article.all.each do |post|
-      post.audioformats.each do |format, link|
-        req = Typhoeus::Request.new(link, {:method => :head, :followlocation => true})
-        requests << req
-        hydra.queue req
+    
+    begin
+      hydra = Typhoeus::Hydra.new(max_concurrency: 10)
+      requests = []
+      
+      Serious::Article.all.each do |post|
+        post.audioformats.each do |format, link|
+          req = Typhoeus::Request.new(link, method: :head, followlocation: true)
+          req.on_complete do |response|
+            unless response.success?
+              puts "Fehler bei '#{link}': #{response.status_message} (HTTP #{response.code})"
+            end
+          end
+          requests << req
+          hydra.queue req
+        end
       end
+      
+      hydra.run
+      
+      requests.each do |req|
+        assert req.response.success?, "Audio file was not available: '#{req.url}'"
+      end
+    ensure
+      WebMock.disable_net_connect!
     end
-    hydra.run
-    requests.each do |req|
-      assert req.response.success?, "Audio file was not available: '#{req.url}'"
-    end
-    WebMock.disable_net_connect!
   end
+  
 
   def test_the_podcast_is_live
     stub_request(:get, "http://stream.radiotux.de:8000/status.xsl")

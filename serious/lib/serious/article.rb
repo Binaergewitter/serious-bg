@@ -112,6 +112,10 @@ class Serious::Article
     @audio ||= yaml["audioformats"] || {}
   end
 
+  def transcript
+    @transcript ||= yaml["transcript"]
+  end  
+
   def voices
     @voices ||= yaml["voices"] || {}
   end
