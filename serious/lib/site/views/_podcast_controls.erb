@@ -13,7 +13,7 @@
               duration: '<%= article.duration_timestring %>',
               poster: '/img/binaergewitter_logo1x1.png',
               chapters: '<%= article.chapter_json %>',
-              transcripts: '<%= article.transcripts %>',
+              transcripts: '<%= article.respond_to?(:transcripts) ? article.transcripts : "" %>',
               audio: [
                <% article.audioformats.each_pair do |audio_format, audio_url| %>
                 {
