@@ -39,11 +39,23 @@ class SmokeTest < Test::Unit::TestCase
 
   def test_that_all_posts_on_the_archive_page_work
     get "/archives"
+    assert last_response.ok?, "Archiv-Seite konnte nicht geladen werden."
+  
+    invalid_urls = []
     last_response.body.scan(/a href=["'](\/2.*)["']>/).each do |match|
-      get match[0]
-      assert last_response.ok?
+      url = match[0]
+      get url
+      unless last_response.ok?
+        invalid_urls << { url: url, status: last_response.status, body: last_response.body[0..200] }
+      end
     end
+  
+    assert invalid_urls.empty?, <<~MSG
+      Folgende Links sind ungültig:
+      #{invalid_urls.map { |entry| "- #{entry[:url]} (HTTP #{entry[:status]})\n#{entry[:body]}" }.join("\n")}
+    MSG
   end
+  
 
   def test_archive_categories_is_a_200
     ['all', 'talk', 'westcoast', 'spezial'].each do |category|
