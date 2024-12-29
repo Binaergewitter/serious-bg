@@ -60,28 +60,34 @@ class Background
   
 
   def self.get_metadata(url)
-    metadata = nil
-    return metadata if url.nil?
+    return nil if url.nil? || url.strip.empty?
+
     begin
       uri = URI.parse(url)
-      #create connection
-      Net::HTTP.start(uri.host, 80, {read_timeout: 10, open_timeout: 10}) {|http|
-        http.read_timeout = 10
-        http.open_timeout = 10
-        response = http.get(uri.path)
+      Net::HTTP.start(uri.host, uri.port, use_ssl: uri.scheme == "https", read_timeout: 10, open_timeout: 10) do |http|
+        response = http.get(uri)
 
-        #get data
-        if response.kind_of? Net::HTTPSuccess
-          metadata = JSON.parse(response.body.force_encoding("UTF-8"))
+        if response.is_a?(Net::HTTPSuccess)
+          return JSON.parse(response.body.force_encoding('UTF-8'))
+        else
+          puts "Failed to fetch metadata. HTTP Status: #{response.code}"
         end
-      }
-    rescue Exception => e
-      metadata = nil
-      puts url
-      puts e
+      end
+    rescue URI::InvalidURIError => e
+      puts "Invalid URL: #{url}"
+      puts e.message
+    rescue JSON::ParserError => e
+      puts "Failed to parse JSON from URL: #{url}"
+      puts e.message
+    rescue Net::OpenTimeout, Net::ReadTimeout => e
+      puts "Timeout error while fetching metadata from URL: #{url}"
+      puts e.message
+    rescue StandardError => e
+      puts "Unexpected error occurred while fetching metadata from URL: #{url}"
+      puts e.message
     end
 
-    metadata
+    nil
   end
 end
 
