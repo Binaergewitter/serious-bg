@@ -12,8 +12,8 @@
               title: '<%= article.title %>',
               duration: '<%= article.duration_timestring %>',
               poster: '/img/binaergewitter_logo1x1.png',
-              chapters: '<%= article.chapter_json %>',
-              transcripts: '<%= article.respond_to?(:transcripts) ? article.transcripts : "" %>',
+              chapters: <%= article.chapter_json %>,
+              transcripts: '<%= article.respond_to?(:transcript) ? article.transcript : "" %>',
               audio: [
                <% article.audioformats.each_pair do |audio_format, audio_url| %>
                 {

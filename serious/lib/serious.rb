@@ -35,32 +35,29 @@ class Background
   end
 
   def self.get_chapters(url)
-    chapters = Array.new
-    return chapters if url.nil?
+    return [] if url.nil?
+  
+    chapters = []
     begin
       uri = URI.parse(url)
-      #create connection
-      Net::HTTP.start(uri.host, 80, {read_timeout: 10, open_timeout: 10}) {|http|
-        http.read_timeout = 10
-        http.open_timeout = 10
-        response = http.get(uri.path)
-
-        #get data
-        if response.kind_of? Net::HTTPSuccess
+      Net::HTTP.start(uri.host, uri.port, use_ssl: uri.scheme == "https", read_timeout: 10, open_timeout: 10) do |http|
+        response = http.get(uri.path.empty? ? "/" : uri.path)
+        if response.is_a?(Net::HTTPSuccess)
           response.body.force_encoding("UTF-8").each_line do |line|
-            time,title = line.split(' ', 2)
-            chapters << {:start => "#{time}", :title => "#{title.strip}"}
+            time, title = line.split(' ', 2)
+            chapters << { start: time, title: title.strip } if time && title
           end
         end
-      }
-    rescue Exception => e
-      # return clean empty array
+      end
+    rescue Timeout::Error, SocketError, StandardError => e
+      puts "Error fetching chapters from #{url}: #{e.message}"
       chapters = Array.new
-      puts e
-    end
 
+    end
+  
     chapters
   end
+  
 
   def self.get_metadata(url)
     metadata = nil
