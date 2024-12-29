@@ -7,6 +7,7 @@ categories: talk
 sharing: true
 published: true
 chapters: https://download.binaergewitter.de/2024-12-28.Binaergewitter.Talk.350.chapters.txt
+transcripts: https://download.binaergewitter.de/2024-12-28.Binaergewitter.Talk.350-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2024-12-28.Binaergewitter.Talk.350.mp3
   ogg: https://download.binaergewitter.de/2024-12-28.Binaergewitter.Talk.350.ogg
