@@ -27,11 +27,11 @@ Die Congress Nachbesprechung und Smartmeter Foo mit Felix, Felix und Ingo.
 
 ## AI der Woche
 
-- https://www.heise.de/news/Wegen-KI-Zahlungsdienstleister-Klarna-stellt-seit-einem-Jahr-nicht-mehr-ein-10198167.html
+- [Klarna KI]( https://www.heise.de/news/Wegen-KI-Zahlungsdienstleister-Klarna-stellt-seit-einem-Jahr-nicht-mehr-ein-10198167.html )
 - [Neuer AI Jailbreak]( https://www.404media.co/apparently-this-is-how-you-jailbreak-ai/ )
-- https://arstechnica.com/gadgets/2024/12/google-will-apparently-offer-ai-mode-right-on-its-main-search-page/
+- [Google AI Mode](https://arstechnica.com/gadgets/2024/12/google-will-apparently-offer-ai-mode-right-on-its-main-search-page/ )
   - [Bing looking like google]( https://www.theverge.com/2025/1/6/24337117/microsoft-bing-search-results-google-design-trick )
-  - [Ecosia](https://de.blog.ecosia.org/uberleben-von-ecosia-gepflanzten-baume/)
+  - [Ecosia Bäume](https://de.blog.ecosia.org/uberleben-von-ecosia-gepflanzten-baume/)
 
 ## News
 
@@ -39,9 +39,9 @@ Die Congress Nachbesprechung und Smartmeter Foo mit Felix, Felix und Ingo.
   * [ostrom]( https://join.ostrom.de/?referralCode=INGOPGW12E )*
   * [Money Boy - Einfach Orangensaft]( https://www.youtube.com/watch?v=WQ9dZZOdWjQ )
   * [Volkszähler]( https://www.volkszaehler.org/ )
-- https://linuxnews.de/neuer-raspberry-pi-5-mit-16-gbyte-ram/
-- https://arstechnica.com/gaming/2025/01/bye-bye-windows-gaming-steamos-officially-expands-past-the-steam-deck/
-- https://www.heise.de/news/Lenovo-bringt-Notebook-mit-ausrollbarem-OLED-Bildschirm-10229434.html
+- [Neuer RasPi 5](https://linuxnews.de/neuer-raspberry-pi-5-mit-16-gbyte-ram/ )
+- [SteamOS für mehr als nur SteamDeck]( https://arstechnica.com/gaming/2025/01/bye-bye-windows-gaming-steamos-officially-expands-past-the-steam-deck/ )
+- [Lenovo Notebook mit langem Display]( https://www.heise.de/news/Lenovo-bringt-Notebook-mit-ausrollbarem-OLED-Bildschirm-10229434.html )
   - [Lenovo W700ds]( https://newatlas.com/lenovo-dual-screen-thinkpad-w700ds/10607/ )
   - [Black guy hiding behind tree]( https://a.pinatafarm.com/933x1023/6a375994df/black-guy-hiding-behind-tree.jpg )
 - [Dell pro max premium plus]( https://www.theverge.com/2025/1/6/24325799/dell-pro-max-premium-plus-ces-laptop-pc-rebrand-announcement )
@@ -53,21 +53,20 @@ Die Congress Nachbesprechung und Smartmeter Foo mit Felix, Felix und Ingo.
 - [Pornofilter für OSes]( https://www.heise.de/news/Jugendschutz-Ministerpraesidenten-beschliessen-Zwangsfilter-fuer-Betriebssysteme-10199425.html ) - was bedeutet das für Linux?
 
 
-##38C3
+### 38C3
 
 - Bahnthemen
     * [We've not been trained for this: life after the Newag DRM disclosure](https://events.ccc.de/congress/2024/hub/en/event/we-ve-not-been-trained-for-this-life-after-the-newag-drm-disclosure/ )
     * Bahnbubble Meetup - Signaltechnik, Buchungstipps
     * [Wann klappt der Anschluss?]( https://events.ccc.de/congress/2024/hub/en/event/wann-klappt-der-anschluss-wann-nicht-und-wie-sagt-man-chaos-vorher/ )
       - [Bahnvorhersage](https://bahnvorhersage.de/ )
-
    * [Buch Maschinentechnik]( https://www.deutschebahn.com/resource/blob/6877836/5c7e9e81249b16c0a284572a235554a7/buch_maschinentechnik_dbbahnbau-data.pdf )
      - SUM -> Schnellumbaumaschine
     * [Maus: Gleisschotterbettungsreinigungsmacshine]( https://www.youtube.com/watch?v=lld4f3j9ZTA )
 
  - [Illegal instructions by legals - Anweisungen für den anwaltlich begleiteten Rechtsbruch](https://events.ccc.de/congress/2024/hub/en/event/illegal-instructions-by-legals-anweisungen-fr-den-anwaltlich-begleiteten-rechtsbruch/ )
   * Recht zum (verbalen) Gegenschlag
-  - [Was macht ein IT-Systemadministrator in einem Alu-Schmelzwerk - Video]( https://media.ccc.de/v/38c3-was-macht-ein-it-systemadministrator-in-einem-alu-schmelzwerk-schafft-die-deutsche-industrie-die-digitalisierung )
+ - [Was macht ein IT-Systemadministrator in einem Alu-Schmelzwerk - Video]( https://media.ccc.de/v/38c3-was-macht-ein-it-systemadministrator-in-einem-alu-schmelzwerk-schafft-die-deutsche-industrie-die-digitalisierung )
 
 - [Feueralarm dank Nebelmaschine im Hotel]
 - [Going Long! Sending weird signals over long haul optical networks (video)]( https://media.ccc.de/v/38c3-going-long-sending-weird-signals-over-long-haul-optical-networks )
@@ -78,7 +77,7 @@ Die Congress Nachbesprechung und Smartmeter Foo mit Felix, Felix und Ingo.
 
 ## Mimimi der Woche
 - [jujutsu 'submodules' und 'libssh2']()
-   - [https://github.com/jj-vcs/jj/issues/63
+   - https://github.com/jj-vcs/jj/issues/63
    - [Manual]( https://neugierig.org/software/blog/2024/12/jujutsu.html )
 - [Use socat to bridge CanFD messages]( https://unix.stackexchange.com/questions/788026/use-socat-to-bridge-canfd-messages )
 - [hoarder bookmark import]( https://github.com/hoarder-app/hoarder )
