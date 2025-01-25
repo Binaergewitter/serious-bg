@@ -27,9 +27,8 @@ Wir rotieren durch und präsentieren euch die 348 Ausgabe von unserer Talk Show.
 - [SD TV](https://www.heise.de/news/ARD-warnt-im-Satelliten-TV-vor-SD-Abschaltung-im-Januar-10040187.html )
   * [SD vs. HD video resolutions: What’s the difference?]( https://vimeo.com/blog/post/sd-vs-hd-explained )
 - [Thomas Kurtz](https://www.heise.de/news/Nachruf-BASIC-Miterfinder-Thomas-E-Kurtz-verstorben-10056416.html )
-   * https://de.wikipedia.org/wiki/AmigaBASIC
-- Seekabel Dt - Fin
- https://www.golem.de/news/hetzner-online-seekabel-c-lion1-von-finnland-nach-deutschland-durchtrennt-2411-190902.html
+  * [AmigaBASIC](https://de.wikipedia.org/wiki/AmigaBASIC)
+- [Seekabel Dt - Fin](https://www.golem.de/news/hetzner-online-seekabel-c-lion1-von-finnland-nach-deutschland-durchtrennt-2411-190902.html )
 
 ## Untoter der Woche
 - [Amazon Elastic Transcoder (ffmpeg)]( https://x.com/FFmpeg/status/1856981706231685555 )
@@ -55,11 +54,7 @@ Wir rotieren durch und präsentieren euch die 348 Ausgabe von unserer Talk Show.
 
 ## Themen
 
-- https://github.blog/news-insights/octoverse/octoverse-2024/
-
--> komische statistiken und schlussfolgerungen. ein beispiel: Kas-tle/java2bedrock.sh listed in "Top 10 open source and public projects attracting the most first-time contributors in 2024 on GitHub" - mit 4 contributors ?! Und dem letzten Commit am 24.12.2023 ?!
--> beliebteste sprache: python --> klar, wenn AI am liebsten python generieren :D
-
+- [Octoverse: AI leads Python to top language as the number of global developers surges]( https://github.blog/news-insights/octoverse/octoverse-2024/ )
 
 ## Mimimi der Woche
 - AI luegt und kenn James Bond filme nicht
@@ -75,9 +70,9 @@ Wir rotieren durch und präsentieren euch die 348 Ausgabe von unserer Talk Show.
 - [I still don't care about cookies]( https://addons.mozilla.org/en-US/firefox/addon/istilldontcareaboutcookies/ )
 - [Astronaut]( http://astronaut.io/ )
 - OpenVibe
-  - https://openvibe.social/
-  - https://play.google.com/store/apps/details?id=com.plebstr.client&hl=en
-  - ingoebel.bsky.social
+  - [openvibe.social](https://openvibe.social/)
+  - [Openvibe – Mastodon & Bluesky]( https://play.google.com/store/apps/details?id=com.plebstr.client&hl=en )
+  - [ingoebel.bsky.social](ingoebel.bsky.social)
 - [BLACK OPS 6 (Full Playthrough)]( https://www.youtube.com/playlist?list=PLeSTUHNlbcyrFmfMfOkeFfW5w8rQquaRH )
 - [jj]( https://github.com/martinvonz/jj )
 - [readonly]( https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18_23 )
