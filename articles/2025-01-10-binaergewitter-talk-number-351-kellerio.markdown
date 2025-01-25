@@ -21,12 +21,10 @@ voices:
 Die Congress Nachbesprechung und Smartmeter Foo mit Felix, Felix und Ingo.
 
 ## Toter der Woche
-
 - [Pixel 4a Zwangsupdate]( https://www.golem.de/sonstiges/zustimmung/auswahl.html?from=https%3A%2F%2Fwww.golem.de%2Fnews%2Fpixel-4a-google-verringert-akkulaufzeit-per-update-2501-192231.html&referer=https%3A%2F%2Fwww.google.com%2F )
   - [Umtausch oder Erstattung]( https://support.google.com/pixelphone/workflow/15642495?sjid=3820423071477926044-EU&visit_id=638717906588442266-1753699395&p=pixel4a_battery_help&rd=1 )
 
 ## AI der Woche
-
 - [Klarna KI]( https://www.heise.de/news/Wegen-KI-Zahlungsdienstleister-Klarna-stellt-seit-einem-Jahr-nicht-mehr-ein-10198167.html )
 - [Neuer AI Jailbreak]( https://www.404media.co/apparently-this-is-how-you-jailbreak-ai/ )
 - [Google AI Mode](https://arstechnica.com/gadgets/2024/12/google-will-apparently-offer-ai-mode-right-on-its-main-search-page/ )
@@ -34,9 +32,8 @@ Die Congress Nachbesprechung und Smartmeter Foo mit Felix, Felix und Ingo.
   - [Ecosia Bäume](https://de.blog.ecosia.org/uberleben-von-ecosia-gepflanzten-baume/)
 
 ## News
-
 - [Recht auf Vernetze Stromzähler](https://www.heise.de/news/Vernetzte-Stromzaehler-Verbraucher-haben-ab-sofort-ein-Recht-auf-ein-Smart-Meter-10230395.html )
-  * [ostrom]( https://join.ostrom.de/?referralCode=INGOPGW12E )*
+  * [ostrom (affiliate link)]( https://join.ostrom.de/?referralCode=INGOPGW12E )
   * [Money Boy - Einfach Orangensaft]( https://www.youtube.com/watch?v=WQ9dZZOdWjQ )
   * [Volkszähler]( https://www.volkszaehler.org/ )
 - [Neuer RasPi 5](https://linuxnews.de/neuer-raspberry-pi-5-mit-16-gbyte-ram/ )
@@ -47,28 +44,23 @@ Die Congress Nachbesprechung und Smartmeter Foo mit Felix, Felix und Ingo.
 - [Dell pro max premium plus]( https://www.theverge.com/2025/1/6/24325799/dell-pro-max-premium-plus-ces-laptop-pc-rebrand-announcement )
 
 ## Themen
-
 - [Porno-Filter für Betriebssysteme]( https://tarnkappe.info/artikel/rechtssachen/porno-filter-fuer-betriebssysteme-bundeslaender-beschliessen-jugendschutzvorrichtung-305859.html )
   - [nixos/org Issue]( https://github.com/NixOS/org/issues/51 )
 - [Pornofilter für OSes]( https://www.heise.de/news/Jugendschutz-Ministerpraesidenten-beschliessen-Zwangsfilter-fuer-Betriebssysteme-10199425.html ) - was bedeutet das für Linux?
 
-
 ### 38C3
-
 - Bahnthemen
-    * [We've not been trained for this: life after the Newag DRM disclosure](https://events.ccc.de/congress/2024/hub/en/event/we-ve-not-been-trained-for-this-life-after-the-newag-drm-disclosure/ )
-    * Bahnbubble Meetup - Signaltechnik, Buchungstipps
-    * [Wann klappt der Anschluss?]( https://events.ccc.de/congress/2024/hub/en/event/wann-klappt-der-anschluss-wann-nicht-und-wie-sagt-man-chaos-vorher/ )
-      - [Bahnvorhersage](https://bahnvorhersage.de/ )
-   * [Buch Maschinentechnik]( https://www.deutschebahn.com/resource/blob/6877836/5c7e9e81249b16c0a284572a235554a7/buch_maschinentechnik_dbbahnbau-data.pdf )
-     - SUM -> Schnellumbaumaschine
-    * [Maus: Gleisschotterbettungsreinigungsmacshine]( https://www.youtube.com/watch?v=lld4f3j9ZTA )
-
- - [Illegal instructions by legals - Anweisungen für den anwaltlich begleiteten Rechtsbruch](https://events.ccc.de/congress/2024/hub/en/event/illegal-instructions-by-legals-anweisungen-fr-den-anwaltlich-begleiteten-rechtsbruch/ )
+  * [We've not been trained for this: life after the Newag DRM disclosure](https://events.ccc.de/congress/2024/hub/en/event/we-ve-not-been-trained-for-this-life-after-the-newag-drm-disclosure/ )
+  * Bahnbubble Meetup - Signaltechnik, Buchungstipps
+  * [Wann klappt der Anschluss?]( https://events.ccc.de/congress/2024/hub/en/event/wann-klappt-der-anschluss-wann-nicht-und-wie-sagt-man-chaos-vorher/ )
+    - [Bahnvorhersage](https://bahnvorhersage.de/ )
+  * [Buch Maschinentechnik]( https://www.deutschebahn.com/resource/blob/6877836/5c7e9e81249b16c0a284572a235554a7/buch_maschinentechnik_dbbahnbau-data.pdf )
+    - SUM -> Schnellumbaumaschine
+  * [Maus: Gleisschotterbettungsreinigungsmacshine]( https://www.youtube.com/watch?v=lld4f3j9ZTA )
+- [Illegal instructions by legals - Anweisungen für den anwaltlich begleiteten Rechtsbruch](https://events.ccc.de/congress/2024/hub/en/event/illegal-instructions-by-legals-anweisungen-fr-den-anwaltlich-begleiteten-rechtsbruch/ )
   * Recht zum (verbalen) Gegenschlag
- - [Was macht ein IT-Systemadministrator in einem Alu-Schmelzwerk - Video]( https://media.ccc.de/v/38c3-was-macht-ein-it-systemadministrator-in-einem-alu-schmelzwerk-schafft-die-deutsche-industrie-die-digitalisierung )
-
-- [Feueralarm dank Nebelmaschine im Hotel]
+- [Was macht ein IT-Systemadministrator in einem Alu-Schmelzwerk - Video]( https://media.ccc.de/v/38c3-was-macht-ein-it-systemadministrator-in-einem-alu-schmelzwerk-schafft-die-deutsche-industrie-die-digitalisierung )
+- Feueralarm dank Nebelmaschine im Hotel
 - [Going Long! Sending weird signals over long haul optical networks (video)]( https://media.ccc.de/v/38c3-going-long-sending-weird-signals-over-long-haul-optical-networks )
 - [RadioMining - Playlist-Scraping und Analyse (video)]( https://media.ccc.de/v/38c3-radiomining-playlist-scraping-und-analyse )
 
@@ -77,8 +69,8 @@ Die Congress Nachbesprechung und Smartmeter Foo mit Felix, Felix und Ingo.
 
 ## Mimimi der Woche
 - [jujutsu 'submodules' und 'libssh2']()
-   - https://github.com/jj-vcs/jj/issues/63
-   - [Manual]( https://neugierig.org/software/blog/2024/12/jujutsu.html )
+  - https://github.com/jj-vcs/jj/issues/63
+  - [Manual]( https://neugierig.org/software/blog/2024/12/jujutsu.html )
 - [Use socat to bridge CanFD messages]( https://unix.stackexchange.com/questions/788026/use-socat-to-bridge-canfd-messages )
 - [hoarder bookmark import]( https://github.com/hoarder-app/hoarder )
   - [hoarder ]( https://github.com/makefu/hoarder-bookmark-importer )
@@ -86,7 +78,6 @@ Die Congress Nachbesprechung und Smartmeter Foo mit Felix, Felix und Ingo.
  - [USB-PD trigger]( https://www.aliexpress.com/item/1005005461879717.html )
 
 ## Lesefoo
-
 - [Arch Linux is simple, not minimal]( https://textplain.org/arch-simple#:~:text=Arch%20Linux%20can%20be%20minimalist,making%20it%20anything%20but%20minimal )
 
 ## Picks
@@ -95,8 +86,3 @@ Die Congress Nachbesprechung und Smartmeter Foo mit Felix, Felix und Ingo.
 - [docker debug (mit nix)]( https://docs.docker.com/reference/cli/docker/debug/ )
 - [StandortTool](https://standorttool.de/standorttool)
 - [Interview with 2000s PC User (video)]( https://m.youtube.com/watch?v=VpAZPPCLCUI )
-
-
-
-
-* = affiliate link
