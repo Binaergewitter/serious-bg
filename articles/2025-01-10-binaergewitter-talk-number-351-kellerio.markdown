@@ -69,7 +69,7 @@ Die Congress Nachbesprechung und Smartmeter Foo mit Felix, Felix und Ingo.
 
 ## Mimimi der Woche
 - [jujutsu 'submodules' und 'libssh2']()
-  - https://github.com/jj-vcs/jj/issues/63
+  - [jj-vcs/jj#63](https://github.com/jj-vcs/jj/issues/63)
   - [Manual]( https://neugierig.org/software/blog/2024/12/jujutsu.html )
 - [Use socat to bridge CanFD messages]( https://unix.stackexchange.com/questions/788026/use-socat-to-bridge-canfd-messages )
 - [hoarder bookmark import]( https://github.com/hoarder-app/hoarder )
