@@ -28,11 +28,11 @@ Diesmal mit der vollen Besatzung an Triebfahrzeugführern.
   - [aktueller Stand]( https://www.c3s.cc/ueber-c3s/konzept/aktueller-stand/ )
 
 ## Toter der Woche
-- [](https://www.tagesschau.de/wirtschaft/unternehmen/bahn-auskunft-schaukasten-100.html) - und doch wieder nicht
+- [Bahn schafft Ankunft-Aushang ab](https://www.tagesschau.de/wirtschaft/unternehmen/bahn-auskunft-schaukasten-100.html) - und doch wieder nicht
 - [11833]( https://www.heise.de/news/Telekom-stellt-Auskunft-ein-Kein-Anschluss-mehr-unter-11833-10183762.html )
 
 ## Untoter der Woche
-- []( https://www.esquire.de/life/reisen/neuer-luxuszug-orient-express-kommt-2025 )
+- [Orient Express]( https://www.esquire.de/life/reisen/neuer-luxuszug-orient-express-kommt-2025 )
 
 ## DotCom der Woche
 - [schwerer Schlaganfall](https://www.heise.de/news/Drohende-Auslieferung-an-die-USA-Kim-Dotcom-meldet-schweren-Schlaganfall-10172616.html )
@@ -45,7 +45,7 @@ Diesmal mit der vollen Besatzung an Triebfahrzeugführern.
 - [The AI Reporter that took my old job just got fired]( https://www.wired.com/story/the-ai-reporter-who-took-my-old-job-just-got-fired/ )
 - [Robot jailbreak: Researchers Trick Bots into dangerours Tasks]( https://spectrum.ieee.org/jailbreak-llm )
 - [Deine geklonte Stimme in Teams meetings]( https://techcrunch.com/2024/11/19/soon-microsoft-will-let-teams-meeting-attendees-clone-their-voices/ )
-- [Bitcoin suchen auf Mülldeponie]( )
+- [Bitcoin suchen auf Mülldeponie]( https://www.tagesanzeiger.ch/wales-bitcoins-fuer-800-millionen-landeten-versehentlich-im-abfall-980328680247 )
   * [Bitcoin $100.000]( https://arstechnica.com/tech-policy/2024/12/bitcoin-hits-100000/ )
 
 ## News
@@ -71,10 +71,10 @@ Diesmal mit der vollen Besatzung an Triebfahrzeugführern.
 
 ## 3D Druck der Woche
 
-* Karten Boxen
-  * https://www.printables.com/model/1075369-karten-box
-  * https://www.printables.com/model/111395-card-game-box-quartett-verpackung
-  * https://www.printables.com/model/233675-card-game-keeper
+- Karten Boxen
+  * [Karten Box]( https://www.printables.com/model/1075369-karten-box )
+  * [card game box - Quartett Verpackung]( https://www.printables.com/model/111395-card-game-box-quartett-verpackung )
+  * [Card Game Keeper]( https://www.printables.com/model/233675-card-game-keeper )
 - [Monsieur Cuisine Haltegriff]( https://www.printables.com/model/158160-monsieur-cuisine-haltegriff-pot-handle?lang=de )
 
 ## Mimimi der Woche
@@ -95,12 +95,9 @@ Diesmal mit der vollen Besatzung an Triebfahrzeugführern.
 - [Advent of Code]( https://adventofcode.com/ )
  - [Advent of Code in nix]( https://johns.codes/blog/aoc2024/nix/part01 )
 - [Some surprising code execution sources in bash]( https://yossarian.net/til/post/some-surprising-code-execution-sources-in-bash )
-https://ecograder.com/
-https://benjdd.com/languages/
-https://www.mail-tester.com/
-https://www.xeams.com/validation.htm
+- [Ecograder]( https://ecograder.com/ )
+- [language loop](https://benjdd.com/languages/)
+- [Test the Spammyness of your Emails]( https://www.mail-tester.com/ )
+- [Validating Your Email Server]( https://www.xeams.com/validation.htm )
 - [Anno 1602]( https://www.gog.com/de/game/anno_1602_ad )
 - [`curl -v google.com` Metal Mix (video)]( https://www.youtube.com/watch?v=atcqMWqB3hw )
-
-
-
