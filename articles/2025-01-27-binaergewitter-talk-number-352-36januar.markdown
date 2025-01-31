@@ -46,7 +46,7 @@ Wir feiern das ganze Jahr über Januar....
 
 - CES
   * [Roboter-Katze übernimmt das Pusten]( https://www.golem.de/news/gegen-zu-heissen-kaffee-roboter-katze-uebernimmt-das-pusten-2501-192137.html )
-- [Sovereign Tech Fund Invests in OpenStreetMap]( httpst://blog.openstreetmap.org/2024/12/20/sovereign-tech-fund-invests-in-openstreetmap/ )
+- [Sovereign Tech Fund Invests in OpenStreetMap]( https://blog.openstreetmap.org/2024/12/20/sovereign-tech-fund-invests-in-openstreetmap/ )
 - [OpenCloud forkt OwnCloud]( https://www.linux-magazin.de/artikel/opencloud-forkt-owncloud-neue-wendung-bei-den-freien-speichercloud-versionen/ )
   * [OpenCloud Mesh]( https://github.com/cs3org/OCM-API )
 - [JavaScript Temporal]( https://developer.mozilla.org/en-US/blog/javascript-temporal-is-coming/ )
