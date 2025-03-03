@@ -22,8 +22,8 @@ Post Wahl und Pre Karneval Show mit der kompletten Crew.
 
 ## Blast from the Past
 
-- Danke für den Tipp auf  https://moodeaudio.org/ an Ewald!
-  * https://jellyfin.org/
+- Danke für den Tipp auf  [moodeaudio.org]( https://moodeaudio.org/ ) an Ewald!
+  * [jellyfin.org]( https://jellyfin.org/ )
 
 ## Toter der Woche
 - AppArmor
@@ -75,7 +75,7 @@ Post Wahl und Pre Karneval Show mit der kompletten Crew.
 
 ## 3D Druck
 
-- https://blog.bambulab.com/bringing-atlas-to-your-desk-3d-models-of-cerns-detector-now-available-on-makerworld/
+- [CERN`s detector ATLAS model]( https://blog.bambulab.com/bringing-atlas-to-your-desk-3d-models-of-cerns-detector-now-available-on-makerworld/ )
 - [Hotend Repaired]( https://photo.mynethome.de/picture.php/IMG_1156/category/174-shots )
 - Schwieriger Vergleich / Entscheid zwichen Anycubic Kobra 3 Combo , BambuLabs A1 Combo und Creality Hi Combo
 - Scheiss Filament von vor 4 Jahren
@@ -88,7 +88,7 @@ Post Wahl und Pre Karneval Show mit der kompletten Crew.
 
 - YT Shorts haben keinen ordentlichen Timestamp
 
-     - https://www.youtube.com/watch?v=<short-id>
+     - .. können als normale YT videos geschaut werden: https://www.youtube.com/watch?v=<short-id>
 
 
 ## Lesefoo
