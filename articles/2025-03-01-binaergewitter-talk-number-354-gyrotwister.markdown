@@ -33,8 +33,8 @@ Post Wahl und Pre Karneval Show mit der kompletten Crew.
 - [Skype]( https://www.xda-developers.com/microsoft-killing-skype/ )
   - [Arstechnica]( https://arstechnica.com/gadgets/2025/02/on-may-5-microsofts-skype-will-shut-down-for-good/ )
   - [XDA]( https://en.wikipedia.org/wiki/O2_Xda )
-- [Flugtaxi-Hersteller Lilium]()
-    - https://arstechnica.com/gadgets/2025/02/misguided-hp-customer-support-approach-included-forced-15-minute-call-wait-times/ )
+- [Flugtaxi-Hersteller Lilium](https://www.heise.de/news/Flugtaxi-Hersteller-Lilium-meldet-zum-zweiten-Mal-Insolvenz-an-10291687.html)
+- [HP realizes that mandatory 15-minute support call wait times isn’t good support]( https://arstechnica.com/gadgets/2025/02/misguided-hp-customer-support-approach-included-forced-15-minute-call-wait-times/ )
 - [Amazon App Store]( https://www.heise.de/news/Amazon-stampft-seinen-App-Store-fuer-Android-ein-10289716.html )
 - [Humane AI Pin]( https://arstechnica.com/gadgets/2025/02/truly-a-middle-finger-humane-bricking-700-ai-pins-with-limited-refunds/ )
 
@@ -54,23 +54,20 @@ Post Wahl und Pre Karneval Show mit der kompletten Crew.
 - [Google Pixel-Handys: Überraschende Ankündigung – diese Modelle kannst du jetzt länger nutzen]( https://www.futurezone.de/produkte/article603729/google-pixel-handys-ueberraschende-ankuendigung-diese-modelle-kannst-du-jetzt-laenger-nutzen-pixel-erweitert.html )
 - [We stay strong against hate and hatred]( https://blog.codeberg.org/we-stay-strong-against-hate-and-hatred.html )
 - [Nachwachsene Zähne]( https://www.ingenieur.de/technik/fachbereiche/medizin/japanische-forschende-entwickeln-medikament-um-zaehne-nachwachsen-zu-lassen/ )
-
-    - https://www.heise.de/hintergrund/Biotechnologie-macht-s-moeglich-Neue-Zaehne-in-Schweinen-gezuechtet-10282118.html
-
+    - [Biotechnologie macht's möglich: Neue Zähne in Schweinen gezüchtet
+](https://www.heise.de/hintergrund/Biotechnologie-macht-s-moeglich-Neue-Zaehne-in-Schweinen-gezuechtet-10282118.html)
 - [Firefox Terms of Use]( https://blog.mozilla.org/en/products/firefox/firefox-news/firefox-terms-of-use/ )
-  * https://news.ycombinator.com/item?id=43200065
+  * [When you upload or input information through Firefox, you grant us a license](https://news.ycombinator.com/item?id=43200065)
   * LibreWolf
 - [Fehlerhafte Flatpaks: OBS droht Fedora mit rechtlichen Schritten]( https://www.heise.de/news/Fehlerhafte-Flatpaks-OBS-droht-Fedora-mit-rechtlichen-Schritten-10280678.html )
 - ["Crysis 4" eingestampft: Crytek entlässt 60 Mitarbeiter]( https://www.heise.de/news/Crytek-entlaesst-Mitarbeiter-und-stellt-Crysis-4-ein-10279726.html )
 - [source code for Command & Conquer leaked]( https://github.com/electronicarts )
-
-    * [OSS C&C Clone]( https://www.openra.net/ )
-
+  * [OSS C&C Clone]( https://www.openra.net/ )
 - [France runs fusion reactor for record 22 minutes]( https://newatlas.com/energy/france-tokamak-cea-west-fusion-reactor-record-plasma-duration/ )
 - [Obsidian is now free for work]( https://obsidian.md/blog/free-for-work/ )
 - [$1.5B Bybit Hack]( https://blog.trailofbits.com/2025/02/21/the-1.5b-bybit-hack-the-era-of-operational-security-failures-has-arrived/ )
 - [Thermomix Daten Leak]( https://www.heise.de/en/news/Data-leak-at-Thermomix-data-from-1-million-German-users-on-the-darknet-10273939.html )
-  - Passkeys ersetzen definitiv einen zweiten Faktor (laut Ingo)
+  * Passkeys ersetzen definitiv einen zweiten Faktor (laut Ingo)
 - [Diablo Speedrun hack]( https://arstechnica.com/gaming/2025/02/the-diablo-hackers-that-debunked-a-record-speedrun/ )
 
 ## 3D Druck
@@ -106,10 +103,10 @@ Post Wahl und Pre Karneval Show mit der kompletten Crew.
 - [Debian PHP 8.1 Repo Sury]( https://debian.octopuce.fr/snapshots/sury-php/20240701/pool/main/p/php8.1/ )
 - [Gurk: Rust Signal client]( https://github.com/boxdot/gurk-rs )
   - `nix-shell -p gurk-rs`
-- https://denmarkification.com/
-- https://datatables.net/
-- https://media.ccc.de/v/biometrie-s8-iris-fun#t=0
-- https://community-scripts.github.io/ProxmoxVE/
+- [denmarkification](https://denmarkification.com/)
+- [DataTables](https://datatables.net/)
+- [Iris-Scanner im Samsung Galaxy S8](https://media.ccc.de/v/biometrie-s8-iris-fun#t=0)
+- [Proxmox Virtual Environment (VE)](https://community-scripts.github.io/ProxmoxVE/)
 - [Hotto Dogu(video)]( https://www.youtube.com/watch?v=9mD-ZmWuFTQ )
 - [Framework new Hardware (video)](https://www.youtube.com/watch?v=-lErGZZgUbY)
   - [Hoodie Werbung]( https://p.krebsco.de/0jjwdig )
