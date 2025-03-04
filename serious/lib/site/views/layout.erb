@@ -79,6 +79,25 @@
       font-size: 29px;
       text-decoration: none;
     }
+    /*-------------- grösser in breitem Fenster --------------*/
+    @media only screen and (min-width:1200px) {
+	    body, .form-control {
+		    font-size: 18px;
+	    }
+	    .container {
+		    width: 90%;
+		    max-width: 1360px;
+	    }
+    	h2, .h2 {
+    		font-size: 34px;
+    	}
+    	.panel-title {
+    		font-size: 22px;
+    	}
+    	blockquote {
+    		font-size: 20px;
+    	}
+    }
     /*-------------- Dark Mode --------------*/
     @media only screen and (prefers-color-scheme: dark) {
       /* Body und Panel links oben */
