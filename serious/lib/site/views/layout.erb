@@ -79,6 +79,36 @@
       font-size: 29px;
       text-decoration: none;
     }
+    /*-------------- Dark Mode --------------*/
+    @media only screen and (prefers-color-scheme: dark) {
+      /* Body und Panel links oben */
+      body, .panel {
+        color: #E8E8E8;
+        background-color: #151515;
+      }
+      /* Navigation */
+      nav.navbar {
+        background-color: #000000;
+      }
+        .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
+        color: #BDBDBD;
+      }
+        .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+        color: #E5E5E5;
+      }
+      /* Kommentarbereich bei Podcast-Folge: Text-Eingaben */
+      .isso-form-wrapper input, .isso-form-wrapper textarea, .isso-form-wrapper .isso-text {
+        color: #171717;
+      }
+      /* Kommentarbereich bei Podcast-Folge: Kuerzel Autor */
+      #isso-root .isso-author {
+        color: #c1c1c1;
+      }
+      /* Kommentarbereich bei Podcast-Folge: Hintergrund fuer dunkle, transparente Avatar-Bilder */
+      .isso-avatar img {
+        background-color: #E8E8E8;
+      }
+    }
   </style>
 </head>
 
