@@ -18,23 +18,22 @@ voices:
   ingo: true
   felix: true
 ---
+Wieder alle da 
+
 ## Blast from the Past
-- https://www.heise.de/news/Kollaborationstool-Docs-Regierungsprojekt-entwickelt-freie-Notion-Alternative-10326518.html
+- [Docs Projekt](https://www.heise.de/news/Kollaborationstool-Docs-Regierungsprojekt-entwickelt-freie-Notion-Alternative-10326518.html )
   - [DE/FR Projekt Docs]( https://github.com/suitenumerique/docs )
-- https://logseq.com/
-- https://netzpolitik.org/2025/projekte-fuer-internetfreiheit-open-technology-fund-steht-vor-dem-aus/
+- [logseq](https://logseq.com/ )
+- [opentechnology fund vor dem Aus](https://netzpolitik.org/2025/projekte-fuer-internetfreiheit-open-technology-fund-steht-vor-dem-aus/ )
 
 ## Toter der Woche
 
 - [ Everything you say to your Echo will be sent to Amazon starting on March 28]( https://arstechnica.com/gadgets/2025/03/everything-you-say-to-your-echo-will-be-sent-to-amazon-starting-on-march-28/ )
   - Local Processing on Amazon Aleksa Devices
-  - https://chow.fan/@mookie/114162820588906022
   - [Alexa sendet immer in die Cloud]( https://mastodon.social/@arstechnica/114162797633445947 )
 - [Genetic testing company 23andMe declares bankruptcy]( https://arstechnica.com/science/2025/03/genetic-testing-company-23andme-declares-bankruptcy/ )
   * [Heise Artikel]( https://www.heise.de/news/23andme-beantragt-Insolvenzschutz-zielt-auf-Verkauf-Hinweis-auf-Datenloeschung-10325684.html )
-
 - [Komot gekauft]( https://www.rbb24.de/wirtschaft/beitrag/2025/03/routen-app-und-potsdamer-firma-komoot-verkauft.html )
-https://www.heise.de/news/Wander-App-Komoot-wird-verkauft-10324277.html
 - [Google Assistant -> Gemini]( https://arstechnica.com/google/2025/03/why-wait-google-is-already-dismantling-assistant-as-it-switches-to-gemini/ )
 
 ## Untoter der Woche
@@ -52,15 +51,12 @@ https://www.heise.de/news/Wander-App-Komoot-wird-verkauft-10324277.html
 ## News
 
 - [Smart Ring für Gebärdensprache]( https://www.heise.de/news/KI-Ring-uebersetzt-Gebaerdensprache-in-Echtzeit-10320209.html )
-- https://www.heise.de/news/GIMP-3-0-Grosses-Update-nach-sieben-Jahren-fertig-10317701.html
+- [GIMP 3 Heise Artikel](https://www.heise.de/news/GIMP-3-0-Grosses-Update-nach-sieben-Jahren-fertig-10317701.html )
 - [Ubuntu 25.10 Looks To Make Use Of Rust Coreutils & Other Rust System Components]( https://www.phoronix.com/news/Ubuntu-25.10-Rust-Coreutils )
-- https://9to5linux.com/linux-kernel-6-14-officially-released-this-is-whats-new
-- https://www.gamingonlinux.com/2025/01/ntsync-driver-for-improving-windows-games-on-linux-with-wine-proton-should-finally-land-in-linux-kernel-614/
-
+- [Linux 6.14 released](https://9to5linux.com/linux-kernel-6-14-officially-released-this-is-whats-new )
+   - [600% schneller bei manchen Spielen](https://www.gamingonlinux.com/2025/01/ntsync-driver-for-improving-windows-games-on-linux-with-wine-proton-should-finally-land-in-linux-kernel-614/ )
 - [This Modular Phone Concept Is Xiaomi’s Plan to Kill the Camera Bump]( https://www.wired.com/story/xiaomi-modular-optical-system-mwc-2025/ )
-
-- https://www.phoronix.com/news/SoftBank-Acquiring-Ampere
-
+- [Softbank kauft Ampere](https://www.phoronix.com/news/SoftBank-Acquiring-Ampere)
 - [Golf von ...]( 
 https://www.rbb24.de/panorama/beitrag/2025/03/berlin-brandenburg-gewaesser-seen-golf-von-bezeichnung-karten-google-maps.html )
   - [Heise Artikel]( https://www.heise.de/news/Deutsche-Gewaesser-werden-mit-Golf-von-benannt-10326336.html )
@@ -69,16 +65,11 @@ https://www.rbb24.de/panorama/beitrag/2025/03/berlin-brandenburg-gewaesser-seen-
 - [Hosteurope macht blöde Sachen]( https://www.heise.de/news/Host-Europe-bittet-zur-Kasse-Mailmigration-ab-Mai-10326806.html )
 - [Mailhosting bei Ingo]( https://www.jit-creatives.de/mail/ )
 -> https://european-alternatives.eu/
-
 - [Blast: Gimp 3.0.2](https://www.gimp.org/news/2025/03/23/gimp-3-0-2-released/ )
-
 - [MyTerms]( https://arstechnica.com/gadgets/2025/03/doc-searls-myterms-aims-to-offer-user-first-privacy-contracts-for-the-web/ )
-
 - [FSF Auktion, unter anderem: Stallmans Katana]( https://static.fsf.org/nosvn/fsf40/auction/FSF-live-auction-booklet.pdf )
 - [Online Casino Nutzer verlieren Geld UND Daten]( https://chaos.social/@Lilith/114161948066982484 )
-
 - [tj-actions/changed-files]( https://www.stepsecurity.io/blog/harden-runner-detection-tj-actions-changed-files-action-is-compromised )
-
 
 
 ## Themen
@@ -102,4 +93,4 @@ https://www.rbb24.de/panorama/beitrag/2025/03/berlin-brandenburg-gewaesser-seen-
 ## Picks
 - [Anlehnbügel TAMPA]( https://www.ziegler-metall.de/anlehnbuegel-tampa )
 -[/r/theocho]( https://www.reddit.com/r/theocho/comments/1jbuusd/4_year_old_kids_push_bike_balance_bike_race_in/ )
-- [fs.com](fs.com)
+- [fs.com](https://fs.com)
