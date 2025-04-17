@@ -36,11 +36,11 @@ Gleich ist Ostern und wir beschäfftigen uns mit HässchenAI....
 ## AI der Woche
 - [Open source devs say AI crawlers dominate traffic, forcing blocks on entire countries]( https://arstechnica.com/ai/2025/03/devs-say-ai-crawlers-dominate-traffic-forcing-blocks-on-entire-countries/ )
   - [sourcehut blog: You cannot have our users data]( https://sourcehut.org/blog/2025-04-15-you-cannot-have-our-users-data/ )
-- [AI code suggestion supply chain attack - slopsquatting ]( https://www.theregister.com/2025/04/12/ai_code_suggestions_sabotage_supply_chain/ )
+- [AI code suggestion supply chain attack - slopsquatting]( https://www.theregister.com/2025/04/12/ai_code_suggestions_sabotage_supply_chain/ )
 - [HammerHAI]( https://www.uni-stuttgart.de/universitaet/aktuelles/meldungen/AI-Factory-am-Hoechstleistungsrechenzentrum-der-Universitaet-Stuttgart/ )
 - [HESSIAN AI Cluster]( https://hessian.ai/de/ )
 - ["No Elephants" breakthroughs in image]( https://www.oneusefulthing.org/p/no-elephants-breakthroughs-in-image )
-  - [MS Frontpage war schon damals Vibe Coding]
+  - MS Frontpage war schon damals Vibe Coding
 - [AI model passed the touring test]( https://futurism.com/ai-model-turing-test )
 
 
@@ -69,8 +69,8 @@ Gleich ist Ostern und wir beschäfftigen uns mit HässchenAI....
 - [Hex key EZ handles]( https://makerworld.com/en/models/577906-hex-key-ez-handles )
 
 - Gridfinity (Origin YT:  ["Gridfinity: Your Ultimate Modular Workshop is FREE!"]( https://www.youtube.com/watch?v=ra_9zU-mnl8) )
- * https://gridfinity.perplexinglabs.com/
- * https://gridfinity.xyz/
+ * [Gridfinity](https://gridfinity.xyz/)
+ * [Gridfinity Generator](https://gridfinity.perplexinglabs.com/)
  * [Ikea Skadis]( https://www.ikea.com/de/de/p/skadis-lochplatte-weiss-00320803/ )
  * [HoneyCombWall]( https://www.reddit.com/r/honeycombwall/ ) - [Project on Printables]( https://www.printables.com/model/152592-honeycomb-storage-wall )
 
@@ -92,10 +92,10 @@ Gleich ist Ostern und wir beschäfftigen uns mit HässchenAI....
 ## Picks
 - [sublime nix]( https://github.com/wmertens/sublime-nix )
   - [Leute, die vim in vscode benutzen]( https://outerheaven.club/notice/Asl3dZM8uenXCPZamO )
-- https://defrag98.com/
-- https://nohello.net/de/
-- https://endoflife.date
-- https://javaalmanac.io/
-- https://de.wikipedia.org/wiki/Angry_IP_Scanner
-- https://www.fancycomponents.dev/
-- https://benkaiser.github.io/fast-image-resizer/
+- [defrag98](https://defrag98.com/)
+- [nohello](https://nohello.net/de/)
+- [endoflife](https://endoflife.date)
+- [javaalmanac](https://javaalmanac.io/)
+- [Angry IP Scanner](https://de.wikipedia.org/wiki/Angry_IP_Scanner)
+- [fancycomponents.dev](https://www.fancycomponents.dev/)
+- [fast-image-resizer (web)](https://benkaiser.github.io/fast-image-resizer/)
