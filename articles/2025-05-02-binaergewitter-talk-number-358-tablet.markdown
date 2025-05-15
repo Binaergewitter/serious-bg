@@ -46,15 +46,15 @@ Diesmal in BGT: Bagger, Internetprobleme, Backup-Lösungen, Smart Home, Datensic
 ## AI der Woche
 - [Qwen3]( https://qwenlm.github.io/blog/qwen3/ )
 - [KI-Stimme als Moderation]( https://www.heise.de/news/Australischer-Radiosender-nutzt-monatelang-KI-Stimme-als-Moderation-unbemerkt-10363585.html )
-    - [Captain it's Wednesday - Folge 133]( https://gnulinux.ch/ciw133-podcast )
-
+   * [Captain it's Wednesday - Folge 133]( https://gnulinux.ch/ciw133-podcast )
+   * [Autopod](https://gnulinux.ch/podcasten-wird-mit-autopod-automatisch )
 - [LG Smart TVs sollen Emotionen überwachen (mit AI)]( https://www.heise.de/news/LG-Smart-TVs-sollen-Emotionen-der-Zuschauer-ueberwachen-und-per-KI-auswerten-10357123.html )
   * [You wouldn't steal a font](https://news.sky.com/story/you-wouldnt-steal-a-font-famous-anti-piracy-campaign-may-have-used-pirated-typeface-13357462)
 - [AI avatar regrets]( https://arstechnica.com/ai/2025/04/regrets-actors-who-sold-ai-avatars-stuck-in-black-mirror-esque-dystopia/ )
 
 ## News
 - [I installed Linux (so should you) - (video)]( https://www.youtube.com/watch?v=pVI_smLgTY0 )
-  ** [Fully Ramblomatic]( https://www.youtube.com/playlist?list=PLUBKwq0XD0ueR3CXGUhGpsD1puLcYJPUp )
+  * [Fully Ramblomatic]( https://www.youtube.com/playlist?list=PLUBKwq0XD0ueR3CXGUhGpsD1puLcYJPUp )
 - [ePA jetzt wirklich richtig sicher!]( https://www.tagesschau.de/inland/innenpolitik/epa-patientenakte-hacking-100.html )
   * [Wie die Bahnbranche das D-Ticket riskiert]( https://www.heise.de/hintergrund/Bis-500-000-000-Euro-Schaden-Wie-die-Bahnbranche-das-Deutschlandticket-riskiert-10361820.html ) 
 - [OpenBSD 7.7]( https://www.openbsd.org/77.html )
@@ -62,7 +62,7 @@ Diesmal in BGT: Bagger, Internetprobleme, Backup-Lösungen, Smart Home, Datensic
 
 ## 3D Druck
 
-- https://youtu.be/ZTmmEv9irbM?si=SGkuIhEgXB1XT6t4
+- [Lab Rax - 3D-druckbares 10-Zoll-Rack-System]( https://youtu.be/ZTmmEv9irbM?si=SGkuIhEgXB1XT6t4 )
 - [Easteregg](https://makerworld.com/en/models/1261871-eggsplode-bunny-surprise-egg )
 
 ## Themen
