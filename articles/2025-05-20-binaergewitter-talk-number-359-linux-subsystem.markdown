@@ -60,13 +60,13 @@ Der Mai. Neue Sendung.
 
 ## 3d-Druck
 
-- https://www.tomshardware.com/3d-printing/philips-debuts-3d-printable-components-to-repair-products
-- https://www.thingiverse.com/miele_3d4u/designs
-
-- https://makeronline.com/en/model/Small%20Baby%20Dragon%20-%20Articulated%20Dragon/127119.html
-- https://makerworld.com/en/models/133452-ams-riser-v2#profileId-155321
+- [Philips debuts 3D printable components to repair products](https://www.tomshardware.com/3d-printing/philips-debuts-3d-printable-components-to-repair-products)
+- [3D4U powered by Miele](https://www.thingiverse.com/miele_3d4u/designs)
+- [Small Baby Dragon - Articulated Dragon](https://makeronline.com/en/model/Small%20Baby%20Dragon%20-%20Articulated%20Dragon/127119.html)
+- [AMS Riser V2](https://makerworld.com/en/models/133452-ams-riser-v2#profileId-155321)
 
 ## Lesefoo
+
 - [We're building a dystopia just to make people click on ads(video)]( https://www.ted.com/talks/zeynep_tufekci_we_re_building_a_dystopia_just_to_make_people_click_on_ads )
 
 ## Picks
@@ -75,14 +75,11 @@ Der Mai. Neue Sendung.
 - [logstash-config parser]( https://github.com/breml/logstash-config )
 - [Podcast: Alles gesagt?]( https://www.zeit.de/serie/alles-gesagt )
 - [Audiobookshelf]( https://www.audiobookshelf.org/ )
-
 - [mono.si]( https://mono.si/ )
   - [OpenWRT Two]( https://openwrt.org/voting/2025-02-12-openwrt-two )
-- https://www.startnext.com/nukaai
-
-- https://github.com/twostraws/HandsOff
-
-- XPConf Suisse 2025 https://conf.researchr.org/program/xp-2025/program-xp-2025/
+- [nuka.ai - Für Menschen mit AD(H)S, Autismus, PTBS und Reizoffenheit](https://www.startnext.com/nukaai)
+- [Hands Off](https://github.com/twostraws/HandsOff)
+- [XPConf Suisse 2025](https://conf.researchr.org/program/xp-2025/program-xp-2025/)
 
 # Die modernen Sternzeichen
 
