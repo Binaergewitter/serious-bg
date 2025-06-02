@@ -10,7 +10,7 @@ chapters: https://download.binaergewitter.de/2025-06-01.Binaergewitter.Talk.360.
 transcript: https://download.binaergewitter.de/2025-06-01.Binaergewitter.Talk.360-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2025-06-01.Binaergewitter.Talk.360.mp3
-  ogg: https://download.binaergewitter.de/2025-06-01.Binaergewitter.Talk.360.ogs
+  ogg: https://download.binaergewitter.de/2025-06-01.Binaergewitter.Talk.360.ogg
   opus: https://download.binaergewitter.de/2025-06-01.Binaergewitter.Talk.360.opus
 voices:
   l33tname: false
