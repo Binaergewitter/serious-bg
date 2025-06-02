@@ -10,7 +10,7 @@ chapters: https://download.binaergewitter.de/2025-06-01.Binaergewitter.Talk.360.
 transcript: https://download.binaergewitter.de/2025-06-01.Binaergewitter.Talk.360-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2025-06-01.Binaergewitter.Talk.360.mp3
-  ogg: https://download.binaergewitter.de/2025-06-01.Binaergewitter.Talk.360.ogss
+  ogg: https://download.binaergewitter.de/2025-06-01.Binaergewitter.Talk.360.ogs
   opus: https://download.binaergewitter.de/2025-06-01.Binaergewitter.Talk.360.opus
 voices:
   l33tname: false
@@ -23,7 +23,7 @@ Die verspätete Vatertagssendung... und das mit Gast und richtigen Themen wie We
 
 ## Blast from the Past
 
-https://infosec.exchange/@simcup/114558413499690054
+- https://infosec.exchange/@simcup/114558413499690054
 - [joyn]( https://www.faz.net/aktuell/feuilleton/medien-und-film/joyn-gibt-beim-streit-um-einbettung-der-mediatheken-von-ard-und-zdf-klein-bei-110338153.html )
 
 ## Toter der Woche
@@ -48,7 +48,7 @@ https://hackaday.com/2025/05/18/mcp-blender-addon-lets-ai-take-the-wheel-and-wie
 - https://linuxnews.de/red-hat-enterprise-linux-10-veroeffentlicht/
 
 ## News
-https://www.heise.de/news/Torvalds-gibt-Linux-6-15-frei-10397961.html
+- https://www.heise.de/news/Torvalds-gibt-Linux-6-15-frei-10397961.html
   - Ingo: 6.20
   - Felix: 6.19
   - Sebastian: 6.21
@@ -57,44 +57,41 @@ https://www.heise.de/news/Torvalds-gibt-Linux-6-15-frei-10397961.html
 - https://www.heise.de/news/Angriff-auf-die-Deutsche-Bahn-Flixtrain-investiert-in-65-neue-Schnellzuege-10405986.html
 - [git MCP Exploited](https://simonwillison.net/2025/May/26/github-mcp-exploited/)
 - https://de.wikipedia.org/wiki/Infinite-Monkey-Theorem Affentheorem -> https://libraryofbabel.info/
-https://www.heise.de/news/Autonomes-Fahren-Lidar-kann-Smartphone-Kameras-schwer-beschaedigen-10395810.html
+- https://www.heise.de/news/Autonomes-Fahren-Lidar-kann-Smartphone-Kameras-schwer-beschaedigen-10395810.html
 
 
 ## Themen
 
-wireguard zwischen fritzbox und unifi
-https://wiki.banana-pi.org/Banana_Pi_BPI-R4
+- wireguard zwischen fritzbox und unifi
+- [Banana PI R4](https://wiki.banana-pi.org/Banana_Pi_BPI-R4 )
 - thinkcentre tiny m720(q) oder m910(q) in der Bucht oder bei anderen Händlern.
-
-netbird als Ergänzung zu der wireguard Geschichte.
+- netbird 
 
 ## 3D-Druck der Woche
 
-- Miele hat 3D Druckmodelle
-  https://www.thingiverse.com/thing:4239135
+- [Miele hat 3D Druckmodelle]( https://www.thingiverse.com/thing:4239135)
 - Helfende Hand - https://makerworld.com/de/models/1211415-wire-soldering-fixture
 - 3 - [Wandhalterung für Kabel](https://makerworld.com/de/models/1070478-wall-mount-hanger-holder-storage-rope-padeye#profileId-1060259)
 - [Schablone für Steckdose](https://makerworld.com/de/models/430673-socket-drill-jig#profileId-335198)
-- []( https://makerworld.com/en/models/201311-sep-1-poop-chute-basket-outlet-for-x1c-p1s-p1p#profileId-221690 )
-- https://kno.wled.ge/
+- [Poop Basket]( https://makerworld.com/en/models/201311-sep-1-poop-chute-basket-outlet-for-x1c-p1s-p1p#profileId-221690 )
+- [WLED](https://kno.wled.ge/)
 - CCT Correlated Color Temperature
-- WWCW - 
+- WWCW 
 - https://makerworld.com/de/models/1121185-waste-shute-for-p1-x1-chute-and-bins#profileId-1119638
 
 ## Mimimi der Woche
-ipsec
-https://ubiquiti-networks-forum.de/board/thread/9753-vpn-zwischen-fritzbox-und-ubiquiti-udm-pro-dream-machine-stand-23-08-2024/
-https://burth-online.de/cms/pages/dokumentationen/avm-fritzbox/fritzbox---vpn---konfigurationsdatei.php
-x13 usb-c stirbt langsam
-Stromzähler in Deutschland
-Postresql Updates
+ - ipsec
+    * https://ubiquiti-networks-forum.de/board/thread/9753-vpn-zwischen-fritzbox-und-ubiquiti-udm-pro-dream-machine-stand-23-08-2024/
+    * https://burth-online.de/cms/pages/dokumentationen/avm-fritzbox/fritzbox---vpn---konfigurationsdatei.php
+- x13 usb-c stirbt langsam
+- Stromzähler in Deutschland
+- Postresql Updates
 
 ## Lesefoo
-https://immich.app/cursed-knowledge/
+- https://immich.app/cursed-knowledge/
 
 ## Picks
-https://velzie.rip/blog/celeste-wasm
-L-BOXX Mini https://www.amazon.de/dp/B00PIYTKCM?ref=ppx_yo2ov_dt_b_fed_asin_title
-https://www.amazon.de/dp/B00C27E3JI/?th=1 <- Systainer Mini ;-)
-
+- https://velzie.rip/blog/celeste-wasm
+- [L-BOXX Mini]( https://amzn.to/3FmETG1 )
+- [Systainer Mini ;-)](https://amzn.to/3FwkvlQ )
 
