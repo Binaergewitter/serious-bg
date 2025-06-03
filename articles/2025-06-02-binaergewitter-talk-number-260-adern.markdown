@@ -19,19 +19,19 @@ voices:
   felix: true
   sebastian: true
 ---
-Die verspätete Vatertagssendung... und das mit Gast und richtigen Themen wie Werkezeuge zum Badabriss und Hausbau....
+Die verspätete Vatertagssendung... und das mit Gast und richtigen Themen wie Werkzeuge zum Badabriss und Hausbau....
 
 ## Blast from the Past
 
-- https://infosec.exchange/@simcup/114558413499690054
+- [https://infosec.exchange/@simcup/114558413499690054](https://infosec.exchange/@simcup/114558413499690054)
 - [joyn]( https://www.faz.net/aktuell/feuilleton/medien-und-film/joyn-gibt-beim-streit-um-einbettung-der-mediatheken-von-ard-und-zdf-klein-bei-110338153.html )
 
 ## Toter der Woche
 - Ingos Ladegerät
-- Pocket https://www.linux-magazin.de/news/mozilla-gibt-pocket-auf/
+- [Pocket](https://www.linux-magazin.de/news/mozilla-gibt-pocket-auf/)
   - [Primärer Use Case: Gutes Gewissen]( https://mastodon.social/@johnl/114553737248293989 )
-  - https://wallabag.org/
-- https://www.heise.de/news/Open-Source-tabula-rasa-Intel-beendet-ueber-150-Projekte-innerhalb-weniger-Tage-7454556.html?utm_source=perplexity <- AI Vorschlag aus 2023
+  - Alternative zum selbsthosten: [Wallabag](https://wallabag.org/)
+- AI Vorschlag aus 2023 [Intel beendet über 150 Projekte](https://www.heise.de/news/Open-Source-tabula-rasa-Intel-beendet-ueber-150-Projekte-innerhalb-weniger-Tage-7454556.html?utm_source=perplexity)
 
 ## Untoter der Woche
 - [Notepad.exe]( https://arstechnica.com/gadgets/2025/05/in-3-5-years-notepad-exe-has-gone-from-barely-maintained-to-it-writes-for-you/ )
@@ -43,21 +43,22 @@ Die verspätete Vatertagssendung... und das mit Gast und richtigen Themen wie We
   - [Video zu der AI: Everlast AI](https://www.youtube.com/watch?v=w4t0eco9AZU)
   - [Non-Existing Car Show]( https://www.youtube.com/watch?v=2T-ZiEdMHvw )
 - [Using 'Slop Forensics' to Determine Model]( https://lobste.rs/s/awkvzj/using_slop_forensics_determine_model )
-https://t3n.de/news/ki-agent-vending-bench-fbi-fail-1688325/ AI ruft FBI an - Vending Bench
-https://hackaday.com/2025/05/18/mcp-blender-addon-lets-ai-take-the-wheel-and-wield-the-tools/ 
-- https://linuxnews.de/red-hat-enterprise-linux-10-veroeffentlicht/
+  [AI ruft FBI an - Vending Bench](https://t3n.de/news/ki-agent-vending-bench-fbi-fail-1688325/)
+- [Blender addon 'lets ai take the wheel'](https://hackaday.com/2025/05/18/mcp-blender-addon-lets-ai-take-the-wheel-and-wield-the-tools/)
+- [Red-Hat Enterprise Linux 10](https://linuxnews.de/red-hat-enterprise-linux-10-veroeffentlicht/)
 
 ## News
-- https://www.heise.de/news/Torvalds-gibt-Linux-6-15-frei-10397961.html
-  - Ingo: 6.20
-  - Felix: 6.19
-  - Sebastian: 6.21
+- [Linux Kernel 6.15](https://www.heise.de/news/Torvalds-gibt-Linux-6-15-frei-10397961.html)
+  - Ab wann wird auf 7.x geswitched?:
+    - Ingo: 6.20
+    - Felix: 6.19
+    - Sebastian: 6.21
 - [Systemd258](https://jit.social/tags/systemd258 )
-- AndoinOS - Windows like Linux distribution, entwickelt von einem Windows Ingeneur. https://anduinos.com/ - Artikel dazu: https://www.pcgameshardware.de/Linux-Software-26761/News/AnduinOS-als-Windows-Distribution-1473786/ 
-- https://www.heise.de/news/Angriff-auf-die-Deutsche-Bahn-Flixtrain-investiert-in-65-neue-Schnellzuege-10405986.html
+- [AndoinOS](https://anduinos.com/) - Windows like Linux distribution, entwickelt von einem Windows Ingeneur. - Artikel dazu: (https://www.pcgameshardware.de/Linux-Software-26761/News/AnduinOS-als-Windows-Distribution-1473786/)[https://www.pcgameshardware.de/Linux-Software-26761/News/AnduinOS-als-Windows-Distribution-1473786/)
+- [Flixtrain kauft Schnellzüge](https://www.heise.de/news/Angriff-auf-die-Deutsche-Bahn-Flixtrain-investiert-in-65-neue-Schnellzuege-10405986.html)
 - [git MCP Exploited](https://simonwillison.net/2025/May/26/github-mcp-exploited/)
-- https://de.wikipedia.org/wiki/Infinite-Monkey-Theorem Affentheorem -> https://libraryofbabel.info/
-- https://www.heise.de/news/Autonomes-Fahren-Lidar-kann-Smartphone-Kameras-schwer-beschaedigen-10395810.html
+- [Affentheorem](https://de.wikipedia.org/wiki/Infinite-Monkey-Theorem Affentheorem) -> [https://libraryofbabel.info/](https://libraryofbabel.info/)
+- [Lidar kann Smartphone Kameras beschädigen](https://www.heise.de/news/Autonomes-Fahren-Lidar-kann-Smartphone-Kameras-schwer-beschaedigen-10395810.html)
 
 
 ## Themen
@@ -65,7 +66,7 @@ https://hackaday.com/2025/05/18/mcp-blender-addon-lets-ai-take-the-wheel-and-wie
 - wireguard zwischen fritzbox und unifi
 - [Banana PI R4](https://wiki.banana-pi.org/Banana_Pi_BPI-R4 )
 - thinkcentre tiny m720(q) oder m910(q) in der Bucht oder bei anderen Händlern.
-- netbird 
+- [netbird](https://netbird.io/)
 
 ## 3D-Druck der Woche
 
@@ -77,21 +78,21 @@ https://hackaday.com/2025/05/18/mcp-blender-addon-lets-ai-take-the-wheel-and-wie
 - [WLED](https://kno.wled.ge/)
 - CCT Correlated Color Temperature
 - WWCW 
-- https://makerworld.com/de/models/1121185-waste-shute-for-p1-x1-chute-and-bins#profileId-1119638
+- [https://makerworld.com/de/models/1121185-waste-shute-for-p1-x1-chute-and-bins#profileId-1119638](https://makerworld.com/de/models/1121185-waste-shute-for-p1-x1-chute-and-bins#profileId-1119638)
 
 ## Mimimi der Woche
  - ipsec
-    * https://ubiquiti-networks-forum.de/board/thread/9753-vpn-zwischen-fritzbox-und-ubiquiti-udm-pro-dream-machine-stand-23-08-2024/
-    * https://burth-online.de/cms/pages/dokumentationen/avm-fritzbox/fritzbox---vpn---konfigurationsdatei.php
+    * [VPN zwischen Fritzbox und Ubiquiti pro dream machine](https://ubiquiti-networks-forum.de/board/thread/9753-vpn-zwischen-fritzbox-und-ubiquiti-udm-pro-dream-machine-stand-23-08-2024/)
+    * [https://burth-online.de/cms/pages/dokumentationen/avm-fritzbox/fritzbox---vpn---konfigurationsdatei.php](https://burth-online.de/cms/pages/dokumentationen/avm-fritzbox/fritzbox---vpn---konfigurationsdatei.php)
 - x13 usb-c stirbt langsam
 - Stromzähler in Deutschland
 - Postresql Updates
 
 ## Lesefoo
-- https://immich.app/cursed-knowledge/
+- [https://immich.app/cursed-knowledge/](https://immich.app/cursed-knowledge/)
 
 ## Picks
-- https://velzie.rip/blog/celeste-wasm
+- [https://velzie.rip/blog/celeste-wasm](https://velzie.rip/blog/celeste-wasm)
 - [L-BOXX Mini]( https://amzn.to/3FmETG1 )
 - [Systainer Mini ;-)](https://amzn.to/3FwkvlQ )
 
