@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Binärgewitter Talk #360: Über sieben Adern musst du geh'n"
+title: "Binärgewitter Talk #360: Über sieben Adern musst du gehn"
 date: 2025-06-02 20:00
 comments: true
 categories: talk
