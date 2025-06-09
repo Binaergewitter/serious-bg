@@ -54,10 +54,10 @@ Die verspätete Vatertagssendung... und das mit Gast und richtigen Themen wie We
     - Felix: 6.19
     - Sebastian: 6.21
 - [Systemd258](https://jit.social/tags/systemd258 )
-- [AndoinOS](https://anduinos.com/) - Windows like Linux distribution, entwickelt von einem Windows Ingeneur. - Artikel dazu: (https://www.pcgameshardware.de/Linux-Software-26761/News/AnduinOS-als-Windows-Distribution-1473786/)[https://www.pcgameshardware.de/Linux-Software-26761/News/AnduinOS-als-Windows-Distribution-1473786/)
+- [AndoinOS](https://anduinos.com/) - Windows like Linux distribution, entwickelt von einem Windows Ingeneur. - Artikel dazu: [pcgameshardware](https://www.pcgameshardware.de/Linux-Software-26761/News/AnduinOS-als-Windows-Distribution-1473786/)
 - [Flixtrain kauft Schnellzüge](https://www.heise.de/news/Angriff-auf-die-Deutsche-Bahn-Flixtrain-investiert-in-65-neue-Schnellzuege-10405986.html)
 - [git MCP Exploited](https://simonwillison.net/2025/May/26/github-mcp-exploited/)
-- [Affentheorem](https://de.wikipedia.org/wiki/Infinite-Monkey-Theorem Affentheorem) -> [https://libraryofbabel.info/](https://libraryofbabel.info/)
+- [Affentheorem](https://de.wikipedia.org/wiki/Infinite-Monkey-Theorem) -> [https://libraryofbabel.info/](https://libraryofbabel.info/)
 - [Lidar kann Smartphone Kameras beschädigen](https://www.heise.de/news/Autonomes-Fahren-Lidar-kann-Smartphone-Kameras-schwer-beschaedigen-10395810.html)
 
 
@@ -71,19 +71,19 @@ Die verspätete Vatertagssendung... und das mit Gast und richtigen Themen wie We
 ## 3D-Druck der Woche
 
 - [Miele hat 3D Druckmodelle]( https://www.thingiverse.com/thing:4239135)
-- Helfende Hand - https://makerworld.com/de/models/1211415-wire-soldering-fixture
+- [Helfende Hand](https://makerworld.com/de/models/1211415-wire-soldering-fixture)
 - 3 - [Wandhalterung für Kabel](https://makerworld.com/de/models/1070478-wall-mount-hanger-holder-storage-rope-padeye#profileId-1060259)
 - [Schablone für Steckdose](https://makerworld.com/de/models/430673-socket-drill-jig#profileId-335198)
 - [Poop Basket]( https://makerworld.com/en/models/201311-sep-1-poop-chute-basket-outlet-for-x1c-p1s-p1p#profileId-221690 )
 - [WLED](https://kno.wled.ge/)
 - CCT Correlated Color Temperature
 - WWCW 
-- [https://makerworld.com/de/models/1121185-waste-shute-for-p1-x1-chute-and-bins#profileId-1119638](https://makerworld.com/de/models/1121185-waste-shute-for-p1-x1-chute-and-bins#profileId-1119638)
+- [Waste Shute for P1/X1 (Chute and Bins)](https://makerworld.com/de/models/1121185-waste-shute-for-p1-x1-chute-and-bins#profileId-1119638)
 
 ## Mimimi der Woche
  - ipsec
     * [VPN zwischen Fritzbox und Ubiquiti pro dream machine](https://ubiquiti-networks-forum.de/board/thread/9753-vpn-zwischen-fritzbox-und-ubiquiti-udm-pro-dream-machine-stand-23-08-2024/)
-    * [https://burth-online.de/cms/pages/dokumentationen/avm-fritzbox/fritzbox---vpn---konfigurationsdatei.php](https://burth-online.de/cms/pages/dokumentationen/avm-fritzbox/fritzbox---vpn---konfigurationsdatei.php)
+    * [Fritz!Box - VPN - Parameter der Konfigurationsdatei](https://burth-online.de/cms/pages/dokumentationen/avm-fritzbox/fritzbox---vpn---konfigurationsdatei.php)
 - x13 usb-c stirbt langsam
 - Stromzähler in Deutschland
 - Postresql Updates
