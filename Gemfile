@@ -8,6 +8,7 @@ gem 'puma'
 
 group :development do
   gem 'rerun'
+  gem 'rackup'
 end
 
 group :test do
