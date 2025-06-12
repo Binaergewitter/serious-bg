@@ -9,7 +9,8 @@ require 'yaml'
 require 'builder'
 require 'ruby_ext'
 require 'net/http'
-require 'json'
+require 'oj'
+Oj.mimic_JSON()
 require 'uri'
 
 puts "CUSTOM"
