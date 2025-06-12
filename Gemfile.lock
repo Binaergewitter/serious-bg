@@ -5,6 +5,7 @@ PATH
       builder (>= 2.1.2)
       commonmarker (>= 1.0.0)
       excon (>= 0.49.0)
+      oj (>= 3.16.11)
       sinatra (>= 1.0.0)
       stupider_formatter (>= 0.3.0)
 
@@ -46,6 +47,10 @@ GEM
     mustermann (3.0.3)
       ruby2_keywords (~> 0.0.1)
     nio4r (2.7.4)
+    oj (3.16.11)
+      bigdecimal (>= 3.0)
+      ostruct (>= 0.2)
+    ostruct (0.6.1)
     power_assert (2.0.5)
     public_suffix (6.0.2)
     puma (6.6.0)
