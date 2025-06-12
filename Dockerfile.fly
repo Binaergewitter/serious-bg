@@ -6,7 +6,7 @@ WORKDIR /src
 ENV LC_ALL=C.UTF-8
 ENV LANG=en_US.UTF-8
 ENV LANGUAGE=en_US.UTF-8
-ENV MALLOC_CONF='dirty_decay_ms:1000,narenas:2,background_thread:true'
+ENV MALLOC_CONF='dirty_decay_ms:0,muzzy_decay_ms:0,narenas:2,background_thread:true,thp:never'
 RUN apt update && \
     apt install -y --no-install-recommends libffi-dev gcc make automake autoconf libtool && \
     rm -rf /var/lib/apt/lists/*
