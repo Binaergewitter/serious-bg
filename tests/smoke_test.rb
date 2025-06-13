@@ -2,7 +2,6 @@ require 'test/unit'
 require "rack/test"
 require 'webmock'
 require 'webmock/test_unit'
-require "httpx/adapters/webmock"
 require "net/http"
 require 'typhoeus'
 

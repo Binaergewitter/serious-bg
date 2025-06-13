@@ -15,7 +15,6 @@ group :test do
   gem 'rack-test'
   gem 'test-unit'
   gem 'webmock'
-  gem 'httpx'
   gem 'feedvalidator'
   gem 'typhoeus'
 end
