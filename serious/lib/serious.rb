@@ -36,17 +36,17 @@ class Background
   end
 
   def self.get_chapters(url)
-    return [] if url.nil?
-  
     chapters = []
+    return chapters if url.nil?
     begin
       uri = URI.parse(url)
       Net::HTTP.start(uri.host, uri.port, use_ssl: uri.scheme == "https", read_timeout: 10, open_timeout: 10) do |http|
         response = http.get(uri.path.empty? ? "/" : uri.path)
         if response.is_a?(Net::HTTPSuccess)
+          chapters << { start: "00:00:00.000", title: "Intro" }
           response.body.dup.force_encoding(Encoding::UTF_8).each_line do |line|
             time, title = line.split(' ', 2)
-            chapters << { start: time, title: title.strip } if time && title
+            chapters << { start: time, title: title.strip.gsub('"', "'") } if time && title
           end
         end
       end
