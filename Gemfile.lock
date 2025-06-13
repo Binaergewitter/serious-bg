@@ -4,7 +4,6 @@ PATH
     serious (0.4.0)
       builder (>= 2.1.2)
       commonmarker (>= 1.0.0)
-      httpx (>= 1.5.1)
       oj (>= 3.16.11)
       sinatra (>= 1.4.7)
       stupider_formatter (>= 0.3.0)
