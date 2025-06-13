@@ -1,6 +1,8 @@
 require 'test/unit'
 require "rack/test"
+require 'webmock'
 require 'webmock/test_unit'
+require "httpx/adapters/webmock"
 require 'feed_validator/assertions'
 
 class FeedTest < Test::Unit::TestCase
