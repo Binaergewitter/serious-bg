@@ -44,7 +44,7 @@ class Background
       Net::HTTP.start(uri.host, uri.port, use_ssl: uri.scheme == "https", read_timeout: 10, open_timeout: 10) do |http|
         response = http.get(uri.path.empty? ? "/" : uri.path)
         if response.is_a?(Net::HTTPSuccess)
-          response.body.force_encoding("UTF-8").each_line do |line|
+          response.body.dup.force_encoding(Encoding::UTF_8).each_line do |line|
             time, title = line.split(' ', 2)
             chapters << { start: time, title: title.strip } if time && title
           end
@@ -53,7 +53,6 @@ class Background
     rescue Timeout::Error, SocketError, StandardError => e
       puts "Error fetching chapters from #{url}: #{e.message}"
       chapters = Array.new
-
     end
   
     chapters
@@ -69,7 +68,7 @@ class Background
         response = http.get(uri)
 
         if response.is_a?(Net::HTTPSuccess)
-          return JSON.parse(response.body.force_encoding('UTF-8'))
+          return JSON.parse(response.body.force_encoding(Encoding::UTF_8))
         else
           puts "Failed to fetch metadata. HTTP Status: #{response.code}"
         end
