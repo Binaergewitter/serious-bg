@@ -15,12 +15,12 @@ Gem::Specification.new do |s|
   s.bindir = 'bin'
   s.executables = ['serious']
 
-  s.add_dependency 'sinatra', ">= 1.0.0"
+  s.add_dependency 'sinatra', '>= 1.4.7'
   s.add_dependency 'stupider_formatter', '>= 0.3.0'
   s.add_dependency 'commonmarker', '>= 1.0.0'
   s.add_dependency 'builder', ">= 2.1.2"
+  s.add_dependency 'excon', '>= 0.49.0'
   s.add_dependency 'oj', '>= 3.16.11'
-  s.add_dependency 'httpx', '>= 1.5.1'
 
   s.add_development_dependency "shoulda", "~> 2.10.3"
   s.add_development_dependency "hpricot", ">= 0.8.0"
