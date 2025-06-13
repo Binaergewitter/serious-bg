@@ -7,51 +7,6 @@ require 'time'
 require 'monitor'
 require 'oj'
 
-# A thread-safe, global metadata cache
-class MetadataCache
-  include MonitorMixin
-
-  def initialize
-    super()
-    @cache = {}
-  end
-
-  def fetch(url)
-    synchronize do
-      return @cache[url] if @cache.key?(url)
-
-      metadata = Background.get_metadata(url)
-      if metadata
-        metadata.delete_if { |key, _| key.to_s.match?(/(txt|json)/) }
-        @cache[url] = metadata
-      end
-      metadata
-    end
-  end
-end
-$metadata_cache ||= MetadataCache.new
-
-class ChapterCache
-  include MonitorMixin
-
-  def initialize
-    super()
-    @cache = {}
-  end
-
-  def fetch(url)
-    synchronize do
-      return @cache[url] if @cache.key?(url)
-
-      chapters = Background.get_chapters(url)
-      @cache[url] = chapters if chapters
-      chapters
-    end
-  end
-end
-$chapter_cache ||= ChapterCache.new
-
-
 class Serious::Article
   # Exception for invalid filenames
   class InvalidFilename < StandardError
