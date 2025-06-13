@@ -29,8 +29,27 @@ class MetadataCache
     end
   end
 end
-
 $metadata_cache ||= MetadataCache.new
+
+class ChapterCache
+  include MonitorMixin
+
+  def initialize
+    super()
+    @cache = {}
+  end
+
+  def fetch(url)
+    synchronize do
+      return @cache[url] if @cache.key?(url)
+
+      chapters = Background.get_chapters(url)
+      @cache[url] = chapters if chapters
+      chapters
+    end
+  end
+end
+$chapter_cache ||= ChapterCache.new
 
 
 class Serious::Article
@@ -204,14 +223,7 @@ class Serious::Article
 
   def chapter
     return @chapter if defined?(@chapter)
-    $chapter_chache ||= {}
-    if $chapter_chache.key?(chapters_url)
-      @chapter = $chapter_chache[chapters_url]
-    else
-      @chapter = Background.get_chapters(chapters_url)
-      $chapter_chache[chapters_url] = @chapter
-    end
-    @chapter
+    @chapter = $chapter_cache.fetch(chapters_url)
   end
 
   def chapter_json
