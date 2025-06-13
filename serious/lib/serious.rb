@@ -9,7 +9,6 @@ require 'yaml'
 require 'builder'
 require 'ruby_ext'
 require 'net/http'
-require 'httpx'
 require 'oj'
 Oj.mimic_JSON()
 require 'uri'
@@ -17,30 +16,46 @@ require 'uri'
 puts "CUSTOM"
 
 class Background
-
   def self.update_is_live
-    res = HTTPX.get("http://stream.radiotux.de:8000/status.xsl", timeout: { read_timeout: 10, connect_timeout: 10 })
-    res.status == 200 && res.to_s.include?("binaergewitter.mp3")
-  rescue HTTPX::TimeoutError, HTTPX::ConnectionError
-    false
+    stream_response = false
+    begin
+      #create connection
+      Net::HTTP.start('stream.radiotux.de', 8000, {read_timeout: 10, open_timeout: 10}) {|http|
+        http.read_timeout = 10
+        http.open_timeout = 10
+        response = http.get('/status.xsl')
+            
+        #get data
+        stream_response = response.body.include? "binaergewitter.mp3"
+      }
+    rescue Exception
+      stream_response = false
+    end
+    
+    stream_response
   end
 
   def self.get_chapters(url)
     return [] if url.nil?
-
+  
     chapters = []
     begin
-      response = HTTPX.get(url, timeout: { connect_timeout: 10, read_timeout: 10 })
-      if response.status == 200
-        response.to_s.force_encoding("UTF-8").each_line do |line|
-          time, title = line.split(" ", 2)
-          chapters << { start: time, title: title.strip } if time && title
+      uri = URI.parse(url)
+      Net::HTTP.start(uri.host, uri.port, use_ssl: uri.scheme == "https", read_timeout: 10, open_timeout: 10) do |http|
+        response = http.get(uri.path.empty? ? "/" : uri.path)
+        if response.is_a?(Net::HTTPSuccess)
+          response.body.force_encoding("UTF-8").each_line do |line|
+            time, title = line.split(' ', 2)
+            chapters << { start: time, title: title.strip } if time && title
+          end
         end
       end
-    rescue HTTPX::Error => e
+    rescue Timeout::Error, SocketError, StandardError => e
       puts "Error fetching chapters from #{url}: #{e.message}"
-    end
+      chapters = Array.new
 
+    end
+  
     chapters
   end
   
@@ -49,21 +64,31 @@ class Background
     return nil if url.nil? || url.strip.empty?
 
     begin
-      res = HTTPX.get(url, timeout: { connect_timeout: 10, read_timeout: 10 })
+      uri = URI.parse(url)
+      Net::HTTP.start(uri.host, uri.port, use_ssl: uri.scheme == "https", read_timeout: 10, open_timeout: 10) do |http|
+        response = http.get(uri)
 
-      if res.status == 200
-        JSON.parse(res.to_s.force_encoding("UTF-8"))
-      else
-        puts "Failed to fetch metadata. HTTP Status: #{res.status}"
-        nil
+        if response.is_a?(Net::HTTPSuccess)
+          return JSON.parse(response.body.force_encoding('UTF-8'))
+        else
+          puts "Failed to fetch metadata. HTTP Status: #{response.code}"
+        end
       end
-    rescue HTTPX::RequestError => e
-      puts "Invalid or failed request to #{url}: #{e.message}"
+    rescue URI::InvalidURIError => e
+      puts "Invalid URL: #{url}"
+      puts e.message
     rescue JSON::ParserError => e
-      puts "Failed to parse JSON from #{url}: #{e.message}"
+      puts "Failed to parse JSON from URL: #{url}"
+      puts e.message
+    rescue Net::OpenTimeout, Net::ReadTimeout => e
+      puts "Timeout error while fetching metadata from URL: #{url}"
+      puts e.message
     rescue StandardError => e
-      puts "Unexpected error fetching metadata from #{url}: #{e.message}"
+      puts "Unexpected error occurred while fetching metadata from URL: #{url}"
+      puts e.message
     end
+
+    nil
   end
 end
 
