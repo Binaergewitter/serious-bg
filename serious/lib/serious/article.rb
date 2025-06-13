@@ -4,6 +4,34 @@
 #
 
 require 'time'
+require 'monitor'
+require 'oj'
+
+# A thread-safe, global metadata cache
+class MetadataCache
+  include MonitorMixin
+
+  def initialize
+    super()
+    @cache = {}
+  end
+
+  def fetch(url)
+    synchronize do
+      return @cache[url] if @cache.key?(url)
+
+      metadata = Background.get_metadata(url)
+      if metadata
+        metadata.delete_if { |key, _| key.to_s.match?(/(txt|json)/) }
+        @cache[url] = metadata
+      end
+      metadata
+    end
+  end
+end
+
+$metadata_cache ||= MetadataCache.new
+
 
 class Serious::Article
   # Exception for invalid filenames
@@ -161,24 +189,11 @@ class Serious::Article
   def podcast_metadata
     return @podcast_metadata if defined?(@podcast_metadata)
 
-    # NOTE(l33tname):
-    # this is a hack maybe we should configure the meta data file
-    # in the same way as we do the chaptermarks and then we could
-    # drop the audioformats
     format_, url = audioformats.first
-    return nil unless url # return nil if no url defined
-    metadata_url = url.sub(".#{format_}", ".json")
+    return nil unless url
 
-    $metadata_json_chache ||= {}
-    if $metadata_json_chache.key?(metadata_url)
-      @podcast_metadata = $metadata_json_chache[metadata_url]
-    else
-      @podcast_metadata = Background.get_metadata(metadata_url)
-      if not @podcast_metadata.nil?
-        @podcast_metadata.delete_if { |key, value| key.to_s.match(/(txt|json)/) }
-        $metadata_json_chache[metadata_url] = @podcast_metadata
-      end
-    end
+    metadata_url = url.sub(".#{format_}", ".json")
+    @podcast_metadata = $metadata_cache.fetch(metadata_url)
 
     @podcast_metadata
   end
@@ -200,21 +215,8 @@ class Serious::Article
   end
 
   def chapter_json
-    if chapter.empty?
-      return '[]'
-    end
-
-    chapters = '['
-    chapters << '{ "start": "00:00:00.000", "title": "Intro" },'
-
-    for mark in chapter do
-        # Note: replace " as it would lead to invalid json otherwise
-        mark[:title].gsub!('"', '\'')
-        chapters << "{ \"start\": \"#{mark[:start]}\", \"title\": \"#{mark[:title]}\"},"
-    end
-    chapters << ']'
-    
-    chapters
+    return '[]' if chapter.empty?
+    Oj.dump(chapter)
   end
 
   # Is the article published? by default it is
