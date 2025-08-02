@@ -21,14 +21,13 @@ voices:
 
 ## Blast from the Past
 
-linkwarden
-https://linuxnews.de/linkwarden-2-11-als-alternative-zu-pocket/
-https://codeberg.org/readeck/readeck
-https://readeck.org/en/
+- [linkwarden](https://linuxnews.de/linkwarden-2-11-als-alternative-zu-pocket/)
+- [readeck/readeck](https://codeberg.org/readeck/readeck)
+  * [readeck.org](https://readeck.org/en/)
 - [MAGLEVs Are Quite Terrible, Actually (video)]( https://youtu.be/3APay0wgYt0?si=JHreOEnHtai0Lb3n )
   - [TGV Tuesday (video)]( https://woem.men/notes/aa7xdw92qymm000w )
 - [inwx]( https://blog.binaergewitter.de/2025/07/09/binaergewitter-talk-number-262-bahnen#isso-2622 )
- - https://www.ud-reselling.com/
+ - [ud-reselling](https://www.ud-reselling.com/)
 
 
 ## Toter der Woche
@@ -53,9 +52,9 @@ https://readeck.org/en/
 ## News
 - [Cursor Syntax Highlighting hack]( https://securelist.com/open-source-package-for-cursor-ai-turned-into-a-crypto-heist/116908/ )
 - [trixie release planning]( https://lists.debian.org/debian-devel-announce/2025/07/msg00003.html )
-  - [Suse Multi-Linux Support]( https://www.suse.com/products/multi-linux-support/ )
-- https://netzpolitik.org/2025/digitale-gemeingueter-eu-unterstuetzt-initiative-fuer-unabhaengigkeit-von-big-tech/
-  - [Microsoft sagt "kann schon passieren", dass Daten aus EU Datenzentren nach US gehen]( https://old.reddit.com/r/BuyFromEU/comments/1m2vv6m/microsofts_lawyer_in_france_confirms_that_their/ )
+  * [Suse Multi-Linux Support]( https://www.suse.com/products/multi-linux-support/ )
+- [EU unterstützt Initiative für Unabhängigkeit von Big Tech](https://netzpolitik.org/2025/digitale-gemeingueter-eu-unterstuetzt-initiative-fuer-unabhaengigkeit-von-big-tech/)
+  * [Microsoft sagt "kann schon passieren", dass Daten aus EU Datenzentren nach US gehen]( https://old.reddit.com/r/BuyFromEU/comments/1m2vv6m/microsofts_lawyer_in_france_confirms_that_their/ )
 - [Teufel-Entwickler: "Es tut nicht weh, den Schaltplan zu veröffentlichen"](https://www.heise.de/hintergrund/Die-Entwickler-des-Open-Source-Lautsprechers-Teufel-Mynd-im-Interview-10490607.html)
 - [German Bitcoin]( https://procial.tchncs.de/notes/aaeavn9abb0709bp )
 - [AUR firefox Pakete mit malware]( https://lists.archlinux.org/archives/list/aur-general@lists.archlinux.org/thread/7EZTJXLIAQLARQNTMEW2HBWZYE626IFJ/ )
@@ -81,8 +80,7 @@ https://readeck.org/en/
 - [An (almost) catastrophic OpenZFS bug](https://despairlabs.com/blog/posts/2025-07-10-an-openzfs-bug-and-the-humans-that-made-it/)
 - [Vibe Coding Casino]( https://evrim.zone/blog/opinion/vibes_casino )
 - [Operese (video)]( https://www.youtube.com/watch?v=PMoXClh8emw )
-- https://www.heimnetz.de/anleitungen/smarthome-management-systeme/home-assistant/home-assistant-aktueller-boersenstrompreis-chart-mit-vorschau/
+- [Home Assistant – Aktueller Börsenstrompreis Chart mit Vorschau]( https://www.heimnetz.de/anleitungen/smarthome-management-systeme/home-assistant/home-assistant-aktueller-boersenstrompreis-chart-mit-vorschau/ )
 
 ## Picks
 - [Interview with Senior DevOps engineer 2025 (video)]( https://www.youtube.com/watch?v=rXPpkzdS-q4 )
-
