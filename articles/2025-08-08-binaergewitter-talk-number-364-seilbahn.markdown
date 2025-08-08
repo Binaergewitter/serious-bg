@@ -6,7 +6,7 @@ comments: true
 categories: talk
 sharing: true
 published: true
-chapters: https://download.binaergewitter.de/2025-08-07.Binaergewitter.Talk.364.mp3.chapters.txt
+chapters: https://download.binaergewitter.de/2025-08-07.Binaergewitter.Talk.364.chapters.txt
 transcript: https://download.binaergewitter.de/2025-08-07.Binaergewitter.Talk.364.mp3-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2025-08-07.Binaergewitter.Talk.364.mp3
