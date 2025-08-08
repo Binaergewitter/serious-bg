@@ -53,8 +53,8 @@ Am Ende diskutieren sie noch KI in Schulen, Sprachrettung per Algorithmus und di
 ## News
 - [chwoot]( https://www.heise.de/news/chwoot-Kritische-Linux-Luecke-macht-Nutzer-auf-den-meisten-Systemen-zu-Root-10466885.html )
 - [Mini NASes sind da]( https://www.jeffgeerling.com/blog/2025/mini-nases-marry-nvme-intels-efficient-chip )
-- https://www.heise.de/news/Vorbereiten-auf-Einschlag-Microsoft-warnt-vor-Secure-Boot-Zertifikat-Update-10461866.html
-- []( https://github.com/nix-community/lanzaboote )
+- [Vorbereiten auf Einschlag: Microsoft warnt vor Secure-Boot-Zertifikat-Update](https://www.heise.de/news/Vorbereiten-auf-Einschlag-Microsoft-warnt-vor-Secure-Boot-Zertifikat-Update-10461866.html)
+- [lanzaboote]( https://github.com/nix-community/lanzaboote )
 - [fwupd]( https://wiki.archlinux.org/title/Fwupd )
 - [railfinder.eu]( https://railfinder.eu )
 
@@ -67,11 +67,11 @@ Am Ende diskutieren sie noch KI in Schulen, Sprachrettung per Algorithmus und di
 ## Mimimi der Woche
 - [Nextcloud external_users ohne Maintainer]( https://apps.nextcloud.com/apps/user_external )
 - [iwantmyname]( https://www.reddit.com/r/newzealand/comments/1jsexy0/iwantmyname_domain_registar_really_went_downhill/ )
-  * hetzner
-  * netcup
-  * hosting.de
-  * https://www.infomaniak.com
-  * https://desec.io/
+  * [hetzner](https://www.hetzner.com/)
+  * [netcup](https://www.netcup.com/en)
+  * [hosting.de](https://www.hosting.de/)
+  * [infomaniak](https://www.infomaniak.com)
+  * [desec.io](https://desec.io/)
 - [USB-C Stecki an x13](https://old.reddit.com/r/thinkpad/comments/1ixwnup/is_the_usbc_on_the_t14_gen_12_really_that_weak/ )
 - E-Scooter Reifenwechsel in deiner Umgebung
 
@@ -92,4 +92,3 @@ Am Ende diskutieren sie noch KI in Schulen, Sprachrettung per Algorithmus und di
 - [GendBuntu]( https://www.reddit.com/r/BuyFromEU/comments/1lfxdsd/france_quietly_deployed_100000_linux_machines_in/ )
 - [deArrow]( https://dearrow.ajay.app/ )
   - [ Internet Comment Etiquette: "Messing with SponsorBlock" ]( https://www.youtube.com/watch?v=aMsJqGyRGrE&t=78s )
-
