@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Binärgewitter Talk #363: Drop-Shipping für Domains"
+title: "Binärgewitter Talk #364: Seilbahn statt Stau"
 date: 2025-08-08 15:00
 comments: true
 categories: talk
