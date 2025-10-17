@@ -29,7 +29,7 @@ In Folge 367 von Binärgewitter Talk gibt’s wieder Tech-Geschichten mit ordent
 
 ## Toter der Woche
 
-- [android auf fireTV sticks](https://www.heise.de/news/Amazon-will-Android-auf-Fire-TV-Sticks-mit-Linux-austauschen-10671422.html)
+- [Android auf FireTV Sticks](https://www.heise.de/news/Amazon-will-Android-auf-Fire-TV-Sticks-mit-Linux-austauschen-10671422.html)
 - [nova launcher for android](https://teslacoilapps.com/nova/solong.html)
 
 ## Untoter der Woche
@@ -81,40 +81,29 @@ spiele museeum
 https://blog.headius.com/2025/09/jruby-jdk25-startup-time-with-aotcache.html
 
 
-
 ## Themen
 
-https://events.ccc.de/2025/09/28/39c3-call-for-participation/
+* [39c3 call for participation]( https://events.ccc.de/2025/09/28/39c3-call-for-participation/ )
+* [Alternativen für US Tech Produkte]( https://www.heise.de/hintergrund/Verbraucher-suchen-Alternativen-zu-US-Tech-Produkten-10626788.html )
 
-evtl. Mehrfarbendruck beim 3D Drucker, es gibt aktuell Bewegung auf dem Markt. 
-- So richtig Mainstream wurde es mit Bambulabs AMS
-- Dualextruder Systeme (Snapmaker ARTISAN, Bambulab H2D)
-- Dualhead Systeme (Snapmaker )
-- Toolchanger (sehr teuer bisher)
-- Snapmaker bringt den U1 (bezahlbarer Multitoolhead Printer) 
-- Bambulab hat das Vortex System geteasert und 
-- Prusa scheint an einer Erweiterung für den Core One mit dem [Index System von Bontech](https://www.bondtech.se/indx-by-bondtech/) zu Arbeiten (welches auch zum nachrüsten im DIY sein soll).
+* [Gruppen im Fediverse]( https://about.fedigroups.social/home )
 
-alternative: https://www.heise.de/hintergrund/Verbraucher-suchen-Alternativen-zu-US-Tech-Produkten-10626788.html
-
-https://about.fedigroups.social/home
-
-- https://www.moergo.com/?srsltid=AfmBOoogSkbECWUfgmGx0INznfDnLIWNsj5UeeILk6GUS9MUuNzizDPx
+- [Smart Ergonomic Keyboard]( https://www.moergo.com/?srsltid=AfmBOoogSkbECWUfgmGx0INznfDnLIWNsj5UeeILk6GUS9MUuNzizDPx)
 - neo layout (https://www.neo-layout.org/)
 
 ## 3D-Druck der Woche
 
-- Gridfinity (war das schonmal?)
+- [Gridfinity]( https://gridfinity.xyz/ )
 
 ## Mimimi der Woche
 
-* nvidia compilation time (2 tage für alle dependencies von openai-whisper
-- Tuxedo Tastatur will nicht immer...
+* nvidia compilation time (2 tage für alle dependencies von openai-whisper)
+* Tuxedo Tastatur will nicht immer...
 
 ## Lesefoo
 
 - [Finding the hidden Risks in the Battery Supply Chain]( https://www.lumafield.com/article/finding-hidden-risks-in-the-battery-supply-chain )
-- https://crackoverflow.com/docs/system_administration/containerization/turn_android_phone_to_batteryless_home_server/
+- [Turn Android Phone into batteryless home server]( https://crackoverflow.com/docs/system_administration/containerization/turn_android_phone_to_batteryless_home_server/ )
 
 ## Picks
 - Tiptoi: https://www.youtube.com/watch?v=RHiALrdMeqc
