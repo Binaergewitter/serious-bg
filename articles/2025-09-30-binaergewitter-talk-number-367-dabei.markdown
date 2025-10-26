@@ -23,9 +23,9 @@ In Folge 367 von Binärgewitter Talk gibt’s wieder Tech-Geschichten mit ordent
 
 ## Blast from the Past
 
-* neues (altes) thinkpad
-** standby tut -> unendlich batterie
-** Nvidia T14 g1 mit i7 und nvidia
+- neues (altes) thinkpad
+  * standby tut -> unendlich batterie
+  * Nvidia T14 g1 mit i7 und nvidia
 
 ## Toter der Woche
 
@@ -39,9 +39,7 @@ In Folge 367 von Binärgewitter Talk gibt’s wieder Tech-Geschichten mit ordent
 - [Warum KI-Modelle haluzinieren](https://openai.com/de-DE/index/why-language-models-hallucinate/)
   * [SABTA: Sicheres Auftreten bei totaler Ahnungslosigkeit]( https://karrierebibel.de/sabta-auftreten-ahnungslosigkeit/ )
 - [KI Gewinnt Programmierwettbewerb IPPC](https://www.golem.de/news/googles-gemini-2-5-ki-schlaegt-erstmals-menschen-im-programmierwettkampf-icpc-2509-200193.html)
-
-    - [Warum KI im Wettbewerb brilliert aber im alltag scheitert](https://www.golem.de/news/keine-echte-konkurrenz-warum-ki-im-wettbewerb-brilliert-aber-im-alltag-scheitert-2509-200449.html )
-
+  * [Warum KI im Wettbewerb brilliert aber im alltag scheitert](https://www.golem.de/news/keine-echte-konkurrenz-warum-ki-im-wettbewerb-brilliert-aber-im-alltag-scheitert-2509-200449.html )
 - [First Malicious MCP in the Wild]( https://www.koi.security/blog/postmark-mcp-npm-malicious-backdoor-email-theft )
 - [AI generated Workslop is destroying productivity]( https://hbr.org/2025/09/ai-generated-workslop-is-destroying-productivity )
 - [Gema vs ChatGPT]( https://www.heise.de/news/Gute-Karten-fuer-die-Gema-im-Streit-mit-ChatGPT-Mutter-OpenAI-10674827.html )
@@ -50,46 +48,34 @@ In Folge 367 von Binärgewitter Talk gibt’s wieder Tech-Geschichten mit ordent
 
 ## News
 
-* https://tarnkappe.info/artikel/szene/deutsche-internetanbieter-sperren-annas-archive-320898.html
-* https://arstechnica.com/security/2025/09/supermicro-server-motherboards-can-be-infected-with-unremovable-malware/
-
-    * [FireTV Exploit]( https://tarnkappe.info/artikel/jailbreaks/fire-tv-exploit-custom-launcher-sind-zurueck-amazons-geraete-erneut-geknackt-321083.html )
-
-* https://www.connect.de/news/whatsapp-signal-empfangsbestaetigungen-sicherheitsluecken-tracking-3210304.html
-
-- https://www.meta-klage.de/ <-
-- https://www.deutschlandfunk.de/amazon-zahlt-2-5-milliarden-dollar-in-rechtsstreit-um-prime-abos-100.html
-
-- IG-Nobelpreis: https://arstechnica.com/science/2025/09/meet-the-2025-ig-nobel-prize-winners/
-
+* [Anna's Archive von deutschen Internetanbietern gesperrt](https://tarnkappe.info/artikel/szene/deutsche-internetanbieter-sperren-annas-archive-320898.html)
+* [Supermicro server motherboards can be infected with unremovable malware]( https://arstechnica.com/security/2025/09/supermicro-server-motherboards-can-be-infected-with-unremovable-malware/ )
+  - [FireTV Exploit]( https://tarnkappe.info/artikel/jailbreaks/fire-tv-exploit-custom-launcher-sind-zurueck-amazons-geraete-erneut-geknackt-321083.html )
+- [WhatsApp und Signal: Messenger-Tracking ohne Spuren](https://www.connect.de/news/whatsapp-signal-empfangsbestaetigungen-sicherheitsluecken-tracking-3210304.html)
+  * [Verbandsklage gegen die illegale Meta-Überwachung](https://www.meta-klage.de/)
+- [Amazon zahlt 2,5 Milliarden Dollar in Rechtsstreit um Prime-Abos](https://www.deutschlandfunk.de/amazon-zahlt-2-5-milliarden-dollar-in-rechtsstreit-um-prime-abos-100.html)
+- [IG-Nobelpreis](https://arstechnica.com/science/2025/09/meet-the-2025-ig-nobel-prize-winners/)
 - Nextcloud Community Conference 
- - https://www.linux-magazin.de/news/nextcloud-hub-25-autumn/#
- -> nächste RadioTux Bald
-https://nextcloud.com/conference-2025
-
-no hybrid or virtual participation this year
-- mehrere Tracks
-- Besucher 340
-- Ios App rewrite, MacOS Client rewrite - faster
+  - [Nextcloud Hub 25 Autumn](https://www.linux-magazin.de/news/nextcloud-hub-25-autumn/#)
+  - nächste RadioTux Bald
+- [Nextcloud Community Conference 2025](https://nextcloud.com/conference-2025)
+  - no hybrid or virtual participation this year
+  - mehrere Tracks
+  - Besucher 340
+  - Ios App rewrite, MacOS Client rewrite - faster
     - drag and drop between 2 open nextcloud apps / ios26
-- 15% less database queries
-- E2E auch im Webinterface möglich - passwort muss eingegeben werden
-
-tipptoi
-spiele museeum
-
-https://blog.headius.com/2025/09/jruby-jdk25-startup-time-with-aotcache.html
-
+  - 15% less database queries
+  - E2E auch im Webinterface möglich - passwort muss eingegeben werden
+- spiele museeum
+- [JRuby and JDK 25: Startup Time with AOTCache]( https://blog.headius.com/2025/09/jruby-jdk25-startup-time-with-aotcache.html )
 
 ## Themen
 
-* [39c3 call for participation]( https://events.ccc.de/2025/09/28/39c3-call-for-participation/ )
-* [Alternativen für US Tech Produkte]( https://www.heise.de/hintergrund/Verbraucher-suchen-Alternativen-zu-US-Tech-Produkten-10626788.html )
-
-* [Gruppen im Fediverse]( https://about.fedigroups.social/home )
-
+- [39c3 call for participation]( https://events.ccc.de/2025/09/28/39c3-call-for-participation/ )
+- [Alternativen für US Tech Produkte]( https://www.heise.de/hintergrund/Verbraucher-suchen-Alternativen-zu-US-Tech-Produkten-10626788.html )
+- [Gruppen im Fediverse]( https://about.fedigroups.social/home )
 - [Smart Ergonomic Keyboard]( https://www.moergo.com/?srsltid=AfmBOoogSkbECWUfgmGx0INznfDnLIWNsj5UeeILk6GUS9MUuNzizDPx)
-- neo layout (https://www.neo-layout.org/)
+- [neo layout](https://www.neo-layout.org/)
 
 ## 3D-Druck der Woche
 
@@ -106,11 +92,12 @@ https://blog.headius.com/2025/09/jruby-jdk25-startup-time-with-aotcache.html
 - [Turn Android Phone into batteryless home server]( https://crackoverflow.com/docs/system_administration/containerization/turn_android_phone_to_batteryless_home_server/ )
 
 ## Picks
-- Tiptoi: https://www.youtube.com/watch?v=RHiALrdMeqc
-- https://digitalcourage.social/@echo_pbreyer/115105978282629717
-- https://bewegung.social/@neuSoM/115111193460568932
-- https://hacktoberfest.com
-- https://www.hackergarten.net/
-- https://www.ocenaudio.com/
-- [SF Parking][https://walzr.com/sf-parking )[Hackernews Article]( https://news.ycombinator.com/item?id=45350690 )
+- [Tiptoi](https://www.youtube.com/watch?v=RHiALrdMeqc)
+- [Stoppt die #Vorratsdatenspeicherung 2.0](https://digitalcourage.social/@echo_pbreyer/115105978282629717)
+- [Bundesweiten Aktionstage Netzpolitik & Demokratie](https://bewegung.social/@neuSoM/115111193460568932)
+- [hacktoberfest](https://hacktoberfest.com)
+- [hackergarten](https://www.hackergarten.net/)
+- [ocenaudio](https://www.ocenaudio.com/)
+- [SF Parking](https://walzr.com/sf-parking)
+  - [Hackernews Article]( https://news.ycombinator.com/item?id=45350690 )
   - [Stuttgart Park Control]( https://www.sueddeutsche.de/wirtschaft/stuttgart-falschparken-scan-autos-test-li.3246986 )
