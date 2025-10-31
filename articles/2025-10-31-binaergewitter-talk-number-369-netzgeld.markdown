@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Binärgewitter Talk #368: Raspi in Öl"
+title: "Binärgewitter Talk #369: Netzgeld"
 date: 2025-10-31 10:00
 comments: true
 categories: talk
@@ -22,8 +22,8 @@ voices:
 ## Blast from the Past
 
 * [Akkudoktor Petition @ Ausschuss](https://www.youtube.com/watch?v=Fz5tB4eQpZc&t=15s)
-* [openems](https://github.com/OpenEMS/openems) – von FENECON  
-* [Akkudoktor EOS](https://github.com/Akkudoktor-EOS/EOS)  
+* [openems](https://github.com/OpenEMS/openems) – von FENECON
+* [Akkudoktor EOS](https://github.com/Akkudoktor-EOS/EOS)
 * [ostrom](https://join.ostrom.de/?referralCode=INGOPGW12E)
 
 ---
