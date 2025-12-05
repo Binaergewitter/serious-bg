@@ -6,10 +6,10 @@ sharing: false
 footer: true
 ---
 ## Live-Sendung
-Binärgewitter Talk läuft ca. alle 2 Wochen. Für aktuelle Infos folgt uns am besten auf [Twitter](https://twitter.com/binaergewitter) oder [Mastodon](https://jit.social/@binaergewitter).
+Binärgewitter Talk läuft ca. alle 2 Wochen. Für aktuelle Infos folgt uns am besten auf [Mastodon](https://jit.social/@binaergewitter).
 Unseren Live-Stream findet ihr unter [http://stream.radiotux.de:8000/binaergewitter.mp3](http://stream.radiotux.de:8000/binaergewitter.mp3). Oder manchmal auch auf [Youtube](https://www.youtube.com/channel/UCYhscZJp8lPa0ccLXCQB_iQ/featured)
 
-Binärgewitter Spezial wird unregelmäßig produziert und ggf. auch live gestreamt. Die Termine werden vorher auch via (https://jit.social/@binaergewitter) und/oder [Twitter](https://twitter.com/binaergewitter) bekannt gegeben.
+Binärgewitter Spezial wird unregelmäßig produziert und ggf. auch live gestreamt. Die Termine werden vorher auch via (https://jit.social/@binaergewitter) bekannt gegeben.
 
 ## Live-Chat
 
