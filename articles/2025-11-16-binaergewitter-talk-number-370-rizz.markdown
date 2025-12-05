@@ -46,7 +46,7 @@ Zum Schluss gibt’s Zukunftsvisionen zu E-Mobilität, Smart Homes und Mini-Wind
 - [AI Darwin Awards]( https://aidarwinawards.org/ )
 * [Securevibes]( https://github.com/anshumanbh/securevibes )
 
-    - [Volkwagen for Unit Tests] (https://github.com/auchenberg/volkswagen)
+    - [Volkwagen for Unit Tests](https://github.com/auchenberg/volkswagen)
 
 - [Where's the Shovelware? Why AI Coding Claims Don't Add Up]( https://mikelovesrobots.substack.com/p/wheres-the-shovelware-why-ai-coding )
 
