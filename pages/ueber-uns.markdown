@@ -26,6 +26,7 @@ Binärgewitter entstand bei [RadioTux](http://blog.radiotux.de/), dem Internetra
 - Jan-Christoph Borchardt ([@jancborchardt](https://twitter.com/jancborchardt))
 - Trolli Schmittlauch ([@schmittlauch](https://twitter.com/schmittlauch))
 - Sebastian Preisner ([@kreativmonkey/mastodon](https://social.niyawe.de/@kreativmonkey) [@kreativmonkey/github](https://github.com/kreativmonkey))
+- Carsten alias NGC-Ollie ([@ngc_ollie](https://mastodon.bayern/@ngc_ollie)) 
   
 ![pfleidi und makefu bei der Podcast Aufnahme](../img/pfleidi_makefu_bei_aufnahme.jpg)
 

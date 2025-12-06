@@ -38,24 +38,18 @@ Zum Schluss gibt’s Zukunftsvisionen zu E-Mobilität, Smart Homes und Mini-Wind
 ## Untoter der Woche
 
 - [Linux-Konsole: Valve kündigt neue Steam Machine an]( https://www.heise.de/news/Linux-Konsole-Valve-kuendigt-neue-Steam-Machine-an-11076221.html )
-  * [Steam Hardware Announcement](https://www.youtube.com/watch?v=OmKrKTwtukE)
-
+  - [Steam Hardware Announcement](https://www.youtube.com/watch?v=OmKrKTwtukE)
 
 ## AI der Woche
 
 - [AI Darwin Awards]( https://aidarwinawards.org/ )
-* [Securevibes]( https://github.com/anshumanbh/securevibes )
-
+- [Securevibes]( https://github.com/anshumanbh/securevibes )
     - [Volkwagen for Unit Tests](https://github.com/auchenberg/volkswagen)
-
 - [Where's the Shovelware? Why AI Coding Claims Don't Add Up]( https://mikelovesrobots.substack.com/p/wheres-the-shovelware-why-ai-coding )
-
 - [Anthropic: AI Espionage]( https://www.anthropic.com/news/disrupting-AI-espionage )
   - [Researchers Question claim]( https://arstechnica.com/security/2025/11/researchers-question-anthropic-claim-that-ai-assisted-attack-was-90-autonomous/ )
-
 - [AI slop attacks on the curl project (video)](https://media.ccc.de/v/froscon2025-3407-ai_slop_attacks_on_the_curl_project)
    - [Blog Post von Daniel Stenberg](https://daniel.haxx.se/blog/2025/08/18/ai-slop-attacks-on-the-curl-project/)
-
 - [AI Song an der Spitze der Charts (in den USA)]( https://www.heise.de/news/Walk-My-Walk-KI-generierter-Song-erstmals-an-Spitze-einer-Billboard-Liste-11073272.html )
   - [Human Music (video)]( https://www.youtube.com/watch?v=JWtC87gdsgo )
 - [Cometjacking attack]( https://www.bleepingcomputer.com/news/security/commetjacking-attack-tricks-comet-browser-into-stealing-emails/ )
@@ -71,7 +65,6 @@ Zum Schluss gibt’s Zukunftsvisionen zu E-Mobilität, Smart Homes und Mini-Wind
   * [FreeBSD now builds reproducibly and without root privilege](https://freebsdfoundation.org/blog/freebsd-now-builds-reproducibly-and-without-root-privilege/)
 - [PS5 Funktionierender User + Kernel Exploit]( https://tarnkappe.info/artikel/jailbreaks/y2jb-funktionierender-ps5-jailbreak-veroeffentlicht-322923.html )
 - [Affinity’s new design platform combines everything into one app]( https://www.theverge.com/news/810251/canva-affinity-design-suite-free-app-relaunch )
-
 - [Ausbruch aus Dockercontainer]( https://www.golem.de/news/sicherheitsluecken-in-runc-angreifer-koennen-aus-docker-containern-ausbrechen-2511-202019.html )
 
 ## Themen
@@ -83,9 +76,9 @@ Zum Schluss gibt’s Zukunftsvisionen zu E-Mobilität, Smart Homes und Mini-Wind
 - [Schuko für PV]( https://www.pv-magazine.de/2025/11/14/schuko-stecker-meistens-ausreichend-vde-veroeffentlicht-produktnorm-fuer-stecker-solar-geraete/ )
 - [Maus: Pumpspeicherwerk]( https://www.wdrmaus.de/extras/mausthemen/wasser/filme/pumpspeicherwerk.php5 )
 - [DLF Forschung Aktuell — Podcast: Wasserstofferzeugung](https://www.deutschlandfunk.de/hydrogen-lab-testfeld-fuer-wasserstofferzeugung-durch-offshore-windenergie-100.html)
-- Wikipedia: (Hochspannungs-Gleichstrom-Übertragung)[https://de.wikipedia.org/wiki/Hochspannungs-Gleichstrom-%C3%9Cbertragung]
-- [Karte Offshore-Windparks in der Deutschen Bucht](https://de.wikipedia.org/wiki/Offshore-Windpark#/media/Datei:Karte_Offshore-Windparks_in_der_Deutschen_Bucht.svg)
-
+- [Wikipedia: Hochspannungs-Gleichstrom-Übertragung](https://de.wikipedia.org/wiki/Hochspannungs-Gleichstrom-%C3%9Cbertragung)
+- [Wikipedia: Karte Offshore-Windparks in der Deutschen Bucht](https://de.wikipedia.org/wiki/Offshore-Windpark#/media/Datei:Karte_Offshore-Windparks_in_der_Deutschen_Bucht.svg)
+- [Wikipedia: Kleinwindkraftanlage](https://de.wikipedia.org/wiki/Windgenerator)
 
 ## 3D-Druck der Woche
 - [I Broke the Sound Barrier with a 3D Printed Rocket! (video)]( https://www.youtube.com/watch?v=HU3YnVzqExA )
@@ -97,7 +90,7 @@ Zum Schluss gibt’s Zukunftsvisionen zu E-Mobilität, Smart Homes und Mini-Wind
 * [Anycubic Slicer Next für Linux nur mit "execute Shellscript from internet"]( https://wiki.anycubic.com/en/software-and-app/anycubic-slicer-next-linux )
   - welches CN schriftzeichen als Meldungen ausgibt
   - die Installationsziele auf Ubuntu Only einschränkt
-  - im endeffekt doch nur eine paket-source einträgt und via apt ein paket installiert
+  - im Endeffekt doch nur eine Paket-Source einträgt und via apt ein Paket installiert
 * [NixOS static ip]( https://discourse.nixos.org/t/static-ip-configuration-on-raspberry-pi-3b/71935 )
 ```
 let
@@ -129,7 +122,7 @@ in
 
 ## Lesefoo
 
-[OpenSource Alternativen zu Cloudflare]( https://teufelswerk.net/open-source-alternativen-zu-cloudflare-datenschutz-sicherheit-digitale-souveraenitaet/ ) 
+- [OpenSource Alternativen zu Cloudflare]( https://teufelswerk.net/open-source-alternativen-zu-cloudflare-datenschutz-sicherheit-digitale-souveraenitaet/ ) 
 
 ## Picks
 
@@ -137,14 +130,10 @@ in
 - [Severance S02]( https://en.wikipedia.org/wiki/Severance_(TV_series)#Season_2_(2025) )
 - [Kittysplit](https://www.kittysplit.com/en)
 - [seized.fyi]( https://seized.fyi/ )
-* Tooling
-
-    https://volta.sh/
-
-    https://github.com/Schniz/fnm
-
-    https://mise.jdx.dev/
-
+- Tooling
+   - https://volta.sh/
+   - https://github.com/Schniz/fnm
+   - https://mise.jdx.dev/
 - [Fwupd 2.0.16 Released]( https://www.phoronix.com/news/Fwupd-2.0.16-Released )
 - [Mit OSS Termine buchen beim Arzt]( https://www.heise.de/hintergrund/Open-Reception-Open-Source-Terminbuchungstool-fuer-Arztpraxen-steht-bald-bereit-11076033.html )
 - [Bahnstationen in 3D-Karte](http://stations.albertguillaumes.cat/)
