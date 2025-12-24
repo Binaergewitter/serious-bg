@@ -25,8 +25,9 @@ In Episode sprechen wir über alles von rheinischem Wetter über lokale Bahnpoli
 
 - [Homebrew Cask "--no-quarantine"]( https://github.com/Homebrew/brew/issues/20755 )
 - [MinIO Open Source ist tot. Das github repo ist jetzt in Maintaince Modus...]( https://github.com/minio/minio) RIP
-  - SeaweedFS
-  - ceph+radis gateway
+  - [SeaweedFS](https://seaweedfs.com/)
+  - ceph+rados gateway
+  - [RustFS]( https://github.com/rustfs/rustfs )
 - [iRobot]( https://news.bloomberglaw.com/bankruptcy-law/robot-vacuum-roomba-maker-files-for-bankruptcy-after-35-years )
   - [valetudo]( https://valetudo.cloud )
   - [bouncing DVD logo]( https://bouncingdvdlogo.com/ )
@@ -62,7 +63,7 @@ In Episode sprechen wir über alles von rheinischem Wetter über lokale Bahnpoli
   - [Hacked via NextJS]( https://blog.jakesaunders.dev/my-server-started-mining-monero-this-morning/ )
 - [Linux Kernel Rust Code]( https://www.phoronix.com/news/First-Linux-Rust-CVE )
 - [Notepad++Update installiert Malware]( https://www.heise.de/news/Notepad-Updater-installierte-Malware-11109571.html )
-- https://linuxnews.de/neues-jolla-phone-im-crowdfunding/
+- [JollaPhone im Crowdfunding](https://linuxnews.de/neues-jolla-phone-im-crowdfunding/)
   - [Loosing access to your AppleID]( https://hey.paris/posts/appleid/ )
   - [Immich]( https://github.com/immich-app/immich/ )
 - [debusine]( https://www.linux-magazin.de/news/debusine-die-ppas-fuer-debian-starten-mit-einer-beta-phase/ )
