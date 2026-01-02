@@ -1,0 +1,14 @@
+<section id="articles">
+    {{ if .IsLive }}
+    {{ template "partials/live" . }}
+    {{ end }}
+
+    {{ range .Recent }}
+    <div>
+        {{ template "partials/article" dict "Article" . "SummaryOnly" true "Config" $.Config }}
+    </div>
+    <hr>
+    {{ end }}
+</section>
+<h3><a href="{{ categoryArchivePath .Category }}">Older posts</a></h3>
+{{ template "partials/archives" .Archived }}

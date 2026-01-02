@@ -1,0 +1,54 @@
+{{ if .AudioFormats }}
+<div class="podcast_player" style="width:100%;">
+    <p>
+    <div id="{{ .Slug }}-player"></div>
+    </p>
+    <script>
+        head.ready('podlove', function () {
+            podlovePlayer('#{{ .Slug }}-player',
+                {
+                    link: window.location.protocol + '//' + window.location.host + '{{ .FullURL }}',
+                    title: '{{ .Title }}',
+                    duration: '{{ duration . "itunes" }}',
+                    poster: '/img/binaergewitter_logo1x1.png',
+                    chapters: {{ chaptersJSON . }},
+            transcripts: '',
+            audio: [
+            {{ range $format, $url:= .AudioFormats }}
+            {
+                url: '{{ $url }}',
+                mimeType: 'audio/{{ $format }}',
+                size: {{ audioSize $ $format }},
+            title: 'Audio {{ $format }}'
+        },
+            {{ end }}
+        ],
+    }, {
+                version: 5,
+                base: '/podlove-web-player/',
+                theme: {
+                    tokens: {
+                        brand: "#7FAF1B",
+                        brandDark: "#202c07",
+                        brandDarkest: "#1B4D3E",
+                        brandLightest: "#7faf1b",
+                        shadeDark: "#807E7C",
+                        shadeBase: "#807E7C",
+                        contrast: "#fff",
+                        alt: "#fff"
+                    }
+                },
+                share: {
+                    channels: [
+                        "linkedin",
+                        "mail",
+                        "link"
+                    ],
+                    outlet: "/share.html",
+                    sharePlaytime: true
+                }
+            });
+  });
+    </script>
+</div>
+{{ end }}

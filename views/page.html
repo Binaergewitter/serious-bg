@@ -1,0 +1,8 @@
+<div class="article">
+    <h2>
+        <a href="{{ .Page.URL }}">{{ .Page.Title }}</a>
+    </h2>
+    <div class="ow-fluid">
+        {{ .Page.Content | safeHTML }}
+    </div>
+</div>

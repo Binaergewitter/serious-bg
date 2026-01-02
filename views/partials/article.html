@@ -1,0 +1,25 @@
+<div class="article">
+    <h2>
+        <a href="{{ .Article.URL }}">{{ .Article.Title }}</a>
+        {{ if not .Article.DateTime.IsZero }}
+        <small class="date">{{ .Article.DateTime | date "02.01.2006" }}</small>
+        {{ end }}
+    </h2>
+    <div class="ow-fluid">
+        {{ if .SummaryOnly }}
+        {{ .Article.Summary }}
+        <div class="metainformatiom">
+            {{ template "partials/podcast_controls" .Article }}
+            {{ if ne (len .Article.Summary) (len .Article.Content) }}
+            <span class="right date"><a href="{{ .Article.URL }}">read on...</a></span>
+            {{ end }}
+        </div>
+        {{ else }}
+        {{ .Article.Content | safeHTML }}
+        {{ template "partials/podcast_controls" .Article }}
+        {{ if .Config.Isso }}
+        {{ template "partials/isso" .Article.Title }}
+        {{ end }}
+        {{ end }}
+    </div>
+</div>

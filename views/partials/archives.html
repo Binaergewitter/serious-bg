@@ -1,0 +1,10 @@
+<ul class="archives">
+    {{ range . }}
+    <li>
+        <a href="{{ .URL }}">{{ .Title }}</a>
+        {{ if not .DateTime.IsZero }}
+        <span class="date">{{ .DateTime | date "02.01.2006" }}</span>
+        {{ end }}
+    </li>
+    {{ end }}
+</ul>

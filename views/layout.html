@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="de" prefix="og: http://ogp.me/ns#">
+<head>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/headjs/1.0.3/head.min.js"></script>
+  <script>
+  head.js(
+    { jquery: '//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js' },
+    { bootstrapCollapse: '//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/collapse.min.js'},
+    { podlove: '/podlove-web-player/embed.js' },
+  )
+    head.load("//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css")
+    head.load("/css/iconfont/style.css")
+    head.load("/css/coderay.css")
+    head.load("//files.stork-search.net/basic.css")
+  </script>
+
+  <link rel="alternate" type="application/atom+xml" title="{{ .Config.Title }}" href="{{ .Config.FeedURL }}" />
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .Article }}{{ .Article.Title }} - {{ end }}{{ .Config.Title }}</title>
+
+  <meta property="og:site_name" content="{{ .Config.Title }}">
+  <meta property="og:url" content="{{ if .Article }}{{ .Article.FullURL | replace "http://" "https://" }}{{ else }}{{ .Config.URL | replace "http://" "https://" }}{{ end }}" />
+  <meta property="og:title" content="{{ if .Article }}{{ .Article.Title }}{{ else }}{{ .Config.Title }}{{ end }} "/>
+  <meta property="og:description" content="{{ if .Article }}{{ .Article.Summary }}{{ else }}{{ .Config.Description }}{{ end }}">
+  <meta property="og:locale" content="de_DE" />
+  <meta property="og:image" content="http://blog.binaergewitter.de/img/binaergewitter_logo_text.png" />
+  <meta property="fb:pages" content="1763347550560569">
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ if .Article }}{{ .Article.Title }}{{ else }}{{ .Config.Title }}{{ end }}">
+  <meta name="twitter:image" content="http://blog.binaergewitter.de/img/binaergewitter_logo_text.png">
+
+  <meta name="description" content="{{ if .Article }}{{ .Article.Summary }}{{ else }}{{ .Config.Description }}{{ end }}">
+
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png" />
+
+  <style>
+    body {
+      background-color: white;
+    }
+
+    a {
+      color: #7FAF1B;
+    }
+
+    a:hover,
+    a:focus {
+      color: #93BF35;
+    }
+
+    .navbar {
+      background-color: #f5f6f6;
+    }
+    .header-name {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+    .header-slug {
+      font-size: 1em;
+      font-weight: 300;
+    }
+    .header-logo {
+      height: 100%;
+    }
+
+    .free-social-icons a {
+      font-size: 29px;
+      text-decoration: none;
+    }
+    /*-------------- grösser in breitem Fenster --------------*/
+    @media only screen and (min-width:1200px) {
+	    body, .form-control {
+		    font-size: 18px;
+	    }
+	    .container {
+		    width: 90%;
+		    max-width: 1360px;
+	    }
+    	h2, .h2 {
+    		font-size: 34px;
+    	}
+    	.panel-title {
+    		font-size: 22px;
+    	}
+    	blockquote {
+    		font-size: 20px;
+    	}
+    }
+    /*-------------- Dark Mode --------------*/
+    @media only screen and (prefers-color-scheme: dark) {
+      /* Body und Panel links oben */
+      body, .panel {
+        color: #E8E8E8;
+        background-color: #151515;
+      }
+      /* Navigation */
+      nav.navbar {
+        background-color: #000000;
+      }
+        .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
+        color: #BDBDBD;
+      }
+        .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+        color: #E5E5E5;
+      }
+      /* Kommentarbereich bei Podcast-Folge: Text-Eingaben */
+      .isso-form-wrapper input, .isso-form-wrapper textarea, .isso-form-wrapper .isso-text {
+        color: #171717;
+      }
+      /* Kommentarbereich bei Podcast-Folge: Kuerzel Autor */
+      #isso-root .isso-author {
+        color: #c1c1c1;
+      }
+      /* Kommentarbereich bei Podcast-Folge: Hintergrund fuer dunkle, transparente Avatar-Bilder */
+      .isso-avatar img {
+        background-color: #E8E8E8;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  {{ template "partials/navigation" . }}
+
+  <div class="container">
+    <div class="row">
+      {{ template "partials/sidebar" . }}
+
+      <div class="col-md-9">
+        <div class="row visible-md visible-lg">
+          <div class="col-md-3">
+            <img class="header-logo" src="/img/binaergewitter_logo.svg" >
+          </div>
+          <div class="col-md-9" style="padding-top:20px">
+            <h1>
+              <span class="header-name">{{ .Config.Title }}</span>
+              <br>
+              <small class="header-slug">Now with more Internet!</small>
+            </h1>
+          </div>
+        </div>
+        <hr>
+        {{ embed }}
+      </div>
+    </div>
+  </div>
+
+  {{ if .Config.GoogleAnalyticsID }}
+  {{ template "partials/google_analytics" . }}
+  {{ end }}
+</body>
+</html>
