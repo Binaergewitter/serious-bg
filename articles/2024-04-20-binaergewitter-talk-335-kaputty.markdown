@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #335: KaPutty"
-date: 2024-04-20 21:00
+date: 2024-04-20 21:00:00
+
 comments: true
 categories: talk
 sharing: true

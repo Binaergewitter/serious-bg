@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Westcoast #2: Irgendjemand muss ja die Eichhörnchen überwachen!"
-date: 2017-04-17 21:00
+date: 2017-04-17 21:00:00
+
 comments: true
 categories: westcoast
 sharing: true

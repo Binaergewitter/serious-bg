@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #65 - Gorillagas"
-date: 2013-08-30 16:00
+date: 2013-08-30 16:00:00
+
 comments: true
 categories: talk
 sharing: true

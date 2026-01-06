@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #176: Nichts zu lachen"
-date: 2017-07-14 18:00
+date: 2017-07-14 18:00:00
+
 comments: true
 categories: talk
 sharing: true

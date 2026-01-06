@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #107: import conference from future"
-date: 2014-10-17 17:00
+date: 2014-10-17 17:00:00
+
 comments: true
 categories: talk
 sharing: true

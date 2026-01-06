@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #206: Das ist ARM"
-date: 2018-07-13 09:00
+date: 2018-07-13 09:00:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #296: Scientifically Restarted"
-date: 2022-05-27 21:00
+date: 2022-05-27 21:00:00
+
 comments: true
 categories: talk
 sharing: true

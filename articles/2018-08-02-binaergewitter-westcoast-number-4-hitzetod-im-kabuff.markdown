@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Westcoast #4: Hitzetod im Kabuff"
-date: 2018-08-02 18:00
+date: 2018-08-02 18:00:00
+
 comments: true
 categories: westcoast
 sharing: true

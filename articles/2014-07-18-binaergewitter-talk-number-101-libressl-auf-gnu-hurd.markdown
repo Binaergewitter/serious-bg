@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #101 - LibreSSL auf GNU Hurd"
-date: 2014-07-11 17:12
+date: 2014-07-11 17:12:00
+
 comments: true
 categories: talk
 sharing: true

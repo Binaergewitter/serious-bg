@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #214: Wegdockern!"
-date: 2018-10-25 20:30
+date: 2018-10-25 20:30:00
+
 comments: true
 categories: talk
 sharing: true

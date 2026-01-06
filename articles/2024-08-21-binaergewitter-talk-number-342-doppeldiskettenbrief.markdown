@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #342: Doppeldiskettenbrief"
-date: 2024-08-21 19:20
+date: 2024-08-21 19:20:00
+
 comments: true
 categories: talk
 sharing: true

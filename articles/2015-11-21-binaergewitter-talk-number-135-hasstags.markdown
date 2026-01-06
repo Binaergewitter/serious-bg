@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #135: Hasstags"
-date: 2015-11-21 10:00
+date: 2015-11-21 10:00:00
+
 comments: true
 categories: talk
 sharing: true

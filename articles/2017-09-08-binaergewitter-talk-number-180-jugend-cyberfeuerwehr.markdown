@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #180: Jugend Cyberfeuerwehr"
-date: 2017-09-08 15:00
+date: 2017-09-08 15:00:00
+
 comments: true
 categories: talk
 sharing: true

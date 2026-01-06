@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #241: Bazel der Mauswanderer"
-date: 2019-10-17 14:00
+date: 2019-10-17 14:00:00
+
 comments: true
 categories: talk
 sharing: true

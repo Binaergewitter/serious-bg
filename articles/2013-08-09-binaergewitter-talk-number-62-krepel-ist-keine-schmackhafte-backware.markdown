@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #62 - Krepel ist keine schmackhafte Backware"
-date: 2013-08-09 13:30
+date: 2013-08-09 13:30:00
+
 comments: true
 categories: talk
 sharing: true

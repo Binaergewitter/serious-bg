@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #282: warten auf IPv8"
-date: 2021-08-20 15:00
+date: 2021-08-20 15:00:00
+
 comments: true
 categories: talk
 sharing: true

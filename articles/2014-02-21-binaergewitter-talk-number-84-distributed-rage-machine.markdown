@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #84 - Distributed Rage Machine"
-date: 2014-02-21 20:00
+date: 2014-02-21 20:00:00
+
 comments: true
 categories: talk
 sharing: true

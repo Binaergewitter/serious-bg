@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Westcoast #3: NAS Selbsthilfegruppe!"
-date: 2017-09-25 17:00
+date: 2017-09-25 17:00:00
+
 comments: true
 categories: westcoast
 sharing: true

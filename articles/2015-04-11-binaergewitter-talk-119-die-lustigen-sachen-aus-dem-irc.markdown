@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #119: die lustigen Sachen aus dem IRC"
-date: 2015-04-11 22:00
+date: 2015-04-11 22:00:00
+
 comments: true
 categories: talk
 sharing: true

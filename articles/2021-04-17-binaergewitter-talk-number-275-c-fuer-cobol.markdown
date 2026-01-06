@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #275: Das C von Cobol steht für Cloud"
-date: 2021-04-18 10:30
+date: 2021-04-18 10:30:00
+
 comments: true
 categories: talk
 sharing: true

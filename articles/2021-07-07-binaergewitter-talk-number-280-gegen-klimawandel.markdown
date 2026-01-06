@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #280: Reproduzierbare Builds gegen den Klimawandel"
-date: 2021-07-08 21:30
+date: 2021-07-08 21:30:00
+
 comments: true
 categories: talk
 sharing: true

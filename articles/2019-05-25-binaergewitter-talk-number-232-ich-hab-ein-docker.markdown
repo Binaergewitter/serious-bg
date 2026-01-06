@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #232: Ich hab ein Docker"
-date: 2019-05-25 10:00
+date: 2019-05-25 10:00:00
+
 comments: true
 categories: talk
 sharing: true

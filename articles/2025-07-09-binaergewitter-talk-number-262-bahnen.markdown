@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #362: Neudeutsche Bahn"
-date: 2025-07-09 16:00
+date: 2025-07-09 16:00:00
+
 comments: true
 categories: talk
 sharing: true

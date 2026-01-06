@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #264: das Python2 von PHP"
-date: 2020-10-29 14:30
+date: 2020-10-29 14:30:00
+
 comments: true
 categories: talk
 sharing: true

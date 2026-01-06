@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #3 - Retrospektive Kohärenz kann durch Indirektion gelöst werden"
-date: 2012-02-16 11:07
+date: 2012-02-16 11:07:00
+
 comments: true
 categories: talk
 sharing: true

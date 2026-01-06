@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #367: Da bist du nicht dabei"
-date: 2025-09-30 18:00
+date: 2025-09-30 18:00:00
+
 comments: true
 categories: talk
 sharing: true

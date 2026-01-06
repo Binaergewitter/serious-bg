@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #138: 33c3 ich bin dabei"
-date: 2015-12-29 13:00
+date: 2015-12-29 13:00:00
+
 comments: true
 categories: talk
 sharing: true

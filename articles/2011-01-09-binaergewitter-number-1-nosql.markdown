@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binaergewitter #1 - NoSQL"
-date: 2011-01-09 09:17
+date: 2011-01-09 09:17:00
+
 comments: true
 categories: spezial
 audioformats:

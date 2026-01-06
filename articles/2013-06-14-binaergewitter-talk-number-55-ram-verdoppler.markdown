@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #55 - RAM Verdoppler"
-date: 2013-06-14 12:45
+date: 2013-06-14 12:45:00
+
 comments: true
 categories: talk
 sharing: true

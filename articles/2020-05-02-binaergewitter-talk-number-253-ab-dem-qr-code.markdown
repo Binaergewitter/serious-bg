@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #253: Ab dem QR Code hört mein Gehirn auf zu funktionieren"
-date: 2020-05-02 12:00
+date: 2020-05-02 12:00:00
+
 comments: true
 categories: talk
 sharing: true

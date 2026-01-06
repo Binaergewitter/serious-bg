@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #150: Cyber-Feuerwehr Notruf 1337"
-date: 2016-06-10 18:00
+date: 2016-06-10 18:00:00
+
 comments: true
 categories: talk
 sharing: true

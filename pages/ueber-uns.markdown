@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Über uns"
+slug: "ueber-uns"
 comments: false
 sharing: false
 footer: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #291: Internet-Romantik"
-date: 2022-02-22 20:00
+date: 2022-02-22 20:00:00
+
 comments: true
 categories: talk
 sharing: true

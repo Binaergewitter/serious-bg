@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #366: 3 Stunden Spaß im Wald"
-date: 2025-09-06 16:00
+date: 2025-09-06 16:00:00
+
 comments: true
 categories: talk
 sharing: true

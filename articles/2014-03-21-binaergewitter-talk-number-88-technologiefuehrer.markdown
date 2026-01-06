@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #88 - Technologieführer"
-date: 2014-03-21 23:00
+date: 2014-03-21 23:00:00
+
 comments: true
 categories: talk
 sharing: true

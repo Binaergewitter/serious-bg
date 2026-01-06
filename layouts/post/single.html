@@ -1,0 +1,23 @@
+{{ define "main" }}
+<article class="post">
+    <header>
+        <h2>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+            <small class="date">{{ .Date.Format .Site.Params.date_format }}</small>
+        </h2>
+    </header>
+
+    <div class="content">
+        {{ .Content }}
+
+        {{ if .Params.audioformats }}
+        {{ partial "podcast_controls.html" . }}
+        {{ end }}
+    </div>
+
+    {{ if .Site.Params.isso }}
+    <hr>
+    {{ partial "isso.html" . }}
+    {{ end }}
+</article>
+{{ end }}

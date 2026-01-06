@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #147: Multi Tschennel Support"
-date: 2016-05-14 22:00
+date: 2016-05-14 22:00:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,45 +1,37 @@
-name: CI
-on: [push]
+name: BG Hugo CI/CD
+on:
+  push:
+    branches:
+      - main
+  pull_request:
 
 jobs:
   test:
     runs-on: ubuntu-latest
+    name: Test Hugo Build
     steps:
       - uses: actions/checkout@v4
-      - uses: ruby/setup-ruby@v1
+      
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
         with:
-          ruby-version: 3.4.4
-          bundler-cache: true
-      - run: bundle install
-      - run: bundle exec rake TESTOPTS=-v
-  build-search:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.x'
-      - run: python gen-stork.py > stork.toml
-      - run: wget https://files.stork-search.net/releases/v1.6.0/stork-ubuntu-22-04
-      - run: chmod +x stork-ubuntu-22-04
-      - run: ./stork-ubuntu-22-04 build --input stork.toml --output bgt.st
-      - name: Deploy to bgt server
-        if: github.ref == 'refs/heads/main'
-        uses: appleboy/scp-action@master
-        with:
-          host: ${{ secrets.DEPLOY_HOST }}
-          port: 2299
-          username: ${{ secrets.DEPLOY_USER }}
-          key: ${{ secrets.DEPLOY_KEY }}
-          overwrite: true  
-          source: "bgt.st"
-          target: "/var/www/search/"
+          hugo-version: '0.154.2'
+          extended: true
+      
+      - name: Build site
+        run: hugo --minify
+      
+      - name: Compress search index
+        run: gzip -k public/index.json
+      
+      - name: Run tests
+        run: node tests/test.js
 
-  deploy-fly:
+  deploy:
     runs-on: ubuntu-latest
-    name: Deploy app to fly
-    if: github.ref == 'refs/heads/main'
-    needs: [test]
+    name: Deploy to Fly.io
+    needs: test
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     steps:
       - uses: actions/checkout@v4
       - uses: superfly/flyctl-actions/setup-flyctl@master

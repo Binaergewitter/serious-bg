@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #314: Influencer zu Heizungsbauer"
-date: 2023-04-21 15:00
+date: 2023-04-21 15:00:00
+
 comments: true
 categories: talk
 sharing: true

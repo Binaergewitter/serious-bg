@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #186: Keine Normale Börse, sondern eine CYBER Börse"
-date: 2017-11-25 11:00
+date: 2017-11-25 11:00:00
+
 comments: true
 categories: talk
 sharing: true

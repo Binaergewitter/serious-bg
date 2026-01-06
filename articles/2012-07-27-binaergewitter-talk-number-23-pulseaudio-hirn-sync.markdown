@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #23 - Pulseaudio-Hirn-Sync"
-date: 2012-07-27 18:30
+date: 2012-07-27 18:30:00
+
 comments: true
 categories: talk
 sharing: true

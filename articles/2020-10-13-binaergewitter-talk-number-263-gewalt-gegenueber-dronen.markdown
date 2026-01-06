@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #263: Gewalt gegenüber Dronen"
-date: 2020-10-14 10:30
+date: 2020-10-14 10:30:00
+
 comments: true
 categories: talk
 sharing: true

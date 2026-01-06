@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #39 - Fies-ability"
-date: 2013-02-01 12:30
+date: 2013-02-01 12:30:00
+
 comments: true
 categories: talk
 sharing: true

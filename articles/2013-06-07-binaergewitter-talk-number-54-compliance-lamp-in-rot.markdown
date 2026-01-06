@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #54 - Compliance Lampe in Rot"
-date: 2013-06-07 09:45
+date: 2013-06-07 09:45:00
+
 comments: true
 categories: talk
 sharing: true

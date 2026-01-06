@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #63 - keiner mag die Esos"
-date: 2013-08-16 08:30
+date: 2013-08-16 08:30:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #190: Windy"
-date: 2018-01-19 14:00
+date: 2018-01-19 14:00:00
+
 comments: true
 categories: talk
 sharing: true

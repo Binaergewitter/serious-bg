@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #292: USB Autobatterie"
-date: 2022-03-07 20:00
+date: 2022-03-07 20:00:00
+
 comments: true
 categories: talk
 sharing: true

@@ -2,6 +2,7 @@
 layout: post
 title: "Binärgewitter Talk #194: langsam ist sicher, aber nicht immer gut"
 date: 2018-03-09
+
 comments: true
 categories: talk
 sharing: true

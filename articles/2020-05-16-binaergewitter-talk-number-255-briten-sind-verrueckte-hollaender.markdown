@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #255: Briten sind verrückte Holländer?"
-date: 2020-05-16 10:00
+date: 2020-05-16 10:00:00
+
 comments: true
 categories: talk
 sharing: true

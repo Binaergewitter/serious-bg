@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #165: IP mit Skimaske maskiert"
-date: 2017-02-04 11:00
+date: 2017-02-04 11:00:00
+
 comments: true
 categories: talk
 sharing: true

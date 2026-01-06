@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #359: Linux subsystem for linux"
-date: 2025-05-20 10:00
+date: 2025-05-20 10:00:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #230: Hut ohne Pimp"
-date: 2019-05-10 10:00
+date: 2019-05-10 10:00:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #196: Der Oracle Mann kommt"
-date: 2018-03-29 15:00
+date: 2018-03-29 15:00:00
+
 comments: true
 categories: talk
 sharing: true

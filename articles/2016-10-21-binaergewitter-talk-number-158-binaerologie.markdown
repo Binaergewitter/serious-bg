@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #158: Binärologie"
-date: 2016-10-21 12:30
+date: 2016-10-21 12:30:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Erste Binaergewitter-Talk Sendung am Mittwoch"
-date: 2012-01-23 21:54
+date: 2012-01-23 21:54:00
+
 comments: true
 categories: talk
 ---

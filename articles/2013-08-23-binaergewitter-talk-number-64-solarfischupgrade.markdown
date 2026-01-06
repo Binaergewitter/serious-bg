@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #64 - Solarfischupgrade"
-date: 2013-08-23 12:00
+date: 2013-08-23 12:00:00
+
 comments: true
 categories: talk
 sharing: true

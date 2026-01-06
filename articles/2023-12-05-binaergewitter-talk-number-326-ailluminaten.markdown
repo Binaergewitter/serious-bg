@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #326: AI-lluminaten"
-date: 2023-12-05 20:00
+date: 2023-12-05 20:00:00
+
 comments: true
 categories: talk
 sharing: true

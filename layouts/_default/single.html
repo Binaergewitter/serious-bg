@@ -1,0 +1,16 @@
+{{ define "main" }}
+<article class="post">
+    <header>
+        <h1>{{ .Title }}</h1>
+    </header>
+
+    <div class="content">
+        {{ .Content }}
+    </div>
+
+    {{ if .Site.Params.isso }}
+    <hr>
+    {{ partial "isso.html" . }}
+    {{ end }}
+</article>
+{{ end }}

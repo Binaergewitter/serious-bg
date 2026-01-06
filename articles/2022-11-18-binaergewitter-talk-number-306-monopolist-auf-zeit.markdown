@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #306: Monopolist auf Zeit"
-date: 2022-11-18 14:00
+date: 2022-11-18 14:00:00
+
 comments: true
 categories: talk
 sharing: true

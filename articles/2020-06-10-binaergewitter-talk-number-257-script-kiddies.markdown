@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #257: Wir sind auch zu script kiddies geworden"
-date: 2020-06-10 14:00
+date: 2020-06-10 14:00:00
+
 comments: true
 categories: talk
 sharing: true

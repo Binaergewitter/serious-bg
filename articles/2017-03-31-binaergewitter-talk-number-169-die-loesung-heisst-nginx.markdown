@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #169: die Lösung heißt Nginx"
-date: 2017-03-31 22:00
+date: 2017-03-31 22:00:00
+
 comments: true
 categories: talk
 sharing: true

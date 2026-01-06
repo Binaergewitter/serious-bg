@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #370: Ein Skibidi Rizz"
-date: 2025-11-16 10:00
+date: 2025-11-16 10:00:00
+
 comments: true
 categories: talk
 sharing: true

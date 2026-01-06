@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #262: Teilzeitverschlüsselt"
-date: 2020-09-23 16:30
+date: 2020-09-23 16:30:00
+
 comments: true
 categories: talk
 sharing: true

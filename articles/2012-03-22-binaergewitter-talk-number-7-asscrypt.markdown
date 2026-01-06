@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #7 - Asscrypt!"
-date: 2012-03-22 14:07
+date: 2012-03-22 14:07:00
+
 comments: true
 categories: talk
 sharing: true

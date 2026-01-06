@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #212: PODcast"
-date: 2018-10-05 11:00
+date: 2018-10-05 11:00:00
+
 comments: true
 categories: talk
 sharing: true

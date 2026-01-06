@@ -1,0 +1,23 @@
+{{/* Generate podcast feed pages for all category/codec combinations */}}
+{{ $categories := slice "all" "talk" "spezial" "westcoast" }}
+{{ $codecs := slice "mp3" "ogg" "opus" "m4a" }}
+
+{{ range $cat := $categories }}
+  {{ range $codec := $codecs }}
+    {{ $path := printf "%s/%s" $cat $codec }}
+    {{ $title := printf "%s %s Feed" (title $cat) (upper $codec) }}
+    {{ $categoryName := cond (eq $cat "all") "" $cat }}
+    
+    {{ $.AddPage (dict
+      "kind" "page"
+      "path" $path
+      "title" $title
+      "params" (dict
+        "codec" $codec
+        "category_name" $categoryName
+      )
+      "layout" "podcast_feed"
+      "outputs" (slice "RSS")
+    ) }}
+  {{ end }}
+{{ end }}

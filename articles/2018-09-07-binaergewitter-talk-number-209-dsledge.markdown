@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #209: DSLedge"
-date: 2018-09-07 14:00
+date: 2018-09-07 14:00:00
+
 comments: true
 categories: talk
 sharing: true

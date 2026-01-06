@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter #3: Arbeiten und Lernen im Hackerspace"
-date: 2011-08-24 15:57
+date: 2011-08-24 15:57:00
+
 comments: true
 categories: spezial
 audioformats:

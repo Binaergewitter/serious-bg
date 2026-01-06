@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #74 - Spit to unlock"
-date: 2013-11-15 12:00
+date: 2013-11-15 12:00:00
+
 comments: true
 categories: talk
 sharing: true

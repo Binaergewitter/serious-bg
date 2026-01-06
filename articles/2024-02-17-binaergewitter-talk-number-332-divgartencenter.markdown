@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #332: Der kleine Felix möchte gerne aus dem Div Center abgeholt werden"
-date: 2024-02-17 20:00
+date: 2024-02-17 20:00:00
+
 comments: true
 categories: talk
 sharing: true

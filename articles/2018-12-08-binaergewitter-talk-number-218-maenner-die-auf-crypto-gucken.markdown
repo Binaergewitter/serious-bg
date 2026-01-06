@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #218: Männer die auf Crypto gucken"
-date: 2018-12-08 16:30
+date: 2018-12-08 16:30:00
+
 comments: true
 categories: talk
 sharing: true

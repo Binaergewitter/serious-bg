@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #106: GeteBayTime"
-date: 2014-10-10 12:00
+date: 2014-10-10 12:00:00
+
 comments: true
 categories: talk
 sharing: true

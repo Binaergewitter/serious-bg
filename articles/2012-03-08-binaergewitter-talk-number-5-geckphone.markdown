@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #5 - Geckphone!"
-date: 2012-03-08 11:07
+date: 2012-03-08 11:07:00
+
 comments: true
 categories: talk
 sharing: true

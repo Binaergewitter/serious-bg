@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #303: Pyrolyse im Geschirrspüler"
-date: 2022-10-04 20:00
+date: 2022-10-04 20:00:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #308: Chapter-Markus"
-date: 2022-12-20 12:00
+date: 2022-12-20 12:00:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #338: neu in eurem apt store"
-date: 2024-06-12 22:00
+date: 2024-06-12 22:00:00
+
 comments: true
 categories: talk
 sharing: true

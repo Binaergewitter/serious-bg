@@ -2,6 +2,7 @@
 layout: post
 title: "Binärgewitter Talk #143: vim-exit-game"
 date: 2016-03-18
+
 comments: true
 categories: talk
 sharing: true

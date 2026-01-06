@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #183: Endzeit Panflöte"
-date: 2017-10-18 20:00
+date: 2017-10-18 20:00:00
+
 comments: true
 categories: talk
 sharing: true

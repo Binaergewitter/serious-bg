@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #120: NavyICQ"
-date: 2015-05-08 09:00
+date: 2015-05-08 09:00:00
+
 comments: true
 categories: talk
 sharing: true

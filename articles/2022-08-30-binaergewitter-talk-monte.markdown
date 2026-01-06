@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #301: Monte klingt wie so ein Joghurt"
-date: 2022-08-30 19:00
+date: 2022-08-30 19:00:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #157: Unendliche Weiten"
-date: 2016-09-10 12:30
+date: 2016-09-10 12:30:00
+
 comments: true
 categories: talk
 sharing: true

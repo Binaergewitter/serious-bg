@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #215: Macht bessere Fehler"
-date: 2018-11-11 12:30
+date: 2018-11-11 12:30:00
+
 comments: true
 categories: talk
 sharing: true

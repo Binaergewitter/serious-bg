@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #246: Geld abköpfen"
-date: 2020-01-17 10:00
+date: 2020-01-17 10:00:00
+
 comments: true
 categories: talk
 sharing: true

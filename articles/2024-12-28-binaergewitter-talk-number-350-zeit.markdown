@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #350: Wir haben doch keine Zeit"
-date: 2024-12-28 22:40
+date: 2024-12-28 22:40:00
+
 comments: true
 categories: talk
 sharing: true

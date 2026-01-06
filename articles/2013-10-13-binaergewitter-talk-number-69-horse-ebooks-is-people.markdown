@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #69 - Horse_ebooks is people!"
-date: 2013-10-13 18:00
+date: 2013-10-13 18:00:00
+
 comments: true
 categories: talk
 sharing: true

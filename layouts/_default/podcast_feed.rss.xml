@@ -1,0 +1,134 @@
+{{- printf `<?xml version="1.0" encoding="utf-8" standalone="yes"?>` | safeHTML }}
+<rss version="2.0" 
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" 
+     xmlns:atom="http://www.w3.org/2005/Atom" 
+     xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+     xmlns:media="http://search.yahoo.com/mrss/" 
+     xmlns:podcast="https://podcastindex.org/namespace/1.0"
+     xmlns:psc="http://podlove.org/simple-chapters">
+  <channel>
+    <title>{{ .Site.Title }} - {{ .Title }}</title>
+    <link>{{ .Permalink | absURL }}</link>
+    <description>{{ .Site.Params.description }}</description>
+    {{ with .Site.LanguageCode }}<language>{{ . }}</language>{{ end }}
+    <copyright>Creative Commons BY-SA 3.0 DE</copyright>
+    <lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
+    <atom:link href="{{ .Permalink | absURL }}" rel="self" type="application/rss+xml" />
+    
+    <itunes:author>{{ .Site.Params.author }}</itunes:author>
+    <itunes:subtitle>Web, Technologie und OpenSource Software</itunes:subtitle>
+    <itunes:summary>{{ .Site.Params.description }}</itunes:summary>
+    <itunes:keywords>technology, gadgets, web, opensource, krepel</itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="{{ "img/binaergewitter_logo_1400x1400.png" | absURL }}" />
+    <itunes:category text="Technology" />
+    <itunes:owner>
+      <itunes:name>Binärgewitter Crew</itunes:name>
+      <itunes:email>info@binaergewitter.de</itunes:email>
+    </itunes:owner>
+
+    {{ $codec := .Params.codec | default "mp3" }}
+    {{ $category := .Params.category_name }}
+    
+    {{ $pages := where .Site.RegularPages "Section" "post" }}
+    {{ if $category }}
+      {{ $pages = where $pages "Params.categories" "==" $category }}
+    {{ end }}
+
+    {{ range first 50 $pages }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink | absURL }}</link>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      <guid isPermaLink="{{ if .Params.release }}false{{ else }}true{{ end }}">{{ .Permalink | absURL }}{{ with .Params.release }}-{{ . }}{{ end }}</guid>
+      <description>{{ .Summary | html }}</description>
+      <content:encoded>{{ .Content | html }}</content:encoded>
+      
+      <itunes:author>{{ $.Site.Params.author }}</itunes:author>
+      <itunes:summary>{{ .Summary | plainify | html }}</itunes:summary>
+      
+      {{ $audioFormats := .Params.audioformats }}
+      {{ if $audioFormats }}
+        {{ $targetCodec := $codec }}
+        {{ $url := index $audioFormats $targetCodec }}
+        {{ if not $url }}
+            {{/* Fallback to mp3 if requested codec not found */}}
+            {{ $url = index $audioFormats "mp3" }}
+            {{ $targetCodec = "mp3" }}
+        {{ end }}
+        
+        {{ if $url }}
+            {{/* Fetch metadata and use the format's own codec naming */}}
+            {{ $metaUrl := $url }}
+            {{ range slice "mp3" "ogg" "opus" "m4a" }}
+              {{ $metaUrl = replace $metaUrl (printf ".%s" .) ".json" }}
+            {{ end }}
+            {{ $meta := "" }}
+            {{ if (hasPrefix $metaUrl "http") }}
+              {{ with resources.GetRemote $metaUrl }}
+                {{ if .Content }}
+                  {{ $meta = .Content | transform.Unmarshal }}
+                {{ end }}
+              {{ end }}
+            {{ end }}
+            
+            {{ $duration := "00:00:00" }}
+            {{ $size := 0 }}
+            {{ if $meta }}
+              {{ if reflect.IsMap $meta }}
+                {{ with index $meta "length_timestring" }}
+                  {{ $duration = index (split . ".") 0 }}
+                {{ end }}
+                {{ range index $meta "output_files" }}
+                  {{ if eq (index . "ending") $targetCodec }}
+                    {{ $size = index . "size" }}
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+            {{ end }}
+
+            <enclosure url="{{ $url }}" length="{{ $size }}" type="audio/{{ $targetCodec }}" />
+            <itunes:duration>{{ $duration }}</itunes:duration>
+
+            {{ $chaptersUrl := .Params.chapters }}
+            {{ if not $chaptersUrl }}
+              {{ $chaptersUrl = $url }}
+              {{ range slice "mp3" "ogg" "opus" "m4a" }}
+                {{ $chaptersUrl = replace $chaptersUrl (printf ".%s" .) ".chapters.txt" }}
+              {{ end }}
+            {{ end }}
+            {{ $chaptersRaw := "" }}
+            {{ if (hasPrefix $chaptersUrl "http") }}
+              {{ with resources.GetRemote $chaptersUrl }}
+                {{ if .Content }}
+                  {{ $chaptersRaw = .Content }}
+                {{ end }}
+              {{ end }}
+            {{ end }}
+
+            {{ if $chaptersRaw }}
+              <psc:chapters version="1.2">
+                {{ $lines := split $chaptersRaw "\n" }}
+                {{ range $lines }}
+                  {{ $line := trim . " \r" }}
+                  {{ if $line }}
+                    {{ $parts := split $line " " }}
+                    {{ if ge (len $parts) 2 }}
+                      <psc:chapter start="{{ index $parts 0 }}" title="{{ delimit (after 1 $parts) " " | html }}" />
+                    {{ end }}
+                  {{ end }}
+                {{ end }}
+              </psc:chapters>
+            {{ end }}
+        {{ end }}
+      {{ end }}
+
+      {{ range $name, $val := .Params.voices }}
+        {{ if $val }}
+          <podcast:person>{{ $name }}</podcast:person>
+        {{ end }}
+      {{ end }}
+    </item>
+    {{ end }}
+  </channel>
+</rss>

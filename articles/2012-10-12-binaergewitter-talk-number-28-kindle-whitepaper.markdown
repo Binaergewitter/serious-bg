@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #28 - Kindle Whitepaper"
-date: 2012-10-12 11:30
+date: 2012-10-12 11:30:00
+
 comments: true
 categories: talk
 sharing: true

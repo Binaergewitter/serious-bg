@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #369: Netzgeld"
-date: 2025-10-31 10:00
+date: 2025-10-31 10:00:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #219: Live vom 35C3"
-date: 2018-12-29 18:00
+date: 2018-12-29 18:00:00
+
 comments: true
 categories: talk
 sharing: true

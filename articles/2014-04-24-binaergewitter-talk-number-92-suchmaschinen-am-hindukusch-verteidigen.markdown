@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #92 - Suchmaschinen am Hindukusch verteidigen"
-date: 2014-04-25 09:00
+date: 2014-04-25 09:00:00
+
 comments: true
 categories: talk
 sharing: true

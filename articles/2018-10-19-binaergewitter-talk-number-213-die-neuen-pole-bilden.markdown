@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #213: die neuen Pole bilden"
-date: 2018-10-19 20:00
+date: 2018-10-19 20:00:00
+
 comments: true
 categories: talk
 sharing: true

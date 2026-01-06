@@ -1,6 +1,0 @@
-title: Merry Christmas! ☃
-author: Christoph Olszowka
-
-Merry christmas, dear reader! ☃
-~
-This ain't rails, yet it has ☃!

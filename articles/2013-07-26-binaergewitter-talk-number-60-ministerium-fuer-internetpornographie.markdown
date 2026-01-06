@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #60 - Ministerium für Internetpornographie"
-date: 2013-07-26 09:30
+date: 2013-07-26 09:30:00
+
 comments: true
 categories: talk
 sharing: true

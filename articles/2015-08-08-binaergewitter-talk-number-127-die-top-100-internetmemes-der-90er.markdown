@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #127: Die Top 100 Internetmemes der 90er"
-date: 2015-08-08 20:00
+date: 2015-08-08 20:00:00
+
 comments: true
 categories: talk
 sharing: true

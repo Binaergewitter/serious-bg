@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #200: Lüg-OS"
-date: 2018-05-03 12:00
+date: 2018-05-03 12:00:00
+
 comments: true
 categories: talk
 sharing: true

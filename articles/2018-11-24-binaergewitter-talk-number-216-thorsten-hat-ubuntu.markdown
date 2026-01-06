@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #216: Thorsten hat Ubuntu"
-date: 2018-11-24 12:30
+date: 2018-11-24 12:30:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #226: bastelt schöne Filter"
-date: 2019-03-23 10:00
+date: 2019-03-23 10:00:00
+
 comments: true
 categories: talk
 sharing: true

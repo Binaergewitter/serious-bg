@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #252: Kannste so sagen, ist dann aber falsch"
-date: 2020-04-18 18:00
+date: 2020-04-18 18:00:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #371: Bei Stromausfall zerfallen Atome nicht"
-date: 2025-12-23 20:00
+date: 2025-12-23 20:00:00
+
 comments: true
 categories: talk
 sharing: true

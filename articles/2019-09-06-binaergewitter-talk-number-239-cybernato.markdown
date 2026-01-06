@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #239: CyberNATO"
-date: 2019-09-06 22:00
+date: 2019-09-06 22:00:00
+
 comments: true
 categories: talk
 sharing: true

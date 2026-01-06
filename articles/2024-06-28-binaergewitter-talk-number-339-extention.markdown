@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #339: Extention Blast"
-date: 2024-06-28 20:00
+date: 2024-06-28 20:00:00
+
 comments: true
 categories: talk
 sharing: true
