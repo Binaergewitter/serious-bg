@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #58 - Schöpfungshöhe nicht erreicht"
-date: 2013-07-12 10:45
+date: 2013-07-12 10:45:00
+
 comments: true
 categories: talk
 sharing: true

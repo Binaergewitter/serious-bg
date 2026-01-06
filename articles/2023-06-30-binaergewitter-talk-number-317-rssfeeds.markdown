@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #317: Virenschutz für deine RSS Feeds"
-date: 2023-06-30 15:00
+date: 2023-06-30 15:00:00
+
 comments: true
 categories: talk
 sharing: true

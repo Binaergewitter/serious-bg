@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Spezial #7: NixOS"
-date: 2017-09-24 16:00
+date: 2017-09-24 16:00:00
+
 comments: true
 categories: spezial
 sharing: true

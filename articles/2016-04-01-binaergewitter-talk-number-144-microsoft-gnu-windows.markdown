@@ -2,6 +2,7 @@
 layout: post
 title: "Binärgewitter Talk #144: Microsoft GNU/Windows"
 date: 2016-04-01
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #198: Herduhragentur"
-date: 2018-04-11 12:00
+date: 2018-04-11 12:00:00
+
 comments: true
 categories: talk
 sharing: true

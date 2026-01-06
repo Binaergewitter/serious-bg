@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #85 - Compiles to Youtube"
-date: 2014-02-28 20:00
+date: 2014-02-28 20:00:00
+
 comments: true
 categories: talk
 sharing: true

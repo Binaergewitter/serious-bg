@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #33 - Das Springer Sparabo"
-date: 2012-11-23 14:00
+date: 2012-11-23 14:00:00
+
 comments: true
 categories: talk
 sharing: true

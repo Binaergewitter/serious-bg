@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #278: Where in the World is John Mcafee"
-date: 2021-06-08 16:30
+date: 2021-06-08 16:30:00
+
 comments: true
 categories: talk
 sharing: true

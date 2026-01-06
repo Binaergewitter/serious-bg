@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #161: Die Vorfreude streikt"
-date: 2016-12-02 12:30
+date: 2016-12-02 12:30:00
+
 comments: true
 release: 2
 categories: talk

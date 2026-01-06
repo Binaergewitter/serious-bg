@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #154: Dotcom macht mit sich selbst ein Kind und es ist großartig"
-date: 2016-08-11 12:30
+date: 2016-08-11 12:30:00
+
 comments: true
 categories: talk
 sharing: true

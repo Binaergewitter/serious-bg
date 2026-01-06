@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #86 - Frei-Abhörminuten"
-date: 2014-03-07 12:00
+date: 2014-03-07 12:00:00
+
 comments: true
 categories: talk
 sharing: true

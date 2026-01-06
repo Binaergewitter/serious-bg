@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #24 - Google Balls"
-date: 2012-08-26 21:19
+date: 2012-08-26 21:19:00
+
 comments: true
 categories: talk
 sharing: true

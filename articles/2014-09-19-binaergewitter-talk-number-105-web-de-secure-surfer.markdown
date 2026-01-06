@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #105: web.de secure surfer"
-date: 2014-09-19 19:00
+date: 2014-09-19 19:00:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #78 - Das Jahr von Btrfs auf dem Desktop"
-date: 2013-12-20 11:00
+date: 2013-12-20 11:00:00
+
 comments: true
 categories: talk
 sharing: true

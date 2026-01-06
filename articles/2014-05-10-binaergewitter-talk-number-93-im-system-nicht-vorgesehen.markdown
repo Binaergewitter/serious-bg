@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #93 - Im System nicht vorgesehen"
-date: 2014-05-10 09:00
+date: 2014-05-10 09:00:00
+
 comments: true
 categories: talk
 sharing: true

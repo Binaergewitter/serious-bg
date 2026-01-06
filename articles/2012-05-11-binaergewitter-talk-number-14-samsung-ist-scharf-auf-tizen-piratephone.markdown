@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #14 - Samsung ist scharf auf Tizen Piratephone"
-date: 2012-05-11 12:30
+date: 2012-05-11 12:30:00
+
 comments: true
 categories: talk
 sharing: true

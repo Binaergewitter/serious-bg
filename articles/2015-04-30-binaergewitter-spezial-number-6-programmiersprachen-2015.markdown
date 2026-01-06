@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Spezial #6: Programmiersprachen 2015"
-date: 2015-04-30 21:00
+date: 2015-04-30 21:00:00
+
 comments: true
 categories: spezial
 sharing: true

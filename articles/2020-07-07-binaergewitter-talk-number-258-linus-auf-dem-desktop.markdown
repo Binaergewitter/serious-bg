@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #258: Linus auf dem Desktop"
-date: 2020-07-07 06:30
+date: 2020-07-07 06:30:00
+
 comments: true
 categories: talk
 sharing: true

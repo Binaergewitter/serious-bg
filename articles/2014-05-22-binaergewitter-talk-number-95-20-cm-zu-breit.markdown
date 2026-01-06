@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #95 - 20cm zu breit"
-date: 2014-05-23 11:00
+date: 2014-05-23 11:00:00
+
 comments: true
 categories: talk
 sharing: true

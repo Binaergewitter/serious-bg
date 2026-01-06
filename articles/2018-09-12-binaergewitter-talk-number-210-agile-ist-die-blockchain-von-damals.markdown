@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #210: agile ist die Blockchain von damals"
-date: 2018-09-13 14:00
+date: 2018-09-13 14:00:00
+
 comments: true
 categories: talk
 sharing: true

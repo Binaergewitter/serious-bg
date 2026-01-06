@@ -1,0 +1,21 @@
+<article class="post">
+    <header>
+        <h2>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+            <small class="date">{{ .Date.Format .Site.Params.date_format }}</small>
+        </h2>
+    </header>
+
+    <div class="content">
+        {{ .Summary }}
+
+        {{ if .Truncated }}
+        <p><a href="{{ .Permalink }}">Weiterlesen...</a></p>
+        {{ end }}
+
+        {{ if .Params.audioformats }}
+        {{ partial "podcast_controls.html" . }}
+        {{ end }}
+    </div>
+</article>
+<hr>

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #112: Microsoft Internet-Spaten"
-date: 2015-01-16 14:00
+date: 2015-01-16 14:00:00
+
 comments: true
 categories: talk
 sharing: true

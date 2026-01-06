@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #201: Gefährliches Unwissen"
-date: 2018-05-11 12:00
+date: 2018-05-11 12:00:00
+
 comments: true
 categories: talk
 sharing: true

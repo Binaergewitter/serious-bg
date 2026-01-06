@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #265: Update Junky"
-date: 2020-11-05 16:30
+date: 2020-11-05 16:30:00
+
 comments: true
 categories: talk
 sharing: true

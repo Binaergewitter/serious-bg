@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #133: Internet abschaffen!"
-date: 2015-10-23 17:00
+date: 2015-10-23 17:00:00
+
 comments: true
 categories: talk
 sharing: true

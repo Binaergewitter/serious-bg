@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #273: Wenn der Schaffner dein Passwort zurücksetzt"
-date: 2021-03-10 10:30
+date: 2021-03-10 10:30:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #171: BSD, Bärte und Bulldozer"
-date: 2017-04-28 14:00
+date: 2017-04-28 14:00:00
+
 comments: true
 categories: talk
 sharing: true

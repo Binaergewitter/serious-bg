@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #267: RSS Abo auf Sterben"
-date: 2020-12-30 18:30
+date: 2020-12-30 18:30:00
+
 comments: true
 categories: talk
 sharing: true

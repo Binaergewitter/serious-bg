@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #177: Immer diese Fanatiker"
-date: 2017-08-04 15:00
+date: 2017-08-04 15:00:00
+
 comments: true
 categories: talk
 sharing: true

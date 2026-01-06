@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #233: Keine User, keine Probleme"
-date: 2019-06-07 10:00
+date: 2019-06-07 10:00:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #21 - (╯°□°）╯︵ ┻━┻"
-date: 2012-07-13 13:30
+date: 2012-07-13 13:30:00
+
 comments: true
 categories: talk
 sharing: true

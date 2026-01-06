@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #104: Wegelagerer und Banditen"
-date: 2014-09-05 12:00
+date: 2014-09-05 12:00:00
+
 comments: true
 categories: talk
 sharing: true

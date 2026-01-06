@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #162: Ein Tiefpunk für das deutsche Internet"
-date: 2016-12-16 19:00
+date: 2016-12-16 19:00:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #32 - Jimmy Wales Starrzeit"
-date: 2012-11-16 12:00
+date: 2012-11-16 12:00:00
+
 comments: true
 categories: talk
 sharing: true

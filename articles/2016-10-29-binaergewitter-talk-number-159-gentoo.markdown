@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #159: Gentoo - eine gesunde Portion Entschleunigung"
-date: 2016-10-29 12:30
+date: 2016-10-29 12:30:00
+
 comments: true
 categories: talk
 sharing: true

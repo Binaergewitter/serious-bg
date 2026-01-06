@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #293: ich schau ab und zu was auf sourceforge läuft"
-date: 2022-03-29 22:00
+date: 2022-03-29 22:00:00
+
 comments: true
 categories: talk
 sharing: true

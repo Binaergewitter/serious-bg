@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Spezial #4 - Distributed Computing"
-date: 2012-05-17 15:30
+date: 2012-05-17 15:30:00
+
 comments: true
 categories: spezial
 sharing: true

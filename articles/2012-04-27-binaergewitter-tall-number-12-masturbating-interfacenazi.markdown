@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #12 - masturbating interfacenazi"
-date: 2012-04-27 12:30
+date: 2012-04-27 12:30:00
+
 comments: true
 categories: talk
 sharing: true

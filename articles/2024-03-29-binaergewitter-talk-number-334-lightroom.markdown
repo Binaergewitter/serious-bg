@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #334: Die Adobe Lightroom Downloader App"
-date: 2024-03-29 21:00
+date: 2024-03-29 21:00:00
+
 comments: true
 categories: talk
 sharing: true
@@ -31,6 +32,7 @@ Mal wieder eine große Runde. Über die Kubecon, lustige Browsergames und viele 
 - [Porn in florida]( https://eu.usatoday.com/story/news/nation/2024/03/25/porn-sites-age-verification-florida-law/73096875007/ )
   - [Pornhub will evtl nicht mehr]( https://mashable.com/article/pornhub-florida-ban-age-verification )
 - [Redis license update: What you need to know]( https://azure.microsoft.com/de-de/blog/redis-license-update-what-you-need-to-know/ )
+
   * [Valkey]( https://www.linuxfoundation.org/press/linux-foundation-launches-open-source-valkey-community )
 - [Mozilla Location Service]( https://linuxnews.de/mozilla-location-service-wird-eingestellt/ )
 - [OCSP]( https://www.heise.de/news/Digitale-Zertifikate-Online-Sperrung-wird-optional-Sperrlisten-zur-Pflicht-9655904.html )

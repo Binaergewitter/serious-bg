@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #31 - Pfleidi hol die Pilze"
-date: 2012-11-10 00:15
+date: 2012-11-10 00:15:00
+
 comments: true
 categories: talk
 sharing: true

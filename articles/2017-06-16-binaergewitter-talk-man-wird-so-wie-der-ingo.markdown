@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #174: Man wird so wie der Ingo"
-date: 2017-06-16 10:00
+date: 2017-06-16 10:00:00
+
 comments: true
 categories: talk
 sharing: true

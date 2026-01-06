@@ -1,0 +1,44 @@
+<script>
+    // Client-side is_live check
+    async function checkLive() {
+        try {
+            // Note: Using HTTP (not HTTPS) as the Icecast server doesn't support HTTPS
+            const response = await fetch('http://stream.radiotux.de:8000/status-json.xsl');
+            const data = await response.json();
+
+            // Check if there's a source field and if it contains binaergewitter.mp3
+            const sources = data.icestats?.source;
+            let isLive = false;
+
+            if (sources) {
+                isLive = Array.isArray(sources)
+                    ? sources.some(s => s.listenurl?.includes('binaergewitter.mp3'))
+                    : sources.listenurl?.includes('binaergewitter.mp3');
+            }
+
+            const liveLink = document.getElementById('live-link');
+            if (liveLink) {
+                if (isLive) {
+                    liveLink.innerHTML = '🔴 Live (On Air)';
+                    liveLink.style.fontWeight = 'bold';
+                } else {
+                    liveLink.innerHTML = 'Live';
+                    liveLink.style.fontWeight = 'normal';
+                }
+            }
+        } catch (e) {
+            // Silently fail - likely CORS or network issue
+            console.debug('Could not check live status:', e.message);
+        }
+    }
+
+    // Check on page load
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', checkLive);
+    } else {
+        checkLive();
+    }
+
+    // Check every 60 seconds
+    setInterval(checkLive, 60000);
+</script>

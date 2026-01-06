@@ -1,66 +1,81 @@
-# General
+# Binärgewitter Blog
 
-Oh hai!
+The official blog for the [Binärgewitter](https://blog.binaergewitter.de/) podcast, built with [Hugo](https://gohugo.io/).
 
-[![CI](https://github.com/Binaergewitter/serious-bg/workflows/CI/badge.svg?branch=master)](https://github.com/Binaergewitter/serious-bg/actions/)
-[![Support us on Patreon](http://ionicabizau.github.io/badges/patreon.svg)](https://www.patreon.com/Binaergewitter) 
-[![Donate](https://img.shields.io/liberapay/patrons/Binaergewitter.svg?logo=liberapay)](https://liberapay.com/Binaergewitter)
+## Features
 
+- **100% Native Hugo**: No external scripts or dependencies
+- **Podcast Integration**: Dynamic RSS feeds for all categories and codecs
+- **Fuse.js Search**: Client-side search with gzip compression (73% bandwidth reduction)
+- **Podlove Web Player**: Full-featured audio player with chapters
+- **Responsive Design**: Mobile-friendly Bootstrap-based layout
+- **Fly.io Deployment**: Automated Docker-based deployment
 
-# Markdown syntax
-You can add a "release: 2" line to the article markdown in case you 
-fudged up a release and would like to increment the GUID in the feed after a fix
+## Development
 
-You can add a "published: false" line to the article markdown to NOT have it
-show up anywhere.
+### Prerequisites
 
-# Feeds
-Feed with all items:
+- [Hugo](https://gohugo.io/installation/) v0.111.3 or later (extended version)
 
-    /podcast_feed/all/m4a/rss.xml
+### Local Development
 
-Examples for the category feed generation:
+```bash
+# Start the development server
+hugo server
 
-    /podcast_feed/spezial/mp3/rss.xml
-    /podcast_feed/talk/opus/rss.xml
-
-iTunes feed that uses m4a with a fallback to mp3 if there is no m4a for that episode
-
-    /podcast_feed/talk/itunes/rss.xml
-
-Note: You can also add a feed_size parameter and a page parameter to the URL ("?feed_size=4&page=3")
-
-
-# Stork search
-Prerequisits: [install stork](https://stork-search.net/docs/install)
-
-For every release the stork index has to be built like this:
-
-```
-python gen-stork.py > stork.toml
-stork --build stork.toml
+# Build the site
+hugo
 ```
 
-then a github action builds and publishes `bgt.st` to https://search.binaergewitter.de/bgt.st.
+The site will be available at `http://localhost:1313/`.
 
-# Update comments after rename
+### Creating New Posts
 
-If you rename a post you should migrate the old comments.
-Since the id for comments is the post title: <https://github.com/Binaergewitter/serious-bg/blob/main/serious/lib/site/views/_isso.erb#L8>.
+```bash
+# Create a new post (uses archetype for automatic metadata)
+hugo new post/YYYY-MM-DD-your-post-title.md
+```
 
-1. Get the `comments.db`
-1. Create a backup
-1. Look up the old id and new id in the `threads` table (i use `sqlitebrowser`)
-1. Run the update command `UPDATE comments SET tid=$newid WHERE tid=$oldid;`
-1. Save file!
-1. Upload `comments.db` again
+The archetype automatically generates:
+- Title (derived from filename)
+- Date and time
+- Legacy `/blog/` aliases for SEO
+- Front matter structure
 
+## Project Structure
 
 ```
-scp binaergewitter:/var/lib/isso/comments.db ~/Downloads/comments.db
-cp ~/Downloads/comments.db ~/Downloads/comments_bak.db
-
-sqlitebrowser
-
-scp ~/Downloads/comments.db binaergewitter:/var/lib/isso/comments.db
+.
+├── articles/          # Blog posts (mounted as content/post)
+├── pages/            # Static pages (mounted as content/pages)
+├── layouts/          # Hugo templates
+│   ├── _default/     # Base templates
+│   ├── partials/     # Reusable components
+│   └── index.json    # Search index template
+├── static/           # Static assets (CSS, JS, images)
+├── archetypes/       # Content templates
+└── content/
+    └── podcast_feed/ # Dynamic feed generation via _content.js
 ```
+
+## Deployment
+
+The site is automatically deployed to Fly.io via GitHub Actions on every push to `main`.
+
+### Manual Deployment
+
+```bash
+# Deploy to Fly.io
+flyctl deploy
+```
+
+## Technical Highlights
+
+- **Native Content Adapters**: Podcast feeds generated via `_content.js`
+- **Optimized Search**: Gzipped JSON index with fallback for local development
+- **Remote Resources**: Podcast metadata and chapters fetched during build
+- **Zero Python**: Fully native Hugo build pipeline
+
+## License
+
+Content licensed under [Creative Commons BY-SA](https://creativecommons.org/licenses/by-sa/4.0/).

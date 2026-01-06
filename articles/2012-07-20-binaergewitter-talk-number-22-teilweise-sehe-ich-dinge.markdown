@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #22 - teilweise sehe ich Dinge"
-date: 2012-07-20 13:30
+date: 2012-07-20 13:30:00
+
 comments: true
 categories: talk
 sharing: true

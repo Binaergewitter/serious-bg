@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #82 - Peering nur mit BSI Schutzpaket"
-date: 2014-02-07 20:00
+date: 2014-02-07 20:00:00
+
 comments: true
 categories: talk
 sharing: true

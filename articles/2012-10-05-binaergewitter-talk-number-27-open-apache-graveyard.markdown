@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #27 - Open Apache Graveyard"
-date: 2012-10-05 15:30
+date: 2012-10-05 15:30:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #121: von der Polizei gekidnappt"
-date: 2015-05-30 20:00
+date: 2015-05-30 20:00:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #35 - Gute Maler"
-date: 2012-12-07 18:00
+date: 2012-12-07 18:00:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #348: Nicht mehr ganz Knusper"
-date: 2024-11-20 19:30
+date: 2024-11-20 19:30:00
+
 comments: true
 categories: talk
 sharing: true

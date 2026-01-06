@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #117: E-Postbrief in die Zukunft"
-date: 2015-03-13 17:00
+date: 2015-03-13 17:00:00
+
 comments: true
 categories: talk
 sharing: true

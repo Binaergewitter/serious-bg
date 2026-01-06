@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #318: Linus Torwalds ruft zur Ruhe auf"
-date: 2023-07-20 17:00
+date: 2023-07-20 17:00:00
+
 comments: true
 categories: talk
 sharing: true

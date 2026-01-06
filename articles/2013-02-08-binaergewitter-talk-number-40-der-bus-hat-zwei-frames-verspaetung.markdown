@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #40 - der Bus hat zwei Frames Verspätung"
-date: 2013-02-08 12:00
+date: 2013-02-08 12:00:00
+
 comments: true
 categories: talk
 sharing: true

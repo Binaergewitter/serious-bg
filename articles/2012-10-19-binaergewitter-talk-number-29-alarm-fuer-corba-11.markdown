@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #29 - Alarm für CORBA 11"
-date: 2012-10-19 12:30
+date: 2012-10-19 12:30:00
+
 comments: true
 categories: talk
 sharing: true

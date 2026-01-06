@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #4 - Ich filter Blumen"
-date: 2012-02-23 11:07
+date: 2012-02-23 11:07:00
+
 comments: true
 categories: talk
 sharing: true

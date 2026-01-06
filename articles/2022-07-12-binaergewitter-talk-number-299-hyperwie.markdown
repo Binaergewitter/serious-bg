@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #299: HyperWie"
-date: 2022-07-13 06:00
+date: 2022-07-13 06:00:00
+
 comments: true
 categories: talk
 sharing: true

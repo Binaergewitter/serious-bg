@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #53 - Anpöbellautsprecher"
-date: 2013-05-24 10:30
+date: 2013-05-24 10:30:00
+
 comments: true
 categories: talk
 sharing: true

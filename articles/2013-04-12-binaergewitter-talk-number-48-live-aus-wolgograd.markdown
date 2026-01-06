@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #48 - Live aus Wolgograd"
-date: 2013-04-12 13:00
+date: 2013-04-12 13:00:00
+
 comments: true
 categories: talk
 sharing: true

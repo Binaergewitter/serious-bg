@@ -1,16 +1,20 @@
-FROM ruby:3.4.4
-ADD . /src
+# Build stage
+FROM ghcr.io/gohugoio/hugo:v0.154.2 AS builder
+
 WORKDIR /src
+COPY . .
 
-ENV LC_ALL=C.UTF-8
-ENV LANG=en_US.UTF-8
-ENV LANGUAGE=en_US.UTF-8
-RUN bundle config set --global deployment true && \
-    bundle config set --global path vendor/bundle && \
-    bundle config set --global jobs 3 && \
-    bundle install
-RUN bundle exec rake test
+# Build the site (generates index.json and podcast feeds via _content.gotmpl)
+RUN hugo --minify
 
-EXPOSE 9292
+# Compress the search index for faster loading
+RUN gzip -k public/index.json
 
-CMD [ "bundle", "exec", "puma", "-e", "development", "-b", "tcp://0.0.0.0:9292" ]
+# Final stage
+FROM nginx:alpine
+
+# Copy custom nginx config
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
+# Copy the built site from the builder stage
+COPY --from=builder /src/public /usr/share/nginx/html

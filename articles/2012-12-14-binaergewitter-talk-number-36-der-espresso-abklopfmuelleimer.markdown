@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #36 - Der Espresso-Abklopfmülleimer"
-date: 2012-12-14 12:30
+date: 2012-12-14 12:30:00
+
 comments: true
 categories: talk
 sharing: true

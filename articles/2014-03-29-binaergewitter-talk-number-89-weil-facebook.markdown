@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #89 - ..., weil Facebook"
-date: 2014-03-29 16:00
+date: 2014-03-29 16:00:00
+
 comments: true
 categories: talk
 sharing: true

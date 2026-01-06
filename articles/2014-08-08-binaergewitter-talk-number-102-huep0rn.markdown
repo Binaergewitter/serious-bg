@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #102 - Hue P0rn"
-date: 2014-08-08 17:00
+date: 2014-08-08 17:00:00
+
 comments: true
 categories: talk
 sharing: true

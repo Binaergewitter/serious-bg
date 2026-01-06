@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #238: Android Quarkspeise"
-date: 2019-08-23 14:00
+date: 2019-08-23 14:00:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #368: Raspi in Öl"
-date: 2025-10-19 08:00
+date: 2025-10-19 08:00:00
+
 comments: true
 categories: talk
 sharing: true

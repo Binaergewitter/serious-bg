@@ -1,0 +1,8 @@
+{{- $searchIndex := slice -}}
+{{- range .Site.AllPages -}}
+  {{- if and .Title .Permalink (or (eq .Section "post") (eq .Section "pages")) -}}
+    {{- $entry := dict "title" .Title "permalink" (.Permalink | absURL) "summary" (.Summary | plainify) "content" .Plain -}}
+    {{- $searchIndex = $searchIndex | append $entry -}}
+  {{- end -}}
+{{- end -}}
+{{- $searchIndex | jsonify -}}

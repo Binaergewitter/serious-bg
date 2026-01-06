@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}" prefix="og: http://ogp.me/ns#">
+
+<head>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/headjs/1.0.3/head.min.js"></script>
+  <script>
+    head.js(
+      { jquery: '//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js' },
+      { bootstrapCollapse: '//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/collapse.min.js' },
+      { podlove: {{ "podlove-web-player/embed.js" | relURL }} },
+    )
+    head.load("//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css")
+    head.load({{ "css/iconfont/style.css" | relURL }})
+    head.load({{ "css/coderay.css" | relURL }})
+  </script>
+
+  <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="{{ " rss.xml" | relURL }}" />
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .IsPage }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
+
+  <meta property="og:site_name" content="{{ .Site.Title }}">
+  <meta property="og:url" content="{{ .Permalink }}" />
+  <meta property="og:title" content="{{ if .IsPage }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }} " />
+  <meta property="og:description"
+    content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <meta property="og:locale" content="de_DE" />
+  <meta property="og:image" content="http://blog.binaergewitter.de/img/binaergewitter_logo_text.png" />
+  <meta property="fb:pages" content="1763347550560569">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ if .IsPage }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}">
+  <meta name="twitter:image" content="http://blog.binaergewitter.de/img/binaergewitter_logo_text.png">
+
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+
+  <link rel="shortcut icon" href="{{ " favicon.ico" | relURL }}" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="{{ " apple-touch-icon.png" | relURL }}" />
+  {{ range (slice 57 72 76 114 120 144 152 180) }}
+  <link rel="apple-touch-icon" sizes="{{ . }}x{{ . }}" href="{{ (printf " apple-touch-icon-%dx%d.png" . .) | relURL
+    }}" />
+  {{ end }}
+
+  <style>
+    body {
+      background-color: white;
+    }
+
+    a {
+      color: #7FAF1B;
+    }
+
+    a:hover,
+    a:focus {
+      color: #93BF35;
+    }
+
+    .navbar {
+      background-color: #f5f6f6;
+    }
+
+    .header-name {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    .header-slug {
+      font-size: 1em;
+      font-weight: 300;
+    }
+
+    .header-logo {
+      height: 100%;
+    }
+
+    .free-social-icons a {
+      font-size: 29px;
+      text-decoration: none;
+    }
+
+    @media only screen and (min-width:1200px) {
+
+      body,
+      .form-control {
+        font-size: 18px;
+      }
+
+      .container {
+        width: 90%;
+        max-width: 1360px;
+      }
+
+      h2,
+      .h2 {
+        font-size: 34px;
+      }
+
+      .panel-title {
+        font-size: 22px;
+      }
+
+      blockquote {
+        font-size: 20px;
+      }
+    }
+
+    @media only screen and (prefers-color-scheme: dark) {
+
+      body,
+      .panel {
+        color: #E8E8E8;
+        background-color: #151515;
+      }
+
+      nav.navbar {
+        background-color: #000000;
+      }
+
+      .navbar-default .navbar-brand,
+      .navbar-default .navbar-nav>li>a {
+        color: #BDBDBD;
+      }
+
+      .navbar-default .navbar-brand:hover,
+      .navbar-default .navbar-nav>li>a:hover,
+      .navbar-default .navbar-nav>li>a:focus {
+        color: #E5E5E5;
+      }
+
+      .isso-form-wrapper input,
+      .isso-form-wrapper textarea,
+      .isso-form-wrapper .isso-text {
+        color: #171717;
+      }
+
+      #isso-root .isso-author {
+        color: #c1c1c1;
+      }
+
+      .isso-avatar img {
+        background-color: #E8E8E8;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  {{ partial "navigation.html" . }}
+
+  <div class="container">
+    <div class="row">
+      {{ partial "sidebar.html" . }}
+
+      <div class="col-md-9">
+        <div class="row visible-md visible-lg">
+          <div class="col-md-3">
+            <img class="header-logo" src="{{ "img/binaergewitter_logo.svg" | relURL }}">
+          </div>
+          <div class="col-md-9" style="padding-top:20px">
+            <h1>
+              <span class="header-name">{{ .Site.Title }}</span>
+              <br>
+              <small class="header-slug">Now with more Internet!</small>
+            </h1>
+          </div>
+        </div>
+        <hr>
+        {{ block "main" . }}{{ end }}
+      </div>
+    </div>
+  </div>
+
+  {{ if .Site.Params.google_analytics }}
+  {{ partial "google_analytics.html" . }}
+  {{ end }}
+</body>
+
+</html>

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #261: Ein Rentner auf Drogen"
-date: 2020-09-02 16:30
+date: 2020-09-02 16:30:00
+
 comments: true
 categories: talk
 sharing: true

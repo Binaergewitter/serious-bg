@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #113: Lügenbrowser"
-date: 2015-01-29 23:59
+date: 2015-01-29 23:59:00
+
 comments: true
 categories: talk
 sharing: true

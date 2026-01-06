@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #287: Ctrl Picks"
-date: 2021-12-07 15:00
+date: 2021-12-07 15:00:00
+
 comments: true
 categories: talk
 sharing: true

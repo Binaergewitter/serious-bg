@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Westcoast #1: Vergnügungspark mit Blackjack und Lesefoo"
-date: 2017-04-04 22:00
+date: 2017-04-04 22:00:00
+
 comments: true
 categories: westcoast
 sharing: true

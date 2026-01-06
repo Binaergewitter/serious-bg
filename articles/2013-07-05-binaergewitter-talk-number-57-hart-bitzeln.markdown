@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #57 - hart bitzeln"
-date: 2013-07-05 10:45
+date: 2013-07-05 10:45:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #26 - SSH-Session kackt ab wenn der andere seine Mails liest"
-date: 2012-09-23 12:00
+date: 2012-09-23 12:00:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #50 - Fetznetzflat"
-date: 2013-04-26 12:00
+date: 2013-04-26 12:00:00
+
 comments: true
 categories: talk
 sharing: true

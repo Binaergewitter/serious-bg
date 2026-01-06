@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #81 - IT Standort Deutschland"
-date: 2014-01-31 17:00
+date: 2014-01-31 17:00:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #355: Geologische Unabhängigkeit"
-date: 2025-03-13 21:00
+date: 2025-03-13 21:00:00
+
 comments: true
 categories: talk
 sharing: true

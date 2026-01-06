@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #41 - 2013 das Jahr von Linux auf dem Todesstern"
-date: 2013-02-23 17:00
+date: 2013-02-23 17:00:00
+
 comments: true
 categories: talk
 sharing: true

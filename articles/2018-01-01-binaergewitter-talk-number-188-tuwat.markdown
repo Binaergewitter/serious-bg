@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #188: Tuwat"
-date: 2018-01-01 16:00
+date: 2018-01-01 16:00:00
+
 comments: true
 categories: talk
 sharing: true

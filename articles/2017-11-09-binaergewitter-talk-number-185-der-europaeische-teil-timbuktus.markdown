@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #185: der europäische Teil Timbuktus"
-date: 2017-11-09 22:00
+date: 2017-11-09 22:00:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #90 - Puffmais Zeit"
-date: 2014-04-01 23:00
+date: 2014-04-01 23:00:00
+
 comments: true
 categories: talk
 sharing: true

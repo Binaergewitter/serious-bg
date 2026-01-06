@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #361: Password Sailfish OS"
-date: 2025-06-28 06:00
+date: 2025-06-28 06:00:00
+
 comments: true
 categories: talk
 sharing: true

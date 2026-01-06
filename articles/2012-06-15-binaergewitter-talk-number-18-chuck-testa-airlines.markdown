@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #18 - Chuck Testa Airlines"
-date: 2012-06-15 13:30
+date: 2012-06-15 13:30:00
+
 comments: true
 categories: talk
 sharing: true

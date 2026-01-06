@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #109: Abhoeren made in germany"
-date: 2014-11-14 22:00
+date: 2014-11-14 22:00:00
+
 comments: true
 categories: talk
 sharing: true

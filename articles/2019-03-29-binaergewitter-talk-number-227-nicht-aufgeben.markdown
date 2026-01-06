@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #227: nicht aufgeben!"
-date: 2019-03-29 10:00
+date: 2019-03-29 10:00:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #297: Internet Inflation"
-date: 2022-06-14 21:00
+date: 2022-06-14 21:00:00
+
 comments: true
 categories: talk
 sharing: true

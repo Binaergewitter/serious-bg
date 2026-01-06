@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #189: Bundes CheeseFS"
-date: 2018-01-05 08:00
+date: 2018-01-05 08:00:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Westcoast #6: Kleinstkontrolleur"
-date: 2020-10-29 18:00
+date: 2020-10-29 18:00:00
+
 comments: true
 categories: westcoast
 sharing: true

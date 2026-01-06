@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #225: der gute Teil des Problems"
-date: 2019-03-08 10:00
+date: 2019-03-08 10:00:00
+
 comments: true
 categories: talk
 sharing: true

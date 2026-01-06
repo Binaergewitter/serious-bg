@@ -1,0 +1,71 @@
+baseURL = ""
+relativeURLs = true
+canonifyURLs = false
+disablePathToLower = true
+languageCode = "de"
+title = "Binärgewitter"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[author]
+  name = "Binärgewitter Team"
+
+[params]
+  author = "Binärgewitter Team"
+  description = "Ein Podcast, der sich mit dem Web, Technologie und Open Source Software auseinander setzt."
+  isso = true
+  items_on_index = 3
+  archived_on_index = 10
+  date_format = "02.01.2006"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+  pages = "/pages/:slug"
+  category = "/podcast_feed/:slug"
+
+[outputFormats]
+  [outputFormats.RSS]
+    baseName = "rss"
+    mediaType = "application/rss+xml"
+
+[mediaTypes]
+  [mediaTypes."application/rss+xml"]
+    suffixes = ["xml"]
+
+[taxonomies]
+  category = "categories"
+
+[module]
+  [[module.mounts]]
+    source = "articles"
+    target = "content/post"
+  [[module.mounts]]
+    source = "pages"
+    target = "content/pages"
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+  [[module.mounts]]
+    source = "static/img"
+    target = "static/images"
+  [[module.mounts]]
+    source = "layouts"
+    target = "layouts"
+  [[module.mounts]]
+    source = "content"
+    target = "content"
+
+[security]
+  [security.http]
+    methods = ["GET"]
+    allowedHosts = ["download.binaergewitter.de"]
+
+[frontmatter]
+  date = [":filename"]
+  publishDate = [":filename"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

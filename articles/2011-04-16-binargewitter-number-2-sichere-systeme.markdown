@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter #2: Sichere Systeme"
-date: 2011-04-16 19:26
+date: 2011-04-16 19:26:00
+
 comments: true
 categories: spezial
 audioformats:

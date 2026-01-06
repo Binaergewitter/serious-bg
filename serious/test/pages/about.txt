@@ -1,5 +1,0 @@
-title: About me
-
-Some text about me and ☃
-~
-And some more content with <%= 'erb' %>

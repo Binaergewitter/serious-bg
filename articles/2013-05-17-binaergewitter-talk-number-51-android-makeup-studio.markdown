@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #52 - Android Makeup Studio"
-date: 2013-05-17 11:30
+date: 2013-05-17 11:30:00
+
 comments: true
 categories: talk
 sharing: true

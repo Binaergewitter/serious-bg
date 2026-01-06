@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #72 - Underware Phone"
-date: 2013-11-01 20:00
+date: 2013-11-01 20:00:00
+
 comments: true
 categories: talk
 sharing: true

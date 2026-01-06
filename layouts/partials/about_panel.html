@@ -1,0 +1,15 @@
+<div class="panel panel-default visible-md visible-lg">
+    <div class="panel-heading">
+        <h3 class="panel-title">Über uns</h3>
+    </div>
+    <div class="panel-body">
+        <p>
+            {{ .Site.Params.description }}
+            <a href="{{ "pages/ueber-uns/" | relURL }}">mehr...</a>
+        </p>
+        <p>
+            <strong>@binaergewitter</strong> auf
+        </p>
+        {{- partial "social_icons.html" . -}}
+    </div>
+</div>

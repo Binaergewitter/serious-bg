@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #321: 8 Sekunden sind uns zu wenig!"
-date: 2023-09-02 07:00
+date: 2023-09-02 07:00:00
+
 comments: true
 categories: talk
 sharing: true

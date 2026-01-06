@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #30 - Yodafone"
-date: 2012-10-26 12:30
+date: 2012-10-26 12:30:00
+
 comments: true
 categories: talk
 sharing: true

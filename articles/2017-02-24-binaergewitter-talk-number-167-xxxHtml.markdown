@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #167: xxxHtml"
-date: 2017-02-24 11:00
+date: 2017-02-24 11:00:00
+
 comments: true
 categories: talk
 sharing: true

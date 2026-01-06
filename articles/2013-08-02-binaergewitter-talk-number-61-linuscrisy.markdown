@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #61 - Linuscrisy"
-date: 2013-08-02 11:30
+date: 2013-08-02 11:30:00
+
 comments: true
 categories: talk
 sharing: true

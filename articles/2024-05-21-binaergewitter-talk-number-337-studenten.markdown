@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #337: Saubere Studenten"
-date: 2024-05-21 22:00
+date: 2024-05-21 22:00:00
+
 comments: true
 categories: talk
 sharing: true

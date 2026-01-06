@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #323: Curry mit OpenTofu"
-date: 2023-10-05 22:00
+date: 2023-10-05 22:00:00
+
 comments: true
 categories: talk
 sharing: true

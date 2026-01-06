@@ -1,0 +1,151 @@
+<div class="col-md-3">
+    <div class="panel panel-default visible-md visible-lg">
+        <div class="panel-heading">
+            <h3 class="panel-title">Über uns</h3>
+        </div>
+        <div class="panel-body">
+            <p>
+                {{ .Site.Params.description }}
+                <a href="{{ " pages/ueber-uns/" | relURL }}">mehr...</a>
+            </p>
+            <p>
+                <strong>@binaergewitter</strong> auf
+            </p>
+            <p class="free-social-icons">
+                <a rel="me" title="Mastodon" href="https://jit.social/@binaergewitter">
+                    <i class="icon-mastodon"></i>
+                </a>
+                <a title="Github" href="https://github.com/binaergewitter">
+                    <i class="icon-github"></i>
+                </a>
+                <a title="Patreon" href="https://www.patreon.com/binaergewitter">
+                    <i class="icon-3x icon-patreon"></i>
+                </a>
+                <a title="Liberapay" href="https://liberapay.com/Binaergewitter/">
+                    <i class="icon-3x icon-liberapay"></i>
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Native Search (Fuse.js) !-->
+    <div class="search-wrapper form-group has-feedback has-search">
+        <span class="glyphicon glyphicon-search form-control-feedback" style="top:0px"></span>
+        <input id="search-input" class="form-control" placeholder="Search" oninput="executeSearch(this.value)">
+        <div id="search-results" class="list-group"
+            style="position: absolute; z-index: 1000; width: 100%; display: none; margin-top: 5px; max-height: 400px; overflow-y: auto; background: white; border: 1px solid #ccc; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-radius: 4px;">
+        </div>
+    </div>
+    <style>
+        #search-results mark {
+            background-color: #ffeb3b;
+            padding: 2px 0;
+            font-weight: bold;
+        }
+    </style>
+    <script>
+        let searchIndex = null;
+        async function loadSearchIndex() {
+            if (!searchIndex) {
+                try {
+                    let data;
+
+                    // Try gzipped version first (production)
+                    try {
+                        const gzResponse = await fetch('{{ "/index.json.gz" | relURL }}');
+                        if (gzResponse.ok && gzResponse.headers.get('content-type')?.includes('application/json')) {
+                            data = await gzResponse.json();
+                        }
+                    } catch (e) {
+                        // Gzipped version failed, will try uncompressed
+                    }
+
+                    // Fallback to uncompressed for local development (hugo server)
+                    if (!data) {
+                        const response = await fetch('{{ "/index.json" | relURL }}');
+                        if (!response.ok) throw new Error("Search index not found");
+                        data = await response.json();
+                    }
+
+                    searchIndex = data;
+                } catch (e) {
+                    console.error("Failed to load search index:", e);
+                }
+            }
+        }
+
+        async function executeSearch(query) {
+            await loadSearchIndex();
+            const resultsContainer = document.getElementById('search-results');
+            if (!query || query.length < 2) {
+                resultsContainer.style.display = 'none';
+                return;
+            }
+
+            if (!searchIndex) return;
+
+            const queryLower = query.toLowerCase();
+            const results = searchIndex.filter(item => {
+                return item.title.toLowerCase().includes(queryLower) ||
+                    item.summary.toLowerCase().includes(queryLower) ||
+                    item.content.toLowerCase().includes(queryLower);
+            }).slice(0, 10);
+
+            if (results.length > 0) {
+                resultsContainer.innerHTML = results.map(item => {
+                    // Find where the match occurs
+                    let excerpt = '';
+                    const titleLower = item.title.toLowerCase();
+                    const contentLower = item.content.toLowerCase();
+                    const summaryLower = item.summary.toLowerCase();
+
+                    if (contentLower.includes(queryLower)) {
+                        // Match in content - show context
+                        const matchIndex = contentLower.indexOf(queryLower);
+                        const start = Math.max(0, matchIndex - 60);
+                        const end = Math.min(item.content.length, matchIndex + query.length + 100);
+                        let excerptText = item.content.substring(start, end);
+
+                        if (start > 0) excerptText = '...' + excerptText;
+                        if (end < item.content.length) excerptText = excerptText + '...';
+
+                        // Highlight (case-insensitive)
+                        const regex = new RegExp(`(${query})`, 'gi');
+                        excerpt = excerptText.replace(regex, '<mark>$1</mark>');
+                    } else if (summaryLower.includes(queryLower)) {
+                        // Match in summary
+                        const regex = new RegExp(`(${query})`, 'gi');
+                        excerpt = item.summary.substring(0, 150).replace(regex, '<mark>$1</mark>') + '...';
+                    } else {
+                        // Match only in title
+                        const regex = new RegExp(`(${query})`, 'gi');
+                        excerpt = 'Title: ' + item.title.replace(regex, '<mark>$1</mark>');
+                    }
+
+                    // Highlight title
+                    const regex = new RegExp(`(${query})`, 'gi');
+                    const title = item.title.replace(regex, '<mark>$1</mark>');
+
+                    return `
+                        <a href="${item.permalink}" class="list-group-item" style="border-left: 4px solid #7FAF1B; margin-bottom: 2px; padding: 10px;">
+                            <h4 class="list-group-item-heading" style="font-size: 14px; margin-bottom: 5px; color: #7FAF1B; font-weight: bold;">${title}</h4>
+                            <p class="list-group-item-text" style="font-size: 12px; color: #666; line-height: 1.4;">${excerpt}</p>
+                        </a>
+                    `;
+                }).join('');
+                resultsContainer.style.display = 'block';
+            } else {
+                resultsContainer.innerHTML = '<div class="list-group-item text-muted">No results found</div>';
+                resultsContainer.style.display = 'block';
+            }
+        }
+
+        // Close results when clicking outside
+        document.addEventListener('click', (e) => {
+            const wrapper = document.querySelector('.search-wrapper');
+            if (wrapper && !wrapper.contains(e.target)) {
+                document.getElementById('search-results').style.display = 'none';
+            }
+        });
+    </script>
+</div>

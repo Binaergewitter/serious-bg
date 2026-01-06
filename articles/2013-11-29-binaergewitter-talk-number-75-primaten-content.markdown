@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #75 - Primaten content"
-date: 2013-11-29 11:00
+date: 2013-11-29 11:00:00
+
 comments: true
 categories: talk
 sharing: true

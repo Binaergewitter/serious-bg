@@ -1,4 +1,0 @@
-title: Foo Bar
-
-Baz!
-

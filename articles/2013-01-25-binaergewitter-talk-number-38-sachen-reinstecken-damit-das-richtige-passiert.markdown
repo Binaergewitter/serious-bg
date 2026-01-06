@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #38 - Sachen reinstecken, damit das Richtige passiert"
-date: 2013-01-25 12:00
+date: 2013-01-25 12:00:00
+
 comments: true
 categories: talk
 sharing: true

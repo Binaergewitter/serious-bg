@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #172: Opfern auf dem Altar der Unterhaltung"
-date: 2017-05-19 14:00
+date: 2017-05-19 14:00:00
+
 comments: true
 categories: talk
 sharing: true

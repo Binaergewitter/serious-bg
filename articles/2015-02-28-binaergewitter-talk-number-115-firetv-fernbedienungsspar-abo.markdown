@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #115: FireTV Fernbedienungsspar-Abo"
-date: 2015-02-28 12:00
+date: 2015-02-28 12:00:00
+
 comments: true
 categories: talk
 sharing: true

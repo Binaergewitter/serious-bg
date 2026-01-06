@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #71 - Sprich mit der Wolke"
-date: 2013-10-25 13:00
+date: 2013-10-25 13:00:00
+
 comments: true
 categories: talk
 sharing: true

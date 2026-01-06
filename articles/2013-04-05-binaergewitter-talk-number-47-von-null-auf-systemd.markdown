@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #47 - von Null auf Systemd"
-date: 2013-04-05 18:00
+date: 2013-04-05 18:00:00
+
 comments: true
 categories: talk
 sharing: true

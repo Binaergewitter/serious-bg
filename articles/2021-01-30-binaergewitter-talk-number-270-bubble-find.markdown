@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #270: Bubble find"
-date: 2021-01-30 17:30
+date: 2021-01-30 17:30:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #250: Was machst du anderes als HTML und PDF?"
-date: 2020-03-27 18:00
+date: 2020-03-27 18:00:00
+
 comments: true
 categories: talk
 sharing: true

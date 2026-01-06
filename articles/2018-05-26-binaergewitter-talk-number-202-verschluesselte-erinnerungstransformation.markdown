@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #202: verschlüsselte Erinnerungstransformation"
-date: 2018-05-26 12:00
+date: 2018-05-26 12:00:00
+
 comments: true
 categories: talk
 sharing: true
