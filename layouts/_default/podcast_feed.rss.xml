@@ -33,7 +33,7 @@
     </itunes:owner>
 
     {{ $codec := .Params.codec | default "mp3" }}
-    {{ range first 25 $pages }}
+    {{ range $pages }}
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink | strings.TrimSuffix "/" }}</link>
