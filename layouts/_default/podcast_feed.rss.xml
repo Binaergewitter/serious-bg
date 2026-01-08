@@ -12,7 +12,12 @@
     <description>{{ .Site.Params.description }}</description>
     {{ with .Site.LanguageCode }}<language>{{ . }}</language>{{ end }}
     <copyright>Creative Commons BY-SA 3.0 DE</copyright>
-    <lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
+    {{ $pages := where .Site.RegularPages "Section" "post" }}
+    {{ $category := .Params.category_name }}
+    {{ if $category }}
+      {{ $pages = where $pages "Params.categories" "==" $category }}
+    {{ end }}
+    <lastBuildDate>{{ (index $pages 0).Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
     <atom:link href="{{ .Permalink | absURL }}" rel="self" type="application/rss+xml" />
     
     <itunes:author>{{ .Site.Params.author }}</itunes:author>
@@ -28,19 +33,12 @@
     </itunes:owner>
 
     {{ $codec := .Params.codec | default "mp3" }}
-    {{ $category := .Params.category_name }}
-    
-    {{ $pages := where .Site.RegularPages "Section" "post" }}
-    {{ if $category }}
-      {{ $pages = where $pages "Params.categories" "==" $category }}
-    {{ end }}
-
-    {{ range first 50 $pages }}
+    {{ range first 25 $pages }}
     <item>
       <title>{{ .Title }}</title>
-      <link>{{ .Permalink | absURL }}</link>
+      <link>{{ .Permalink | strings.TrimSuffix "/" }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
-      <guid isPermaLink="false">{{ (urls.Parse .Permalink).Path }}{{ with .Params.release }}-{{ . }}{{ end }}</guid>
+      <guid{{ if .Params.release }} isPermaLink="false"{{ end }}>{{ .Permalink | strings.TrimSuffix "/" }}{{ with .Params.release }}-{{ . }}{{ end }}</guid>
       <description>{{ .Summary | html }}</description>
       <content:encoded>{{ .Content | html }}</content:encoded>
       

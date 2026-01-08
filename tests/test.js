@@ -316,29 +316,28 @@ function testRSSGUIDs() {
     }
 
     // Check first few GUIDs
-    let relativeCount = 0;
-    let absoluteCount = 0;
+    let validCount = 0;
+    let trailingSlashCount = 0;
 
     guidMatches.slice(0, 5).forEach(guidTag => {
         const guidMatch = guidTag.match(/<guid[^>]*>([^<]+)<\/guid>/);
         if (guidMatch) {
             const guid = guidMatch[1];
-            if (guid.startsWith('/')) {
-                relativeCount++;
-            } else if (guid.includes('://')) {
-                absoluteCount++;
+            // Should be absolute URL (to match Serious CMS)
+            // Should NOT have trailing slash
+            if (guid.startsWith('http') && !guid.endsWith('/')) {
+                validCount++;
+            }
+            if (guid.endsWith('/')) {
+                trailingSlashCount++;
             }
         }
     });
 
     assert(
-        relativeCount > 0 && absoluteCount === 0,
-        `RSS GUIDs use relative paths (${relativeCount} relative, ${absoluteCount} absolute)`
+        validCount > 0 && trailingSlashCount === 0,
+        `RSS GUIDs match Serious CMS format (absolute, no trailing slash). Found ${validCount} valid, ${trailingSlashCount} with trailing slashes.`
     );
-
-    if (absoluteCount > 0) {
-        console.log('  ⚠️  Absolute GUIDs will cause podcatchers to mark episodes as new!');
-    }
 }
 
 // Test 8: RSS feeds don't contain %20
