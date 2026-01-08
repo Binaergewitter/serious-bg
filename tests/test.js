@@ -173,6 +173,33 @@ function testCriticalPages() {
     });
 }
 
+// Test 5: Navigation links don't contain %20
+function testNoEncodedSpaces() {
+    console.log('\n🔗 Testing navigation links for URL encoding issues...');
+
+    const indexPath = path.join(PUBLIC_DIR, 'index.html');
+
+    if (!fs.existsSync(indexPath)) {
+        assert(false, 'index.html exists for navigation testing');
+        return;
+    }
+
+    const content = fs.readFileSync(indexPath, 'utf8');
+
+    // Check for %20 in href attributes
+    const hrefMatches = content.match(/href="[^"]*"/g) || [];
+    const encodedSpaceLinks = hrefMatches.filter(href => href.includes('%20'));
+
+    assert(
+        encodedSpaceLinks.length === 0,
+        `No navigation links contain %20 encoding (found ${encodedSpaceLinks.length})`
+    );
+
+    if (encodedSpaceLinks.length > 0) {
+        console.log('  Links with %20:', encodedSpaceLinks.slice(0, 5));
+    }
+}
+
 // Test 5: Search index is gzipped
 function testSearchIndexGzip() {
     console.log('\n🗜️  Testing search index compression...');
@@ -239,6 +266,7 @@ async function runTests() {
     testSearchIndex();
     testRSSFeeds();
     testCriticalPages();
+    testNoEncodedSpaces();
     testSearchIndexGzip();
     testArticleFrontMatter();
     await testAudioLinks();
