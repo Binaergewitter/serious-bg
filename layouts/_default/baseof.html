@@ -22,17 +22,17 @@
   <title>{{ if .IsPage }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
 
   <meta property="og:site_name" content="{{ .Site.Title }}">
-  <meta property="og:url" content="{{ .Permalink }}" />
+  <meta property="og:url" content="{{ .Permalink | strings.TrimSuffix "/" }}" />
   <meta property="og:title" content="{{ if .IsPage }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }} " />
   <meta property="og:description"
     content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <meta property="og:locale" content="de_DE" />
-  <meta property="og:image" content="http://blog.binaergewitter.de/img/binaergewitter_logo_text.png" />
+  <meta property="og:image" content="{{ "img/binaergewitter_logo_text.png" | absURL }}" />
   <meta property="fb:pages" content="1763347550560569">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{{ if .IsPage }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}">
-  <meta name="twitter:image" content="http://blog.binaergewitter.de/img/binaergewitter_logo_text.png">
+  <meta name="twitter:image" content="{{ "img/binaergewitter_logo_text.png" | absURL }}" />
 
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 
@@ -156,7 +156,7 @@
       <div class="col-md-9">
         <div class="row visible-md visible-lg">
           <div class="col-md-3">
-            <img class="header-logo" src="{{ " img/binaergewitter_logo.svg" | relURL }}">
+            <img class="header-logo" src="{{ "img/binaergewitter_logo.svg" | relURL }}">
           </div>
           <div class="col-md-9" style="padding-top:20px">
             <h1>

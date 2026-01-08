@@ -20,7 +20,7 @@
     <itunes:summary>{{ .Site.Params.description }}</itunes:summary>
     <itunes:keywords>technology, gadgets, web, opensource, krepel</itunes:keywords>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="http://blog.binaergewitter.de/img/binaergewitter_logo_1400x1400.png" />
+    <itunes:image href="{{ "img/binaergewitter_logo_1400x1400.png" | absURL }}" />
     <itunes:category text="Technology" />
     <itunes:owner>
       <itunes:name>Binärgewitter Crew</itunes:name>

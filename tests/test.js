@@ -354,8 +354,7 @@ function testRSSNoEncodedSpaces() {
         const feedPath = path.join(PUBLIC_DIR, feed);
         if (fs.existsSync(feedPath)) {
             const content = fs.readFileSync(feedPath, 'utf8');
-
-            // Check for %20 in URLs (usually in enclosure url or link)
+            // Check for %20 in url="" or link=""
             const urlMatches = content.match(/(url|link)="[^"]*"/g) || [];
             const encodedSpaceUrls = urlMatches.filter(url => url.includes('%20'));
 
@@ -363,12 +362,66 @@ function testRSSNoEncodedSpaces() {
                 encodedSpaceUrls.length === 0,
                 `No URLs in ${feed} contain %20 encoding (found ${encodedSpaceUrls.length})`
             );
-
+            console.log(`✅ No URLs in ${feed} contain %20 encoding`);
             if (encodedSpaceUrls.length > 0) {
                 console.log(`  Found %20 in ${feed}:`, encodedSpaceUrls.slice(0, 3));
             }
         }
     });
+}
+
+// Test 9: Social tags in <head>
+function testSocialTags() {
+    console.log('\n📱 Testing social meta tags...');
+    const indexContent = fs.readFileSync(path.join(PUBLIC_DIR, 'index.html'), 'utf8');
+
+    // Check og:image and twitter:image use HTTPS
+    const ogImageMatch = indexContent.match(/property="og:image" content="([^"]+)"/);
+    const twitterImageMatch = indexContent.match(/name="twitter:image" content="([^"]+)"/);
+
+    if (ogImageMatch) {
+        assert(ogImageMatch[1].startsWith('https://'), `og:image uses HTTPS: ${ogImageMatch[1]}`);
+        console.log('✅ og:image uses HTTPS');
+    }
+    if (twitterImageMatch) {
+        assert(twitterImageMatch[1].startsWith('https://'), `twitter:image uses HTTPS: ${twitterImageMatch[1]}`);
+        console.log('✅ twitter:image uses HTTPS');
+    }
+
+    // Check og:url (no trailing slash)
+    const ogUrlMatch = indexContent.match(/property="og:url" content="([^"]+)"/);
+    if (ogUrlMatch) {
+        assert(!ogUrlMatch[1].endsWith('/'), `og:url has no trailing slash: ${ogUrlMatch[1]}`);
+        console.log('✅ og:url has no trailing slash');
+    }
+}
+
+// Test 10: RSS Metadata (HTTPS and lastBuildDate)
+function testRSSMetadata() {
+    console.log('\n📡 Testing RSS metadata...');
+    const rssContent = fs.readFileSync(path.join(PUBLIC_DIR, 'rss.xml'), 'utf8');
+
+    // Check itunes:image uses HTTPS
+    const itunesImageMatch = rssContent.match(/<itunes:image href="([^"]+)"/);
+    if (itunesImageMatch) {
+        assert(itunesImageMatch[1].startsWith('https://'), `itunes:image uses HTTPS: ${itunesImageMatch[1]}`);
+        console.log('✅ itunes:image uses HTTPS');
+    }
+
+    // Check lastBuildDate exists
+    assert(rssContent.includes('<lastBuildDate>'), 'RSS contains lastBuildDate');
+    console.log('✅ RSS contains lastBuildDate');
+}
+
+// Test 11: Nginx Configuration (Redirects)
+function testNginxConfig() {
+    console.log('\n⚙️ Testing Nginx configuration...');
+    const nginxPath = path.join(process.cwd(), 'nginx.conf');
+    if (fs.existsSync(nginxPath)) {
+        const content = fs.readFileSync(nginxPath, 'utf8');
+        assert(content.includes('rewrite ^/blog/(.*)$ /$1 permanent;'), 'Nginx contains /blog/ redirect');
+        console.log('✅ Nginx contains legacy /blog/ redirect');
+    }
 }
 
 // Test 9: All articles have required front matter
@@ -424,6 +477,9 @@ async function runTests() {
     testIssoComments();
     testRSSGUIDs();
     testRSSNoEncodedSpaces();
+    testSocialTags();
+    testRSSMetadata();
+    testNginxConfig();
     testArticleFrontMatter();
     await testAudioLinks();
 
