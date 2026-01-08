@@ -12,8 +12,7 @@
     <description>{{ .Site.Params.description }}</description>
     {{ with .Site.LanguageCode }}<language>{{ . }}</language>{{ end }}
     <copyright>Creative Commons BY-SA 3.0 DE</copyright>
-    {{ $pages := (where .Site.RegularPages "Section" "post").ByDate.Reverse }}
-    <lastBuildDate>{{ (index $pages 0).Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
+    <lastBuildDate>{{ (index .Site.RegularPages 0).Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
     <atom:link href="{{ .Permalink }}rss.xml" rel="self" type="application/rss+xml" />
     
     <itunes:author>{{ .Site.Params.author }}</itunes:author>
@@ -28,7 +27,7 @@
       <itunes:email>info@binaergewitter.de</itunes:email>
     </itunes:owner>
 
-    {{ range $pages }}
+    {{ range first 25 (where .Site.RegularPages "Section" "post") }}
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink | strings.TrimSuffix "/" }}</link>
