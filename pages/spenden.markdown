@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Spenden"
+slug: "spenden"
 comments: false
 sharing: false
 footer: true
