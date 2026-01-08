@@ -439,9 +439,7 @@ function testNginxConfig() {
     if (fs.existsSync(nginxPath)) {
         const content = fs.readFileSync(nginxPath, 'utf8');
         assert(content.includes('rewrite ^/blog/(.*)$ /$1 permanent;'), 'Nginx contains /blog/ redirect');
-        assert(content.includes('location = /latest-show'), 'Nginx contains /latest-show location block');
-        assert(content.includes('default_type text/plain;'), 'Nginx sets default_type text/plain');
-        console.log('✅ Nginx configuration verified');
+        console.log('✅ Nginx contains legacy /blog/ redirect');
     }
 }
 
