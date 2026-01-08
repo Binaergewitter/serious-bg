@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #231: Nest recyceln"
-date: 2019-05-18 10:00
+date: 2019-05-18 10:00:00
+
 comments: true
 categories: talk
 sharing: true

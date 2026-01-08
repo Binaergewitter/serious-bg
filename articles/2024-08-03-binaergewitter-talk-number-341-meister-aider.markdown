@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #341: Meister Aider"
-date: 2024-08-03 16:20
+date: 2024-08-03 16:20:00
+
 comments: true
 categories: talk
 sharing: true

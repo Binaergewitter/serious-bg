@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #328: moderne Lava-Lampe am 37c3"
-date: 2023-12-30 22:00
+date: 2023-12-30 22:00:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #76 - Die nach oben offene Magentaskala"
-date: 2013-12-06 11:00
+date: 2013-12-06 11:00:00
+
 comments: true
 categories: talk
 sharing: true

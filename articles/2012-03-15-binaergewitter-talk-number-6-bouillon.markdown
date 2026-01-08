@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #6 - Bouillon"
-date: 2012-03-15 20:33
+date: 2012-03-15 20:33:00
+
 comments: true
 categories: talk
 sharing: true

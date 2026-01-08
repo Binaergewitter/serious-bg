@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="archives">
+    <h1>Archives</h1>
+    {{ $pages := where .Site.RegularPages "Section" "post" }}
+    <ul class="list-unstyled">
+        {{ range $pages.GroupByDate "2006" }}
+        <li>
+            <h3>{{ .Key }}</h3>
+            <ul class="list-unstyled">
+                {{ range .Pages }}
+                <li>
+                    <a href="{{ .Permalink }}">{{ .Title }}</a>
+                    <span class="text-muted"> - {{ .Date.Format .Site.Params.date_format }}</span>
+                </li>
+                {{ end }}
+            </ul>
+        </li>
+        {{ end }}
+    </ul>
+</div>
+{{ end }}

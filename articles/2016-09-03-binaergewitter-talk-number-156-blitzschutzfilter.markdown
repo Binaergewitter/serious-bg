@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #156: Blitzschutzfilter"
-date: 2016-09-03 12:30
+date: 2016-09-03 12:30:00
+
 comments: true
 categories: talk
 sharing: true

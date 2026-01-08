@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #281: Bio Zombie Würmer"
-date: 2021-07-29 15:00
+date: 2021-07-29 15:00:00
+
 comments: true
 categories: talk
 sharing: true

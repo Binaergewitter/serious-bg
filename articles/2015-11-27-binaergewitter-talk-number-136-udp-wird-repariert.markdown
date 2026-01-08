@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #136: UDP wird repariert"
-date: 2015-11-27 18:00
+date: 2015-11-27 18:00:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #197: flickr Klicker"
-date: 2018-04-07 12:00
+date: 2018-04-07 12:00:00
+
 comments: true
 categories: talk
 sharing: true

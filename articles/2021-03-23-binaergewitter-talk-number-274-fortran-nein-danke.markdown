@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #274: Fortran, nein Danke!"
-date: 2021-03-23 14:30
+date: 2021-03-23 14:30:00
+
 comments: true
 categories: talk
 sharing: true

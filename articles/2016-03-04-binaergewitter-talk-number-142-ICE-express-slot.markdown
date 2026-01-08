@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #142: ICE Express Slot"
-date: 2016-03-04 20:00
+date: 2016-03-04 20:00:00
+
 comments: true
 categories: talk
 sharing: true

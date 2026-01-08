@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #279: Uber55"
-date: 2021-06-23 21:30
+date: 2021-06-23 21:30:00
+
 comments: true
 categories: talk
 sharing: true

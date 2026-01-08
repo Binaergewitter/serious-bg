@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #166: shellshock deployment system"
-date: 2017-02-15 11:00
+date: 2017-02-15 11:00:00
+
 comments: true
 categories: talk
 sharing: true

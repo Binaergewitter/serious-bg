@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #9 - Hypertext-Marx-Up Bonusfeatures"
-date: 2012-04-05 12:00
+date: 2012-04-05 12:00:00
+
 comments: true
 categories: talk
 sharing: true

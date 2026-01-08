@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #222: VGA Stecker Anschrauber"
-date: 2019-01-31 10:00
+date: 2019-01-31 10:00:00
+
 comments: true
 categories: talk
 sharing: true

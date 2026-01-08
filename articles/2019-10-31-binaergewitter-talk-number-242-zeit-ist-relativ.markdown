@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #242: Zeit ist relativ, nur Sommerzeit ist scheiße"
-date: 2019-10-31 16:00
+date: 2019-10-31 16:00:00
+
 comments: true
 categories: talk
 sharing: true

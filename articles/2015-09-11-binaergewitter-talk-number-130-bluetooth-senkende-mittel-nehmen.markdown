@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #130: Bluetooth-senkende Mittel nehmen'"
-date: 2015-09-11 12:00
+date: 2015-09-11 12:00:00
+
 comments: true
 categories: talk
 sharing: true

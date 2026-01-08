@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #114: Vodkaboarding"
-date: 2015-02-13 12:00
+date: 2015-02-13 12:00:00
+
 comments: true
 categories: talk
 sharing: true

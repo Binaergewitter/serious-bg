@@ -1,11 +1,12 @@
 ---
 layout: post
 title: "Binärgewitter Talk #170: Cyber Schutzschild"
-date: 2017-04-16 09:00
+date: 2017-04-16 09:00:00
+
 comments: true
 categories: talk
 sharing: true
-published: false
+draft: true
 audioformats:
   mp3: https://download.binaergewitter.de/2017-04-13.Binaergewitter.Talk.170.mp3
   ogg: https://download.binaergewitter.de/2017-04-13.Binaergewitter.Talk.170.ogg

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #59 - Rage dich glücklich - rage dich schlank!"
-date: 2013-07-19 16:45
+date: 2013-07-19 16:45:00
+
 comments: true
 categories: talk
 sharing: true

@@ -2,6 +2,7 @@
 layout: post
 title: "Binärgewitter Talk #145: Panama ist außerhalb des Sicherheitsignoranzfensters"
 date: 2016-04-10
+
 comments: true
 categories: talk
 sharing: true
@@ -17,6 +18,7 @@ Selbst mit dem normalen Studio kann einem die Aufnahme um die Ohren fliegen. Nä
 Trotz der diesmal schlechteren Audioqualität bieten wir knapp 4 Stunden beste unterhaltung mit Felix, Mat, Pfleidi und Ingo.
 
 Update: Seit 11.04 sind die Audiodateien in verbesserter Form online. Dabei sind knapp 2 Stunden der Sendung neu zusammen gebaut. Am Anfang und am Ende ist es die gleiche Version wie im ersten Release.
+
 
 # In eigener Sache
 

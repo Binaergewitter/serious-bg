@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #208: PoE WLAN-Kabel"
-date: 2018-07-26 09:00
+date: 2018-07-26 09:00:00
+
 comments: true
 categories: talk
 sharing: true

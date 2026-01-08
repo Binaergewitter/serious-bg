@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #184: Mainchain"
-date: 2017-10-28 20:00
+date: 2017-10-28 20:00:00
+
 comments: true
 categories: talk
 sharing: true

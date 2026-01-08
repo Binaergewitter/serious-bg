@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #118: zu frisch für Debian stable"
-date: 2015-03-28 10:00
+date: 2015-03-28 10:00:00
+
 comments: true
 categories: talk
 sharing: true

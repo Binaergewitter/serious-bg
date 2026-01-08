@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #175: Take 3"
-date: 2017-07-07 10:00
+date: 2017-07-07 10:00:00
+
 comments: true
 categories: talk
 sharing: true

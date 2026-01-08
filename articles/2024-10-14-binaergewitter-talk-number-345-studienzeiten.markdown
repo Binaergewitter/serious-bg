@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #345: zu Ingos Studienzeiten"
-date: 2024-10-14 18:00
+date: 2024-10-14 18:00:00
+
 comments: true
 categories: talk
 sharing: true

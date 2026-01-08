@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #97 - uber hex0r"
-date: 2014-06-13 10:00
+date: 2014-06-13 10:00:00
+
 comments: true
 categories: talk
 sharing: true

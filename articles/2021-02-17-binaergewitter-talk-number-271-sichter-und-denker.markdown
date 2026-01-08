@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #271: Sichter und Denker"
-date: 2021-02-17 17:30
+date: 2021-02-17 17:30:00
+
 comments: true
 categories: talk
 sharing: true
@@ -51,6 +52,7 @@ Wikipedia, iptables und andere krude Sachen haben Felix, Felix, Markus und Ingo 
 
 - [Pinecil]( https://www.pine64.org/pinecil/ )
 - [February Update: Show and Tell](https://www.pine64.org/2021/02/15/february-update-show-and-tell/)
+
     * [PCI-X]( https://en.wikipedia.org/wiki/PCI-X )
 - Nextcloud 20 - Dashbord
     * [abschalten](https://github.com/nextcloud/server/issues/24059 )

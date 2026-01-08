@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #151: Adblocker als Hackertool"
-date: 2016-06-24 12:00
+date: 2016-06-24 12:00:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,16 +1,21 @@
-FROM ruby:3.4.4
-ADD . /src
+# Build stage
+FROM klakegg/hugo:0.111.3-ext-alpine AS builder
+
+# Install wget if needed (though not for search anymore)
+RUN apk add --no-cache wget
+
 WORKDIR /src
+COPY . .
 
-ENV LC_ALL=C.UTF-8
-ENV LANG=en_US.UTF-8
-ENV LANGUAGE=en_US.UTF-8
-RUN bundle config set --global deployment true && \
-    bundle config set --global path vendor/bundle && \
-    bundle config set --global jobs 3 && \
-    bundle install
-RUN bundle exec rake test
+# Build the site (this generates index.json and podcast feeds)
+# Content Adapters and Search Output are handled natively by Hugo
+RUN hugo --minify
 
-EXPOSE 9292
+# Compress the search index for faster loading
+RUN gzip -k public/index.json
 
-CMD [ "bundle", "exec", "puma", "-e", "development", "-b", "tcp://0.0.0.0:9292" ]
+# Final stage
+FROM ghcr.io/fly-apps/hello-static:latest
+
+# Copy the built site from the builder stage
+COPY --from=builder /src/public /site

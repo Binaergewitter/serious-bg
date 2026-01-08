@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #164: Steckerchecker"
-date: 2017-01-21 19:00
+date: 2017-01-21 19:00:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #122: Hacker & Koch - Qualitäts-Cyberwaffen"
-date: 2015-06-12 18:00
+date: 2015-06-12 18:00:00
+
 comments: true
 categories: talk
 sharing: true

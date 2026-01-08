@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #98 - Tizen voraus!"
-date: 2014-06-27 12:12
+date: 2014-06-27 12:12:00
+
 comments: true
 categories: talk
 sharing: true

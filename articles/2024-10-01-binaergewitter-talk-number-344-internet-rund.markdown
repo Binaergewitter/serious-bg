@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #344: Das Internet ist rund"
-date: 2024-10-01 18:00
+date: 2024-10-01 18:00:00
+
 comments: true
 categories: talk
 sharing: true

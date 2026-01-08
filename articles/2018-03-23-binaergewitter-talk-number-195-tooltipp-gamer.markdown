@@ -2,6 +2,7 @@
 layout: post
 title: "Binärgewitter Talk #195: Tooltipp Gamer"
 date: 2018-03-09
+
 comments: true
 categories: talk
 sharing: true

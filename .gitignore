@@ -1,5 +1,14 @@
 .DS_Store
+.hugo_build.lock
 
+# Hugo build output
+public/
+resources/
+
+# Legacy Ruby/Bundler
 bin/
 .bundle/
 vendor/
+
+# Test artifacts
+*.log

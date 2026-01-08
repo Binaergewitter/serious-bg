@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #324: im Keller ist es billiger"
-date: 2023-11-02 20:00
+date: 2023-11-02 20:00:00
+
 comments: true
 categories: talk
 sharing: true

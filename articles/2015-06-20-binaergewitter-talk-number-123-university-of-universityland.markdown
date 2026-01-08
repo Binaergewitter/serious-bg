@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #123: University of Universityland"
-date: 2015-06-20 20:00
+date: 2015-06-20 20:00:00
+
 comments: true
 categories: talk
 sharing: true

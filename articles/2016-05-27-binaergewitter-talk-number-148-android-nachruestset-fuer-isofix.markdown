@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #148: Android Nachrüstset für Isofix"
-date: 2016-05-27 20:00
+date: 2016-05-27 20:00:00
+
 comments: true
 categories: talk
 sharing: true

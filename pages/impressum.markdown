@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Impressum und Datenschutz"
+slug: "impressum"
 comments: false
 sharing: false
 footer: true

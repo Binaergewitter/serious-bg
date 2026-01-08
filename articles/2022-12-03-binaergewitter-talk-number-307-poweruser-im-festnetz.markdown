@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #307: Power-User im Festnetz"
-date: 2022-12-03 12:00
+date: 2022-12-03 12:00:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #349: Blauhelm Browser"
-date: 2024-12-11 15:30
+date: 2024-12-11 15:30:00
+
 comments: true
 categories: talk
 sharing: true

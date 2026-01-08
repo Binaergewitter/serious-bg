@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #312: Wenn sich Deine Realität ändert bekommst du ein Pop-Up"
-date: 2023-03-10 18:00
+date: 2023-03-10 18:00:00
+
 comments: true
 categories: talk
 sharing: true

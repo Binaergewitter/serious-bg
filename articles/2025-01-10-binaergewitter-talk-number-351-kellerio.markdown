@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #351: Kellerio Abschalten"
-date: 2025-01-10 16:00
+date: 2025-01-10 16:00:00
+
 comments: true
 categories: talk
 sharing: true

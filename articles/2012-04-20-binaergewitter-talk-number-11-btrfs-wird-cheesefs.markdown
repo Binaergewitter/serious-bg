@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #11 - btrfs -> cheeseFS"
-date: 2012-04-20 14:00
+date: 2012-04-20 14:00:00
+
 comments: true
 categories: talk
 sharing: true

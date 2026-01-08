@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #283: das Python des kleinen Mannes"
-date: 2021-09-04 10:00
+date: 2021-09-04 10:00:00
+
 comments: true
 categories: talk
 sharing: true

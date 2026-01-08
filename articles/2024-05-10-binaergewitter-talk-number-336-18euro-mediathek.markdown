@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #336: 18 Euro Mediathek"
-date: 2024-05-10 14:00
+date: 2024-05-10 14:00:00
+
 comments: true
 categories: talk
 sharing: true

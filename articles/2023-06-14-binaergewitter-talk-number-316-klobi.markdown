@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #316: Klobi der Reddit Client"
-date: 2023-06-15 05:00
+date: 2023-06-15 05:00:00
+
 comments: true
 categories: talk
 sharing: true

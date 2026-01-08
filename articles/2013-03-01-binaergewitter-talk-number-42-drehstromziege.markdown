@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #42 - Drehstromziege"
-date: 2013-03-01 12:00
+date: 2013-03-01 12:00:00
+
 comments: true
 categories: talk
 sharing: true

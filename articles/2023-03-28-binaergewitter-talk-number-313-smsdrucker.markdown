@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #313: Die SMSAusdrucker"
-date: 2023-03-28 18:00
+date: 2023-03-28 18:00:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #155: Airbus Air Bus powered by Megadrohn"
-date: 2016-08-19 12:30
+date: 2016-08-19 12:30:00
+
 comments: true
 categories: talk
 sharing: true

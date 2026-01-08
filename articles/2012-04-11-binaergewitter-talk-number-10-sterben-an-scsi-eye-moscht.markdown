@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #010 - Sterben an SCSI Eye-Moscht"
-date: 2012-04-12 12:00
+date: 2012-04-12 12:00:00
+
 comments: true
 categories: talk
 sharing: true

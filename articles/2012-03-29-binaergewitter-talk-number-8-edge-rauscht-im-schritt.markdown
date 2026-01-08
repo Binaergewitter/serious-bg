@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #8 - EDGE rauscht im Schritt"
-date: 2012-03-29 12:00
+date: 2012-03-29 12:00:00
+
 comments: true
 categories: talk
 sharing: true

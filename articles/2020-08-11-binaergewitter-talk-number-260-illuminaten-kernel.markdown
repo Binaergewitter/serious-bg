@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #260: Der Illuminaten Kernel"
-date: 2020-08-11 16:30
+date: 2020-08-11 16:30:00
+
 comments: true
 categories: talk
 sharing: true

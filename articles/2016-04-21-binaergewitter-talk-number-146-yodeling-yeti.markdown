@@ -2,6 +2,7 @@
 layout: post
 title: "Binärgewitter Talk #146: force push Yodeling Yeti"
 date: 2016-04-22
+
 comments: true
 categories: talk
 sharing: true

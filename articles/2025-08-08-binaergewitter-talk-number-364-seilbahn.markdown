@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #364: Seilbahn statt Stau"
-date: 2025-08-08 15:00
+date: 2025-08-08 15:00:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #272: Excel ist ein BWL Simulator"
-date: 2021-02-23 17:30
+date: 2021-02-23 17:30:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #346: Duoingo"
-date: 2024-10-26 22:00
+date: 2024-10-26 22:00:00
+
 comments: true
 categories: talk
 sharing: true
@@ -46,6 +47,7 @@ Zurück auf eure Ohren. In dieser Episode von Binärgewitter Talk diskutieren In
 ## News
 - [Concerns Raised Over Bitwarden Moving Further Away From Open-Source]( https://www.phoronix.com/news/Bitwarden-Open-Source-Concerns )
   * [Update: SDK Lizenz wieder GPLv3]( https://github.com/bitwarden/sdk-internal/commit/db648d7ea85878e9cce03283694d01d878481f6b )
+
 - [Linux entfernt russische Entwickler aus dem Kernel-Team]( https://linuxnews.de/linux-entfernt-russische-entwickler/ )
 - [Spring Framework updaten]( https://www.heise.de/news/Spring-Framework-Angreifer-koennen-Dateien-einsehen-9987450.html )
 

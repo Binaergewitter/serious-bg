@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #44 -  In 54 lines of shell"
-date: 2013-03-15 12:00
+date: 2013-03-15 12:00:00
+
 comments: true
 categories: talk
 sharing: true

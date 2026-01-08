@@ -2,7 +2,8 @@
 layout: post
 title: "Binärgewitter Talk #15 - Cockford maximal strukturiert wegflickschustern"
 permalink: /blog/2012/05/26/binaergewitter-talk-number-14-cockford-maximal-strukturiert-wegflickschustern/
-date: 2012-05-26 12:30
+date: 2012-05-26 12:30:00
+
 comments: true
 categories: talk
 sharing: true

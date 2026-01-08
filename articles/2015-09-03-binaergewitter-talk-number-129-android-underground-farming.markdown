@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #129: Android Underground Farming"
-date: 2015-09-03 11:00
+date: 2015-09-03 11:00:00
+
 comments: true
 categories: talk
 sharing: true

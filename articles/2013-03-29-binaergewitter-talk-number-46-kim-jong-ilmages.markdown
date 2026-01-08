@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #46 - Kim Jong Ilmages"
-date: 2013-03-29 20:20
+date: 2013-03-29 20:20:00
+
 comments: true
 categories: talk
 sharing: true

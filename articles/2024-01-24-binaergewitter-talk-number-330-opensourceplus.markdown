@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #330: OpenSource Plus"
-date: 2024-01-20 18:00
+date: 2024-01-20 18:00:00
+
 comments: true
 categories: talk
 sharing: true

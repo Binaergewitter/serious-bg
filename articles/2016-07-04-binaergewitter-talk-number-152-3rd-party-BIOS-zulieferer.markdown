@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #152: 3rd Party BIOS-Zulieferer"
-date: 2016-07-07 01:00
+date: 2016-07-07 01:00:00
+
 comments: true
 categories: talk
 sharing: true

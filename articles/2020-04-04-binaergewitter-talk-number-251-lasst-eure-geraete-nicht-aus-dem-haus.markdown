@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #251: Lasst eure Geräte nicht aus dem Haus"
-date: 2020-04-04 18:00
+date: 2020-04-04 18:00:00
+
 comments: true
 categories: talk
 sharing: true

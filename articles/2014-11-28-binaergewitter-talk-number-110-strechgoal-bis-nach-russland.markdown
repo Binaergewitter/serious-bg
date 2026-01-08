@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #110: Stretch Goal bis nach Russland"
-date: 2014-11-28 17:00
+date: 2014-11-28 17:00:00
+
 comments: true
 categories: talk
 sharing: true

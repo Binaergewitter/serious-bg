@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #353: RegierungsGPT"
-date: 2025-02-12 21:00
+date: 2025-02-12 21:00:00
+
 comments: true
 categories: talk
 sharing: true

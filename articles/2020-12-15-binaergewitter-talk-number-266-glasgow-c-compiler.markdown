@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #266: Glasgow C Compiler"
-date: 2020-12-15 20:30
+date: 2020-12-15 20:30:00
+
 comments: true
 categories: talk
 sharing: true

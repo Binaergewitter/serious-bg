@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #181: Deep packet injection"
-date: 2017-09-15 15:00
+date: 2017-09-15 15:00:00
+
 comments: true
 categories: talk
 sharing: true

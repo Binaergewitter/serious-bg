@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #259: SNMP, Nein Danke!"
-date: 2020-07-21 16:30
+date: 2020-07-21 16:30:00
+
 comments: true
 categories: talk
 sharing: true

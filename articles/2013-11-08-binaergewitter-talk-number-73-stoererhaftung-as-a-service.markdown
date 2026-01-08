@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #73 - Störerhaftung as a Service"
-date: 2013-11-08 12:00
+date: 2013-11-08 12:00:00
+
 comments: true
 categories: talk
 sharing: true

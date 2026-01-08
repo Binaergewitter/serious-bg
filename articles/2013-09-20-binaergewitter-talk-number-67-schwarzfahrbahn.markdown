@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #67 - Schwarzfahrbahn"
-date: 2013-09-20 11:00
+date: 2013-09-20 11:00:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #268: Marie Kondo für Daten"
-date: 2021-01-09 18:30
+date: 2021-01-09 18:30:00
+
 comments: true
 categories: talk
 sharing: true

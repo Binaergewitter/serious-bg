@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #163: Code mit Migratonshintergrund"
-date: 2016-12-31 19:00
+date: 2016-12-31 19:00:00
+
 comments: true
 categories: talk
 sharing: true

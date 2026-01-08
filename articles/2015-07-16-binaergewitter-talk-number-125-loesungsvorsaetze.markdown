@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #125: Lösungsvorsätze"
-date: 2015-07-17 07:00
+date: 2015-07-17 07:00:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #17 - SysV Combat Scripts"
-date: 2012-06-08 13:30
+date: 2012-06-08 13:30:00
+
 comments: true
 categories: talk
 sharing: true

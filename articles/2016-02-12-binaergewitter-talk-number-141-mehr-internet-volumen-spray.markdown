@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #141: Mehr Internet-Volumen-Spray"
-date: 2016-01-12 10:00
+date: 2016-01-12 10:00:00
+
 comments: true
 categories: talk
 sharing: true

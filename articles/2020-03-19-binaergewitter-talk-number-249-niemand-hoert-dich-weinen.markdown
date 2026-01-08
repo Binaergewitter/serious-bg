@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #249: Im home office hört dich niemand weinen"
-date: 2020-03-19 21:00
+date: 2020-03-19 21:00:00
+
 comments: true
 categories: talk
 sharing: true

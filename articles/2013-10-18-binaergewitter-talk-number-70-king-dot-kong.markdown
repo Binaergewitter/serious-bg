@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #70 - KING DOT KONG"
-date: 2013-10-18 10:00
+date: 2013-10-18 10:00:00
+
 comments: true
 categories: talk
 sharing: true

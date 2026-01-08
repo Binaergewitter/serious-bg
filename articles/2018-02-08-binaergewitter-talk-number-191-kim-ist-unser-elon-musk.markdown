@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #191: Kim ist unser Elon Musk"
-date: 2018-02-08 14:00
+date: 2018-02-08 14:00:00
+
 comments: true
 categories: talk
 sharing: true

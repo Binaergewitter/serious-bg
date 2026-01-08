@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #223: Wahllabor"
-date: 2019-02-15 10:00
+date: 2019-02-15 10:00:00
+
 comments: true
 categories: talk
 sharing: true

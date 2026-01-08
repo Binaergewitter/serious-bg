@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #56 - durch Maxibriefe punchen"
-date: 2013-06-28 20:45
+date: 2013-06-28 20:45:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #128: die wollten in den Gelben Seiten vor Apple sein"
-date: 2015-08-14 11:00
+date: 2015-08-14 11:00:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #192: Bitcoinheizung"
-date: 2018-02-16 14:00
+date: 2018-02-16 14:00:00
+
 comments: true
 categories: talk
 sharing: true

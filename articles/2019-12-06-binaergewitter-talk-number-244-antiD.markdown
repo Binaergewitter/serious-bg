@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #244: antiD"
-date: 2019-12-06 10:00
+date: 2019-12-06 10:00:00
+
 comments: true
 categories: talk
 sharing: true

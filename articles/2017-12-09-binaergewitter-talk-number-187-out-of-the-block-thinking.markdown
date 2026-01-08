@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #187: out of the block thinking"
-date: 2017-12-09 16:00
+date: 2017-12-09 16:00:00
+
 comments: true
 categories: talk
 sharing: true

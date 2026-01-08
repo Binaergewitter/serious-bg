@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #277: Coolbernetes"
-date: 2021-05-14 18:00
+date: 2021-05-14 18:00:00
+
 comments: true
 categories: talk
 sharing: true

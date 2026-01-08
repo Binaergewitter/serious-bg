@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #111: UMTS aus der Hohlerde hacken"
-date: 2014-12-19 17:00
+date: 2014-12-19 17:00:00
+
 comments: true
 categories: talk
 sharing: true

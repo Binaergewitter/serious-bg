@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #237: Bug Bunny"
-date: 2019-07-25 14:00
+date: 2019-07-25 14:00:00
+
 comments: true
 categories: talk
 sharing: true

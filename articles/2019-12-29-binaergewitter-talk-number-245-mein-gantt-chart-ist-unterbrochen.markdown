@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #245: Mein Gantt Chart ist unterbrochen"
-date: 2019-12-29 10:00
+date: 2019-12-29 10:00:00
+
 comments: true
 categories: talk
 sharing: true

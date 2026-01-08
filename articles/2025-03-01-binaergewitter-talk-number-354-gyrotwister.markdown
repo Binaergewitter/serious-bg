@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #354: Gyrotwister Power Bank"
-date: 2025-03-01 21:00
+date: 2025-03-01 21:00:00
+
 comments: true
 categories: talk
 sharing: true

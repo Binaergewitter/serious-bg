@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #217: Go2ReleaseParty"
-date: 2018-11-30 12:30
+date: 2018-11-30 12:30:00
+
 comments: true
 categories: talk
 sharing: true

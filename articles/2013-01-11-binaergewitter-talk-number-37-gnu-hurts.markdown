@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #37 - GNU/Hurts"
-date: 2013-01-11 20:00
+date: 2013-01-11 20:00:00
+
 comments: true
 categories: talk
 sharing: true

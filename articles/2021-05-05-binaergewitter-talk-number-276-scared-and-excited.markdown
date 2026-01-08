@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #276: We are scared and excited"
-date: 2021-05-05 10:30
+date: 2021-05-05 10:30:00
+
 comments: true
 categories: talk
 sharing: true

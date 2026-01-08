@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #34 - Sicherheit durch Ignoranz"
-date: 2012-11-30 14:00
+date: 2012-11-30 14:00:00
+
 comments: true
 categories: talk
 sharing: true

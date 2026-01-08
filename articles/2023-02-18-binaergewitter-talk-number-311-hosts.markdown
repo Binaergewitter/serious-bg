@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #311: auch ein Host von Binärgewitter"
-date: 2023-02-18 18:00
+date: 2023-02-18 18:00:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #126: nur dumme Leute im Internet!"
-date: 2015-07-31 07:00
+date: 2015-07-31 07:00:00
+
 comments: true
 categories: talk
 sharing: true

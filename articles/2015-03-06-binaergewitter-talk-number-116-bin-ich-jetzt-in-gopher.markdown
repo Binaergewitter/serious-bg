@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #116: Bin ich jetzt in Gopher"
-date: 2015-03-06 17:00
+date: 2015-03-06 17:00:00
+
 comments: true
 categories: talk
 sharing: true

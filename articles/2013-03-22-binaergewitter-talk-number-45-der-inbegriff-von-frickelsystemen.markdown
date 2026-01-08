@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #45 - Der Inbegriff von Frickelsystemen"
-date: 2013-03-22 13:00
+date: 2013-03-22 13:00:00
+
 comments: true
 categories: talk
 sharing: true

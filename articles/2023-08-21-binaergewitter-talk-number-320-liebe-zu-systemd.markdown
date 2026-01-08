@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #320: Für die Liebe zu systemd"
-date: 2023-08-21 22:00
+date: 2023-08-21 22:00:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #91 - Unkontrollierte Panik mit schönem Icon"
-date: 2014-04-11 17:00
+date: 2014-04-11 17:00:00
+
 comments: true
 categories: talk
 sharing: true

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #68 - Poli Podcast in Stereo"
-date: 2013-09-27 12:00
+date: 2013-09-27 12:00:00
+
 comments: true
 categories: talk
 sharing: true

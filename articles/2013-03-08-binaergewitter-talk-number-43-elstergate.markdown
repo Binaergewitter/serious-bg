@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #43 - Elstergate"
-date: 2013-03-08 11:00
+date: 2013-03-08 11:00:00
+
 comments: true
 categories: talk
 sharing: true

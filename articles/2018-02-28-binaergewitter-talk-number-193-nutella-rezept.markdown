@@ -2,6 +2,7 @@
 layout: post
 title: "Binärgewitter Talk #193: Die beste Entscheidung seit dem neuen Nutella Rezept"
 date: 2018-02-28
+
 comments: true
 categories: talk
 sharing: true

@@ -1,0 +1,122 @@
+{{ $audioFormats := .Params.audioformats }}
+{{ if $audioFormats }}
+{{ $firstFormat := "" }}
+{{ $firstUrl := "" }}
+{{ range $k, $v := $audioFormats }}
+{{ if eq $firstFormat "" }}
+{{ $firstFormat = $k }}
+{{ $firstUrl = $v }}
+{{ end }}
+{{ end }}
+
+{{ $metaUrl := $firstUrl }}
+{{ range slice "mp3" "ogg" "opus" "m4a" }}
+{{ $metaUrl = replace $metaUrl (printf ".%s" .) ".json" }}
+{{ end }}
+{{ $chaptersUrl := .Params.chapters }}
+{{ if not $chaptersUrl }}
+{{ $chaptersUrl = $firstUrl }}
+{{ range slice "mp3" "ogg" "opus" "m4a" }}
+{{ $chaptersUrl = replace $chaptersUrl (printf ".%s" .) ".chapters.txt" }}
+{{ end }}
+{{ end }}
+
+{{ $meta := "" }}
+{{ if (hasPrefix $metaUrl "http") }}
+{{ with resources.GetRemote $metaUrl }}
+{{ if .Content }}
+{{ $meta = .Content | transform.Unmarshal }}
+{{ end }}
+{{ end }}
+{{ end }}
+
+{{ $duration := "00:00:00" }}
+{{ $fileSizes := dict }}
+{{ if $meta }}
+{{ if reflect.IsMap $meta }}
+{{ $duration = index (split $meta.length_timestring ".") 0 }}
+{{ range $meta.output_files }}
+{{ $fileSizes = merge $fileSizes (dict .ending (.size | default 0)) }}
+{{ end }}
+{{ end }}
+{{ end }}
+
+{{ $chaptersRaw := "" }}
+{{ if (hasPrefix $chaptersUrl "http") }}
+{{ with resources.GetRemote $chaptersUrl }}
+{{ if .Content }}
+{{ $chaptersRaw = .Content }}
+{{ end }}
+{{ end }}
+{{ end }}
+
+{{ $chapters := slice }}
+{{ if $chaptersRaw }}
+{{ $lines := split $chaptersRaw "\n" }}
+{{ range $lines }}
+{{ $line := trim . " \r" }}
+{{ if $line }}
+{{ $parts := split $line " " }}
+{{ if ge (len $parts) 2 }}
+{{ $time := index $parts 0 }}
+{{ $titleParts := after 1 $parts }}
+{{ $title := delimit $titleParts " " }}
+{{ $chapters = $chapters | append (dict "start" $time "title" $title) }}
+{{ end }}
+{{ end }}
+{{ end }}
+{{ end }}
+
+<div class="podcast_player" style="width:100%;">
+    <p>
+    <div id="player-{{ .File.BaseFileName }}"></div>
+    </p>
+    <script>
+        head.ready('podlove', function () {
+            podlovePlayer('#player-{{ .File.BaseFileName }}',
+                {
+                    link: {{ .Permalink | jsonify | safeJS }},
+            title: {{ .Title | jsonify | safeJS }},
+            duration: {{ $duration | jsonify | safeJS }},
+            poster: {{ "img/binaergewitter_logo1x1.png" | relURL | jsonify | safeJS }},
+            chapters: {{ $chapters | jsonify | safeJS }},
+            transcripts: {{ .Params.transcript | default "" | jsonify | safeJS }},
+            audio: [
+            {{ range $format, $url:= $audioFormats }}
+            {
+                url: {{ $url | jsonify | safeJS }},
+            mimeType: 'audio/{{ $format }}',
+            size: {{ index $fileSizes $format | default 0 }},
+            title: 'Audio {{ $format }}'
+          },
+            {{ end }}
+        ],
+      }, {
+                version: 5,
+                base: {{ "podlove-web-player/" | relURL | jsonify | safeJS }},
+            theme: {
+            tokens: {
+                brand: "#7FAF1B",
+                brandDark: "#202c07",
+                brandDarkest: "#1B4D3E",
+                brandLightest: "#7faf1b",
+                shadeDark: "#807E7C",
+                shadeBase: "#807E7C",
+                contrast: "#fff",
+                alt: "#fff"
+            }
+        },
+            share: {
+            channels: [
+                "linkedin",
+                "mail",
+                "link"
+            ],
+            outlet: {{ "share.html" | relURL | jsonify | safeJS }},
+            sharePlaytime: true
+                }
+            });
+    });
+    </script>
+</div>
+{{ end }}

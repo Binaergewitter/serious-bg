@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Binärgewitter Talk #168: Jute-Phone"
-date: 2017-03-18 07:00
+date: 2017-03-18 07:00:00
+
 comments: true
 categories: talk
 sharing: true
