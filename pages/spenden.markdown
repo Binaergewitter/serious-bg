@@ -24,7 +24,7 @@ Wir freuen uns auch über Daueraufträge oder Einmalzahlungen auf:
     BIC: COBADEHD001
 
 
-![Bezahl QR Code](../img/bankqrcode.png)
+![Bezahl QR Code](/img/bankqrcode.png)
 
 
 <h3>Hinweis</h3>Finanzielle Zuwendungen in Form von Spenden sind freiwillig, nicht erstattbar und werden ordnungsgemäß als Einnahme versteuert &#8211; nach <a href="https://www.gesetze-im-internet.de/bgb/__516.html">§ 516 BGB</a> handelt es sich um Schenkungen. Es werden keine Spendenbescheinigungen oder Rechnungen mit ausgewiesener Umsatzsteuer ausgestellt.
