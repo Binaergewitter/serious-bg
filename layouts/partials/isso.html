@@ -1,8 +1,32 @@
-<section id="isso-thread" data-isso-id="{{ .RelPermalink | strings.TrimSuffix "/" }}" data-title="{{ .Title }}"></section>
+<section id="isso-thread" data-isso-id="{{ .RelPermalink | strings.TrimSuffix "/" }}" data-title="{{ .Title }}">
+</section>
+
+<div id="isso-placeholder"
+    style="display: none; border: 2px dashed #999; padding: 20px; text-align: center; margin: 20px 0; border-radius: 8px; background: #fafafa;">
+    <p style="margin: 0; color: #666;">
+        <strong>Local Environment:</strong> Comments from <code>comments.binaergewitter.de</code> would appear here.
+    </p>
+</div>
+
 <script data-isso="//comments.binaergewitter.de/" data-isso-css="true" data-isso-lang="de"
     data-isso-reply-to-self="true" data-isso-require-author="false" data-isso-require-email="false"
     data-isso-max-comments-top="10" data-isso-max-comments-nested="5" data-isso-reveal-on-click="5"
     data-isso-avatar="true" data-isso-avatar-bg="#f5f6f6" data-isso-avatar-fg="#7FAF1B" data-isso-vote="true"
     data-isso-vote-levels="" src="//comments.binaergewitter.de/js/embed.min.js"></script>
+
+<script>
+    (function () {
+        if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+            setTimeout(function () {
+                var thread = document.getElementById('isso-thread');
+                var placeholder = document.getElementById('isso-placeholder');
+                if (thread && thread.innerHTML.trim() === '' && placeholder) {
+                    placeholder.style.display = 'block';
+                }
+            }, 2000);
+        }
+    })();
+</script>
+
 <noscript>Please enable JavaScript to view the comments powered by <a
         href="https://posativ.org/isso/">Isso</a>.</noscript>
