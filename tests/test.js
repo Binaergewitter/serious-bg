@@ -443,6 +443,27 @@ function testNginxConfig() {
     }
 }
 
+// Test 12: Isso comments only on articles (not pages)
+function testIssoExclusion() {
+    console.log('\n💬 Testing Isso exclusion on pages...');
+
+    // Article should have it
+    const articlePath = path.join(PUBLIC_DIR, '2025/12/29/binaergewitter-talk-number-372/index.html');
+    if (fs.existsSync(articlePath)) {
+        const content = fs.readFileSync(articlePath, 'utf8');
+        assert(content.includes('id="isso-thread"'), 'Article contains Isso thread');
+        console.log('✅ Article contains Isso thread');
+    }
+
+    // Page should NOT have it
+    const livePath = path.join(PUBLIC_DIR, 'pages/live/index.html');
+    if (fs.existsSync(livePath)) {
+        const content = fs.readFileSync(livePath, 'utf8');
+        assert(!content.includes('id="isso-thread"'), 'Live page does NOT contain Isso thread');
+        console.log('✅ Live page correctly excludes Isso thread');
+    }
+}
+
 // Test 9: All articles have required front matter
 function testArticleFrontMatter() {
     console.log('\n📝 Testing article front matter...');
@@ -499,6 +520,7 @@ async function runTests() {
     testSocialTags();
     testRSSMetadata();
     testNginxConfig();
+    testIssoExclusion();
     testArticleFrontMatter();
     await testAudioLinks();
 
