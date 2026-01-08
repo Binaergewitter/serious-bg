@@ -156,15 +156,18 @@ async function testAudioLinks() {
 }
 
 // Test 4: Critical pages exist
-function testCriticalPages() {
-    console.log('\n📄 Testing critical pages...');
+// Test 3: Headline pages exist
+function testHeadlinePages() {
+    console.log('\n📄 Testing headline pages...');
 
     const pages = [
         'index.html',
         'archives/index.html',
         'pages/abonnieren/index.html',
         'pages/ueber-uns/index.html',
-        'pages/impressum/index.html'
+        'pages/impressum/index.html',
+        'pages/live/index.html',
+        'pages/spenden/index.html'
     ];
 
     pages.forEach(page => {
@@ -471,7 +474,7 @@ async function runTests() {
     // Run tests
     testSearchIndex();
     testRSSFeeds();
-    testCriticalPages();
+    testHeadlinePages();
     testNoEncodedSpaces();
     testSearchIndexGzip();
     testIssoComments();
