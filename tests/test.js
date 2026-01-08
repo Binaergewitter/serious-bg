@@ -156,23 +156,39 @@ async function testAudioLinks() {
 }
 
 // Test 4: Critical pages exist
-// Test 3: Headline pages exist
-function testHeadlinePages() {
-    console.log('\n📄 Testing headline pages...');
+// Test 3: Navigation links resolve to existing files
+function testNavigationLinks() {
+    console.log('\n🧭 Testing navigation links...');
+    const indexContent = fs.readFileSync(path.join(PUBLIC_DIR, 'index.html'), 'utf8');
 
-    const pages = [
-        'index.html',
-        'archives/index.html',
-        'pages/abonnieren/index.html',
-        'pages/ueber-uns/index.html',
-        'pages/impressum/index.html',
-        'pages/live/index.html',
-        'pages/spenden/index.html'
-    ];
+    // Extract the nav block
+    const navMatch = indexContent.match(/<nav[\s\S]*?<\/nav>/);
+    if (!navMatch) {
+        assert(false, 'Navigation bar not found in index.html');
+        return;
+    }
 
-    pages.forEach(page => {
-        const pagePath = path.join(PUBLIC_DIR, page);
-        assert(fs.existsSync(pagePath), `${page} exists`);
+    const navContent = navMatch[0];
+    const hrefMatches = navContent.match(/href="([^"]+)"/g) || [];
+
+    hrefMatches.forEach(hrefTag => {
+        const href = hrefTag.match(/href="([^"]+)"/)[1];
+
+        // Skip absolute external links or special protocols
+        if (href.startsWith('http') || href.startsWith('mailto:') || href.startsWith('irc:')) return;
+
+        // Path to check
+        let checkPath = href;
+        if (checkPath.endsWith('/')) {
+            checkPath += 'index.html';
+        }
+        if (checkPath.startsWith('/')) {
+            checkPath = checkPath.substring(1);
+        }
+
+        const fullPath = path.join(PUBLIC_DIR, checkPath);
+        assert(fs.existsSync(fullPath), `Navigation link "${href}" resolves to ${fullPath}`);
+        console.log(`✅ Navigation link "${href}" exists`);
     });
 }
 
@@ -474,7 +490,7 @@ async function runTests() {
     // Run tests
     testSearchIndex();
     testRSSFeeds();
-    testHeadlinePages();
+    testNavigationLinks();
     testNoEncodedSpaces();
     testSearchIndexGzip();
     testIssoComments();
