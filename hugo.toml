@@ -7,7 +7,7 @@ languageCode = "de"
 title = "Binärgewitter"
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS", "JSON", "LatestShow"]
 
 [author]
   name = "Binärgewitter Team"
@@ -25,14 +25,21 @@ title = "Binärgewitter"
   pages = "/pages/:slug"
   category = "/podcast_feed/:slug"
 
-[outputFormats]
   [outputFormats.RSS]
     baseName = "rss"
     mediaType = "application/rss+xml"
+  [outputFormats.LatestShow]
+    baseName = "latest-show"
+    mediaType = "text/plain-nosuffix"
+    isPlainText = true
+    notAlternative = true
 
 [mediaTypes]
   [mediaTypes."application/rss+xml"]
     suffixes = ["xml"]
+  [mediaTypes."text/plain-nosuffix"]
+    suffixes = [""]
+    delimiter = ""
 
 [taxonomies]
   category = "categories"
