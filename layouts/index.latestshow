@@ -1,0 +1,8 @@
+{{- $pages := where .Site.RegularPages "Section" "post" -}}
+{{- $latest := index $pages 0 -}}
+{{- if $latest -}}
+    {{- $number := $latest.Title | findRE "#([0-9]+)" -}}
+    {{- if $number -}}
+        {{- (index $number 0) | replaceRE "#" "" | safeHTML -}}
+    {{- end -}}
+{{- end -}}

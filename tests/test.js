@@ -443,7 +443,41 @@ function testNginxConfig() {
     }
 }
 
-// Test 12: Isso comments only on articles (not pages)
+// Test 12: Latest show endpoint exists and is dynamic
+function testLatestShow() {
+    console.log('\n🔢 Testing latest-show...');
+    const latestShowPath = path.join(PUBLIC_DIR, 'latest-show');
+
+    if (fs.existsSync(latestShowPath)) {
+        try {
+            const content = fs.readFileSync(latestShowPath, 'utf8').trim();
+            assert(/^\d+$/.test(content), `latest-show contains a number: ${content}`);
+
+            // Look for the latest post in the articles directory to verify against
+            const articlesDir = path.join(__dirname, '../articles');
+            const files = fs.readdirSync(articlesDir)
+                .filter(f => f.endsWith('.md') || f.endsWith('.markdown'))
+                .sort()
+                .reverse();
+
+            if (files.length > 0) {
+                const latestFile = files[0];
+                const fileContent = fs.readFileSync(path.join(articlesDir, latestFile), 'utf8');
+                const titleMatch = fileContent.match(/title:.*#(\d+)/m);
+                if (titleMatch) {
+                    const expectedNumber = titleMatch[1];
+                    assert(content === expectedNumber, `latest-show number ${content} matches latest article's number ${expectedNumber}`);
+                }
+            }
+        } catch (err) {
+            assert(false, `latest-show is readable: ${err.message}`);
+        }
+    } else {
+        assert(false, 'latest-show exists');
+    }
+}
+
+// Test 13: Isso comments only on articles (not pages)
 function testIssoExclusion() {
     console.log('\n💬 Testing Isso exclusion on pages...');
 
@@ -520,6 +554,7 @@ async function runTests() {
     testSocialTags();
     testRSSMetadata();
     testNginxConfig();
+    testLatestShow();
     testIssoExclusion();
     testArticleFrontMatter();
     await testAudioLinks();
