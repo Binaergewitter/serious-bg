@@ -1,6 +1,7 @@
 baseURL = "https://blog.binaergewitter.de"
 relativeURLs = true
 canonifyURLs = false
+uglyURLs = false
 disablePathToLower = true
 languageCode = "de"
 title = "Binärgewitter"
