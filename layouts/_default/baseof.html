@@ -14,7 +14,7 @@
     head.load({{ "css/coderay.css" | relURL }})
   </script>
 
-  <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="{{ " rss.xml" | relURL }}" />
+  <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="{{ "rss.xml" | relURL }}" />
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -36,10 +36,10 @@
 
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 
-  <link rel="shortcut icon" href="{{ " favicon.ico" | relURL }}" type="image/x-icon" />
-  <link rel="apple-touch-icon" href="{{ " apple-touch-icon.png" | relURL }}" />
+  <link rel="shortcut icon" href="{{ "favicon.ico" | relURL }}" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | relURL }}" />
   {{ range (slice 57 72 76 114 120 144 152 180) }}
-  <link rel="apple-touch-icon" sizes="{{ . }}x{{ . }}" href="{{ (printf " apple-touch-icon-%dx%d.png" . .) | relURL
+  <link rel="apple-touch-icon" sizes="{{ . }}x{{ . }}" href="{{ (printf "apple-touch-icon-%dx%d.png" . .) | relURL
     }}" />
   {{ end }}
 
@@ -156,7 +156,7 @@
       <div class="col-md-9">
         <div class="row visible-md visible-lg">
           <div class="col-md-3">
-            <img class="header-logo" src="{{ "img/binaergewitter_logo.svg" | relURL }}">
+            <img class="header-logo" src="{{ " img/binaergewitter_logo.svg" | relURL }}">
           </div>
           <div class="col-md-9" style="padding-top:20px">
             <h1>

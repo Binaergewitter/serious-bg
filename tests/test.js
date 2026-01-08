@@ -222,7 +222,157 @@ function testSearchIndexGzip() {
     }
 }
 
-// Test 6: All articles have required front matter
+// Test 6: Isso comments use relative paths without trailing slashes
+function testIssoComments() {
+    console.log('\n💬 Testing Isso comments configuration...');
+
+    // Find a post page to test
+    const postDirs = fs.readdirSync(PUBLIC_DIR)
+        .filter(f => /^\d{4}$/.test(f)); // Year directories
+
+    if (postDirs.length === 0) {
+        console.log('⚠️  No post directories found to test Isso');
+        return;
+    }
+
+    // Find first post HTML file
+    let testPostPath = null;
+    for (const year of postDirs.slice(0, 3)) {
+        const yearPath = path.join(PUBLIC_DIR, year);
+        const months = fs.readdirSync(yearPath).filter(f => fs.statSync(path.join(yearPath, f)).isDirectory());
+
+        for (const month of months.slice(0, 2)) {
+            const monthPath = path.join(yearPath, month);
+            const days = fs.readdirSync(monthPath).filter(f => fs.statSync(path.join(monthPath, f)).isDirectory());
+
+            for (const day of days.slice(0, 2)) {
+                const dayPath = path.join(yearPath, month, day);
+                const posts = fs.readdirSync(dayPath).filter(f => fs.statSync(path.join(dayPath, f)).isDirectory());
+
+                if (posts.length > 0) {
+                    testPostPath = path.join(dayPath, posts[0], 'index.html');
+                    break;
+                }
+            }
+            if (testPostPath) break;
+        }
+        if (testPostPath) break;
+    }
+
+    if (!testPostPath || !fs.existsSync(testPostPath)) {
+        console.log('⚠️  Could not find a post to test Isso configuration');
+        return;
+    }
+
+    const content = fs.readFileSync(testPostPath, 'utf8');
+
+    // Check for isso-thread element with data-isso-id
+    const issoThreadMatch = content.match(/<section[^>]*id="isso-thread"[^>]*data-isso-id="([^"]+)"/);
+
+    if (issoThreadMatch) {
+        const issoId = issoThreadMatch[1];
+
+        // Should be a relative path
+        assert(
+            issoId.startsWith('/'),
+            'Isso data-isso-id uses relative path (starts with /)'
+        );
+
+        // Should NOT have trailing slash (comments stored without it)
+        assert(
+            !issoId.endsWith('/'),
+            'Isso data-isso-id has no trailing slash (matches comment storage format)'
+        );
+
+        // Should NOT contain domain or port
+        assert(
+            !issoId.includes('://') && !issoId.includes(':8080'),
+            'Isso data-isso-id contains no domain or port'
+        );
+    } else {
+        console.log('⚠️  Could not find isso-thread element in post');
+    }
+}
+
+// Test 7: RSS GUIDs use relative URLs for stability
+function testRSSGUIDs() {
+    console.log('\n📻 Testing RSS feed GUID format...');
+
+    const feedPath = path.join(PUBLIC_DIR, 'rss.xml');
+
+    if (!fs.existsSync(feedPath)) {
+        assert(false, 'RSS feed exists');
+        return;
+    }
+
+    const content = fs.readFileSync(feedPath, 'utf8');
+
+    // Find all GUIDs in the feed
+    const guidMatches = content.match(/<guid[^>]*>([^<]+)<\/guid>/g);
+
+    if (!guidMatches || guidMatches.length === 0) {
+        assert(false, 'RSS feed contains GUIDs');
+        return;
+    }
+
+    // Check first few GUIDs
+    let relativeCount = 0;
+    let absoluteCount = 0;
+
+    guidMatches.slice(0, 5).forEach(guidTag => {
+        const guidMatch = guidTag.match(/<guid[^>]*>([^<]+)<\/guid>/);
+        if (guidMatch) {
+            const guid = guidMatch[1];
+            if (guid.startsWith('/')) {
+                relativeCount++;
+            } else if (guid.includes('://')) {
+                absoluteCount++;
+            }
+        }
+    });
+
+    assert(
+        relativeCount > 0 && absoluteCount === 0,
+        `RSS GUIDs use relative paths (${relativeCount} relative, ${absoluteCount} absolute)`
+    );
+
+    if (absoluteCount > 0) {
+        console.log('  ⚠️  Absolute GUIDs will cause podcatchers to mark episodes as new!');
+    }
+}
+
+// Test 8: RSS feeds don't contain %20
+function testRSSNoEncodedSpaces() {
+    console.log('\n📡 Testing RSS feeds for URL encoding issues...');
+
+    const feeds = [
+        'rss.xml',
+        'podcast_feed/all/mp3/rss.xml',
+        'podcast_feed/talk/mp3/rss.xml'
+    ];
+
+    feeds.forEach(feed => {
+        const feedPath = path.join(PUBLIC_DIR, feed);
+        if (fs.existsSync(feedPath)) {
+            const content = fs.readFileSync(feedPath, 'utf8');
+
+            // Check for %20 in URLs (usually in enclosure url or link)
+            const urlMatches = content.match(/(url|link)="[^"]*"/g) || [];
+            const encodedSpaceUrls = urlMatches.filter(url => url.includes('%20'));
+
+            assert(
+                encodedSpaceUrls.length === 0,
+                `No URLs in ${feed} contain %20 encoding (found ${encodedSpaceUrls.length})`
+            );
+
+            if (encodedSpaceUrls.length > 0) {
+                console.log(`  Found %20 in ${feed}:`, encodedSpaceUrls.slice(0, 3));
+            }
+        }
+    });
+}
+
+// Test 9: All articles have required front matter
 function testArticleFrontMatter() {
     console.log('\n📝 Testing article front matter...');
 
@@ -272,6 +422,9 @@ async function runTests() {
     testCriticalPages();
     testNoEncodedSpaces();
     testSearchIndexGzip();
+    testIssoComments();
+    testRSSGUIDs();
+    testRSSNoEncodedSpaces();
     testArticleFrontMatter();
     await testAudioLinks();
 
