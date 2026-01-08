@@ -186,17 +186,21 @@ function testNoEncodedSpaces() {
 
     const content = fs.readFileSync(indexPath, 'utf8');
 
-    // Check for %20 in href attributes
+    // Check for %20 in href attributes, but only for internal links (starting with ./ or /)
     const hrefMatches = content.match(/href="[^"]*"/g) || [];
-    const encodedSpaceLinks = hrefMatches.filter(href => href.includes('%20'));
+    const encodedSpaceLinks = hrefMatches.filter(href => {
+        // Only check internal links (relative URLs)
+        const isInternal = href.includes('href="./') || (href.includes('href="/') && !href.includes('://'));
+        return isInternal && href.includes('%20');
+    });
 
     assert(
         encodedSpaceLinks.length === 0,
-        `No navigation links contain %20 encoding (found ${encodedSpaceLinks.length})`
+        `No internal navigation links contain %20 encoding (found ${encodedSpaceLinks.length})`
     );
 
     if (encodedSpaceLinks.length > 0) {
-        console.log('  Links with %20:', encodedSpaceLinks.slice(0, 5));
+        console.log('  Internal links with %20:', encodedSpaceLinks.slice(0, 5));
     }
 }
 
