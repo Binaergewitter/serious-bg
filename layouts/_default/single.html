@@ -8,7 +8,7 @@
         {{ .Content }}
     </div>
 
-    {{ if .Site.Params.isso }}
+    {{ if and .Site.Params.isso (eq .Section "post") }}
     <hr>
     {{ partial "isso.html" . }}
     {{ end }}
