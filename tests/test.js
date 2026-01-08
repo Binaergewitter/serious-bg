@@ -156,20 +156,39 @@ async function testAudioLinks() {
 }
 
 // Test 4: Critical pages exist
-function testCriticalPages() {
-    console.log('\n📄 Testing critical pages...');
+// Test 3: Navigation links resolve to existing files
+function testNavigationLinks() {
+    console.log('\n🧭 Testing navigation links...');
+    const indexContent = fs.readFileSync(path.join(PUBLIC_DIR, 'index.html'), 'utf8');
 
-    const pages = [
-        'index.html',
-        'archives/index.html',
-        'pages/abonnieren/index.html',
-        'pages/ueber-uns/index.html',
-        'pages/impressum/index.html'
-    ];
+    // Extract the nav block
+    const navMatch = indexContent.match(/<nav[\s\S]*?<\/nav>/);
+    if (!navMatch) {
+        assert(false, 'Navigation bar not found in index.html');
+        return;
+    }
 
-    pages.forEach(page => {
-        const pagePath = path.join(PUBLIC_DIR, page);
-        assert(fs.existsSync(pagePath), `${page} exists`);
+    const navContent = navMatch[0];
+    const hrefMatches = navContent.match(/href="([^"]+)"/g) || [];
+
+    hrefMatches.forEach(hrefTag => {
+        const href = hrefTag.match(/href="([^"]+)"/)[1];
+
+        // Skip absolute external links or special protocols
+        if (href.startsWith('http') || href.startsWith('mailto:') || href.startsWith('irc:')) return;
+
+        // Path to check
+        let checkPath = href;
+        if (checkPath.endsWith('/')) {
+            checkPath += 'index.html';
+        }
+        if (checkPath.startsWith('/')) {
+            checkPath = checkPath.substring(1);
+        }
+
+        const fullPath = path.join(PUBLIC_DIR, checkPath);
+        assert(fs.existsSync(fullPath), `Navigation link "${href}" resolves to ${fullPath}`);
+        console.log(`✅ Navigation link "${href}" exists`);
     });
 }
 
@@ -424,6 +443,38 @@ function testNginxConfig() {
     }
 }
 
+// Test 12: Isso comments only on articles (not pages)
+function testIssoExclusion() {
+    console.log('\n💬 Testing Isso exclusion on pages...');
+
+    // Article should have it
+    const articlePath = path.join(PUBLIC_DIR, '2025/12/29/binaergewitter-talk-number-372/index.html');
+    if (fs.existsSync(articlePath)) {
+        const content = fs.readFileSync(articlePath, 'utf8');
+        assert(content.includes('id="isso-thread"'), 'Article contains Isso thread');
+        console.log('✅ Article contains Isso thread');
+    }
+
+    // Page should NOT have it
+    const livePath = path.join(PUBLIC_DIR, 'pages/live/index.html');
+    if (fs.existsSync(livePath)) {
+        const content = fs.readFileSync(livePath, 'utf8');
+        assert(!content.includes('id="isso-thread"'), 'Live page does NOT contain Isso thread');
+        console.log('✅ Live page correctly excludes Isso thread');
+    }
+}
+
+// Test 13: Latest show number text file
+function testLatestShowNumber() {
+    console.log('\n📡 Testing latest-show number...');
+    const latestPath = path.join(PUBLIC_DIR, 'latest-show');
+    if (fs.existsSync(latestPath)) {
+        const content = fs.readFileSync(latestPath, 'utf8').trim();
+        assert(/^\d+$/.test(content), `latest-show contains a number (found "${content}")`);
+        console.log(`✅ latest-show contains number: ${content}`);
+    }
+}
+
 // Test 9: All articles have required front matter
 function testArticleFrontMatter() {
     console.log('\n📝 Testing article front matter...');
@@ -471,7 +522,7 @@ async function runTests() {
     // Run tests
     testSearchIndex();
     testRSSFeeds();
-    testCriticalPages();
+    testNavigationLinks();
     testNoEncodedSpaces();
     testSearchIndexGzip();
     testIssoComments();
@@ -480,6 +531,8 @@ async function runTests() {
     testSocialTags();
     testRSSMetadata();
     testNginxConfig();
+    testIssoExclusion();
+    testLatestShowNumber();
     testArticleFrontMatter();
     await testAudioLinks();
 

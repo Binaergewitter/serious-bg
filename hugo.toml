@@ -8,6 +8,7 @@ title = "Binärgewitter"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+  page = ["HTML", "PLAIN"]
 
 [author]
   name = "Binärgewitter Team"
@@ -29,10 +30,17 @@ title = "Binärgewitter"
   [outputFormats.RSS]
     baseName = "rss"
     mediaType = "application/rss+xml"
+  [outputFormats.PLAIN]
+    baseName = "latest-show"
+    mediaType = "text/plain"
+    isHTML = false
+    noUgly = true
 
 [mediaTypes]
   [mediaTypes."application/rss+xml"]
     suffixes = ["xml"]
+  [mediaTypes."text/plain"]
+    suffixes = [""]
 
 [taxonomies]
   category = "categories"

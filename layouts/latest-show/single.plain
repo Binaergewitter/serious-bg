@@ -1,0 +1,10 @@
+{{- $pages := where .Site.RegularPages "Section" "post" -}}
+{{- $latest := index (where $pages "Params.categories" "==" "talk") 0 -}}
+{{- $number := "0" -}}
+{{- with $latest -}}
+{{- $match := findRE "#([0-9]+)" .Title 1 -}}
+{{- if $match -}}
+{{- $number = replace (index $match 0) "#" "" -}}
+{{- end -}}
+{{- end -}}
+{{- $number -}}

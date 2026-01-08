@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Live"
+slug: "live"
 comments: false
 sharing: false
 footer: true
