@@ -29,7 +29,7 @@ Binärgewitter entstand bei [RadioTux](http://blog.radiotux.de/), dem Internetra
 - Sebastian Preisner ([@kreativmonkey/mastodon](https://social.niyawe.de/@kreativmonkey) [@kreativmonkey/github](https://github.com/kreativmonkey))
 - Carsten alias NGC-Ollie ([@ngc_ollie](https://mastodon.bayern/@ngc_ollie)) 
   
-![pfleidi und makefu bei der Podcast Aufnahme](../img/pfleidi_makefu_bei_aufnahme.jpg)
+![pfleidi und makefu bei der Podcast Aufnahme](/img/pfleidi_makefu_bei_aufnahme.jpg)
 
 ### Was andere über uns sagen
 
