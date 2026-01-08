@@ -1,4 +1,4 @@
-baseURL = "https://blog.binaergewitter.de"
+baseURL = "https://blog.binaergewitter.de/"
 relativeURLs = false
 canonifyURLs = false
 uglyURLs = false
