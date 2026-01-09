@@ -203,22 +203,26 @@ function testNoEncodedSpaces() {
 
     const content = fs.readFileSync(indexPath, 'utf8');
 
-    // Check for %20 anywhere in internal href attributes
-    const hrefMatches = content.match(/href="[^"]*"/g) || [];
-    const encodedSpaceLinks = hrefMatches.filter(href => {
-        const link = href.match(/href="([^"]+)"/)[1];
+    // Check for %20 or literal spaces anywhere in internal href attributes
+    // This regex handles both quoted and unquoted attributes (common with --minify)
+    const hrefMatches = content.match(/href=(?:"([^"]+)"|'([^']+)'|([^>\s]+))/g) || [];
+    const badLinks = hrefMatches.filter(hrefMatch => {
+        // Extract the URL from the match
+        const parts = hrefMatch.match(/href=(?:"([^"]+)"|'([^']+)'|([^>\s]+))/);
+        const link = parts[1] || parts[2] || parts[3];
+
         // Only check internal links
         const isInternal = !link.includes('://') && !link.startsWith('mailto:') && !link.startsWith('irc:');
-        return isInternal && link.includes('%20');
+        return isInternal && (link.includes('%20') || link.includes(' '));
     });
 
     assert(
-        encodedSpaceLinks.length === 0,
-        `No internal navigation links contain %20 encoding (found ${encodedSpaceLinks.length})`
+        badLinks.length === 0,
+        `No internal navigation links contain spaces or %20 (found ${badLinks.length})`
     );
 
-    if (encodedSpaceLinks.length > 0) {
-        console.log('  Internal links with %20:', encodedSpaceLinks.slice(0, 5));
+    if (badLinks.length > 0) {
+        console.log('  Invalid links:', badLinks.slice(0, 5));
     }
 }
 
