@@ -57,7 +57,7 @@ function assert(condition, message) {
 // Test 1: Search index is valid JSON
 function testSearchIndex() {
     console.log('\n📋 Testing search index...');
-    const indexPath = path.join(PUBLIC_DIR, 'index.json');
+    const indexPath = path.join(PUBLIC_DIR, 'searchindex.json');
 
     try {
         const content = fs.readFileSync(indexPath, 'utf8');
@@ -75,7 +75,7 @@ function testSearchIndex() {
         }
 
         // Check for specific known content
-        const hasCephPost = data.some(item => item.title.includes('356'));
+        const hasCephPost = data.some(item => item.title && item.title.includes('356'));
         assert(hasCephPost, 'Search index includes Talk #356 (Ceph post)');
 
     } catch (err) {
@@ -227,8 +227,8 @@ function testNoEncodedSpaces() {
 function testSearchIndexGzip() {
     console.log('\n🗜️  Testing search index compression...');
 
-    const jsonPath = path.join(PUBLIC_DIR, 'index.json');
-    const gzPath = path.join(PUBLIC_DIR, 'index.json.gz');
+    const jsonPath = path.join(PUBLIC_DIR, 'searchindex.json');
+    const gzPath = path.join(PUBLIC_DIR, 'searchindex.json.gz');
 
     if (fs.existsSync(jsonPath) && fs.existsSync(gzPath)) {
         const jsonSize = fs.statSync(jsonPath).size;

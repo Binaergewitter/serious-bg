@@ -6,8 +6,8 @@ The official blog for the [Binärgewitter](https://blog.binaergewitter.de/) podc
 
 - **100% Native Hugo**: No external scripts or dependencies
 - **Podcast Integration**: Dynamic RSS feeds for all categories and codecs
-- **Fuse.js Search**: Client-side search with gzip compression (73% bandwidth reduction)
-- **Podlove Web Player**: Full-featured audio player with chapters
+- **FlexSearch Integration**: High-performance client-side search with German linguistic support
+- **Optimized Index**: Gzipped `searchindex.json` with maximum compression and local fallback
 - **Responsive Design**: Mobile-friendly Bootstrap-based layout
 - **Fly.io Deployment**: Automated Docker-based deployment
 
@@ -51,7 +51,7 @@ The archetype automatically generates:
 ├── layouts/          # Hugo templates
 │   ├── _default/     # Base templates
 │   ├── partials/     # Reusable components
-│   └── index.json    # Search index template
+│   └── index.json       # Search index template (generates searchindex.json)
 ├── static/           # Static assets (CSS, JS, images)
 ├── archetypes/       # Content templates
 └── content/
@@ -72,7 +72,7 @@ flyctl deploy
 ## Technical Highlights
 
 - **Native Content Adapters**: Podcast feeds generated via `_content.js`
-- **Optimized Search**: Gzipped JSON index with fallback for local development
+- **Optimized Search**: Gzipped FlexSearch index (`searchindex.json`) with German stemming/stopwords
 - **Remote Resources**: Podcast metadata and chapters fetched during build
 - **Zero Python**: Fully native Hugo build pipeline
 

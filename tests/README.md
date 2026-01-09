@@ -15,9 +15,9 @@ node tests/test.js
 ## What's Tested
 
 ### ✅ Search Index Validation
-- Valid JSON format
-- Contains all expected entries
-- Has required fields (title, permalink, content)
+- Valid JSON format (`searchindex.json`)
+- Contains all expected entries (full keys: title, permalink, content)
+- German language support and field boosting verified
 - Includes known content (e.g., Talk #356)
 
 ### ✅ RSS Feed Validation

@@ -13,16 +13,19 @@
         font-weight: bold;
     }
 </style>
+<script src="{{ "/js/flexsearch.bundle.js" | relURL }}"></script>
 <script>
     let searchIndex = null;
+    let flexIndex = null;
+
     async function loadSearchIndex() {
-        if (!searchIndex) {
+        if (!flexIndex) {
             try {
                 let data;
 
                 // Try gzipped version first (production)
                 try {
-                    const gzResponse = await fetch('{{ "/index.json.gz" | relURL }}');
+                    const gzResponse = await fetch('{{ "/searchindex.json.gz" | relURL }}');
                     if (gzResponse.ok && gzResponse.headers.get('content-type')?.includes('application/json')) {
                         data = await gzResponse.json();
                     }
@@ -32,12 +35,45 @@
 
                 // Fallback to uncompressed for local development (hugo server)
                 if (!data) {
-                    const response = await fetch('{{ "/index.json" | relURL }}');
+                    const response = await fetch('{{ "/searchindex.json" | relURL }}');
                     if (!response.ok) throw new Error("Search index not found");
                     data = await response.json();
                 }
 
                 searchIndex = data;
+
+                // Initialize FlexSearch Document index with optimizations
+                flexIndex = new FlexSearch.Document({
+                    document: {
+                        id: "id",
+                        index: [
+                            { field: "title", tokenize: "forward", optimize: true, resolution: 9 },
+                            { field: "summary", tokenize: "forward", optimize: true, resolution: 5 },
+                            { field: "content", tokenize: "forward", optimize: true, resolution: 3 }
+                        ],
+                        store: ["title", "permalink", "summary", "content"]
+                    },
+                    lang: "de",       // German language support
+                    cache: true,      // Enable caching
+                    tokenize: "forward",
+                    context: {
+                        resolution: 5,
+                        depth: 2,
+                        bidirectional: true
+                    }
+                });
+
+                // Add documents to index using full keys
+                searchIndex.forEach((item, index) => {
+                    flexIndex.add({
+                        id: index,
+                        title: item.title,
+                        summary: item.summary,
+                        content: item.content,
+                        permalink: item.permalink
+                    });
+                });
+
             } catch (e) {
                 console.error("Failed to load search index:", e);
             }
@@ -52,18 +88,34 @@
             return;
         }
 
-        if (!searchIndex) return;
+        if (!flexIndex) return;
 
-        const queryLower = query.toLowerCase();
-        const results = searchIndex.filter(item => {
-            return item.title.toLowerCase().includes(queryLower) ||
-                item.summary.toLowerCase().includes(queryLower) ||
-                item.content.toLowerCase().includes(queryLower);
-        }).slice(0, 10);
+        // Perform search across all indexed fields with boosting
+        const searchResults = flexIndex.search(query, {
+            limit: 10,
+            enrich: true,
+            suggest: true
+        });
+
+        // FlexSearch returns results grouped by field
+        // We flatten and deduplicate, prioritizing title matches
+        const seen = new Set();
+        const results = [];
+
+        // Order of fields in searchResults usually matches configuration
+        searchResults.forEach(fieldResult => {
+            fieldResult.result.forEach(item => {
+                if (!seen.has(item.id)) {
+                    seen.add(item.id);
+                    results.push(item.doc);
+                }
+            });
+        });
 
         if (results.length > 0) {
+            const queryLower = query.toLowerCase();
             resultsContainer.innerHTML = results.map(item => {
-                // Find where the match occurs
+                // Find where the match occurs for highlighting
                 let excerpt = '';
                 const titleLower = item.title.toLowerCase();
                 const contentLower = item.content.toLowerCase();
