@@ -161,15 +161,13 @@ function testNavigationLinks() {
     console.log('\n🧭 Testing navigation links...');
     const indexContent = fs.readFileSync(path.join(PUBLIC_DIR, 'index.html'), 'utf8');
 
-    // Extract the nav block
-    const navMatch = indexContent.match(/<nav[\s\S]*?<\/nav>/);
-    if (!navMatch) {
-        assert(false, 'Navigation bar not found in index.html');
-        return;
-    }
+    // Strip script and style tags to avoid false positives (like search templates)
+    const cleanContent = indexContent
+        .replace(/<script[\s\S]*?<\/script>/gi, '')
+        .replace(/<style[\s\S]*?<\/style>/gi, '');
 
-    const navContent = navMatch[0];
-    const hrefMatches = navContent.match(/href="([^"]+)"/g) || [];
+    // Scan the whole page for internal hrefs
+    const hrefMatches = cleanContent.match(/href="([^"]+)"/g) || [];
 
     hrefMatches.forEach(hrefTag => {
         const href = hrefTag.match(/href="([^"]+)"/)[1];
@@ -205,12 +203,13 @@ function testNoEncodedSpaces() {
 
     const content = fs.readFileSync(indexPath, 'utf8');
 
-    // Check for %20 in href attributes, but only for internal links (starting with ./ or /)
+    // Check for %20 anywhere in internal href attributes
     const hrefMatches = content.match(/href="[^"]*"/g) || [];
     const encodedSpaceLinks = hrefMatches.filter(href => {
-        // Only check internal links (relative URLs)
-        const isInternal = href.includes('href="./') || (href.includes('href="/') && !href.includes('://'));
-        return isInternal && href.includes('%20');
+        const link = href.match(/href="([^"]+)"/)[1];
+        // Only check internal links
+        const isInternal = !link.includes('://') && !link.startsWith('mailto:') && !link.startsWith('irc:');
+        return isInternal && link.includes('%20');
     });
 
     assert(
