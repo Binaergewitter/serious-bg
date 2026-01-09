@@ -57,7 +57,7 @@ function assert(condition, message) {
 // Test 1: Search index is valid JSON
 function testSearchIndex() {
     console.log('\n📋 Testing search index...');
-    const indexPath = path.join(PUBLIC_DIR, 'searchindex.json');
+    const indexPath = path.join(PUBLIC_DIR, 'index.json');
 
     try {
         const content = fs.readFileSync(indexPath, 'utf8');
@@ -227,8 +227,8 @@ function testNoEncodedSpaces() {
 function testSearchIndexGzip() {
     console.log('\n🗜️  Testing search index compression...');
 
-    const jsonPath = path.join(PUBLIC_DIR, 'searchindex.json');
-    const gzPath = path.join(PUBLIC_DIR, 'searchindex.json.gz');
+    const jsonPath = path.join(PUBLIC_DIR, 'index.json');
+    const gzPath = path.join(PUBLIC_DIR, 'index.json.gz');
 
     if (fs.existsSync(jsonPath) && fs.existsSync(gzPath)) {
         const jsonSize = fs.statSync(jsonPath).size;

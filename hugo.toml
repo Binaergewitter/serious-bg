@@ -28,8 +28,6 @@ title = "Binärgewitter"
   [outputFormats.RSS]
     baseName = "rss"
     mediaType = "application/rss+xml"
-  [outputFormats.JSON]
-    baseName = "searchindex"
   [outputFormats.LatestShow]
     baseName = "latest-show"
     mediaType = "text/plain-nosuffix"

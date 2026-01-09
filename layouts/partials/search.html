@@ -13,7 +13,7 @@
         font-weight: bold;
     }
 </style>
-<script src="{{ "/js/flexsearch.bundle.js" | relURL }}"></script>
+<script src="{{ " /js/flexsearch.bundle.js" | relURL }}"></script>
 <script>
     let searchIndex = null;
     let flexIndex = null;
@@ -25,7 +25,7 @@
 
                 // Try gzipped version first (production)
                 try {
-                    const gzResponse = await fetch('{{ "/searchindex.json.gz" | relURL }}');
+                    const gzResponse = await fetch('{{ "/index.json.gz" | relURL }}');
                     if (gzResponse.ok && gzResponse.headers.get('content-type')?.includes('application/json')) {
                         data = await gzResponse.json();
                     }
@@ -35,7 +35,7 @@
 
                 // Fallback to uncompressed for local development (hugo server)
                 if (!data) {
-                    const response = await fetch('{{ "/searchindex.json" | relURL }}');
+                    const response = await fetch('{{ "/index.json" | relURL }}');
                     if (!response.ok) throw new Error("Search index not found");
                     data = await response.json();
                 }
