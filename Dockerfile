@@ -8,7 +8,7 @@ COPY . .
 RUN hugo --minify
 
 # Compress the search index for faster loading
-RUN gzip -k public/index.json
+RUN gzip -k -9 public/index.json
 
 # Final stage
 FROM nginx:alpine
