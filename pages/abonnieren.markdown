@@ -10,9 +10,7 @@ Natürlich könnt ihr uns auch abonnieren. Wir sind schließlich ein Podcast. En
 
 Aber auch bei <a href="https://www.youtube.com/@binaergewitter">YouTube</a> sind wir vertreten. 
 
-Die Standardfeeds enthalten 50 Einträge. Solltet ihr mehr brauchen oder alles wollen hängt einfach z.B. ?feed_size=200 an die URL für 200 Elemente.
-
-Habt Spaß am Gerät.
+Die feed enthalten alle episoden wenn euere Podcast client nicht klar kommt melded euch doch bitte.
 
 Habt Spaß am Gerät.
 
