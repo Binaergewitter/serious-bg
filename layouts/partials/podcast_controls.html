@@ -103,6 +103,12 @@
       }, {
                 version: 5,
                 base: {{ "podlove-web-player/" | relURL | jsonify | safeJS }},
+            tabs: {
+                info: true,
+                chapters: true,
+                share: true,
+                files: true
+            },
             theme: {
             tokens: {
                 brand: "#7FAF1B",
@@ -128,4 +134,18 @@
     });
     </script>
 </div>
+{{- if .Params.voices -}}
+<div class="contributors-section" style="margin-top: 1rem; padding: 1rem; background: #f5f5f5; border-radius: 4px;">
+    <h3 style="margin: 0 0 0.5rem 0; font-size: 0.9rem; color: #666; text-transform: uppercase; letter-spacing: 0.5px;">Contributors</h3>
+    <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+        {{- range $voice, $val := .Params.voices -}}
+          {{- if $val -}}
+            {{- with (index $.Site.Params.contributors $voice) -}}
+              <span style="display: inline-block; padding: 0.25rem 0.75rem; background: #7FAF1B; color: white; border-radius: 3px; font-size: 0.85rem;">{{ .name }}</span>
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}
+    </div>
+</div>
+{{- end -}}
 {{ end }}
