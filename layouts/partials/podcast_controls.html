@@ -4,8 +4,8 @@
 {{ $firstUrl := "" }}
 {{ range $k, $v := $audioFormats }}
 {{ if eq $firstFormat "" }}
-{{ $firstFormat = $k }}
 {{ $firstUrl = $v }}
+{{ $firstFormat = $k }}
 {{ end }}
 {{ end }}
 
@@ -77,6 +77,15 @@
                 {
                     link: {{ .Permalink | jsonify | safeJS }},
             title: {{ .Title | jsonify | safeJS }},
+            {{- $contributors := slice -}}
+            {{- range $voice, $val := .Params.voices -}}
+              {{- if $val -}}
+                {{- with (index $.Site.Params.contributors $voice) -}}
+                  {{- $contributors = $contributors | append (dict "name" .name) -}}
+                {{- end -}}
+              {{- end -}}
+            {{- end -}}
+            contributors: {{ $contributors | jsonify | safeJS }},
             duration: {{ $duration | jsonify | safeJS }},
             poster: {{ "img/binaergewitter_logo1x1.png" | relURL | jsonify | safeJS }},
             chapters: {{ $chapters | jsonify | safeJS }},
