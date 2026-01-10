@@ -1,7 +1,6 @@
 {{/* Generate podcast feed pages for all category/codec combinations */}}
 {{ $categories := slice "all" "talk" "spezial" "westcoast" }}
 {{ $codecs := slice "mp3" "ogg" "opus" "m4a" }}
-{{ $limits := slice 10 25 50 }}
 
 {{ range $cat := $categories }}
   {{ range $codec := $codecs }}
@@ -20,23 +19,7 @@
       "outputs" (slice "RSS")
     ) }}
 
-    {{/* 2. Limited Feeds: 10, 25, 50 items */}}
-    {{ range $limit := $limits }}
-      {{ $.AddPage (dict
-        "kind" "page"
-        "path" (printf "%s/%s/%d" $cat $codec $limit)
-        "title" (printf "%s %s Feed (Last %d)" (title $cat) (upper $codec) $limit)
-        "params" (dict
-          "codec" $codec
-          "category_name" $categoryName
-          "item_limit" $limit
-        )
-        "layout" "podcast_feed"
-        "outputs" (slice "RSS")
-      ) }}
-    {{ end }}
-
-    {{/* 3. Unlimited Feed: /full */}}
+    {{/* 2. Unlimited Feed: /full */}}
     {{ $.AddPage (dict
       "kind" "page"
       "path" (printf "%s/%s/full" $cat $codec)

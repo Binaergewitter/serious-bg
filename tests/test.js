@@ -92,8 +92,6 @@ function testRSSFeeds() {
         'podcast_feed/talk/mp3',
         'podcast_feed/spezial/mp3',
         'podcast_feed/talk/opus',
-        'podcast_feed/all/mp3/10',
-        'podcast_feed/all/mp3/25',
         'podcast_feed/all/mp3/50',
         'podcast_feed/all/mp3/full'
     ];
@@ -115,7 +113,7 @@ function testRSSFeeds() {
                 assert(content.includes('<enclosure'), `${dir}/rss.xml contains enclosures`);
                 assert(content.includes('download.binaergewitter.de'), `${dir}/rss.xml has audio URLs`);
 
-                // Verify item count for limited feeds
+                // Verify item count for limited feeds (currently just /50 if it exists)
                 const limitMatch = dir.match(/\/(\d+)$/);
                 if (limitMatch) {
                     const expectedLimit = parseInt(limitMatch[1], 10);
@@ -124,7 +122,7 @@ function testRSSFeeds() {
                 }
 
                 // Verify base feed has at most 50 items
-                const isBaseFeed = !dir.match(/\/(10|25|50|full)$/);
+                const isBaseFeed = !dir.match(/\/(50|full)$/);
                 if (isBaseFeed) {
                     const itemCount = (content.match(/<item>/g) || []).length;
                     assert(itemCount <= 50, `${dir}/rss.xml (base feed) has at most 50 items (found ${itemCount})`);
