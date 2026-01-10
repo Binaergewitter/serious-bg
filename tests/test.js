@@ -311,11 +311,12 @@ function testIssoComments() {
 
     const content = fs.readFileSync(testPostPath, 'utf8');
 
-    // Check for isso-thread element with data-isso-id
-    const issoThreadMatch = content.match(/<section[^>]*id="isso-thread"[^>]*data-isso-id="([^"]+)"/);
+    // Check for isso-thread element with data-isso-id (handles quoted or unquoted attributes)
+    const idMatch = content.match(/id=(?:"isso-thread"|isso-thread)/);
+    const dataMatch = content.match(/data-isso-id=(?:"([^"]+)"|([^>\s]+))/);
 
-    if (issoThreadMatch) {
-        const issoId = issoThreadMatch[1];
+    if (idMatch && dataMatch) {
+        const issoId = dataMatch[1] || dataMatch[2];
 
         // Should be a relative path
         assert(
