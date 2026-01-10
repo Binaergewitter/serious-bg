@@ -93,7 +93,7 @@ function testRSSFeeds() {
         'podcast_feed/spezial/mp3',
         'podcast_feed/talk/opus',
         'podcast_feed/all/mp3/50',
-        'podcast_feed/all/mp3/full'
+        'podcast_feed/all/mp3/archive'
     ];
 
     feedDirs.forEach(dir => {
@@ -122,16 +122,16 @@ function testRSSFeeds() {
                 }
 
                 // Verify base feed has at most 50 items
-                const isBaseFeed = !dir.match(/\/(50|full)$/);
+                const isBaseFeed = !dir.match(/\/(50|archive)$/);
                 if (isBaseFeed) {
                     const itemCount = (content.match(/<item>/g) || []).length;
                     assert(itemCount <= 50, `${dir}/rss.xml (base feed) has at most 50 items (found ${itemCount})`);
                 }
 
-                // Verify full feed exists and has items
-                if (dir.endsWith('/full')) {
+                // Verify archive feed exists and has items
+                if (dir.endsWith('/archive')) {
                     const itemCount = (content.match(/<item>/g) || []).length;
-                    assert(itemCount > 0, `${dir}/rss.xml (full feed) has items (found ${itemCount})`);
+                    assert(itemCount > 0, `${dir}/rss.xml (archive feed) has items (found ${itemCount})`);
                 }
 
             } catch (err) {

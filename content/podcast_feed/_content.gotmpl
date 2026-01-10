@@ -19,11 +19,11 @@
       "outputs" (slice "RSS")
     ) }}
 
-    {{/* 2. Unlimited Feed: /full */}}
+    {{/* 2. Unlimited Feed: /archive */}}
     {{ $.AddPage (dict
       "kind" "page"
-      "path" (printf "%s/%s/full" $cat $codec)
-      "title" (printf "%s %s Feed (Unlimited)" (title $cat) (upper $codec))
+      "path" (printf "%s/%s/archive" $cat $codec)
+      "title" (printf "%s %s Feed (Archive)" (title $cat) (upper $codec))
       "params" (dict
         "codec" $codec
         "category_name" $categoryName
