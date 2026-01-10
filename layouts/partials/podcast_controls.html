@@ -94,6 +94,7 @@
       }, {
                 version: 5,
                 base: {{ "podlove-web-player/" | relURL | jsonify | safeJS }},
+            activeTab: "chapters",
             theme: {
             tokens: {
                 brand: "#7FAF1B",
@@ -106,6 +107,25 @@
                 alt: "#fff"
             }
         },
+            "subscribe-button": {
+            feed: {{ "podcast_feed/all/mp3/rss.xml" | absURL | jsonify | safeJS }},
+            clients: [
+            { id: "apple-podcasts", service: "id216877594" },
+            { id: "spotify", service: "19LedqK0fGWfzfKzySDoVW" },
+            { id: "antenna-pod" },
+            { id: "beyond-pod" },
+            { id: "castbox" },
+            { id: "castro" },
+            { id: "downcast" },
+            { id: "gpodder" },
+            { id: "overcast" },
+            { id: "player-fm" },
+            { id: "pocket-casts" },
+            { id: "podcast-addict" },
+            { id: "podcast-republic" },
+            { id: "rss" }
+        ]
+                },
             share: {
             channels: [
                 "linkedin",
