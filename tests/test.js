@@ -204,39 +204,66 @@ function testNavigationLinks() {
     });
 }
 
-// Test 5: Navigation links don't contain %20
+// Test 5: Navigation links don't contain %20 or spaces
 function testNoEncodedSpaces() {
-    console.log('\n🔗 Testing navigation links for URL encoding issues...');
+    console.log('\n🔗 Testing all HTML files for URL encoding issues...');
 
-    const indexPath = path.join(PUBLIC_DIR, 'index.html');
+    const getAllHtmlFiles = (dir, fileList = []) => {
+        const files = fs.readdirSync(dir);
+        files.forEach(file => {
+            const filePath = path.join(dir, file);
+            if (fs.statSync(filePath).isDirectory()) {
+                getAllHtmlFiles(filePath, fileList);
+            } else if (file.endsWith('.html')) {
+                fileList.push(filePath);
+            }
+        });
+        return fileList;
+    };
 
-    if (!fs.existsSync(indexPath)) {
-        assert(false, 'index.html exists for navigation testing');
-        return;
-    }
+    const htmlFiles = getAllHtmlFiles(PUBLIC_DIR);
+    console.log(`  Found ${htmlFiles.length} HTML files to scan.`);
+    let totalBadLinks = 0;
+    const allBadLinks = [];
 
-    const content = fs.readFileSync(indexPath, 'utf8');
+    htmlFiles.forEach(filePath => {
+        const content = fs.readFileSync(filePath, 'utf8');
+        const relPath = path.relative(PUBLIC_DIR, filePath);
 
-    // Check for %20 or literal spaces anywhere in internal href attributes
-    // This regex handles both quoted and unquoted attributes (common with --minify)
-    const hrefMatches = content.match(/href=(?:"([^"]+)"|'([^']+)'|([^>\s]+))/g) || [];
-    const badLinks = hrefMatches.filter(hrefMatch => {
-        // Extract the URL from the match
-        const parts = hrefMatch.match(/href=(?:"([^"]+)"|'([^']+)'|([^>\s]+))/);
-        const link = parts[1] || parts[2] || parts[3];
+        // Check for %20 or literal spaces anywhere in href, src, or window.podcastData
+        // Improved regex to handle quoted and unquoted attributes in minified HTML
+        const matches = content.match(/(?:href|src|url)\s*[:=]\s*(?:"[^"]*"|'[^']*'|[^>\s]+)/gi) || [];
 
-        // Only check internal links
-        const isInternal = !link.includes('://') && !link.startsWith('mailto:') && !link.startsWith('irc:');
-        return isInternal && (link.includes('%20') || link.includes(' '));
+        const badLinks = matches.filter(match => {
+            // Extract the actual URL part
+            const valuePart = match.match(/[:=]\s*(?:"([^"]*)"|'([^']*)'|([^>\s]+))/);
+            if (!valuePart) return false;
+            const url = (valuePart[1] || valuePart[2] || valuePart[3] || '').trim();
+
+            // Only check internal links or podcast data links
+            const isInternal = !url.includes('://') && !url.startsWith('mailto:') && !url.startsWith('irc:');
+            const isPodcastData = url.includes('podcast_feed');
+            const isExplicitBad = url.includes('%20') || url.includes(' ');
+
+            return (isInternal || isPodcastData) && isExplicitBad && !url.startsWith('data:');
+        });
+
+        if (badLinks.length > 0) {
+            totalBadLinks += badLinks.length;
+            allBadLinks.push({ file: relPath, links: badLinks });
+        }
     });
 
     assert(
-        badLinks.length === 0,
-        `No internal navigation links contain spaces or %20 (found ${badLinks.length})`
+        totalBadLinks === 0,
+        `No HTML files contain links with spaces or %20 (found ${totalBadLinks} across ${allBadLinks.length} files)`
     );
 
-    if (badLinks.length > 0) {
-        console.log('  Invalid links:', badLinks.slice(0, 5));
+    if (allBadLinks.length > 0) {
+        console.log('  Invalid links sample:');
+        allBadLinks.slice(0, 3).forEach(item => {
+            console.log(`    ${item.file}:`, item.links.slice(0, 3));
+        });
     }
 }
 
