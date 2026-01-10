@@ -1,25 +1,27 @@
 <script>
-window.podcastData = {
+  window.podcastData = {
     "title": "{{ .Site.Title }}",
     "subtitle": "Sicherheit durch Ignoranz",
     "description": "{{ .Site.Params.description }}",
     "cover": "",
     "feeds": [
-        {
-            "type": "audio",
-            "format": "mp3",
-            "url": "{{ "podcast_feed/all/mp3/rss.xml" | absURL }}",
-            "directory-url-itunes": "https://podcasts.apple.com/de/podcast/bin%C3%A4rgewitter/id216877594"
-        },
-        {
-            "type": "audio",
-            "format": "opus",
-            "url": "{{ "podcast_feed/all/opus/rss.xml" | absURL }}"
-        }
+      {
+        "type": "audio",
+        "format": "mp3",
+        "url": "{{ "podcast_feed/all/mp3/rss.xml" | absURL }}",
+        "directory-url-itunes": "https://podcasts.apple.com/de/podcast/bin%C3%A4rgewitter/id216877594"
+      },
+      {
+        "type": "audio",
+        "format": "opus",
+        "url": "{{ "podcast_feed/all/opus/rss.xml" | absURL }}"
+      }
     ]
-};
+  };
 </script>
-<script class="podlove-subscribe-button" src="https://cdn.podlove.org/subscribe-button/javascripts/app.js" data-language="de" data-size="medium" data-json-data="podcastData" data-color="#469cd1" data-format="rectangle" data-style="frameless"></script>
+<script class="podlove-subscribe-button" src="https://cdn.podlove.org/subscribe-button/javascripts/app.js"
+  data-language="de" data-size="medium" data-json-data="podcastData" data-color="#469cd1" data-format="rectangle"
+  data-style="frameless"></script>
 <noscript><a href="{{ "podcast_feed/all/mp3/rss.xml" | absURL }}">Subscribe to feed</a></noscript>
 
 <table class="table">
@@ -34,26 +36,50 @@ window.podcastData = {
   </tr>
   <tr>
     <td><a href="{{ "/" | relURL }}">Alle</a></td>
-    <td><a href="{{ "podcast_feed/all/mp3/rss.xml" | relURL }}">MP3 Feed</a></td>
-    <td><a href="{{ "podcast_feed/all/opus/rss.xml" | relURL }}">Opus Feed</a></td>
+    <td>
+      <a href="{{ "podcast_feed/all/mp3/rss.xml" | relURL }}">MP3 Feed</a><br>
+      [<a href="{{ "podcast_feed/all/mp3/archive/rss.xml" | relURL }}">Archiv</a>]
+    </td>
+    <td>
+      <a href="{{ "podcast_feed/all/opus/rss.xml" | relURL }}">Opus Feed</a><br>
+      [<a href="{{ "podcast_feed/all/opus/archive/rss.xml" | relURL }}">Archiv</a>]
+    </td>
     <td><a href="http://itunes.apple.com/de/podcast/binargewitter/id216877594">bei Apple</a></td>
     <td><a href="https://open.spotify.com/show/19LedqK0fGWfzfKzySDoVW">auf Spotify</a></td>
-    <td><a href="https://music.amazon.de/podcasts/bc6ecd5a-2681-44cb-8217-ad5192a14871/bin%C3%A4rgewitter">bei Amazon Music</a></td>  
+    <td><a href="https://music.amazon.de/podcasts/bc6ecd5a-2681-44cb-8217-ad5192a14871/bin%C3%A4rgewitter">bei Amazon Music</a></td>
     <td><a href="https://www.deezer.com/de/show/4465117">bei Deezer</a></td>
   </tr>
   <tr>
     <td><a href="{{ "/categories/talk" | relURL }}">Talk</a></td>
-    <td><a href="{{ "podcast_feed/talk/mp3/rss.xml" | relURL }}">MP3 Feed</a></td>
-    <td><a href="{{ "podcast_feed/talk/opus/rss.xml" | relURL }}">Opus Feed</a></td>
+    <td>
+      <a href="{{ "podcast_feed/talk/mp3/rss.xml" | relURL }}">MP3 Feed</a><br>
+      [<a href="{{ "podcast_feed/talk/mp3/archive/rss.xml" | relURL }}">Archiv</a>]
+    </td>
+    <td>
+      <a href="{{ "podcast_feed/talk/opus/rss.xml" | relURL }}">Opus Feed</a><br>
+      [<a href="{{ "podcast_feed/talk/opus/archive/rss.xml" | relURL }}">Archiv</a>]
+    </td>
   </tr>
   <tr>
     <td><a href="{{ "/categories/westcoast" | relURL }}">Westcoast</a></td>
-    <td><a href="{{ "podcast_feed/westcoast/mp3/rss.xml" | relURL }}">MP3 Feed</a></td>
-    <td><a href="{{ "podcast_feed/westcoast/opus/rss.xml" | relURL }}">Opus Feed</a></td>
+    <td>
+      <a href="{{ "podcast_feed/westcoast/mp3/rss.xml" | relURL }}">MP3 Feed</a><br>
+      [<a href="{{ "podcast_feed/westcoast/mp3/archive/rss.xml" | relURL }}">Archiv</a>]
+    </td>
+    <td>
+      <a href="{{ "podcast_feed/westcoast/opus/rss.xml" | relURL }}">Opus Feed</a><br>
+      [<a href="{{ "podcast_feed/westcoast/opus/archive/rss.xml" | relURL }}">Archiv</a>]
+    </td>
   </tr>
   <tr>
     <td><a href="{{ "/categories/spezial" | relURL }}">Spezial</a></td>
-    <td><a href="{{ "podcast_feed/spezial/mp3/rss.xml" | relURL }}">MP3 Feed</a></td>
-    <td><a href="{{ "podcast_feed/spezial/opus/rss.xml" | relURL }}">Opus Feed</a></td>
+    <td>
+      <a href="{{ "podcast_feed/spezial/mp3/rss.xml" | relURL }}">MP3 Feed</a><br>
+      [<a href="{{ "podcast_feed/spezial/mp3/archive/rss.xml" | relURL }}">Archiv</a>]
+    </td>
+    <td>
+      <a href="{{ "podcast_feed/spezial/opus/rss.xml" | relURL }}">Opus Feed</a><br>
+      [<a href="{{ "podcast_feed/spezial/opus/archive/rss.xml" | relURL }}">Archiv</a>]
+    </td>
   </tr>
 </table>

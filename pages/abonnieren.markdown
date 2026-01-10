@@ -10,7 +10,7 @@ Natürlich könnt ihr uns auch abonnieren. Wir sind schließlich ein Podcast. En
 
 Aber auch bei <a href="https://www.youtube.com/@binaergewitter">YouTube</a> sind wir vertreten. 
 
-Die feed enthalten alle episoden wenn euere Podcast client nicht klar kommt melded euch doch bitte.
+Standardmäßig enthalten unsere Feeds die neusten 50 Episoden. Solltet ihr mehr brauchen oder alles wollen (z.B. für ein lokales Archiv), findet ihr weiter unten Links zu den Archiv-Feeds.
 
 Habt Spaß am Gerät.
 

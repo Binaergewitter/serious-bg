@@ -4,17 +4,31 @@
 
 {{ range $cat := $categories }}
   {{ range $codec := $codecs }}
-    {{ $path := printf "%s/%s" $cat $codec }}
-    {{ $title := printf "%s %s Feed" (title $cat) (upper $codec) }}
+    {{/* 1. Default Feed: 50 items */}}
     {{ $categoryName := cond (eq $cat "all") "" $cat }}
-    
+    {{ $feedTitle := cond (eq $cat "all") "Binärgewitter" (printf "Binärgewitter - %s" (title $cat)) }}
     {{ $.AddPage (dict
       "kind" "page"
-      "path" $path
-      "title" $title
+      "path" (printf "%s/%s" $cat $codec)
+      "title" $feedTitle
       "params" (dict
         "codec" $codec
         "category_name" $categoryName
+        "item_limit" 50
+      )
+      "layout" "podcast_feed"
+      "outputs" (slice "RSS")
+    ) }}
+
+    {{/* 2. Unlimited Feed: /archive */}}
+    {{ $.AddPage (dict
+      "kind" "page"
+      "path" (printf "%s/%s/archive" $cat $codec)
+      "title" (printf "%s (Archive)" $feedTitle)
+      "params" (dict
+        "codec" $codec
+        "category_name" $categoryName
+        "item_limit" 0
       )
       "layout" "podcast_feed"
       "outputs" (slice "RSS")

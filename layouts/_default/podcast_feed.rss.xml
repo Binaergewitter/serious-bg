@@ -7,7 +7,7 @@
      xmlns:podcast="https://podcastindex.org/namespace/1.0"
      xmlns:psc="http://podlove.org/simple-chapters">
   <channel>
-    <title>{{ .Site.Title }} - {{ .Title }}</title>
+    <title>{{ .Title }}</title>
     <link>{{ .Permalink | absURL }}</link>
     <description>{{ .Site.Params.description }}</description>
     {{ with .Site.LanguageCode }}<language>{{ . }}</language>{{ end }}
@@ -33,7 +33,12 @@
     </itunes:owner>
 
     {{ $codec := .Params.codec | default "mp3" }}
-    {{ range $pages }}
+    {{ $limit := .Params.item_limit }}
+    {{ $items := $pages }}
+    {{ if gt $limit 0 }}
+      {{ $items = first $limit $pages }}
+    {{ end }}
+    {{ range $items }}
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink | strings.TrimSuffix "/" }}</link>
