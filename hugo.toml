@@ -20,6 +20,20 @@ title = "Binärgewitter"
   archived_on_index = 10
   date_format = "02.01.2006"
 
+  [params.contributors]
+    ingo = { name = "Ingo Ebel" }
+    pfleidi = { name = "Sven Pfleiderer" }
+    makefu = { name = "Felix Richter" }
+    madmas = { name = "Markus Schlichting" }
+    rb2k = { name = "Marc Seeger" }
+    ranterle = { name = "Matthias Wenz" }
+    l33tname = { name = "Felix" }
+    hadez = { name = "hadez" }
+    jancborchardt = { name = "Jan-Christoph Borchardt" }
+    schmittlauch = { name = "Trolli Schmittlauch" }
+    kreativmonkey = { name = "Sebastian Preisner" }
+    ngc_ollie = { name = "Carsten alias NGC-Ollie" }
+
 [permalinks]
   post = "/:year/:month/:day/:slug"
   pages = "/pages/:slug"
