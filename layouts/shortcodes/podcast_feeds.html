@@ -8,13 +8,13 @@
       {
         "type": "audio",
         "format": "mp3",
-        "url": "{{ "podcast_feed/all/mp3/rss.xml" | absURL }}",
+        "url": "{{ "podcast_feed/ all / mp3 / rss.xml" | absURL }}",
       "directory-url-itunes": "https://podcasts.apple.com/de/podcast/bin%C3%A4rgewitter/id216877594"
         },
     {
       "type": "audio",
       "format": "opus",
-      "url": "{{ "podcast_feed/all/opus/rss.xml" | absURL }}"
+      "url": "{{ "podcast_feed/ all / opus / rss.xml" | absURL }}"
         }
     ]
 };
@@ -36,8 +36,18 @@
   </tr>
   <tr>
     <td><a href="{{ "/" | relURL }}">Alle</a></td>
-    <td><a href="{{ "podcast_feed/all/mp3/rss.xml" | relURL }}">MP3 Feed</a></td>
-    <td><a href="{{ "podcast_feed/all/opus/rss.xml" | relURL }}">Opus Feed</a></td>
+    <td>
+      <a href="{{ "podcast_feed/all/mp3/rss.xml" | relURL }}">MP3 Feed</a>
+      [<a href="{{ "podcast_feed/all/mp3/10/rss.xml" | relURL }}">10</a>,
+      <a href="{{ "podcast_feed/all/mp3/25/rss.xml" | relURL }}">25</a>,
+      <a href="{{ "podcast_feed/all/mp3/50/rss.xml" | relURL }}">50</a>]
+    </td>
+    <td>
+      <a href="{{ "podcast_feed/all/opus/rss.xml" | relURL }}">Opus Feed</a>
+      [<a href="{{ "podcast_feed/all/opus/10/rss.xml" | relURL }}">10</a>,
+      <a href="{{ "podcast_feed/all/opus/25/rss.xml" | relURL }}">25</a>,
+      <a href="{{ "podcast_feed/all/opus/50/rss.xml" | relURL }}">50</a>]
+    </td>
     <td><a href="http://itunes.apple.com/de/podcast/binargewitter/id216877594">bei Apple</a></td>
     <td><a href="https://open.spotify.com/show/19LedqK0fGWfzfKzySDoVW">auf Spotify</a></td>
     <td><a href="https://music.amazon.de/podcasts/bc6ecd5a-2681-44cb-8217-ad5192a14871/bin%C3%A4rgewitter">bei Amazon
@@ -46,40 +56,47 @@
   </tr>
   <tr>
     <td><a href="{{ "/categories/talk" | relURL }}">Talk</a></td>
-    <td><a href="{{ "podcast_feed/talk/mp3/rss.xml" | relURL }}">MP3 Feed</a></td>
-    <td><a href="{{ "podcast_feed/talk/opus/rss.xml" | relURL }}">Opus Feed</a></td>
+    <td>
+      <a href="{{ "podcast_feed/talk/mp3/rss.xml" | relURL }}">MP3 Feed</a>
+      [<a href="{{ "podcast_feed/talk/mp3/10/rss.xml" | relURL }}">10</a>,
+      <a href="{{ "podcast_feed/talk/mp3/25/rss.xml" | relURL }}">25</a>,
+      <a href="{{ "podcast_feed/talk/mp3/50/rss.xml" | relURL }}">50</a>]
+    </td>
+    <td>
+      <a href="{{ "podcast_feed/talk/opus/rss.xml" | relURL }}">Opus Feed</a>
+      [<a href="{{ "podcast_feed/talk/opus/10/rss.xml" | relURL }}">10</a>,
+      <a href="{{ "podcast_feed/talk/opus/25/rss.xml" | relURL }}">25</a>,
+      <a href="{{ "podcast_feed/talk/opus/50/rss.xml" | relURL }}">50</a>]
+    </td>
   </tr>
   <tr>
     <td><a href="{{ "/categories/westcoast" | relURL }}">Westcoast</a></td>
-    <td><a href="{{ "podcast_feed/westcoast/mp3/rss.xml" | relURL }}">MP3 Feed</a></td>
-    <td><a href="{{ "podcast_feed/westcoast/opus/rss.xml" | relURL }}">Opus Feed</a></td>
+    <td>
+      <a href="{{ "podcast_feed/westcoast/mp3/rss.xml" | relURL }}">MP3 Feed</a>
+      [<a href="{{ "podcast_feed/westcoast/mp3/10/rss.xml" | relURL }}">10</a>,
+      <a href="{{ "podcast_feed/westcoast/mp3/25/rss.xml" | relURL }}">25</a>,
+      <a href="{{ "podcast_feed/westcoast/mp3/50/rss.xml" | relURL }}">50</a>]
+    </td>
+    <td>
+      <a href="{{ "podcast_feed/westcoast/opus/rss.xml" | relURL }}">Opus Feed</a>
+      [<a href="{{ "podcast_feed/westcoast/opus/10/rss.xml" | relURL }}">10</a>,
+      <a href="{{ "podcast_feed/westcoast/opus/25/rss.xml" | relURL }}">25</a>,
+      <a href="{{ "podcast_feed/westcoast/opus/50/rss.xml" | relURL }}">50</a>]
+    </td>
   </tr>
   <tr>
     <td><a href="{{ "/categories/spezial" | relURL }}">Spezial</a></td>
-    <td><a href="{{ "podcast_feed/spezial/mp3/rss.xml" | relURL }}">MP3 Feed</a></td>
-    <td><a href="{{ "podcast_feed/spezial/opus/rss.xml" | relURL }}">Opus Feed</a></td>
-  </tr>
-</table>
-
-<h3>Begrenzte Feeds</h3>
-<p>Hier findet ihr Feeds, die nur die letzten X Episoden enthalten (praktisch für ältere Podcast-Clients):</p>
-<table class="table">
-  <tr>
-    <th>Format</th>
-    <th>Letzte 10</th>
-    <th>Letzte 25</th>
-    <th>Letzte 50</th>
-  </tr>
-  <tr>
-    <td>Alle (MP3)</td>
-    <td><a href="{{ "podcast_feed/all/mp3/10/rss.xml" | relURL }}">10 Episoden</a></td>
-    <td><a href="{{ "podcast_feed/all/mp3/25/rss.xml" | relURL }}">25 Episoden</a></td>
-    <td><a href="{{ "podcast_feed/all/mp3/50/rss.xml" | relURL }}">50 Episoden</a></td>
-  </tr>
-  <tr>
-    <td>Alle (Opus)</td>
-    <td><a href="{{ "podcast_feed/all/opus/10/rss.xml" | relURL }}">10 Episoden</a></td>
-    <td><a href="{{ "podcast_feed/all/opus/25/rss.xml" | relURL }}">25 Episoden</a></td>
-    <td><a href="{{ "podcast_feed/all/opus/50/rss.xml" | relURL }}">50 Episoden</a></td>
+    <td>
+      <a href="{{ "podcast_feed/spezial/mp3/rss.xml" | relURL }}">MP3 Feed</a>
+      [<a href="{{ "podcast_feed/spezial/mp3/10/rss.xml" | relURL }}">10</a>,
+      <a href="{{ "podcast_feed/spezial/mp3/25/rss.xml" | relURL }}">25</a>,
+      <a href="{{ "podcast_feed/spezial/mp3/50/rss.xml" | relURL }}">50</a>]
+    </td>
+    <td>
+      <a href="{{ "podcast_feed/spezial/opus/rss.xml" | relURL }}">Opus Feed</a>
+      [<a href="{{ "podcast_feed/spezial/opus/10/rss.xml" | relURL }}">10</a>,
+      <a href="{{ "podcast_feed/spezial/opus/25/rss.xml" | relURL }}">25</a>,
+      <a href="{{ "podcast_feed/spezial/opus/50/rss.xml" | relURL }}">50</a>]
+    </td>
   </tr>
 </table>
