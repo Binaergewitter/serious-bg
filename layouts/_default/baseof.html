@@ -12,9 +12,10 @@
     head.load("//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css")
     head.load({{ "css/iconfont/style.css" | relURL }})
     head.load({{ "css/coderay.css" | relURL }})
+    head.load({{ "css/github-ribbon.css" | relURL }})
   </script>
 
-  <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="{{ "rss.xml" | relURL }}" />
+  <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="{{"rss.xml" | relURL }}" />
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,17 +28,17 @@
   <meta property="og:description"
     content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <meta property="og:locale" content="de_DE" />
-  <meta property="og:image" content="{{ "img/binaergewitter_logo_text.png" | absURL }}" />
+  <meta property="og:image" content="{{"img/binaergewitter_logo_text.png" | absURL }}" />
   <meta property="fb:pages" content="1763347550560569">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{{ if .IsPage }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}">
-  <meta name="twitter:image" content="{{ "img/binaergewitter_logo_text.png" | absURL }}" />
+  <meta name="twitter:image" content="{{"img/binaergewitter_logo_text.png" | absURL }}" />
 
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 
-  <link rel="shortcut icon" href="{{ "favicon.ico" | relURL }}" type="image/x-icon" />
-  <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | relURL }}" />
+  <link rel="shortcut icon" href="{{"favicon.ico" | relURL }}" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="{{"apple-touch-icon.png" | relURL }}" />
   {{ range (slice 57 72 76 114 120 144 152 180) }}
   <link rel="apple-touch-icon" sizes="{{ . }}x{{ . }}" href="{{ (printf "apple-touch-icon-%dx%d.png" . .) | relURL
     }}" />
@@ -147,6 +148,13 @@
 </head>
 
 <body>
+  <div class="github-fork-ribbon-wrapper left">
+    <div class="github-fork-ribbon green">
+      <a href="https://github.com/Binaergewitter/serious-bg" target="_blank" rel="noopener noreferrer">Fork me on
+        GitHub</a>
+    </div>
+  </div>
+
   {{ partial "navigation.html" . }}
 
   <div class="container">
@@ -156,7 +164,7 @@
       <div class="col-md-9">
         <div class="row visible-md visible-lg">
           <div class="col-md-3">
-            <img class="header-logo" src="{{ "img/binaergewitter_logo.svg" | relURL }}">
+            <img class="header-logo" src="{{"img/binaergewitter_logo.svg" | relURL }}">
           </div>
           <div class="col-md-9" style="padding-top:20px">
             <h1>
