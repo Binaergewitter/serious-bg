@@ -1,25 +1,27 @@
 <script>
-window.podcastData = {
+  window.podcastData = {
     "title": "{{ .Site.Title }}",
     "subtitle": "Sicherheit durch Ignoranz",
     "description": "{{ .Site.Params.description }}",
     "cover": "",
     "feeds": [
-        {
-            "type": "audio",
-            "format": "mp3",
-            "url": "{{ "podcast_feed/all/mp3/rss.xml" | absURL }}",
-            "directory-url-itunes": "https://podcasts.apple.com/de/podcast/bin%C3%A4rgewitter/id216877594"
+      {
+        "type": "audio",
+        "format": "mp3",
+        "url": "{{ "podcast_feed/all/mp3/rss.xml" | absURL }}",
+      "directory-url-itunes": "https://podcasts.apple.com/de/podcast/bin%C3%A4rgewitter/id216877594"
         },
-        {
-            "type": "audio",
-            "format": "opus",
-            "url": "{{ "podcast_feed/all/opus/rss.xml" | absURL }}"
+    {
+      "type": "audio",
+      "format": "opus",
+      "url": "{{ "podcast_feed/all/opus/rss.xml" | absURL }}"
         }
     ]
 };
 </script>
-<script class="podlove-subscribe-button" src="https://cdn.podlove.org/subscribe-button/javascripts/app.js" data-language="de" data-size="medium" data-json-data="podcastData" data-color="#469cd1" data-format="rectangle" data-style="frameless"></script>
+<script class="podlove-subscribe-button" src="https://cdn.podlove.org/subscribe-button/javascripts/app.js"
+  data-language="de" data-size="medium" data-json-data="podcastData" data-color="#469cd1" data-format="rectangle"
+  data-style="frameless"></script>
 <noscript><a href="{{ "podcast_feed/all/mp3/rss.xml" | absURL }}">Subscribe to feed</a></noscript>
 
 <table class="table">
@@ -38,7 +40,8 @@ window.podcastData = {
     <td><a href="{{ "podcast_feed/all/opus/rss.xml" | relURL }}">Opus Feed</a></td>
     <td><a href="http://itunes.apple.com/de/podcast/binargewitter/id216877594">bei Apple</a></td>
     <td><a href="https://open.spotify.com/show/19LedqK0fGWfzfKzySDoVW">auf Spotify</a></td>
-    <td><a href="https://music.amazon.de/podcasts/bc6ecd5a-2681-44cb-8217-ad5192a14871/bin%C3%A4rgewitter">bei Amazon Music</a></td>  
+    <td><a href="https://music.amazon.de/podcasts/bc6ecd5a-2681-44cb-8217-ad5192a14871/bin%C3%A4rgewitter">bei Amazon
+        Music</a></td>
     <td><a href="https://www.deezer.com/de/show/4465117">bei Deezer</a></td>
   </tr>
   <tr>
@@ -55,5 +58,28 @@ window.podcastData = {
     <td><a href="{{ "/categories/spezial" | relURL }}">Spezial</a></td>
     <td><a href="{{ "podcast_feed/spezial/mp3/rss.xml" | relURL }}">MP3 Feed</a></td>
     <td><a href="{{ "podcast_feed/spezial/opus/rss.xml" | relURL }}">Opus Feed</a></td>
+  </tr>
+</table>
+
+<h3>Begrenzte Feeds</h3>
+<p>Hier findet ihr Feeds, die nur die letzten X Episoden enthalten (praktisch für ältere Podcast-Clients):</p>
+<table class="table">
+  <tr>
+    <th>Format</th>
+    <th>Letzte 10</th>
+    <th>Letzte 25</th>
+    <th>Letzte 50</th>
+  </tr>
+  <tr>
+    <td>Alle (MP3)</td>
+    <td><a href="{{ "podcast_feed/all/mp3/10/rss.xml" | relURL }}">10 Episoden</a></td>
+    <td><a href="{{ "podcast_feed/all/mp3/25/rss.xml" | relURL }}">25 Episoden</a></td>
+    <td><a href="{{ "podcast_feed/all/mp3/50/rss.xml" | relURL }}">50 Episoden</a></td>
+  </tr>
+  <tr>
+    <td>Alle (Opus)</td>
+    <td><a href="{{ "podcast_feed/all/opus/10/rss.xml" | relURL }}">10 Episoden</a></td>
+    <td><a href="{{ "podcast_feed/all/opus/25/rss.xml" | relURL }}">25 Episoden</a></td>
+    <td><a href="{{ "podcast_feed/all/opus/50/rss.xml" | relURL }}">50 Episoden</a></td>
   </tr>
 </table>

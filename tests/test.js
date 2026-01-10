@@ -91,7 +91,10 @@ function testRSSFeeds() {
         'podcast_feed/all/mp3',
         'podcast_feed/talk/mp3',
         'podcast_feed/spezial/mp3',
-        'podcast_feed/talk/opus'
+        'podcast_feed/talk/opus',
+        'podcast_feed/all/mp3/10',
+        'podcast_feed/all/mp3/25',
+        'podcast_feed/all/mp3/50'
     ];
 
     feedDirs.forEach(dir => {
@@ -110,6 +113,14 @@ function testRSSFeeds() {
                 // Check for required podcast elements
                 assert(content.includes('<enclosure'), `${dir}/rss.xml contains enclosures`);
                 assert(content.includes('download.binaergewitter.de'), `${dir}/rss.xml has audio URLs`);
+
+                // Verify item count for limited feeds
+                const limitMatch = dir.match(/\/(\d+)$/);
+                if (limitMatch) {
+                    const expectedLimit = parseInt(limitMatch[1], 10);
+                    const itemCount = (content.match(/<item>/g) || []).length;
+                    assert(itemCount === expectedLimit, `${dir}/rss.xml has exactly ${expectedLimit} items (found ${itemCount})`);
+                }
 
             } catch (err) {
                 assert(false, `${dir}/rss.xml is valid: ${err.message}`);
