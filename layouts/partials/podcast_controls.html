@@ -4,8 +4,8 @@
 {{ $firstUrl := "" }}
 {{ range $k, $v := $audioFormats }}
 {{ if eq $firstFormat "" }}
-{{ $firstUrl = $v }}
 {{ $firstFormat = $k }}
+{{ $firstUrl = $v }}
 {{ end }}
 {{ end }}
 
@@ -103,12 +103,6 @@
       }, {
                 version: 5,
                 base: {{ "podlove-web-player/" | relURL | jsonify | safeJS }},
-            tabs: {
-                info: true,
-                chapters: true,
-                share: true,
-                files: true
-            },
             theme: {
             tokens: {
                 brand: "#7FAF1B",
