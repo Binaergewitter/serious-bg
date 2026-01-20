@@ -498,21 +498,27 @@ function testLatestShow() {
             const content = fs.readFileSync(latestShowPath, 'utf8').trim();
             assert(/^\d+$/.test(content), `latest-show contains a number: ${content}`);
 
-            // Look for the latest post in the articles directory to verify against
+            // Look for the latest talk post in the articles directory to verify against
             const articlesDir = path.join(__dirname, '../articles');
             const files = fs.readdirSync(articlesDir)
                 .filter(f => f.endsWith('.md') || f.endsWith('.markdown'))
                 .sort()
                 .reverse();
 
-            if (files.length > 0) {
-                const latestFile = files[0];
-                const fileContent = fs.readFileSync(path.join(articlesDir, latestFile), 'utf8');
-                const titleMatch = fileContent.match(/title:.*#(\d+)/m);
-                if (titleMatch) {
-                    const expectedNumber = titleMatch[1];
-                    assert(content === expectedNumber, `latest-show number ${content} matches latest article's number ${expectedNumber}`);
+            // Find the latest talk article
+            let expectedNumber = null;
+            for (const file of files) {
+                const fileContent = fs.readFileSync(path.join(articlesDir, file), 'utf8');
+                if (fileContent.match(/categories:\s*talk/)) {
+                    const titleMatch = fileContent.match(/title:.*#(\d+)/m);
+                    if (titleMatch) {
+                        expectedNumber = titleMatch[1];
+                        break;
+                    }
                 }
+            }
+            if (expectedNumber) {
+                assert(content === expectedNumber, `latest-show number ${content} matches latest talk article's number ${expectedNumber}`);
             }
         } catch (err) {
             assert(false, `latest-show is readable: ${err.message}`);
@@ -521,6 +527,7 @@ function testLatestShow() {
         assert(false, 'latest-show exists');
     }
 }
+
 
 // Test 13: Isso comments only on articles (not pages)
 function testIssoExclusion() {
