@@ -2,8 +2,8 @@
     // Client-side is_live check
     async function checkLive() {
         try {
-            // Note: Using HTTP (not HTTPS) as the Icecast server doesn't support HTTPS
-            const response = await fetch('http://stream.radiotux.de:8000/status-json.xsl');
+            // Proxy through our nginx to avoid mixed content issues (HTTP from HTTPS)
+            const response = await fetch('/api/stream-status');
             const data = await response.json();
 
             // Check if there's a source field and if it contains binaergewitter.mp3
