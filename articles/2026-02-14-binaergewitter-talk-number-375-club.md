@@ -72,11 +72,11 @@ Dazu gibt’s Abo-Detox, Desktop-Frust und die Erkenntnis: Digitale Souveränit�
 ## 3D-Druck der Woche
 
 - [Kid's fort – Connector]( https://makerworld.com/en/models/1481296-kid-s-fort-connector-10mm-od-wood-poles-fast#profileId-1546765 )
-- [OpenPrintTag]( OpenPrintTag.org )
+- [OpenPrintTag]( https://openprinttag.org/ )
 
 ## Mimimi der Woche
 
-- ADAC ohne Rückgrat https://www.heise.de/news/Nach-60-000-Kuendigungen-ADAC-Verkehrspraesident-Hillebrand-tritt-ab-11162318.html
+- [ADAC ohne Rückgrat]( https://www.heise.de/news/Nach-60-000-Kuendigungen-ADAC-Verkehrspraesident-Hillebrand-tritt-ab-11162318.html )
 
 ## Lesefoo
 
