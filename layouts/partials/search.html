@@ -12,6 +12,35 @@
         padding: 2px 0;
         font-weight: bold;
     }
+
+    @media only screen and (prefers-color-scheme: dark) {
+        #search-input {
+            background: #1e1e1e;
+            color: #E8E8E8;
+            border-color: #333;
+        }
+        #search-results {
+            background: #151515 !important;
+            border-color: #333 !important;
+        }
+        #search-results .list-group-item {
+            background: #151515;
+            color: #E8E8E8;
+        }
+        #search-results .list-group-item:hover {
+            background: #1e1e1e;
+        }
+        #search-results .list-group-item-text {
+            color: #aaa !important;
+        }
+        #search-results .text-muted {
+            color: #888 !important;
+        }
+        #search-results mark {
+            background-color: #5a7a10;
+            color: #fff;
+        }
+    }
 </style>
 <script src="{{ "/js/flexsearch.bundle.js" | relURL }}"></script>
 <script>
