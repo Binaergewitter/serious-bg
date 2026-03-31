@@ -24,9 +24,11 @@
                 let data;
 
                 // Try gzipped version first (production)
+                // nginx serves .gz via gzip_static with Content-Type: application/gzip,
+                // not application/json — so only check ok, not content-type
                 try {
                     const gzResponse = await fetch('{{ "/index.json.gz" | relURL }}');
-                    if (gzResponse.ok && gzResponse.headers.get('content-type')?.includes('application/json')) {
+                    if (gzResponse.ok) {
                         data = await gzResponse.json();
                     }
                 } catch (e) {
