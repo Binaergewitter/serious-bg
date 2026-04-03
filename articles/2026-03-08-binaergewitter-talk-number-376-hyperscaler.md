@@ -45,7 +45,7 @@ In dieser Episode von Binärgewitter Talk, Ausgabe 376, diskutieren Markus, Feli
 
 ## News
 
-* [Gentoo leaves GitHub] ( https://www.heise.de/news/Zu-viel-Copilot-Gentoo-wechselt-von-GitHub-zu-Codeberg-11179285.html )
+* [Gentoo leaves GitHub]( https://www.heise.de/news/Zu-viel-Copilot-Gentoo-wechselt-von-GitHub-zu-Codeberg-11179285.html )
 * [bahn.bet]( https://bahn.bet )
     * [heise artikel]( https://www.heise.de/news/bahn-bet-Bei-Satire-Projekt-kann-man-auf-Zugverspaetungen-wetten-11200781.html )
     * [About Page]( https://bahn.bet/about )
