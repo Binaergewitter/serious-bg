@@ -31,7 +31,7 @@ Ostergewitter mit Markus, Felix und Ingo.
   * [402 Payment Required]( https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/402 )
 
 ## Untoter der Woche
-- [User External]https://github.com/nextcloud/user_external/
+- [User External]( https://github.com/nextcloud/user_external/ )
 - [Github uptime]( https://mrshu.github.io/github-statuses )
   * [GitHub's Historic Uptime]( https://damrnelson.github.io/github-historical-uptime/ )
 - [For-Jay-Oh]( https://blog.binaergewitter.de/2026/01/25/binaergewitter-talk-number-374-jquery/#isso-2711 )
