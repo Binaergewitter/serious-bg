@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Binärgewitter Talk #380: Dörte Fräck"
-date: 2026-05-15 15:00:00
+date: 2026-05-16 19:00:00
 
 comments: true
 categories: talk
@@ -66,13 +66,9 @@ Dazu kommen Little Snitch, Smartglasses-Fails, DokuWiki mit Markdown, ein KI-Rew
 
 
 ### Zug/Bahn
-- https://www.heise.de/news/EU-Kommission-will-internationale-Zugreisen-erleichtern-11293469.html
-- https://railway-news.com/db-regio-introduces-ticket-purchase-options-via-google-maps/
+- [EU will Zugbuchungen erleichtern](https://www.heise.de/news/EU-Kommission-will-internationale-Zugreisen-erleichtern-11293469.html )
+- [DB Regio Tickets auf Google Maps kaufen](https://railway-news.com/db-regio-introduces-ticket-purchase-options-via-google-maps/)
 
-
-## Themen
-
-## 3D-Druck der Woche
 
 ## Mimimi der Woche
 - [E-Bike-Daten in Echtzeit: Bosch öffnet System für Garmin-Geräte]( https://www.imtest.de/mobilitaet-reise/e-bike-daten-echtzeit-bosch-garmin-geraete-schnittstelle-training-navigation/622663 )
