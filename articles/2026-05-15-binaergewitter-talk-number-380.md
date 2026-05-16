@@ -10,7 +10,7 @@ published: true
 chapters: https://download.binaergewitter.de/2026-05-14.Binaergewitter.Talk.380.chapters.txt
 transcript: https://download.binaergewitter.de/2026-05-14.Binaergewitter.Talk.380-speech.json
 audioformats:
-  mp3: https://download.binaergewitter.de/2026-05-14.Binaergewitter.Talk.380.mp3
+  mp3: http://archiv.radiotux.de/sendungen/binaergewitter/2026-05-14.Binaergewitter.Talk.380.mp3
   ogg: https://download.binaergewitter.de/2026-05-14.Binaergewitter.Talk.380.ogg
   opus: https://download.binaergewitter.de/2026-05-14.Binaergewitter.Talk.380.opus
 voices:
