@@ -10,7 +10,7 @@ published: true
 chapters: https://download.binaergewitter.de/2026-05-14.Binaergewitter.Talk.380.chapters.txt
 transcript: https://download.binaergewitter.de/2026-05-14.Binaergewitter.Talk.380-speech.json
 audioformats:
-  mp3: http://archiv.radiotux.de/sendungen/binaergewitter/2026-05-14.Binaergewitter.Talk.380.mp3
+  mp3: https://download.binaergewitter.de/2026-05-14.Binaergewitter.Talk.380.mp3
   ogg: https://download.binaergewitter.de/2026-05-14.Binaergewitter.Talk.380.ogg
   opus: https://download.binaergewitter.de/2026-05-14.Binaergewitter.Talk.380.opus
 voices:
@@ -20,7 +20,7 @@ voices:
   felix: true
   sebastian: true
 ---
-Auchtung dass ist die klassische Vatertagsfolge. Das heißt es war mal wieder Alkehol im Spiel. Die Gefahr von Flachwitzen ist daher sehr hoch. Wer nicht darauf steht kann die Folge gerne überspringen. Für alle anderen:
+Achtung das ist die klassische Vatertagsfolge. Das heißt es war mal wieder Alkehol im Spiel. Die Gefahr von Flachwitzen ist daher sehr hoch. Wer nicht darauf steht kann die Folge gerne überspringen. Für alle anderen:
 Zum Vatertag gibt’s Technik statt Bollerwagen: Wir sprechen über DNSSEC-Ärger bei der DENIC, Sicherheitslücken in Linux, BSD und DNSMasq sowie KI-gestützte Schwachstellenforschung.
 
 Dazu kommen Little Snitch, Smartglasses-Fails, DokuWiki mit Markdown, ein KI-Rewrite von Bun nach Rust, kostenlose Telefonzellen in Australien, End-of-Life-Software, DIY-Smartwatches, Bosch-E-Bikes mit Garmin und Bahnchaos bei internationalen Buchungen.
