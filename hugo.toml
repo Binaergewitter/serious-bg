@@ -84,7 +84,7 @@ title = "Binärgewitter"
     allowedHosts = ["download.binaergewitter.de"]
 
 [frontmatter]
-  date = [":filename"]
+  date = ["date", "publishDate", ":filename"]
   publishDate = [":filename"]
 
 [markup]

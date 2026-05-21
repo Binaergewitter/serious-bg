@@ -115,6 +115,19 @@
                 alt: "#fff"
             }
         },
+            "subscribe-button": {
+            feed: {{ "podcast_feed/all/mp3/rss.xml" | absURL | jsonify | safeJS }},
+            clients: [
+            { id: "apple-podcasts", service: "id216877594" },
+            { id: "spotify", service: "19LedqK0fGWfzfKzySDoVW" },
+            { id: "pocket-casts" },
+            { id: "overcast" },
+            { id: "castro" },
+            { id: "antenna-pod" },
+            { id: "podcast-addict" },
+            { id: "rss" }
+        ]
+                },
             share: {
             channels: [
                 "linkedin",

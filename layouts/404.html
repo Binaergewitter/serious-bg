@@ -1,3 +1,79 @@
 {{ define "main" }}
-<h2>The requested page could not be found!</h2>
+<div style="text-align: center; padding: 60px 20px;">
+    <div style="display: inline-block; border-top: 1px solid transparent;">
+        <h1 style="font-size: 120px; font-weight: 700; color: #7FAF1B; margin: 0; line-height: 1;">404</h1>
+    </div>
+    <h2 style="font-size: 32px; font-weight: 300; margin-bottom: 20px;">Seite nicht gefunden</h2>
+    <p style="font-size: 18px; color: #666; margin-bottom: 40px;">
+        Diese Seite existiert leider nicht.<br>
+        Hier ist ein Schaf für Dich.
+    </p>
+    <div style="display: flex; justify-content: center; gap: 20px;">
+        <div onclick="window.location.href='/'" role="button" tabindex="0" style="
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: #7FAF1B;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: background-color 0.2s;
+            cursor: pointer;
+            border-top: 1px solid #7FAF1B;
+        " onmouseover="this.style.backgroundColor='#93BF35'; this.style.borderTopColor='#93BF35';"
+            onmouseout="this.style.backgroundColor='#7FAF1B'; this.style.borderTopColor='#7FAF1B';"
+            onkeydown="if(event.key==='Enter'||event.key===' ') window.location.href='/'">
+            Zur Startseite
+        </div>
+        <div id="spawn-sheep" role="button" tabindex="0" style="
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: #f5f6f6;
+            color: #7FAF1B;
+            border: 2px solid #7FAF1B;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.2s;
+            border-top: 2px solid #7FAF1B;
+        " onmouseover="this.style.backgroundColor='#7FAF1B'; this.style.color='white';"
+            onmouseout="this.style.backgroundColor='#f5f6f6'; this.style.color='#7FAF1B';"
+            onkeydown="if(event.key==='Enter'||event.key===' ') this.click()">
+            Mehr Schaf
+        </div>
+    </div>
+    <p style="font-size: 14px; color: #999; margin-top: 50px;">
+        Basierend auf <a href="https://github.com/Adrianotiger/web-esheep" target="_blank" rel="noopener noreferrer"
+            style="color: #999; text-decoration: underline;">web-esheep</a>
+    </p>
+</div>
+
+<script src="/js/esheep.min.js"></script>
+<script>
+    var sheepCount = 0;
+    var xmlPath = "/js/esheep.xml";
+
+    function spawnNewSheep() {
+        try {
+            var sheep = new eSheep();
+            sheep.Start(xmlPath);
+            sheepCount++;
+            console.log("Spawned sheep #" + sheepCount);
+        } catch (e) {
+            console.error("Failed to spawn sheep:", e);
+        }
+    }
+
+    // Initialize eSheep when the window loads
+    window.addEventListener('load', function () {
+        // Delay a bit to ensure the script is fully ready
+        setTimeout(spawnNewSheep, 500);
+
+        document.getElementById('spawn-sheep').addEventListener('click', function (e) {
+            e.preventDefault();
+            spawnNewSheep();
+        });
+    });
+</script>
 {{ end }}
