@@ -99,7 +99,11 @@
 
       {{ range $name, $val := .Params.voices }}
         {{ if $val }}
-          <podcast:person>{{ $name }}</podcast:person>
+          {{ with (index $.Site.Params.contributors $name) }}
+            <podcast:person>{{ .name }}</podcast:person>
+          {{ else }}
+            <podcast:person>{{ $name }}</podcast:person>
+          {{ end }}
         {{ end }}
       {{ end }}
     </item>

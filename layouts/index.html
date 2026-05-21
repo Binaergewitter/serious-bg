@@ -2,6 +2,31 @@
 {{ $pages := where .Site.RegularPages "Section" "post" }}
 {{ $recentCount := .Site.Params.items_on_index | default 3 }}
 {{ $archiveCount := .Site.Params.archived_on_index | default 10 }}
+{{ $latest := index (first 1 $pages) 0 }}
+
+{{ with $latest }}
+<section class="home-hero">
+    <p class="home-hero-kicker">Deutschsprachiger Tech-Podcast</p>
+    <h2>Web, Open Source, Entwicklung und Netzkultur.</h2>
+    <p class="home-hero-copy">
+        Binärgewitter spricht über die Themen, Tools und Absurditäten aus Technik, Netzwelt und Open-Source-Alltag.
+    </p>
+    <p class="home-hero-latest">
+        Neueste Folge: <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </p>
+    <div class="home-hero-actions">
+        <a class="btn btn-primary btn-lg" href="{{ .Permalink }}">Neueste Folge hören</a>
+        <a class="btn btn-default btn-lg" href="{{ "pages/abonnieren/" | relURL }}">Podcast abonnieren</a>
+    </div>
+    <ul class="home-hero-platforms list-inline">
+        <li><a href="https://podcasts.apple.com/de/podcast/bin%C3%A4rgewitter/id216877594">Apple</a></li>
+        <li><a href="https://open.spotify.com/show/19LedqK0fGWfzfKzySDoVW">Spotify</a></li>
+        <li><a href="https://www.youtube.com/@binaergewitter">YouTube</a></li>
+        <li><a href="{{ "podcast_feed/all/mp3/rss.xml" | relURL }}">RSS MP3</a></li>
+        <li><a href="{{ "podcast_feed/all/opus/rss.xml" | relURL }}">RSS Opus</a></li>
+    </ul>
+</section>
+{{ end }}
 
 {{ range first $recentCount $pages }}
 {{ partial "article_summary.html" . }}

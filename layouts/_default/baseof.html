@@ -81,6 +81,72 @@
       text-decoration: none;
     }
 
+    .home-hero {
+      margin: 0 0 35px;
+      padding: 28px 0 32px;
+      border-top: 4px solid #7FAF1B;
+      border-bottom: 1px solid #e2e2e2;
+      background: #fbfcf8;
+    }
+
+    .home-hero-kicker {
+      margin: 0 0 8px;
+      color: #666;
+      font-family: "Helvetica", "Arial", "Verdana", sans-serif;
+      font-size: 14px;
+      font-weight: bold;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+
+    .home-hero h2 {
+      margin: 0 0 12px;
+      font-size: 36px;
+      line-height: 1.15;
+    }
+
+    .home-hero-copy {
+      max-width: 720px;
+      margin-bottom: 14px;
+      color: #333;
+      font-size: 20px;
+      line-height: 1.45;
+    }
+
+    .home-hero-latest {
+      margin-bottom: 18px;
+      font-family: "Helvetica", "Arial", "Verdana", sans-serif;
+      font-size: 16px;
+    }
+
+    .home-hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    .home-hero .btn-primary {
+      background-color: #7FAF1B;
+      border-color: #6f9918;
+    }
+
+    .home-hero .btn-primary:hover,
+    .home-hero .btn-primary:focus {
+      background-color: #6f9918;
+      border-color: #5f8514;
+    }
+
+    .home-hero-platforms {
+      margin-bottom: 0;
+      font-family: "Helvetica", "Arial", "Verdana", sans-serif;
+      font-size: 14px;
+    }
+
+    .home-hero-platforms li {
+      margin-right: 8px;
+    }
+
     @media only screen and (min-width:1200px) {
 
       body,
@@ -104,6 +170,25 @@
 
       blockquote {
         font-size: 20px;
+      }
+    }
+
+    @media only screen and (max-width:767px) {
+      .home-hero {
+        margin-top: -10px;
+        padding: 22px 0 26px;
+      }
+
+      .home-hero h2 {
+        font-size: 28px;
+      }
+
+      .home-hero-copy {
+        font-size: 18px;
+      }
+
+      .home-hero-actions .btn {
+        width: 100%;
       }
     }
 
@@ -142,6 +227,23 @@
 
       .isso-avatar img {
         background-color: #E8E8E8;
+      }
+
+      .home-hero {
+        background: #10130b;
+        border-bottom-color: #2a2a2a;
+      }
+
+      .home-hero-kicker,
+      .home-hero-copy,
+      .home-hero-latest {
+        color: #d0d0d0;
+      }
+
+      .home-hero .btn-default {
+        color: #e8e8e8;
+        background-color: #1e1e1e;
+        border-color: #444;
       }
     }
   </style>

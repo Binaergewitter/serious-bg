@@ -24,6 +24,7 @@ title = "Binärgewitter"
     ingo = { name = "Ingo Ebel" }
     pfleidi = { name = "Sven Pfleiderer" }
     makefu = { name = "Felix Richter" }
+    felix = { name = "Felix Richter" }
     madmas = { name = "Markus Schlichting" }
     rb2k = { name = "Marc Seeger" }
     ranterle = { name = "Matthias Wenz" }
@@ -32,6 +33,7 @@ title = "Binärgewitter"
     jancborchardt = { name = "Jan-Christoph Borchardt" }
     schmittlauch = { name = "Trolli Schmittlauch" }
     kreativmonkey = { name = "Sebastian Preisner" }
+    sebastian = { name = "Sebastian Preisner" }
     ngc_ollie = { name = "Carsten alias NGC-Ollie" }
 
 [permalinks]
