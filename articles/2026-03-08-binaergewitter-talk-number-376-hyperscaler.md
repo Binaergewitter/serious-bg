@@ -38,26 +38,26 @@ In dieser Episode von Binärgewitter Talk, Ausgabe 376, diskutieren Markus, Feli
 ## AI der Woche
 
 - [Relicensing with AI-Assisted rewrite]( https://news.ycombinator.com/item?id=47257803 )
-  * [Alle Festplatten ausverkauft]( https://wccftech.com/western-digital-has-no-more-hdd-capacity-left-out/ )
+  - [Alle Festplatten ausverkauft]( https://wccftech.com/western-digital-has-no-more-hdd-capacity-left-out/ )
 - [Vibe Password Generation]( https://www.irregular.com/publications/vibe-password-generation )
 - [KI-Überwachung von Burgerking Mitarbeitern]( https://www.heise.de/news/Burger-King-KI-Assistent-hoert-mit-und-bewertet-Freundlichkeit-von-Filialen-11193498.html )
 - [PerspectiveCLI - access and use Apple Foundation Models and MLX models]( https://github.com/Techopolis/PerspectiveCLI )
 
 ## News
 
-* [Gentoo leaves GitHub]( https://www.heise.de/news/Zu-viel-Copilot-Gentoo-wechselt-von-GitHub-zu-Codeberg-11179285.html )
-* [bahn.bet]( https://bahn.bet )
-    * [heise artikel]( https://www.heise.de/news/bahn-bet-Bei-Satire-Projekt-kann-man-auf-Zugverspaetungen-wetten-11200781.html )
-    * [About Page]( https://bahn.bet/about )
+- [Gentoo leaves GitHub]( https://www.heise.de/news/Zu-viel-Copilot-Gentoo-wechselt-von-GitHub-zu-Codeberg-11179285.html )
+- [bahn.bet]( https://bahn.bet )
+    - [heise artikel]( https://www.heise.de/news/bahn-bet-Bei-Satire-Projekt-kann-man-auf-Zugverspaetungen-wetten-11200781.html )
+    - [About Page]( https://bahn.bet/about )
 
-* [Firefox 148 mit AI Killswitch]( https://serverhost.com/blog/firefox-148-launches-with-exciting-ai-kill-switch-feature-and-more-enhancements/ )
-* [P.E.T.E.R. Abuse]( https://www.peterabuse.org/ )
-* ["krasse" neue Bürger App]( https://www.heise.de/news/Das-wird-krass-Digitalminister-plant-bundesweite-Buerger-App-11192475.html )
+- [Firefox 148 mit AI Killswitch]( https://serverhost.com/blog/firefox-148-launches-with-exciting-ai-kill-switch-feature-and-more-enhancements/ )
+- [P.E.T.E.R. Abuse]( https://www.peterabuse.org/ )
+- ["krasse" neue Bürger App]( https://www.heise.de/news/Das-wird-krass-Digitalminister-plant-bundesweite-Buerger-App-11192475.html )
 
 ## Themen
 
-* TeddyCloud (2024 C3 Vortrag)
-* OpenClaw
+- TeddyCloud (2024 C3 Vortrag)
+- OpenClaw
 - Schau dir mal die Daten in der InfluxDB an
 - ollama läuft nicht gut
 
@@ -69,8 +69,10 @@ In dieser Episode von Binärgewitter Talk, Ausgabe 376, diskutieren Markus, Feli
 
 ## Mimimi der Woche
 
-* Door Open am Intercom will nicht!
-* Tastatur Firmware Probleme!
+- Door Open am Intercom will nicht!
+- Tastatur Firmware Probleme!
+  - [Cyboard Imprint](https://cyboard.digital/products/imprint)
+  - [Keychron](https://keychron.de)
 
 ## Lesefoo
 
