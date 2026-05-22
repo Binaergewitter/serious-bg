@@ -2,6 +2,7 @@
 layout: post
 title: "Binärgewitter Talk #378: Und täglich grüßt die Chatkontrolle"
 date: 2026-04-04 15:00:00
+description: "Chatkontrolle, TypeScript 6.0, Nextcloud User External, GitHub-Uptime, Claude-Code-Leak, LiteLLM, KubeCon EU und weitere Tech-News."
 
 comments: true
 categories: talk
@@ -79,5 +80,4 @@ Ostergewitter mit Markus, Felix und Ingo.
 - [SBB TUI]( https://github.com/Necrom4/sbb-tui )
 - [Why I Built Daemonless]( https://ahze.net/posts/why-i-built-daemonless/ )
 - [Nextcloud Podcast mit CIO im österreichischen BMWET]( https://nextcloud.com/de/blog/martin-ollrom-digitale-transformation-bmwet-nextcloud/ )
-
 

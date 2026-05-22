@@ -21,21 +21,31 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ if .IsPage }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
+  {{ $metaDescription := .Site.Params.description }}
+  {{ with .Description }}
+  {{ $metaDescription = . | plainify | replaceRE "\\s+" " " | truncate 160 }}
+  {{ else }}
+  {{ if .IsPage }}
+  {{ with .Summary }}
+  {{ $metaDescription = . | plainify | replaceRE "\\s+" " " | truncate 160 }}
+  {{ end }}
+  {{ end }}
+  {{ end }}
 
   <meta property="og:site_name" content="{{ .Site.Title }}">
   <meta property="og:url" content="{{ .Permalink | strings.TrimSuffix "/" }}" />
   <meta property="og:title" content="{{ if .IsPage }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }} " />
-  <meta property="og:description"
-    content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <meta property="og:description" content="{{ $metaDescription }}">
   <meta property="og:locale" content="de_DE" />
   <meta property="og:image" content="{{"img/binaergewitter_logo_text.png" | absURL }}" />
   <meta property="fb:pages" content="1763347550560569">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{{ if .IsPage }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}">
+  <meta name="twitter:description" content="{{ $metaDescription }}">
   <meta name="twitter:image" content="{{"img/binaergewitter_logo_text.png" | absURL }}" />
 
-  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <meta name="description" content="{{ $metaDescription }}">
 
   <link rel="shortcut icon" href="{{"favicon.ico" | relURL }}" type="image/x-icon" />
   <link rel="apple-touch-icon" href="{{"apple-touch-icon.png" | relURL }}" />
