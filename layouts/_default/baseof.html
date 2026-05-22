@@ -31,19 +31,42 @@
   {{ end }}
   {{ end }}
   {{ end }}
+  {{ $socialImage := "img/binaergewitter_logo_1400x1400.png" | absURL }}
+  {{ $socialTitle := cond .IsPage .Title .Site.Title }}
 
   <meta property="og:site_name" content="{{ .Site.Title }}">
   <meta property="og:url" content="{{ .Permalink | strings.TrimSuffix "/" }}" />
-  <meta property="og:title" content="{{ if .IsPage }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }} " />
+  <meta property="og:title" content="{{ $socialTitle }}" />
+  <meta property="og:type" content="{{ if eq .Section "post" }}article{{ else }}website{{ end }}" />
   <meta property="og:description" content="{{ $metaDescription }}">
   <meta property="og:locale" content="de_DE" />
-  <meta property="og:image" content="{{"img/binaergewitter_logo_text.png" | absURL }}" />
+  <meta property="og:image" content="{{ $socialImage }}" />
+  <meta property="og:image:secure_url" content="{{ $socialImage }}" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1417" />
+  <meta property="og:image:height" content="1417" />
+  <meta property="og:image:alt" content="{{ .Site.Title }} Logo" />
+  {{ if eq .Section "post" }}
+  <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" />
+  <meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}" />
+  {{ with .Params.categories }}
+  {{ if reflect.IsSlice . }}
+  {{ range . }}
+  <meta property="article:section" content="{{ . }}" />
+  {{ end }}
+  {{ else }}
+  <meta property="article:section" content="{{ . }}" />
+  {{ end }}
+  {{ end }}
+  <meta property="article:author" content="{{ .Site.Params.author }}" />
+  {{ end }}
   <meta property="fb:pages" content="1763347550560569">
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="{{ if .IsPage }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ $socialTitle }}">
   <meta name="twitter:description" content="{{ $metaDescription }}">
-  <meta name="twitter:image" content="{{"img/binaergewitter_logo_text.png" | absURL }}" />
+  <meta name="twitter:image" content="{{ $socialImage }}" />
+  <meta name="twitter:image:alt" content="{{ .Site.Title }} Logo" />
 
   <meta name="description" content="{{ $metaDescription }}">
 
