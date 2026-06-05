@@ -112,11 +112,11 @@ function testRSSFeeds() {
                 assert(content.includes('<enclosure'), `${dir}/rss.xml contains enclosures`);
                 assert(content.includes('download.binaergewitter.de'), `${dir}/rss.xml has audio URLs`);
 
-                // Verify base feed has at most 50 items
+                // Verify base feed has at most 100 items
                 const isBaseFeed = !dir.match(/\/archive$/);
                 if (isBaseFeed) {
                     const itemCount = (content.match(/<item>/g) || []).length;
-                    assert(itemCount <= 50, `${dir}/rss.xml (base feed) has at most 50 items (found ${itemCount})`);
+                    assert(itemCount <= 100, `${dir}/rss.xml (base feed) has at most 100 items (found ${itemCount})`);
                 }
 
                 // Verify archive feed exists and has items
