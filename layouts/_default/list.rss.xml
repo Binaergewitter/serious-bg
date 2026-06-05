@@ -59,20 +59,21 @@
         
         {{ $duration := "00:00:00" }}
         {{ $size := 0 }}
+        {{ $filename := path.Base $url }}
         {{ if $meta }}
           {{ if reflect.IsMap $meta }}
             {{ with index $meta "length_timestring" }}
               {{ $duration = index (split . ".") 0 }}
             {{ end }}
             {{ range index $meta "output_files" }}
-              {{ if eq (index . "ending") $firstFormat }}
+              {{ if eq (index . "filename") $filename }}
                 {{ $size = index . "size" }}
               {{ end }}
             {{ end }}
           {{ end }}
         {{ end }}
 
-        <enclosure url="{{ $url }}" length="{{ $size }}" type="audio/{{ $firstFormat }}" />
+        <enclosure url="{{ $url }}" length="{{ printf "%.0f" $size }}" type="audio/{{ $firstFormat }}" />
         <itunes:duration>{{ $duration }}</itunes:duration>
 
         {{ $chaptersUrl := .Params.chapters | default (replace $url (printf ".%s" $firstFormat) ".chapters.txt") }}
