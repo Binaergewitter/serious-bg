@@ -1,0 +1,33 @@
+{{- $page := .page -}}
+{{- $description := .description -}}
+{{- $image := .image -}}
+{{- $series := dict
+  "@type" "PodcastSeries"
+  "name" $page.Site.Title
+  "url" $page.Site.BaseURL
+  "description" $page.Site.Params.description
+  "image" $image
+  "inLanguage" "de-DE"
+-}}
+{{- if $page.IsHome -}}
+{{- $schema := merge $series (dict "@context" "https://schema.org") -}}
+<script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
+{{- else if eq $page.Section "post" -}}
+{{- $episode := dict
+  "@context" "https://schema.org"
+  "@type" "PodcastEpisode"
+  "name" $page.Title
+  "url" ($page.Permalink | strings.TrimSuffix "/")
+  "description" $description
+  "datePublished" ($page.Date.Format "2006-01-02T15:04:05Z07:00")
+  "dateModified" ($page.Lastmod.Format "2006-01-02T15:04:05Z07:00")
+  "image" $image
+  "partOfSeries" $series
+-}}
+{{- with $page.Params.audioformats -}}
+  {{- with (index . "mp3") -}}
+    {{- $episode = merge $episode (dict "associatedMedia" (dict "@type" "MediaObject" "contentUrl" . "encodingFormat" "audio/mpeg")) -}}
+  {{- end -}}
+{{- end -}}
+<script type="application/ld+json">{{ $episode | jsonify | safeJS }}</script>
+{{- end -}}
