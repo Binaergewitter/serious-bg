@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Binärgewitter Talk #381: BGT #381: Local Opus und Cloud Opus"
-date: 2026-07-06 15:00:00
+title: "Binärgewitter Talk #381: Local Opus und Cloud Opus"
+date: 2026-07-06 13:30:00
 
 comments: true
 categories: talk
@@ -25,8 +25,8 @@ Außerdem diskutieren wir Plattformfragen, Sicherheits- und Lieferkettenthemen s
 
 ## Blast from the Past
 - Kubernetes Cluster ist nun live!
-https://www.siderolabs.com/talos-linux
-https://github.com/kreativmonkey/homelab-gitops
+	- https://www.siderolabs.com/talos-linux
+	- https://github.com/kreativmonkey/homelab-gitops
 - [payphonetag]( https://payphonetag.com/ )
 - [Froscon]( https://www.betterplace.org/de/projects/175478 )
 
@@ -73,9 +73,6 @@ https://github.com/kreativmonkey/homelab-gitops
 - Codeberg
 - Gitlab 
 - BitBucket (nein!)
-??
-12.06.2026 gibt es ein wichtiges Sicherheitsupdate für Forgejo in Version 11.0.15 oder 15.0.3.
-Wenn es erst am 12.06. kommt ist es sicher nicht wichtig ;-)
 - Hackergarten
 
 ## 3D-Druck der Woche
