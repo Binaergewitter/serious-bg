@@ -498,8 +498,11 @@ function testLatestShow() {
             const content = fs.readFileSync(latestShowPath, 'utf8').trim();
             assert(/^\d+$/.test(content), `latest-show contains a number: ${content}`);
 
-            // Look for the latest talk post in the articles directory to verify against
+            // Look for the latest published talk post in the articles directory.
+            // Hugo excludes future-dated posts unless --buildFuture is used, so the
+            // source-side expectation needs to mirror that behavior.
             const articlesDir = path.join(__dirname, '../articles');
+            const now = new Date();
             const files = fs.readdirSync(articlesDir)
                 .filter(f => f.endsWith('.md') || f.endsWith('.markdown'))
                 .sort()
@@ -509,6 +512,15 @@ function testLatestShow() {
             let expectedNumber = null;
             for (const file of files) {
                 const fileContent = fs.readFileSync(path.join(articlesDir, file), 'utf8');
+                const dateMatch = fileContent.match(/^date:\s*(\d{4}-\d{2}-\d{2})(?:[ T](\d{2}:\d{2}:\d{2}))?/m);
+                const publishedAt = dateMatch
+                    ? new Date(`${dateMatch[1]}T${dateMatch[2] || '00:00:00'}`)
+                    : null;
+
+                if (publishedAt && publishedAt > now) {
+                    continue;
+                }
+
                 if (fileContent.match(/categories:\s*talk/)) {
                     const titleMatch = fileContent.match(/title:.*#(\d+)/m);
                     if (titleMatch) {
