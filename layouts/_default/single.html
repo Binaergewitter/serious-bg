@@ -5,7 +5,7 @@
     </header>
 
     <div class="content">
-        {{ .Content }}
+        {{ .Content | replaceRE "<h1" "<h2" | replaceRE "</h1>" "</h2>" | safeHTML }}
     </div>
 
     {{ if and .Site.Params.isso (eq .Section "post") }}

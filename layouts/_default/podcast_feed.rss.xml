@@ -8,7 +8,7 @@
      xmlns:psc="http://podlove.org/simple-chapters">
   <channel>
     <title>{{ .Title }}</title>
-    <link>{{ .Permalink | absURL }}</link>
+    <link>{{ .Site.BaseURL }}</link>
     <description>{{ .Site.Params.description }}</description>
     {{ with .Site.LanguageCode }}<language>{{ . }}</language>{{ end }}
     <copyright>Creative Commons BY-SA 3.0 DE</copyright>
@@ -91,7 +91,8 @@
               {{ end }}
             {{ end }}
 
-            <enclosure url="{{ $url }}" length="{{ printf "%.0f" $size }}" type="audio/{{ $targetCodec }}" />
+            {{ $mimeType := cond (eq $targetCodec "mp3") "audio/mpeg" (printf "audio/%s" $targetCodec) }}
+            <enclosure url="{{ $url }}" length="{{ printf "%.0f" $size }}" type="{{ $mimeType }}" />
             <itunes:duration>{{ $duration }}</itunes:duration>
 
             {{ $chaptersUrl := .Params.chapters }}
@@ -129,7 +130,11 @@
 
       {{ range $name, $val := .Params.voices }}
         {{ if $val }}
-          <podcast:person>{{ $name }}</podcast:person>
+          {{ with (index $.Site.Params.contributors $name) }}
+            <podcast:person>{{ .name }}</podcast:person>
+          {{ else }}
+            <podcast:person>{{ $name }}</podcast:person>
+          {{ end }}
         {{ end }}
       {{ end }}
     </item>

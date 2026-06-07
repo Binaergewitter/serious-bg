@@ -68,9 +68,7 @@
 {{ end }}
 
 <div class="podcast_player" style="width:100%;">
-    <p>
     <div id="player-{{ .File.BaseFileName }}"></div>
-    </p>
     <script>
         head.ready('podlove', function () {
             podlovePlayer('#player-{{ .File.BaseFileName }}',

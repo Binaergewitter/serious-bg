@@ -1,13 +1,13 @@
 <article class="post">
     <header>
-        <h1>
+        <h2>
             <a href="{{ .Permalink }}">{{ .Title }}</a>
             <small class="date">{{ .Date.Format .Site.Params.date_format }}</small>
-        </h1>
+        </h2>
     </header>
 
     <div class="content">
-        {{ .Summary }}
+        {{ .Summary | replaceRE "<h1" "<h2" | replaceRE "</h1>" "</h2>" | safeHTML }}
 
         {{ if .Truncated }}
         <p><a href="{{ .Permalink }}">Weiterlesen...</a></p>

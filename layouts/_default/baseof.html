@@ -15,7 +15,10 @@
     head.load({{ "css/github-ribbon.css" | relURL }})
   </script>
 
-  <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="{{"rss.xml" | relURL }}" />
+  <link rel="canonical" href="{{ .Permalink | strings.TrimSuffix "/" }}" />
+  <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }} Podcast MP3 Feed" href="{{ "podcast_feed/all/mp3/rss.xml" | absURL }}" />
+  <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }} Podcast Opus Feed" href="{{ "podcast_feed/all/opus/rss.xml" | absURL }}" />
+  <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }} Website RSS" href="{{ "rss.xml" | absURL }}" />
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -69,6 +72,7 @@
   <meta name="twitter:image:alt" content="{{ .Site.Title }} Logo" />
 
   <meta name="description" content="{{ $metaDescription }}">
+  {{ partial "schema.html" (dict "page" . "description" $metaDescription "image" $socialImage) }}
 
   <link rel="shortcut icon" href="{{"favicon.ico" | relURL }}" type="image/x-icon" />
   <link rel="apple-touch-icon" href="{{"apple-touch-icon.png" | relURL }}" />
@@ -132,7 +136,7 @@
       text-transform: uppercase;
     }
 
-    .home-hero h2 {
+    .home-hero h1 {
       margin: 0 0 12px;
       font-size: 36px;
       line-height: 1.15;
@@ -212,7 +216,7 @@
         padding: 22px 0 26px;
       }
 
-      .home-hero h2 {
+      .home-hero h1 {
         font-size: 28px;
       }
 
@@ -302,11 +306,11 @@
             <img class="header-logo" src="{{"img/binaergewitter_logo.svg" | relURL }}">
           </div>
           <div class="col-md-9" style="padding-top:20px">
-            <h1>
+            <div class="site-heading">
               <span class="header-name">{{ .Site.Title }}</span>
               <br>
               <small class="header-slug">Now with more Internet!</small>
-            </h1>
+            </div>
           </div>
         </div>
         <hr>

@@ -1,2 +1,3 @@
 User-Agent: *
-Disallow: 
+Disallow:
+Sitemap: https://blog.binaergewitter.de/sitemap.xml
