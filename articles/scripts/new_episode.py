@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 
 import argparse
+import base64
 import html
 import json
+import os
 import re
 import sys
+import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta
 from html.parser import HTMLParser
@@ -13,6 +16,7 @@ from typing import Any
 
 
 DOWNLOAD_BASE_URL = "https://download.binaergewitter.de"
+ETHERPAD_BASE_URL = "https://etherpad.binaergewitter.de"
 
 BASENAME_RE = re.compile(
     r"^(?P<audio_date>\d{4}-\d{2}-\d{2})\.Binaergewitter\.Talk\.(?P<number>\d+)$"
@@ -64,6 +68,22 @@ def normalize_space(value: str) -> str:
     return re.sub(r"\s+", " ", html.unescape(value)).strip()
 
 
+def normalize_summary(value: str) -> str:
+    value = html.unescape(value).replace("\r\n", "\n").replace("\r", "\n")
+    lines = [
+        re.sub(r"[ \t]+", " ", line).strip()
+        for line in value.split("\n")
+    ]
+
+    while lines and not lines[0]:
+        lines.pop(0)
+
+    while lines and not lines[-1]:
+        lines.pop()
+
+    return "\n".join(lines)
+
+
 def normalize_key(value: str) -> str:
     value = html.unescape(value).strip().lower()
     value = value.replace("ä", "ae").replace("ö", "oe").replace("ü", "ue").replace("ß", "ss")
@@ -71,12 +91,17 @@ def normalize_key(value: str) -> str:
     return value
 
 
-def fetch_text(url: str) -> str:
+def fetch_text(url: str, headers: dict[str, str] | None = None) -> str:
+    request_headers = {
+        "User-Agent": "binaergewitter-new-episode-script/1.0",
+    }
+
+    if headers:
+        request_headers.update(headers)
+
     request = urllib.request.Request(
         url,
-        headers={
-            "User-Agent": "binaergewitter-new-episode-script/1.0",
-        },
+        headers=request_headers,
     )
 
     with urllib.request.urlopen(request, timeout=30) as response:
@@ -204,6 +229,54 @@ def extract_title_candidates_from_html(html_text: str) -> list[str]:
     return cleaned
 
 
+def extract_brief_summary_from_html(html_text: str) -> str | None:
+    candidates: list[str] = []
+    decoder = json.JSONDecoder()
+
+    for match in re.finditer(r'"brief"\s*:', html_text, flags=re.IGNORECASE):
+        start = match.end()
+
+        while start < len(html_text) and html_text[start].isspace():
+            start += 1
+
+        try:
+            value, _ = decoder.raw_decode(html_text[start:])
+        except json.JSONDecodeError:
+            continue
+
+        if isinstance(value, list):
+            candidates.extend(
+                item
+                for item in value
+                if isinstance(item, str)
+            )
+        elif isinstance(value, str):
+            candidates.append(value)
+
+    for match in re.finditer(
+        r'"(?:brief_?summary|briefSummary)"\s*:\s*"((?:\\.|[^"\\])*)"',
+        html_text,
+        flags=re.IGNORECASE,
+    ):
+        candidates.append(decode_json_string(match.group(1)))
+
+    seen: set[str] = set()
+    for candidate in candidates:
+        candidate = normalize_summary(candidate)
+
+        if not candidate:
+            continue
+
+        key = candidate.lower()
+        if key in seen:
+            continue
+
+        seen.add(key)
+        return candidate
+
+    return None
+
+
 def is_generic_title(value: str) -> bool:
     normalized = value.strip().lower()
     return normalized in {
@@ -249,6 +322,7 @@ def choose_episode_title_suffix(html_text: str, episode_number: str) -> str | No
 
     patterns = [
         rf"^Bin(?:ä|ae|a)rgewitter\s+Talk\s+#?\s*{re.escape(episode_number)}\s*[:\-–]\s*(.+)$",
+        rf"^BGT\s+#?\s*{re.escape(episode_number)}\s*[:\-–]\s*(.+)$",
         rf"^Talk\s+#?\s*{re.escape(episode_number)}\s*[:\-–]\s*(.+)$",
         rf"^#?\s*{re.escape(episode_number)}\s*[:\-–]\s*(.+)$",
     ]
@@ -404,6 +478,30 @@ def update_frontmatter_basic(
     return frontmatter
 
 
+def update_frontmatter_description(frontmatter: str, summary: str | None) -> str:
+    if not summary:
+        return frontmatter
+
+    description = normalize_space(summary)
+    if not description:
+        return frontmatter
+
+    line = f'description: "{yaml_double_quote(description)}"'
+
+    if re.search(r"(?m)^description:\s*", frontmatter):
+        return re.sub(r"(?m)^description:\s*.*$", line, frontmatter)
+
+    if re.search(r"(?m)^date:\s*", frontmatter):
+        return re.sub(
+            r"(?m)^(date:\s*.*)$",
+            lambda match: f"{match.group(1)}\n{line}",
+            frontmatter,
+            count=1,
+        )
+
+    return frontmatter.replace("---\n", f"---\n{line}\n", 1)
+
+
 def extract_voice_keys(frontmatter: str) -> list[str]:
     lines = frontmatter.splitlines()
     keys: list[str] = []
@@ -502,11 +600,207 @@ def clear_body_to_skeleton(body: str) -> str:
     return result + "\n"
 
 
+def derive_etherpad_pad_id(episode_number: str) -> str:
+    return f"bgt{episode_number}"
+
+
+def make_etherpad_export_url(etherpad_base_url: str, pad_id: str) -> str:
+    quoted_pad_id = urllib.parse.quote(pad_id, safe="")
+    return f"{etherpad_base_url.rstrip('/')}/p/{quoted_pad_id}/export/txt"
+
+
+def normalize_cookie_header(value: str) -> str:
+    value = value.strip()
+
+    if value.lower().startswith("cookie:"):
+        value = value.split(":", 1)[1].strip()
+
+    cookie_parts: list[str] = []
+
+    for line in value.splitlines():
+        line = line.strip()
+
+        if not line or line.startswith("#"):
+            continue
+
+        fields = line.split("\t")
+        if len(fields) >= 7:
+            cookie_parts.append(f"{fields[5]}={fields[6]}")
+        else:
+            cookie_parts.append(line)
+
+    return "; ".join(cookie_parts)
+
+
+def read_cookie_file(cookie_file: str) -> str:
+    path = Path(cookie_file).expanduser()
+    return normalize_cookie_header(path.read_text(encoding="utf-8"))
+
+
+def build_etherpad_headers(
+    cookie: str | None,
+    cookie_file: str | None,
+    user: str | None,
+    password: str | None,
+) -> dict[str, str]:
+    headers: dict[str, str] = {}
+
+    cookie_value = cookie
+
+    if not cookie_value and cookie_file:
+        cookie_value = read_cookie_file(cookie_file)
+
+    if not cookie_value:
+        cookie_value = os.environ.get("ETHERPAD_COOKIE")
+
+    if cookie_value:
+        headers["Cookie"] = normalize_cookie_header(cookie_value)
+
+    user = user or os.environ.get("ETHERPAD_USER")
+    password = password or os.environ.get("ETHERPAD_PASSWORD")
+
+    if bool(user) != bool(password):
+        raise ValueError("Etherpad Basic Auth braucht User und Passwort.")
+
+    if user and password:
+        credentials = f"{user}:{password}".encode("utf-8")
+        token = base64.b64encode(credentials).decode("ascii")
+        headers["Authorization"] = f"Basic {token}"
+
+    return headers
+
+
+def normalize_shownotes(text: str) -> str:
+    text = html.unescape(text)
+    text = text.replace("\r\n", "\n").replace("\r", "\n")
+    text = text.replace("\ufeff", "").replace("\xa0", " ")
+
+    lines = [
+        re.sub(r"[ \t]+$", "", line)
+        for line in text.split("\n")
+    ]
+
+    while lines and not lines[0].strip():
+        lines.pop(0)
+
+    while lines and not lines[-1].strip():
+        lines.pop()
+
+    normalized_lines: list[str] = []
+    blank_count = 0
+
+    for line in lines:
+        if line.strip():
+            blank_count = 0
+            normalized_lines.append(line)
+            continue
+
+        blank_count += 1
+        if blank_count <= 2:
+            normalized_lines.append("")
+
+    return "\n".join(normalized_lines).strip()
+
+
+def extract_shownotes_markdown(text: str) -> str:
+    lines = text.splitlines()
+
+    for index, line in enumerate(lines):
+        if line.strip() == "---":
+            return normalize_shownotes("\n".join(lines[index + 1:]))
+
+    return normalize_shownotes(text)
+
+
+def validate_shownotes_markdown(shownotes: str) -> None:
+    lines = shownotes.splitlines()
+    nonempty_lines = [
+        line
+        for line in lines
+        if line.strip()
+    ]
+
+    if not nonempty_lines:
+        raise ValueError("Shownotes sind leer.")
+
+    if not re.search(r"(?m)^##\s+\S+", shownotes):
+        raise ValueError("Shownotes enthalten keine Markdown-Abschnittsueberschrift.")
+
+    first_line = nonempty_lines[0]
+
+    if not first_line.startswith("## "):
+        raise ValueError(
+            "Shownotes beginnen nicht mit einer Markdown-Abschnittsueberschrift."
+        )
+
+
+def looks_like_html_login(text: str) -> bool:
+    sample = text[:2000].lower()
+    return (
+        "<html" in sample
+        or "<!doctype html" in sample
+        or "<form" in sample and "password" in sample
+    )
+
+
+def fetch_etherpad_shownotes(
+    shownotes_url: str,
+    headers: dict[str, str],
+) -> str:
+    text = fetch_text(shownotes_url, headers=headers)
+
+    if looks_like_html_login(text):
+        raise ValueError("Antwort sieht nach HTML/Login-Seite statt TXT-Export aus.")
+
+    shownotes = extract_shownotes_markdown(text)
+    validate_shownotes_markdown(shownotes)
+
+    return shownotes
+
+
+def compose_body(
+    body: str,
+    summary: str | None,
+    shownotes: str | None,
+) -> str:
+    summary = normalize_summary(summary) if summary else ""
+    shownotes = extract_shownotes_markdown(shownotes) if shownotes else ""
+
+    if shownotes:
+        parts = [part for part in [summary, shownotes] if part]
+        return "\n" + "\n\n".join(parts) + "\n"
+
+    return replace_body_intro_with_summary(body, summary)
+
+
+def replace_body_intro_with_summary(body: str, summary: str | None) -> str:
+    if not summary:
+        return body
+
+    summary = normalize_summary(summary)
+    if not summary:
+        return body
+
+    lines = body.splitlines()
+    first_heading_index = None
+
+    for index, line in enumerate(lines):
+        if re.match(r"^#{2,6}\s+", line):
+            first_heading_index = index
+            break
+
+    if first_heading_index is None:
+        return f"\n{summary}\n"
+
+    rest = "\n".join(lines[first_heading_index:]).rstrip("\n")
+    return f"\n{summary}\n\n{rest}\n"
+
+
 def load_remote_episode_info(
     basename: str,
     episode_number: str,
     download_base_url: str,
-) -> tuple[str | None, list[str]]:
+) -> tuple[str | None, list[str], str | None]:
     episode_url_base = f"{download_base_url.rstrip('/')}/{basename}"
 
     html_url = f"{episode_url_base}.html"
@@ -514,11 +808,13 @@ def load_remote_episode_info(
 
     title_suffix: str | None = None
     speakers: list[str] = []
+    brief_summary: str | None = None
 
     try:
         html_text = fetch_text(html_url)
         title_suffix = choose_episode_title_suffix(html_text, episode_number)
         speakers = extract_speakers_from_html(html_text)
+        brief_summary = extract_brief_summary_from_html(html_text)
     except Exception as error:
         warn(f"Konnte HTML nicht auslesen: {html_url} ({error})")
 
@@ -529,7 +825,7 @@ def load_remote_episode_info(
         except Exception as error:
             warn(f"Konnte Speech-JSON nicht auslesen: {speech_json_url} ({error})")
 
-    return title_suffix, speakers
+    return title_suffix, speakers, brief_summary
 
 
 def main() -> None:
@@ -563,7 +859,46 @@ def main() -> None:
     parser.add_argument(
         "--no-fetch",
         action="store_true",
-        help="Keine Metadaten aus HTML/JSON laden.",
+        help="Keine Metadaten aus Download-HTML/JSON laden.",
+    )
+    parser.add_argument(
+        "--etherpad-base-url",
+        default=ETHERPAD_BASE_URL,
+        help=f"Etherpad-Basis-URL. Default: {ETHERPAD_BASE_URL}",
+    )
+    parser.add_argument(
+        "--shownotes-pad",
+        help='Etherpad-Pad-ID. Default: aus Episodennummer, z. B. "bgt381".',
+    )
+    parser.add_argument(
+        "--shownotes-url",
+        help="Explizite Shownotes-TXT-Export-URL. Überschreibt --etherpad-base-url und --shownotes-pad.",
+    )
+    parser.add_argument(
+        "--no-shownotes",
+        action="store_true",
+        help="Keine Shownotes aus Etherpad laden.",
+    )
+    parser.add_argument(
+        "--require-shownotes",
+        action="store_true",
+        help="Abbrechen, wenn die Etherpad-Shownotes nicht geladen werden können.",
+    )
+    parser.add_argument(
+        "--etherpad-cookie-file",
+        help="Datei mit Etherpad-Cookie-Header oder Netscape-Cookie-Export.",
+    )
+    parser.add_argument(
+        "--etherpad-cookie",
+        help="Etherpad-Cookie-Header. Alternativ: ETHERPAD_COOKIE.",
+    )
+    parser.add_argument(
+        "--etherpad-user",
+        help="HTTP-Basic-Auth-User. Alternativ: ETHERPAD_USER.",
+    )
+    parser.add_argument(
+        "--etherpad-password",
+        help="HTTP-Basic-Auth-Passwort. Alternativ: ETHERPAD_PASSWORD.",
     )
     parser.add_argument(
         "--publish-date",
@@ -610,13 +945,44 @@ def main() -> None:
 
     remote_title_suffix: str | None = None
     remote_speakers: list[str] = []
+    remote_brief_summary: str | None = None
+    remote_shownotes: str | None = None
+    shownotes_url: str | None = None
 
     if not args.no_fetch:
-        remote_title_suffix, remote_speakers = load_remote_episode_info(
+        (
+            remote_title_suffix,
+            remote_speakers,
+            remote_brief_summary,
+        ) = load_remote_episode_info(
             basename=args.basename,
             episode_number=episode_number,
             download_base_url=args.download_base_url,
         )
+
+    if not args.no_shownotes:
+        pad_id = args.shownotes_pad or derive_etherpad_pad_id(episode_number)
+        shownotes_url = args.shownotes_url or make_etherpad_export_url(
+            args.etherpad_base_url,
+            pad_id,
+        )
+
+        try:
+            etherpad_headers = build_etherpad_headers(
+                cookie=args.etherpad_cookie,
+                cookie_file=args.etherpad_cookie_file,
+                user=args.etherpad_user,
+                password=args.etherpad_password,
+            )
+            remote_shownotes = fetch_etherpad_shownotes(
+                shownotes_url=shownotes_url,
+                headers=etherpad_headers,
+            )
+        except Exception as error:
+            message = f"Konnte Etherpad-Shownotes nicht laden: {shownotes_url} ({error})"
+            if args.require_shownotes:
+                fail(message)
+            warn(message)
 
     title_suffix = args.title or remote_title_suffix or "TODO"
 
@@ -638,6 +1004,7 @@ def main() -> None:
         post_time=args.time,
         title_suffix=title_suffix,
     )
+    frontmatter = update_frontmatter_description(frontmatter, remote_brief_summary)
 
     if remote_speakers:
         frontmatter = replace_voices_block(frontmatter, remote_speakers)
@@ -646,6 +1013,12 @@ def main() -> None:
 
     if args.clear_body:
         body = clear_body_to_skeleton(body)
+
+    body = compose_body(
+        body=body,
+        summary=remote_brief_summary,
+        shownotes=remote_shownotes,
+    )
 
     new_text = frontmatter + body
 
@@ -667,6 +1040,12 @@ def main() -> None:
 
     if remote_speakers:
         print("Sprecher: " + ", ".join(remote_speakers))
+
+    if remote_brief_summary:
+        print("Brief Summary: gefunden")
+
+    if remote_shownotes:
+        print(f"Shownotes: gefunden ({shownotes_url})")
 
 
 if __name__ == "__main__":
