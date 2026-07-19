@@ -91,7 +91,11 @@ def normalize_key(value: str) -> str:
     return value
 
 
-def fetch_text(url: str, headers: dict[str, str] | None = None) -> str:
+def fetch_text(
+    url: str,
+    headers: dict[str, str] | None = None,
+    data: bytes | None = None,
+) -> str:
     request_headers = {
         "User-Agent": "binaergewitter-new-episode-script/1.0",
     }
@@ -102,6 +106,7 @@ def fetch_text(url: str, headers: dict[str, str] | None = None) -> str:
     request = urllib.request.Request(
         url,
         headers=request_headers,
+        data=data,
     )
 
     with urllib.request.urlopen(request, timeout=30) as response:
@@ -109,8 +114,12 @@ def fetch_text(url: str, headers: dict[str, str] | None = None) -> str:
         return response.read().decode(charset, errors="replace")
 
 
-def fetch_json(url: str) -> Any:
-    return json.loads(fetch_text(url))
+def fetch_json(
+    url: str,
+    headers: dict[str, str] | None = None,
+    data: bytes | None = None,
+) -> Any:
+    return json.loads(fetch_text(url, headers=headers, data=data))
 
 
 class EpisodeHTMLParser(HTMLParser):
@@ -609,6 +618,100 @@ def make_etherpad_export_url(etherpad_base_url: str, pad_id: str) -> str:
     return f"{etherpad_base_url.rstrip('/')}/p/{quoted_pad_id}/export/txt"
 
 
+def make_etherpad_api_url(etherpad_base_url: str, pad_id: str, apikey: str) -> str:
+    query = urllib.parse.urlencode({"apikey": apikey, "padID": pad_id})
+    return f"{etherpad_base_url.rstrip('/')}/api/1.2.15/getText?{query}"
+
+
+def resolve_etherpad_oauth(
+    client_id: str | None,
+    client_secret: str | None,
+) -> tuple[str, str] | None:
+    client_id = client_id or os.environ.get("ETHERPAD_CLIENT_ID") or "admin_client"
+    client_secret = client_secret or os.environ.get("ETHERPAD_CLIENT_SECRET")
+
+    if not client_secret:
+        return None
+
+    return client_id, client_secret
+
+
+def resolve_etherpad_apikey(apikey: str | None, apikey_file: str | None) -> str | None:
+    if apikey:
+        return apikey.strip()
+
+    if apikey_file:
+        path = Path(apikey_file).expanduser()
+        return path.read_text(encoding="utf-8").strip()
+
+    env_apikey = os.environ.get("ETHERPAD_APIKEY")
+    if env_apikey:
+        return env_apikey.strip()
+
+    return None
+
+
+def fetch_etherpad_oauth_token(
+    token_url: str,
+    client_id: str,
+    client_secret: str,
+) -> str:
+    payload = urllib.parse.urlencode(
+        {
+            "grant_type": "client_credentials",
+            "client_id": client_id,
+            "client_secret": client_secret,
+        }
+    ).encode("ascii")
+
+    response = fetch_json(
+        token_url,
+        headers={"Content-Type": "application/x-www-form-urlencoded"},
+        data=payload,
+    )
+
+    token = response.get("access_token") if isinstance(response, dict) else None
+    if not token:
+        raise ValueError("OAuth-Token-Antwort enthält kein access_token.")
+
+    return token
+
+
+def fetch_etherpad_shownotes_via_api(
+    etherpad_base_url: str,
+    pad_id: str,
+    apikey: str | None = None,
+    bearer_token: str | None = None,
+) -> str:
+    headers: dict[str, str] = {}
+
+    if bearer_token:
+        query = urllib.parse.urlencode({"padID": pad_id})
+        api_url = f"{etherpad_base_url.rstrip('/')}/api/1.2.15/getText?{query}"
+        headers["Authorization"] = f"Bearer {bearer_token}"
+    elif apikey:
+        api_url = make_etherpad_api_url(etherpad_base_url, pad_id, apikey)
+    else:
+        raise ValueError("Weder API-Key noch OAuth-Token vorhanden.")
+
+    response = fetch_json(api_url, headers=headers)
+
+    if not isinstance(response, dict) or response.get("code") != 0:
+        message = "unbekannter Fehler"
+        if isinstance(response, dict) and response.get("message"):
+            message = str(response["message"])
+        raise ValueError(f"Etherpad-API-Fehler: {message}")
+
+    text = response.get("data", {}).get("text")
+    if not isinstance(text, str):
+        raise ValueError("Etherpad-API-Antwort enthält keinen Text.")
+
+    shownotes = extract_shownotes_markdown(text)
+    validate_shownotes_markdown(shownotes)
+
+    return shownotes
+
+
 def normalize_cookie_header(value: str) -> str:
     value = value.strip()
 
@@ -885,6 +988,26 @@ def main() -> None:
         help="Abbrechen, wenn die Etherpad-Shownotes nicht geladen werden können.",
     )
     parser.add_argument(
+        "--etherpad-client-id",
+        help='OAuth2-Client-ID für die Etherpad-API (Etherpad >= 2.0). Alternativ: ETHERPAD_CLIENT_ID. Default: "admin_client".',
+    )
+    parser.add_argument(
+        "--etherpad-client-secret",
+        help="OAuth2-Client-Secret (bei admin_client das Admin-Passwort). Alternativ: ETHERPAD_CLIENT_SECRET.",
+    )
+    parser.add_argument(
+        "--etherpad-token-url",
+        help="OAuth2-Token-URL. Default: <etherpad-base-url>/oidc/token.",
+    )
+    parser.add_argument(
+        "--etherpad-apikey",
+        help="Etherpad-HTTP-API-Key (APIKEY.txt, nur Etherpad < 2.0). Alternativ: ETHERPAD_APIKEY.",
+    )
+    parser.add_argument(
+        "--etherpad-apikey-file",
+        help="Datei mit dem Etherpad-HTTP-API-Key.",
+    )
+    parser.add_argument(
         "--etherpad-cookie-file",
         help="Datei mit Etherpad-Cookie-Header oder Netscape-Cookie-Export.",
     )
@@ -962,27 +1085,66 @@ def main() -> None:
 
     if not args.no_shownotes:
         pad_id = args.shownotes_pad or derive_etherpad_pad_id(episode_number)
-        shownotes_url = args.shownotes_url or make_etherpad_export_url(
-            args.etherpad_base_url,
-            pad_id,
+        oauth = resolve_etherpad_oauth(
+            args.etherpad_client_id,
+            args.etherpad_client_secret,
+        )
+        apikey = resolve_etherpad_apikey(
+            args.etherpad_apikey,
+            args.etherpad_apikey_file,
         )
 
-        try:
-            etherpad_headers = build_etherpad_headers(
-                cookie=args.etherpad_cookie,
-                cookie_file=args.etherpad_cookie_file,
-                user=args.etherpad_user,
-                password=args.etherpad_password,
+        if (oauth or apikey) and not args.shownotes_url:
+            # Secrets nicht in Fehlermeldungen anzeigen.
+            shownotes_url = f"{args.etherpad_base_url.rstrip('/')}/api/1.2.15/getText?padID={pad_id}"
+
+            try:
+                bearer_token: str | None = None
+
+                if oauth:
+                    client_id, client_secret = oauth
+                    token_url = args.etherpad_token_url or (
+                        f"{args.etherpad_base_url.rstrip('/')}/oidc/token"
+                    )
+                    bearer_token = fetch_etherpad_oauth_token(
+                        token_url=token_url,
+                        client_id=client_id,
+                        client_secret=client_secret,
+                    )
+
+                remote_shownotes = fetch_etherpad_shownotes_via_api(
+                    etherpad_base_url=args.etherpad_base_url,
+                    pad_id=pad_id,
+                    apikey=apikey,
+                    bearer_token=bearer_token,
+                )
+            except Exception as error:
+                message = f"Konnte Etherpad-Shownotes nicht laden: {shownotes_url} ({error})"
+                if args.require_shownotes:
+                    fail(message)
+                warn(message)
+        else:
+            shownotes_url = args.shownotes_url or make_etherpad_export_url(
+                args.etherpad_base_url,
+                pad_id,
             )
-            remote_shownotes = fetch_etherpad_shownotes(
-                shownotes_url=shownotes_url,
-                headers=etherpad_headers,
-            )
-        except Exception as error:
-            message = f"Konnte Etherpad-Shownotes nicht laden: {shownotes_url} ({error})"
-            if args.require_shownotes:
-                fail(message)
-            warn(message)
+
+            try:
+                etherpad_headers = build_etherpad_headers(
+                    cookie=args.etherpad_cookie,
+                    cookie_file=args.etherpad_cookie_file,
+                    user=args.etherpad_user,
+                    password=args.etherpad_password,
+                )
+                remote_shownotes = fetch_etherpad_shownotes(
+                    shownotes_url=shownotes_url,
+                    headers=etherpad_headers,
+                )
+            except Exception as error:
+                message = f"Konnte Etherpad-Shownotes nicht laden: {shownotes_url} ({error})"
+                if args.require_shownotes:
+                    fail(message)
+                warn(message)
 
     title_suffix = args.title or remote_title_suffix or "TODO"
 
