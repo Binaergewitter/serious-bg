@@ -79,12 +79,15 @@ jobs:
 
             Automatisch aus diesem PR gebaut (`hugo --minify`), Stand `${{ github.event.pull_request.head.sha }}`.
 
-            **Desktop (1280 px)**
+            <table>
+              <tr>
+                <td align="center"><strong>Desktop (1280 px)</strong></td>
+                <td align="center"><strong>Mobil (390 px)</strong></td>
+              </tr>
+              <tr>
+                <td valign="top"><a href="${{ steps.publish.outputs.desktop_url }}"><img src="${{ steps.publish.outputs.desktop_url }}" alt="Desktop-Vorschau" width="520"></a></td>
+                <td valign="top"><a href="${{ steps.publish.outputs.mobile_url }}"><img src="${{ steps.publish.outputs.mobile_url }}" alt="Mobil-Vorschau" width="220"></a></td>
+              </tr>
+            </table>
 
-            ![Desktop-Vorschau](${{ steps.publish.outputs.desktop_url }})
-
-            **Mobil (390 px)**
-
-            ![Mobil-Vorschau](${{ steps.publish.outputs.mobile_url }})
-
-            <sub>Aktualisiert sich bei jedem neuen Commit. Rohbilder auch als Workflow-Artefakt „frontpage-screenshots".</sub>
+            <sub>Bild anklicken für volle Auflösung. Mobil zeigt den sichtbaren Bereich (kein endloser Vollseiten-Screenshot). Aktualisiert sich bei jedem neuen Commit. Rohbilder auch als Workflow-Artefakt „frontpage-screenshots".</sub>
