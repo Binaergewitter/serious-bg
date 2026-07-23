@@ -76,6 +76,7 @@
         {{ $mimeType := cond (eq $firstFormat "mp3") "audio/mpeg" (printf "audio/%s" $firstFormat) }}
         <enclosure url="{{ $url }}" length="{{ printf "%.0f" $size }}" type="{{ $mimeType }}" />
         <itunes:duration>{{ $duration }}</itunes:duration>
+        {{ with .Params.transcript }}<podcast:transcript url="{{ . }}" type="application/json" />{{ end }}
 
         {{ $chaptersUrl := .Params.chapters | default (replace $url (printf ".%s" $firstFormat) ".chapters.txt") }}
         {{ $chaptersRaw := "" }}

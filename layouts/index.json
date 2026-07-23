@@ -1,7 +1,25 @@
 {{- $searchIndex := slice -}}
 {{- range .Site.AllPages -}}
   {{- if and .Title .Permalink (or (eq .Section "post") (eq .Section "pages")) -}}
-    {{- $entry := dict "title" .Title "permalink" (.Permalink | absURL) "summary" (.Summary | plainify) "content" .Plain -}}
+    {{- $entry := dict
+        "title" .Title
+        "permalink" (.Permalink | absURL)
+        "summary" (.Summary | plainify)
+        "content" .Plain -}}
+    {{- if eq .Section "post" -}}
+      {{- /* Episode metadata from front matter only (no remote fetches, so the
+             full-archive build stays fast). Richer per-episode data (duration,
+             parsed chapters) lives in the RSS feeds and on the episode page. */ -}}
+      {{- $episodeNumber := "" -}}
+      {{- with findRE `#(\d+)` .Title 1 -}}{{- $episodeNumber = replace (index . 0) "#" "" -}}{{- end -}}
+      {{- $entry = merge $entry (dict
+          "date" (.Date.Format "2006-01-02T15:04:05Z07:00")
+          "categories" (.Params.categories | default "")
+          "episodeNumber" $episodeNumber
+          "audioformats" (.Params.audioformats | default dict)
+          "chapters" (.Params.chapters | default "")
+          "transcript" (.Params.transcript | default "")) -}}
+    {{- end -}}
     {{- $searchIndex = $searchIndex | append $entry -}}
   {{- end -}}
 {{- end -}}
