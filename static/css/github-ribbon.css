@@ -41,6 +41,13 @@
     right: -3.23em;
 
     box-sizing: content-box;
+
+    /* iOS Safari (older WebKit) ignores the unprefixed transform on these
+       pseudo-elements and renders them un-rotated as a thin horizontal bar,
+       so keep the -webkit- prefix the upstream library shipped. */
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
 
@@ -117,6 +124,9 @@
 .github-fork-ribbon.left-top:after,
 .github-fork-ribbon.right-bottom:before,
 .github-fork-ribbon.right-bottom:after {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
 }
 
