@@ -1,0 +1,90 @@
+name: PR Frontpage Screenshots
+
+# Builds the site from the PR, screenshots the front page at a desktop and a
+# mobile width, and posts them back into the PR as a (sticky) comment so
+# reviewers can see the rendered result without checking out the branch.
+on:
+  pull_request:
+
+permissions:
+  contents: write        # push rendered PNGs to the pr-previews branch
+  pull-requests: write   # post/update the sticky comment
+
+jobs:
+  screenshots:
+    runs-on: ubuntu-latest
+    name: Render frontpage screenshots
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.154.2'
+          extended: true
+
+      # Override baseURL so every asset (CSS/JS/links) resolves against the
+      # local server instead of production - otherwise the screenshot would
+      # load the live site's CSS and hide the very change under review.
+      - name: Build site
+        run: hugo --minify --baseURL "http://localhost:8080/"
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Playwright (Chromium)
+        run: |
+          npm init -y >/dev/null 2>&1
+          npm install -D playwright@1
+          npx playwright install --with-deps chromium
+
+      - name: Serve built site
+        run: |
+          python3 -m http.server 8080 --directory public &
+          for i in $(seq 1 30); do
+            if curl -sf http://localhost:8080/ >/dev/null; then
+              echo "server up"; break
+            fi
+            sleep 1
+          done
+
+      - name: Take screenshots
+        run: node .github/scripts/screenshot.js
+
+      # Always keep the raw images available even if the comment step is
+      # skipped (e.g. on fork PRs, where the token is read-only).
+      - name: Upload screenshots as artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: frontpage-screenshots
+          path: screenshots/
+
+      - name: Publish screenshots to preview branch
+        id: publish
+        if: github.event.pull_request.head.repo.full_name == github.repository
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: bash .github/scripts/publish-screenshots.sh
+
+      - name: Comment on PR
+        if: github.event.pull_request.head.repo.full_name == github.repository
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          header: frontpage-screenshots
+          message: |
+            ## 📸 Frontpage-Vorschau
+
+            Automatisch aus diesem PR gebaut (`hugo --minify`), Stand `${{ github.event.pull_request.head.sha }}`.
+
+            **Desktop (1280 px)**
+
+            ![Desktop-Vorschau](${{ steps.publish.outputs.desktop_url }})
+
+            **Mobil (390 px)**
+
+            ![Mobil-Vorschau](${{ steps.publish.outputs.mobile_url }})
+
+            <sub>Aktualisiert sich bei jedem neuen Commit. Rohbilder auch als Workflow-Artefakt „frontpage-screenshots".</sub>
