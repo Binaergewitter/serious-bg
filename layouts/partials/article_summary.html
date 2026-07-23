@@ -7,9 +7,13 @@
     </header>
 
     <div class="content">
+        {{ with .Description }}
+        <p>{{ . }}</p>
+        {{ else }}
         {{ .Summary | replaceRE "<h1" "<h2" | replaceRE "</h1>" "</h2>" | safeHTML }}
+        {{ end }}
 
-        {{ if .Truncated }}
+        {{ if or .Description .Truncated }}
         <p><a href="{{ .Permalink }}">Weiterlesen...</a></p>
         {{ end }}
 
