@@ -1,0 +1,23 @@
+{{- /* Server-rendered chapter list and transcript link for an episode, so the
+       episode structure and the pointer to the transcript are present in the
+       HTML itself (readable by agents/crawlers without running the player JS). */ -}}
+{{- $meta := partial "episode_meta.html" (dict "page" .) -}}
+{{- if or $meta.chapters $meta.transcript -}}
+<section class="episode-meta">
+  {{- with $meta.chapters }}
+  <details class="episode-chapters" open>
+    <summary><h2>Kapitel</h2></summary>
+    <ol class="chapters">
+      {{- range . }}
+      <li><span class="chapter-start">{{ .startHms }}</span> <span class="chapter-title">{{ .title }}</span></li>
+      {{- end }}
+    </ol>
+  </details>
+  {{- end }}
+  {{- with $meta.transcript }}
+  <p class="episode-transcript">
+    <a href="{{ . }}" rel="alternate" type="application/json">Transkript (JSON)</a>
+  </p>
+  {{- end }}
+</section>
+{{- end -}}

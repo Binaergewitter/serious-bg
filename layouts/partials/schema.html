@@ -10,9 +10,25 @@
   "inLanguage" "de-DE"
 -}}
 {{- if $page.IsHome -}}
+{{- /* WebSite with a SearchAction advertises the /index.json search endpoint so
+       agents (and search engines) know how to query the archive directly. */ -}}
+{{- $website := dict
+  "@context" "https://schema.org"
+  "@type" "WebSite"
+  "name" $page.Site.Title
+  "url" $page.Site.BaseURL
+  "inLanguage" "de-DE"
+  "publisher" (dict "@type" "Organization" "name" $page.Site.Params.author "url" $page.Site.BaseURL "logo" $image)
+  "potentialAction" (dict
+    "@type" "SearchAction"
+    "target" (dict "@type" "EntryPoint" "urlTemplate" (printf "%s?q={search_term_string}" $page.Site.BaseURL))
+    "query-input" "required name=search_term_string")
+-}}
 {{- $schema := merge $series (dict "@context" "https://schema.org") -}}
+<script type="application/ld+json">{{ $website | jsonify | safeJS }}</script>
 <script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
 {{- else if eq $page.Section "post" -}}
+{{- $meta := partial "episode_meta.html" (dict "page" $page) -}}
 {{- $episode := dict
   "@context" "https://schema.org"
   "@type" "PodcastEpisode"
@@ -22,12 +38,40 @@
   "datePublished" ($page.Date.Format "2006-01-02T15:04:05Z07:00")
   "dateModified" ($page.Lastmod.Format "2006-01-02T15:04:05Z07:00")
   "image" $image
+  "inLanguage" "de-DE"
   "partOfSeries" $series
 -}}
-{{- with $page.Params.audioformats -}}
-  {{- with (index . "mp3") -}}
-    {{- $episode = merge $episode (dict "associatedMedia" (dict "@type" "MediaObject" "contentUrl" . "encodingFormat" "audio/mpeg")) -}}
+{{- with $meta.episodeNumber -}}
+  {{- $episode = merge $episode (dict "episodeNumber" .) -}}
+{{- end -}}
+{{- with $meta.durationIso -}}
+  {{- $episode = merge $episode (dict "duration" .) -}}
+{{- end -}}
+{{- /* Every offered audio format as its own MediaObject. */ -}}
+{{- with $meta.audioformats -}}
+  {{- $mediaMime := dict "mp3" "audio/mpeg" "ogg" "audio/ogg" "opus" "audio/opus" "m4a" "audio/mp4" -}}
+  {{- $media := slice -}}
+  {{- range $fmt, $url := . -}}
+    {{- $media = $media | append (dict
+        "@type" "MediaObject"
+        "contentUrl" $url
+        "encodingFormat" (index $mediaMime $fmt | default (printf "audio/%s" $fmt))) -}}
   {{- end -}}
+  {{- with $media -}}{{- $episode = merge $episode (dict "associatedMedia" .) -}}{{- end -}}
+{{- end -}}
+{{- /* Contributors (the ones actually on this episode) as Person entities. */ -}}
+{{- $people := slice -}}
+{{- range $voice, $val := $page.Params.voices -}}
+  {{- if $val -}}
+    {{- with (index $page.Site.Params.contributors $voice) -}}
+      {{- $people = $people | append (dict "@type" "Person" "name" .name) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- with $people -}}{{- $episode = merge $episode (dict "actor" .) -}}{{- end -}}
+{{- /* Transcript as a linked resource (not inline text). */ -}}
+{{- with $meta.transcript -}}
+  {{- $episode = merge $episode (dict "transcript" (dict "@type" "MediaObject" "contentUrl" . "encodingFormat" "application/json")) -}}
 {{- end -}}
 <script type="application/ld+json">{{ $episode | jsonify | safeJS }}</script>
 {{- end -}}
