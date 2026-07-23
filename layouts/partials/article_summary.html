@@ -1,24 +1,44 @@
+{{ $page := .Page }}
+{{ $isFirst := .IsFirst }}
+
 <article class="post">
     <header>
         <h2>
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-            <small class="date">{{ .Date.Format .Site.Params.date_format }}</small>
+            <a href="{{ $page.Permalink }}">{{ $page.Title }}</a>
+            <small class="date">{{ $page.Date.Format $page.Site.Params.date_format }}</small>
         </h2>
     </header>
 
     <div class="content">
-        {{ with .Description }}
+        {{ with $page.Description }}
         <p>{{ . }}</p>
-        {{ else }}
-        {{ .Summary | replaceRE "<h1" "<h2" | replaceRE "</h1>" "</h2>" | safeHTML }}
         {{ end }}
 
-        {{ if or .Description .Truncated }}
-        <p><a href="{{ .Permalink }}">Weiterlesen...</a></p>
+        {{ $shownSafeSection := false }}
+        {{ if $isFirst }}
+        {{/* Grab just the first shownotes section (heading + its list) for the
+             newest post, cutting the string right before the *next* <h2>
+             instead of at a word count. Since that's a boundary between two
+             complete top-level elements, everything before the cut is
+             guaranteed to already be balanced/closed - unlike Hugo's
+             built-in word-count .Summary, which can (and does) truncate
+             mid-list and leave a dangling <ul>/<li> that swallows whatever
+             HTML comes after it (see gohugoio/hugo#7372, #8910, #7926). */}}
+        {{ $sections := split $page.Content "<h2" }}
+        {{ if gt (len $sections) 1 }}
+        {{ printf "<h2%s" (index $sections 1) | replaceRE "</h1>" "</h2>" | safeHTML }}
+        {{ $shownSafeSection = true }}
+        {{ end }}
         {{ end }}
 
-        {{ if .Params.audioformats }}
-        {{ partial "podcast_controls.html" . }}
+        {{ if not (or $page.Description $shownSafeSection) }}
+        {{ $page.Summary | replaceRE "<h1" "<h2" | replaceRE "</h1>" "</h2>" | safeHTML }}
+        {{ end }}
+
+        <p><a href="{{ $page.Permalink }}">Weiterlesen...</a></p>
+
+        {{ if $page.Params.audioformats }}
+        {{ partial "podcast_controls.html" $page }}
         {{ end }}
     </div>
 </article>

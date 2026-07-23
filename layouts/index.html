@@ -28,8 +28,8 @@
 </section>
 {{ end }}
 
-{{ range first $recentCount $pages }}
-{{ partial "article_summary.html" . }}
+{{ range $i, $p := first $recentCount $pages }}
+{{ partial "article_summary.html" (dict "Page" $p "IsFirst" (eq $i 0)) }}
 {{ end }}
 
 {{ $archived := after $recentCount $pages | first $archiveCount }}
