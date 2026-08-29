@@ -3,7 +3,7 @@
     <header>
         <h1>
             <a href="{{ .Permalink }}">{{ .Title }}</a>
-            <small class="date">{{ .Date.Format .Site.Params.date_format }}</small>
+            <small class="date"><time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format .Site.Params.date_format }}</time></small>
         </h1>
     </header>
 
@@ -12,6 +12,7 @@
 
         {{ if .Params.audioformats }}
         {{ partial "podcast_controls.html" . }}
+        {{ partial "episode_extras.html" . }}
         {{ end }}
     </div>
 

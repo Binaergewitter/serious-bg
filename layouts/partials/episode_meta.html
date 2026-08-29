@@ -1,0 +1,93 @@
+{{- /*
+  Returns a dict of machine-readable metadata derived for a single episode, so
+  the JSON-LD (schema.html) and the on-page rendering (single.html) stay in
+  sync without each re-implementing the parsing. Fetched remote resources are
+  cached by Hugo per build URL, so calling this alongside podcast_controls.html
+  on the same page does not double the network cost.
+
+  Returns:
+    audioformats    map  front-matter audioformats (may be nil)
+    transcript      str  transcript URL ("" if none)
+    chapters        []   slice of { start, startHms, title }
+    durationSeconds  int  total length in seconds (0 if unknown)
+    durationIso     str  ISO-8601 duration, e.g. "PT2H23M13S" ("" if unknown)
+    episodeNumber   str  parsed from a "#123" in the title ("" if none)
+*/ -}}
+{{- $page := .page -}}
+{{- $audio := $page.Params.audioformats -}}
+{{- $transcript := $page.Params.transcript | default "" -}}
+{{- $chapters := slice -}}
+{{- $durationSeconds := 0 -}}
+{{- $durationIso := "" -}}
+{{- $episodeNumber := "" -}}
+
+{{- /* Episode number from the title, e.g. "Binärgewitter Talk #384: …" -> 384 */ -}}
+{{- $m := findRE `#(\d+)` $page.Title 1 -}}
+{{- with $m -}}
+  {{- $episodeNumber = replace (index . 0) "#" "" -}}
+{{- end -}}
+
+{{- if $audio -}}
+  {{- $firstFormat := "" -}}
+  {{- $firstUrl := "" -}}
+  {{- range $k, $v := $audio -}}
+    {{- if eq $firstFormat "" -}}{{- $firstFormat = $k -}}{{- $firstUrl = $v -}}{{- end -}}
+  {{- end -}}
+
+  {{- /* Metadata JSON sits next to the audio (…mp3 -> …json) and carries length. */ -}}
+  {{- $metaUrl := $firstUrl -}}
+  {{- range slice "mp3" "ogg" "opus" "m4a" -}}
+    {{- $metaUrl = replace $metaUrl (printf ".%s" .) ".json" -}}
+  {{- end -}}
+  {{- if hasPrefix $metaUrl "http" -}}
+    {{- with resources.GetRemote $metaUrl -}}
+      {{- with .Content -}}
+        {{- $meta := . | transform.Unmarshal -}}
+        {{- if and (reflect.IsMap $meta) $meta.length -}}
+          {{- $durationSeconds = int (math.Floor $meta.length) -}}
+          {{- $h := int (math.Floor (div $durationSeconds 3600)) -}}
+          {{- $mm := int (math.Floor (div (math.Mod $durationSeconds 3600) 60)) -}}
+          {{- $ss := int (math.Mod $durationSeconds 60) -}}
+          {{- $durationIso = printf "PT%dH%dM%dS" $h $mm $ss -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- /* Chapters live in a sidecar …chapters.txt ("HH:MM:SS.mmm Title" lines). */ -}}
+  {{- $chaptersUrl := $page.Params.chapters -}}
+  {{- if not $chaptersUrl -}}
+    {{- $chaptersUrl = $firstUrl -}}
+    {{- range slice "mp3" "ogg" "opus" "m4a" -}}
+      {{- $chaptersUrl = replace $chaptersUrl (printf ".%s" .) ".chapters.txt" -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if hasPrefix $chaptersUrl "http" -}}
+    {{- with resources.GetRemote $chaptersUrl -}}
+      {{- with .Content -}}
+        {{- range (split . "\n") -}}
+          {{- $line := trim . " \r" -}}
+          {{- if $line -}}
+            {{- $parts := split $line " " -}}
+            {{- if ge (len $parts) 2 -}}
+              {{- $start := index $parts 0 -}}
+              {{- $title := delimit (after 1 $parts) " " -}}
+              {{- $chapters = $chapters | append (dict
+                    "start" $start
+                    "startHms" (index (split $start ".") 0)
+                    "title" $title) -}}
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- return (dict
+      "audioformats" $audio
+      "transcript" $transcript
+      "chapters" $chapters
+      "durationSeconds" $durationSeconds
+      "durationIso" $durationIso
+      "episodeNumber" $episodeNumber) -}}
