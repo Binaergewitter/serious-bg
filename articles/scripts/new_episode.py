@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 
 import argparse
-import base64
+import getpass
 import html
+import http.cookiejar
 import json
+import netrc
 import os
 import re
 import sys
@@ -17,6 +19,7 @@ from typing import Any
 
 DOWNLOAD_BASE_URL = "https://download.binaergewitter.de"
 ETHERPAD_BASE_URL = "https://etherpad.binaergewitter.de"
+USER_AGENT = "binaergewitter-new-episode-script/1.0"
 
 BASENAME_RE = re.compile(
     r"^(?P<audio_date>\d{4}-\d{2}-\d{2})\.Binaergewitter\.Talk\.(?P<number>\d+)$"
@@ -95,9 +98,10 @@ def fetch_text(
     url: str,
     headers: dict[str, str] | None = None,
     data: bytes | None = None,
+    opener: urllib.request.OpenerDirector | None = None,
 ) -> str:
     request_headers = {
-        "User-Agent": "binaergewitter-new-episode-script/1.0",
+        "User-Agent": USER_AGENT,
     }
 
     if headers:
@@ -109,7 +113,7 @@ def fetch_text(
         data=data,
     )
 
-    with urllib.request.urlopen(request, timeout=30) as response:
+    with (opener or urllib.request.build_opener()).open(request, timeout=30) as response:
         charset = response.headers.get_content_charset() or "utf-8"
         return response.read().decode(charset, errors="replace")
 
@@ -618,98 +622,70 @@ def make_etherpad_export_url(etherpad_base_url: str, pad_id: str) -> str:
     return f"{etherpad_base_url.rstrip('/')}/p/{quoted_pad_id}/export/txt"
 
 
-def make_etherpad_api_url(etherpad_base_url: str, pad_id: str, apikey: str) -> str:
-    query = urllib.parse.urlencode({"apikey": apikey, "padID": pad_id})
-    return f"{etherpad_base_url.rstrip('/')}/api/1.2.15/getText?{query}"
-
-
-def resolve_etherpad_oauth(
-    client_id: str | None,
-    client_secret: str | None,
+def resolve_etherpad_credentials(
+    etherpad_base_url: str,
+    user: str | None,
+    password: str | None,
 ) -> tuple[str, str] | None:
-    client_id = client_id or os.environ.get("ETHERPAD_CLIENT_ID") or "admin_client"
-    client_secret = client_secret or os.environ.get("ETHERPAD_CLIENT_SECRET")
+    user = user or os.environ.get("ETHERPAD_USER")
+    password = password or os.environ.get("ETHERPAD_PASSWORD")
 
-    if not client_secret:
-        return None
+    if user and password:
+        return user, password
 
-    return client_id, client_secret
+    host = urllib.parse.urlparse(etherpad_base_url).hostname or ""
 
+    try:
+        entry = netrc.netrc().authenticators(host)
+    except (FileNotFoundError, netrc.NetrcParseError):
+        entry = None
 
-def resolve_etherpad_apikey(apikey: str | None, apikey_file: str | None) -> str | None:
-    if apikey:
-        return apikey.strip()
+    if entry and (not user or entry[0] == user):
+        return entry[0], entry[2]
 
-    if apikey_file:
-        path = Path(apikey_file).expanduser()
-        return path.read_text(encoding="utf-8").strip()
-
-    env_apikey = os.environ.get("ETHERPAD_APIKEY")
-    if env_apikey:
-        return env_apikey.strip()
+    if user:
+        return user, getpass.getpass(f"Keycloak-Passwort für {user}: ")
 
     return None
 
 
-def fetch_etherpad_oauth_token(
-    token_url: str,
-    client_id: str,
-    client_secret: str,
-) -> str:
-    payload = urllib.parse.urlencode(
-        {
-            "grant_type": "client_credentials",
-            "client_id": client_id,
-            "client_secret": client_secret,
-        }
-    ).encode("ascii")
-
-    response = fetch_json(
-        token_url,
-        headers={"Content-Type": "application/x-www-form-urlencoded"},
-        data=payload,
-    )
-
-    token = response.get("access_token") if isinstance(response, dict) else None
-    if not token:
-        raise ValueError("OAuth-Token-Antwort enthält kein access_token.")
-
-    return token
-
-
-def fetch_etherpad_shownotes_via_api(
+def etherpad_keycloak_login(
     etherpad_base_url: str,
-    pad_id: str,
-    apikey: str | None = None,
-    bearer_token: str | None = None,
-) -> str:
-    headers: dict[str, str] = {}
+    user: str,
+    password: str,
+) -> urllib.request.OpenerDirector:
+    """Meldet sich über ep_openid_connect/Keycloak an und liefert einen Opener mit Etherpad-Session."""
+    opener = urllib.request.build_opener(
+        urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar())
+    )
+    opener.addheaders = [("User-Agent", USER_AGENT)]
 
-    if bearer_token:
-        query = urllib.parse.urlencode({"padID": pad_id})
-        api_url = f"{etherpad_base_url.rstrip('/')}/api/1.2.15/getText?{query}"
-        headers["Authorization"] = f"Bearer {bearer_token}"
-    elif apikey:
-        api_url = make_etherpad_api_url(etherpad_base_url, pad_id, apikey)
-    else:
-        raise ValueError("Weder API-Key noch OAuth-Token vorhanden.")
+    login_url = f"{etherpad_base_url.rstrip('/')}/ep_openid_connect/login"
 
-    response = fetch_json(api_url, headers=headers)
+    with opener.open(login_url, timeout=30) as response:
+        login_page = response.read().decode("utf-8", errors="replace")
 
-    if not isinstance(response, dict) or response.get("code") != 0:
-        message = "unbekannter Fehler"
-        if isinstance(response, dict) and response.get("message"):
-            message = str(response["message"])
-        raise ValueError(f"Etherpad-API-Fehler: {message}")
+    match = re.search(r'<form[^>]*id="kc-form-login"[^>]*action="([^"]+)"', login_page)
+    if not match:
+        raise ValueError("Keycloak-Loginformular nicht gefunden.")
 
-    text = response.get("data", {}).get("text")
-    if not isinstance(text, str):
-        raise ValueError("Etherpad-API-Antwort enthält keinen Text.")
+    payload = urllib.parse.urlencode(
+        {"username": user, "password": password, "credentialId": ""}
+    ).encode("utf-8")
 
-    shownotes = extract_shownotes_markdown(text)
-    validate_shownotes_markdown(shownotes)
+    with opener.open(html.unescape(match.group(1)), data=payload, timeout=30) as response:
+        final_host = urllib.parse.urlparse(response.geturl()).hostname
+        page = response.read().decode("utf-8", errors="replace")
 
-    return shownotes
+    if final_host != urllib.parse.urlparse(etherpad_base_url).hostname:
+        # Fehlermeldung, sonst Titel der Keycloak-Seite (z. B. Profil-Pflichtangaben)
+        error = re.search(r'kc-feedback-text[^>]*>\s*([^<]+)', page) or re.search(
+            r'id="kc-page-title"[^>]*>\s*([^<]+)', page
+        )
+        detail = normalize_space(error.group(1)) if error else "Login nicht abgeschlossen"
+        raise ValueError(f"Keycloak-Login als {user} fehlgeschlagen: {detail}")
+
+    return opener
 
 
 def normalize_cookie_header(value: str) -> str:
@@ -743,11 +719,7 @@ def read_cookie_file(cookie_file: str) -> str:
 def build_etherpad_headers(
     cookie: str | None,
     cookie_file: str | None,
-    user: str | None,
-    password: str | None,
 ) -> dict[str, str]:
-    headers: dict[str, str] = {}
-
     cookie_value = cookie
 
     if not cookie_value and cookie_file:
@@ -757,20 +729,9 @@ def build_etherpad_headers(
         cookie_value = os.environ.get("ETHERPAD_COOKIE")
 
     if cookie_value:
-        headers["Cookie"] = normalize_cookie_header(cookie_value)
+        return {"Cookie": normalize_cookie_header(cookie_value)}
 
-    user = user or os.environ.get("ETHERPAD_USER")
-    password = password or os.environ.get("ETHERPAD_PASSWORD")
-
-    if bool(user) != bool(password):
-        raise ValueError("Etherpad Basic Auth braucht User und Passwort.")
-
-    if user and password:
-        credentials = f"{user}:{password}".encode("utf-8")
-        token = base64.b64encode(credentials).decode("ascii")
-        headers["Authorization"] = f"Basic {token}"
-
-    return headers
+    return {}
 
 
 def normalize_shownotes(text: str) -> str:
@@ -849,8 +810,9 @@ def looks_like_html_login(text: str) -> bool:
 def fetch_etherpad_shownotes(
     shownotes_url: str,
     headers: dict[str, str],
+    opener: urllib.request.OpenerDirector | None = None,
 ) -> str:
-    text = fetch_text(shownotes_url, headers=headers)
+    text = fetch_text(shownotes_url, headers=headers, opener=opener)
 
     if looks_like_html_login(text):
         raise ValueError("Antwort sieht nach HTML/Login-Seite statt TXT-Export aus.")
@@ -988,40 +950,20 @@ def main() -> None:
         help="Abbrechen, wenn die Etherpad-Shownotes nicht geladen werden können.",
     )
     parser.add_argument(
-        "--etherpad-client-id",
-        help='OAuth2-Client-ID für die Etherpad-API (Etherpad >= 2.0). Alternativ: ETHERPAD_CLIENT_ID. Default: "admin_client".',
-    )
-    parser.add_argument(
-        "--etherpad-client-secret",
-        help="OAuth2-Client-Secret (bei admin_client das Admin-Passwort). Alternativ: ETHERPAD_CLIENT_SECRET.",
-    )
-    parser.add_argument(
-        "--etherpad-token-url",
-        help="OAuth2-Token-URL. Default: <etherpad-base-url>/oidc/token.",
-    )
-    parser.add_argument(
-        "--etherpad-apikey",
-        help="Etherpad-HTTP-API-Key (APIKEY.txt, nur Etherpad < 2.0). Alternativ: ETHERPAD_APIKEY.",
-    )
-    parser.add_argument(
-        "--etherpad-apikey-file",
-        help="Datei mit dem Etherpad-HTTP-API-Key.",
-    )
-    parser.add_argument(
-        "--etherpad-cookie-file",
-        help="Datei mit Etherpad-Cookie-Header oder Netscape-Cookie-Export.",
-    )
-    parser.add_argument(
-        "--etherpad-cookie",
-        help="Etherpad-Cookie-Header. Alternativ: ETHERPAD_COOKIE.",
-    )
-    parser.add_argument(
         "--etherpad-user",
-        help="HTTP-Basic-Auth-User. Alternativ: ETHERPAD_USER.",
+        help="Keycloak-User für den Etherpad-Login. Alternativ: ETHERPAD_USER oder ~/.netrc.",
     )
     parser.add_argument(
         "--etherpad-password",
-        help="HTTP-Basic-Auth-Passwort. Alternativ: ETHERPAD_PASSWORD.",
+        help="Keycloak-Passwort. Alternativ: ETHERPAD_PASSWORD, ~/.netrc oder Abfrage.",
+    )
+    parser.add_argument(
+        "--etherpad-cookie-file",
+        help="Datei mit Etherpad-Cookie-Header oder Netscape-Cookie-Export (statt Login).",
+    )
+    parser.add_argument(
+        "--etherpad-cookie",
+        help="Etherpad-Cookie-Header (statt Login). Alternativ: ETHERPAD_COOKIE.",
     )
     parser.add_argument(
         "--publish-date",
@@ -1085,66 +1027,41 @@ def main() -> None:
 
     if not args.no_shownotes:
         pad_id = args.shownotes_pad or derive_etherpad_pad_id(episode_number)
-        oauth = resolve_etherpad_oauth(
-            args.etherpad_client_id,
-            args.etherpad_client_secret,
-        )
-        apikey = resolve_etherpad_apikey(
-            args.etherpad_apikey,
-            args.etherpad_apikey_file,
+        shownotes_url = args.shownotes_url or make_etherpad_export_url(
+            args.etherpad_base_url,
+            pad_id,
         )
 
-        if (oauth or apikey) and not args.shownotes_url:
-            # Secrets nicht in Fehlermeldungen anzeigen.
-            shownotes_url = f"{args.etherpad_base_url.rstrip('/')}/api/1.2.15/getText?padID={pad_id}"
-
-            try:
-                bearer_token: str | None = None
-
-                if oauth:
-                    client_id, client_secret = oauth
-                    token_url = args.etherpad_token_url or (
-                        f"{args.etherpad_base_url.rstrip('/')}/oidc/token"
-                    )
-                    bearer_token = fetch_etherpad_oauth_token(
-                        token_url=token_url,
-                        client_id=client_id,
-                        client_secret=client_secret,
-                    )
-
-                remote_shownotes = fetch_etherpad_shownotes_via_api(
-                    etherpad_base_url=args.etherpad_base_url,
-                    pad_id=pad_id,
-                    apikey=apikey,
-                    bearer_token=bearer_token,
-                )
-            except Exception as error:
-                message = f"Konnte Etherpad-Shownotes nicht laden: {shownotes_url} ({error})"
-                if args.require_shownotes:
-                    fail(message)
-                warn(message)
-        else:
-            shownotes_url = args.shownotes_url or make_etherpad_export_url(
-                args.etherpad_base_url,
-                pad_id,
+        try:
+            etherpad_headers = build_etherpad_headers(
+                cookie=args.etherpad_cookie,
+                cookie_file=args.etherpad_cookie_file,
             )
+            opener: urllib.request.OpenerDirector | None = None
 
-            try:
-                etherpad_headers = build_etherpad_headers(
-                    cookie=args.etherpad_cookie,
-                    cookie_file=args.etherpad_cookie_file,
-                    user=args.etherpad_user,
-                    password=args.etherpad_password,
+            if not etherpad_headers:
+                credentials = resolve_etherpad_credentials(
+                    args.etherpad_base_url,
+                    args.etherpad_user,
+                    args.etherpad_password,
                 )
-                remote_shownotes = fetch_etherpad_shownotes(
-                    shownotes_url=shownotes_url,
-                    headers=etherpad_headers,
-                )
-            except Exception as error:
-                message = f"Konnte Etherpad-Shownotes nicht laden: {shownotes_url} ({error})"
-                if args.require_shownotes:
-                    fail(message)
-                warn(message)
+                if not credentials:
+                    raise ValueError(
+                        "Keine Zugangsdaten (--etherpad-user, ETHERPAD_USER/ETHERPAD_PASSWORD "
+                        f"oder ~/.netrc für {urllib.parse.urlparse(args.etherpad_base_url).hostname})."
+                    )
+                opener = etherpad_keycloak_login(args.etherpad_base_url, *credentials)
+
+            remote_shownotes = fetch_etherpad_shownotes(
+                shownotes_url=shownotes_url,
+                headers=etherpad_headers,
+                opener=opener,
+            )
+        except Exception as error:
+            message = f"Konnte Etherpad-Shownotes nicht laden: {shownotes_url} ({error})"
+            if args.require_shownotes:
+                fail(message)
+            warn(message)
 
     title_suffix = args.title or remote_title_suffix or "TODO"
 
