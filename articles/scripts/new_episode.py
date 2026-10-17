@@ -246,25 +246,24 @@ def extract_brief_summary_from_html(html_text: str) -> str | None:
     candidates: list[str] = []
     decoder = json.JSONDecoder()
 
-    for match in re.finditer(r'"brief"\s*:', html_text, flags=re.IGNORECASE):
-        start = match.end()
-
-        while start < len(html_text) and html_text[start].isspace():
-            start += 1
-
+    # Nur das "summaries"-Objekt der Episodendaten auswerten; ein loses "brief":
+    # trifft auch den eingebetteten Player-Code (variant==="brief"?"brief":"long").
+    for match in re.finditer(r'"summaries"\s*:\s*', html_text):
         try:
-            value, _ = decoder.raw_decode(html_text[start:])
+            value, _ = decoder.raw_decode(html_text[match.end():])
         except json.JSONDecodeError:
             continue
 
-        if isinstance(value, list):
+        brief = value.get("brief") if isinstance(value, dict) else None
+
+        if isinstance(brief, list):
             candidates.extend(
                 item
-                for item in value
+                for item in brief
                 if isinstance(item, str)
             )
-        elif isinstance(value, str):
-            candidates.append(value)
+        elif isinstance(brief, str):
+            candidates.append(brief)
 
     for match in re.finditer(
         r'"(?:brief_?summary|briefSummary)"\s*:\s*"((?:\\.|[^"\\])*)"',
