@@ -9,7 +9,9 @@ footer: true
 
 Ihr wollt uns etwas gutes tun? Prima. Wir freuen uns. Dann gibts Pizza, Kaffee oder Mate für uns.
 
-Es gibt verschiedene Wege uns zu unterstützen z.B.
+Am einfachsten geht das über [Steady](https://steadyhq.com/de/binaergewitter): eine monatliche Mitgliedschaft, jederzeit kündbar, per Lastschrift, Kreditkarte oder PayPal.
+
+Es gibt außerdem weitere Wege uns zu unterstützen z.B.
 
 * [Liberapay](https://liberapay.com/Binaergewitter/)
 * [Patreon](https://www.patreon.com/binaergewitter)

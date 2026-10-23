@@ -31,6 +31,8 @@
       <itunes:name>Binärgewitter Crew</itunes:name>
       <itunes:email>info@binaergewitter.de</itunes:email>
     </itunes:owner>
+    <podcast:funding url="https://steadyhq.com/de/binaergewitter">Unterstütze uns auf Steady</podcast:funding>
+    <podcast:funding url="{{ "pages/spenden/" | absURL }}">Weitere Wege, uns zu unterstützen</podcast:funding>
 
     {{ $codec := .Params.codec | default "mp3" }}
     {{ $limit := .Params.item_limit }}
