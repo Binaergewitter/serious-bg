@@ -43,8 +43,10 @@
     {{ range $items }}
     <item>
       <title>{{ .Title }}</title>
-      <link>{{ .Permalink | strings.TrimSuffix "/" }}</link>
+      <link>{{ .Permalink }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      {{/* GUIDs stay slash-less on purpose: they are the stable item identity
+           podcatchers already know, changing them would re-deliver every episode. */}}
       <guid{{ if .Params.release }} isPermaLink="false"{{ end }}>{{ .Permalink | strings.TrimSuffix "/" }}{{ with .Params.release }}-{{ . }}{{ end }}</guid>
       <description>{{ .Summary | html }}</description>
       <content:encoded>{{ .Content | html }}</content:encoded>
@@ -85,16 +87,25 @@
                 {{ with index $meta "length_timestring" }}
                   {{ $duration = index (split . ".") 0 }}
                 {{ end }}
+                {{/* Prefer the exact filename. Auphonic's JSON can still carry the
+                     pre-rename date in its filenames, so fall back to the first
+                     full-size (not "-low") output of the same format. */}}
+                {{ $fallback := 0 }}
                 {{ range index $meta "output_files" }}
                   {{ if eq (index . "filename") $filename }}
-                    {{ $size = index . "size" }}
+                    {{ $size = index . "size" | default 0 }}
+                  {{ else if and (eq $fallback 0) (eq (index . "ending") $targetCodec) (not (in (index . "filename" | default "") "-low.")) }}
+                    {{ $fallback = index . "size" | default 0 }}
                   {{ end }}
                 {{ end }}
+                {{ if eq $size 0 }}{{ $size = $fallback }}{{ end }}
               {{ end }}
             {{ end }}
 
             {{ $mimeType := cond (eq $targetCodec "mp3") "audio/mpeg" (printf "audio/%s" $targetCodec) }}
-            <enclosure url="{{ $url }}" length="{{ printf "%.0f" $size }}" type="{{ $mimeType }}" />
+            {{/* int, not printf "%.0f": size is a float from JSON but an int (0)
+                 when unknown, and %.0f on an int renders as "%!f(int=0)". */}}
+            <enclosure url="{{ $url }}" length="{{ int $size }}" type="{{ $mimeType }}" />
             <itunes:duration>{{ $duration }}</itunes:duration>
             {{ with .Params.transcript }}<podcast:transcript url="{{ . }}" type="application/json" />{{ end }}
 
