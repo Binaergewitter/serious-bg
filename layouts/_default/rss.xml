@@ -12,10 +12,10 @@
     <description>{{ .Site.Params.description }}</description>
     {{ with .Site.LanguageCode }}<language>{{ . }}</language>{{ end }}
     <copyright>Creative Commons BY-SA 3.0 DE</copyright>
-    {{/* Scope items to the current list page: all posts on the home page,
-         only the term's posts on /categories/<term>/, so the per-category
-         feeds no longer repeat the site-wide newest episodes. */}}
-    {{ $pages := cond .IsHome .Site.RegularPages .RegularPages }}
+    {{/* Only /categories/<term>/ is scoped to its own posts. Every other list
+         page (home, /post/, /pages/, /podcast_feed/, /categories/) keeps the
+         site-wide feed: their .RegularPages are empty or hold no posts. */}}
+    {{ $pages := cond (eq .Kind "term") .RegularPages .Site.RegularPages }}
     {{ $pages = where $pages "Section" "post" }}
     {{ with $pages }}<lastBuildDate>{{ (index . 0).Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
     <atom:link href="{{ .Permalink }}rss.xml" rel="self" type="application/rss+xml" />
@@ -38,8 +38,9 @@
       <link>{{ .Permalink }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       {{/* GUIDs stay slash-less on purpose: they are the stable item identity
-           podcatchers already know, changing them would re-deliver every episode. */}}
-      <guid{{ if .Params.release }} isPermaLink="false"{{ end }}>{{ .Permalink | strings.TrimSuffix "/" }}{{ with .Params.release }}-{{ . }}{{ end }}</guid>
+           podcatchers already know, changing them would re-deliver every episode.
+           isPermaLink="false" because <link> is the canonical URL (with slash). */}}
+      <guid isPermaLink="false">{{ .Permalink | strings.TrimSuffix "/" }}{{ with .Params.release }}-{{ . }}{{ end }}</guid>
       <description>{{ .Summary | html }}</description>
       <content:encoded>{{ .Content | html }}</content:encoded>
       

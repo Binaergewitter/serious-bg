@@ -17,7 +17,7 @@
     {{ if $category }}
       {{ $pages = where $pages "Params.categories" "==" $category }}
     {{ end }}
-    <lastBuildDate>{{ (index $pages 0).Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
+    {{ with $pages }}<lastBuildDate>{{ (index . 0).Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
     <atom:link href="{{ .Permalink | absURL }}" rel="self" type="application/rss+xml" />
     
     <itunes:author>{{ .Site.Params.author }}</itunes:author>
@@ -46,8 +46,9 @@
       <link>{{ .Permalink }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       {{/* GUIDs stay slash-less on purpose: they are the stable item identity
-           podcatchers already know, changing them would re-deliver every episode. */}}
-      <guid{{ if .Params.release }} isPermaLink="false"{{ end }}>{{ .Permalink | strings.TrimSuffix "/" }}{{ with .Params.release }}-{{ . }}{{ end }}</guid>
+           podcatchers already know, changing them would re-deliver every episode.
+           isPermaLink="false" because <link> is the canonical URL (with slash). */}}
+      <guid isPermaLink="false">{{ .Permalink | strings.TrimSuffix "/" }}{{ with .Params.release }}-{{ . }}{{ end }}</guid>
       <description>{{ .Summary | html }}</description>
       <content:encoded>{{ .Content | html }}</content:encoded>
       
