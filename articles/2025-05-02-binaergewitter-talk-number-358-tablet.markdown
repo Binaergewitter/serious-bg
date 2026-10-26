@@ -8,7 +8,7 @@ categories: talk
 sharing: true
 published: true
 chapters: https://download.binaergewitter.de/2025-04-15.Binaergewitter.Talk.357.chapters.txt
-transcript: https://download.binaergewitter.de/2025-04-15.Binaergewitter.Talk.357-speech.json
+transcript: https://download.binaergewitter.de/2025-05-01.Binaergewitter.Talk.358-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2025-05-01.Binaergewitter.Talk.358.mp3
   ogg: https://download.binaergewitter.de/2025-05-01.Binaergewitter.Talk.358.ogg
