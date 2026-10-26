@@ -409,6 +409,16 @@ function testRSSGUIDs() {
         validCount > 0 && trailingSlashCount === 0,
         `RSS GUIDs match Serious CMS format (absolute, no trailing slash). Found ${validCount} valid, ${trailingSlashCount} with trailing slashes.`
     );
+
+    // The slash-less GUID is not the canonical URL (<link> is), so it must
+    // not claim to be a permalink. Without the attribute it defaults to true.
+    ['rss.xml', 'podcast_feed/all/mp3/rss.xml'].forEach(feed => {
+        const feedContent = fs.readFileSync(path.join(PUBLIC_DIR, feed), 'utf8');
+        const guids = feedContent.match(/<guid[^>]*>/g) || [];
+        const permalinkGuids = guids.filter(g => !g.includes('isPermaLink="false"'));
+        assert(guids.length > 0 && permalinkGuids.length === 0,
+            `${feed} GUIDs are all isPermaLink="false" (${permalinkGuids.length} of ${guids.length} without)`);
+    });
 }
 
 // Test 7b: category feeds only contain episodes of that category
@@ -426,6 +436,21 @@ function testCategoryFeedScope() {
         const talkTitles = titles.filter(t => /Binärgewitter Talk/i.test(t));
         assert(titles.length > 0 && talkTitles.length === 0,
             `categories/${cat}/rss.xml has only ${cat} episodes (${titles.length} items, ${talkTitles.length} Talk episodes)`);
+    });
+}
+
+// Test 7c: list-page feeds other than category terms keep the site-wide posts
+function testListFeedsNotEmpty() {
+    console.log('\n📰 Testing list page feeds are not empty...');
+
+    ['rss.xml', 'post/rss.xml', 'pages/rss.xml', 'podcast_feed/rss.xml', 'categories/rss.xml'].forEach(feed => {
+        const feedPath = path.join(PUBLIC_DIR, feed);
+        if (!fs.existsSync(feedPath)) {
+            assert(false, `${feed} exists`);
+            return;
+        }
+        const itemCount = (fs.readFileSync(feedPath, 'utf8').match(/<item>/g) || []).length;
+        assert(itemCount > 0, `${feed} has items (found ${itemCount})`);
     });
 }
 
@@ -648,6 +673,7 @@ async function runTests() {
     testIssoComments();
     testRSSGUIDs();
     testCategoryFeedScope();
+    testListFeedsNotEmpty();
     testRSSNoEncodedSpaces();
     testSocialTags();
     testCharsetPosition();
