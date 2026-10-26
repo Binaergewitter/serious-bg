@@ -112,6 +112,13 @@ function testRSSFeeds() {
                 assert(content.includes('<enclosure'), `${dir}/rss.xml contains enclosures`);
                 assert(content.includes('download.binaergewitter.de'), `${dir}/rss.xml has audio URLs`);
 
+                // Every enclosure length must be a plain integer. A Go format
+                // error such as %!f(int=0) used to leak into the feed here.
+                const lengths = content.match(/<enclosure[^>]*\slength="([^"]*)"/g) || [];
+                const badLengths = lengths.filter(l => !/length="\d+"/.test(l));
+                assert(badLengths.length === 0,
+                    `${dir}/rss.xml enclosure lengths are all integers (${badLengths.length} bad of ${lengths.length})`);
+
                 // Verify base feed has at most 100 items
                 const isBaseFeed = !dir.match(/\/archive$/);
                 if (isBaseFeed) {
@@ -404,6 +411,24 @@ function testRSSGUIDs() {
     );
 }
 
+// Test 7b: category feeds only contain episodes of that category
+function testCategoryFeedScope() {
+    console.log('\n🏷️  Testing category feed scope...');
+
+    ['spezial', 'westcoast'].forEach(cat => {
+        const feedPath = path.join(PUBLIC_DIR, 'categories', cat, 'rss.xml');
+        if (!fs.existsSync(feedPath)) {
+            assert(false, `categories/${cat}/rss.xml exists`);
+            return;
+        }
+        const content = fs.readFileSync(feedPath, 'utf8');
+        const titles = [...content.matchAll(/<item>\s*<title>([^<]*)<\/title>/g)].map(m => m[1]);
+        const talkTitles = titles.filter(t => /Binärgewitter Talk/i.test(t));
+        assert(titles.length > 0 && talkTitles.length === 0,
+            `categories/${cat}/rss.xml has only ${cat} episodes (${titles.length} items, ${talkTitles.length} Talk episodes)`);
+    });
+}
+
 // Test 8: RSS feeds don't contain %20
 function testRSSNoEncodedSpaces() {
     console.log('\n📡 Testing RSS feeds for URL encoding issues...');
@@ -452,12 +477,22 @@ function testSocialTags() {
         console.log('✅ twitter:image uses HTTPS');
     }
 
-    // Check og:url (no trailing slash)
+    // Check og:url matches the real page URL (Hugo emits trailing slashes).
+    // A slash-less URL costs every share/crawler a redirect through nginx.
     const ogUrlMatch = indexContent.match(/property="og:url" content="([^"]+)"/);
     if (ogUrlMatch) {
-        assert(!ogUrlMatch[1].endsWith('/'), `og:url has no trailing slash: ${ogUrlMatch[1]}`);
-        console.log('✅ og:url has no trailing slash');
+        assert(ogUrlMatch[1].endsWith('/'), `og:url has trailing slash: ${ogUrlMatch[1]}`);
+        console.log('✅ og:url has trailing slash');
     }
+}
+
+// Test 9b: <meta charset> must sit inside the first 1024 bytes of the document
+function testCharsetPosition() {
+    console.log('\n🔤 Testing charset declaration position...');
+    const indexContent = fs.readFileSync(path.join(PUBLIC_DIR, 'index.html'), 'utf8');
+    const offset = Buffer.byteLength(indexContent.split(/<meta charset/i)[0], 'utf8');
+    assert(indexContent.match(/<meta charset/i) && offset < 1024,
+        `<meta charset> appears within the first 1024 bytes (at byte ${offset})`);
 }
 
 // Test 10: RSS Metadata (HTTPS and lastBuildDate)
@@ -612,8 +647,10 @@ async function runTests() {
     testSearchIndexGzip();
     testIssoComments();
     testRSSGUIDs();
+    testCategoryFeedScope();
     testRSSNoEncodedSpaces();
     testSocialTags();
+    testCharsetPosition();
     testRSSMetadata();
     testNginxConfig();
     testLatestShow();

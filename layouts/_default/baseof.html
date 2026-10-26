@@ -2,6 +2,11 @@
 <html lang="{{ .Site.LanguageCode }}" prefix="og: http://ogp.me/ns#">
 
 <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .IsPage }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
+
   <script src="//cdnjs.cloudflare.com/ajax/libs/headjs/1.0.3/head.min.js"></script>
   <script>
     head.js(
@@ -15,16 +20,12 @@
     head.load({{ "css/github-ribbon.css" | relURL }})
   </script>
 
-  <link rel="canonical" href="{{ .Permalink | strings.TrimSuffix "/" }}" />
+  <link rel="canonical" href="{{ .Permalink }}" />
   <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }} Podcast MP3 Feed" href="{{ "podcast_feed/all/mp3/rss.xml" | absURL }}" />
   <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }} Podcast Opus Feed" href="{{ "podcast_feed/all/opus/rss.xml" | absURL }}" />
   <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }} Website RSS" href="{{ "rss.xml" | absURL }}" />
   <link rel="alternate" type="application/json" title="{{ .Site.Title }} Suchindex (JSON)" href="{{ "index.json" | absURL }}" />
 
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ if .IsPage }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
   {{ $metaDescription := .Site.Params.description }}
   {{ with .Description }}
   {{ $metaDescription = . | plainify | replaceRE "\\s+" " " | truncate 160 }}
@@ -39,7 +40,7 @@
   {{ $socialTitle := cond .IsPage .Title .Site.Title }}
 
   <meta property="og:site_name" content="{{ .Site.Title }}">
-  <meta property="og:url" content="{{ .Permalink | strings.TrimSuffix "/" }}" />
+  <meta property="og:url" content="{{ .Permalink }}" />
   <meta property="og:title" content="{{ $socialTitle }}" />
   <meta property="og:type" content="{{ if eq .Section "post" }}article{{ else }}website{{ end }}" />
   <meta property="og:description" content="{{ $metaDescription }}">
