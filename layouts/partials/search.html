@@ -44,96 +44,106 @@
 </style>
 <script src="{{ "/js/flexsearch.bundle.js" | relURL }}"></script>
 <script>
-    let searchIndex = null;
     let flexIndex = null;
+    let indexLoading = null;
 
-    async function loadSearchIndex() {
-        if (!flexIndex) {
-            try {
-                let data;
-
-                // Try gzipped version first (production)
-                // nginx serves .gz via gzip_static with Content-Type: application/gzip,
-                // not application/json — so only check ok, not content-type
-                try {
-                    const gzResponse = await fetch('{{ "/index.json.gz" | relURL }}');
-                    if (gzResponse.ok) {
-                        data = await gzResponse.json();
-                    }
-                } catch (e) {
-                    // Gzipped version failed, will try uncompressed
-                }
-
-                // Fallback to uncompressed for local development (hugo server)
-                if (!data) {
-                    const response = await fetch('{{ "/index.json" | relURL }}');
-                    if (!response.ok) throw new Error("Search index not found");
-                    data = await response.json();
-                }
-
-                searchIndex = data;
-
-                // Initialize FlexSearch Document index with optimizations
-                flexIndex = new FlexSearch.Document({
-                    document: {
-                        id: "id",
-                        index: [
-                            { field: "title", tokenize: "forward", optimize: true, resolution: 9 },
-                            { field: "summary", tokenize: "forward", optimize: true, resolution: 5 },
-                            { field: "content", tokenize: "forward", optimize: true, resolution: 3 }
-                        ],
-                        store: ["title", "permalink", "summary", "content"]
-                    },
-                    lang: "de",       // German language support
-                    cache: true,      // Enable caching
-                    tokenize: "forward",
-                    context: {
-                        resolution: 5,
-                        depth: 2,
-                        bidirectional: true
-                    }
-                });
-
-                // Add documents to index using full keys
-                searchIndex.forEach((item, index) => {
-                    flexIndex.add({
-                        id: index,
-                        title: item.title,
-                        summary: item.summary,
-                        content: item.content,
-                        permalink: item.permalink
+    // One request for the index, shared by every keystroke. nginx serves the
+    // pre-compressed index.json.gz transparently (gzip_static) when the
+    // browser asks for /index.json, so there is nothing to gain from fetching
+    // the .gz by hand: that returned raw gzip bytes as application/octet-stream
+    // without Content-Encoding, .json() threw, and every first search paid for
+    // both downloads.
+    function loadSearchIndex() {
+        if (!indexLoading) {
+            indexLoading = fetch('{{ "/index.json" | relURL }}')
+                .then(response => {
+                    if (!response.ok) throw new Error("Search index not found (HTTP " + response.status + ")");
+                    return response.json();
+                })
+                .then(data => {
+                    const index = new FlexSearch.Document({
+                        document: {
+                            id: "id",
+                            index: [
+                                { field: "title", tokenize: "forward", optimize: true, resolution: 9 },
+                                { field: "summary", tokenize: "forward", optimize: true, resolution: 5 },
+                                { field: "content", tokenize: "forward", optimize: true, resolution: 3 }
+                            ],
+                            store: ["title", "permalink", "summary", "content"]
+                        },
+                        lang: "de",
+                        cache: true,
+                        tokenize: "forward",
+                        context: {
+                            resolution: 5,
+                            depth: 2,
+                            bidirectional: true
+                        }
                     });
+                    data.forEach((item, i) => {
+                        index.add({
+                            id: i,
+                            title: item.title,
+                            summary: item.summary,
+                            content: item.content,
+                            permalink: item.permalink
+                        });
+                    });
+                    flexIndex = index;
+                })
+                .catch(e => {
+                    indexLoading = null; // let the next keystroke retry
+                    console.error("Failed to load search index:", e);
                 });
-
-            } catch (e) {
-                console.error("Failed to load search index:", e);
-            }
         }
+        return indexLoading;
+    }
+
+    function escapeHtml(text) {
+        return String(text).replace(/[&<>"']/g, c => ({
+            '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+        }[c]));
+    }
+
+    function escapeRegExp(text) {
+        return text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    }
+
+    // HTML-escape the text and wrap every case-insensitive occurrence of the
+    // query in <mark>. Each segment is escaped on its own, so the <mark> tags
+    // are the only markup that reaches innerHTML.
+    function highlight(text, query) {
+        return text
+            .split(new RegExp('(' + escapeRegExp(query) + ')', 'gi'))
+            .map((part, i) => i % 2 ? '<mark>' + escapeHtml(part) + '</mark>' : escapeHtml(part))
+            .join('');
     }
 
     async function executeSearch(query) {
-        await loadSearchIndex();
+        const input = document.getElementById('search-input');
         const resultsContainer = document.getElementById('search-results');
-        if (!query || query.length < 2) {
+        query = (query || '').trim();
+        if (query.length < 2) {
             resultsContainer.style.display = 'none';
             return;
         }
 
+        await loadSearchIndex();
         if (!flexIndex) return;
+        // The first call waits for the index download; drop it if the user
+        // has typed on in the meantime, the newer call renders its own results.
+        if (input.value.trim() !== query) return;
 
-        // Perform search across all indexed fields with boosting
         const searchResults = flexIndex.search(query, {
             limit: 10,
             enrich: true,
             suggest: true
         });
 
-        // FlexSearch returns results grouped by field
-        // We flatten and deduplicate, prioritizing title matches
+        // FlexSearch returns results grouped by field; flatten and deduplicate,
+        // keeping the field order (title first) as the ranking.
         const seen = new Set();
         const results = [];
-
-        // Order of fields in searchResults usually matches configuration
         searchResults.forEach(fieldResult => {
             fieldResult.result.forEach(item => {
                 if (!seen.has(item.id)) {
@@ -143,54 +153,40 @@
             });
         });
 
-        if (results.length > 0) {
-            const queryLower = query.toLowerCase();
-            resultsContainer.innerHTML = results.map(item => {
-                // Find where the match occurs for highlighting
-                let excerpt = '';
-                const titleLower = item.title.toLowerCase();
-                const contentLower = item.content.toLowerCase();
-                const summaryLower = item.summary.toLowerCase();
-
-                if (contentLower.includes(queryLower)) {
-                    // Match in content - show context
-                    const matchIndex = contentLower.indexOf(queryLower);
-                    const start = Math.max(0, matchIndex - 60);
-                    const end = Math.min(item.content.length, matchIndex + query.length + 100);
-                    let excerptText = item.content.substring(start, end);
-
-                    if (start > 0) excerptText = '...' + excerptText;
-                    if (end < item.content.length) excerptText = excerptText + '...';
-
-                    // Highlight (case-insensitive)
-                    const regex = new RegExp(`(${query})`, 'gi');
-                    excerpt = excerptText.replace(regex, '<mark>$1</mark>');
-                } else if (summaryLower.includes(queryLower)) {
-                    // Match in summary
-                    const regex = new RegExp(`(${query})`, 'gi');
-                    excerpt = item.summary.substring(0, 150).replace(regex, '<mark>$1</mark>') + '...';
-                } else {
-                    // Match only in title
-                    const regex = new RegExp(`(${query})`, 'gi');
-                    excerpt = 'Title: ' + item.title.replace(regex, '<mark>$1</mark>');
-                }
-
-                // Highlight title
-                const regex = new RegExp(`(${query})`, 'gi');
-                const title = item.title.replace(regex, '<mark>$1</mark>');
-
-                return `
-                    <a href="${item.permalink}" class="list-group-item" style="border-left: 4px solid #7FAF1B; margin-bottom: 2px; padding: 10px;">
-                        <h4 class="list-group-item-heading" style="font-size: 14px; margin-bottom: 5px; color: #7FAF1B; font-weight: bold;">${title}</h4>
-                        <p class="list-group-item-text" style="font-size: 12px; color: #666; line-height: 1.4;">${excerpt}</p>
-                    </a>
-                `;
-            }).join('');
-            resultsContainer.style.display = 'block';
-        } else {
+        if (results.length === 0) {
             resultsContainer.innerHTML = '<div class="list-group-item text-muted">No results found</div>';
             resultsContainer.style.display = 'block';
+            return;
         }
+
+        const queryLower = query.toLowerCase();
+        resultsContainer.innerHTML = results.map(item => {
+            const title = item.title || '';
+            const content = item.content || '';
+            const summary = item.summary || '';
+            let excerpt;
+
+            const matchIndex = content.toLowerCase().indexOf(queryLower);
+            if (matchIndex !== -1) {
+                const start = Math.max(0, matchIndex - 60);
+                const end = Math.min(content.length, matchIndex + query.length + 100);
+                excerpt = (start > 0 ? '...' : '')
+                    + highlight(content.substring(start, end), query)
+                    + (end < content.length ? '...' : '');
+            } else if (summary.toLowerCase().includes(queryLower)) {
+                excerpt = highlight(summary.substring(0, 150), query) + '...';
+            } else {
+                excerpt = 'Title: ' + highlight(title, query);
+            }
+
+            return `
+                <a href="${escapeHtml(item.permalink)}" class="list-group-item" style="border-left: 4px solid #7FAF1B; margin-bottom: 2px; padding: 10px;">
+                    <h4 class="list-group-item-heading" style="font-size: 14px; margin-bottom: 5px; color: #7FAF1B; font-weight: bold;">${highlight(title, query)}</h4>
+                    <p class="list-group-item-text" style="font-size: 12px; color: #666; line-height: 1.4;">${excerpt}</p>
+                </a>
+            `;
+        }).join('');
+        resultsContainer.style.display = 'block';
     }
 
     // Close results when clicking outside
@@ -200,4 +196,15 @@
             document.getElementById('search-results').style.display = 'none';
         }
     });
+
+    // Start the index download as soon as the field gets focus, so the first
+    // keystroke does not have to wait for it.
+    document.getElementById('search-input').addEventListener('focus', loadSearchIndex, { once: true });
+
+    // schema.html advertises /?q=<term> as the site's SearchAction. Honour it.
+    const initialQuery = new URLSearchParams(window.location.search).get('q');
+    if (initialQuery) {
+        document.getElementById('search-input').value = initialQuery;
+        executeSearch(initialQuery);
+    }
 </script>
