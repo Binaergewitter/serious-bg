@@ -6,6 +6,7 @@ date: 2014-03-29 16:00:00
 comments: true
 categories: talk
 sharing: true
+transcript: https://download.binaergewitter.de/2014-03-27.Binaergewitter.Talk.89-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2014-03-27.Binaergewitter.Talk.89.mp3
   ogg: https://download.binaergewitter.de/2014-03-27.Binaergewitter.Talk.89.ogg

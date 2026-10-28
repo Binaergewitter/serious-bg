@@ -7,6 +7,7 @@ comments: true
 categories: talk
 sharing: true
 published: true
+transcript: https://download.binaergewitter.de/2018-05-10.Binaergewitter.Talk.201-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2018-05-10.Binaergewitter.Talk.201.mp3
   ogg: https://download.binaergewitter.de/2018-05-10.Binaergewitter.Talk.201.ogg

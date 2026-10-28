@@ -6,6 +6,7 @@ date: 2012-07-27 18:30:00
 comments: true
 categories: talk
 sharing: true
+transcript: https://download.binaergewitter.de/2012-07-26.Binaergewitter.Talk.23-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2012-07-26.Binaergewitter.Talk.23.mp3
   ogg: https://download.binaergewitter.de/2012-07-26.Binaergewitter.Talk.23.ogg

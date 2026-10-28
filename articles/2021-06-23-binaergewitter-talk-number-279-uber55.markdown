@@ -8,6 +8,7 @@ categories: talk
 sharing: true
 published: true
 chapters: https://download.binaergewitter.de/2021-06-22.Binaergewitter.Talk.279.chapters.txt
+transcript: https://download.binaergewitter.de/2021-06-22.Binaergewitter.Talk.279-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2021-06-22.Binaergewitter.Talk.279.mp3
   ogg: https://download.binaergewitter.de/2021-06-22.Binaergewitter.Talk.279.ogg

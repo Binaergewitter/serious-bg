@@ -6,6 +6,7 @@ date: 2014-10-10 12:00:00
 comments: true
 categories: talk
 sharing: true
+transcript: https://download.binaergewitter.de/2014-10-09.Binaergewitter.Talk.106-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2014-10-09.Binaergewitter.Talk.106.mp3
   ogg: https://download.binaergewitter.de/2014-10-09.Binaergewitter.Talk.106.ogg

@@ -7,6 +7,7 @@ comments: true
 categories: westcoast
 sharing: true
 published: true
+transcript: https://download.binaergewitter.de/2017-04-03.Binaergewitter.Westcoast.1-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2017-04-03.Binaergewitter.Westcoast.1.mp3
   ogg: https://download.binaergewitter.de/2017-04-03.Binaergewitter.Westcoast.1.ogg

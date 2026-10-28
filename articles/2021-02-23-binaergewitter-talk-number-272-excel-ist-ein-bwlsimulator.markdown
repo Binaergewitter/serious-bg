@@ -8,6 +8,7 @@ categories: talk
 sharing: true
 published: true
 chapters: https://download.binaergewitter.de/2021-02-22.Binaergewitter.Talk.272.chapters.txt
+transcript: https://download.binaergewitter.de/2021-02-22.Binaergewitter.Talk.272-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2021-02-22.Binaergewitter.Talk.272.mp3
   ogg: https://download.binaergewitter.de/2021-02-22.Binaergewitter.Talk.272.ogg

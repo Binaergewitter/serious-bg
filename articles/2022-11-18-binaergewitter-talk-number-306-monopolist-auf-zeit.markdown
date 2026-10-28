@@ -8,6 +8,7 @@ categories: talk
 sharing: true
 published: true
 chapters: https://download.binaergewitter.de/2022-11-16.Binaergewitter.Talk.306.chapters.txt
+transcript: https://download.binaergewitter.de/2022-11-16.Binaergewitter.Talk.306-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2022-11-16.Binaergewitter.Talk.306.mp3
   ogg: https://download.binaergewitter.de/2022-11-16.Binaergewitter.Talk.306.ogg

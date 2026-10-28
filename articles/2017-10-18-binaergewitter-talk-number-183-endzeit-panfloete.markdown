@@ -7,6 +7,7 @@ comments: true
 categories: talk
 sharing: true
 published: true
+transcript: https://download.binaergewitter.de/2017-10-17.Binaergewitter.Talk.183-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2017-10-17.Binaergewitter.Talk.183.mp3
   ogg: https://download.binaergewitter.de/2017-10-17.Binaergewitter.Talk.183.ogg

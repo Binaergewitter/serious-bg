@@ -6,6 +6,7 @@ date: 2013-05-24 10:30:00
 comments: true
 categories: talk
 sharing: true
+transcript: https://download.binaergewitter.de/2013-05-23.Binaergewitter.Talk.53-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2013-05-23.Binaergewitter.Talk.53.mp3
   ogg: https://download.binaergewitter.de/2013-05-23.Binaergewitter.Talk.53.ogg

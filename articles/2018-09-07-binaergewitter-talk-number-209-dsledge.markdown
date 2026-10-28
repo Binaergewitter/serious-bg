@@ -7,6 +7,7 @@ comments: true
 categories: talk
 sharing: true
 published: true
+transcript: https://download.binaergewitter.de/2018-09-06.Binaergewitter.Talk.209-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2018-09-06.Binaergewitter.Talk.209.mp3
   ogg: https://download.binaergewitter.de/2018-09-06.Binaergewitter.Talk.209.ogg

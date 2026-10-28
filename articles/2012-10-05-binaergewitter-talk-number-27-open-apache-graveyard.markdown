@@ -6,6 +6,7 @@ date: 2012-10-05 15:30:00
 comments: true
 categories: talk
 sharing: true
+transcript: https://download.binaergewitter.de/2012-10-04.Binaergewitter.Talk.27-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2012-10-04.Binaergewitter.Talk.27.mp3
   ogg: https://download.binaergewitter.de/2012-10-04.Binaergewitter.Talk.27.ogg

@@ -6,6 +6,7 @@ date: 2017-09-24 16:00:00
 comments: true
 categories: spezial
 sharing: true
+transcript: https://download.binaergewitter.de/2017-09-20.Binaergewitter.Spezial.7-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2017-09-20.Binaergewitter.Spezial.7.mp3
   ogg: https://download.binaergewitter.de/2017-09-20.Binaergewitter.Spezial.7.ogg

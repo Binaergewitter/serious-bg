@@ -6,6 +6,7 @@ date: 2013-10-13 18:00:00
 comments: true
 categories: talk
 sharing: true
+transcript: https://download.binaergewitter.de/2013-10-10.Binaergewitter.Talk.69-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2013-10-10.Binaergewitter.Talk.69.mp3
   ogg: https://download.binaergewitter.de/2013-10-10.Binaergewitter.Talk.69.ogg

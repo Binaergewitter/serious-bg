@@ -7,6 +7,7 @@ comments: true
 categories: talk
 sharing: true
 published: true
+transcript: https://download.binaergewitter.de/2016-03-03.Binaergewitter.Talk.142-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2016-03-03.Binaergewitter.Talk.142.mp3
   ogg: https://download.binaergewitter.de/2016-03-03.Binaergewitter.Talk.142.ogg

@@ -7,6 +7,7 @@ comments: true
 categories: talk
 sharing: true
 published: true
+transcript: https://download.binaergewitter.de/2018-02-07.Binaergewitter.Talk.191-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2018-02-07.Binaergewitter.Talk.191.mp3
   ogg: https://download.binaergewitter.de/2018-02-07.Binaergewitter.Talk.191.ogg

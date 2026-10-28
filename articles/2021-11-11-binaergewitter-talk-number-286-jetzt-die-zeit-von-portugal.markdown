@@ -7,6 +7,7 @@ comments: true
 categories: talk
 sharing: true
 published: true
+transcript: https://download.binaergewitter.de/2021-11-10.Binaergewitter.Talk.286-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2021-11-10.Binaergewitter.Talk.286.mp3
   ogg: https://download.binaergewitter.de/2021-11-10.Binaergewitter.Talk.286.ogg

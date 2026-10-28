@@ -8,6 +8,7 @@ categories: talk
 sharing: true
 published: true
 chapters: https://download.binaergewitter.de/2024-06-11.Binaergewitter.Talk.338.chapters.txt
+transcript: https://download.binaergewitter.de/2024-06-11.Binaergewitter.Talk.338-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2024-06-11.Binaergewitter.Talk.338.mp3
   ogg: https://download.binaergewitter.de/2024-06-11.Binaergewitter.Talk.338.ogg

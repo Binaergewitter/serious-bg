@@ -8,6 +8,7 @@ categories: talk
 sharing: true
 published: true
 chapters: https://download.binaergewitter.de/2020-08-10.Binaergewitter.Talk.260.chapters.txt
+transcript: https://download.binaergewitter.de/2020-08-10.Binaergewitter.Talk.260-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2020-08-10.Binaergewitter.Talk.260.mp3
   ogg: https://download.binaergewitter.de/2020-08-10.Binaergewitter.Talk.260.ogg

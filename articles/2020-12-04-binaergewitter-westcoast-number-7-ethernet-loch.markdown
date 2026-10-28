@@ -7,6 +7,7 @@ comments: true
 categories: westcoast
 sharing: true
 published: true
+transcript: https://download.binaergewitter.de/2020-12-04.Binaergewitter.Westcoast.7-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2020-12-04.Binaergewitter.Westcoast.7.mp3
   ogg: https://download.binaergewitter.de/2020-12-04.Binaergewitter.Westcoast.7.ogg

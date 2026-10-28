@@ -6,6 +6,7 @@ date: 2013-08-16 08:30:00
 comments: true
 categories: talk
 sharing: true
+transcript: https://download.binaergewitter.de/2013-08-15.Binaergewitter.Talk.63-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2013-08-15.Binaergewitter.Talk.63.mp3
   ogg: https://download.binaergewitter.de/2013-08-15.Binaergewitter.Talk.63.ogg

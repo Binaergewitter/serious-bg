@@ -8,6 +8,7 @@ categories: talk
 sharing: true
 published: true
 release: 2
+transcript: https://download.binaergewitter.de/2015-04-09.Binaergewitter.Talk.119-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2015-04-09.Binaergewitter.Talk.119.mp3
   ogg: https://download.binaergewitter.de/2015-04-09.Binaergewitter.Talk.119.ogg

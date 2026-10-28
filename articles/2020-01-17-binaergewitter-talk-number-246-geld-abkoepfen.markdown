@@ -8,6 +8,7 @@ categories: talk
 sharing: true
 published: true
 chapters: https://download.binaergewitter.de/2020-01-15.Binaergewitter.Talk.246.chapters.txt
+transcript: https://download.binaergewitter.de/2020-01-15.Binaergewitter.Talk.246-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2020-01-15.Binaergewitter.Talk.246.mp3
   ogg: https://download.binaergewitter.de/2020-01-15.Binaergewitter.Talk.246.ogg

@@ -8,6 +8,7 @@ categories: talk
 sharing: true
 published: true
 chapters: https://download.binaergewitter.de/2020-05-15.Binaergewitter.Talk.255.chapters.txt
+transcript: https://download.binaergewitter.de/2020-05-15.Binaergewitter.Talk.255-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2020-05-15.Binaergewitter.Talk.255.mp3
   ogg: https://download.binaergewitter.de/2020-05-15.Binaergewitter.Talk.255.ogg

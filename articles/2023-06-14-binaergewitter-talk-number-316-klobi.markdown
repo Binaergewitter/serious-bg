@@ -8,6 +8,7 @@ categories: talk
 sharing: true
 published: true
 chapters: https://download.binaergewitter.de/2023-06-13.Binaergewitter.Talk.316.chapters.txt
+transcript: https://download.binaergewitter.de/2023-06-13.Binaergewitter.Talk.316-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2023-06-13.Binaergewitter.Talk.316.mp3
   ogg: https://download.binaergewitter.de/2023-06-13.Binaergewitter.Talk.316.ogg

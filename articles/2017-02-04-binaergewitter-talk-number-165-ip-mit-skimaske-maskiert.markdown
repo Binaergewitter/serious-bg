@@ -7,6 +7,7 @@ comments: true
 categories: talk
 sharing: true
 published: true
+transcript: https://download.binaergewitter.de/2017-02-02.Binaergewitter.Talk.165-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2017-02-02.Binaergewitter.Talk.165.mp3
   ogg: https://download.binaergewitter.de/2017-02-02.Binaergewitter.Talk.165.ogg

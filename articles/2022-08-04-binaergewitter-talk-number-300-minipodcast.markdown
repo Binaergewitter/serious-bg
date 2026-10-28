@@ -8,6 +8,7 @@ categories: talk
 sharing: true
 published: true
 chapters: https://download.binaergewitter.de/2022-08-03.Binaergewitter.Talk.300.chapters.txt
+transcript: https://download.binaergewitter.de/2022-08-03.Binaergewitter.Talk.300-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2022-08-03.Binaergewitter.Talk.300.mp3
   ogg: https://download.binaergewitter.de/2022-08-03.Binaergewitter.Talk.300.ogg

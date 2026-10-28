@@ -7,6 +7,7 @@ comments: true
 categories: talk
 sharing: true
 published: true
+transcript: https://download.binaergewitter.de/2020-03-18.Binaergewitter.Talk.249-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2020-03-18.Binaergewitter.Talk.249.mp3
   ogg: https://download.binaergewitter.de/2020-03-18.Binaergewitter.Talk.249.ogg

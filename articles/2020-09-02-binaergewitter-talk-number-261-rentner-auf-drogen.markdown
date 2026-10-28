@@ -8,6 +8,7 @@ categories: talk
 sharing: true
 published: true
 chapters: https://download.binaergewitter.de/2020-09-01.Binaergewitter.Talk.261.chapters.txt
+transcript: https://download.binaergewitter.de/2020-09-01.Binaergewitter.Talk.261-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2020-09-01.Binaergewitter.Talk.261.mp3
   ogg: https://download.binaergewitter.de/2020-09-01.Binaergewitter.Talk.261.ogg

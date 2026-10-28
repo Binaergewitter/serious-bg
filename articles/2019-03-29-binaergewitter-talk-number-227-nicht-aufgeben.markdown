@@ -7,6 +7,7 @@ comments: true
 categories: talk
 sharing: true
 published: true
+transcript: https://download.binaergewitter.de/2019-03-28.Binaergewitter.Talk.227-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2019-03-28.Binaergewitter.Talk.227.mp3
   ogg: https://download.binaergewitter.de/2019-03-28.Binaergewitter.Talk.227.ogg

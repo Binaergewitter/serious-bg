@@ -7,6 +7,7 @@ comments: true
 categories: talk
 sharing: true
 published: true
+transcript: https://download.binaergewitter.de/2020-07-06.Binaergewitter.Talk.258-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2020-07-06.Binaergewitter.Talk.258.mp3
   ogg: https://download.binaergewitter.de/2020-07-06.Binaergewitter.Talk.258.ogg

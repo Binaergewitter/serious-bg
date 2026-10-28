@@ -7,6 +7,7 @@ comments: true
 categories: talk
 sharing: true
 published: true
+transcript: https://download.binaergewitter.de/2016-05-29.Binaergewitter.Talk.149-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2016-05-29.Binaergewitter.Talk.149.mp3
   ogg: https://download.binaergewitter.de/2016-05-29.Binaergewitter.Talk.149.ogg

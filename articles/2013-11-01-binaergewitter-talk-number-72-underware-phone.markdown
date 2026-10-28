@@ -6,6 +6,7 @@ date: 2013-11-01 20:00:00
 comments: true
 categories: talk
 sharing: true
+transcript: https://download.binaergewitter.de/2013-10-31.Binaergewitter.Talk.72-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2013-10-31.Binaergewitter.Talk.72.mp3
   ogg: https://download.binaergewitter.de/2013-10-31.Binaergewitter.Talk.72.ogg

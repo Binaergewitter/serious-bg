@@ -8,6 +8,7 @@ categories: talk
 sharing: true
 published: true
 chapters: https://download.binaergewitter.de/2023-05-18.Binaergewitter.Talk.315.chapters.txt
+transcript: https://download.binaergewitter.de/2023-05-18.Binaergewitter.Talk.315-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2023-05-18.Binaergewitter.Talk.315.mp3
   ogg: https://download.binaergewitter.de/2023-05-18.Binaergewitter.Talk.315.ogg

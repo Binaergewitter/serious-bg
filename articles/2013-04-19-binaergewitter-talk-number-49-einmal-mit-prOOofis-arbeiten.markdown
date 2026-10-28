@@ -6,6 +6,7 @@ date: 2013-04-20 13:00:00
 comments: true
 categories: talk
 sharing: true
+transcript: https://download.binaergewitter.de/2013-04-18.Binaergewitter.Talk.49-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2013-04-18.Binaergewitter.Talk.49.mp3
   ogg: https://download.binaergewitter.de/2013-04-18.Binaergewitter.Talk.49.ogg

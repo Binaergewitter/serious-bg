@@ -8,6 +8,7 @@ categories: talk
 sharing: true
 published: true
 chapters: https://download.binaergewitter.de/2021-04-16.Binaergewitter.Talk.275.chapters.txt
+transcript: https://download.binaergewitter.de/2021-04-16.Binaergewitter.Talk.275-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2021-04-16.Binaergewitter.Talk.275.mp3
   ogg: https://download.binaergewitter.de/2021-04-16.Binaergewitter.Talk.275.ogg
