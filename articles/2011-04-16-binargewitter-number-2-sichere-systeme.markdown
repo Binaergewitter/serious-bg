@@ -5,6 +5,7 @@ date: 2011-04-16 19:26:00
 
 comments: true
 categories: spezial
+transcript: https://download.binaergewitter.de/2011-04-13.RadioTux.Binaergewitter.2-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2011-04-13.RadioTux.Binaergewitter.2.mp3
   ogg: https://download.binaergewitter.de/2011-04-13.RadioTux.Binaergewitter.2.ogg

@@ -8,7 +8,7 @@ categories: talk
 sharing: true
 published: true
 chapters: https://download.binaergewitter.de/2025-08-07.Binaergewitter.Talk.364.chapters.txt
-transcript: https://download.binaergewitter.de/2025-08-07.Binaergewitter.Talk.364.mp3-speech.json
+transcript: https://download.binaergewitter.de/2025-08-07.Binaergewitter.Talk.364-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2025-08-07.Binaergewitter.Talk.364.mp3
   ogg: https://download.binaergewitter.de/2025-08-07.Binaergewitter.Talk.364.ogg

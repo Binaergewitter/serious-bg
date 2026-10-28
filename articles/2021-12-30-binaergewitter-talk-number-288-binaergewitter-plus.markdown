@@ -9,6 +9,7 @@ sharing: true
 published: true
 release: 2
 chapters: https://download.binaergewitter.de/2021-12-29.Binaergewitter.Talk.288.chapters.txt
+transcript: https://download.binaergewitter.de/2021-12-29.Binaergewitter.Talk.288-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2021-12-29.Binaergewitter.Talk.288.mp3
   ogg: https://download.binaergewitter.de/2021-12-29.Binaergewitter.Talk.288.ogg

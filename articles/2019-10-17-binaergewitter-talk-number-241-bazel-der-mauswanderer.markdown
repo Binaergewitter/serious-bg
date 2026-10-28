@@ -7,6 +7,7 @@ comments: true
 categories: talk
 sharing: true
 published: true
+transcript: https://download.binaergewitter.de/2019-10-16.Binaergewitter.Talk.241-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2019-10-16.Binaergewitter.Talk.241.mp3
   ogg: https://download.binaergewitter.de/2019-10-16.Binaergewitter.Talk.241.ogg

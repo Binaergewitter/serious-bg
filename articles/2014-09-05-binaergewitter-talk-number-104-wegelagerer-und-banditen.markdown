@@ -7,6 +7,7 @@ comments: true
 categories: talk
 sharing: true
 release: 2
+transcript: https://download.binaergewitter.de/2014-09-04.Binaergewitter.Talk.104-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2014-09-04.Binaergewitter.Talk.104.mp3
   ogg: https://download.binaergewitter.de/2014-09-04.Binaergewitter.Talk.104.ogg

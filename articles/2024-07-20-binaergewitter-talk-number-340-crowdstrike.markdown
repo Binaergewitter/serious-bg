@@ -9,6 +9,7 @@ sharing: true
 published: true
 release: 2
 chapters: https://download.binaergewitter.de/2024-07-19.Binaergewitter.Talk.340.chapters.txt
+transcript: https://download.binaergewitter.de/2024-07-19.Binaergewitter.Talk.340-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2024-07-19.Binaergewitter.Talk.340.mp3
   ogg: https://download.binaergewitter.de/2024-07-19.Binaergewitter.Talk.340.ogg

@@ -7,6 +7,7 @@ comments: true
 categories: talk
 sharing: true
 published: true
+transcript: https://download.binaergewitter.de/2020-02-06.Binaergewitter.Talk.247-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2020-02-06.Binaergewitter.Talk.247.mp3
   ogg: https://download.binaergewitter.de/2020-02-06.Binaergewitter.Talk.247.ogg

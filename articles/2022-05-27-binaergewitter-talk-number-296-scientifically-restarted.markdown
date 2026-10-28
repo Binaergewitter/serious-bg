@@ -8,6 +8,7 @@ categories: talk
 sharing: true
 published: true
 chapters: https://download.binaergewitter.de/2022-05-26.Binaergewitter.Talk.296.chapters.txt
+transcript: https://download.binaergewitter.de/2022-05-26.Binaergewitter.Talk.296-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2022-05-26.Binaergewitter.Talk.296.mp3
   ogg: https://download.binaergewitter.de/2022-05-26.Binaergewitter.Talk.296.ogg

@@ -8,6 +8,7 @@ categories: talk
 sharing: true
 published: true
 chapters: https://download.binaergewitter.de/2023-01-26.Binaergewitter.Talk.310.chapters.txt
+transcript: https://download.binaergewitter.de/2023-01-26.Binaergewitter.Talk.310-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2023-01-26.Binaergewitter.Talk.310.mp3
   ogg: https://download.binaergewitter.de/2023-01-26.Binaergewitter.Talk.310.ogg

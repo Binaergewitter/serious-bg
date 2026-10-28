@@ -8,6 +8,7 @@ categories: talk
 sharing: true
 published: true
 chapters: https://download.binaergewitter.de/2020-03-26.Binaergewitter.Talk.250.chapters.txt
+transcript: https://download.binaergewitter.de/2020-03-26.Binaergewitter.Talk.250-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2020-03-26.Binaergewitter.Talk.250.mp3
   ogg: https://download.binaergewitter.de/2020-03-26.Binaergewitter.Talk.250.ogg

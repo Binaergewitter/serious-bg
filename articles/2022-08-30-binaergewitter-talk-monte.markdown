@@ -7,6 +7,7 @@ comments: true
 categories: talk
 sharing: true
 published: true
+transcript: https://download.binaergewitter.de/2022-08-29.Binaergewitter.Talk.301-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2022-08-29.Binaergewitter.Talk.301.mp3
   ogg: https://download.binaergewitter.de/2022-08-29.Binaergewitter.Talk.301.ogg

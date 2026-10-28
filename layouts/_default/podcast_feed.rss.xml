@@ -108,6 +108,7 @@
                  when unknown, and %.0f on an int renders as "%!f(int=0)". */}}
             <enclosure url="{{ $url }}" length="{{ int $size }}" type="{{ $mimeType }}" />
             <itunes:duration>{{ $duration }}</itunes:duration>
+            {{ with partial "transcript_vtt.html" .Params.transcript }}<podcast:transcript url="{{ . }}" type="text/vtt" />{{ end }}
             {{ with .Params.transcript }}<podcast:transcript url="{{ . }}" type="application/json" />{{ end }}
 
             {{ $chaptersUrl := .Params.chapters }}

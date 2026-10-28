@@ -8,6 +8,7 @@ categories: talk
 sharing: true
 published: true
 chapters: https://download.binaergewitter.de/2021-09-02.Binaergewitter.Talk.283.chapters.txt
+transcript: https://download.binaergewitter.de/2021-09-02.Binaergewitter.Talk.283-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2021-09-02.Binaergewitter.Talk.283.mp3
   ogg: https://download.binaergewitter.de/2021-09-02.Binaergewitter.Talk.283.ogg

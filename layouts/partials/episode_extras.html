@@ -17,6 +17,9 @@
   {{- with $meta.transcript }}
   <p class="episode-transcript">
     <a href="{{ . }}" rel="alternate" type="application/json">Transkript (JSON)</a>
+    {{- with $meta.transcriptVtt }}
+    · <a href="{{ . }}" rel="alternate" type="text/vtt">Transkript (WebVTT)</a>
+    {{- end }}
   </p>
   {{- end }}
 </section>

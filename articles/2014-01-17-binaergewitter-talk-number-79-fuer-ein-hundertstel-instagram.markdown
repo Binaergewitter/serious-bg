@@ -7,6 +7,7 @@ comments: true
 categories: talk
 sharing: true
 release: 2
+transcript: https://download.binaergewitter.de/2014-01-16.Binaergewitter.Talk.79-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2014-01-16.Binaergewitter.Talk.79.mp3
   ogg: https://download.binaergewitter.de/2014-01-16.Binaergewitter.Talk.79.ogg

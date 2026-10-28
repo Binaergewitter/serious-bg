@@ -8,6 +8,7 @@ categories: talk
 sharing: true
 published: true
 chapters: https://download.binaergewitter.de/2021-10-07.Binaergewitter.Talk.285.chapters.txt
+transcript: https://download.binaergewitter.de/2021-10-07.Binaergewitter.Talk.285-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2021-10-07.Binaergewitter.Talk.285.mp3
   ogg: https://download.binaergewitter.de/2021-10-07.Binaergewitter.Talk.285.ogg

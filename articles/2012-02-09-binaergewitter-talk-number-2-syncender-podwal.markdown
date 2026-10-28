@@ -6,6 +6,7 @@ date: 2012-02-09 11:07:00
 comments: true
 categories: talk
 sharing: true
+transcript: https://download.binaergewitter.de/2012-02-08.Binaergewitter.Talk.2-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2012-02-08.Binaergewitter.Talk.2.mp3
   ogg: https://download.binaergewitter.de/2012-02-08.Binaergewitter.Talk.2.ogg

@@ -7,6 +7,7 @@ comments: true
 categories: talk
 sharing: true
 draft: true
+transcript: https://download.binaergewitter.de/2017-04-13.Binaergewitter.Talk.170-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2017-04-13.Binaergewitter.Talk.170.mp3
   ogg: https://download.binaergewitter.de/2017-04-13.Binaergewitter.Talk.170.ogg

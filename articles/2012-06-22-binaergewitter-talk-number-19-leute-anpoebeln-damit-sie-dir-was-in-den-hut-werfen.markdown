@@ -6,6 +6,7 @@ date: 2012-06-22 13:30:00
 comments: true
 categories: talk
 sharing: true
+transcript: https://download.binaergewitter.de/2012-06-21.Binaergewitter.Talk.19-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2012-06-21.Binaergewitter.Talk.19.mp3
   ogg: https://download.binaergewitter.de/2012-06-21.Binaergewitter.Talk.19.ogg

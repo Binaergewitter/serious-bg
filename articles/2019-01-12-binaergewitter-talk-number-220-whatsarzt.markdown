@@ -7,6 +7,7 @@ comments: true
 categories: talk
 sharing: true
 published: true
+transcript: https://download.binaergewitter.de/2019-01-10.Binaergewitter.Talk.220-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2019-01-10.Binaergewitter.Talk.220.mp3
   ogg: https://download.binaergewitter.de/2019-01-10.Binaergewitter.Talk.220.ogg

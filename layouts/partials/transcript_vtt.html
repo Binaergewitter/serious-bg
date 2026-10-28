@@ -1,0 +1,11 @@
+{{- /* WebVTT URL for a transcript, derived from the front-matter transcript URL.
+       Every …-speech.json on download.binaergewitter.de has a …vtt next to it
+       (Auphonic and the machine transcripts from #545 alike). Returns "" when
+       the URL does not follow that naming. */ -}}
+{{- $vtt := "" -}}
+{{- with . -}}
+  {{- if hasSuffix . "-speech.json" -}}
+    {{- $vtt = printf "%s.vtt" (strings.TrimSuffix "-speech.json" .) -}}
+  {{- end -}}
+{{- end -}}
+{{- return $vtt -}}

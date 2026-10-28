@@ -7,6 +7,7 @@ comments: true
 categories: talk
 sharing: true
 published: true
+transcript: https://download.binaergewitter.de/2019-04-24.Binaergewitter.Talk.228-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2019-04-24.Binaergewitter.Talk.228.mp3
   ogg: https://download.binaergewitter.de/2019-04-24.Binaergewitter.Talk.228.ogg

@@ -8,6 +8,7 @@ categories: talk
 sharing: true
 published: true
 chapters: https://download.binaergewitter.de/2020-07-20.Binaergewitter.Talk.259.chapters.txt
+transcript: https://download.binaergewitter.de/2020-07-20.Binaergewitter.Talk.259-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2020-07-20.Binaergewitter.Talk.259.mp3
   ogg: https://download.binaergewitter.de/2020-07-20.Binaergewitter.Talk.259.ogg

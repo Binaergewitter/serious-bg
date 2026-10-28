@@ -9,6 +9,7 @@ sharing: true
 published: true
 release: 3
 chapters: https://download.binaergewitter.de/2024-08-02.Binaergewitter.Talk.341.chapters.txt
+transcript: https://download.binaergewitter.de/2024-08-02.Binaergewitter.Talk.341-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2024-08-02.Binaergewitter.Talk.341.mp3
   ogg: https://download.binaergewitter.de/2024-08-02.Binaergewitter.Talk.341.ogg

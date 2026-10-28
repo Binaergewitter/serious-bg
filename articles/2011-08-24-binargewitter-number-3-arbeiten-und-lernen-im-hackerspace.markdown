@@ -5,6 +5,7 @@ date: 2011-08-24 15:57:00
 
 comments: true
 categories: spezial
+transcript: https://download.binaergewitter.de/2011-08-18.RadioTux.Binaergewitter.3-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2011-08-18.RadioTux.Binaergewitter.3.mp3
   ogg: https://download.binaergewitter.de/2011-08-18.RadioTux.Binaergewitter.3.ogg

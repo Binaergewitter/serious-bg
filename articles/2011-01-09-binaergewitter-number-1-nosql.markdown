@@ -5,6 +5,7 @@ date: 2011-01-09 09:17:00
 
 comments: true
 categories: spezial
+transcript: https://download.binaergewitter.de/2011-01-08.RadioTux.Binaergewitter.NoSQL-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2011-01-08.RadioTux.Binaergewitter.NoSQL.mp3
   ogg: https://download.binaergewitter.de/2011-01-08.RadioTux.Binaergewitter.NoSQL.ogg

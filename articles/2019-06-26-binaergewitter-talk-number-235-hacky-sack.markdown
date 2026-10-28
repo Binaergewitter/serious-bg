@@ -7,6 +7,7 @@ comments: true
 categories: talk
 sharing: true
 published: true
+transcript: https://download.binaergewitter.de/2019-06-25.Binaergewitter.Talk.235-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2019-06-25.Binaergewitter.Talk.235.mp3
   ogg: https://download.binaergewitter.de/2019-06-25.Binaergewitter.Talk.235.ogg

@@ -7,6 +7,7 @@ comments: true
 categories: talk
 sharing: true
 published: true
+transcript: https://download.binaergewitter.de/2019-12-05.Binaergewitter.Talk.244-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2019-12-05.Binaergewitter.Talk.244.mp3
   ogg: https://download.binaergewitter.de/2019-12-05.Binaergewitter.Talk.244.ogg

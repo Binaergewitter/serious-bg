@@ -8,6 +8,7 @@ categories: talk
 sharing: true
 published: true
 release: 2
+transcript: https://download.binaergewitter.de/2017-06-15.Binaergewitter.Talk.174-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2017-06-15.Binaergewitter.Talk.174.mp3
   ogg: https://download.binaergewitter.de/2017-06-15.Binaergewitter.Talk.174.ogg

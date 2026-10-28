@@ -8,6 +8,7 @@ categories: talk
 sharing: true
 published: true
 release: 2
+transcript: https://download.binaergewitter.de/2016-09-01.Binaergewitter.Talk.156-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2016-09-01.Binaergewitter.Talk.156.mp3
   ogg: https://download.binaergewitter.de/2016-09-01.Binaergewitter.Talk.156.ogg

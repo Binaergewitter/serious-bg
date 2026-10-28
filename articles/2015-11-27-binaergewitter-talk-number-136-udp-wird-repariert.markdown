@@ -7,6 +7,7 @@ comments: true
 categories: talk
 sharing: true
 published: true
+transcript: https://download.binaergewitter.de/2015-11-26.Binaergewitter.Talk.136-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2015-11-26.Binaergewitter.Talk.136.mp3
   ogg: https://download.binaergewitter.de/2015-11-26.Binaergewitter.Talk.136.ogg

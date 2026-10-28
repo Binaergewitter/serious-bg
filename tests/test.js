@@ -653,6 +653,45 @@ function testArticleFrontMatter() {
     );
 }
 
+// Test: Every episode with audio links its own transcript, and feeds offer WebVTT
+function testTranscripts() {
+    console.log('\n📜 Testing transcripts...');
+
+    const articlesDir = path.join(__dirname, '../articles');
+    const files = fs.readdirSync(articlesDir).filter(f => f.endsWith('.md') || f.endsWith('.markdown'));
+    const audioRe = /^  (?:mp3|ogg|opus|m4a): (\S+)\.(?:mp3|ogg|opus|m4a)\s*$/m;
+
+    let episodes = 0;
+    const missing = [];
+    const mismatched = [];
+
+    files.forEach(file => {
+        const content = fs.readFileSync(path.join(articlesDir, file), 'utf8');
+        const frontMatter = content.split('\n---\n')[0];
+        const audio = frontMatter.match(audioRe);
+        if (!audio) return;
+        episodes++;
+
+        // The transcript must belong to this episode's audio (#358 once linked #357's)
+        const transcript = frontMatter.match(/^transcript: (\S+)\s*$/m);
+        if (!transcript) {
+            missing.push(file);
+        } else if (transcript[1] !== `${audio[1]}-speech.json`) {
+            mismatched.push(`${file}: ${transcript[1]}`);
+        }
+    });
+
+    missing.slice(0, 3).forEach(f => console.log(`  ⚠️  ${f} has no transcript`));
+    mismatched.slice(0, 3).forEach(f => console.log(`  ⚠️  ${f}`));
+    assert(missing.length === 0, `All ${episodes} episodes with audio have a transcript (${missing.length} missing)`);
+    assert(mismatched.length === 0, `All transcripts match their episode's audio file (${mismatched.length} mismatched)`);
+
+    const rssContent = fs.readFileSync(path.join(PUBLIC_DIR, 'rss.xml'), 'utf8');
+    const jsonCount = (rssContent.match(/<podcast:transcript url="[^"]+-speech\.json" type="application\/json"/g) || []).length;
+    const vttCount = (rssContent.match(/<podcast:transcript url="[^"]+\.vtt" type="text\/vtt"/g) || []).length;
+    assert(jsonCount > 0 && vttCount === jsonCount, `RSS offers a WebVTT transcript for every JSON transcript (${vttCount}/${jsonCount})`);
+}
+
 // Main test runner
 async function runTests() {
     console.log('🧪 Running Hugo Site Tests\n');
@@ -682,6 +721,7 @@ async function runTests() {
     testLatestShow();
     testIssoExclusion();
     testArticleFrontMatter();
+    testTranscripts();
     await testAudioLinks();
 
     // Summary

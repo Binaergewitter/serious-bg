@@ -7,6 +7,7 @@ comments: true
 categories: talk
 sharing: true
 published: true
+transcript: https://download.binaergewitter.de/2017-12-07.Binaergewitter.Talk.187-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2017-12-07.Binaergewitter.Talk.187.mp3
   ogg: https://download.binaergewitter.de/2017-12-07.Binaergewitter.Talk.187.ogg

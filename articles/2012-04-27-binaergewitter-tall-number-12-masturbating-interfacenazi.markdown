@@ -6,6 +6,7 @@ date: 2012-04-27 12:30:00
 comments: true
 categories: talk
 sharing: true
+transcript: https://download.binaergewitter.de/2012-04-27.Binaergewitter.Talk.12-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2012-04-27.Binaergewitter.Talk.12.mp3
   ogg: https://download.binaergewitter.de/2012-04-27.Binaergewitter.Talk.12.ogg

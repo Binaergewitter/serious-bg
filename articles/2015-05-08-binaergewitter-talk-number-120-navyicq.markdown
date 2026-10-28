@@ -7,6 +7,7 @@ comments: true
 categories: talk
 sharing: true
 published: true
+transcript: https://download.binaergewitter.de/2015-05-07.Binaergewitter.Talk.120-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2015-05-07.Binaergewitter.Talk.120.mp3
   ogg: https://download.binaergewitter.de/2015-05-07.Binaergewitter.Talk.120.ogg

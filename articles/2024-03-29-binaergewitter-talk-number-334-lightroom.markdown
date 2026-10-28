@@ -8,6 +8,7 @@ categories: talk
 sharing: true
 published: true
 chapters: https://download.binaergewitter.de/2024-03-28.Binaergewitter.Talk.334.chapters.txt
+transcript: https://download.binaergewitter.de/2024-03-28.Binaergewitter.Talk.334-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2024-03-28.Binaergewitter.Talk.334.mp3
   ogg: https://download.binaergewitter.de/2024-03-28.Binaergewitter.Talk.334.ogg

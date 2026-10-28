@@ -7,6 +7,7 @@ comments: true
 categories: talk
 sharing: true
 chapters: https://download.binaergewitter.de/2013-07-04.Binaergewitter.Talk.58.chapters.txt
+transcript: https://download.binaergewitter.de/2013-07-11.Binaergewitter.Talk.58-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2013-07-11.Binaergewitter.Talk.58.mp3
   ogg: https://download.binaergewitter.de/2013-07-11.Binaergewitter.Talk.58.ogg

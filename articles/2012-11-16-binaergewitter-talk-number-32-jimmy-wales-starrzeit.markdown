@@ -6,6 +6,7 @@ date: 2012-11-16 12:00:00
 comments: true
 categories: talk
 sharing: true
+transcript: https://download.binaergewitter.de/2012-11-15.Binaergewitter.Talk.32-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2012-11-15.Binaergewitter.Talk.32.mp3
   ogg: https://download.binaergewitter.de/2012-11-15.Binaergewitter.Talk.32.ogg

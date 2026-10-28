@@ -8,6 +8,7 @@ categories: talk
 sharing: true
 published: true
 chapters: https://download.binaergewitter.de/2022-01-14.Binaergewitter.Talk.289.chapters.txt
+transcript: https://download.binaergewitter.de/2022-01-14.Binaergewitter.Talk.289-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2022-01-14.Binaergewitter.Talk.289.mp3
   ogg: https://download.binaergewitter.de/2022-01-14.Binaergewitter.Talk.289.ogg

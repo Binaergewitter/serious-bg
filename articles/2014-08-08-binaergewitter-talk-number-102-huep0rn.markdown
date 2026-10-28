@@ -6,6 +6,7 @@ date: 2014-08-08 17:00:00
 comments: true
 categories: talk
 sharing: true
+transcript: https://download.binaergewitter.de/2014-08-07.Binaergewitter.Talk.102-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2014-08-07.Binaergewitter.Talk.102.mp3
   ogg: https://download.binaergewitter.de/2014-08-07.Binaergewitter.Talk.102.ogg

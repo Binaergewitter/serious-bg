@@ -9,6 +9,7 @@ sharing: true
 published: true
 release: 3
 chapters: https://download.binaergewitter.de/2021-12-06.Binaergewitter.Talk.287.chapters.txt
+transcript: https://download.binaergewitter.de/2021-12-06.Binaergewitter.Talk.287-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2021-12-06.Binaergewitter.Talk.287.mp3
   ogg: https://download.binaergewitter.de/2021-12-06.Binaergewitter.Talk.287.ogg

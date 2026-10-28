@@ -6,6 +6,7 @@ date: 2013-12-06 11:00:00
 comments: true
 categories: talk
 sharing: true
+transcript: https://download.binaergewitter.de/2013-12-05.Binaergewitter.Talk.76-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2013-12-05.Binaergewitter.Talk.76.mp3
   ogg: https://download.binaergewitter.de/2013-12-05.Binaergewitter.Talk.76.ogg

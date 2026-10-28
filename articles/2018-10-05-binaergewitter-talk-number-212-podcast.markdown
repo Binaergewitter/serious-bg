@@ -8,6 +8,7 @@ categories: talk
 sharing: true
 published: true
 chapters: https://download.binaergewitter.de/2018-10-04.Binaergewitter.Talk.212.chapters.txt
+transcript: https://download.binaergewitter.de/2018-10-04.Binaergewitter.Talk.212-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2018-10-04.Binaergewitter.Talk.212.mp3
   ogg: https://download.binaergewitter.de/2018-10-04.Binaergewitter.Talk.212.ogg

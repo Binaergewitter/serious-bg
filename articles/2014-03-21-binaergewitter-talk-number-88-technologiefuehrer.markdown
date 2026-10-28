@@ -6,6 +6,7 @@ date: 2014-03-21 23:00:00
 comments: true
 categories: talk
 sharing: true
+transcript: https://download.binaergewitter.de/2014-03-20.Binaergewitter.Talk.88-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2014-03-20.Binaergewitter.Talk.88.mp3
   ogg: https://download.binaergewitter.de/2014-03-20.Binaergewitter.Talk.88.ogg

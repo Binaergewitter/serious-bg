@@ -8,6 +8,7 @@ categories: talk
 sharing: true
 published: true
 chapters: https://download.binaergewitter.de/2022-07-11.Binaergewitter.Talk.299.chapters.txt
+transcript: https://download.binaergewitter.de/2022-07-11.Binaergewitter.Talk.299-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2022-07-11.Binaergewitter.Talk.299.mp3
   ogg: https://download.binaergewitter.de/2022-07-11.Binaergewitter.Talk.299.ogg

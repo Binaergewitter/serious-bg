@@ -7,6 +7,7 @@ comments: true
 categories: talk
 sharing: true
 published: true
+transcript: https://download.binaergewitter.de/2016-08-18.Binaergewitter.Talk.155-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2016-08-18.Binaergewitter.Talk.155.mp3
   ogg: https://download.binaergewitter.de/2016-08-18.Binaergewitter.Talk.155.ogg

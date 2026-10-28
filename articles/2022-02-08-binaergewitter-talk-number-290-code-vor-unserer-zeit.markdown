@@ -8,6 +8,7 @@ categories: talk
 sharing: true
 published: true
 chapters: https://download.binaergewitter.de/2022-02-07.Binaergewitter.Talk.290.chapters.txt
+transcript: https://download.binaergewitter.de/2022-02-07.Binaergewitter.Talk.290-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2022-02-07.Binaergewitter.Talk.290.mp3
   ogg: https://download.binaergewitter.de/2022-02-07.Binaergewitter.Talk.290.ogg

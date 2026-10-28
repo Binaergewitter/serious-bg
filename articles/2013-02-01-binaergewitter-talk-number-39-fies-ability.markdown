@@ -6,6 +6,7 @@ date: 2013-02-01 12:30:00
 comments: true
 categories: talk
 sharing: true
+transcript: https://download.binaergewitter.de/2013-01-31.Binaergewitter.Talk.39-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2013-01-31.Binaergewitter.Talk.39.mp3
   ogg: https://download.binaergewitter.de/2013-01-31.Binaergewitter.Talk.39.ogg

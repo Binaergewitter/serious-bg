@@ -8,6 +8,7 @@ categories: talk
 sharing: true
 published: true
 chapters: https://download.binaergewitter.de/2020-04-17.Binaergewitter.Talk.252.chapters.txt
+transcript: https://download.binaergewitter.de/2020-04-17.Binaergewitter.Talk.252-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2020-04-17.Binaergewitter.Talk.252.mp3
   ogg: https://download.binaergewitter.de/2020-04-17.Binaergewitter.Talk.252.ogg

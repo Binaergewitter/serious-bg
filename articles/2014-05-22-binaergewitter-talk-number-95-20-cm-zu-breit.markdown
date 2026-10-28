@@ -6,6 +6,7 @@ date: 2014-05-23 11:00:00
 comments: true
 categories: talk
 sharing: true
+transcript: https://download.binaergewitter.de/2014-05-22.Binaergewitter.Talk.95-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2014-05-22.Binaergewitter.Talk.95.mp3
   ogg: https://download.binaergewitter.de/2014-05-22.Binaergewitter.Talk.95.ogg

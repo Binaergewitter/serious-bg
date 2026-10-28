@@ -8,6 +8,7 @@ categories: talk
 sharing: true
 published: true
 chapters: https://download.binaergewitter.de/2024-11-19.Binaergewitter.Talk.348.chapters.txt
+transcript: https://download.binaergewitter.de/2024-11-19.Binaergewitter.Talk.348-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2024-11-19.Binaergewitter.Talk.348.mp3
   ogg: https://download.binaergewitter.de/2024-11-19.Binaergewitter.Talk.348.ogg

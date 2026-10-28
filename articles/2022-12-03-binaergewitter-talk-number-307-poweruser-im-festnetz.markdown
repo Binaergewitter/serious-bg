@@ -8,6 +8,7 @@ categories: talk
 sharing: true
 published: true
 chapters: https://download.binaergewitter.de/2022-12-02.Binaergewitter.Talk.307.chapters.txt
+transcript: https://download.binaergewitter.de/2022-12-02.Binaergewitter.Talk.307-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2022-12-02.Binaergewitter.Talk.307.mp3
   ogg: https://download.binaergewitter.de/2022-12-02.Binaergewitter.Talk.307.ogg

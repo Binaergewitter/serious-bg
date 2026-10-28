@@ -7,6 +7,7 @@ comments: true
 categories: spezial
 sharing: true
 release: 2
+transcript: https://download.binaergewitter.de/2015-04-28.Binaergewitter.Spezial.6-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2015-04-28.Binaergewitter.Spezial.6.mp3
   ogg: https://download.binaergewitter.de/2015-04-28.Binaergewitter.Spezial.6.ogg

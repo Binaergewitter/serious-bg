@@ -7,6 +7,7 @@ comments: true
 categories: westcoast
 sharing: true
 published: true
+transcript: https://download.binaergewitter.de/2020-10-29.Binaergewitter.Westcoast.6-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2020-10-29.Binaergewitter.Westcoast.6.mp3
   ogg: https://download.binaergewitter.de/2020-10-29.Binaergewitter.Westcoast.6.ogg

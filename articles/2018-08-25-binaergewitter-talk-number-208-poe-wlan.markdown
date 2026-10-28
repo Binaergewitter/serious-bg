@@ -8,6 +8,7 @@ categories: talk
 sharing: true
 published: true
 release: 2
+transcript: https://download.binaergewitter.de/2018-08-25.Binaergewitter.Talk.208-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2018-08-25.Binaergewitter.Talk.208.mp3
   ogg: https://download.binaergewitter.de/2018-08-25.Binaergewitter.Talk.208.ogg

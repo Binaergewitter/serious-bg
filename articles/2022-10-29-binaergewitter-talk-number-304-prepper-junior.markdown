@@ -8,6 +8,7 @@ categories: talk
 sharing: true
 release: 2
 published: true
+transcript: https://download.binaergewitter.de/2022-10-28.Binaergewitter.Talk.304-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2022-10-28.Binaergewitter.Talk.304.mp3
   ogg: https://download.binaergewitter.de/2022-10-28.Binaergewitter.Talk.304.ogg
