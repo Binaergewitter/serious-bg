@@ -31,6 +31,14 @@ Binärgewitter entstand bei [RadioTux](http://blog.radiotux.de/), dem Internetra
   
 ![pfleidi und makefu bei der Podcast Aufnahme](/img/pfleidi_makefu_bei_aufnahme.jpg)
 
+### Transkripte
+
+Zu jeder Folge gibt es ein Transkript als JSON und als WebVTT, verlinkt unter den Kapitelmarken und im Podcast-Feed. Neuere Folgen transkribiert [Auphonic](https://auphonic.com/) direkt bei der Produktion.
+
+Die Transkripte der Folgen von 2011 bis Oktober 2023 hat Martin Karrer ([@bmalum](https://github.com/bmalum)) maschinell mit Sprecherzuordnung erstellt: [binaergewitter-transcripts](https://github.com/bmalum/binaergewitter-transcripts). Danke dafür! Sie sind nicht von Hand korrigiert. Eigennamen und Fachbegriffe sind öfter falsch erkannt, und Stimmen ohne Stimmprofil heißen „Gast 1“, „Gast 2“ … – die Nummer gilt nur innerhalb einer Folge. Korrekturen und Hinweise, wer die Gäste sind, nimmt das Repo gern als Issue oder Pull Request entgegen.
+
+Die Transkripte stehen wie der Podcast unter [CC BY-SA 3.0 DE](https://creativecommons.org/licenses/by-sa/3.0/de/).
+
 ### Was andere über uns sagen
 
 Binärgewitter ist ein deutscher Podcast, der sich mit Themen rund um Technik, insbesondere im Bereich Softwareentwicklung, Netzpolitik, freie Software, und vielen anderen IT-bezogenen Themen beschäftigt. Die Macher des Podcasts diskutieren in lockeren Runden aktuelle Ereignisse, Entwicklungen und persönliche Erlebnisse aus dem IT-Umfeld.

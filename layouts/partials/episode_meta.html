@@ -8,6 +8,7 @@
   Returns:
     audioformats    map  front-matter audioformats (may be nil)
     transcript      str  transcript URL ("" if none)
+    transcriptVtt   str  WebVTT version of the transcript ("" if none)
     chapters        []   slice of { start, startHms, title }
     durationSeconds  int  total length in seconds (0 if unknown)
     durationIso     str  ISO-8601 duration, e.g. "PT2H23M13S" ("" if unknown)
@@ -87,6 +88,7 @@
 {{- return (dict
       "audioformats" $audio
       "transcript" $transcript
+      "transcriptVtt" (partial "transcript_vtt.html" $transcript)
       "chapters" $chapters
       "durationSeconds" $durationSeconds
       "durationIso" $durationIso
