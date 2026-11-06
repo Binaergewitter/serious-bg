@@ -61,10 +61,6 @@
         border-color: #333;
     }
 
-    .sprechzeit .progress {
-        background-color: #262626;
-    }
-
     .sprechzeit .sz-pills>li>a {
         color: #ccc;
     }
@@ -105,16 +101,6 @@
 /* status */
 .sprechzeit .sz-status {
     margin: 0 0 14px;
-}
-
-.sprechzeit .progress {
-    height: 5px;
-    margin-bottom: 5px;
-}
-
-.sprechzeit .progress-bar {
-    background-color: var(--sz-brand);
-    transition: width .25s linear;
 }
 
 .sprechzeit .sz-status p {

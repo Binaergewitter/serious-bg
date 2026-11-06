@@ -1,0 +1,49 @@
+# Shared by the build (layouts/partials/sprechzeit/) and the page
+# (assets/js/sprechzeit.js gets it via the generated JSON). The patterns have to
+# stay valid in both Go RE2 and JavaScript: no lookaround, no backreferences.
+# Written for how the ASR spells things out loud ("Butter-FS", "free bsd").
+aliases:
+  felix: Felix
+  felix2: Felix
+  ingo: Ingo
+  l33tname: l33tname
+  markus: Markus
+  madmas: Markus
+  sebastian: Sebastian
+  pfleidi: Pfleidi
+  marc: Marc
+  mat: Mat
+  unknown: Unbekannt
+  unbekannt: Unbekannt
+  "null": Unbekannt
+terms:
+  fs:
+    - ["ZFS", '(?:open[ -]?)?zfs|zed[ -]?fs|zet[ -]?fs']
+    - ["btrfs", 'btrfs|butter[ -]?fs|better[ -]?fs|b[äe]tter[ -]?fs|b-tree[ -]?fs']
+    - ["ext4", 'ext[ -]?4|ext[ -]?vier']
+    - ["XFS", 'xfs']
+    - ["NTFS", 'ntfs']
+    - ["bcachefs", 'bcache[ -]?fs|b-cache[ -]?fs']
+  bsd:
+    - ["FreeBSD", 'free[ -]?bsd']
+    - ["OpenBSD", 'open[ -]?bsd']
+    - ["NetBSD", 'net[ -]?bsd']
+    - ["BSD ohne Zusatz", 'bsd']
+  swear:
+    - ["Scheiße", 'schei(?:ß|ss)\p{L}*']
+    - ["Fuck", 'fuck\p{L}*']
+    - ["Shit", 'shit']
+    - ["Bullshit", 'bullshit']
+    - ["Kacke", 'kack\p{L}*']
+    - ["Arsch", 'arsch\p{L}*']
+    - ["Verdammt", 'verdammt\p{L}*']
+    - ["Ficken", 'fick\p{L}*|verfickt\p{L}*']
+    - ["Hure", 'hure\p{L}*']
+    - ["Wichser", 'wichs\p{L}*']
+    - ["Pisse", 'piss\p{L}*']
+    - ["Depp", 'depp\p{L}*']
+    - ["Idiot", 'idiot\p{L}*']
+    - ["Dreck", 'dreck\p{L}*']
+    - ["Mist", 'mist']
+    - ["Crap", 'crap']
+    - ["Damn", 'damn']

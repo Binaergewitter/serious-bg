@@ -1,0 +1,16 @@
+{{- /* Regex for one term group. RE2 has no lookaround, so "not inside a word" is
+       spelled out: the leading boundary is consumed, the letters after a term
+       are captured and the caller drops the hit if there are any. Swear words
+       are credited per speaker, so that regex also stops at every cue header
+       (group 1 is the speaker). The header match has to stop short of the cue's
+       first word so that the newline or the ">" of the <v> tag stays available
+       as its boundary. */ -}}
+{{- $alts := slice -}}
+{{- range index site.Data.sprechzeit.terms .group -}}
+  {{- $alts = $alts | append (printf "(%s)" (index . 1)) -}}
+{{- end -}}
+{{- $re := printf `(?:^|\P{L})(?:%s)(\p{L}*)` (delimit $alts "|") -}}
+{{- if .speakers -}}
+  {{- $re = printf `(?m:^\d[\d:.]* --> [^\n]*)(?:\n<v ([^>]*))?|%s` $re -}}
+{{- end -}}
+{{- return printf `(?i)%s` $re -}}

@@ -693,6 +693,22 @@ function testTranscripts() {
 }
 
 // Main test runner
+// Sprechzeit: the numbers are built by Hugo and referenced under a fingerprinted name
+function testSprechzeit() {
+    console.log('\n🎙️  Testing Sprechzeit data...');
+
+    const html = fs.readFileSync(path.join(PUBLIC_DIR, 'sprechzeit', 'index.html'), 'utf8');
+    const src = /data-src="?([^"\s>]+)/.exec(html);
+    assert(src && /^\/sprechzeit\/data\.[0-9a-f]{16,}\.json$/.test(src[1]), 'Sprechzeit page references fingerprinted data');
+    if (!src) return;
+
+    const data = JSON.parse(fs.readFileSync(path.join(PUBLIC_DIR, src[1]), 'utf8'));
+    const withData = data.episodes.filter(e => e.data);
+    assert(withData.length >= data.episodes.length * 0.95, `Sprechzeit has numbers for ${withData.length} of ${data.episodes.length} episodes`);
+    assert(withData.every(e => e.hash && e.words.swear && e.data.who.length && e.data.segs.length), 'Sprechzeit episodes are complete');
+    assert(withData.every(e => e.data.segs.every(s => s[0] < e.data.who.length)), 'Sprechzeit segments point at a speaker');
+}
+
 async function runTests() {
     console.log('🧪 Running Hugo Site Tests\n');
     console.log('='.repeat(50));
@@ -722,6 +738,7 @@ async function runTests() {
     testIssoExclusion();
     testArticleFrontMatter();
     testTranscripts();
+    testSprechzeit();
     await testAudioLinks();
 
     // Summary

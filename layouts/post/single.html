@@ -13,6 +13,10 @@
         {{ if .Params.audioformats }}
         {{ partial "podcast_controls.html" . }}
         {{ partial "episode_extras.html" . }}
+        {{/* The Sprechzeit page needs these numbers for every episode. Pages render
+             in parallel, so working them out here instead of there keeps the build
+             from spending a minute on a single page. */}}
+        {{ with .Params.audioformats.mp3 }}{{ if hasSuffix . ".mp3" }}{{ $_ := partialCached "sprechzeit/episode.html" . . }}{{ end }}{{ end }}
         {{ end }}
     </div>
 

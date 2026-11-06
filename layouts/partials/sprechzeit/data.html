@@ -1,0 +1,20 @@
+{{- /* Everything the page needs, as one JSON string: the episode list with each
+       episode's numbers, plus the term list and aliases shared with the build. */ -}}
+{{- $episodes := slice -}}
+{{- range where site.RegularPages "Section" "post" -}}
+  {{- $mp3 := .Params.audioformats.mp3 -}}
+  {{- if and $mp3 (hasSuffix $mp3 ".mp3") -}}
+    {{- $number := "" -}}
+    {{- with findRE `#(\d+)` .Title 1 -}}{{- $number = replace (index . 0) "#" "" -}}{{- end -}}
+    {{- $episodes = $episodes | append (merge (dict
+        "title" .Title
+        "date" (.Date.Format "2006-01-02T15:04:05Z07:00")
+        "permalink" .Permalink
+        "categories" (.Params.categories | default "")
+        "episodeNumber" $number
+        "mp3" $mp3
+        "chapters" (.Params.chapters | default "")) (partialCached "sprechzeit/episode.html" $mp3 $mp3)) -}}
+  {{- end -}}
+{{- end -}}
+{{- $json := dict "episodes" $episodes "terms" site.Data.sprechzeit.terms "aliases" site.Data.sprechzeit.aliases | jsonify -}}
+{{- return $json -}}

@@ -4,15 +4,17 @@
      visitors. */}}
 {{ $css := resources.Get "css/sprechzeit.css" | minify | fingerprint }}
 {{ $js := resources.Get "js/sprechzeit.js" | minify | fingerprint }}
+{{/* All the numbers, worked out from the transcripts during the build. */}}
+{{ $data := resources.FromString "sprechzeit/data.json" (partial "sprechzeit/data.html" .) | fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
-<article class="post sprechzeit" id="sprechzeit" data-index="{{ "index.json" | relURL }}">
+<article class="post sprechzeit" id="sprechzeit" data-src="{{ $data.RelPermalink }}">
     <header>
         <h1>Sprechzeit</h1>
-        <p class="lead">Wer hat bei Binärgewitter wie lange geredet, wie schnell, und worüber? Alles hier wird im
-            Browser aus den Transkripten auf download.binaergewitter.de gerechnet.</p>
+        <p class="lead">Wer hat bei Binärgewitter wie lange geredet, wie schnell, und worüber? Alles hier stammt
+            aus den Transkripten auf download.binaergewitter.de.</p>
     </header>
     <noscript>
-        <p class="text-muted">Diese Seite rechnet im Browser und braucht dafür JavaScript. Die Transkripte selbst
+        <p class="text-muted">Diese Seite braucht JavaScript. Die Transkripte selbst
             liegen als Dateien neben dem Audio auf <a href="https://download.binaergewitter.de/">download.binaergewitter.de</a>.</p>
     </noscript>
 
@@ -24,15 +26,7 @@
     </ul>
 
     <div class="sz-status" id="sz-status" aria-live="polite">
-        <div class="progress" id="sz-progress-wrap">
-            <div class="progress-bar" id="sz-progress-bar" role="progressbar" style="width:0%"></div>
-        </div>
-        <p class="text-muted small" id="sz-progress">Lade Folgenliste …</p>
-        <p id="sz-start-wrap" hidden>
-            <button type="button" class="btn btn-primary btn-sm" id="sz-start">Transkripte laden (etwa 30 MB)</button>
-            <span class="text-muted small">Dein Browser meldet Datensparen, deshalb startet der Download nicht von
-                selbst.</span>
-        </p>
+        <p class="text-muted small" id="sz-progress">Lade Zahlen …</p>
     </div>
 
     <!-- Überblick -->
@@ -141,7 +135,7 @@
             <label class="checkbox-inline small"><input type="checkbox" id="se-prefix"> auch als Wortanfang</label>
         </form>
         <p class="text-muted small">Durchsucht den gesprochenen Text aller Folgen. Die erste Suche lädt die Texte
-            noch einmal (etwa 30 MB) und behält sie komprimiert im Browser. Ein Klick auf eine Fundstelle springt im
+            (etwa 30 MB) und behält sie komprimiert im Browser. Ein Klick auf eine Fundstelle springt im
             Player an die Stelle.</p>
         <p class="sz-big" id="se-head"></p>
         <div class="sz-rows" id="se-years"></div>
@@ -150,14 +144,13 @@
 
     <footer class="sz-method text-muted small">
         <h3>Wie gezählt wird</h3>
-        <p>Die Folgenliste kommt aus dem Suchindex dieser Seite. Zu jeder Folge lädt der Browser die
-            WebVTT-Untertitel neben dem Audio und summiert die Dauer der Untertitel pro Sprecher. Pausen, Musik und
+        <p>Beim Bauen der Seite werden zu jeder Folge die WebVTT-Untertitel neben dem Audio gelesen und
+            die Dauer der Untertitel pro Sprecher summiert. Pausen, Musik und
             Zuspieler zählen nicht. Kurze Stellen, die keiner Stimme sicher zuzuordnen waren, bleiben außen vor
             (<span id="sz-unknown">…</span>). Bei Folgen ab Herbst 2023 und einigen aus 2019 stammen die Namen aus der
             Auphonic-Produktion, sonst aus einem Stimmvergleich mit bekannten Stimmen. Wer nicht zur Stammbesetzung
             gehört, läuft in den Übersichten unter „Gäste“; die Namen stehen in der Gäste-Ansicht und in der Folge
-            selbst. Im Browser bleiben nur die Ergebnisse (ein paar MB), die Texte erst nach einer Suche.
-            Transkripte: CC BY-SA 3.0 DE, Binärgewitter-Team.</p>
+            selbst. Transkripte: CC BY-SA 3.0 DE, Binärgewitter-Team.</p>
     </footer>
 </article>
 <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>

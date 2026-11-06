@@ -1,11 +1,12 @@
-/* Sprechzeit: who spoke how long, computed in the browser.
+/* Sprechzeit: who spoke how long.
  *
- * Episode list: the site's own search index (/index.json). Per episode the
- * WebVTT transcript next to the audio on download.binaergewitter.de is
- * fetched (CORS is open there), cue durations are summed per <v Speaker>,
- * a few word counts are taken on the way, and only those results are kept
- * in IndexedDB (a few MB). The full text is fetched again, once, when
- * someone uses the search, and then stored gzip-compressed.
+ * The numbers come from the build: layouts/partials/sprechzeit/ reads every
+ * WebVTT transcript and writes them to one fingerprinted JSON file, which also
+ * carries the term list and speaker aliases from data/sprechzeit.yaml. Only the
+ * full-text search still needs the transcripts themselves; it fetches them from
+ * download.binaergewitter.de (CORS is open there) the first time someone
+ * searches and keeps them gzip-compressed in IndexedDB, keyed by a content hash
+ * from the build, so a corrected transcript replaces the stored copy.
  * Views are hash routes: #/ #/jahr/2016 #/folge/talk-388[/sec] #/person/Felix #/suche/docker */
 (function () {
   "use strict";
@@ -13,10 +14,6 @@
   var ROOT = document.getElementById("sprechzeit");
   if (!ROOT) return;
 
-  var CACHE_V = 4;             // bump when the stored per-episode record changes
-  var DB_VERSION = 2;
-  var LEGACY_CACHE = "sprechzeit-vtt-v1";
-  var PARALLEL = 24;           // measured: 8 -> ~4 s, 16-32 -> ~1.7 s for all 402 files
   var UNKNOWN = "Unbekannt";
   var GUESTS = "Gäste";
   // The regular voices. Everyone else is "Gäste" in every cross-episode view;
@@ -40,44 +37,9 @@
   var GUEST_SHADES = ["#8a8a8a", "#5f5f5f"];
   var MONTHS = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"];
 
-  /* Word counts over the full text. Patterns are written for how the ASR
-     spells things out loud ("Butter-FS", "free bsd"); each term is one
-     capture group so a single scan per episode attributes every hit. */
-  var TERM_GROUPS = {
-    fs: [
-      ["ZFS", "(?:open[ -]?)?zfs|zed[ -]?fs|zet[ -]?fs"],
-      ["btrfs", "btrfs|butter[ -]?fs|better[ -]?fs|b[äe]tter[ -]?fs|b-tree[ -]?fs"],
-      ["ext4", "ext[ -]?4|ext[ -]?vier"],
-      ["XFS", "xfs"],
-      ["NTFS", "ntfs"],
-      ["bcachefs", "bcache[ -]?fs|b-cache[ -]?fs"],
-    ],
-    bsd: [
-      ["FreeBSD", "free[ -]?bsd"],
-      ["OpenBSD", "open[ -]?bsd"],
-      ["NetBSD", "net[ -]?bsd"],
-      ["BSD ohne Zusatz", "bsd"],
-    ],
-    swear: [
-      ["Scheiße", "schei(?:ß|ss)\\p{L}*"],
-      ["Fuck", "fuck\\p{L}*"],
-      ["Shit", "shit"],
-      ["Bullshit", "bullshit"],
-      ["Kacke", "kack\\p{L}*"],
-      ["Arsch", "arsch\\p{L}*"],
-      ["Verdammt", "verdammt\\p{L}*"],
-      ["Ficken", "fick\\p{L}*|verfickt\\p{L}*"],
-      ["Hure", "hure\\p{L}*"],
-      ["Wichser", "wichs\\p{L}*"],
-      ["Pisse", "piss\\p{L}*"],
-      ["Depp", "depp\\p{L}*"],
-      ["Idiot", "idiot\\p{L}*"],
-      ["Dreck", "dreck\\p{L}*"],
-      ["Mist", "mist"],
-      ["Crap", "crap"],
-      ["Damn", "damn"],
-    ],
-  };
+  /* Filled from the JSON: { group: [[label, pattern], ...] } and { key: name }. */
+  var TERM_GROUPS = {};
+  var ALIASES = {};
 
   var $ = function (id) { return document.getElementById(id); };
   var nf = new Intl.NumberFormat("de-DE");
@@ -89,15 +51,12 @@
     byBase: {},
     failed: [],
     db: null,
-    wordRe: null,     // compiled TERM_GROUPS, null when the browser lacks lookbehind
     route: { view: "overview" },
     lastYear: null,
     lastPerson: null,
     renderedEp: null,
     chapterCache: {},
-    renderTimer: null,
     searchToken: 0,
-    loading: true,
   };
 
   /* ------------------------------------------------------------ helpers */
@@ -164,9 +123,7 @@
     var n = (raw || "").replace(/_/g, " ").replace(/\s+/g, " ").trim();
     if (!n) return UNKNOWN;
     var k = n.toLowerCase().replace(/\s/g, "");
-    var alias = { felix: "Felix", felix2: "Felix", ingo: "Ingo", l33tname: "l33tname", markus: "Markus", madmas: "Markus",
-      sebastian: "Sebastian", pfleidi: "Pfleidi", marc: "Marc", mat: "Mat", unknown: UNKNOWN, unbekannt: UNKNOWN, "null": UNKNOWN };
-    if (alias[k]) return alias[k];
+    if (ALIASES[k]) return ALIASES[k];
     var g = /^gast(\d+)$/.exec(k);
     if (g) return "Gast " + parseInt(g[1], 10);
     return n;
@@ -203,8 +160,7 @@
     var seen = {};
     var eps = [];
     index.forEach(function (e) {
-      var mp3 = e.audioformats && e.audioformats.mp3;
-      if (!mp3 || typeof mp3 !== "string" || !/\.mp3$/i.test(mp3)) return;
+      var mp3 = e.mp3;
       var base = mp3.replace(/^.*\//, "").replace(/\.mp3$/i, "");
       if (seen[base]) return;
       seen[base] = 1;
@@ -225,10 +181,10 @@
         mp3: mp3,
         vtt: stem + ".vtt",
         chaptersUrl: e.chapters || stem + ".chapters.txt",
-        data: null,    // { dur, who: [[name, sec, words, questions]], segs: [[whoIdx, start, dur]], gap: [len, at] }
-        words: null,   // { group: { counts: [], total, bySpeaker: {name: n} } }
-        lm: null,      // Last-Modified of the VTT when it was read
-        error: null,
+        data: e.data || null,    // { dur, who: [[name, sec, words, questions]], segs: [[whoIdx, start, dur]], gap: [len, at] }
+        words: e.words || null,  // { group: { counts: [], total, bySpeaker: {name: n} } }
+        hash: e.hash || null,    // content hash of the VTT the numbers were made from
+        error: e.data ? null : "kein Transkript",
       };
       ep.auphonic = kind === "talk" && ep.num != null && (ep.num >= 324 || AUPHONIC[ep.num] === 1);
       eps.push(ep);
@@ -237,63 +193,12 @@
     return eps;
   }
 
-  /* ------------------------------------------------------------ VTT parsing */
+  /* ------------------------------------------------------------ parsing */
 
   function parseTs(s) {
     var p = s.trim().split(":");
     if (p.length === 2) p.unshift("0");
     return (+p[0]) * 3600 + (+p[1]) * 60 + parseFloat(p[2]);
-  }
-
-  function parseVtt(text) {
-    var lines = text.split(/\r?\n/);
-    var stats = {};
-    var runs = [];
-    var end = 0, prevEnd = -1, gap = [0, 0];
-    var i = 0;
-    while (i < lines.length) {
-      var line = lines[i];
-      var arrow = line.indexOf("-->");
-      if (arrow < 0) { i++; continue; }
-      var a = parseTs(line.slice(0, arrow));
-      var b = parseTs(line.slice(arrow + 3).trim().split(/\s+/)[0]);
-      i++;
-      var body = [];
-      while (i < lines.length && lines[i].trim() !== "") { body.push(lines[i]); i++; }
-      if (isNaN(a) || isNaN(b)) continue;
-      if (b < a) { var t = a; a = b; b = t; }
-      var joined = body.join(" ");
-      var name = UNKNOWN;
-      var vm = /^\s*<v\s+([^>]*)>/.exec(joined);
-      if (vm) { name = canon(vm[1]); joined = joined.slice(vm[0].length); }
-      joined = joined.replace(/<[^>]+>/g, "").trim();
-      var st = stats[name] || (stats[name] = { sec: 0, words: 0, q: 0 });
-      st.sec += b - a;
-      st.words += joined ? joined.split(/\s+/).length : 0;
-      st.q += (joined.match(/\?/g) || []).length;
-      if (prevEnd >= 0 && a - prevEnd > gap[0]) gap = [a - prevEnd, prevEnd];
-      if (b > prevEnd) prevEnd = b;
-      if (b > end) end = b;
-      var last = runs[runs.length - 1];
-      if (last && last[0] === name && a - last[2] < 1.0) { if (b > last[2]) last[2] = b; }
-      else runs.push([name, a, b]);
-    }
-    var names = Object.keys(stats).filter(function (n) { return stats[n].sec >= 1; });
-    names.sort(function (x, y) { return stats[y].sec - stats[x].sec || x.localeCompare(y); });
-    var idx = {};
-    var who = names.map(function (n, k) { idx[n] = k; return [n, Math.round(stats[n].sec), stats[n].words, stats[n].q]; });
-    var segs = [];
-    runs.forEach(function (r) {
-      if (!(r[0] in idx)) return;
-      var s = Math.round(r[1]), d = Math.round(r[2] - r[1]);
-      if (d < 1) return;
-      var prev = segs[segs.length - 1];
-      if (prev && prev[0] === idx[r[0]] && s <= prev[1] + prev[2] + 1) {
-        var e2 = Math.max(prev[1] + prev[2], s + d);
-        prev[2] = e2 - prev[1];
-      } else segs.push([idx[r[0]], s, d]);
-    });
-    return { dur: Math.round(end), who: who, segs: segs, gap: [Math.round(gap[0]), Math.round(gap[1])] };
   }
 
   function parseChapters(text) {
@@ -340,48 +245,11 @@
 
   /* ------------------------------------------------------------ word counts */
 
-  function compileWordRegexes() {
-    try {
-      var out = {};
-      Object.keys(TERM_GROUPS).forEach(function (g) {
-        out[g] = new RegExp("(?<![\\p{L}])(?:" + TERM_GROUPS[g].map(function (t) { return "(" + t[1] + ")"; }).join("|") + ")(?![\\p{L}])", "giu");
-      });
-      return out;
-    } catch (e) { return null; }
-  }
   /* blank the timing lines and the <v> tags so a search cannot hit them; same length as text */
   function searchable(text) {
     return text
       .replace(/^(.*-->.*)$/gm, function (l) { return l.replace(/[^\s>-]/g, " "); })
       .replace(/<v [^>]*>/g, function (m) { return " ".repeat(m.length); });
-  }
-  function speakerAt(text, idx) {
-    var arrow = text.lastIndexOf("-->", idx);
-    if (arrow < 0) return UNKNOWN;
-    var tag = text.indexOf("<v ", arrow);
-    if (tag < 0 || tag > idx) return UNKNOWN;
-    return canon(text.slice(tag + 3, text.indexOf(">", tag)));
-  }
-  /* counts for one episode; swear words are attributed to the speaker of the cue */
-  function scanText(text, regexes) {
-    var hay = searchable(text);
-    var out = {};
-    Object.keys(regexes).forEach(function (g) {
-      var re = regexes[g];
-      re.lastIndex = 0;
-      var counts = [], bySpeaker = {}, total = 0, m;
-      while ((m = re.exec(hay))) {
-        for (var i = 1; i < m.length; i++) if (m[i] !== undefined) { counts[i - 1] = (counts[i - 1] || 0) + 1; break; }
-        total++;
-        if (g === "swear") {
-          var sp = speakerAt(text, m.index);
-          bySpeaker[sp] = (bySpeaker[sp] || 0) + 1;
-        }
-        if (m.index === re.lastIndex) re.lastIndex++;
-      }
-      out[g] = { counts: counts, total: total, bySpeaker: bySpeaker };
-    });
-    return out;
   }
   /* totals over a list of episodes, from the per-episode counts */
   function wordTotals(list) {
@@ -417,35 +285,12 @@
   function openDb() {
     return new Promise(function (resolve) {
       try {
-        var req = indexedDB.open("sprechzeit", DB_VERSION);
-        req.onupgradeneeded = function (ev) {
-          var db = req.result;
-          if (!db.objectStoreNames.contains("eps")) db.createObjectStore("eps");
-          else if (ev.oldVersion < 2) req.transaction.objectStore("eps").clear(); // old record format
-          if (!db.objectStoreNames.contains("texts")) db.createObjectStore("texts");
-        };
+        var req = indexedDB.open("sprechzeit-texts", 1);
+        req.onupgradeneeded = function () { req.result.createObjectStore("texts"); };
         req.onsuccess = function () { resolve(req.result); };
         req.onerror = function () { resolve(null); };
         req.onblocked = function () { resolve(null); };
       } catch (e) { resolve(null); }
-    });
-  }
-  function dbReadAll(db) {
-    return new Promise(function (resolve) {
-      if (!db) return resolve({});
-      try {
-        var out = {};
-        var tx = db.transaction("eps", "readonly");
-        var cur = tx.objectStore("eps").openCursor();
-        cur.onsuccess = function () {
-          var c = cur.result;
-          if (!c) return;
-          if (c.value && c.value.v === CACHE_V && c.value.data) out[c.key] = c.value;
-          c.continue();
-        };
-        tx.oncomplete = function () { resolve(out); };
-        tx.onerror = function () { resolve(out); };
-      } catch (e) { resolve({}); }
     });
   }
   function dbPut(db, store, key, value) {
@@ -462,18 +307,6 @@
       } catch (e) { resolve(null); }
     });
   }
-  function dbClear(db) {
-    return new Promise(function (resolve) {
-      if (!db) return resolve();
-      try {
-        var tx = db.transaction(["eps", "texts"], "readwrite");
-        tx.objectStore("eps").clear();
-        tx.objectStore("texts").clear();
-        tx.oncomplete = function () { resolve(); };
-        tx.onerror = function () { resolve(); };
-      } catch (e) { resolve(); }
-    });
-  }
   /* full texts: stored gzip-compressed, only after someone searched */
   var canCompress = typeof CompressionStream === "function" && typeof DecompressionStream === "function";
   function deflate(text) {
@@ -487,103 +320,37 @@
   function fetchVtt(ep) {
     return fetch(ep.vtt).then(function (r) {
       if (!r.ok) throw new Error("HTTP " + r.status);
-      var lm = r.headers.get("last-modified"); // CORS-safelisted, readable cross-origin
-      return r.text().then(function (text) { return { text: text, lm: lm }; });
+      return r.text();
     });
   }
   function textOf(ep) {
     return dbGet(S.db, "texts", ep.base).then(function (rec) {
-      if (rec && rec.blob && canCompress) return inflate(rec.blob).catch(function () { return null; });
+      if (rec && rec.hash === ep.hash && rec.blob && canCompress) return inflate(rec.blob).catch(function () { return null; });
       return null;
     }).then(function (text) {
       if (text != null) return text;
-      return fetchVtt(ep).then(function (res) {
-        deflate(res.text).then(function (blob) { if (blob) dbPut(S.db, "texts", ep.base, { lm: res.lm, blob: blob }); });
-        return res.text;
+      return fetchVtt(ep).then(function (fetched) {
+        deflate(fetched).then(function (blob) { if (blob) dbPut(S.db, "texts", ep.base, { hash: ep.hash, blob: blob }); });
+        return fetched;
       });
     });
   }
 
-  /* ------------------------------------------------------------ loading */
+  /* ------------------------------------------------------------ status */
 
-  function setProgress(done, total) {
-    $("sz-progress-bar").style.width = (total ? Math.round((done / total) * 100) : 0) + "%";
-    if (done < total) {
-      $("sz-progress").textContent = "Lade Transkripte … " + nf.format(done) + " von " + nf.format(total);
-      return;
-    }
-    var wasLoading = S.loading;
-    S.loading = false;
-    $("sz-progress-wrap").hidden = true;
+  function showStatus() {
     var status = $("sz-status");
-    if (!S.failed.length) status.hidden = true;
-    else {
-      status.hidden = false;
-      $("sz-progress").textContent = nf.format(S.failed.length) + " Folgen ohne lesbares Transkript:";
-      var old = status.querySelector("ul");
-      if (old) old.remove();
-      var ul = el("ul", { class: "small text-muted" });
-      S.failed.forEach(function (ep) {
-        var li = el("li");
-        li.appendChild(el("a", { href: ep.href }, ep.label + " · " + ep.title));
-        li.appendChild(document.createTextNode(" (" + ep.error + ")"));
-        ul.appendChild(li);
-      });
-      status.appendChild(ul);
-    }
-    // a search that started while transcripts were still arriving saw only part of them
-    if (wasLoading && S.route.view === "search" && S.route.q) runSearch(S.route.q, $("se-prefix").checked);
-  }
-
-  function loadEpisode(ep) {
-    return fetchVtt(ep).then(function (res) {
-      if (res.text.indexOf("WEBVTT") < 0) throw new Error("kein WebVTT");
-      ep.data = parseVtt(res.text);
-      ep.words = S.wordRe ? scanText(res.text, S.wordRe) : null;
-      ep.lm = res.lm;
-      dbPut(S.db, "eps", ep.base, { v: CACHE_V, lm: ep.lm, data: ep.data, words: ep.words });
-    }).catch(function (err) {
-      ep.error = err.message || String(err);
-      S.failed.push(ep);
+    S.failed = S.episodes.filter(function (ep) { return ep.error; });
+    status.hidden = !S.failed.length;
+    if (!S.failed.length) return;
+    $("sz-progress").textContent = nf.format(S.failed.length) + " Folgen ohne lesbares Transkript:";
+    var ul = el("ul", { class: "small text-muted" });
+    S.failed.forEach(function (ep) {
+      var li = el("li");
+      li.appendChild(el("a", { href: ep.href }, ep.label + " · " + ep.title));
+      ul.appendChild(li);
     });
-  }
-
-  function loadAll() {
-    var queue = S.episodes.filter(function (ep) { return !ep.data; });
-    var total = S.episodes.length;
-    var done = total - queue.length;
-    setProgress(done, total);
-    if (!queue.length) { scheduleRender(true); return Promise.resolve(); }
-    // the open episode first, then newest first
-    if (S.route.view === "episode" && S.bySlug[S.route.slug]) {
-      var cur = S.bySlug[S.route.slug];
-      var at = queue.indexOf(cur);
-      if (at > 0) { queue.splice(at, 1); queue.unshift(cur); }
-    }
-    return new Promise(function (resolve) {
-      var active = 0;
-      function next() {
-        if (!queue.length && active === 0) { setProgress(total, total); scheduleRender(true); resolve(); return; }
-        while (active < PARALLEL && queue.length) {
-          var ep = queue.shift();
-          active++;
-          loadEpisode(ep).then(function () {
-            active--;
-            done++;
-            setProgress(done, total);
-            scheduleRender(false);
-            next();
-          });
-        }
-      }
-      next();
-    });
-  }
-
-  function scheduleRender(now) {
-    if (now) { clearTimeout(S.renderTimer); S.renderTimer = null; renderView(); return; }
-    if (S.renderTimer) return;
-    S.renderTimer = setTimeout(function () { S.renderTimer = null; renderView(); }, 800);
+    status.appendChild(ul);
   }
 
   /* ------------------------------------------------------------ aggregation */
@@ -688,7 +455,7 @@
       namedWho(ep).forEach(function (w) { parts[w[0]] = w[1]; });
       how.appendChild(stack(parts, null, true));
       how.appendChild(document.createTextNode(clock(ep.data.dur) + " · " + hoursLong(speechOf(ep)) + " Sprache"));
-    } else how.appendChild(document.createTextNode(ep.error ? "–" : "lädt …"));
+    } else how.appendChild(document.createTextNode("–"));
     a.appendChild(how);
     return a;
   }
@@ -760,7 +527,7 @@
     var list = withData(S.episodes);
     var agg = aggregate(list);
     var head = $("ov-totals");
-    if (!agg.n) { head.textContent = S.loading ? "Die ersten Folgen werden gerade ausgewertet …" : "Keine Transkripte gefunden."; }
+    if (!agg.n) { head.textContent = "Keine Transkripte gefunden."; }
     else {
       var ys = years();
       var top = agg.names[0], second = agg.names[1];
@@ -860,7 +627,6 @@
   }
 
   function renderTextRecords(add, link, agg, list) {
-    if (!S.wordRe) { add("Wörter", "Dieser Browser kann die Wortzählung nicht ausführen."); return; }
     var ts = wordTotals(list);
     if (!ts.n) return;
     var epLink = function (top) { return top ? link(top.ep) + " (" + nf.format(top.count) + " Mal)" : ""; };
@@ -917,7 +683,7 @@
     var list = S.episodes.filter(function (ep) { return yearOf(ep) === year; });
     var agg = aggregate(list);
     var head = $("yr-head");
-    if (!agg.n) head.textContent = year + ": " + nf.format(list.length) + " Folgen" + (S.loading ? ", Transkripte laden noch …" : ".");
+    if (!agg.n) head.textContent = year + ": " + nf.format(list.length) + " Folgen" + ".";
     else {
       var kinds = {};
       list.forEach(function (ep) { kinds[ep.kind] = (kinds[ep.kind] || 0) + 1; });
@@ -960,7 +726,7 @@
     h2.appendChild(small);
     var meta = $("ep-meta");
     if (!ep.data) {
-      meta.textContent = ep.error ? "Für diese Folge liegt kein lesbares Transkript vor (" + ep.error + ")." : "Transkript lädt noch …";
+      meta.textContent = "Für diese Folge liegt kein lesbares Transkript vor.";
       $("ep-lanes").textContent = ""; $("ep-shares").textContent = ""; $("ep-chapters").textContent = ""; $("ep-facts").textContent = "";
       S.renderedEp = ep.error ? ep : null;
       return;
@@ -1102,7 +868,7 @@
     var namesSec = $("pe-names-sec");
     namesSec.hidden = name !== GUESTS;
     if (!mine.length) {
-      head.textContent = S.loading ? "Transkripte laden noch …" : name + " kommt in keinem Transkript vor.";
+      head.textContent = name + " kommt in keinem Transkript vor.";
       $("pe-years").textContent = ""; $("pe-stats").textContent = ""; $("pe-top").textContent = ""; $("pe-names").textContent = "";
       return;
     }
@@ -1171,7 +937,7 @@
     });
     if (mono) add("Längster Redeanteil am Stück", hoursLong(mono.run[2]) + (name === GUESTS ? " (" + esc(mono.who) + ")" : "") + ' in <a href="' + epHash(mono.ep, mono.run[1]) + '">' + esc(mono.ep.label) + " · " + esc(mono.ep.title) + "</a> ab " + clock(mono.run[1]) + ".");
     add("Eröffnet die Sendung", nf.format(opened) + " Mal.");
-    if (S.wordRe) add("Schimpfwörter", nf.format(swears) + " Mal, " + nf1.format(swears / Math.max(1, sec / 3600)) + " pro Stunde Sprechzeit.");
+    add("Schimpfwörter", nf.format(swears) + " Mal, " + nf1.format(swears / Math.max(1, sec / 3600)) + " pro Stunde Sprechzeit.");
     var coNames = Object.keys(co).sort(function (a, b) { return co[b] - co[a]; }).slice(0, 5);
     if (coNames.length) add("Am häufigsten zusammen mit", coNames.map(function (n) { return '<a href="' + personHash(n) + '">' + esc(n) + "</a> (" + nf.format(co[n]) + ")"; }).join(", ") + ".");
 
@@ -1267,9 +1033,7 @@
     function finish() {
       if (token !== S.searchToken) return;
       found.sort(function (a, b) { return b.count - a.count || (a.ep.date < b.ep.date ? 1 : -1); });
-      head.textContent = total ? nf.format(total) + (total === 1 ? " Erwähnung" : " Erwähnungen") + " von „" + shown + "“ in " + nf.format(found.length) + " von " + nf.format(list.length) + " Folgen" +
-        (S.loading ? " (Transkripte laden noch, die Suche läuft danach noch einmal)" : "") + "."
-        : S.loading ? "Noch nichts gefunden, die Transkripte laden noch. Die Suche läuft danach noch einmal."
+      head.textContent = total ? nf.format(total) + (total === 1 ? " Erwähnung" : " Erwähnungen") + " von „" + shown + "“ in " + nf.format(found.length) + " von " + nf.format(list.length) + " Folgen."
         : "„" + shown + "“ kommt in keiner Folge vor.";
       yearsBox.textContent = "";
       var max = 1;
@@ -1349,47 +1113,25 @@
       if (q) runSearch(q, $("se-prefix").checked);
     });
     if (window.matchMedia) matchMedia("(prefers-color-scheme: dark)").addEventListener("change", function () { renderView(); });
-    var clear = el("button", { type: "button", class: "btn btn-link btn-xs" }, "Zwischenspeicher leeren und neu laden");
-    clear.addEventListener("click", function () { dbClear(S.db).then(function () { location.reload(); }); });
-    ROOT.querySelector(".sz-method").appendChild(clear);
   }
 
   function boot() {
     wire();
-    S.wordRe = compileWordRegexes();
-    if (window.caches) caches.delete(LEGACY_CACHE).catch(function () {}); // ~90 MB from the first version
-    var indexUrl = ROOT.getAttribute("data-index") || "/index.json";
-    fetch(indexUrl).then(function (r) {
-      if (!r.ok) throw new Error("Suchindex nicht erreichbar (HTTP " + r.status + ")");
+    fetch(ROOT.getAttribute("data-src")).then(function (r) {
+      if (!r.ok) throw new Error("HTTP " + r.status);
       return r.json();
-    }).then(function (index) {
-      S.episodes = buildEpisodes(index);
+    }).then(function (json) {
+      TERM_GROUPS = json.terms;
+      ALIASES = json.aliases;
+      S.episodes = buildEpisodes(json.episodes);
       S.episodes.forEach(function (ep) { S.bySlug[ep.slug] = ep; S.byBase[ep.base] = ep; });
-      $("sz-progress").textContent = nf.format(S.episodes.length) + " Folgen gefunden.";
       return openDb();
     }).then(function (db) {
       S.db = db;
-      return dbReadAll(db);
-    }).then(function (cached) {
-      var fromCache = 0;
-      S.episodes.forEach(function (ep) {
-        var rec = cached[ep.base];
-        if (rec) { ep.data = rec.data; ep.words = rec.words || null; ep.lm = rec.lm || null; fromCache++; }
-      });
+      showStatus();
       onRoute();
-      var missing = S.episodes.length - fromCache;
-      var saveData = navigator.connection && navigator.connection.saveData;
-      if (missing && saveData) {
-        setProgress(fromCache, S.episodes.length);
-        $("sz-start-wrap").hidden = false;
-        $("sz-start").addEventListener("click", function () {
-          $("sz-start-wrap").hidden = true;
-          loadAll();
-        }, { once: true });
-      } else loadAll();
     }).catch(function (err) {
-      $("sz-progress-wrap").hidden = true;
-      $("sz-progress").textContent = "Die Seite konnte die Folgenliste nicht laden: " + (err.message || err);
+      $("sz-progress").textContent = "Die Zahlen konnten nicht geladen werden: " + (err.message || err);
     });
   }
 

@@ -1,0 +1,122 @@
+{{- /* One episode's mp3 URL -> dict data/words/hash from the WebVTT next to it, or
+       an empty dict if there is no readable transcript. Always call this through
+       partialCached with the mp3 URL as key: a full build runs it over ~1M cues.
+       layouts/post/single.html does so to get the work spread over all cores. */ -}}
+{{- $url := replaceRE `\.mp3$` ".vtt" . -}}
+{{- $out := dict -}}
+{{- $text := "" -}}
+{{- with try (resources.GetRemote $url) -}}
+  {{- with .Err -}}
+    {{- warnf "sprechzeit: %s: %s" $url . -}}
+  {{- else with .Value -}}
+    {{- $text = .Content -}}
+  {{- end -}}
+{{- end -}}
+{{- if strings.Contains $text "WEBVTT" -}}
+  {{- $names := dict "" "Unbekannt" -}}
+  {{- range findRE `(?m)^<v [^>]*` $text | uniq -}}
+    {{- $raw := strings.TrimPrefix "<v " . -}}
+    {{- $names = merge $names (dict $raw (partialCached "sprechzeit/canon.html" $raw $raw)) -}}
+  {{- end -}}
+
+  {{- $stats := newScratch -}}
+  {{- $runs := slice -}}
+  {{- $rn := "" -}}{{- $ra := 0.0 -}}{{- $rb := -1.0 -}}{{- $open := false -}}
+  {{- $end := 0.0 -}}{{- $prevEnd := -1.0 -}}{{- $gapLen := 0.0 -}}{{- $gapAt := 0.0 -}}
+  {{- range findRESubmatch `(?m)^(\d+):(\d+):([\d.]+) --> (\d+):(\d+):([\d.]+)[^\n]*\n(?:<v ([^>]*)>)?((?:[^\n]+\n?)*)` $text -}}
+    {{- $a := add (mul (float (index . 1)) 3600) (mul (float (index . 2)) 60) (float (index . 3)) -}}
+    {{- $b := add (mul (float (index . 4)) 3600) (mul (float (index . 5)) 60) (float (index . 6)) -}}
+    {{- if lt $b $a -}}{{- $t := $a -}}{{- $a = $b -}}{{- $b = $t -}}{{- end -}}
+    {{- $n := index $names (index . 7) -}}
+    {{- $body := index . 8 -}}
+    {{- $stats.Add (print "s" $n) (sub $b $a) -}}
+    {{- $stats.Add (print "w" $n) (countwords $body) -}}
+    {{- $stats.Add (print "q" $n) (strings.Count "?" $body) -}}
+    {{- if and (ge $prevEnd 0.0) (gt (sub $a $prevEnd) $gapLen) -}}
+      {{- $gapLen = sub $a $prevEnd -}}{{- $gapAt = $prevEnd -}}
+    {{- end -}}
+    {{- if gt $b $prevEnd -}}{{- $prevEnd = $b -}}{{- end -}}
+    {{- if gt $b $end -}}{{- $end = $b -}}{{- end -}}
+    {{- /* a run is one speaker with less than a second of silence inside */ -}}
+    {{- if and $open (eq $rn $n) (lt (sub $a $rb) 1.0) -}}
+      {{- if gt $b $rb -}}{{- $rb = $b -}}{{- end -}}
+    {{- else -}}
+      {{- if $open -}}{{- $runs = $runs | append (dict "n" $rn "a" $ra "b" $rb) -}}{{- end -}}
+      {{- $rn = $n -}}{{- $ra = $a -}}{{- $rb = $b -}}{{- $open = true -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if $open -}}{{- $runs = $runs | append (dict "n" $rn "a" $ra "b" $rb) -}}{{- end -}}
+
+  {{- /* speakers with at least a second, most speaking time first */ -}}
+  {{- $people := slice -}}
+  {{- range $k, $v := $stats.Values -}}
+    {{- if and (hasPrefix $k "s") (ge $v 1.0) -}}
+      {{- $n := strings.TrimPrefix "s" $k -}}
+      {{- $people = $people | append (dict "n" $n "sec" $v "w" ($stats.Get (print "w" $n)) "q" ($stats.Get (print "q" $n))) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $idx := dict -}}
+  {{- /* [[name, sec, words, questions]]: append flattens nested slices, so the
+         tuples are collected as JSON text */ -}}
+  {{- $who := slice -}}
+  {{- range $i, $p := sort $people "sec" "desc" -}}
+    {{- $idx = merge $idx (dict $p.n (add $i 1)) -}}
+    {{- $who = $who | append (slice $p.n (math.Round $p.sec) $p.w $p.q | jsonify) -}}
+  {{- end -}}
+
+  {{- /* who-spoke-when, rounded to seconds; touching runs of a speaker merge */ -}}
+  {{- $segs := slice -}}
+  {{- $pw := 0 -}}{{- $ps := 0.0 -}}{{- $pd := 0.0 -}}
+  {{- range $runs -}}
+    {{- $w := index $idx .n -}}
+    {{- $seg := math.Round .a -}}
+    {{- $dur := math.Round (sub .b .a) -}}
+    {{- if and $w (ge $dur 1.0) -}}
+      {{- if and (eq $pw $w) (le $seg (add $ps $pd 1.0)) -}}
+        {{- $pd = sub (math.Max (add $ps $pd) (add $seg $dur)) $ps -}}
+      {{- else -}}
+        {{- if $pw -}}{{- $segs = $segs | append (printf "[%d,%.0f,%.0f]" (sub $pw 1) $ps $pd) -}}{{- end -}}
+        {{- $pw = $w -}}{{- $ps = $seg -}}{{- $pd = $dur -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if $pw -}}{{- $segs = $segs | append (printf "[%d,%.0f,%.0f]" (sub $pw 1) $ps $pd) -}}{{- end -}}
+
+  {{- /* term counts, one scan of the raw text per group */ -}}
+  {{- $words := dict -}}
+  {{- range $group, $terms := site.Data.sprechzeit.terms -}}
+    {{- $speakers := eq $group "swear" -}}
+    {{- $off := cond $speakers 2 1 -}}
+    {{- $re := partialCached "sprechzeit/term-regex.html" (dict "group" $group "speakers" $speakers) $group -}}
+    {{- $tally := newScratch -}}
+    {{- $total := 0 -}}
+    {{- $cur := "Unbekannt" -}}
+    {{- range findRESubmatch $re $text -}}
+      {{- if and $speakers (strings.Contains (index . 0) "-->") -}}
+        {{- $cur = index $names (index . 1) -}}
+      {{- else if not (index . (add $off (len $terms))) -}}
+        {{- $m := . -}}
+        {{- $total = add $total 1 -}}
+        {{- range $i, $_ := $terms -}}
+          {{- if index $m (add $off $i) -}}{{- $tally.Add (string $i) 1 -}}{{- break -}}{{- end -}}
+        {{- end -}}
+        {{- if $speakers -}}{{- $tally.Add (print "by:" $cur) 1 -}}{{- end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $counts := slice -}}
+    {{- range $i, $_ := $terms -}}{{- $counts = $counts | append (default 0 ($tally.Get (string $i))) -}}{{- end -}}
+    {{- $by := dict -}}
+    {{- range $k, $v := $tally.Values -}}
+      {{- if hasPrefix $k "by:" -}}{{- $by = merge $by (dict (strings.TrimPrefix "by:" $k) $v) -}}{{- end -}}
+    {{- end -}}
+    {{- $words = merge $words (dict $group (dict "counts" $counts "total" $total "bySpeaker" $by)) -}}
+  {{- end -}}
+
+  {{- $out = dict
+      "hash" (substr (md5 $text) 0 10)
+      "words" $words
+      "data" (merge
+        (dict "dur" (math.Round $end) "gap" (slice (math.Round $gapLen) (math.Round $gapAt)))
+        (printf `{"who":[%s],"segs":[%s]}` (delimit $who ",") (delimit $segs ",") | transform.Unmarshal)) -}}
+{{- end -}}
+{{- return $out -}}
