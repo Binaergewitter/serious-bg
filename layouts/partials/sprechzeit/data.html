@@ -1,11 +1,20 @@
-{{- /* Everything the page needs, as one JSON string: the episode list with each
-       episode's numbers, plus the term list and aliases shared with the build. */ -}}
+{{- /* What the page needs, as dict "json" and "words":
+       json: the episode list with each episode's numbers, plus the term list and
+             aliases shared with the build.
+       words: the search index, one "word id id ..." line per word, where an id is
+              a position in the episode list. The search uses it to fetch only
+              the transcripts that can match. */ -}}
 {{- $episodes := slice -}}
+{{- $postings := newScratch -}}
 {{- range where site.RegularPages "Section" "post" -}}
   {{- $mp3 := .Params.audioformats.mp3 -}}
   {{- if and $mp3 (hasSuffix $mp3 ".mp3") -}}
     {{- $number := "" -}}
     {{- with findRE `#(\d+)` .Title 1 -}}{{- $number = replace (index . 0) "#" "" -}}{{- end -}}
+    {{- $numbers := partialCached "sprechzeit/episode.html" $mp3 $mp3 -}}
+    {{- $id := len $episodes -}}
+    {{- $idText := printf " %d" $id -}}
+    {{- range $word, $_ := $numbers.tokens -}}{{- $postings.Add $word $idText -}}{{- end -}}
     {{- $episodes = $episodes | append (merge (dict
         "title" .Title
         "date" (.Date.Format "2006-01-02T15:04:05Z07:00")
@@ -13,8 +22,9 @@
         "categories" (.Params.categories | default "")
         "episodeNumber" $number
         "mp3" $mp3
-        "chapters" (.Params.chapters | default "")) (partialCached "sprechzeit/episode.html" $mp3 $mp3)) -}}
+        "chapters" (.Params.chapters | default "")) (dict "hash" $numbers.hash "data" $numbers.data "words" $numbers.words)) -}}
   {{- end -}}
 {{- end -}}
 {{- $json := dict "episodes" $episodes "terms" site.Data.sprechzeit.terms "aliases" site.Data.sprechzeit.aliases | jsonify -}}
-{{- return $json -}}
+{{- /* written out by a partial: building 146k lines with append is quadratic */ -}}
+{{- return dict "json" $json "words" (partial "sprechzeit/word-lines.html" $postings.Values) -}}

@@ -707,6 +707,18 @@ function testSprechzeit() {
     assert(withData.length >= data.episodes.length * 0.95, `Sprechzeit has numbers for ${withData.length} of ${data.episodes.length} episodes`);
     assert(withData.every(e => e.hash && e.words.swear && e.data.who.length && e.data.segs.length), 'Sprechzeit episodes are complete');
     assert(withData.every(e => e.data.segs.every(s => s[0] < e.data.who.length)), 'Sprechzeit segments point at a speaker');
+
+    const wordsSrc = /data-words="?([^"\s>]+)/.exec(html);
+    assert(wordsSrc && /^\/sprechzeit\/words\.[0-9a-f]{16,}\.txt$/.test(wordsSrc[1]), 'Sprechzeit page references fingerprinted word index');
+    if (!wordsSrc) return;
+    const words = new Map(fs.readFileSync(path.join(PUBLIC_DIR, wordsSrc[1]), 'utf8').trim().split('\n').map(l => {
+        const sp = l.indexOf(' ');
+        return [l.slice(0, sp), l.slice(sp + 1).split(' ').map(Number)];
+    }));
+    assert(words.size > 1000, `Sprechzeit word index has ${words.size} words`);
+    const common = (words.get('und') || []).length;
+    assert(common >= withData.length * 0.9, `Sprechzeit word index finds a common word in ${common} episodes`);
+    assert([...words.values()].every(ids => ids.every(id => id < data.episodes.length)), 'Sprechzeit word index points at existing episodes');
 }
 
 async function runTests() {

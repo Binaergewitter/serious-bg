@@ -10,6 +10,9 @@ RUN hugo --minify
 # Compress the search index for faster loading
 RUN gzip -k -9 public/index.json
 
+# Same for the Sprechzeit data and search index
+RUN gzip -k -9 public/sprechzeit/data.*.json public/sprechzeit/words.*.txt
+
 # Final stage
 FROM nginx:alpine
 

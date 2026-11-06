@@ -3,10 +3,11 @@
  * The numbers come from the build: layouts/partials/sprechzeit/ reads every
  * WebVTT transcript and writes them to one fingerprinted JSON file, which also
  * carries the term list and speaker aliases from data/sprechzeit.yaml. Only the
- * full-text search still needs the transcripts themselves; it fetches them from
- * download.binaergewitter.de (CORS is open there) the first time someone
- * searches and keeps them gzip-compressed in IndexedDB, keyed by a content hash
- * from the build, so a corrected transcript replaces the stored copy.
+ * full-text search still needs the transcripts themselves. A word index from
+ * the build says which episodes can match; those are fetched from
+ * download.binaergewitter.de (CORS is open there) and kept gzip-compressed in
+ * IndexedDB, keyed by a content hash from the build, so a corrected transcript
+ * replaces the stored copy.
  * Views are hash routes: #/ #/jahr/2016 #/folge/talk-388[/sec] #/person/Felix #/suche/docker */
 (function () {
   "use strict";
@@ -57,6 +58,7 @@
     renderedEp: null,
     chapterCache: {},
     searchToken: 0,
+    wordIndex: null,  // promise, see loadWords()
   };
 
   /* ------------------------------------------------------------ helpers */
@@ -159,7 +161,7 @@
   function buildEpisodes(index) {
     var seen = {};
     var eps = [];
-    index.forEach(function (e) {
+    index.forEach(function (e, id) {
       var mp3 = e.mp3;
       var base = mp3.replace(/^.*\//, "").replace(/\.mp3$/i, "");
       if (seen[base]) return;
@@ -169,6 +171,7 @@
       var label = labelOf(base, kind);
       var m = /^(Talk|Westcoast|Spezial) (\d+)$/.exec(label);
       var ep = {
+        id: id,        // position in the build's list, used by the word index
         base: base,
         kind: kind,
         label: label,
@@ -984,13 +987,54 @@
      spelling variants, so the search agrees with the numbers under Rekorde. */
   function knownTerm(q) {
     var k = q.trim().toLowerCase();
-    var hit = null;
+    var hit = null, hitGroup = null, hitTerm = 0;
     Object.keys(TERM_GROUPS).forEach(function (g) {
-      TERM_GROUPS[g].forEach(function (t) { if (t[0].toLowerCase() === k || t[0].split(" ")[0].toLowerCase() === k) hit = t; });
+      TERM_GROUPS[g].forEach(function (t, i) {
+        if (t[0].toLowerCase() === k || t[0].split(" ")[0].toLowerCase() === k) { hit = t; hitGroup = g; hitTerm = i; }
+      });
     });
     if (!hit) return null;
-    try { return { label: hit[0], re: new RegExp("(?<![\\p{L}])(?:" + hit[1] + ")(?![\\p{L}])", "giu") }; }
+    try { return { label: hit[0], group: hitGroup, term: hitTerm, re: new RegExp("(?<![\\p{L}])(?:" + hit[1] + ")(?![\\p{L}])", "giu") }; }
     catch (e) { return null; }
+  }
+  /* word -> "id id ..." from the build, or null if it cannot be loaded */
+  function loadWords() {
+    if (S.wordIndex) return S.wordIndex;
+    S.wordIndex = fetch(ROOT.getAttribute("data-words")).then(function (r) {
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      return r.text();
+    }).then(function (text) {
+      var words = new Map();
+      text.split("\n").forEach(function (line) {
+        var sp = line.indexOf(" ");
+        if (sp > 0) words.set(line.slice(0, sp), line.slice(sp + 1));
+      });
+      return words;
+    }).catch(function () { S.wordIndex = null; return null; });
+    return S.wordIndex;
+  }
+  /* The episodes that can match, a superset of the real hits: all words of the
+     query have to occur in the episode. Without an index, every episode. */
+  function candidates(list, q, prefix, known) {
+    if (known) return Promise.resolve(list.filter(function (ep) {
+      return ep.words && ep.words[known.group].counts[known.term] > 0;
+    }));
+    var tokens = q.toLowerCase().match(/[\p{L}\p{N}]+/gu);
+    if (!tokens) return Promise.resolve(list);
+    return loadWords().then(function (words) {
+      if (!words) return list;
+      var keep = null;
+      tokens.forEach(function (tok, i) {
+        var ids = new Set();
+        var add = function (line) { line.split(" ").forEach(function (id) { ids.add(+id); }); };
+        // only a word the query ends on can continue in the text
+        if (prefix && i === tokens.length - 1 && /[\p{L}\p{N}]$/u.test(q)) {
+          words.forEach(function (line, w) { if (w.lastIndexOf(tok, 0) === 0) add(line); });
+        } else if (words.has(tok)) add(words.get(tok));
+        keep = keep ? new Set(Array.from(keep).filter(function (id) { return ids.has(id); })) : ids;
+      });
+      return list.filter(function (ep) { return keep.has(ep.id); });
+    });
   }
   function mentions(text, re, maxSnippets) {
     var hay = searchable(text);
@@ -1028,7 +1072,8 @@
     var list = withData(S.episodes);
     head.textContent = "Suche „" + shown + "“ in " + nf.format(list.length) + " Folgen …";
     var found = [], byYear = {}, total = 0, done = 0;
-    var queue = list.slice();
+    var queue = [];
+    var todo = 0;
     var active = 0;
     function finish() {
       if (token !== S.searchToken) return;
@@ -1086,13 +1131,17 @@
             if (r.count) { found.push({ ep: ep, count: r.count, snippets: r.snippets }); total += r.count; byYear[yearOf(ep)] = (byYear[yearOf(ep)] || 0) + r.count; }
           }).catch(function () {}).then(function () {
             active--; done++;
-            if (done % 25 === 0 && token === S.searchToken) head.textContent = "Suche „" + shown + "“ … " + nf.format(done) + " von " + nf.format(list.length) + " Folgen";
+            if (done % 25 === 0 && token === S.searchToken) head.textContent = "Suche „" + shown + "“ … " + nf.format(done) + " von " + nf.format(todo) + " Folgen";
             next();
           });
         })(queue.shift());
       }
     }
-    next();
+    candidates(list, q, prefix, known).then(function (eps) {
+      queue = eps.slice();
+      todo = eps.length;
+      next();
+    });
   }
 
   /* ------------------------------------------------------------ boot */

@@ -1,4 +1,4 @@
-{{- /* One episode's mp3 URL -> dict data/words/hash from the WebVTT next to it, or
+{{- /* One episode's mp3 URL -> dict data/words/hash/tokens from the WebVTT next to it, or
        an empty dict if there is no readable transcript. Always call this through
        partialCached with the mp3 URL as key: a full build runs it over ~1M cues.
        layouts/post/single.html does so to get the work spread over all cores. */ -}}
@@ -112,8 +112,16 @@
     {{- $words = merge $words (dict $group (dict "counts" $counts "total" $total "bySpeaker" $by)) -}}
   {{- end -}}
 
+  {{- /* The distinct words for the search index. Same notion of a word as
+         searchRegex() in assets/js/sprechzeit.js: a run of letters and digits. */ -}}
+  {{- $seen := newScratch -}}
+  {{- range $text | replaceRE `(?m)^\d[\d:.]* --> .*$|<v [^>]*>` " " | lower | findRE `[\p{L}\p{N}]+` -}}
+    {{- $seen.Set . true -}}
+  {{- end -}}
+
   {{- $out = dict
       "hash" (substr (md5 $text) 0 10)
+      "tokens" $seen.Values
       "words" $words
       "data" (merge
         (dict "dur" (math.Round $end) "gap" (slice (math.Round $gapLen) (math.Round $gapAt)))

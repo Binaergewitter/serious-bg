@@ -5,9 +5,11 @@
 {{ $css := resources.Get "css/sprechzeit.css" | minify | fingerprint }}
 {{ $js := resources.Get "js/sprechzeit.js" | minify | fingerprint }}
 {{/* All the numbers, worked out from the transcripts during the build. */}}
-{{ $data := resources.FromString "sprechzeit/data.json" (partial "sprechzeit/data.html" .) | fingerprint }}
+{{ $built := partial "sprechzeit/data.html" . }}
+{{ $data := resources.FromString "sprechzeit/data.json" $built.json | fingerprint }}
+{{ $words := resources.FromString "sprechzeit/words.txt" $built.words | fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
-<article class="post sprechzeit" id="sprechzeit" data-src="{{ $data.RelPermalink }}">
+<article class="post sprechzeit" id="sprechzeit" data-src="{{ $data.RelPermalink }}" data-words="{{ $words.RelPermalink }}">
     <header>
         <h1>Sprechzeit</h1>
         <p class="lead">Wer hat bei Binärgewitter wie lange geredet, wie schnell, und worüber? Alles hier stammt
@@ -134,8 +136,8 @@
             <button type="submit" class="btn btn-primary">Suchen</button>
             <label class="checkbox-inline small"><input type="checkbox" id="se-prefix"> auch als Wortanfang</label>
         </form>
-        <p class="text-muted small">Durchsucht den gesprochenen Text aller Folgen. Die erste Suche lädt die Texte
-            (etwa 30 MB) und behält sie komprimiert im Browser. Ein Klick auf eine Fundstelle springt im
+        <p class="text-muted small">Durchsucht den gesprochenen Text aller Folgen. Die Suche lädt einen Wortindex
+            (knapp 2 MB) und dann nur die Folgen mit Treffern, die der Browser komprimiert behält. Ein Klick auf eine Fundstelle springt im
             Player an die Stelle.</p>
         <p class="sz-big" id="se-head"></p>
         <div class="sz-rows" id="se-years"></div>

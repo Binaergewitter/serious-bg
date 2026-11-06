@@ -1,0 +1,3 @@
+{{- range $word, $ids := . -}}
+{{- $word -}}{{- $ids | safeHTML }}
+{{ end -}}
