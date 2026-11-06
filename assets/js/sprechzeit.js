@@ -3,8 +3,9 @@
  * Episode list: the site's own search index (/index.json). Per episode the
  * WebVTT transcript next to the audio on download.binaergewitter.de is
  * fetched (CORS is open there), cue durations are summed per <v Speaker>,
- * and the result is kept in IndexedDB so a return visit skips the download.
- * The raw VTT text goes into the Cache API for the full-text search.
+ * a few word counts are taken on the way, and only those results are kept
+ * in IndexedDB (a few MB). The full text is fetched again, once, when
+ * someone uses the search, and then stored gzip-compressed.
  * Views are hash routes: #/ #/jahr/2016 #/folge/talk-388[/sec] #/person/Felix #/suche/docker */
 (function () {
   "use strict";
@@ -12,34 +13,36 @@
   var ROOT = document.getElementById("sprechzeit");
   if (!ROOT) return;
 
-  var CACHE_V = 3;
-  var TEXT_CACHE = "sprechzeit-vtt-v1";
-  var PARALLEL = 8;
+  var CACHE_V = 4;             // bump when the stored per-episode record changes
+  var DB_VERSION = 2;
+  var LEGACY_CACHE = "sprechzeit-vtt-v1";
+  var PARALLEL = 24;           // measured: 8 -> ~4 s, 16-32 -> ~1.7 s for all 402 files
   var UNKNOWN = "Unbekannt";
   var GUESTS = "Gäste";
-  var HOSTS = ["Felix", "Ingo", "l33tname", "Markus", "Sebastian", "Karsten"];
+  // The regular voices. Everyone else is "Gäste" in every cross-episode view;
+  // their names stay visible inside an episode and in the Gäste view.
+  var REGULARS = ["Felix", "Ingo", "Pfleidi", "Marc", "Mat", "l33tname", "Markus", "Sebastian"];
   // Speaker names from the Auphonic production (reliable); everything else was
   // labelled by voice similarity, see github.com/bmalum/binaergewitter-transcripts.
   var AUPHONIC = { 227: 1, 228: 1, 233: 1, 235: 1, 238: 1, 317: 1, 318: 1, 319: 1, 320: 1, 321: 1, 322: 1 };
   var COLORS = {
-    Ingo: "#D55E00",
     Felix: "#0072B2",
+    Ingo: "#D55E00",
+    Pfleidi: "#AA3377",
+    Marc: "#117733",
+    Mat: "#7D7D1E",
     l33tname: "#009E73",
     Markus: "#CC79A7",
     Sebastian: "#E69F00",
-    Karsten: "#56B4E9",
-    "Ingo + Felix": "#B8A800",
-    "Gäste": "#8f8f8f",
+    "Gäste": "#8a8a8a",
     Unbekannt: "#c9c9c9",
   };
-  var EXTRA = ["#7f6a93", "#a0522d", "#5b7f3b", "#b05b7a", "#4f6d8f"];
-  var GUEST_SHADES = ["#8f8f8f", "#6f6f6f", "#adadad", "#575757", "#c4c4c4"];
+  var GUEST_SHADES = ["#8a8a8a", "#5f5f5f"];
   var MONTHS = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"];
 
   /* Word counts over the full text. Patterns are written for how the ASR
      spells things out loud ("Butter-FS", "free bsd"); each term is one
      capture group so a single scan per episode attributes every hit. */
-  var TEXT_V = 1;
   var TERM_GROUPS = {
     fs: [
       ["ZFS", "(?:open[ -]?)?zfs|zed[ -]?fs|zet[ -]?fs"],
@@ -86,9 +89,7 @@
     byBase: {},
     failed: [],
     db: null,
-    texts: null,      // Cache API handle or null
-    textStats: null,  // word counts over all transcripts, see ensureTextStats
-    textStatsPending: false,
+    wordRe: null,     // compiled TERM_GROUPS, null when the browser lacks lookbehind
     route: { view: "overview" },
     lastYear: null,
     lastPerson: null,
@@ -148,26 +149,26 @@
     return d.getDate() + ". " + MONTHS[d.getMonth()] + " " + d.getFullYear();
   }
   function yearOf(ep) { return ep.date.slice(0, 4); }
-  function bucket(name) { return name.indexOf("Gast ") === 0 ? GUESTS : name; }
+  function isRegular(name) { return REGULARS.indexOf(name) >= 0; }
+  function bucket(name) { return name === UNKNOWN || isRegular(name) ? name : GUESTS; }
+  function hashName(s) {
+    var h = 0;
+    for (var i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) | 0;
+    return Math.abs(h);
+  }
   function colorOf(name) {
     if (COLORS[name]) return COLORS[name];
-    var m = /^Gast (\d+)$/.exec(name);
-    if (m) return GUEST_SHADES[(parseInt(m[1], 10) - 1) % GUEST_SHADES.length];
-    if (!colorOf.extra) colorOf.extra = {};
-    if (!colorOf.extra[name]) colorOf.extra[name] = EXTRA[Object.keys(colorOf.extra).length % EXTRA.length];
-    return colorOf.extra[name];
+    return GUEST_SHADES[hashName(name) % GUEST_SHADES.length];
   }
   function canon(raw) {
     var n = (raw || "").replace(/_/g, " ").replace(/\s+/g, " ").trim();
     if (!n) return UNKNOWN;
     var k = n.toLowerCase().replace(/\s/g, "");
     var alias = { felix: "Felix", felix2: "Felix", ingo: "Ingo", l33tname: "l33tname", markus: "Markus", madmas: "Markus",
-      sebastian: "Sebastian", karsten: "Karsten", unknown: UNKNOWN, unbekannt: UNKNOWN, "null": UNKNOWN };
+      sebastian: "Sebastian", pfleidi: "Pfleidi", marc: "Marc", mat: "Mat", unknown: UNKNOWN, unbekannt: UNKNOWN, "null": UNKNOWN };
     if (alias[k]) return alias[k];
-    if (k === "ingoundfelix" || k === "ingo+felix") return "Ingo + Felix";
     var g = /^gast(\d+)$/.exec(k);
     if (g) return "Gast " + parseInt(g[1], 10);
-    if (k === "gast") return "Gast 1";
     return n;
   }
   function navigate(hash, replace) {
@@ -224,7 +225,9 @@
         mp3: mp3,
         vtt: stem + ".vtt",
         chaptersUrl: e.chapters || stem + ".chapters.txt",
-        data: null,
+        data: null,    // { dur, who: [[name, sec, words, questions]], segs: [[whoIdx, start, dur]], gap: [len, at] }
+        words: null,   // { group: { counts: [], total, bySpeaker: {name: n} } }
+        lm: null,      // Last-Modified of the VTT when it was read
         error: null,
       };
       ep.auphonic = kind === "talk" && ep.num != null && (ep.num >= 324 || AUPHONIC[ep.num] === 1);
@@ -242,7 +245,6 @@
     return (+p[0]) * 3600 + (+p[1]) * 60 + parseFloat(p[2]);
   }
 
-  /* Result: { dur, who: [[name, sec, words, questions]], segs: [[whoIdx, start, dur]], gap: [len, at] } */
   function parseVtt(text) {
     var lines = text.split(/\r?\n/);
     var stats = {};
@@ -325,24 +327,103 @@
     }
     return null;
   }
-  function longestRun(ep, name) {
+  function longestRun(ep) {
     var best = null;
     ep.data.segs.forEach(function (s) {
       var w = ep.data.who[s[0]];
-      if (!w || (name && w[0] !== name) || w[0] === UNKNOWN) return;
+      if (!w || w[0] === UNKNOWN) return;
       if (!best || s[2] > best[2]) best = s;
     });
     return best; // [whoIdx, start, dur]
   }
   function wpm(words, sec) { return sec > 0 ? Math.round(words / (sec / 60)) : 0; }
 
+  /* ------------------------------------------------------------ word counts */
+
+  function compileWordRegexes() {
+    try {
+      var out = {};
+      Object.keys(TERM_GROUPS).forEach(function (g) {
+        out[g] = new RegExp("(?<![\\p{L}])(?:" + TERM_GROUPS[g].map(function (t) { return "(" + t[1] + ")"; }).join("|") + ")(?![\\p{L}])", "giu");
+      });
+      return out;
+    } catch (e) { return null; }
+  }
+  /* blank the timing lines and the <v> tags so a search cannot hit them; same length as text */
+  function searchable(text) {
+    return text
+      .replace(/^(.*-->.*)$/gm, function (l) { return l.replace(/[^\s>-]/g, " "); })
+      .replace(/<v [^>]*>/g, function (m) { return " ".repeat(m.length); });
+  }
+  function speakerAt(text, idx) {
+    var arrow = text.lastIndexOf("-->", idx);
+    if (arrow < 0) return UNKNOWN;
+    var tag = text.indexOf("<v ", arrow);
+    if (tag < 0 || tag > idx) return UNKNOWN;
+    return canon(text.slice(tag + 3, text.indexOf(">", tag)));
+  }
+  /* counts for one episode; swear words are attributed to the speaker of the cue */
+  function scanText(text, regexes) {
+    var hay = searchable(text);
+    var out = {};
+    Object.keys(regexes).forEach(function (g) {
+      var re = regexes[g];
+      re.lastIndex = 0;
+      var counts = [], bySpeaker = {}, total = 0, m;
+      while ((m = re.exec(hay))) {
+        for (var i = 1; i < m.length; i++) if (m[i] !== undefined) { counts[i - 1] = (counts[i - 1] || 0) + 1; break; }
+        total++;
+        if (g === "swear") {
+          var sp = speakerAt(text, m.index);
+          bySpeaker[sp] = (bySpeaker[sp] || 0) + 1;
+        }
+        if (m.index === re.lastIndex) re.lastIndex++;
+      }
+      out[g] = { counts: counts, total: total, bySpeaker: bySpeaker };
+    });
+    return out;
+  }
+  /* totals over a list of episodes, from the per-episode counts */
+  function wordTotals(list) {
+    var groups = {};
+    Object.keys(TERM_GROUPS).forEach(function (g) {
+      groups[g] = { totals: TERM_GROUPS[g].map(function () { return 0; }), topEp: TERM_GROUPS[g].map(function () { return null; }), top: null, bySpeaker: {} };
+    });
+    var densest = null, n = 0;
+    list.forEach(function (ep) {
+      if (!ep.data || !ep.words) return;
+      n++;
+      Object.keys(groups).forEach(function (g) {
+        var r = ep.words[g], G = groups[g];
+        if (!r) return;
+        r.counts.forEach(function (c, i) {
+          if (!c) return;
+          G.totals[i] += c;
+          if (!G.topEp[i] || c > G.topEp[i].count) G.topEp[i] = { ep: ep, count: c };
+        });
+        if (r.total && (!G.top || r.total > G.top.count)) G.top = { ep: ep, count: r.total };
+        Object.keys(r.bySpeaker).forEach(function (sp) { G.bySpeaker[sp] = (G.bySpeaker[sp] || 0) + r.bySpeaker[sp]; });
+      });
+      if (ep.words.swear && ep.data.dur >= 1800) {
+        var rate = ep.words.swear.total / (ep.data.dur / 3600);
+        if (!densest || rate > densest.rate) densest = { ep: ep, count: ep.words.swear.total, rate: rate };
+      }
+    });
+    return { groups: groups, densest: densest, n: n };
+  }
+
   /* ------------------------------------------------------------ storage */
 
   function openDb() {
     return new Promise(function (resolve) {
       try {
-        var req = indexedDB.open("sprechzeit", 1);
-        req.onupgradeneeded = function () { req.result.createObjectStore("eps"); };
+        var req = indexedDB.open("sprechzeit", DB_VERSION);
+        req.onupgradeneeded = function (ev) {
+          var db = req.result;
+          if (!db.objectStoreNames.contains("eps")) db.createObjectStore("eps");
+          else if (ev.oldVersion < 2) req.transaction.objectStore("eps").clear(); // old record format
+          if (!db.objectStoreNames.contains("texts")) db.createObjectStore("texts");
+        };
         req.onsuccess = function () { resolve(req.result); };
         req.onerror = function () { resolve(null); };
         req.onblocked = function () { resolve(null); };
@@ -359,7 +440,7 @@
         cur.onsuccess = function () {
           var c = cur.result;
           if (!c) return;
-          if (c.value && c.value.v === CACHE_V && String(c.key).indexOf("__") !== 0) out[c.key] = c.value.data;
+          if (c.value && c.value.v === CACHE_V && c.value.data) out[c.key] = c.value;
           c.continue();
         };
         tx.oncomplete = function () { resolve(out); };
@@ -367,16 +448,16 @@
       } catch (e) { resolve({}); }
     });
   }
-  function dbPut(db, key, data) {
+  function dbPut(db, store, key, value) {
     if (!db) return;
-    try { db.transaction("eps", "readwrite").objectStore("eps").put({ v: CACHE_V, data: data }, key); } catch (e) { /* ignore */ }
+    try { db.transaction(store, "readwrite").objectStore(store).put(value, key); } catch (e) { /* quota or private mode */ }
   }
-  function dbGet(db, key) {
+  function dbGet(db, store, key) {
     return new Promise(function (resolve) {
       if (!db) return resolve(null);
       try {
-        var req = db.transaction("eps", "readonly").objectStore("eps").get(key);
-        req.onsuccess = function () { resolve(req.result ? req.result.data : null); };
+        var req = db.transaction(store, "readonly").objectStore(store).get(key);
+        req.onsuccess = function () { resolve(req.result || null); };
         req.onerror = function () { resolve(null); };
       } catch (e) { resolve(null); }
     });
@@ -385,79 +466,93 @@
     return new Promise(function (resolve) {
       if (!db) return resolve();
       try {
-        var tx = db.transaction("eps", "readwrite");
+        var tx = db.transaction(["eps", "texts"], "readwrite");
         tx.objectStore("eps").clear();
+        tx.objectStore("texts").clear();
         tx.oncomplete = function () { resolve(); };
         tx.onerror = function () { resolve(); };
       } catch (e) { resolve(); }
     });
   }
-  function openTexts() {
-    if (!window.caches) return Promise.resolve(null);
-    return caches.open(TEXT_CACHE).catch(function () { return null; });
+  /* full texts: stored gzip-compressed, only after someone searched */
+  var canCompress = typeof CompressionStream === "function" && typeof DecompressionStream === "function";
+  function deflate(text) {
+    if (!canCompress) return Promise.resolve(null);
+    try { return new Response(new Blob([text]).stream().pipeThrough(new CompressionStream("gzip"))).blob(); }
+    catch (e) { return Promise.resolve(null); }
+  }
+  function inflate(blob) {
+    return new Response(blob.stream().pipeThrough(new DecompressionStream("gzip"))).text();
   }
   function fetchVtt(ep) {
     return fetch(ep.vtt).then(function (r) {
       if (!r.ok) throw new Error("HTTP " + r.status);
-      if (S.texts) S.texts.put(ep.vtt, r.clone()).catch(function () {});
-      return r.text();
+      var lm = r.headers.get("last-modified"); // CORS-safelisted, readable cross-origin
+      return r.text().then(function (text) { return { text: text, lm: lm }; });
     });
   }
   function textOf(ep) {
-    var cached = S.texts ? S.texts.match(ep.vtt).then(function (r) { return r ? r.text() : null; }).catch(function () { return null; })
-      : Promise.resolve(null);
-    return cached.then(function (t) { return t != null ? t : fetchVtt(ep); });
+    return dbGet(S.db, "texts", ep.base).then(function (rec) {
+      if (rec && rec.blob && canCompress) return inflate(rec.blob).catch(function () { return null; });
+      return null;
+    }).then(function (text) {
+      if (text != null) return text;
+      return fetchVtt(ep).then(function (res) {
+        deflate(res.text).then(function (blob) { if (blob) dbPut(S.db, "texts", ep.base, { lm: res.lm, blob: blob }); });
+        return res.text;
+      });
+    });
   }
 
   /* ------------------------------------------------------------ loading */
 
-  function setProgress(done, total, fromCache) {
-    var pct0 = total ? Math.round((done / total) * 100) : 0;
-    $("sz-progress-bar").style.width = pct0 + "%";
-    if (done >= total) {
-      $("sz-progress-bar").style.width = "100%";
-    } else {
+  function setProgress(done, total) {
+    $("sz-progress-bar").style.width = (total ? Math.round((done / total) * 100) : 0) + "%";
+    if (done < total) {
       $("sz-progress").textContent = "Lade Transkripte … " + nf.format(done) + " von " + nf.format(total);
       return;
     }
     var wasLoading = S.loading;
     S.loading = false;
-    ensureTextStats();
-    // a search that started while transcripts were still arriving saw only part of them
-    if (wasLoading && S.route.view === "search" && S.route.q) runSearch(S.route.q, $("se-prefix").checked);
     $("sz-progress-wrap").hidden = true;
     var status = $("sz-status");
-    if (!S.failed.length) { status.hidden = true; return; }
-    status.hidden = false;
-    $("sz-progress").textContent = nf.format(S.failed.length) + " Folgen ohne lesbares Transkript:";
-    var old = status.querySelector("ul");
-    if (old) old.remove();
-    var ul = el("ul", { class: "small text-muted" });
-    S.failed.forEach(function (ep) {
-      var li = el("li");
-      li.appendChild(el("a", { href: ep.href }, ep.label + " · " + ep.title));
-      li.appendChild(document.createTextNode(" (" + ep.error + ")"));
-      ul.appendChild(li);
-    });
-    status.appendChild(ul);
+    if (!S.failed.length) status.hidden = true;
+    else {
+      status.hidden = false;
+      $("sz-progress").textContent = nf.format(S.failed.length) + " Folgen ohne lesbares Transkript:";
+      var old = status.querySelector("ul");
+      if (old) old.remove();
+      var ul = el("ul", { class: "small text-muted" });
+      S.failed.forEach(function (ep) {
+        var li = el("li");
+        li.appendChild(el("a", { href: ep.href }, ep.label + " · " + ep.title));
+        li.appendChild(document.createTextNode(" (" + ep.error + ")"));
+        ul.appendChild(li);
+      });
+      status.appendChild(ul);
+    }
+    // a search that started while transcripts were still arriving saw only part of them
+    if (wasLoading && S.route.view === "search" && S.route.q) runSearch(S.route.q, $("se-prefix").checked);
   }
 
   function loadEpisode(ep) {
-    return fetchVtt(ep).then(function (text) {
-      if (text.indexOf("WEBVTT") < 0) throw new Error("kein WebVTT");
-      ep.data = parseVtt(text);
-      dbPut(S.db, ep.base, ep.data);
+    return fetchVtt(ep).then(function (res) {
+      if (res.text.indexOf("WEBVTT") < 0) throw new Error("kein WebVTT");
+      ep.data = parseVtt(res.text);
+      ep.words = S.wordRe ? scanText(res.text, S.wordRe) : null;
+      ep.lm = res.lm;
+      dbPut(S.db, "eps", ep.base, { v: CACHE_V, lm: ep.lm, data: ep.data, words: ep.words });
     }).catch(function (err) {
       ep.error = err.message || String(err);
       S.failed.push(ep);
     });
   }
 
-  function loadAll(fromCache) {
+  function loadAll() {
     var queue = S.episodes.filter(function (ep) { return !ep.data; });
     var total = S.episodes.length;
     var done = total - queue.length;
-    setProgress(done, total, fromCache);
+    setProgress(done, total);
     if (!queue.length) { scheduleRender(true); return Promise.resolve(); }
     // the open episode first, then newest first
     if (S.route.view === "episode" && S.bySlug[S.route.slug]) {
@@ -468,14 +563,14 @@
     return new Promise(function (resolve) {
       var active = 0;
       function next() {
-        if (!queue.length && active === 0) { setProgress(total, total, fromCache); scheduleRender(true); resolve(); return; }
+        if (!queue.length && active === 0) { setProgress(total, total); scheduleRender(true); resolve(); return; }
         while (active < PARALLEL && queue.length) {
           var ep = queue.shift();
           active++;
           loadEpisode(ep).then(function () {
             active--;
             done++;
-            setProgress(done, total, fromCache);
+            setProgress(done, total);
             scheduleRender(false);
             next();
           });
@@ -488,7 +583,7 @@
   function scheduleRender(now) {
     if (now) { clearTimeout(S.renderTimer); S.renderTimer = null; renderView(); return; }
     if (S.renderTimer) return;
-    S.renderTimer = setTimeout(function () { S.renderTimer = null; renderView(); }, 500);
+    S.renderTimer = setTimeout(function () { S.renderTimer = null; renderView(); }, 800);
   }
 
   /* ------------------------------------------------------------ aggregation */
@@ -525,7 +620,7 @@
     return { sec: sec, words: words, eps: eps, first: first, last: last, opened: opened, speech: speech, n: n, names: names };
   }
   function stackOrder(names) {
-    var order = HOSTS.concat(["Ingo + Felix", GUESTS]);
+    var order = REGULARS.concat([GUESTS]);
     return names.slice().sort(function (a, b) {
       var ia = order.indexOf(a), ib = order.indexOf(b);
       return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib) || a.localeCompare(b);
@@ -544,7 +639,7 @@
   function chips(container, agg, minSec) {
     container.textContent = "";
     agg.names.forEach(function (name) {
-      if (agg.sec[name] < (minSec || 0) && HOSTS.indexOf(name) < 0) return;
+      if (agg.sec[name] < (minSec || 0) && !isRegular(name)) return;
       var c = chip(name, pct(agg.sec[name], agg.speech));
       c.title = hoursLong(agg.sec[name]) + " in " + nf.format(agg.eps[name]) + " Folgen";
       container.appendChild(c);
@@ -619,17 +714,14 @@
       S.route.year = S.lastYear || ys[ys.length - 1];
     }
     if (S.route.view === "year") S.lastYear = S.route.year;
-    if (S.route.view === "person" && !S.route.name) {
-      var agg = aggregate(S.episodes);
-      S.route.name = S.lastPerson || agg.names[0] || "Felix";
-    }
+    if (S.route.view === "person" && !S.route.name) S.route.name = S.lastPerson || REGULARS[0];
     if (S.route.view === "person") S.lastPerson = S.route.name;
     if (S.route.view === "episode") {
       var ep = S.bySlug[S.route.slug];
       if (ep) S.lastYear = yearOf(ep);
     }
     $("sz-tab-year").href = yearHash(S.lastYear || years().slice(-1)[0] || "");
-    $("sz-tab-person").href = personHash(S.lastPerson || "Felix");
+    $("sz-tab-person").href = personHash(S.lastPerson || REGULARS[0]);
     Array.prototype.forEach.call($("sz-tabs").children, function (li) {
       var v = li.getAttribute("data-view");
       li.classList.toggle("active", v === S.route.view || (v === "year" && S.route.view === "episode"));
@@ -733,9 +825,8 @@
       var nWho = namedWho(ep).filter(function (w) { return w[1] >= 120; }).length;
       if (!biggest || nWho > biggest.n) biggest = { ep: ep, n: nWho };
       var r = longestRun(ep);
-      if (r && d.who[r[0]][0] !== "Ingo + Felix" && (!mono || r[2] > mono.run[2])) mono = { ep: ep, run: r, name: d.who[r[0]][0] };
+      if (r && (!mono || r[2] > mono.run[2])) mono = { ep: ep, run: r, name: d.who[r[0]][0] };
       namedWho(ep).forEach(function (w) {
-        if (w[0] === "Ingo + Felix") return; // merged track, not one voice
         if (w[1] >= 600) {
           var v = wpm(w[2], w[1]);
           if (!fastest || v > fastest.v) fastest = { ep: ep, name: w[0], v: v };
@@ -765,139 +856,49 @@
     if (pause) add("Längste Pause", hoursLong(pause.data.gap[0]) + " ohne Wort in " + link(pause, pause.data.gap[1]) + " ab " + clock(pause.data.gap[1]) + ".");
     var openers = Object.keys(agg.opened).sort(function (a, b) { return agg.opened[b] - agg.opened[a]; });
     if (openers.length) add("Eröffnet die Sendung am häufigsten", openers.slice(0, 3).map(function (n) { return esc(n) + " (" + nf.format(agg.opened[n]) + " Folgen)"; }).join(", ") + ".");
-    renderTextRecords(add, link, agg);
+    renderTextRecords(add, link, agg, list);
   }
 
-  /* ------------------------------------------------------------ word counts */
-
-  function groupRegex(terms) {
-    return new RegExp("(?<![\\p{L}])(?:" + terms.map(function (t) { return "(" + t[1] + ")"; }).join("|") + ")(?![\\p{L}])", "giu");
-  }
-  function speakerAt(text, idx) {
-    var arrow = text.lastIndexOf("-->", idx);
-    if (arrow < 0) return UNKNOWN;
-    var tag = text.indexOf("<v ", arrow);
-    if (tag < 0 || tag > idx) return UNKNOWN;
-    return canon(text.slice(tag + 3, text.indexOf(">", tag)));
-  }
-  /* counts for one episode: { group: { counts: [per term], total, bySpeaker } } */
-  function scanText(text, regexes) {
-    var hay = searchable(text);
-    var out = {};
-    Object.keys(regexes).forEach(function (g) {
-      var re = regexes[g];
-      re.lastIndex = 0;
-      var counts = [], bySpeaker = {}, total = 0, m;
-      while ((m = re.exec(hay))) {
-        for (var i = 1; i < m.length; i++) if (m[i] !== undefined) { counts[i - 1] = (counts[i - 1] || 0) + 1; break; }
-        total++;
-        if (g === "swear") {
-          var sp = bucket(speakerAt(text, m.index));
-          bySpeaker[sp] = (bySpeaker[sp] || 0) + 1;
-        }
-        if (m.index === re.lastIndex) re.lastIndex++;
-      }
-      out[g] = { counts: counts, total: total, bySpeaker: bySpeaker };
-    });
-    return out;
-  }
-  function emptyStats(n) {
-    var groups = {};
-    Object.keys(TERM_GROUPS).forEach(function (g) {
-      groups[g] = { totals: TERM_GROUPS[g].map(function () { return 0; }), topEp: TERM_GROUPS[g].map(function () { return null; }), top: null, bySpeaker: {} };
-    });
-    return { v: TEXT_V, n: n, groups: groups, densest: null };
-  }
-  function ensureTextStats() {
-    if (S.textStats || S.textStatsPending || S.loading) return;
-    var list = withData(S.episodes);
-    if (!list.length) return;
-    S.textStatsPending = true;
-    var regexes;
-    try { regexes = {}; Object.keys(TERM_GROUPS).forEach(function (g) { regexes[g] = groupRegex(TERM_GROUPS[g]); }); }
-    catch (e) { S.textStats = { unsupported: true }; S.textStatsPending = false; renderView(); return; }
-    dbGet(S.db, "__textstats__").then(function (cached) {
-      if (cached && cached.v === TEXT_V && cached.n === list.length) return cached;
-      var stats = emptyStats(list.length);
-      var queue = list.slice();
-      return new Promise(function (resolve) {
-        var active = 0;
-        function next() {
-          if (!queue.length && active === 0) { resolve(stats); return; }
-          while (active < 6 && queue.length) {
-            (function (ep) {
-              active++;
-              textOf(ep).then(function (text) {
-                var r = scanText(text, regexes);
-                Object.keys(r).forEach(function (g) {
-                  var G = stats.groups[g];
-                  r[g].counts.forEach(function (c, i) {
-                    if (!c) return;
-                    G.totals[i] += c;
-                    if (!G.topEp[i] || c > G.topEp[i].count) G.topEp[i] = { base: ep.base, count: c };
-                  });
-                  if (r[g].total && (!G.top || r[g].total > G.top.count)) G.top = { base: ep.base, count: r[g].total };
-                  Object.keys(r[g].bySpeaker).forEach(function (sp) { G.bySpeaker[sp] = (G.bySpeaker[sp] || 0) + r[g].bySpeaker[sp]; });
-                });
-                if (ep.data.dur >= 1800) {
-                  var rate = r.swear.total / (ep.data.dur / 3600);
-                  if (!stats.densest || rate > stats.densest.rate) stats.densest = { base: ep.base, count: r.swear.total, rate: rate };
-                }
-              }).catch(function () {}).then(function () { active--; next(); });
-            })(queue.shift());
-          }
-        }
-        next();
-      }).then(function (stats) { dbPut(S.db, "__textstats__", stats); return stats; });
-    }).then(function (stats) {
-      S.textStats = stats;
-      S.textStatsPending = false;
-      renderView();
-    });
-  }
-  function renderTextRecords(add, link, agg) {
-    var ts = S.textStats;
-    if (!ts) {
-      add("Wörter", S.loading ? "Gezählt wird, sobald alle Transkripte geladen sind." : "Wird gezählt …");
-      ensureTextStats();
-      return;
-    }
-    if (ts.unsupported) { add("Wörter", "Dieser Browser kann die Wortzählung nicht ausführen."); return; }
-    var epOf = function (base) { return S.byBase[base]; };
-    var epLink = function (top) { var ep = top && epOf(top.base); return ep ? link(ep) + " (" + nf.format(top.count) + " Mal)" : ""; };
+  function renderTextRecords(add, link, agg, list) {
+    if (!S.wordRe) { add("Wörter", "Dieser Browser kann die Wortzählung nicht ausführen."); return; }
+    var ts = wordTotals(list);
+    if (!ts.n) return;
+    var epLink = function (top) { return top ? link(top.ep) + " (" + nf.format(top.count) + " Mal)" : ""; };
     function ranked(g) {
       return TERM_GROUPS[g].map(function (t, i) { return { label: t[0], n: ts.groups[g].totals[i], top: ts.groups[g].topEp[i] }; })
         .filter(function (x) { return x.n > 0; }).sort(function (a, b) { return b.n - a.n; });
     }
-    function list(items, max) {
+    function terms(items, max) {
       return items.slice(0, max).map(function (x) {
         return '<a href="#/suche/' + encodeURIComponent(x.label.split(" ")[0]) + '">' + esc(x.label) + "</a> " + nf.format(x.n);
       }).join(", ");
     }
     var fs = ranked("fs");
     if (fs.length) {
-      var html = list(fs, 6) + " Mal genannt.";
+      var html = terms(fs, 6) + " Mal genannt.";
       fs.slice(0, 2).forEach(function (x) { if (x.top) html += " Die " + esc(x.label) + "-Folge: " + epLink(x.top) + "."; });
       add("Dateisysteme", html);
     }
     var bsd = ranked("bsd");
-    if (bsd.length) add("BSD", list(bsd, 4) + " Mal genannt." + (ts.groups.bsd.top ? " Die BSD-Folge: " + epLink(ts.groups.bsd.top) + "." : ""));
+    if (bsd.length) add("BSD", terms(bsd, 4) + " Mal genannt." + (ts.groups.bsd.top ? " Die BSD-Folge: " + epLink(ts.groups.bsd.top) + "." : ""));
     var sw = ranked("swear");
     var G = ts.groups.swear;
     var swTotal = G.totals.reduce(function (a, b) { return a + b; }, 0);
     if (swTotal) {
-      var perHour = Object.keys(G.bySpeaker).filter(function (n) { return n !== UNKNOWN && (agg.sec[n] || 0) >= 10 * 3600; })
-        .map(function (n) { return { name: n, rate: G.bySpeaker[n] / (agg.sec[n] / 3600), count: G.bySpeaker[n] }; })
+      // per bucketed person, only those with at least 10 hours of speech
+      var bySp = {};
+      Object.keys(G.bySpeaker).forEach(function (n) { if (n !== UNKNOWN) { var k = bucket(n); bySp[k] = (bySp[k] || 0) + G.bySpeaker[n]; } });
+      var perHour = Object.keys(bySp).filter(function (n) { return (agg.sec[n] || 0) >= 10 * 3600; })
+        .map(function (n) { return { name: n, rate: bySp[n] / (agg.sec[n] / 3600), count: bySp[n] }; })
         .sort(function (a, b) { return b.rate - a.rate; });
-      add("Schimpfwörter", nf.format(swTotal) + " Mal geflucht: " + list(sw, 6) + ". " +
-        (perHour.length ? "Pro Stunde Sprechzeit: " + perHour.slice(0, 4).map(function (p) {
+      add("Schimpfwörter", nf.format(swTotal) + " Mal geflucht: " + terms(sw, 6) + ". " +
+        (perHour.length ? "Pro Stunde Sprechzeit: " + perHour.slice(0, 5).map(function (p) {
           return '<a href="' + personHash(p.name) + '">' + esc(p.name) + "</a> " + nf1.format(p.rate);
         }).join(", ") + "." : ""));
-      var top = G.top && epOf(G.top.base);
-      if (top) {
+      if (G.top) {
+        var top = G.top.ep;
         var html2 = link(top) + " mit " + nf.format(G.top.count) + " Mal (" + nf1.format(G.top.count / (top.data.dur / 3600)) + " pro Stunde).";
-        var dense = ts.densest && epOf(ts.densest.base);
-        if (dense && dense !== top) html2 += " Am dichtesten: " + link(dense) + " mit " + nf1.format(ts.densest.rate) + " pro Stunde.";
+        if (ts.densest && ts.densest.ep !== top) html2 += " Am dichtesten: " + link(ts.densest.ep) + " mit " + nf1.format(ts.densest.rate) + " pro Stunde.";
         add("Folge mit den meisten Schimpfwörtern", html2);
       }
     }
@@ -1005,8 +1006,9 @@
     var maxSec = namedWho(ep).length ? namedWho(ep)[0][1] : 1;
     namedWho(ep).forEach(function (w) {
       var tr = el("tr", { style: "--c:" + colorOf(w[0]) });
+      var who = isRegular(w[0]) ? '<a href="' + personHash(w[0]) + '">' + esc(w[0]) + "</a>" : esc(w[0]) + ' <span class="text-muted small">Gast</span>';
       tr.innerHTML =
-        '<td class="name"><b>' + esc(w[0]) + "</b></td>" +
+        '<td class="name"><b>' + who + "</b></td>" +
         '<td class="num">' + esc(hours(w[1])) + "</td>" +
         '<td class="num">' + esc(pct(w[1], speech)) + '<span class="sz-bar" aria-hidden="true"><i style="width:' + (w[1] / maxSec) * 100 + '%"></i></span></td>' +
         '<td class="num">' + wpm(w[2], w[1]) + "</td>" +
@@ -1019,6 +1021,7 @@
     var run = longestRun(ep);
     if (run) facts.push("Längster Redeanteil am Stück: " + ep.data.who[run[0]][0] + ", " + hoursLong(run[2]) + " ab " + clock(run[1]) + ".");
     if (ep.data.gap && ep.data.gap[0] >= 20) facts.push("Längste Pause " + hoursLong(ep.data.gap[0]) + " ab " + clock(ep.data.gap[1]) + ".");
+    if (ep.words && ep.words.swear && ep.words.swear.total) facts.push(nf.format(ep.words.swear.total) + " Schimpfwörter.");
     $("ep-facts").textContent = facts.join(" ");
 
     renderChapters(ep);
@@ -1078,12 +1081,12 @@
 
   /* ------------------------------------------------------------ view: person */
 
+  /* `name` is a regular, "Gäste", or one individual guest (reachable from the Gäste table) */
   function renderPerson(name) {
     var all = aggregate(withData(S.episodes));
     var nav = $("pe-nav");
     nav.textContent = "";
     all.names.forEach(function (n) {
-      if (all.sec[n] < 1800 && HOSTS.indexOf(n) < 0) return;
       var li = el("li", { class: n === name ? "active" : "", style: "--c:" + colorOf(n) });
       var a = el("a", { href: personHash(n) });
       a.appendChild(el("span", { class: "dot" }));
@@ -1091,13 +1094,42 @@
       li.appendChild(a);
       nav.appendChild(li);
     });
-    var isMe = function (w) { return bucket(w[0]) === name && w[0] !== UNKNOWN; };
+    var isMe = name === GUESTS
+      ? function (w) { return w[0] !== UNKNOWN && !isRegular(w[0]); }
+      : function (w) { return w[0] === name; };
     var mine = withData(S.episodes).filter(function (ep) { return ep.data.who.some(isMe); });
     var head = $("pe-head");
-    if (!mine.length) { head.textContent = S.loading ? "Transkripte laden noch …" : name + " kommt in keinem Transkript vor."; $("pe-years").textContent = ""; $("pe-stats").textContent = ""; $("pe-top").textContent = ""; return; }
-    var sec = all.sec[name] || 0;
+    var namesSec = $("pe-names-sec");
+    namesSec.hidden = name !== GUESTS;
+    if (!mine.length) {
+      head.textContent = S.loading ? "Transkripte laden noch …" : name + " kommt in keinem Transkript vor.";
+      $("pe-years").textContent = ""; $("pe-stats").textContent = ""; $("pe-top").textContent = ""; $("pe-names").textContent = "";
+      return;
+    }
+    var sec = 0, words = 0, qs = 0, first = null, last = null, opened = 0, swears = 0;
+    var co = {}, people = {};
+    mine.forEach(function (ep) {
+      ep.data.who.forEach(function (w) {
+        if (isMe(w)) {
+          sec += w[1]; words += w[2]; qs += w[3];
+          var p = people[w[0]] || (people[w[0]] = { sec: 0, eps: 0, first: null, last: null });
+          p.sec += w[1]; p.eps++;
+          if (!p.first || ep.date < p.first) p.first = ep.date;
+          if (!p.last || ep.date > p.last) p.last = ep.date;
+        } else if (w[0] !== UNKNOWN) {
+          var k = bucket(w[0]);
+          co[k] = (co[k] || 0) + 1;
+        }
+      });
+      if (!first || ep.date < first) first = ep.date;
+      if (!last || ep.date > last) last = ep.date;
+      var o = openerOf(ep);
+      if (o && isMe([o])) opened++;
+      if (ep.words && ep.words.swear) Object.keys(ep.words.swear.bySpeaker).forEach(function (sp) { if (isMe([sp])) swears += ep.words.swear.bySpeaker[sp]; });
+    });
+    var role = name === GUESTS ? " Alle, die nicht zur Stammbesetzung gehören, zusammen." : isRegular(name) ? "" : " Gast.";
     head.textContent = name + ": " + hoursLong(sec) + " in " + nf.format(mine.length) + " Folgen, " + pct(sec, all.speech) + " der gesamten Sprechzeit, " +
-      fmtDate(all.first[name]) + " bis " + fmtDate(all.last[name]) + "." + (name === GUESTS ? " Gäste sind alle Stimmen ohne bekannten Namen, pro Folge durchnummeriert." : "");
+      fmtDate(first) + " bis " + fmtDate(last) + "." + role;
 
     // per year: hours of this person + share of that year's speech
     var box = $("pe-years");
@@ -1112,11 +1144,13 @@
     });
     var max = 1;
     Object.keys(byYear).forEach(function (y) { if (byYear[y] > max) max = byYear[y]; });
+    var color = colorOf(name);
     years().forEach(function (y) {
       if (!yearTotal[y]) return;
       var parts = {};
       parts[name] = byYear[y] || 0;
       var bar = stack(parts, max, false);
+      Array.prototype.forEach.call(bar.children, function (i) { i.style.setProperty("--c", color); });
       box.appendChild(row(yearHash(y), y, bar, (byYear[y] ? nf1.format(byYear[y] / 3600) + " h <small>" + pct(byYear[y], yearTotal[y]) + "</small>" : "<small>–</small>")));
     });
 
@@ -1124,43 +1158,48 @@
     var dl = $("pe-stats");
     dl.textContent = "";
     function add(term, html) { dl.appendChild(el("dt", null, term)); var dd = el("dd"); dd.innerHTML = html; dl.appendChild(dd); }
-    var words = all.words[name] || 0;
     var others = all.names.filter(function (n) { return n !== name && all.sec[n] >= 3600; }).map(function (n) { return wpm(all.words[n], all.sec[n]); });
     var avgOthers = others.length ? Math.round(others.reduce(function (a, b) { return a + b; }, 0) / others.length) : 0;
     add("Tempo", wpm(words, sec) + " Wörter pro Minute" + (avgOthers ? " (die anderen im Schnitt " + avgOthers + ")" : "") + ", " + nf.format(words) + " Wörter insgesamt.");
-    var qs = 0;
-    mine.forEach(function (ep) { ep.data.who.forEach(function (w) { if (isMe(w)) qs += w[3]; }); });
-    add("Fragen", nf.format(qs) + " Sätze mit Fragezeichen, " + Math.round(qs / (sec / 3600)) + " pro Stunde.");
+    add("Fragen", nf.format(qs) + " Sätze mit Fragezeichen, " + Math.round(qs / Math.max(1, sec / 3600)) + " pro Stunde.");
     var mono = null;
     mine.forEach(function (ep) {
       ep.data.segs.forEach(function (s) {
         var w = ep.data.who[s[0]];
-        if (w && isMe(w) && (!mono || s[2] > mono.run[2])) mono = { ep: ep, run: s };
+        if (w && isMe(w) && (!mono || s[2] > mono.run[2])) mono = { ep: ep, run: s, who: w[0] };
       });
     });
-    if (mono) add("Längster Redeanteil am Stück", hoursLong(mono.run[2]) + ' in <a href="' + epHash(mono.ep, mono.run[1]) + '">' + esc(mono.ep.label) + " · " + esc(mono.ep.title) + "</a> ab " + clock(mono.run[1]) + ".");
-    add("Eröffnet die Sendung", nf.format(all.opened[name] || 0) + " Mal.");
-    if (S.textStats && !S.textStats.unsupported) {
-      var swears = S.textStats.groups.swear.bySpeaker[name] || 0;
-      add("Schimpfwörter", nf.format(swears) + " Mal, " + nf1.format(swears / Math.max(1, sec / 3600)) + " pro Stunde Sprechzeit.");
-    } else ensureTextStats();
-    var share = {};
-    mine.forEach(function (ep) {
-      ep.data.who.forEach(function (w) {
-        if (w[0] === UNKNOWN || isMe(w)) return;
-        var k = bucket(w[0]);
-        share[k] = (share[k] || 0) + 1;
+    if (mono) add("Längster Redeanteil am Stück", hoursLong(mono.run[2]) + (name === GUESTS ? " (" + esc(mono.who) + ")" : "") + ' in <a href="' + epHash(mono.ep, mono.run[1]) + '">' + esc(mono.ep.label) + " · " + esc(mono.ep.title) + "</a> ab " + clock(mono.run[1]) + ".");
+    add("Eröffnet die Sendung", nf.format(opened) + " Mal.");
+    if (S.wordRe) add("Schimpfwörter", nf.format(swears) + " Mal, " + nf1.format(swears / Math.max(1, sec / 3600)) + " pro Stunde Sprechzeit.");
+    var coNames = Object.keys(co).sort(function (a, b) { return co[b] - co[a]; }).slice(0, 5);
+    if (coNames.length) add("Am häufigsten zusammen mit", coNames.map(function (n) { return '<a href="' + personHash(n) + '">' + esc(n) + "</a> (" + nf.format(co[n]) + ")"; }).join(", ") + ".");
+
+    // the individual names behind "Gäste"
+    var tbn = $("pe-names");
+    tbn.textContent = "";
+    if (name === GUESTS) {
+      Object.keys(people).sort(function (a, b) { return people[b].sec - people[a].sec; }).forEach(function (n) {
+        var p = people[n];
+        var tr = el("tr", { style: "--c:" + colorOf(n), tabindex: "0", role: "link" });
+        tr.innerHTML =
+          '<td class="name"><b>' + esc(n) + "</b></td>" +
+          '<td class="num">' + esc(hoursLong(p.sec)) + "</td>" +
+          '<td class="num">' + nf.format(p.eps) + "</td>" +
+          '<td class="when">' + (p.first === p.last ? esc(fmtDate(p.first)) : esc(fmtDate(p.first)) + " bis " + esc(fmtDate(p.last))) + "</td>";
+        var go = function () { location.hash = personHash(n); };
+        tr.addEventListener("click", go);
+        tr.addEventListener("keydown", function (e) { if (e.key === "Enter") go(); });
+        tbn.appendChild(tr);
       });
-    });
-    var co = Object.keys(share).sort(function (a, b) { return share[b] - share[a]; }).slice(0, 5);
-    if (co.length) add("Am häufigsten zusammen mit", co.map(function (n) { return '<a href="' + personHash(n) + '">' + esc(n) + "</a> (" + nf.format(share[n]) + ")"; }).join(", ") + ".");
+    }
 
     // top episodes by share
     var top = mine.map(function (ep) {
       var s = 0;
       ep.data.who.forEach(function (w) { if (isMe(w)) s += w[1]; });
       return { ep: ep, share: s / Math.max(1, speechOf(ep)), sec: s };
-    }).filter(function (x) { return x.sec >= 300; }).sort(function (a, b) { return b.share - a.share; }).slice(0, 8);
+    }).filter(function (x) { return x.sec >= 300 || mine.length <= 3; }).sort(function (a, b) { return b.share - a.share; }).slice(0, 8);
     var list = $("pe-top");
     list.textContent = "";
     top.forEach(function (x) { list.appendChild(episodeRow(x.ep, true)); });
@@ -1186,12 +1225,6 @@
     if (!hit) return null;
     try { return { label: hit[0], re: new RegExp("(?<![\\p{L}])(?:" + hit[1] + ")(?![\\p{L}])", "giu") }; }
     catch (e) { return null; }
-  }
-  /* blank the timing lines' digits and the <v> tags so the search cannot hit them; same length as text */
-  function searchable(text) {
-    return text
-      .replace(/^(.*-->.*)$/gm, function (l) { return l.replace(/[^\s>-]/g, " "); })
-      .replace(/<v [^>]*>/g, function (m) { return " ".repeat(m.length); });
   }
   function mentions(text, re, maxSnippets) {
     var hay = searchable(text);
@@ -1280,7 +1313,7 @@
     function next() {
       if (token !== S.searchToken) return;
       if (!queue.length && active === 0) { finish(); return; }
-      while (active < 6 && queue.length) {
+      while (active < 12 && queue.length) {
         (function (ep) {
           active++;
           textOf(ep).then(function (text) {
@@ -1289,7 +1322,7 @@
             if (r.count) { found.push({ ep: ep, count: r.count, snippets: r.snippets }); total += r.count; byYear[yearOf(ep)] = (byYear[yearOf(ep)] || 0) + r.count; }
           }).catch(function () {}).then(function () {
             active--; done++;
-            if (done % 40 === 0 && token === S.searchToken) head.textContent = "Suche „" + q + "“ … " + nf.format(done) + " von " + nf.format(list.length) + " Folgen";
+            if (done % 25 === 0 && token === S.searchToken) head.textContent = "Suche „" + shown + "“ … " + nf.format(done) + " von " + nf.format(list.length) + " Folgen";
             next();
           });
         })(queue.shift());
@@ -1317,14 +1350,14 @@
     });
     if (window.matchMedia) matchMedia("(prefers-color-scheme: dark)").addEventListener("change", function () { renderView(); });
     var clear = el("button", { type: "button", class: "btn btn-link btn-xs" }, "Zwischenspeicher leeren und neu laden");
-    clear.addEventListener("click", function () {
-      Promise.all([dbClear(S.db), window.caches ? caches.delete(TEXT_CACHE).catch(function () {}) : null]).then(function () { location.reload(); });
-    });
+    clear.addEventListener("click", function () { dbClear(S.db).then(function () { location.reload(); }); });
     ROOT.querySelector(".sz-method").appendChild(clear);
   }
 
   function boot() {
     wire();
+    S.wordRe = compileWordRegexes();
+    if (window.caches) caches.delete(LEGACY_CACHE).catch(function () {}); // ~90 MB from the first version
     var indexUrl = ROOT.getAttribute("data-index") || "/index.json";
     fetch(indexUrl).then(function (r) {
       if (!r.ok) throw new Error("Suchindex nicht erreichbar (HTTP " + r.status + ")");
@@ -1333,25 +1366,27 @@
       S.episodes = buildEpisodes(index);
       S.episodes.forEach(function (ep) { S.bySlug[ep.slug] = ep; S.byBase[ep.base] = ep; });
       $("sz-progress").textContent = nf.format(S.episodes.length) + " Folgen gefunden.";
-      return Promise.all([openDb(), openTexts()]);
-    }).then(function (res) {
-      S.db = res[0];
-      S.texts = res[1];
-      return dbReadAll(S.db);
+      return openDb();
+    }).then(function (db) {
+      S.db = db;
+      return dbReadAll(db);
     }).then(function (cached) {
       var fromCache = 0;
-      S.episodes.forEach(function (ep) { if (cached[ep.base]) { ep.data = cached[ep.base]; fromCache++; } });
+      S.episodes.forEach(function (ep) {
+        var rec = cached[ep.base];
+        if (rec) { ep.data = rec.data; ep.words = rec.words || null; ep.lm = rec.lm || null; fromCache++; }
+      });
       onRoute();
       var missing = S.episodes.length - fromCache;
       var saveData = navigator.connection && navigator.connection.saveData;
       if (missing && saveData) {
-        setProgress(fromCache, S.episodes.length, fromCache);
+        setProgress(fromCache, S.episodes.length);
         $("sz-start-wrap").hidden = false;
         $("sz-start").addEventListener("click", function () {
           $("sz-start-wrap").hidden = true;
-          loadAll(fromCache);
+          loadAll();
         }, { once: true });
-      } else loadAll(fromCache);
+      } else loadAll();
     }).catch(function (err) {
       $("sz-progress-wrap").hidden = true;
       $("sz-progress").textContent = "Die Seite konnte die Folgenliste nicht laden: " + (err.message || err);

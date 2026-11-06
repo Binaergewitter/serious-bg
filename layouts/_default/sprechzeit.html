@@ -114,6 +114,20 @@
                 <dl class="sz-records" id="pe-stats"></dl>
             </div>
         </div>
+        <div id="pe-names-sec" hidden>
+            <h3>Wer dahinter steckt</h3>
+            <table class="table table-condensed sz-people-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th class="num">Sprechzeit</th>
+                        <th class="num">Folgen</th>
+                        <th>Dabei</th>
+                    </tr>
+                </thead>
+                <tbody id="pe-names"></tbody>
+            </table>
+        </div>
         <h3>Folgen mit dem größten Anteil</h3>
         <div class="sz-episodes" id="pe-top"></div>
     </section>
@@ -126,8 +140,9 @@
             <button type="submit" class="btn btn-primary">Suchen</button>
             <label class="checkbox-inline small"><input type="checkbox" id="se-prefix"> auch als Wortanfang</label>
         </form>
-        <p class="text-muted small">Durchsucht den gesprochenen Text aller Folgen. Ein Klick auf eine Fundstelle
-            springt im Player an die Stelle.</p>
+        <p class="text-muted small">Durchsucht den gesprochenen Text aller Folgen. Die erste Suche lädt die Texte
+            noch einmal (etwa 30 MB) und behält sie komprimiert im Browser. Ein Klick auf eine Fundstelle springt im
+            Player an die Stelle.</p>
         <p class="sz-big" id="se-head"></p>
         <div class="sz-rows" id="se-years"></div>
         <div class="sz-results" id="se-results"></div>
@@ -139,9 +154,10 @@
             WebVTT-Untertitel neben dem Audio und summiert die Dauer der Untertitel pro Sprecher. Pausen, Musik und
             Zuspieler zählen nicht. Kurze Stellen, die keiner Stimme sicher zuzuordnen waren, bleiben außen vor
             (<span id="sz-unknown">…</span>). Bei Folgen ab Herbst 2023 und einigen aus 2019 stammen die Namen aus der
-            Auphonic-Produktion, sonst aus einem Stimmvergleich mit bekannten Stimmen; „Gast 1“, „Gast 2“ sind Nummern
-            innerhalb einer Folge und über Folgen hinweg nicht dieselbe Person. Ergebnisse bleiben im Browser
-            gespeichert. Transkripte: CC BY-SA 3.0 DE, Binärgewitter-Team.</p>
+            Auphonic-Produktion, sonst aus einem Stimmvergleich mit bekannten Stimmen. Wer nicht zur Stammbesetzung
+            gehört, läuft in den Übersichten unter „Gäste“; die Namen stehen in der Gäste-Ansicht und in der Folge
+            selbst. Im Browser bleiben nur die Ergebnisse (ein paar MB), die Texte erst nach einer Suche.
+            Transkripte: CC BY-SA 3.0 DE, Binärgewitter-Team.</p>
     </footer>
 </article>
 <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
