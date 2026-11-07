@@ -113,15 +113,17 @@
   {{- end -}}
 
   {{- /* The distinct words for the search index. Same notion of a word as
-         searchRegex() in assets/js/sprechzeit.js: a run of letters and digits. */ -}}
+         searchRegex() in assets/js/sprechzeit.js: a run of letters and digits.
+         Kept as one string: every episode's result stays cached for the whole
+         build, and a map of words would pin the full lowercased transcript. */ -}}
   {{- $seen := newScratch -}}
   {{- range $text | replaceRE `(?m)^\d[\d:.]* --> .*$|<v [^>]*>` " " | lower | findRE `[\p{L}\p{N}]+` -}}
-    {{- $seen.Set . true -}}
+    {{- $seen.Set . . -}}
   {{- end -}}
 
   {{- $out = dict
       "hash" (substr (md5 $text) 0 10)
-      "tokens" $seen.Values
+      "tokens" (delimit $seen.Values " ")
       "words" $words
       "data" (merge
         (dict "dur" (math.Round $end) "gap" (slice (math.Round $gapLen) (math.Round $gapAt)))
