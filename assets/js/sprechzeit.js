@@ -1166,11 +1166,6 @@
 
   function boot() {
     wire();
-    // Storage left behind by earlier versions of this page, which worked out
-    // the numbers in the browser: a results database and a Cache API entry of
-    // about 90 MB. Only people who tested those builds have them.
-    try { indexedDB.deleteDatabase("sprechzeit"); } catch (e) { /* ignore */ }
-    if (window.caches) caches.delete("sprechzeit-vtt-v1").catch(function () {});
     fetch(ROOT.getAttribute("data-src")).then(function (r) {
       if (!r.ok) throw new Error("HTTP " + r.status);
       return r.json();
