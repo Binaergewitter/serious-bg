@@ -6,9 +6,9 @@ COPY . .
 
 # Build the site (generates index.json and podcast feeds via _content.gotmpl)
 # Most of the build's peak memory is garbage from parsing the Sprechzeit
-# transcripts. The soft cap makes Go collect it earlier: about 1 GB instead of
-# 1.45 GB, at the same build time.
-RUN GOMEMLIMIT=800MiB hugo --minify
+# transcripts. Go collects it only near the soft cap: the build peaks at about
+# 1.2 GB and spends no time on GC while there is room.
+RUN GOGC=off GOMEMLIMIT=900MiB hugo --minify
 
 # Compress the search index for faster loading
 RUN gzip -k -9 public/index.json
