@@ -321,7 +321,10 @@
     return new Response(blob.stream().pipeThrough(new DecompressionStream("gzip"))).text();
   }
   function fetchVtt(ep) {
-    return fetch(ep.vtt).then(function (r) {
+    // The download server sends no Cache-Control, so the browser's HTTP cache
+    // may still hold an older version of a corrected transcript; force a
+    // revalidation (ETag/Last-Modified are there) instead of trusting it.
+    return fetch(ep.vtt, { cache: "no-cache" }).then(function (r) {
       if (!r.ok) throw new Error("HTTP " + r.status);
       return r.text();
     });

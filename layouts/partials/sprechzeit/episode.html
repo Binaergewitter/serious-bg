@@ -5,11 +5,18 @@
 {{- $url := replaceRE `\.mp3$` ".vtt" . -}}
 {{- $out := dict -}}
 {{- $text := "" -}}
+{{- /* A 404 (new episode, transcript not uploaded yet) comes back as a nil value
+       and only costs this episode its numbers. Anything else (server down,
+       5xx, timeout) stops the build: the Fly image is built without the test
+       job's "402 of 402" check, and an outage must not roll out a page with
+       half the episodes missing. */ -}}
 {{- with try (resources.GetRemote $url) -}}
   {{- with .Err -}}
-    {{- warnf "sprechzeit: %s: %s" $url . -}}
+    {{- errorf "sprechzeit: %s: %s" $url . -}}
   {{- else with .Value -}}
     {{- $text = .Content -}}
+  {{- else -}}
+    {{- warnf "sprechzeit: %s: nicht gefunden, Folge bleibt ohne Zahlen" $url -}}
   {{- end -}}
 {{- end -}}
 {{- if strings.Contains $text "WEBVTT" -}}

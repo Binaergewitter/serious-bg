@@ -88,6 +88,13 @@ title = "Binärgewitter"
     methods = ["GET"]
     allowedHosts = ["download.binaergewitter.de"]
 
+# Remote files (Auphonic metadata, chapters, transcripts) are cached forever by
+# default, so a local `hugo server` would never see a corrected transcript.
+# CI and the Docker build start without a cache either way.
+[caches]
+  [caches.getresource]
+    maxAge = "24h"
+
 [frontmatter]
   date = ["date", "publishDate", ":filename"]
   publishDate = [":filename"]
