@@ -1,0 +1,159 @@
+{{ define "main" }}
+{{/* Fingerprinted names: nginx serves *.css and *.js with a one-year immutable
+     cache, so a plain /css/sprechzeit.css would never update for returning
+     visitors. */}}
+{{ $css := resources.Get "css/sprechzeit.css" | minify | fingerprint }}
+{{ $js := resources.Get "js/sprechzeit.js" | minify | fingerprint }}
+{{/* All the numbers, worked out from the transcripts during the build. */}}
+{{ $built := partial "sprechzeit/data.html" . }}
+{{ $data := resources.FromString "sprechzeit/data.json" $built.json | fingerprint }}
+{{ $words := resources.FromString "sprechzeit/words.txt" $built.words | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+<article class="post sprechzeit" id="sprechzeit" data-src="{{ $data.RelPermalink }}" data-words="{{ $words.RelPermalink }}">
+    <header>
+        <h1>Sprechzeit</h1>
+        <p class="lead">Wer hat bei Binärgewitter wie lange geredet, wie schnell, und worüber? Alles hier stammt
+            aus den Transkripten auf download.binaergewitter.de.</p>
+    </header>
+    <noscript>
+        <p class="text-muted">Diese Seite braucht JavaScript. Die Transkripte selbst
+            liegen als Dateien neben dem Audio auf <a href="https://download.binaergewitter.de/">download.binaergewitter.de</a>.</p>
+    </noscript>
+
+    <ul class="nav nav-tabs sz-tabs" id="sz-tabs">
+        <li data-view="overview"><a href="#/">Überblick</a></li>
+        <li data-view="year"><a href="#/jahr" id="sz-tab-year">Folgen</a></li>
+        <li data-view="person"><a href="#/person" id="sz-tab-person">Personen</a></li>
+        <li data-view="search"><a href="#/suche">Suche</a></li>
+    </ul>
+
+    <div class="sz-status" id="sz-status" aria-live="polite">
+        <p class="text-muted small" id="sz-progress">Lade Zahlen …</p>
+    </div>
+
+    <!-- Überblick -->
+    <section class="sz-view" id="view-overview" hidden>
+        <p class="sz-big" id="ov-totals"></p>
+        <div class="sz-chips" id="ov-chips"></div>
+        <h2>Stunden pro Jahr</h2>
+        <p class="text-muted small">Gesprochene Stunden, gestapelt nach Person. Ein Klick auf ein Jahr zeigt seine
+            Folgen.</p>
+        <div class="sz-rows" id="ov-years"></div>
+        <h2>Rekorde</h2>
+        <dl class="sz-records" id="ov-records"></dl>
+        <h2>Personen</h2>
+        <table class="table table-condensed sz-people-table">
+            <thead>
+                <tr>
+                    <th>Person</th>
+                    <th class="num">Sprechzeit</th>
+                    <th class="num">Anteil</th>
+                    <th class="num">Folgen</th>
+                    <th class="num" title="Wörter pro Minute Sprechzeit">Tempo</th>
+                    <th>Dabei</th>
+                </tr>
+            </thead>
+            <tbody id="ov-people"></tbody>
+        </table>
+    </section>
+
+    <!-- Folgen eines Jahres -->
+    <section class="sz-view" id="view-year" hidden>
+        <ul class="pagination pagination-sm sz-years-nav" id="yr-nav"></ul>
+        <p class="sz-big" id="yr-head"></p>
+        <div class="sz-chips" id="yr-chips"></div>
+        <div class="sz-episodes" id="yr-list"></div>
+    </section>
+
+    <!-- eine Folge -->
+    <section class="sz-view" id="view-episode" hidden>
+        <nav class="sz-epnav" id="ep-nav" aria-label="Folge wechseln"></nav>
+        <h2 id="ep-title"></h2>
+        <p class="text-muted" id="ep-meta"></p>
+        <audio id="ep-audio" controls preload="none"></audio>
+        <div class="sz-lanes" id="ep-lanes"></div>
+        <div class="row">
+            <div class="col-sm-6">
+                <h3>Anteile</h3>
+                <table class="table table-condensed sz-shares">
+                    <thead>
+                        <tr>
+                            <th>Person</th>
+                            <th class="num">Zeit</th>
+                            <th class="num">Anteil</th>
+                            <th class="num" title="Wörter pro Minute">Tempo</th>
+                            <th class="num" title="Fragen (Sätze mit Fragezeichen)">Fragen</th>
+                        </tr>
+                    </thead>
+                    <tbody id="ep-shares"></tbody>
+                </table>
+                <p class="text-muted small" id="ep-facts"></p>
+            </div>
+            <div class="col-sm-6">
+                <h3>Kapitel</h3>
+                <ol class="sz-chapters" id="ep-chapters"></ol>
+            </div>
+        </div>
+    </section>
+
+    <!-- eine Person -->
+    <section class="sz-view" id="view-person" hidden>
+        <ul class="nav nav-pills sz-pills" id="pe-nav"></ul>
+        <p class="sz-big" id="pe-head"></p>
+        <div class="row">
+            <div class="col-sm-7">
+                <h3>Stunden pro Jahr</h3>
+                <div class="sz-rows" id="pe-years"></div>
+            </div>
+            <div class="col-sm-5">
+                <h3>Zahlen</h3>
+                <dl class="sz-records" id="pe-stats"></dl>
+            </div>
+        </div>
+        <div id="pe-names-sec" hidden>
+            <h3>Wer dahinter steckt</h3>
+            <table class="table table-condensed sz-people-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th class="num">Sprechzeit</th>
+                        <th class="num">Folgen</th>
+                        <th>Dabei</th>
+                    </tr>
+                </thead>
+                <tbody id="pe-names"></tbody>
+            </table>
+        </div>
+        <h3>Folgen mit dem größten Anteil</h3>
+        <div class="sz-episodes" id="pe-top"></div>
+    </section>
+
+    <!-- Suche -->
+    <section class="sz-view" id="view-search" hidden>
+        <form class="form-inline sz-searchform" id="se-form">
+            <label class="sr-only" for="se-q">Begriff</label>
+            <input type="search" class="form-control" id="se-q" placeholder="Begriff, z. B. Docker" autocomplete="off">
+            <button type="submit" class="btn btn-primary">Suchen</button>
+            <label class="checkbox-inline small"><input type="checkbox" id="se-prefix"> auch als Wortanfang</label>
+        </form>
+        <p class="text-muted small">Durchsucht den gesprochenen Text aller Folgen. Die Suche lädt einen Wortindex
+            (knapp 2 MB) und dann nur die Folgen mit Treffern, die der Browser komprimiert behält. Ein Klick auf eine Fundstelle springt im
+            Player an die Stelle.</p>
+        <p class="sz-big" id="se-head"></p>
+        <div class="sz-rows" id="se-years"></div>
+        <div class="sz-results" id="se-results"></div>
+    </section>
+
+    <footer class="sz-method text-muted small">
+        <h3>Wie gezählt wird</h3>
+        <p>Beim Bauen der Seite werden zu jeder Folge die WebVTT-Untertitel neben dem Audio gelesen und
+            die Dauer der Untertitel pro Sprecher summiert. Pausen, Musik und
+            Zuspieler zählen nicht. Kurze Stellen, die keiner Stimme sicher zuzuordnen waren, bleiben außen vor
+            (<span id="sz-unknown">…</span>). Bei Folgen ab Herbst 2023 und einigen aus 2019 stammen die Namen aus der
+            Auphonic-Produktion, sonst aus einem Stimmvergleich mit bekannten Stimmen. Wer nicht zur Stammbesetzung
+            gehört, läuft in den Übersichten unter „Gäste“; die Namen stehen in der Gäste-Ansicht und in der Folge
+            selbst. Transkripte: CC BY-SA 3.0 DE, Binärgewitter-Team.</p>
+    </footer>
+</article>
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+{{ end }}

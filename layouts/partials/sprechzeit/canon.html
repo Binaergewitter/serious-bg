@@ -1,0 +1,9 @@
+{{- /* Speaker tag -> display name. Mirrored by canon() in assets/js/sprechzeit.js,
+       which needs it for search snippets. */ -}}
+{{- $n := . | replaceRE `_` " " | replaceRE `\s+` " " | strings.TrimSpace -}}
+{{- $k := $n | lower | replaceRE `\s` "" -}}
+{{- $out := index site.Data.sprechzeit.aliases $k | default $n | default "Unbekannt" -}}
+{{- if findRE `^gast\d+$` $k -}}
+  {{- $out = printf "Gast %d" (strings.TrimPrefix "gast" $k | strings.TrimLeft "0" | default "0" | int) -}}
+{{- end -}}
+{{- return $out -}}

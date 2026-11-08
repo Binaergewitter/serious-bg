@@ -1,0 +1,556 @@
+/* Sprechzeit page. Lives inside the normal site shell (Bootstrap 3), so only
+   what the shell does not style is set here. Follows the site's light and
+   dark variants from baseof.html. */
+.sprechzeit {
+    --sz-paper: #fff;
+    --sz-track: #ececec;
+    --sz-line: #ddd;
+    --sz-muted: #777;
+    --sz-ink: #333;
+    --sz-brand: #7FAF1B;
+    --sz-hover: #f7f7f7;
+}
+
+@media only screen and (prefers-color-scheme: dark) {
+    .sprechzeit {
+        --sz-paper: #151515;
+        --sz-track: #2a2a2a;
+        --sz-line: #333;
+        --sz-muted: #999;
+        --sz-ink: #e8e8e8;
+        --sz-hover: #1e1e1e;
+    }
+
+    .sprechzeit .table>tbody>tr>td,
+    .sprechzeit .table>thead>tr>th,
+    .sprechzeit .sz-tabs,
+    .sprechzeit .sz-episode,
+    .sprechzeit .sz-result {
+        border-color: #333;
+    }
+
+    .sprechzeit .sz-tabs>li.active>a,
+    .sprechzeit .sz-tabs>li.active>a:hover {
+        color: #e8e8e8;
+        background: #151515;
+        border-color: #333 #333 transparent;
+    }
+
+    .sprechzeit .sz-tabs>li>a:hover {
+        background: #1e1e1e;
+        border-color: #333;
+    }
+
+    .sprechzeit .btn-default,
+    .sprechzeit .pagination>li>a {
+        color: #e8e8e8;
+        background-color: #1e1e1e;
+        border-color: #444;
+    }
+
+    .sprechzeit .btn-default.active,
+    .sprechzeit .btn-default:hover,
+    .sprechzeit .pagination>li>a:hover {
+        background-color: #2a2a2a;
+        color: #fff;
+    }
+
+    .sprechzeit .form-control {
+        background: #1e1e1e;
+        color: #e8e8e8;
+        border-color: #333;
+    }
+
+    .sprechzeit .sz-pills>li>a {
+        color: #ccc;
+    }
+
+    .sprechzeit .sz-pills>li>a:hover {
+        background: #1e1e1e;
+    }
+}
+
+.sprechzeit header .lead {
+    max-width: 44em;
+}
+
+.sprechzeit .num {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+}
+
+.sprechzeit h2 {
+    margin: 36px 0 8px;
+    font-size: 26px;
+}
+
+.sprechzeit h3 {
+    font-size: 18px;
+    margin: 22px 0 8px;
+}
+
+.sprechzeit .sz-tabs {
+    margin: 10px 0 14px;
+}
+
+.sprechzeit .sz-tabs>li>a {
+    padding: 8px 14px;
+}
+
+/* status */
+.sprechzeit .sz-status {
+    margin: 0 0 14px;
+}
+
+.sprechzeit .sz-status p {
+    margin: 0;
+}
+
+/* the one-sentence summary at the top of each view */
+.sprechzeit .sz-big {
+    font-size: 20px;
+    line-height: 1.45;
+    max-width: 44em;
+    min-height: 1.45em;
+    margin: 4px 0 12px;
+}
+
+/* person chips */
+.sprechzeit .sz-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 0 0 6px;
+}
+
+.sprechzeit .sz-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    font-variant-numeric: tabular-nums;
+}
+
+.sprechzeit .sz-chip .dot,
+.sprechzeit .dot {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: var(--c);
+    flex: none;
+    display: inline-block;
+    vertical-align: -1px;
+}
+
+.sprechzeit .sz-chip small {
+    color: var(--sz-muted);
+}
+
+/* horizontal bar rows (years, mentions) */
+.sprechzeit .sz-rows {
+    margin: 6px 0 4px;
+}
+
+.sprechzeit .sz-row {
+    display: grid;
+    grid-template-columns: 3.2em 1fr auto;
+    gap: 10px;
+    align-items: center;
+    padding: 3px 4px;
+    margin: 0 -4px;
+    border-radius: 3px;
+    color: inherit;
+    text-decoration: none;
+    font-variant-numeric: tabular-nums;
+}
+
+.sprechzeit a.sz-row:hover,
+.sprechzeit a.sz-row:focus {
+    background: var(--sz-hover);
+    color: inherit;
+    text-decoration: none;
+}
+
+.sprechzeit .sz-row .lbl {
+    color: var(--sz-muted);
+    font-size: 14px;
+}
+
+.sprechzeit .sz-row .val {
+    font-size: 14px;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.sprechzeit .sz-row .val small {
+    color: var(--sz-muted);
+}
+
+.sprechzeit .sz-row.active .lbl {
+    color: var(--sz-brand);
+    font-weight: bold;
+}
+
+.sprechzeit .sz-stack {
+    display: flex;
+    height: 18px;
+    background: transparent;
+}
+
+.sprechzeit .sz-stack i {
+    display: block;
+    height: 100%;
+    background: var(--c);
+    min-width: 1px;
+}
+
+.sprechzeit .sz-stack i.dim {
+    opacity: .25;
+}
+
+.sprechzeit .sz-stack.full {
+    width: 100%;
+    background: var(--sz-track);
+}
+
+/* episode list */
+.sprechzeit .sz-episodes {
+    margin-top: 8px;
+}
+
+.sprechzeit .sz-episode {
+    display: grid;
+    grid-template-columns: 5.6em 1fr 11em;
+    gap: 6px 14px;
+    align-items: center;
+    padding: 9px 4px;
+    margin: 0 -4px;
+    border-top: 1px solid var(--sz-line);
+    color: inherit;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.sprechzeit .sz-episode:last-child {
+    border-bottom: 1px solid var(--sz-line);
+}
+
+.sprechzeit .sz-episode:hover,
+.sprechzeit .sz-episode:focus {
+    background: var(--sz-hover);
+    color: inherit;
+    text-decoration: none;
+}
+
+.sprechzeit .sz-episode .when {
+    color: var(--sz-muted);
+    font-size: 14px;
+    font-variant-numeric: tabular-nums;
+}
+
+.sprechzeit .sz-episode .what b {
+    display: block;
+    font-weight: bold;
+}
+
+.sprechzeit .sz-episode .what small {
+    color: var(--sz-muted);
+}
+
+.sprechzeit .sz-episode .how {
+    font-size: 13px;
+    color: var(--sz-muted);
+    font-variant-numeric: tabular-nums;
+}
+
+.sprechzeit .sz-episode .how .sz-stack {
+    height: 10px;
+    margin-bottom: 4px;
+    background: var(--sz-track);
+}
+
+.sprechzeit .sz-episode.pending .how {
+    opacity: .5;
+}
+
+/* years pagination */
+.sprechzeit .sz-years-nav {
+    margin: 0 0 14px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sprechzeit .sz-years-nav>li>a {
+    float: none;
+}
+
+/* episode view */
+.sprechzeit .sz-epnav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 16px;
+    margin: 0 0 10px;
+    font-size: 15px;
+}
+
+.sprechzeit .sz-epnav .spacer {
+    flex: 1;
+}
+
+.sprechzeit #view-episode h2 {
+    margin: 0 0 4px;
+    font-size: 28px;
+}
+
+.sprechzeit #view-episode h2 small {
+    display: block;
+    margin-top: 4px;
+    font-size: 16px;
+}
+
+.sprechzeit #ep-audio {
+    width: 100%;
+    margin: 6px 0 14px;
+}
+
+.sprechzeit .sz-lanes {
+    position: relative;
+}
+
+.sprechzeit .sz-lane {
+    display: grid;
+    grid-template-columns: 7.5em 1fr;
+    gap: 10px;
+    align-items: center;
+    margin: 4px 0;
+    font-size: 15px;
+}
+
+.sprechzeit .sz-lane .name {
+    text-align: right;
+    font-weight: bold;
+    color: var(--c);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.sprechzeit .sz-lane svg {
+    display: block;
+    width: 100%;
+    height: 14px;
+    background: var(--sz-track);
+    cursor: pointer;
+}
+
+.sprechzeit .sz-lane svg rect {
+    fill: var(--c);
+}
+
+.sprechzeit .sz-playhead {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    margin-left: -1px;
+    background: var(--sz-brand);
+    pointer-events: none;
+}
+
+.sprechzeit .name b {
+    color: var(--c);
+}
+
+.sprechzeit .sz-bar {
+    display: inline-block;
+    vertical-align: middle;
+    width: 64px;
+    height: 7px;
+    margin-left: 8px;
+    background: var(--sz-track);
+}
+
+.sprechzeit .sz-bar i {
+    display: block;
+    height: 100%;
+    background: var(--c);
+}
+
+.sprechzeit .sz-chapters {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sprechzeit .sz-chapters button {
+    display: grid;
+    grid-template-columns: 4.5em 1fr;
+    gap: 8px;
+    width: 100%;
+    padding: 3px 0;
+    border: 0;
+    background: none;
+    text-align: left;
+    color: inherit;
+    font: inherit;
+    font-size: 15px;
+}
+
+.sprechzeit .sz-chapters button:hover .t,
+.sprechzeit .sz-chapters button.now .t {
+    color: var(--sz-brand);
+}
+
+.sprechzeit .sz-chapters button.now {
+    font-weight: bold;
+}
+
+.sprechzeit .sz-chapters .ts,
+.sprechzeit .ts {
+    font-variant-numeric: tabular-nums;
+    color: var(--sz-muted);
+}
+
+/* records / stats */
+.sprechzeit .sz-records {
+    margin: 6px 0 0;
+}
+
+.sprechzeit .sz-records dt {
+    color: var(--sz-muted);
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.sprechzeit .sz-records dd {
+    margin: 0;
+}
+
+/* people table */
+.sprechzeit .sz-people-table tr {
+    cursor: pointer;
+}
+
+.sprechzeit .sz-people-table .when {
+    white-space: nowrap;
+    color: var(--sz-muted);
+    font-size: 14px;
+}
+
+/* person view */
+.sprechzeit .sz-pills {
+    margin: 0 0 12px;
+}
+
+.sprechzeit .sz-pills>li>a {
+    padding: 5px 11px;
+}
+
+.sprechzeit .sz-pills>li.active>a,
+.sprechzeit .sz-pills>li.active>a:hover {
+    background: var(--c);
+    color: #fff;
+}
+
+/* search */
+.sprechzeit .sz-searchform {
+    margin: 6px 0 8px;
+}
+
+.sprechzeit .sz-searchform .form-control {
+    width: 260px;
+    max-width: 100%;
+}
+
+.sprechzeit .sz-searchform .checkbox-inline {
+    margin-left: 8px;
+}
+
+.sprechzeit .sz-results {
+    margin-top: 10px;
+}
+
+.sprechzeit .sz-result {
+    padding: 10px 0;
+    border-top: 1px solid var(--sz-line);
+}
+
+.sprechzeit .sz-result .head {
+    display: flex;
+    gap: 12px;
+    align-items: baseline;
+}
+
+.sprechzeit .sz-result .head .count {
+    margin-left: auto;
+    color: var(--sz-muted);
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.sprechzeit .sz-result ul {
+    list-style: none;
+    margin: 4px 0 0;
+    padding: 0;
+}
+
+.sprechzeit .sz-result li {
+    display: grid;
+    grid-template-columns: 4.5em 1fr;
+    gap: 8px;
+    font-size: 14px;
+    padding: 2px 0;
+}
+
+.sprechzeit .sz-result li a {
+    color: inherit;
+}
+
+.sprechzeit .sz-result li a:hover {
+    color: var(--sz-brand);
+    text-decoration: none;
+}
+
+.sprechzeit .sz-result mark {
+    background: rgba(127, 175, 27, .3);
+    color: inherit;
+    padding: 0;
+}
+
+.sprechzeit .sz-method {
+    max-width: 44em;
+    margin-top: 48px;
+}
+
+@media (max-width: 767px) {
+    .sprechzeit .sz-lane {
+        grid-template-columns: 5em 1fr;
+        font-size: 13px;
+    }
+
+    .sprechzeit .sz-big {
+        font-size: 18px;
+    }
+
+    .sprechzeit .sz-bar {
+        display: none;
+    }
+
+    .sprechzeit .sz-episode {
+        grid-template-columns: 1fr;
+        gap: 4px;
+    }
+
+    .sprechzeit .sz-row {
+        grid-template-columns: 3em 1fr auto;
+    }
+
+    .sprechzeit .sz-row .val small {
+        display: none;
+    }
+
+    .sprechzeit .sz-people-table .when {
+        display: none;
+    }
+}

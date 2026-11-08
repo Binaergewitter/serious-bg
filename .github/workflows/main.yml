@@ -4,6 +4,12 @@ on:
     branches:
       - main
   pull_request:
+  # Nightly, so the Sprechzeit numbers (worked out from the transcripts on
+  # download.binaergewitter.de at build time) pick up corrected or late
+  # transcripts without a commit. 04:17 UTC, off the full hour.
+  schedule:
+    - cron: '17 4 * * *'
+  workflow_dispatch:
 
 jobs:
   test:
@@ -31,10 +37,14 @@ jobs:
     runs-on: ubuntu-latest
     name: Deploy to Fly.io
     needs: test
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/main' && (github.event_name == 'push' || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
     steps:
       - uses: actions/checkout@v4
       - uses: superfly/flyctl-actions/setup-flyctl@master
-      - run: flyctl deploy --remote-only
+      # The remote builder caches Docker layers. .git is in .dockerignore, so a
+      # nightly run without a new commit has an identical build context and
+      # would redeploy the cached image, Sprechzeit numbers included. Skip the
+      # cache for everything that is not a push.
+      - run: flyctl deploy --remote-only ${{ github.event_name != 'push' && '--no-cache' || '' }}
         env:
           FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
