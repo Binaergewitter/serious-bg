@@ -5,7 +5,10 @@ WORKDIR /src
 COPY . .
 
 # Build the site (generates index.json and podcast feeds via _content.gotmpl)
-RUN hugo --minify
+# Most of the build's peak memory is garbage from parsing the Sprechzeit
+# transcripts. Go collects it only near the soft cap: the build peaks at about
+# 1.2 GB and spends no time on GC while there is room.
+RUN GOGC=off GOMEMLIMIT=900MiB hugo --minify
 
 # Compress the search index for faster loading
 RUN gzip -k -9 public/index.json

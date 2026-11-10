@@ -89,7 +89,13 @@
   {{- end -}}
   {{- if $pw -}}{{- $segs = $segs | append (printf "[%d,%.0f,%.0f]" (sub $pw 1) $ps $pd) -}}{{- end -}}
 
-  {{- /* term counts, one scan of the raw text per group */ -}}
+  {{- /* The term scans and the word list work on the text with every cue header
+         cut down to one \x01. Timestamps are all non-letters, and the regexes in
+         term-regex.html try a match after each non-letter, so this halves their
+         cost. */ -}}
+  {{- $scan := replaceRE `(?m)^\d[\d:.]* --> [^\n]*` "\x01" $text -}}
+
+  {{- /* term counts, one scan per group */ -}}
   {{- $words := dict -}}
   {{- range $group, $terms := site.Data.sprechzeit.terms -}}
     {{- $speakers := eq $group "swear" -}}
@@ -98,8 +104,8 @@
     {{- $tally := newScratch -}}
     {{- $total := 0 -}}
     {{- $cur := "Unbekannt" -}}
-    {{- range findRESubmatch $re $text -}}
-      {{- if and $speakers (strings.Contains (index . 0) "-->") -}}
+    {{- range findRESubmatch $re $scan -}}
+      {{- if and $speakers (strings.Contains (index . 0) "\x01") -}}
         {{- $cur = index $names (index . 1) -}}
       {{- else if not (index . (add $off (len $terms))) -}}
         {{- $m := . -}}
@@ -120,15 +126,15 @@
   {{- end -}}
 
   {{- /* The distinct words for the search index. Same notion of a word as
-         searchRegex() in assets/js/sprechzeit.js: a run of letters and digits. */ -}}
-  {{- $seen := newScratch -}}
-  {{- range $text | replaceRE `(?m)^\d[\d:.]* --> .*$|<v [^>]*>` " " | lower | findRE `[\p{L}\p{N}]+` -}}
-    {{- $seen.Set . true -}}
-  {{- end -}}
+         searchRegex() in assets/js/sprechzeit.js: a run of letters and digits.
+         union drops the repeats without a template loop over every word, and
+         the result stays one string: each episode's result is cached for the
+         whole build, and a map of words would pin the lowercased transcript. */ -}}
+  {{- $all := $scan | replaceRE `\x01|<v [^>]*>` " " | lower | findRE `[\p{L}\p{N}]+` -}}
 
   {{- $out = dict
       "hash" (substr (md5 $text) 0 10)
-      "tokens" $seen.Values
+      "tokens" (delimit (union $all $all) " ")
       "words" $words
       "data" (merge
         (dict "dur" (math.Round $end) "gap" (slice (math.Round $gapLen) (math.Round $gapAt)))
