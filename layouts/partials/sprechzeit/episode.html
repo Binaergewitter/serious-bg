@@ -38,7 +38,8 @@
     {{- $body := index . 8 -}}
     {{- $stats.Add (print "s" $n) (sub $b $a) -}}
     {{- $stats.Add (print "w" $n) (countwords $body) -}}
-    {{- $stats.Add (print "q" $n) (strings.Count "?" $body) -}}
+    {{- /* Most cues have no question: skip key formatting and the tally update. */ -}}
+    {{- with strings.Count "?" $body -}}{{- $stats.Add (print "q" $n) . -}}{{- end -}}
     {{- if and (ge $prevEnd 0.0) (gt (sub $a $prevEnd) $gapLen) -}}
       {{- $gapLen = sub $a $prevEnd -}}{{- $gapAt = $prevEnd -}}
     {{- end -}}
@@ -59,7 +60,7 @@
   {{- range $k, $v := $stats.Values -}}
     {{- if and (hasPrefix $k "s") (ge $v 1.0) -}}
       {{- $n := strings.TrimPrefix "s" $k -}}
-      {{- $people = $people | append (dict "n" $n "sec" $v "w" ($stats.Get (print "w" $n)) "q" ($stats.Get (print "q" $n))) -}}
+      {{- $people = $people | append (dict "n" $n "sec" $v "w" ($stats.Get (print "w" $n)) "q" (default 0 ($stats.Get (print "q" $n)))) -}}
     {{- end -}}
   {{- end -}}
   {{- $idx := dict -}}
