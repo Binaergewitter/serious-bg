@@ -59,15 +59,15 @@ Wir diskutieren auch Smart-TVs, 3D-Druck, dynamische Strompreise und mögliche F
 ## News
 
 - [Internet of Shit: Mähroboter ausgebüxt]( https://www.heise.de/news/Nicht-genehmigter-Aussendienst-Maehroboter-ausgebuext-Herkunft-anfangs-unklar-11513345.html )
-- []( https://www.heise.de/news/Supermarkt-Kuehlsysteme-Deutsche-Geheimdienste-ermitteln-nach-Sabotageakten-11516390.html )
-  - [ ]( https://www.bbc.com/news/articles/cmg474vk6dyqo )
+- [Deutsche Geheimdienste ermitteln nach Sabotageakten]( https://www.heise.de/news/Supermarkt-Kuehlsysteme-Deutsche-Geheimdienste-ermitteln-nach-Sabotageakten-11516390.html )
+  - [Iran rejects French claims ]( https://www.bbc.com/news/articles/cmg474vk6dyqo )
 - [Dänen können offline mit Karte oder Wallet zahlen]( https://www.heise.de/news/Daenen-koennen-offline-mit-Karte-oder-Wallet-zahlen-11387663.html )
  - [Mastercard offline zahlungen in europa ab 2027]( https://www.mastercard.com/news/europe/de-de/newsroom/pressemitteilungen/de-de/2026/offline-zahlungen-europa/ )
 - [Firefox Comeback](https://blog.mozilla.org/en/firefox/come-back-to-firefox/ )
 - [Kommt zurück zu Firefox]( https://blog.mozilla.org/de/firefox-de/komm-zurueck-zu-firefox/ )
   - [Webserial in Firefox (21.5.2026)]( https://hacks.mozilla.org/2026/05/web-serial-support-in-firefox/ )
   - [Zen Browser]( https://zen-browser.app/ )
-- https://european.social/
+- [european.social](https://european.social/)
   - https://bmds.bund.de/en/news/press-releases/press-releases/the-launch-of-the-european-social-association
   - https://bmds.bund.de/aktuelles/pressemitteilungen/detail/the-launch-of-the-european-social-association
 - [Debian APT MITM code execution]( https://lists.debian.org/debian-security-announce/2026/msg00526.html?pow_referer= )
