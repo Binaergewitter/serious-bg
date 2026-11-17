@@ -14,7 +14,7 @@
     {{- $numbers := partialCached "sprechzeit/episode.html" $mp3 $mp3 -}}
     {{- $id := len $episodes -}}
     {{- $idText := printf " %d" $id -}}
-    {{- /* The player's episode, the same as in the blog, as a file of its own: fetched only when the episode is opened. */ -}}
+    {{- /* The player's episode, the same as in the blog, as a file of its own: fetched only when the episode is opened. Sprechzeit takes its chapters from there too. */ -}}
     {{- $player := resources.FromString (printf "sprechzeit/player/%s.json" (path.BaseName $mp3)) ((partial "podlove.html" .).episode | jsonify) | fingerprint -}}
     {{- with $numbers.tokens -}}{{- range split . " " -}}{{- $postings.Add . $idText -}}{{- end -}}{{- end -}}
     {{- $episodes = $episodes | append (merge (dict
@@ -24,7 +24,6 @@
         "categories" (.Params.categories | default "")
         "episodeNumber" $number
         "mp3" $mp3
-        "chapters" (.Params.chapters | default "")
         "player" $player.RelPermalink) (dict "hash" $numbers.hash "data" $numbers.data "words" $numbers.words)) -}}
   {{- end -}}
 {{- end -}}

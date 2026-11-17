@@ -56,7 +56,7 @@
     lastYear: null,
     lastPerson: null,
     renderedEp: null,
-    chapterCache: {},
+    playerCache: {},
     searchToken: 0,
     wordIndex: null,  // promise, see loadWords()
   };
@@ -189,8 +189,7 @@
         href: e.permalink,
         mp3: mp3,
         vtt: stem + ".vtt",
-        chaptersUrl: e.chapters || stem + ".chapters.txt",
-        player: e.player || null, // the Podlove player's episode JSON
+        player: e.player || null, // the blog's Podlove player episode, chapters included
         data: e.data || null,    // { dur, who: [[name, sec, words, questions]], segs: [[whoIdx, start, dur]], gap: [len, at] }
         words: e.words || null,  // { group: { counts: [], total, bySpeaker: {name: n} } }
         hash: e.hash || null,    // content hash of the VTT the numbers were made from
@@ -209,18 +208,6 @@
     var p = s.trim().split(":");
     if (p.length === 2) p.unshift("0");
     return (+p[0]) * 3600 + (+p[1]) * 60 + parseFloat(p[2]);
-  }
-
-  function parseChapters(text) {
-    var out = [];
-    text.split(/\r?\n/).forEach(function (line) {
-      line = line.trim();
-      var m = /^(\d+):(\d+):(\d+(?:\.\d+)?)\s+(.+)$/.exec(line) || /^(\d+):(\d+(?:\.\d+)?)\s+(.+)$/.exec(line);
-      if (!m) return;
-      var t = m.length === 5 ? (+m[1]) * 3600 + (+m[2]) * 60 + parseFloat(m[3]) : (+m[1]) * 60 + parseFloat(m[2]);
-      out.push([Math.round(t), m[m.length - 1].trim()]);
-    });
-    return out;
   }
 
   /* derived per-episode numbers, excluding the unassigned remainder */
@@ -509,7 +496,7 @@
     Array.prototype.forEach.call(ROOT.querySelectorAll(".sz-view"), function (sec) {
       sec.hidden = sec.id !== "view-" + S.route.view;
     });
-    if (S.route.view !== "episode") { S.renderedEp = null; PLAYER.pause(); }
+    if (S.route.view !== "episode") { S.renderedEp = null; PLAYER.send("REQUEST_PAUSE"); }
     renderView();
     if (S.route.view === "search") {
       var q = S.route.q || "";
@@ -804,27 +791,29 @@
     if (t != null) { seek(t, true); S.route.t = null; }
   }
 
+  /* The episode as the blog's Podlove player gets it, chapters parsed by Hugo. */
+  function playerEpisode(ep) {
+    return S.playerCache[ep.base] || (S.playerCache[ep.base] = fetch(ep.player).then(function (r) {
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      return r.json();
+    }));
+  }
+
   function renderChapters(ep) {
     var ol = $("ep-chapters");
     ol.textContent = "";
     ol.appendChild(el("li", { class: "text-muted" }, "Kapitel laden …"));
-    var p = S.chapterCache[ep.base];
-    if (!p) {
-      p = S.chapterCache[ep.base] = fetch(ep.chaptersUrl).then(function (r) {
-        if (!r.ok) throw new Error("HTTP " + r.status);
-        return r.text();
-      }).then(parseChapters).catch(function () { return []; });
-    }
-    p.then(function (chapters) {
+    playerEpisode(ep).then(function (pe) { return pe.chapters || []; }, function () { return []; }).then(function (chapters) {
       if (S.renderedEp !== ep) return;
       ol.textContent = "";
       if (!chapters.length) { ol.appendChild(el("li", { class: "text-muted" }, "Für diese Folge gibt es keine Kapiteldatei.")); return; }
       chapters.forEach(function (ch) {
+        var t = Math.round(parseTs(ch.start));
         var li = el("li");
-        var b = el("button", { type: "button", "data-t": ch[0] });
-        b.appendChild(el("span", { class: "ts" }, clock(ch[0], ep.data && ep.data.dur >= 3600)));
-        b.appendChild(el("span", { class: "t" }, ch[1]));
-        b.addEventListener("click", function () { seek(ch[0], true); });
+        var b = el("button", { type: "button", "data-t": t });
+        b.appendChild(el("span", { class: "ts" }, clock(t, ep.data && ep.data.dur >= 3600)));
+        b.appendChild(el("span", { class: "t" }, ch.title));
+        b.addEventListener("click", function () { seek(t, true); });
         li.appendChild(b);
         ol.appendChild(li);
       });
@@ -832,52 +821,44 @@
   }
 
   /* The Podlove Web Player, as in the blog. podlovePlayer() resolves to its redux
-     store: we ask it to seek and play by action and read the time (in ms) from its
-     state. Another episode gets a fresh player, which drops the old one's audio. */
+     store: we seek and play by action and read the time (in ms) from its state.
+     Another episode gets a fresh player, which drops the old one's audio. */
   var PLAYER = {
-    store: null,
-    ep: null,
-    pending: null,   // a seek asked for before the player was ready: [t, play]
+    store: null,   // promise of the current player's store
     time: 0,
     playing: false,
     load: function (ep) {
       var self = this;
-      var box = $("ep-player");
-      self.store = null; self.ep = ep; self.pending = null; self.time = 0; self.playing = false;
-      box.textContent = "";
-      if (!ep.player) return;
       var mount = el("div");
-      box.appendChild(mount);
+      $("ep-player").textContent = "";
+      $("ep-player").appendChild(mount);
+      self.time = 0; self.playing = false;
       var config = JSON.parse(ROOT.getAttribute("data-player-config"));
-      window.head.ready("podlove", function () {
-        if (self.ep !== ep) return;
-        window.podlovePlayer(mount, ep.player, config).then(function (store) {
-          if (self.ep !== ep || !store) return;
-          self.store = store;
-          store.subscribe(function () {
-            var st = store.getState();
-            var type = st.lastAction && st.lastAction.type;
-            if (type === "PLAYER_BACKEND_PLAY") self.playing = true;
-            else if (type === "PLAYER_BACKEND_PAUSE" || type === "PLAYER_BACKEND_END") self.playing = false;
-            if (st.timepiece) self.time = (st.timepiece.playtime || 0) / 1000;
-            onTime();
-          });
-          if (self.pending) self.seek(self.pending[0], self.pending[1]);
-        });
+      var ready = new Promise(function (ok) { window.head.ready("podlove", ok); });
+      var store = self.store = Promise.all([playerEpisode(ep), ready]).then(function (r) {
+        return window.podlovePlayer(mount, r[0], config);
       });
+      store.then(function (st) {
+        st.subscribe(function () {
+          if (self.store !== store) return;
+          var state = st.getState();
+          var type = state.lastAction && state.lastAction.type;
+          if (type === "PLAYER_BACKEND_PLAY") self.playing = true;
+          else if (type === "PLAYER_BACKEND_PAUSE" || type === "PLAYER_BACKEND_END") self.playing = false;
+          self.time = ((state.timepiece && state.timepiece.playtime) || 0) / 1000;
+          onTime();
+        });
+      }, function () { $("ep-player").textContent = ""; });
     },
-    seek: function (t, play) {
-      if (!this.store) { this.pending = [t, play]; return; }
-      this.pending = null;
-      this.store.dispatch({ type: "PLAYER_REQUEST_PLAYTIME", payload: Math.max(0, t) * 1000 });
-      if (play) this.store.dispatch({ type: "PLAYER_REQUEST_PLAY" });
-    },
-    pause: function () {
-      if (this.store) this.store.dispatch({ type: "PLAYER_REQUEST_PAUSE" });
+    send: function (type, payload) {
+      if (this.store) this.store.then(function (st) { st.dispatch({ type: "PLAYER_" + type, payload: payload }); }, function () {});
     },
   };
 
-  function seek(t, play) { PLAYER.seek(t, play); }
+  function seek(t, play) {
+    PLAYER.send("REQUEST_PLAYTIME", Math.max(0, t) * 1000);
+    if (play) PLAYER.send("REQUEST_PLAY");
+  }
   function onTime() {
     var ep = S.renderedEp;
     if (!ep || !ep.data) return;

@@ -18,11 +18,6 @@
   {{- end -}}
 {{- end -}}
 
-{{- $chapters := slice -}}
-{{- range $meta.chapters -}}
-  {{- $chapters = $chapters | append (dict "start" .start "title" .title) -}}
-{{- end -}}
-
 {{- $audio := slice -}}
 {{- range $format, $url := $meta.audioformats -}}
   {{- $audio = $audio | append (dict
@@ -38,7 +33,7 @@
       "contributors" $contributors
       "duration" $meta.durationHms
       "poster" ("img/binaergewitter_logo1x1.png" | relURL)
-      "chapters" $chapters
+      "chapters" $meta.chapters
       "transcripts" $meta.transcript
       "audio" $audio -}}
 
