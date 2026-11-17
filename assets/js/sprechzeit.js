@@ -166,6 +166,12 @@
       var base = mp3.replace(/^.*\//, "").replace(/\.mp3$/i, "");
       if (seen[base]) return;
       seen[base] = 1;
+      if (e.data) {
+        var start = 0;
+        e.data.segs = e.data.segsDelta;
+        e.data.segs.forEach(function (s) { start += s[1]; s[1] = start; });
+        delete e.data.segsDelta;
+      }
       var stem = mp3.replace(/\.mp3$/i, "");
       var kind = kindOf(e);
       var label = labelOf(base, kind);

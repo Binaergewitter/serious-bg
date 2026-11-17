@@ -74,6 +74,8 @@
 
   {{- /* who-spoke-when, rounded to seconds; touching runs of a speaker merge */ -}}
   {{- $segs := slice -}}
+  {{- /* Delta starts compress better; the browser restores absolute seconds once on load. */ -}}
+  {{- $lastStart := 0.0 -}}
   {{- $pw := 0 -}}{{- $ps := 0.0 -}}{{- $pd := 0.0 -}}
   {{- range $runs -}}
     {{- $w := index $idx .n -}}
@@ -83,12 +85,15 @@
       {{- if and (eq $pw $w) (le $seg (add $ps $pd 1.0)) -}}
         {{- $pd = sub (math.Max (add $ps $pd) (add $seg $dur)) $ps -}}
       {{- else -}}
-        {{- if $pw -}}{{- $segs = $segs | append (printf "[%d,%.0f,%.0f]" (sub $pw 1) $ps $pd) -}}{{- end -}}
+        {{- if $pw -}}
+          {{- $segs = $segs | append (printf "[%d,%.0f,%.0f]" (sub $pw 1) (sub $ps $lastStart) $pd) -}}
+          {{- $lastStart = $ps -}}
+        {{- end -}}
         {{- $pw = $w -}}{{- $ps = $seg -}}{{- $pd = $dur -}}
       {{- end -}}
     {{- end -}}
   {{- end -}}
-  {{- if $pw -}}{{- $segs = $segs | append (printf "[%d,%.0f,%.0f]" (sub $pw 1) $ps $pd) -}}{{- end -}}
+  {{- if $pw -}}{{- $segs = $segs | append (printf "[%d,%.0f,%.0f]" (sub $pw 1) (sub $ps $lastStart) $pd) -}}{{- end -}}
 
   {{- /* The term scans and the word list work on the text with every cue header
          cut down to one \x01. Timestamps are all non-letters, and the regexes in
@@ -139,6 +144,6 @@
       "words" $words
       "data" (merge
         (dict "dur" (math.Round $end) "gap" (slice (math.Round $gapLen) (math.Round $gapAt)))
-        (printf `{"who":[%s],"segs":[%s]}` (delimit $who ",") (delimit $segs ",") | transform.Unmarshal)) -}}
+        (printf `{"who":[%s],"segsDelta":[%s]}` (delimit $who ",") (delimit $segs ",") | transform.Unmarshal)) -}}
 {{- end -}}
 {{- return $out -}}
