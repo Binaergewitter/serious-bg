@@ -14,6 +14,7 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 const http = require('http');
+const vm = require('vm');
 
 // Test configuration
 const PUBLIC_DIR = path.join(__dirname, '../public');
@@ -705,8 +706,27 @@ function testSprechzeit() {
     const data = JSON.parse(fs.readFileSync(path.join(PUBLIC_DIR, src[1]), 'utf8'));
     const withData = data.episodes.filter(e => e.data);
     assert(withData.length >= data.episodes.length * 0.95, `Sprechzeit has numbers for ${withData.length} of ${data.episodes.length} episodes`);
-    assert(withData.every(e => e.hash && e.words.swear && e.data.who.length && e.data.segs.length), 'Sprechzeit episodes are complete');
-    assert(withData.every(e => e.data.segs.every(s => s[0] < e.data.who.length)), 'Sprechzeit segments point at a speaker');
+    assert(withData.every(e => e.hash && e.words.swear && e.data.who.length && e.data.segsDelta.length), 'Sprechzeit episodes are complete');
+    assert(withData.every(e => e.data.segsDelta.every(s => s[0] < e.data.who.length)), 'Sprechzeit segments point at a speaker');
+
+    const buildEpisodes = vm.runInNewContext(
+        fs.readFileSync(path.join(__dirname, '../assets/js/sprechzeit.js'), 'utf8')
+            .replace(/\}\)\(\);\s*$/, 'return buildEpisodes;\n})();'),
+        { document: { getElementById: () => ({}), readyState: 'loading', addEventListener() {} } }
+    );
+    const fixtures = withData.slice(0, 3).map((e, i) => ({
+        ...e, data: { ...e.data, segsDelta: [
+            [[0, 6, 4], [1, 2, 3], [0, -1, 2]],
+            [[0, 0, 1], [1, 0, 2]],
+            []
+        ][i] }
+    }));
+    assert(JSON.stringify(buildEpisodes(fixtures).map(e => e.data.segs)) === JSON.stringify([
+        [[0, 6, 4], [1, 8, 3], [0, 7, 2]], [[0, 0, 1], [1, 0, 2]], []
+    ]), 'Sprechzeit decoder handles overlapping starts, negative deltas, per-episode resets and empty segments');
+    assert(buildEpisodes(data.episodes).every(e => !e.data || e.data.segs.every(s =>
+        s.every(Number.isSafeInteger) && s[1] >= 0 && s[1] + s[2] <= e.data.dur + 1
+    )), 'Sprechzeit browser reconstructs valid segment times for every episode');
 
     const wordsSrc = /data-words="?([^"\s>]+)/.exec(html);
     assert(wordsSrc && /^\/sprechzeit\/words\.[0-9a-f]{16,}\.txt$/.test(wordsSrc[1]), 'Sprechzeit page references fingerprinted word index');
