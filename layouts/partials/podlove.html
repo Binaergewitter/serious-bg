@@ -1,0 +1,47 @@
+{{- /*
+  The Podlove Web Player's two arguments for one episode page, so the player in
+  the blog (podcast_controls.html) and the one in Sprechzeit stay the same.
+
+  Returns:
+    episode  map  the episode: title, contributors, chapters, transcript, audio files
+    config   map  the player's settings (podlove_config.html)
+*/ -}}
+{{- $page := . -}}
+{{- $meta := partial "episode_meta.html" (dict "page" $page) -}}
+
+{{- $contributors := slice -}}
+{{- range $voice, $val := $page.Params.voices -}}
+  {{- if $val -}}
+    {{- with (index site.Params.contributors $voice) -}}
+      {{- $contributors = $contributors | append (dict "name" .name) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $chapters := slice -}}
+{{- range $meta.chapters -}}
+  {{- $chapters = $chapters | append (dict "start" .start "title" .title) -}}
+{{- end -}}
+
+{{- $audio := slice -}}
+{{- range $format, $url := $meta.audioformats -}}
+  {{- $audio = $audio | append (dict
+        "url" $url
+        "mimeType" (printf "audio/%s" $format)
+        "size" (index $meta.fileSizes $format | default 0)
+        "title" (printf "Audio %s" $format)) -}}
+{{- end -}}
+
+{{- $episode := dict
+      "link" $page.Permalink
+      "title" $page.Title
+      "contributors" $contributors
+      "duration" $meta.durationHms
+      "poster" ("img/binaergewitter_logo1x1.png" | relURL)
+      "chapters" $chapters
+      "transcripts" $meta.transcript
+      "audio" $audio -}}
+
+{{- $config := partial "podlove_config.html" . -}}
+
+{{- return dict "episode" $episode "config" $config -}}

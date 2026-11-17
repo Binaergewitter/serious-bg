@@ -708,6 +708,13 @@ function testSprechzeit() {
     assert(withData.length >= data.episodes.length * 0.95, `Sprechzeit has numbers for ${withData.length} of ${data.episodes.length} episodes`);
     assert(withData.every(e => e.hash && e.words.swear && e.data.who.length && e.data.segsDelta.length), 'Sprechzeit episodes are complete');
     assert(withData.every(e => e.data.segsDelta.every(s => s[0] < e.data.who.length)), 'Sprechzeit segments point at a speaker');
+    const players = data.episodes.filter(e => e.player && fs.existsSync(path.join(PUBLIC_DIR, e.player)));
+    assert(players.length === data.episodes.length, `Sprechzeit has a Podlove player for ${players.length} of ${data.episodes.length} episodes`);
+    if (players.length) {
+        const ep = JSON.parse(fs.readFileSync(path.join(PUBLIC_DIR, players[0].player), 'utf8'));
+        assert(ep.title && ep.audio.some(a => a.url === players[0].mp3), 'Sprechzeit player episode matches its audio');
+    }
+    assert(/data-player-config=/.test(html), 'Sprechzeit page carries the player settings');
 
     const buildEpisodes = vm.runInNewContext(
         fs.readFileSync(path.join(__dirname, '../assets/js/sprechzeit.js'), 'utf8')

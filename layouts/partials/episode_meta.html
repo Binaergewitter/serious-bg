@@ -12,6 +12,8 @@
     chapters        []   slice of { start, startHms, title }
     durationSeconds  int  total length in seconds (0 if unknown)
     durationIso     str  ISO-8601 duration, e.g. "PT2H23M13S" ("" if unknown)
+    durationHms     str  the same as "02:23:13" ("00:00:00" if unknown)
+    fileSizes       map  bytes per audio format, e.g. { mp3: 123 } (empty if unknown)
     episodeNumber   str  parsed from a "#123" in the title ("" if none)
 */ -}}
 {{- $page := .page -}}
@@ -20,6 +22,8 @@
 {{- $chapters := slice -}}
 {{- $durationSeconds := 0 -}}
 {{- $durationIso := "" -}}
+{{- $durationHms := "00:00:00" -}}
+{{- $fileSizes := dict -}}
 {{- $episodeNumber := "" -}}
 
 {{- /* Episode number from the title, e.g. "Binärgewitter Talk #384: …" -> 384 */ -}}
@@ -50,6 +54,12 @@
           {{- $mm := int (math.Floor (div (math.Mod $durationSeconds 3600) 60)) -}}
           {{- $ss := int (math.Mod $durationSeconds 60) -}}
           {{- $durationIso = printf "PT%dH%dM%dS" $h $mm $ss -}}
+          {{- $durationHms = printf "%02d:%02d:%02d" $h $mm $ss -}}
+        {{- end -}}
+        {{- if reflect.IsMap $meta -}}
+          {{- range $meta.output_files -}}
+            {{- $fileSizes = merge $fileSizes (dict .ending (.size | default 0)) -}}
+          {{- end -}}
         {{- end -}}
       {{- end -}}
     {{- end -}}
@@ -92,4 +102,6 @@
       "chapters" $chapters
       "durationSeconds" $durationSeconds
       "durationIso" $durationIso
+      "durationHms" $durationHms
+      "fileSizes" $fileSizes
       "episodeNumber" $episodeNumber) -}}

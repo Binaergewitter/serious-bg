@@ -190,6 +190,7 @@
         mp3: mp3,
         vtt: stem + ".vtt",
         chaptersUrl: e.chapters || stem + ".chapters.txt",
+        player: e.player || null, // the Podlove player's episode JSON
         data: e.data || null,    // { dur, who: [[name, sec, words, questions]], segs: [[whoIdx, start, dur]], gap: [len, at] }
         words: e.words || null,  // { group: { counts: [], total, bySpeaker: {name: n} } }
         hash: e.hash || null,    // content hash of the VTT the numbers were made from
@@ -508,7 +509,7 @@
     Array.prototype.forEach.call(ROOT.querySelectorAll(".sz-view"), function (sec) {
       sec.hidden = sec.id !== "view-" + S.route.view;
     });
-    if (S.route.view !== "episode") { S.renderedEp = null; $("ep-audio").pause(); }
+    if (S.route.view !== "episode") { S.renderedEp = null; PLAYER.pause(); }
     renderView();
     if (S.route.view === "search") {
       var q = S.route.q || "";
@@ -726,7 +727,6 @@
     if (i < S.episodes.length - 1) nav.appendChild(el("a", { href: epHash(S.episodes[i + 1]), title: S.episodes[i + 1].title }, "← " + S.episodes[i + 1].label));
     if (i > 0) nav.appendChild(el("a", { href: epHash(S.episodes[i - 1]), title: S.episodes[i - 1].title }, S.episodes[i - 1].label + " →"));
 
-    var audio = $("ep-audio");
     if (S.renderedEp === ep && ep.data) { if (t != null) { seek(t, true); S.route.t = null; } return; }
     S.renderedEp = ep;
 
@@ -748,9 +748,7 @@
     meta.textContent = clock(ep.data.dur) + " lang, " + hoursLong(speech) + " davon gesprochen" +
       (unk >= 30 ? ", " + hoursLong(unk) + " nicht zugeordnet" : "") + ". " +
       (ep.auphonic ? "Namen aus der Auphonic-Produktion." : "Namen per Stimmvergleich.");
-    audio.pause();
-    audio.setAttribute("src", ep.mp3);
-    audio.load();
+    PLAYER.load(ep);
 
     var lanes = $("ep-lanes");
     lanes.textContent = "";
@@ -833,27 +831,67 @@
     });
   }
 
-  function seek(t, play) {
-    var audio = $("ep-audio");
-    var go = function () { audio.currentTime = Math.max(0, t); if (play) audio.play().catch(function () {}); };
-    if (audio.readyState >= 1) go();
-    else { audio.addEventListener("loadedmetadata", go, { once: true }); audio.load(); }
-  }
+  /* The Podlove Web Player, as in the blog. podlovePlayer() resolves to its redux
+     store: we ask it to seek and play by action and read the time (in ms) from its
+     state. Another episode gets a fresh player, which drops the old one's audio. */
+  var PLAYER = {
+    store: null,
+    ep: null,
+    pending: null,   // a seek asked for before the player was ready: [t, play]
+    time: 0,
+    playing: false,
+    load: function (ep) {
+      var self = this;
+      var box = $("ep-player");
+      self.store = null; self.ep = ep; self.pending = null; self.time = 0; self.playing = false;
+      box.textContent = "";
+      if (!ep.player) return;
+      var mount = el("div");
+      box.appendChild(mount);
+      var config = JSON.parse(ROOT.getAttribute("data-player-config"));
+      window.head.ready("podlove", function () {
+        if (self.ep !== ep) return;
+        window.podlovePlayer(mount, ep.player, config).then(function (store) {
+          if (self.ep !== ep || !store) return;
+          self.store = store;
+          store.subscribe(function () {
+            var st = store.getState();
+            var type = st.lastAction && st.lastAction.type;
+            if (type === "PLAYER_BACKEND_PLAY") self.playing = true;
+            else if (type === "PLAYER_BACKEND_PAUSE" || type === "PLAYER_BACKEND_END") self.playing = false;
+            if (st.timepiece) self.time = (st.timepiece.playtime || 0) / 1000;
+            onTime();
+          });
+          if (self.pending) self.seek(self.pending[0], self.pending[1]);
+        });
+      });
+    },
+    seek: function (t, play) {
+      if (!this.store) { this.pending = [t, play]; return; }
+      this.pending = null;
+      this.store.dispatch({ type: "PLAYER_REQUEST_PLAYTIME", payload: Math.max(0, t) * 1000 });
+      if (play) this.store.dispatch({ type: "PLAYER_REQUEST_PLAY" });
+    },
+    pause: function () {
+      if (this.store) this.store.dispatch({ type: "PLAYER_REQUEST_PAUSE" });
+    },
+  };
+
+  function seek(t, play) { PLAYER.seek(t, play); }
   function onTime() {
     var ep = S.renderedEp;
-    var audio = $("ep-audio");
     if (!ep || !ep.data) return;
     var head = $("ep-lanes").querySelector(".sz-playhead");
     var svg = $("ep-lanes").querySelector("svg");
     if (head && svg) {
       var wrap = $("ep-lanes").getBoundingClientRect();
       var r = svg.getBoundingClientRect();
-      head.hidden = audio.paused && audio.currentTime === 0;
-      head.style.left = (r.left - wrap.left + (audio.currentTime / ep.data.dur) * r.width) + "px";
+      head.hidden = !PLAYER.playing && PLAYER.time === 0;
+      head.style.left = (r.left - wrap.left + (PLAYER.time / ep.data.dur) * r.width) + "px";
     }
     var now = -1;
     var buttons = $("ep-chapters").querySelectorAll("button");
-    for (var i = 0; i < buttons.length; i++) if (+buttons[i].getAttribute("data-t") <= audio.currentTime + 0.3) now = i;
+    for (var i = 0; i < buttons.length; i++) if (+buttons[i].getAttribute("data-t") <= PLAYER.time + 0.3) now = i;
     for (var k = 0; k < buttons.length; k++) buttons[k].classList.toggle("now", k === now);
   }
 
@@ -1157,9 +1195,6 @@
 
   function wire() {
     window.addEventListener("hashchange", onRoute);
-    var audio = $("ep-audio");
-    audio.addEventListener("timeupdate", onTime);
-    audio.addEventListener("play", onTime);
     $("se-form").addEventListener("submit", function (e) {
       e.preventDefault();
       var q = $("se-q").value.trim();
