@@ -56,7 +56,7 @@
     lastYear: null,
     lastPerson: null,
     renderedEp: null,
-    chapterCache: {},
+    playerCache: {},
     searchToken: 0,
     wordIndex: null,  // promise, see loadWords()
   };
@@ -189,7 +189,7 @@
         href: e.permalink,
         mp3: mp3,
         vtt: stem + ".vtt",
-        chaptersUrl: e.chapters || stem + ".chapters.txt",
+        player: e.player || null, // the blog's Podlove player episode, chapters included
         data: e.data || null,    // { dur, who: [[name, sec, words, questions]], segs: [[whoIdx, start, dur]], gap: [len, at] }
         words: e.words || null,  // { group: { counts: [], total, bySpeaker: {name: n} } }
         hash: e.hash || null,    // content hash of the VTT the numbers were made from
@@ -208,18 +208,6 @@
     var p = s.trim().split(":");
     if (p.length === 2) p.unshift("0");
     return (+p[0]) * 3600 + (+p[1]) * 60 + parseFloat(p[2]);
-  }
-
-  function parseChapters(text) {
-    var out = [];
-    text.split(/\r?\n/).forEach(function (line) {
-      line = line.trim();
-      var m = /^(\d+):(\d+):(\d+(?:\.\d+)?)\s+(.+)$/.exec(line) || /^(\d+):(\d+(?:\.\d+)?)\s+(.+)$/.exec(line);
-      if (!m) return;
-      var t = m.length === 5 ? (+m[1]) * 3600 + (+m[2]) * 60 + parseFloat(m[3]) : (+m[1]) * 60 + parseFloat(m[2]);
-      out.push([Math.round(t), m[m.length - 1].trim()]);
-    });
-    return out;
   }
 
   /* derived per-episode numbers, excluding the unassigned remainder */
@@ -508,7 +496,7 @@
     Array.prototype.forEach.call(ROOT.querySelectorAll(".sz-view"), function (sec) {
       sec.hidden = sec.id !== "view-" + S.route.view;
     });
-    if (S.route.view !== "episode") { S.renderedEp = null; $("ep-audio").pause(); }
+    if (S.route.view !== "episode") { S.renderedEp = null; PLAYER.send("REQUEST_PAUSE"); }
     renderView();
     if (S.route.view === "search") {
       var q = S.route.q || "";
@@ -726,7 +714,6 @@
     if (i < S.episodes.length - 1) nav.appendChild(el("a", { href: epHash(S.episodes[i + 1]), title: S.episodes[i + 1].title }, "← " + S.episodes[i + 1].label));
     if (i > 0) nav.appendChild(el("a", { href: epHash(S.episodes[i - 1]), title: S.episodes[i - 1].title }, S.episodes[i - 1].label + " →"));
 
-    var audio = $("ep-audio");
     if (S.renderedEp === ep && ep.data) { if (t != null) { seek(t, true); S.route.t = null; } return; }
     S.renderedEp = ep;
 
@@ -748,9 +735,7 @@
     meta.textContent = clock(ep.data.dur) + " lang, " + hoursLong(speech) + " davon gesprochen" +
       (unk >= 30 ? ", " + hoursLong(unk) + " nicht zugeordnet" : "") + ". " +
       (ep.auphonic ? "Namen aus der Auphonic-Produktion." : "Namen per Stimmvergleich.");
-    audio.pause();
-    audio.setAttribute("src", ep.mp3);
-    audio.load();
+    PLAYER.load(ep);
 
     var lanes = $("ep-lanes");
     lanes.textContent = "";
@@ -806,54 +791,88 @@
     if (t != null) { seek(t, true); S.route.t = null; }
   }
 
+  /* The episode as the blog's Podlove player gets it, chapters parsed by Hugo. */
+  function playerEpisode(ep) {
+    return S.playerCache[ep.base] || (S.playerCache[ep.base] = fetch(ep.player).then(function (r) {
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      return r.json();
+    }));
+  }
+
   function renderChapters(ep) {
     var ol = $("ep-chapters");
     ol.textContent = "";
     ol.appendChild(el("li", { class: "text-muted" }, "Kapitel laden …"));
-    var p = S.chapterCache[ep.base];
-    if (!p) {
-      p = S.chapterCache[ep.base] = fetch(ep.chaptersUrl).then(function (r) {
-        if (!r.ok) throw new Error("HTTP " + r.status);
-        return r.text();
-      }).then(parseChapters).catch(function () { return []; });
-    }
-    p.then(function (chapters) {
+    playerEpisode(ep).then(function (pe) { return pe.chapters || []; }, function () { return []; }).then(function (chapters) {
       if (S.renderedEp !== ep) return;
       ol.textContent = "";
       if (!chapters.length) { ol.appendChild(el("li", { class: "text-muted" }, "Für diese Folge gibt es keine Kapiteldatei.")); return; }
       chapters.forEach(function (ch) {
+        var t = Math.round(parseTs(ch.start));
         var li = el("li");
-        var b = el("button", { type: "button", "data-t": ch[0] });
-        b.appendChild(el("span", { class: "ts" }, clock(ch[0], ep.data && ep.data.dur >= 3600)));
-        b.appendChild(el("span", { class: "t" }, ch[1]));
-        b.addEventListener("click", function () { seek(ch[0], true); });
+        var b = el("button", { type: "button", "data-t": t });
+        b.appendChild(el("span", { class: "ts" }, clock(t, ep.data && ep.data.dur >= 3600)));
+        b.appendChild(el("span", { class: "t" }, ch.title));
+        b.addEventListener("click", function () { seek(t, true); });
         li.appendChild(b);
         ol.appendChild(li);
       });
     });
   }
 
+  /* The Podlove Web Player, as in the blog. podlovePlayer() resolves to its redux
+     store: we seek and play by action and read the time (in ms) from its state.
+     Another episode gets a fresh player, which drops the old one's audio. */
+  var PLAYER = {
+    store: null,   // promise of the current player's store
+    time: 0,
+    playing: false,
+    load: function (ep) {
+      var self = this;
+      var mount = el("div");
+      $("ep-player").textContent = "";
+      $("ep-player").appendChild(mount);
+      self.time = 0; self.playing = false;
+      var config = JSON.parse(ROOT.getAttribute("data-player-config"));
+      var ready = new Promise(function (ok) { window.head.ready("podlove", ok); });
+      var store = self.store = Promise.all([playerEpisode(ep), ready]).then(function (r) {
+        return window.podlovePlayer(mount, r[0], config);
+      });
+      store.then(function (st) {
+        st.subscribe(function () {
+          if (self.store !== store) return;
+          var state = st.getState();
+          var type = state.lastAction && state.lastAction.type;
+          if (type === "PLAYER_BACKEND_PLAY") self.playing = true;
+          else if (type === "PLAYER_BACKEND_PAUSE" || type === "PLAYER_BACKEND_END") self.playing = false;
+          self.time = ((state.timepiece && state.timepiece.playtime) || 0) / 1000;
+          onTime();
+        });
+      }, function () { $("ep-player").textContent = ""; });
+    },
+    send: function (type, payload) {
+      if (this.store) this.store.then(function (st) { st.dispatch({ type: "PLAYER_" + type, payload: payload }); }, function () {});
+    },
+  };
+
   function seek(t, play) {
-    var audio = $("ep-audio");
-    var go = function () { audio.currentTime = Math.max(0, t); if (play) audio.play().catch(function () {}); };
-    if (audio.readyState >= 1) go();
-    else { audio.addEventListener("loadedmetadata", go, { once: true }); audio.load(); }
+    PLAYER.send("REQUEST_PLAYTIME", Math.max(0, t) * 1000);
+    if (play) PLAYER.send("REQUEST_PLAY");
   }
   function onTime() {
     var ep = S.renderedEp;
-    var audio = $("ep-audio");
     if (!ep || !ep.data) return;
     var head = $("ep-lanes").querySelector(".sz-playhead");
     var svg = $("ep-lanes").querySelector("svg");
     if (head && svg) {
       var wrap = $("ep-lanes").getBoundingClientRect();
       var r = svg.getBoundingClientRect();
-      head.hidden = audio.paused && audio.currentTime === 0;
-      head.style.left = (r.left - wrap.left + (audio.currentTime / ep.data.dur) * r.width) + "px";
+      head.hidden = !PLAYER.playing && PLAYER.time === 0;
+      head.style.left = (r.left - wrap.left + (PLAYER.time / ep.data.dur) * r.width) + "px";
     }
     var now = -1;
     var buttons = $("ep-chapters").querySelectorAll("button");
-    for (var i = 0; i < buttons.length; i++) if (+buttons[i].getAttribute("data-t") <= audio.currentTime + 0.3) now = i;
+    for (var i = 0; i < buttons.length; i++) if (+buttons[i].getAttribute("data-t") <= PLAYER.time + 0.3) now = i;
     for (var k = 0; k < buttons.length; k++) buttons[k].classList.toggle("now", k === now);
   }
 
@@ -1157,9 +1176,6 @@
 
   function wire() {
     window.addEventListener("hashchange", onRoute);
-    var audio = $("ep-audio");
-    audio.addEventListener("timeupdate", onTime);
-    audio.addEventListener("play", onTime);
     $("se-form").addEventListener("submit", function (e) {
       e.preventDefault();
       var q = $("se-q").value.trim();

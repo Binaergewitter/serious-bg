@@ -308,8 +308,9 @@
     font-size: 16px;
 }
 
-.sprechzeit #ep-audio {
+.sprechzeit #ep-player {
     width: 100%;
+    min-height: 220px;
     margin: 6px 0 14px;
 }
 

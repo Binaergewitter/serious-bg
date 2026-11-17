@@ -9,7 +9,7 @@
 {{ $data := resources.FromString "sprechzeit/data.json" $built.json | fingerprint }}
 {{ $words := resources.FromString "sprechzeit/words.txt" $built.words | fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
-<article class="post sprechzeit" id="sprechzeit" data-src="{{ $data.RelPermalink }}" data-words="{{ $words.RelPermalink }}">
+<article class="post sprechzeit" id="sprechzeit" data-player-config="{{ partial "podlove_config.html" . | jsonify }}" data-src="{{ $data.RelPermalink }}" data-words="{{ $words.RelPermalink }}">
     <header>
         <h1>Sprechzeit</h1>
         <p class="lead">Wer hat bei Binärgewitter wie lange geredet, wie schnell, und worüber? Alles hier stammt
@@ -70,7 +70,7 @@
         <nav class="sz-epnav" id="ep-nav" aria-label="Folge wechseln"></nav>
         <h2 id="ep-title"></h2>
         <p class="text-muted" id="ep-meta"></p>
-        <audio id="ep-audio" controls preload="none"></audio>
+        <div class="sz-player" id="ep-player"></div>
         <div class="sz-lanes" id="ep-lanes"></div>
         <div class="row">
             <div class="col-sm-6">

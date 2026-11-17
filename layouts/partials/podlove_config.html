@@ -1,0 +1,29 @@
+{{- /* The Podlove Web Player's settings, the same for every episode: theme, subscribe button, share. */ -}}
+{{- $config := dict
+      "version" 5
+      "base" ("podlove-web-player/" | relURL)
+      "theme" (dict "tokens" (dict
+        "brand" "#7FAF1B"
+        "brandDark" "#202c07"
+        "brandDarkest" "#1B4D3E"
+        "brandLightest" "#7faf1b"
+        "shadeDark" "#807E7C"
+        "shadeBase" "#807E7C"
+        "contrast" "#fff"
+        "alt" "#fff"))
+      "subscribe-button" (dict
+        "feed" ("podcast_feed/all/mp3/rss.xml" | absURL)
+        "clients" (slice
+          (dict "id" "apple-podcasts" "service" "id216877594")
+          (dict "id" "spotify" "service" "19LedqK0fGWfzfKzySDoVW")
+          (dict "id" "pocket-casts")
+          (dict "id" "overcast")
+          (dict "id" "castro")
+          (dict "id" "antenna-pod")
+          (dict "id" "podcast-addict")
+          (dict "id" "rss")))
+      "share" (dict
+        "channels" (slice "linkedin" "mail" "link")
+        "outlet" ("share.html" | relURL)
+        "sharePlaytime" true) -}}
+{{- return $config -}}
