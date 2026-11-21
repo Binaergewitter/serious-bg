@@ -27,9 +27,6 @@ jobs:
       - name: Build site
         run: hugo --minify
       
-      - name: Compress search index
-        run: gzip -k public/index.json
-      
       - name: Run tests
         run: node tests/test.js
 
