@@ -1,9 +1,8 @@
 /*!
  * "Fork me on GitHub" CSS ribbon, vendored from
  * https://github.com/simonwhitaker/github-fork-ribbon-css (v0.2.3, MIT License)
- * with site-specific tweaks: green background colour, and swapping to the
- * bottom-left corner (instead of shrinking/repositioning the top-left one)
- * on small screens so it never overlaps the mobile nav/title.
+ * with site-specific tweaks: green background colour, and only shown from
+ * 992px (see the end of this file).
  */
 
 .github-fork-ribbon {
