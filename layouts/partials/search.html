@@ -47,12 +47,9 @@
     let flexIndex = null;
     let indexLoading = null;
 
-    // One request for the index, shared by every keystroke. nginx serves the
-    // pre-compressed index.json.gz transparently (gzip_static) when the
-    // browser asks for /index.json, so there is nothing to gain from fetching
-    // the .gz by hand: that returned raw gzip bytes as application/octet-stream
-    // without Content-Encoding, .json() threw, and every first search paid for
-    // both downloads.
+    // One request for the index, shared by every keystroke. nginx answers
+    // /index.json with the Brotli file the Dockerfile builds (brotli_static),
+    // or gzips it on the fly for clients without Brotli.
     function loadSearchIndex() {
         if (!indexLoading) {
             indexLoading = fetch('{{ "/index.json" | relURL }}')

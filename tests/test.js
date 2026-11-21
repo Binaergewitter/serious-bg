@@ -275,24 +275,6 @@ function testNoEncodedSpaces() {
     }
 }
 
-// Test 5: Search index is gzipped
-function testSearchIndexGzip() {
-    console.log('\n🗜️  Testing search index compression...');
-
-    const jsonPath = path.join(PUBLIC_DIR, 'index.json');
-    const gzPath = path.join(PUBLIC_DIR, 'index.json.gz');
-
-    if (fs.existsSync(jsonPath) && fs.existsSync(gzPath)) {
-        const jsonSize = fs.statSync(jsonPath).size;
-        const gzSize = fs.statSync(gzPath).size;
-        const ratio = ((1 - gzSize / jsonSize) * 100).toFixed(1);
-
-        assert(gzSize < jsonSize, `Gzipped index is smaller (${ratio}% reduction)`);
-    } else {
-        console.log('⚠️  Gzipped index not found (only generated in Docker build)');
-    }
-}
-
 // Test 6: Isso comments use relative paths without trailing slashes
 function testIssoComments() {
     console.log('\n💬 Testing Isso comments configuration...');
@@ -546,7 +528,13 @@ function testNginxConfig() {
         const content = fs.readFileSync(nginxPath, 'utf8');
         assert(content.includes('rewrite ^/blog/(.*)$ /$1 permanent;'), 'Nginx contains /blog/ redirect');
         console.log('✅ Nginx contains legacy /blog/ redirect');
+        assert(/^\s*brotli_static on;/m.test(content), 'Nginx serves pre-built Brotli files');
     }
+
+    // The Brotli files nginx serves are only there if the Dockerfile builds them
+    const dockerfile = fs.readFileSync(path.join(__dirname, '../Dockerfile'), 'utf8');
+    const brotliRun = /RUN brotli(?:.*\\\n)*.*/.exec(dockerfile);
+    assert(brotliRun && brotliRun[0].includes('/usr/share/nginx/html/index.json'), 'Dockerfile pre-compresses the search index with Brotli');
 }
 
 // Test 12: Latest show endpoint exists and is dynamic
@@ -763,7 +751,6 @@ async function runTests() {
     testRSSFeeds();
     testNavigationLinks();
     testNoEncodedSpaces();
-    testSearchIndexGzip();
     testIssoComments();
     testRSSGUIDs();
     testCategoryFeedScope();
