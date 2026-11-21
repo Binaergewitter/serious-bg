@@ -1,9 +1,8 @@
 /*!
  * "Fork me on GitHub" CSS ribbon, vendored from
  * https://github.com/simonwhitaker/github-fork-ribbon-css (v0.2.3, MIT License)
- * with site-specific tweaks: green background colour, and swapping to the
- * bottom-left corner (instead of shrinking/repositioning the top-left one)
- * on small screens so it never overlaps the mobile nav/title.
+ * with site-specific tweaks: green background colour, and only shown from
+ * 992px (see the end of this file).
  */
 
 .github-fork-ribbon {
@@ -130,19 +129,35 @@
     transform: rotate(-45deg);
 }
 
-/* Site-specific: show the top-left ribbon on regular screens, and swap to
-   the bottom-left one (out of the way of the nav/title) on small screens. */
-.ribbon-mobile-only {
+/* Site-specific: the corner ribbon only on wide screens. Below 992px the nav
+   collapses into the hamburger bar, where the ribbon would cover the brand and
+   the toggle, and a fixed ribbon on phones covers the text. There a slim bar in
+   the ribbon's green sits above the nav instead and scrolls away with it. */
+.github-bar {
     display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
     .ribbon-desktop-only {
         display: none;
     }
 
-    .ribbon-mobile-only {
+    .github-bar {
         display: block;
-        font-size: 10px;
+        padding: 4px 15px;
+        background-color: #090;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));
+        color: #fff;
+        font: 700 13px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-align: center;
+        text-decoration: none;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+    }
+
+    .github-bar:hover,
+    .github-bar:focus {
+        color: #fff;
+        background-color: #070;
+        text-decoration: none;
     }
 }

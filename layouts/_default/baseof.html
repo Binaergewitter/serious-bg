@@ -18,6 +18,7 @@
     head.load({{ "css/iconfont/style.css" | relURL }})
     head.load({{ "css/pre.css" | relURL }})
     head.load({{ "css/github-ribbon.css" | relURL }})
+    head.load({{ "css/navbar.css" | relURL }})
   </script>
 
   <link rel="canonical" href="{{ .Permalink }}" />
@@ -297,9 +298,8 @@
   <a class="github-fork-ribbon left-top fixed ribbon-desktop-only" href="https://github.com/Binaergewitter/serious-bg"
     target="_blank" rel="noopener noreferrer" data-ribbon="Fix me on GitHub" title="Fix me on GitHub">Fix me on
     GitHub</a>
-  <a class="github-fork-ribbon left-bottom fixed ribbon-mobile-only" href="https://github.com/Binaergewitter/serious-bg"
-    target="_blank" rel="noopener noreferrer" data-ribbon="Fix me on GitHub" title="Fix me on GitHub">Fix me on
-    GitHub</a>
+  <a class="github-bar" href="https://github.com/Binaergewitter/serious-bg" target="_blank"
+    rel="noopener noreferrer"><i class="icon-github"></i> Fix me on GitHub &rarr;</a>
 
   {{ partial "navigation.html" . }}
 
