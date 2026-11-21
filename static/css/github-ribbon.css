@@ -130,19 +130,11 @@
     transform: rotate(-45deg);
 }
 
-/* Site-specific: show the top-left ribbon on regular screens, and swap to
-   the bottom-left one (out of the way of the nav/title) on small screens. */
-.ribbon-mobile-only {
-    display: none;
-}
-
-@media screen and (max-width: 768px) {
+/* Site-specific: only on wide screens. Below 992px the nav collapses into the
+   hamburger bar, where the ribbon would cover the brand and the toggle, and a
+   fixed ribbon on phones covers the text. navigation.html has a menu entry instead. */
+@media screen and (max-width: 991px) {
     .ribbon-desktop-only {
         display: none;
-    }
-
-    .ribbon-mobile-only {
-        display: block;
-        font-size: 10px;
     }
 }
