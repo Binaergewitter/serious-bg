@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #363: Drop-Shipping für Domains"
 date: 2025-07-26 16:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2025-07-25.Binaergewitter.Talk.363.chapters.txt
 transcript: https://download.binaergewitter.de/2025-07-25.Binaergewitter.Talk.363-speech.json
 audioformats:

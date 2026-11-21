@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #302: irgendwas mit https"
 date: 2022-09-14 23:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2022-09-13.Binaergewitter.Talk.302.chapters.txt
 transcript: https://download.binaergewitter.de/2022-09-13.Binaergewitter.Talk.302-speech.json
 audioformats:

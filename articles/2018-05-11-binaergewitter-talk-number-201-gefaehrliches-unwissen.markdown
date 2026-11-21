@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #201: Gefährliches Unwissen"
 date: 2018-05-11 12:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2018-05-10.Binaergewitter.Talk.201-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2018-05-10.Binaergewitter.Talk.201.mp3

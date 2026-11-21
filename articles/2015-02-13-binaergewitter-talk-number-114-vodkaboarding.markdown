@@ -1,13 +1,9 @@
 ---
-layout: post
 title: "Binärgewitter Talk #114: Vodkaboarding"
 date: 2015-02-13 12:00:00
 
-comments: true
 categories: talk
-sharing: true
 release: 2
-published: true
 transcript: https://download.binaergewitter.de/2015-02-12.Binaergewitter.Talk.114-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2015-02-12.Binaergewitter.Talk.114.mp3

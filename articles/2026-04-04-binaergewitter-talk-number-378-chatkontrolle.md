@@ -1,13 +1,9 @@
 ---
-layout: post
 title: "Binärgewitter Talk #378: Und täglich grüßt die Chatkontrolle"
 date: 2026-04-04 15:00:00
 description: "Chatkontrolle, TypeScript 6.0, Nextcloud User External, GitHub-Uptime, Claude-Code-Leak, LiteLLM, KubeCon EU und weitere Tech-News."
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2026-04-03.Binaergewitter.Talk.378.chapters.txt
 transcript: https://download.binaergewitter.de/2026-04-03.Binaergewitter.Talk.378-speech.json
 audioformats:

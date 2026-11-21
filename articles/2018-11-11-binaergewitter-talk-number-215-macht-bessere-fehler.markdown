@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #215: Macht bessere Fehler"
 date: 2018-11-11 12:30:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2018-11-10.Binaergewitter.Talk.215-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2018-11-10.Binaergewitter.Talk.215.mp3

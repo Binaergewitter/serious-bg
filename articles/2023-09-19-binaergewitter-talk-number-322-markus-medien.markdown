@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #322: markus von den Medien"
 date: 2023-09-20 07:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2023-09-18.Binaergewitter.Talk.322.chapters.txt
 transcript: https://download.binaergewitter.de/2023-09-18.Binaergewitter.Talk.322-speech.json
 audioformats:

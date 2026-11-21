@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #387: Paperclip CEO"
 date: 2026-10-03 15:00:00
 description: "Wir sprechen über die vorzeitig beendete Vero-Aktion und die Folgen vieler kleiner Überweisungen für Vereine. Außerdem geht es um KI-Agents mit Paperclip, Automatisierung im Homelab und verschiedene Nachrichten zu digitaler Infrastruktur, KI, Smart Home und Hardware."
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2026-10-02.Binaergewitter.Talk.387.chapters.txt
 transcript: https://download.binaergewitter.de/2026-10-02.Binaergewitter.Talk.387-speech.json
 audioformats:

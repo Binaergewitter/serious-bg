@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #277: Coolbernetes"
 date: 2021-05-14 18:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2021-05-13.Binaergewitter.Talk.277.chapters.txt
 transcript: https://download.binaergewitter.de/2021-05-13.Binaergewitter.Talk.277-speech.json
 audioformats:

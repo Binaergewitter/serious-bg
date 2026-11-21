@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #347: DRM Brennstäbe"
 date: 2024-11-09 16:30:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2024-11-08.Binaergewitter.Talk.347.chapters.txt
 transcript: https://download.binaergewitter.de/2024-11-08.Binaergewitter.Talk.347-speech.json
 audioformats:

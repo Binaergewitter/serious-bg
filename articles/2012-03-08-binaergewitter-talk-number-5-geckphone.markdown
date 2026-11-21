@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #5 - Geckphone!"
 date: 2012-03-08 11:07:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2012-03-07.Binaergewitter.Talk.5-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2012-03-07.Binaergewitter.Talk.5.mp3

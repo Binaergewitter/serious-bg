@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #370: Ein Skibidi Rizz"
 date: 2025-11-16 10:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2025-11-14.Binaergewitter.Talk.370.chapters.txt
 transcript: https://download.binaergewitter.de/2025-11-14.Binaergewitter.Talk.370-speech.json
 audioformats:

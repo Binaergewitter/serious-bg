@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #141: Mehr Internet-Volumen-Spray"
 date: 2016-01-12 10:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2016-02-11.Binaergewitter.Talk.141-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2016-02-11.Binaergewitter.Talk.141.mp3

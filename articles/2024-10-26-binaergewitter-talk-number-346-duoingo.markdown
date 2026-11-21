@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #346: Duoingo"
 date: 2024-10-26 22:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2024-10-25.Binaergewitter.Talk.346.chapters.txt
 transcript: https://download.binaergewitter.de/2024-10-25.Binaergewitter.Talk.346-speech.json
 audioformats:

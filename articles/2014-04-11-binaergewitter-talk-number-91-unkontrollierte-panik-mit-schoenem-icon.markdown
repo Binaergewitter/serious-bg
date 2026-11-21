@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #91 - Unkontrollierte Panik mit schönem Icon"
 date: 2014-04-11 17:00:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2014-04-10.Binaergewitter.Talk.91-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2014-04-10.Binaergewitter.Talk.91.mp3

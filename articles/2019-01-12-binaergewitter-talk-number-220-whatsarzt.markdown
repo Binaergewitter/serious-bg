@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #220: Whats-Arzt"
 date: 2019-01-12 10:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2019-01-10.Binaergewitter.Talk.220-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2019-01-10.Binaergewitter.Talk.220.mp3

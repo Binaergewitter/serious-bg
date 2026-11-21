@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #189: Bundes CheeseFS"
 date: 2018-01-05 08:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2018-01-04.Binaergewitter.Talk.189-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2018-01-04.Binaergewitter.Talk.189.mp3

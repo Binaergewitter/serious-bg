@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #315: ChatGPT, confident aber auch oft ein bisschen falsch"
 date: 2023-05-19 20:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2023-05-18.Binaergewitter.Talk.315.chapters.txt
 transcript: https://download.binaergewitter.de/2023-05-18.Binaergewitter.Talk.315-speech.json
 audioformats:

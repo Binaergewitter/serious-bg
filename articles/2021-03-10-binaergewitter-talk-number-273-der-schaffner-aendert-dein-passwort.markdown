@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #273: Wenn der Schaffner dein Passwort zurücksetzt"
 date: 2021-03-10 10:30:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2021-03-08.Binaergewitter.Talk.273.chapters.txt
 transcript: https://download.binaergewitter.de/2021-03-08.Binaergewitter.Talk.273-speech.json
 audioformats:

@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Spezial #6: Programmiersprachen 2015"
 date: 2015-04-30 21:00:00
 
-comments: true
 categories: spezial
-sharing: true
 release: 2
 transcript: https://download.binaergewitter.de/2015-04-28.Binaergewitter.Spezial.6-speech.json
 audioformats:

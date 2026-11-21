@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #129: Android Underground Farming"
 date: 2015-09-03 11:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2015-08-27.Binaergewitter.Talk.129-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2015-08-27.Binaergewitter.Talk.129.mp3

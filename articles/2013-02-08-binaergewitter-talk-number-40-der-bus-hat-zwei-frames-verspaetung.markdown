@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #40 - der Bus hat zwei Frames Verspätung"
 date: 2013-02-08 12:00:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2013-02-07.Binaergewitter.Talk.40-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2013-02-07.Binaergewitter.Talk.40.mp3

@@ -1,10 +1,6 @@
 ---
-layout: page
 title: "Spenden"
 slug: "spenden"
-comments: false
-sharing: false
-footer: true
 ---
 
 Ihr wollt uns etwas gutes tun? Prima. Wir freuen uns. Dann gibts Pizza, Kaffee oder Mate für uns.

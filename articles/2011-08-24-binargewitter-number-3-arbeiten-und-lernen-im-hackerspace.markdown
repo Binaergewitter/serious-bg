@@ -1,9 +1,7 @@
 ---
-layout: post
 title: "Binärgewitter #3: Arbeiten und Lernen im Hackerspace"
 date: 2011-08-24 15:57:00
 
-comments: true
 categories: spezial
 transcript: https://download.binaergewitter.de/2011-08-18.RadioTux.Binaergewitter.3-speech.json
 audioformats:

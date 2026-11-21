@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #352: 36. Januar"
 date: 2025-01-27 21:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2025-01-26.Binaergewitter.Talk.352.chapters.txt
 transcript: https://download.binaergewitter.de/2025-01-26.Binaergewitter.Talk.352-speech.json
 audioformats:

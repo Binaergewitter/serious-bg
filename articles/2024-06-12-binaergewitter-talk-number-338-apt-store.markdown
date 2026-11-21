@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #338: neu in eurem apt store"
 date: 2024-06-12 22:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2024-06-11.Binaergewitter.Talk.338.chapters.txt
 transcript: https://download.binaergewitter.de/2024-06-11.Binaergewitter.Talk.338-speech.json
 audioformats:

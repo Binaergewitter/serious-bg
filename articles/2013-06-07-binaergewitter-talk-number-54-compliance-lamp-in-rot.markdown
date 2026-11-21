@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #54 - Compliance Lampe in Rot"
 date: 2013-06-07 09:45:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2013-06-06.Binaergewitter.Talk.54-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2013-06-06.Binaergewitter.Talk.54.mp3

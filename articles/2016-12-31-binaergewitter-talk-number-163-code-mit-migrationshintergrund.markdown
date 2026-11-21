@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #163: Code mit Migratonshintergrund"
 date: 2016-12-31 19:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2016-12-29.Binaergewitter.Talk.163-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2016-12-29.Binaergewitter.Talk.163.mp3

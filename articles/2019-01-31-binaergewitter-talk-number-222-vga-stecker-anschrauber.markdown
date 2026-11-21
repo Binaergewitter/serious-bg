@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #222: VGA Stecker Anschrauber"
 date: 2019-01-31 10:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2019-01-30.Binaergewitter.Talk.222-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2019-01-30.Binaergewitter.Talk.222.mp3

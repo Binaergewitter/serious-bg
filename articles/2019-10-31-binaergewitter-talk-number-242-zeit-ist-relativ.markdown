@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #242: Zeit ist relativ, nur Sommerzeit ist scheiße"
 date: 2019-10-31 16:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2019-10-30.Binaergewitter.Talk.242-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2019-10-30.Binaergewitter.Talk.242.mp3

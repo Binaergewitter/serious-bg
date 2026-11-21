@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #16 - OpenSource Messias"
 date: 2012-06-01 13:30:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2012-05-31.Binaergewitter.Talk.16-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2012-05-31.Binaergewitter.Talk.16.mp3

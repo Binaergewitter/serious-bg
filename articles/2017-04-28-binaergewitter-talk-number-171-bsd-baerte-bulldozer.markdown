@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #171: BSD, Bärte und Bulldozer"
 date: 2017-04-28 14:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2017-04-27.Binaergewitter.Talk.171-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2017-04-27.Binaergewitter.Talk.171.mp3

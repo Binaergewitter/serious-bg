@@ -1,11 +1,7 @@
 ---
-layout: post
 title: "Binärgewitter Talk #385: let me AI that for you"
 date: 2026-08-29 19:00:00
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2026-08-28.Binaergewitter.Talk.385.chapters.txt
 transcript: https://download.binaergewitter.de/2026-08-28.Binaergewitter.Talk.385-speech.json
 audioformats:

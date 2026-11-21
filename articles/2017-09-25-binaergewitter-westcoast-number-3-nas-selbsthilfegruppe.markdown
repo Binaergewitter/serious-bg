@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Westcoast #3: NAS Selbsthilfegruppe!"
 date: 2017-09-25 17:00:00
 
-comments: true
 categories: westcoast
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2017-09-24.Binaergewitter.Westcoast.3-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2017-09-24.Binaergewitter.Westcoast.3.mp3

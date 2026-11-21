@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #115: FireTV Fernbedienungsspar-Abo"
 date: 2015-02-28 12:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 release: 2
 transcript: https://download.binaergewitter.de/2015-02-26.Binaergewitter.Talk.115-speech.json
 audioformats:

@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #47 - von Null auf Systemd"
 date: 2013-04-05 18:00:00
 
-comments: true
 categories: talk
-sharing: true
 release: 2
 transcript: https://download.binaergewitter.de/2013-04-04.Binaergewitter.Talk.47-speech.json
 audioformats:

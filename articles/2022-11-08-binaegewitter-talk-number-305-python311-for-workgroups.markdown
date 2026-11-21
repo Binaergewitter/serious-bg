@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #305: Python 3.11 for Workgroups"
 date: 2022-11-08 17:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2022-11-07.Binaergewitter.Talk.305.chapters.txt
 transcript: https://download.binaergewitter.de/2022-11-07.Binaergewitter.Talk.305-speech.json
 audioformats:

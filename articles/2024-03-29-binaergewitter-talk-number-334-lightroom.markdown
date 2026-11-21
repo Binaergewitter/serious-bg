@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #334: Die Adobe Lightroom Downloader App"
 date: 2024-03-29 21:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2024-03-28.Binaergewitter.Talk.334.chapters.txt
 transcript: https://download.binaergewitter.de/2024-03-28.Binaergewitter.Talk.334-speech.json
 audioformats:

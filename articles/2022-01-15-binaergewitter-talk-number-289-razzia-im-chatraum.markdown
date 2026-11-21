@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #289: Razzia im Chatraum"
 date: 2022-01-15 23:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2022-01-14.Binaergewitter.Talk.289.chapters.txt
 transcript: https://download.binaergewitter.de/2022-01-14.Binaergewitter.Talk.289-speech.json
 audioformats:

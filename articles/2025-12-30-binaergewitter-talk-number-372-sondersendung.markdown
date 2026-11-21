@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #372: Sondersendung"
 date: 2025-12-30 13:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2025-12-29.Binaergewitter.Talk.372.chapters.txt
 transcript: https://download.binaergewitter.de/2025-12-29.Binaergewitter.Talk.372-speech.json
 audioformats:

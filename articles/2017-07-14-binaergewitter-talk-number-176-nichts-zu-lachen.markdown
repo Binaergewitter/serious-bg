@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #176: Nichts zu lachen"
 date: 2017-07-14 18:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2017-07-13.Binaergewitter.Talk.176-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2017-07-13.Binaergewitter.Talk.176.mp3

@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #211: XML kann weg"
 date: 2018-09-21 14:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2018-09-20.Binaergewitter.Talk.211-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2018-09-20.Binaergewitter.Talk.211.mp3

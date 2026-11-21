@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Westcoast #7: Ethernet Loch"
 date: 2020-12-04 16:00:00
 
-comments: true
 categories: westcoast
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2020-12-04.Binaergewitter.Westcoast.7-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2020-12-04.Binaergewitter.Westcoast.7.mp3

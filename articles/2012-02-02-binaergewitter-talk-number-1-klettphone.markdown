@@ -1,10 +1,7 @@
 ---
-layout: post
 title: "Binärgewitter Talk #1 - Klettphone"
 date: 2012-02-02 16:00:00
 
-comments: true
-sharing: true
 categories: talk
 transcript: https://download.binaergewitter.de/2012-02-01.Binaergewitter.Talk.1-speech.json
 audioformats:

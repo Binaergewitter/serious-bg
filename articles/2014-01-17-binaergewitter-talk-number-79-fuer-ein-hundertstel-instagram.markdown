@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #79 - Für ein Hundertstel Instagram"
 date: 2014-01-20 11:00:00
 
-comments: true
 categories: talk
-sharing: true
 release: 2
 transcript: https://download.binaergewitter.de/2014-01-16.Binaergewitter.Talk.79-speech.json
 audioformats:

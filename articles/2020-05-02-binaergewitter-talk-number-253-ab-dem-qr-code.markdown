@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #253: Ab dem QR Code hört mein Gehirn auf zu funktionieren"
 date: 2020-05-02 12:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2020-05-01.Binaergewitter.Talk.253.chapters.txt
 transcript: https://download.binaergewitter.de/2020-05-01.Binaergewitter.Talk.253-speech.json
 audioformats:

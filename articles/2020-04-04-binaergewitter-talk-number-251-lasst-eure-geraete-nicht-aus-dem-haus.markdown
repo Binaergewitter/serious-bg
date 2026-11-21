@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #251: Lasst eure Geräte nicht aus dem Haus"
 date: 2020-04-04 18:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2020-04-03.Binaergewitter.Talk.251.chapters.txt
 transcript: https://download.binaergewitter.de/2020-04-03.Binaergewitter.Talk.251-speech.json
 audioformats:

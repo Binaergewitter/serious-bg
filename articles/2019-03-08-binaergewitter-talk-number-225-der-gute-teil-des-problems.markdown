@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #225: der gute Teil des Problems"
 date: 2019-03-08 10:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2019-03-06.Binaergewitter.Talk.225-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2019-03-06.Binaergewitter.Talk.225.mp3

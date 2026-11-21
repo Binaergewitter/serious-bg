@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #145: Panama ist außerhalb des Sicherheitsignoranzfensters"
 date: 2016-04-10
 
-comments: true
 categories: talk
-sharing: true
-published: true
 release: 2
 transcript: https://download.binaergewitter.de/2016-04-07.Binaergewitter.Talk.145-speech.json
 audioformats:

@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #243: Microsoft Agile der neue Brower für Linux"
 date: 2019-11-07 20:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2019-11-06.Binaergewitter.Talk.243-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2019-11-06.Binaergewitter.Talk.243.mp3

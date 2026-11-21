@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #291: Internet-Romantik"
 date: 2022-02-22 20:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2022-02-21.Binaergewitter.Talk.291.chapters.txt
 transcript: https://download.binaergewitter.de/2022-02-21.Binaergewitter.Talk.291-speech.json
 audioformats:

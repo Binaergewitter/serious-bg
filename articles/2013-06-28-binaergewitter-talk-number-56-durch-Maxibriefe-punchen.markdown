@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #56 - durch Maxibriefe punchen"
 date: 2013-06-28 20:45:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2013-06-27.Binaergewitter.Talk.56-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2013-06-27.Binaergewitter.Talk.56.mp3

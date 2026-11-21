@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #240: man braucht Querulanten"
 date: 2019-10-02 19:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2019-10-01.Binaergewitter.Talk.240-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2019-10-01.Binaergewitter.Talk.240.mp3

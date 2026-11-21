@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #356: ... wenn du ein Ceph Cluster betreibst"
 date: 2025-03-25 21:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2025-03-24.Binaergewitter.Talk.356.chapters.txt
 transcript: https://download.binaergewitter.de/2025-03-24.Binaergewitter.Talk.356-speech.json
 audioformats:

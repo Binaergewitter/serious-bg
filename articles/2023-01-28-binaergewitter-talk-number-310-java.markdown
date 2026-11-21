@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #310: Java Opportunities"
 date: 2023-01-28 17:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2023-01-26.Binaergewitter.Talk.310.chapters.txt
 transcript: https://download.binaergewitter.de/2023-01-26.Binaergewitter.Talk.310-speech.json
 audioformats:

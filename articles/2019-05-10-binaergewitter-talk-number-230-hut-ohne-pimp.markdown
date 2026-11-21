@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #230: Hut ohne Pimp"
 date: 2019-05-10 10:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2019-05-10.Binaergewitter.Talk.230-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2019-05-10.Binaergewitter.Talk.230.mp3

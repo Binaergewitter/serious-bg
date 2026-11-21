@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #213: die neuen Pole bilden"
 date: 2018-10-19 20:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2018-10-18.Binaergewitter.Talk.213-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2018-10-18.Binaergewitter.Talk.213.mp3

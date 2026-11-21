@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #364: Seilbahn statt Stau"
 date: 2025-08-08 15:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2025-08-07.Binaergewitter.Talk.364.chapters.txt
 transcript: https://download.binaergewitter.de/2025-08-07.Binaergewitter.Talk.364-speech.json
 audioformats:

@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #116: Bin ich jetzt in Gopher"
 date: 2015-03-06 17:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2015-03-05.Binaergewitter.Talk.116-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2015-03-05.Binaergewitter.Talk.116.mp3

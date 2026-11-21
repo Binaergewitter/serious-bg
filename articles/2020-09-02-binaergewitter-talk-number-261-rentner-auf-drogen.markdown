@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #261: Ein Rentner auf Drogen"
 date: 2020-09-02 16:30:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2020-09-01.Binaergewitter.Talk.261.chapters.txt
 transcript: https://download.binaergewitter.de/2020-09-01.Binaergewitter.Talk.261-speech.json
 audioformats:

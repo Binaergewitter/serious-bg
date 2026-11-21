@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #312: Wenn sich Deine Realität ändert bekommst du ein Pop-Up"
 date: 2023-03-10 18:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2023-03-09.Binaergewitter.Talk.312-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2023-03-09.Binaergewitter.Talk.312.mp3

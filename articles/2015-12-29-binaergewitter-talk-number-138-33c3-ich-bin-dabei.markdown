@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #138: 33c3 ich bin dabei"
 date: 2015-12-29 13:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2015-12-28.Binaergewitter.Talk.138-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2015-12-28.Binaergewitter.Talk.138.mp3

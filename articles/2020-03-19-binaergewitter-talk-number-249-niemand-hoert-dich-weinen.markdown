@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #249: Im home office hört dich niemand weinen"
 date: 2020-03-19 21:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2020-03-18.Binaergewitter.Talk.249-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2020-03-18.Binaergewitter.Talk.249.mp3

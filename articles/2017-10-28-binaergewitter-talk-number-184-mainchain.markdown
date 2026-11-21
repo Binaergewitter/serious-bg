@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #184: Mainchain"
 date: 2017-10-28 20:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2017-10-26.Binaergewitter.Talk.184-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2017-10-26.Binaergewitter.Talk.184.mp3

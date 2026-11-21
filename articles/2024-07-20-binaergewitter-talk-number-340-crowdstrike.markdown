@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #340: the crowd strikes back"
 date: 2024-06-28 22:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 release: 2
 chapters: https://download.binaergewitter.de/2024-07-19.Binaergewitter.Talk.340.chapters.txt
 transcript: https://download.binaergewitter.de/2024-07-19.Binaergewitter.Talk.340-speech.json

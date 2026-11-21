@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #25 - Pigstarter"
 date: 2012-09-18 08:30:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2012-09-13.Binaergewitter.Talk.25-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2012-09-13.Binaergewitter.Talk.25.mp3

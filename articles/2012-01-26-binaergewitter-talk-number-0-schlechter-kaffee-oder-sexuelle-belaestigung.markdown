@@ -1,10 +1,7 @@
 ---
-layout: post
 title: "Binärgewitter Talk #0 - schlechter Kaffee oder sexuelle Belästigung"
 date: 2012-01-26 10:15:00
 
-comments: true
-sharing: true
 categories: talk
 transcript: https://download.binaergewitter.de/2012-01-25.Binaergewitter.Talk.0-speech.json
 audioformats:

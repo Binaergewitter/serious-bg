@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #389: maximales Schlimmigkeitslevel"
 date: 2026-11-11 15:00:00
 description: "In dieser Ausgabe sprechen wir über den Einsatz von KI in Technik und Open-Source-Projekten, neue Podcast-Statistiken sowie den Tod bekannter Persönlichkeiten. Außerdem geht es um veraltete Systeme, offene soziale Netzwerke, Datenschutz und Sicherheitslücken in verschiedenen Diensten und Geräten. Wir diskutieren auch Smart-TVs, 3D-Druck, dynamische Strompreise und mögliche Folgen einer Dunkelflaute. Zum Schluss stellen wir Websites und Programme für Spielwelten, Audioverwaltung, Cloud-Preisvergleiche und das Einbrennen von Bildern auf CDs und DVDs vor."
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2026-11-10.Binaergewitter.Talk.389.chapters.txt
 transcript: https://download.binaergewitter.de/2026-11-10.Binaergewitter.Talk.389-speech.json
 audioformats:

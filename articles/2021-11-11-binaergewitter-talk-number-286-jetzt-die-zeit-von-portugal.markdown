@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #286: Jetzt die Zeit von Portugal!"
 date: 2021-11-12 15:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2021-11-10.Binaergewitter.Talk.286-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2021-11-10.Binaergewitter.Talk.286.mp3

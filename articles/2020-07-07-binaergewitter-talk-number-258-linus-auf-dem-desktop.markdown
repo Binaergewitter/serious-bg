@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #258: Linus auf dem Desktop"
 date: 2020-07-07 06:30:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2020-07-06.Binaergewitter.Talk.258-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2020-07-06.Binaergewitter.Talk.258.mp3

@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #133: Internet abschaffen!"
 date: 2015-10-23 17:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2015-10-22.Binaergewitter.Talk.133-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2015-10-22.Binaergewitter.Talk.133.mp3

@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #357: HäschenAI"
 date: 2025-04-17 10:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2025-04-15.Binaergewitter.Talk.357.chapters.txt
 transcript: https://download.binaergewitter.de/2025-04-15.Binaergewitter.Talk.357-speech.json
 audioformats:

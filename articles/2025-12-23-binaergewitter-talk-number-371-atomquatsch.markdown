@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #371: Bei Stromausfall zerfallen Atome nicht"
 date: 2025-12-23 20:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2025-12-22.Binaergewitter.Talk.371.chapters.txt
 transcript: https://download.binaergewitter.de/2025-12-22.Binaergewitter.Talk.371-speech.json
 audioformats:

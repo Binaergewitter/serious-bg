@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #374: älter als jquery"
 date: 2026-01-25 07:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2026-01-23.Binaergewitter.Talk.374.chapters.txt
 transcript: https://download.binaergewitter.de/2026-01-23.Binaergewitter.Talk.374-speech.json
 release: 2

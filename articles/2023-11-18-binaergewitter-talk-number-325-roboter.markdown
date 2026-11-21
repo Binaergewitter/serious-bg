@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #325: von Roboter für Roboter"
 date: 2023-11-18 23:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2023-11-17.Binaergewitter.Talk.325.chapters.txt
 transcript: https://download.binaergewitter.de/2023-11-17.Binaergewitter.Talk.325-speech.json
 audioformats:

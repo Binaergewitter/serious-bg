@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #151: Adblocker als Hackertool"
 date: 2016-06-24 12:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2016-06-23.Binaergewitter.Talk.151-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2016-06-23.Binaergewitter.Talk.151.mp3

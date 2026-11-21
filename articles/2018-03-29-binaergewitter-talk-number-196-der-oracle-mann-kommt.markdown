@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #196: Der Oracle Mann kommt"
 date: 2018-03-29 15:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2018-03-29.Binaergewitter.Talk.196-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2018-03-29.Binaergewitter.Talk.196.mp3

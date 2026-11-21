@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #179: der große Apache sagt nutzt kein React"
 date: 2017-08-20 18:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2017-08-20.Binaergewitter.Talk.179-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2017-08-20.Binaergewitter.Talk.179.mp3

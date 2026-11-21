@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #335: KaPutty"
 date: 2024-04-20 21:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2024-04-19.Binaergewitter.Talk.335.chapters.txt
 transcript: https://download.binaergewitter.de/2024-04-19.Binaergewitter.Talk.335-speech.json
 audioformats:

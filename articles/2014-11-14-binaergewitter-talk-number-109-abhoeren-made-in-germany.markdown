@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #109: Abhoeren made in germany"
 date: 2014-11-14 22:00:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2014-11-13.Binaergewitter.Talk.109-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2014-11-13.Binaergewitter.Talk.109.mp3

@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #63 - keiner mag die Esos"
 date: 2013-08-16 08:30:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2013-08-15.Binaergewitter.Talk.63-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2013-08-15.Binaergewitter.Talk.63.mp3

@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #269: Java Stadt, Land, Fluss"
 date: 2021-01-19 18:30:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2021-01-18.Binaergewitter.Talk.269.chapters.txt
 transcript: https://download.binaergewitter.de/2021-01-18.Binaergewitter.Talk.269-speech.json
 audioformats:

@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #18 - Chuck Testa Airlines"
 date: 2012-06-15 13:30:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2012-06-14.Binaergewitter.Talk.18-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2012-06-14.Binaergewitter.Talk.18.mp3

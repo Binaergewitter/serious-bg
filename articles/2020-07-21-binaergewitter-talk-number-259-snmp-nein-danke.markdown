@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #259: SNMP, Nein Danke!"
 date: 2020-07-21 16:30:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2020-07-20.Binaergewitter.Talk.259.chapters.txt
 transcript: https://download.binaergewitter.de/2020-07-20.Binaergewitter.Talk.259-speech.json
 audioformats:

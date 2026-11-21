@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #368: Raspi in Öl"
 date: 2025-10-19 08:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2025-10-17.Binaergewitter.Talk.368.chapters.txt
 transcript: https://download.binaergewitter.de/2025-10-17.Binaergewitter.Talk.368-speech.json
 audioformats:

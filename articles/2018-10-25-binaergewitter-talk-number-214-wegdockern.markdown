@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #214: Wegdockern!"
 date: 2018-10-25 20:30:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2018-10-24.Binaergewitter.Talk.214-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2018-10-24.Binaergewitter.Talk.214.mp3

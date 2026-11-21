@@ -1,11 +1,7 @@
 ---
-layout: post
 title: "Binärgewitter Talk #386: Suchmaschine mit Hund"
 date: 2026-09-20 05:00:00
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2026-09-18.Binaergewitter.Talk.386.chapters.txt
 transcript: https://download.binaergewitter.de/2026-09-18.Binaergewitter.Talk.386-speech.json
 audioformats:

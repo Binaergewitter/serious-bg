@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #160: Du läufst durch den Raum und das Internet wird schlecht"
 date: 2016-11-19 12:30:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2016-11-17.Binaergewitter.Talk.160-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2016-11-17.Binaergewitter.Talk.160.mp3

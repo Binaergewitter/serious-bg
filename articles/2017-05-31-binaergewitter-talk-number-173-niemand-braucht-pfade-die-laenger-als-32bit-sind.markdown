@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #173: Niemand braucht Pfade die länger als 32bit sind!"
 date: 2017-05-31 14:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2017-05-25.Binaergewitter.Talk.173-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2017-05-25.Binaergewitter.Talk.173.mp3

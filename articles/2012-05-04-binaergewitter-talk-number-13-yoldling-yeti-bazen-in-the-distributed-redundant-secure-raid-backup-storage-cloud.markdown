@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #13 - Yodling Yeti Bazen in the Distributed Redundant Secure RAID Backup Storage Cloud"
 date: 2012-05-04 14:30:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2012-05-03.Binaergewitter.Talk.13-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2012-05-03.Binaergewitter.Talk.13.mp3

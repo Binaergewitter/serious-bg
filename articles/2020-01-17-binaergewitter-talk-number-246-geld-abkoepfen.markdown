@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #246: Geld abköpfen"
 date: 2020-01-17 10:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2020-01-15.Binaergewitter.Talk.246.chapters.txt
 transcript: https://download.binaergewitter.de/2020-01-15.Binaergewitter.Talk.246-speech.json
 audioformats:

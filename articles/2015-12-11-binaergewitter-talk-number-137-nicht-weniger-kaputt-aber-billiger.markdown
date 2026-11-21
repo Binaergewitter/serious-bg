@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #137: Nicht weniger kaputt, aber billiger"
 date: 2015-12-11 12:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2015-12-10.Binaergewitter.Talk.137-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2015-12-10.Binaergewitter.Talk.137.mp3

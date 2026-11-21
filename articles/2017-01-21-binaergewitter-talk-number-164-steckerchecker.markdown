@@ -1,13 +1,9 @@
 ---
-layout: post
 title: "Binärgewitter Talk #164: Steckerchecker"
 date: 2017-01-21 19:00:00
 
-comments: true
 categories: talk
-sharing: true
 release: 3
-published: true
 transcript: https://download.binaergewitter.de/2017-01-19.Binaergewitter.Talk.164-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2017-01-19.Binaergewitter.Talk.164.mp3

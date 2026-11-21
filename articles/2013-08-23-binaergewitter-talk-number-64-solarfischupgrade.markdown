@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #64 - Solarfischupgrade"
 date: 2013-08-23 12:00:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2013-08-23.Binaergewitter.Talk.64-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2013-08-23.Binaergewitter.Talk.64.mp3

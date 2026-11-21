@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #101 - LibreSSL auf GNU Hurd"
 date: 2014-07-11 17:12:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2014-07-17.Binaergewitter.Talk.101-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2014-07-17.Binaergewitter.Talk.101.mp3

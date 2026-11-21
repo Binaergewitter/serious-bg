@@ -1,13 +1,9 @@
 ---
-layout: post
 title: "Binärgewitter Talk #304: Prepper Junior"
 date: 2022-10-29 17:00:00
 
-comments: true
 categories: talk
-sharing: true
 release: 2
-published: true
 transcript: https://download.binaergewitter.de/2022-10-28.Binaergewitter.Talk.304-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2022-10-28.Binaergewitter.Talk.304.mp3

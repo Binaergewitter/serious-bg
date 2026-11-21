@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #178: stattdessen geskillt auf Physiker Witze"
 date: 2017-08-12 10:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2017-08-10.Binaergewitter.Talk.178-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2017-08-10.Binaergewitter.Talk.178.mp3

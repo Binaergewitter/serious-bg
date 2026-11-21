@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #341: Meister Aider"
 date: 2024-08-03 16:20:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 release: 3
 chapters: https://download.binaergewitter.de/2024-08-02.Binaergewitter.Talk.341.chapters.txt
 transcript: https://download.binaergewitter.de/2024-08-02.Binaergewitter.Talk.341-speech.json

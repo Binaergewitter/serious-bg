@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #68 - Poli Podcast in Stereo"
 date: 2013-09-27 12:00:00
 
-comments: true
 categories: talk
-sharing: true
 chapters: https://download.binaergewitter.de/2013-09-26.Binaergewitter.Talk.68.chapters.txt
 transcript: https://download.binaergewitter.de/2013-09-26.Binaergewitter.Talk.68-speech.json
 audioformats:

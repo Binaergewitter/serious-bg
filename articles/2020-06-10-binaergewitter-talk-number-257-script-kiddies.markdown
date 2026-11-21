@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #257: Wir sind auch zu script kiddies geworden"
 date: 2020-06-10 14:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2020-06-09.Binaergewitter.Talk.257.chapters.txt
 transcript: https://download.binaergewitter.de/2020-06-09.Binaergewitter.Talk.257-speech.json
 audioformats:

@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #320: Für die Liebe zu systemd"
 date: 2023-08-21 22:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2023-08-18.Binaergewitter.Talk.320.chapters.txt
 transcript: https://download.binaergewitter.de/2023-08-18.Binaergewitter.Talk.320-speech.json
 audioformats:

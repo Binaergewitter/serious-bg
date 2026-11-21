@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #239: CyberNATO"
 date: 2019-09-06 22:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2019-09-05.Binaergewitter.Talk.239-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2019-09-05.Binaergewitter.Talk.239.mp3

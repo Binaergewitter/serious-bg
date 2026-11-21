@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #90 - Puffmais Zeit"
 date: 2014-04-01 23:00:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2014-04-03.Binaergewitter.Talk.90-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2014-04-03.Binaergewitter.Talk.90.mp3

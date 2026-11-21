@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #245: Mein Gantt Chart ist unterbrochen"
 date: 2019-12-29 10:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2019-12-28.Binaergewitter.Talk.245-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2019-12-28.Binaergewitter.Talk.245.mp3

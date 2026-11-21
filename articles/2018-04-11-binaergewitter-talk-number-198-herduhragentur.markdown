@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #198: Herduhragentur"
 date: 2018-04-11 12:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2018-04-10.Binaergewitter.Talk.198-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2018-04-10.Binaergewitter.Talk.198.mp3

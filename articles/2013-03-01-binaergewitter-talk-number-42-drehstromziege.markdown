@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #42 - Drehstromziege"
 date: 2013-03-01 12:00:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2013-02-28.Binaergewitter.Talk.42-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2013-02-28.Binaergewitter.Talk.42.mp3

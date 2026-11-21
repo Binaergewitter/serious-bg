@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #252: Kannste so sagen, ist dann aber falsch"
 date: 2020-04-18 18:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2020-04-17.Binaergewitter.Talk.252.chapters.txt
 transcript: https://download.binaergewitter.de/2020-04-17.Binaergewitter.Talk.252-speech.json
 audioformats:

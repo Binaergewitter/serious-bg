@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #110: Stretch Goal bis nach Russland"
 date: 2014-11-28 17:00:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2014-11-28.Binaergewitter.Talk.110-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2014-11-28.Binaergewitter.Talk.110.mp3

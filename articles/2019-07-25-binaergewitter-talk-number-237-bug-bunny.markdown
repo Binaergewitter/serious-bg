@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #237: Bug Bunny"
 date: 2019-07-25 14:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2019-07-24.Binaergewitter.Talk.237-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2019-07-24.Binaergewitter.Talk.237.mp3

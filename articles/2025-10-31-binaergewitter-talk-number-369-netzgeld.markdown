@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #369: Netzgeld"
 date: 2025-10-31 10:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2025-10-30.Binaergewitter.Talk.369.chapters.txt
 transcript: https://download.binaergewitter.de/2025-10-30.Binaergewitter.Talk.369-speech.json
 audioformats:

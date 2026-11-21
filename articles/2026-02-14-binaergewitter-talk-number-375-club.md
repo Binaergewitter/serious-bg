@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #375: Club im Club"
 date: 2026-02-14 17:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2026-02-13.Binaergewitter.Talk.375.chapters.txt
 transcript: https://download.binaergewitter.de/2026-02-13.Binaergewitter.Talk.375-speech.json
 release: 2

@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #153: IS sucht den Supercharger"
 date: 2016-07-22 01:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2016-07-21.Binaergewitter.Talk.153-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2016-07-21.Binaergewitter.Talk.153.mp3

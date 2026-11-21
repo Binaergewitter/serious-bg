@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #360: Über sieben Adern musst du gehn"
 date: 2025-06-02 20:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2025-06-01.Binaergewitter.Talk.360.chapters.txt
 transcript: https://download.binaergewitter.de/2025-06-01.Binaergewitter.Talk.360-speech.json
 audioformats:

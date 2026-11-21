@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #65 - Gorillagas"
 date: 2013-08-30 16:00:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2013-08-29.Binaergewitter.Talk.65-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2013-08-29.Binaergewitter.Talk.65.mp3

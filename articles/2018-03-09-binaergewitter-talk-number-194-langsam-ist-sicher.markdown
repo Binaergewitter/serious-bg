@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #194: langsam ist sicher, aber nicht immer gut"
 date: 2018-03-09
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2018-03-08.Binaergewitter.Talk.194-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2018-03-08.Binaergewitter.Talk.194.mp3

@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #30 - Yodafone"
 date: 2012-10-26 12:30:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2012-10-25.Binaergewitter.Talk.30-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2012-10-25.Binaergewitter.Talk.30.mp3

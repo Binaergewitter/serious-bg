@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #254: Ich lade rechts!"
 date: 2020-05-07 10:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2020-05-06.Binaergewitter.Talk.254-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2020-05-06.Binaergewitter.Talk.254.mp3

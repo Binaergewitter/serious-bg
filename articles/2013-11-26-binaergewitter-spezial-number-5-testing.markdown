@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Spezial #5 - Testing"
 date: 2013-11-26 13:00:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2013-11-21.Binaergewitter.Spezial.5-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2013-11-21.Binaergewitter.Spezial.5.mp3

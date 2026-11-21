@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #306: Monopolist auf Zeit"
 date: 2022-11-18 14:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2022-11-16.Binaergewitter.Talk.306.chapters.txt
 transcript: https://download.binaergewitter.de/2022-11-16.Binaergewitter.Talk.306-speech.json
 audioformats:

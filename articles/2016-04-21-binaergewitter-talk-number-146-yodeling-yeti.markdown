@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #146: force push Yodeling Yeti"
 date: 2016-04-22
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2016-04-22.Binaergewitter.Talk.146-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2016-04-22.Binaergewitter.Talk.146.mp3

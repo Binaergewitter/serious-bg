@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #284: Jahr der Linux Viren auf dem Desktop"
 date: 2021-09-21 16:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2021-09-20.Binaergewitter.Talk.284.chapters.txt
 transcript: https://download.binaergewitter.de/2021-09-20.Binaergewitter.Talk.284-speech.json
 audioformats:

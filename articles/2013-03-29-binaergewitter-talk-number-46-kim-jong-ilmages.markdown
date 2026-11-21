@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #46 - Kim Jong Ilmages"
 date: 2013-03-29 20:20:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2013-03-28.Binaergewitter.Talk.46-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2013-03-28.Binaergewitter.Talk.46.mp3

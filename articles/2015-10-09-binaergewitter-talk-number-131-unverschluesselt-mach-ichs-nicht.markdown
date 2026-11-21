@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #132: Unverschlüsselt mach ich's nicht"
 date: 2015-10-09 14:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2015-10-08.Binaergewitter.Talk.132-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2015-10-08.Binaergewitter.Talk.132.mp3

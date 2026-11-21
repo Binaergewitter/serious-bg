@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #365: Daten im Boden lassen"
 date: 2025-08-17 21:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2025-08-16.Binaergewitter.Talk.365.chapters.txt
 transcript: https://download.binaergewitter.de/2025-08-16.Binaergewitter.Talk.365-speech.json
 audioformats:

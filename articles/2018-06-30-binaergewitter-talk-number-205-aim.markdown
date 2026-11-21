@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #205: AMD Intel Messenger"
 date: 2018-06-30 23:30:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2018-06-28.Binaergewitter.Talk.205-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2018-06-28.Binaergewitter.Talk.205.mp3

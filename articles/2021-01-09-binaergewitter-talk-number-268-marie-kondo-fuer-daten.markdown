@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #268: Marie Kondo für Daten"
 date: 2021-01-09 18:30:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2021-01-09.Binaergewitter.Talk.268.chapters.txt
 transcript: https://download.binaergewitter.de/2021-01-09.Binaergewitter.Talk.268-speech.json
 audioformats:

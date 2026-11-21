@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #206: Das ist ARM"
 date: 2018-07-13 09:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2018-07-12.Binaergewitter.Talk.206-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2018-07-12.Binaergewitter.Talk.206.mp3

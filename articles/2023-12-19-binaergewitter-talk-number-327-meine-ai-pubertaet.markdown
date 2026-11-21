@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #327: meine AI ist in der Pubertät"
 date: 2023-12-19 20:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2023-12-18.Binaergewitter.Talk.327.chapters.txt
 transcript: https://download.binaergewitter.de/2023-12-18.Binaergewitter.Talk.327-speech.json
 audioformats:

@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #216: Thorsten hat Ubuntu"
 date: 2018-11-24 12:30:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2018-11-23.Binaergewitter.Talk.216-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2018-11-23.Binaergewitter.Talk.216.mp3

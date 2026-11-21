@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #192: Bitcoinheizung"
 date: 2018-02-16 14:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2018-02-15.Binaergewitter.Talk.192-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2018-02-15.Binaergewitter.Talk.192.mp3

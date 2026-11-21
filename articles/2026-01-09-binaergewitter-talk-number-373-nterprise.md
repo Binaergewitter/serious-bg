@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #373: Microsoft Nterprise"
 date: 2026-01-09 21:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2026-01-08.Binaergewitter.Talk.373.chapters.txt
 transcript: https://download.binaergewitter.de/2026-01-08.Binaergewitter.Talk.373-speech.json
 audioformats:

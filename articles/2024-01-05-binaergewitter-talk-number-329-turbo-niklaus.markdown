@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #329: Turbo Niklaus"
 date: 2024-01-05 20:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2024-01-04.Binaergewitter.Talk.329.chapters.txt
 transcript: https://download.binaergewitter.de/2024-01-04.Binaergewitter.Talk.329-speech.json
 audioformats:

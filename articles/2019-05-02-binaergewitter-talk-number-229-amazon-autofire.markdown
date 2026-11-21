@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #229: Amazon Autofire"
 date: 2019-05-02 10:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2019-05-01.Binaergewitter.Talk.229-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2019-05-01.Binaergewitter.Talk.229.mp3

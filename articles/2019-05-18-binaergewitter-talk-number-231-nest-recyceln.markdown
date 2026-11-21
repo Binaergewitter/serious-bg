@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #231: Nest recyceln"
 date: 2019-05-18 10:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2019-05-17.Binaergewitter.Talk.231-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2019-05-17.Binaergewitter.Talk.231.mp3

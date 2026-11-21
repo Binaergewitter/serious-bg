@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #344: Das Internet ist rund"
 date: 2024-10-01 18:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2024-09-30.Binaergewitter.Talk.344.chapters.txt
 transcript: https://download.binaergewitter.de/2024-09-30.Binaergewitter.Talk.344-speech.json
 audioformats:

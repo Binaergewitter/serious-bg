@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #83 - Alle Ports HTTP verschlüsseln!"
 date: 2014-02-14 10:00:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2014-02-13.Binaergewitter.Talk.83-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2014-02-13.Binaergewitter.Talk.83.mp3

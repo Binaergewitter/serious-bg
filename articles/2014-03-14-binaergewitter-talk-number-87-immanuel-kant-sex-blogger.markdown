@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #87 - Immanuel Kant, Sex-Blogger"
 date: 2014-03-14 12:00:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2014-03-13.Binaergewitter.Talk.87-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2014-03-13.Binaergewitter.Talk.87.mp3
