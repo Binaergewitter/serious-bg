@@ -1,0 +1,10 @@
+/* Dark code blocks, as on the old Octopress blog. Loaded via head.load after
+   Bootstrap so these win over Bootstrap's pre styles. */
+pre {
+  background-color: #232323;
+  border: 1px solid black;
+  color: #E6E0DB;
+  padding: 3px 5px;
+  overflow: auto;
+  margin: 12px 0;
+}
