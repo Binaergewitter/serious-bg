@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #353: RegierungsGPT"
 date: 2025-02-12 21:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2025-02-12.Binaergewitter.Talk.353.chapters.txt
 transcript: https://download.binaergewitter.de/2025-02-12.Binaergewitter.Talk.353-speech.json
 audioformats:

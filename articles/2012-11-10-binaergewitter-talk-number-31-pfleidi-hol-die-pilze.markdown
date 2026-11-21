@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #31 - Pfleidi hol die Pilze"
 date: 2012-11-10 00:15:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2012-11-08.Binaergewitter.Talk.31-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2012-11-08.Binaergewitter.Talk.31.mp3

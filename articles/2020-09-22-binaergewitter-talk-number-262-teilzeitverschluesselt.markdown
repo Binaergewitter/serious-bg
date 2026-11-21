@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #262: Teilzeitverschlüsselt"
 date: 2020-09-23 16:30:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2020-09-21.Binaergewitter.Talk.262.chapters.txt
 transcript: https://download.binaergewitter.de/2020-09-21.Binaergewitter.Talk.262-speech.json
 audioformats:

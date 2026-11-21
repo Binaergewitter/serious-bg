@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #358: Schönes Tablet habt ihr dort. Wäre doch schade, wenn ihm ein Home-Assistant Dashboard zustoßen würde"
 date: 2025-05-02 21:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2025-05-01.Binaergewitter.Talk.358.chapters.txt
 transcript: https://download.binaergewitter.de/2025-05-01.Binaergewitter.Talk.358-speech.json
 audioformats:

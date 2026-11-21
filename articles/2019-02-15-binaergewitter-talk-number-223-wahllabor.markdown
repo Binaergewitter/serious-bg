@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #223: Wahllabor"
 date: 2019-02-15 10:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2019-02-13.Binaergewitter.Talk.223-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2019-02-13.Binaergewitter.Talk.223.mp3

@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #281: Bio Zombie Würmer"
 date: 2021-07-29 15:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2021-07-27.Binaergewitter.Talk.281.chapters.txt
 transcript: https://download.binaergewitter.de/2021-07-27.Binaergewitter.Talk.281-speech.json
 audioformats:

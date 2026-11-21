@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #158: Binärologie"
 date: 2016-10-21 12:30:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2016-10-20.Binaergewitter.Talk.158-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2016-10-20.Binaergewitter.Talk.158.mp3

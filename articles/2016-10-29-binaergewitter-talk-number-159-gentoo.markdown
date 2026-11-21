@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #159: Gentoo - eine gesunde Portion Entschleunigung"
 date: 2016-10-29 12:30:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2016-10-27.Binaergewitter.Talk.159-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2016-10-27.Binaergewitter.Talk.159.mp3

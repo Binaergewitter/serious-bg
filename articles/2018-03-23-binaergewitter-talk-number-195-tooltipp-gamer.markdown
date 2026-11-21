@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #195: Tooltipp Gamer"
 date: 2018-03-09
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2018-03-22.Binaergewitter.Talk.195-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2018-03-22.Binaergewitter.Talk.195.mp3

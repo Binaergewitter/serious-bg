@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #351: Kellerio Abschalten"
 date: 2025-01-10 16:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2025-01-09.Binaergewitter.Talk.351.chapters.txt
 transcript: https://download.binaergewitter.de/2025-01-09.Binaergewitter.Talk.351-speech.json
 audioformats:

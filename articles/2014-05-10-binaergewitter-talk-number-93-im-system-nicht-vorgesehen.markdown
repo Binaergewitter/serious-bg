@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #93 - Im System nicht vorgesehen"
 date: 2014-05-10 09:00:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2014-05-08.Binaergewitter.Talk.93-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2014-05-08.Binaergewitter.Talk.93.mp3

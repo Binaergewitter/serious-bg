@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #349: Blauhelm Browser"
 date: 2024-12-11 15:30:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2024-11-10.Binaergewitter.Talk.349.chapters.txt
 transcript: https://download.binaergewitter.de/2024-11-10.Binaergewitter.Talk.349-speech.json
 audioformats:

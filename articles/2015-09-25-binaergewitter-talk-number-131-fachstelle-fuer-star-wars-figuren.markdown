@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #131: Fachstelle für Star Wars Figuren"
 date: 2015-09-25 12:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2015-09-24.Binaergewitter.Talk.131-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2015-09-24.Binaergewitter.Talk.131.mp3

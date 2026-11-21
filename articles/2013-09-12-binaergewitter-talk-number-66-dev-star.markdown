@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #66 - /dev/star"
 date: 2013-09-12 20:00:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2013-09-12.Binaergewitter.Talk.66-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2013-09-12.Binaergewitter.Talk.66.mp3

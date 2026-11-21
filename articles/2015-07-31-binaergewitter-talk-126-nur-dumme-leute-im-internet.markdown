@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #126: nur dumme Leute im Internet!"
 date: 2015-07-31 07:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2015-07-30.Binaergewitter.Talk.126-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2015-07-30.Binaergewitter.Talk.126.mp3

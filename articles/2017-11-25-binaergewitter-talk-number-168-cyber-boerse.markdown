@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #186: Keine Normale Börse, sondern eine CYBER Börse"
 date: 2017-11-25 11:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2017-11-22.Binaergewitter.Talk.186-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2017-11-22.Binaergewitter.Talk.186.mp3

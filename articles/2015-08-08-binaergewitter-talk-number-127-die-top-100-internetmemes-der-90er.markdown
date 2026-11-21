@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #127: Die Top 100 Internetmemes der 90er"
 date: 2015-08-08 20:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2015-08-06.Binaergewitter.Talk.127-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2015-08-06.Binaergewitter.Talk.127.mp3

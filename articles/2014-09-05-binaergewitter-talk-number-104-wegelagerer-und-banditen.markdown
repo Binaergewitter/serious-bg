@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #104: Wegelagerer und Banditen"
 date: 2014-09-05 12:00:00
 
-comments: true
 categories: talk
-sharing: true
 release: 2
 transcript: https://download.binaergewitter.de/2014-09-04.Binaergewitter.Talk.104-speech.json
 audioformats:

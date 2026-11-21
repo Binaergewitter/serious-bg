@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #167: xxxHtml"
 date: 2017-02-24 11:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2017-02-23.Binaergewitter.Talk.167-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2017-02-23.Binaergewitter.Talk.167.mp3

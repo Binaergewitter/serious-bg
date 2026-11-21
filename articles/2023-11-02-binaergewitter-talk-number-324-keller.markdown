@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #324: im Keller ist es billiger"
 date: 2023-11-02 20:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2023-11-01.Binaergewitter.Talk.324.chapters.txt
 transcript: https://download.binaergewitter.de/2023-11-01.Binaergewitter.Talk.324-speech.json
 audioformats:

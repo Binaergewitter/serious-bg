@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #105: web.de secure surfer"
 date: 2014-09-19 19:00:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2014-09-18.Binaergewitter.Talk.105-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2014-09-18.Binaergewitter.Talk.105.mp3

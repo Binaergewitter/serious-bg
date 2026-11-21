@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #323: Curry mit OpenTofu"
 date: 2023-10-05 22:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2023-10-04.Binaergewitter.Talk.323.chapters.txt
 transcript: https://download.binaergewitter.de/2023-10-04.Binaergewitter.Talk.323-speech.json
 audioformats:

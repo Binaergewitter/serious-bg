@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #332: Der kleine Felix möchte gerne aus dem Div Center abgeholt werden"
 date: 2024-02-17 20:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2024-02-16.Binaergewitter.Talk.332.chapters.txt
 transcript: https://download.binaergewitter.de/2024-02-16.Binaergewitter.Talk.332-speech.json
 audioformats:

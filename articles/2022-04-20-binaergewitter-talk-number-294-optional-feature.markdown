@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #294: Unsupported Optional Feature 400"
 date: 2022-04-20 17:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2022-04-19.Binaergewitter.Talk.294.chapters.txt
 transcript: https://download.binaergewitter.de/2022-04-19.Binaergewitter.Talk.294-speech.json
 audioformats:

@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #260: Der Illuminaten Kernel"
 date: 2020-08-11 16:30:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2020-08-10.Binaergewitter.Talk.260.chapters.txt
 transcript: https://download.binaergewitter.de/2020-08-10.Binaergewitter.Talk.260-speech.json
 audioformats:

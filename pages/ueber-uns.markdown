@@ -1,10 +1,6 @@
 ---
-layout: page
 title: "Über uns"
 slug: "ueber-uns"
-comments: false
-sharing: false
-footer: true
 ---
 
 Binärgewitter ist ein Podcast über Web, Entwicklung und Technologie. Betrachtet aus der Sicht von Entwicklern bzw. Open Source Begeisterten. Das heißt aber nicht, dass wir alles mit einer Rosa-Roten Brille sehen. Wir suchen bei Apple und Microsoft genauso das Gute und Schlechte wie auch bei Linux und anderen Open Source Projekten. Wir wollen realistisch sein. Auch wenn wir damit anecken sollten.

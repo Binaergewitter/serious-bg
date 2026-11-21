@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #193: Die beste Entscheidung seit dem neuen Nutella Rezept"
 date: 2018-02-28
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2018-02-26.Binaergewitter.Talk.193-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2018-02-26.Binaergewitter.Talk.193.mp3

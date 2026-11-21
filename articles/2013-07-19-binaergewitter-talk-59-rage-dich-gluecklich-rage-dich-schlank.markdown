@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #59 - Rage dich glücklich - rage dich schlank!"
 date: 2013-07-19 16:45:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2013-07-18.Binaergewitter.Talk.59-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2013-07-18.Binaergewitter.Talk.59.mp3

@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #297: Internet Inflation"
 date: 2022-06-14 21:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2022-06-13.Binaergewitter.Talk.297.chapters.txt
 transcript: https://download.binaergewitter.de/2022-06-13.Binaergewitter.Talk.297-speech.json
 audioformats:

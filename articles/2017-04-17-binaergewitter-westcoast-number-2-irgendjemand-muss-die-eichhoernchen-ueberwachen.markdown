@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Westcoast #2: Irgendjemand muss ja die Eichhörnchen überwachen!"
 date: 2017-04-17 21:00:00
 
-comments: true
 categories: westcoast
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2017-04-09.Binaergewitter.Westcoast.2-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2017-04-09.Binaergewitter.Westcoast.2.mp3

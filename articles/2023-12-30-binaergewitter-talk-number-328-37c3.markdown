@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #328: moderne Lava-Lampe am 37c3"
 date: 2023-12-30 22:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2023-12-30.Binaergewitter.Talk.328.chapters.txt
 transcript: https://download.binaergewitter.de/2023-12-30.Binaergewitter.Talk.328-speech.json
 audioformats:

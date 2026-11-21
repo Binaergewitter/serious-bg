@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #57 - hart bitzeln"
 date: 2013-07-05 10:45:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2013-07-04.Binaergewitter.Talk.57-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2013-07-04.Binaergewitter.Talk.57.mp3

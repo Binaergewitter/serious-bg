@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #379: Don't drink and Debug"
 date: 2026-04-25 11:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2026-04-24.Binaergewitter.Talk.379.chapters.txt
 transcript: https://download.binaergewitter.de/2026-04-24.Binaergewitter.Talk.379-speech.json
 audioformats:

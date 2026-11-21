@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #51 - FreierFox"
 date: 2013-05-10 11:00:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2013-05-09.Binaergewitter.Talk.51-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2013-05-09.Binaergewitter.Talk.51.mp3

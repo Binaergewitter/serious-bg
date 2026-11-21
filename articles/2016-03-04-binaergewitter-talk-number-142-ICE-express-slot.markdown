@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #142: ICE Express Slot"
 date: 2016-03-04 20:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2016-03-03.Binaergewitter.Talk.142-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2016-03-03.Binaergewitter.Talk.142.mp3

@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #226: bastelt schöne Filter"
 date: 2019-03-23 10:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2019-03-22.Binaergewitter.Talk.226-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2019-03-22.Binaergewitter.Talk.226.mp3

@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #337: Saubere Studenten"
 date: 2024-05-21 22:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2024-05-20.Binaergewitter.Talk.337.chapters.txt
 transcript: https://download.binaergewitter.de/2024-05-20.Binaergewitter.Talk.337-speech.json
 audioformats:

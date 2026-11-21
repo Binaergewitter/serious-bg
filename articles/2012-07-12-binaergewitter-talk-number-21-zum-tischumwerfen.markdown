@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #21 - (╯°□°）╯︵ ┻━┻"
 date: 2012-07-13 13:30:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2012-07-12.Binaergewitter.Talk.21-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2012-07-12.Binaergewitter.Talk.21.mp3

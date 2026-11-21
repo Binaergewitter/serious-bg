@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #166: shellshock deployment system"
 date: 2017-02-15 11:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2017-02-13.Binaergewitter.Talk.166-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2017-02-13.Binaergewitter.Talk.166.mp3

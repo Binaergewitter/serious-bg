@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #218: Männer die auf Crypto gucken"
 date: 2018-12-08 16:30:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2018-12-07.Binaergewitter.Talk.208-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2018-12-07.Binaergewitter.Talk.208.mp3

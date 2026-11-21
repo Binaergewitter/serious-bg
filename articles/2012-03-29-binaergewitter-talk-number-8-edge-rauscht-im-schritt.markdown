@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #8 - EDGE rauscht im Schritt"
 date: 2012-03-29 12:00:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2012-03-28.Binaergewitter.Talk.8-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2012-03-28.Binaergewitter.Talk.8.mp3

@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #217: Go2ReleaseParty"
 date: 2018-11-30 12:30:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2018-11-29.Binaergewitter.Talk.217-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2018-11-29.Binaergewitter.Talk.217.mp3

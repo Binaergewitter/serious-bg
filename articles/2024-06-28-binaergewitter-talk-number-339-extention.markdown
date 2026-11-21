@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #339: Extention Blast"
 date: 2024-06-28 20:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2024-06-27.Binaergewitter.Talk.339.chapters.txt
 transcript: https://download.binaergewitter.de/2024-06-27.Binaergewitter.Talk.339-speech.json
 audioformats:

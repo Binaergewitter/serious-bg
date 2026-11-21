@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #140: Bitcoin Pool's closed"
 date: 2016-01-31 10:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2016-01-28.Binaergewitter.Talk.140-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2016-01-28.Binaergewitter.Talk.140.mp3

@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #80 - 2,5MB Gott"
 date: 2014-01-24 11:00:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2014-01-23.Binaergewitter.Talk.80-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2014-01-23.Binaergewitter.Talk.80.mp3

@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #78 - Das Jahr von Btrfs auf dem Desktop"
 date: 2013-12-20 11:00:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2013-12-19.Binaergewitter.Talk.78-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2013-12-19.Binaergewitter.Talk.78.mp3

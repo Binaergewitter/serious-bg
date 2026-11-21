@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #143: vim-exit-game"
 date: 2016-03-18
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2016-03-17.Binaergewitter.Talk.143-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2016-03-17.Binaergewitter.Talk.143.mp3

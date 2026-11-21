@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #120: NavyICQ"
 date: 2015-05-08 09:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2015-05-07.Binaergewitter.Talk.120-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2015-05-07.Binaergewitter.Talk.120.mp3

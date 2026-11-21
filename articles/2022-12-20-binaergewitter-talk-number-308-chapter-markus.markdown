@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #308: Chapter-Markus"
 date: 2022-12-20 12:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2022-12-19.Binaergewitter.Talk.308.chapters.txt
 transcript: https://download.binaergewitter.de/2022-12-19.Binaergewitter.Talk.308-speech.json
 audioformats:

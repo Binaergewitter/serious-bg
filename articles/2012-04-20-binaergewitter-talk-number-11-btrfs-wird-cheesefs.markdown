@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #11 - btrfs -> cheeseFS"
 date: 2012-04-20 14:00:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2012-04-19.Binaergewitter.Talk.11-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2012-04-19.Binaergewitter.Talk.11.mp3

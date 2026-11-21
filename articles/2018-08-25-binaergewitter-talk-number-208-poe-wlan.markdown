@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #208: PoE WLAN-Kabel"
 date: 2018-07-26 09:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 release: 2
 transcript: https://download.binaergewitter.de/2018-08-25.Binaergewitter.Talk.208-speech.json
 audioformats:

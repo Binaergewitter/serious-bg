@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #123: University of Universityland"
 date: 2015-06-20 20:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2015-06-18.Binaergewitter.Talk.123-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2015-06-18.Binaergewitter.Talk.123.mp3

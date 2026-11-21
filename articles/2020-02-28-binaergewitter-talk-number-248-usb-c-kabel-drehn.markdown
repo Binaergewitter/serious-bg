@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #248: Das USB-C Kabel drehen müssen"
 date: 2020-02-28 10:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2020-02-26.Binaergewitter.Talk.248.chapters.txt
 transcript: https://download.binaergewitter.de/2020-02-26.Binaergewitter.Talk.248-speech.json
 audioformats:

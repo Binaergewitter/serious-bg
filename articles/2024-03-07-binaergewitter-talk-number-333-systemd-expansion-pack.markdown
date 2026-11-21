@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #333: systemd expansion pack"
 date: 2024-03-07 16:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2024-03-05.Binaergewitter.Talk.333.chapters.txt
 transcript: https://download.binaergewitter.de/2024-03-05.Binaergewitter.Talk.333-speech.json
 audioformats:

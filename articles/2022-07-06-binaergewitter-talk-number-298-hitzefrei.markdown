@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #298: Hitzefrei für DSLAMs"
 date: 2022-07-06 11:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2022-07-04.Binaergewitter.Talk.298.chapters.txt
 transcript: https://download.binaergewitter.de/2022-07-04.Binaergewitter.Talk.298-speech.json
 audioformats:

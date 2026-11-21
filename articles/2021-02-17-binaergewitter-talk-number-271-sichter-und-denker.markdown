@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #271: Sichter und Denker"
 date: 2021-02-17 17:30:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2021-02-15.Binaergewitter.Talk.272.chapters.txt
 transcript: https://download.binaergewitter.de/2021-02-15.Binaergewitter.Talk.272-speech.json
 audioformats:

@@ -1,13 +1,9 @@
 ---
-layout: post
 title: "Binärgewitter Talk #384: 2 Half life ist ein Leben"
 date: 2026-07-18 15:00:00
 description: "In dieser Folge sprechen wir über Twint und die Besonderheiten von Bezahlen in der Schweiz, auch im Vergleich zu anderen Zahlungslösungen. Außerdem behandeln wir Konferenzen wie die FrosCon sowie verschiedene Technikmeldungen, darunter Telegram, Windows 11, OnePlus und die EU-Chatkontrolle. Ein weiterer Schwerpunkt liegt auf KI, neuen Modellen und der Kritik an Vibe-Coding. Zum Schluss gehen wir auf Sicherheitslücken, Infrastrukturthemen und einige Bastel- und 3D-Druck-Themen ein."
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2026-07-17.Binaergewitter.Talk.384.chapters.txt
 transcript: https://download.binaergewitter.de/2026-07-17.Binaergewitter.Talk.384-speech.json
 audioformats:

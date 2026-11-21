@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #130: Bluetooth-senkende Mittel nehmen'"
 date: 2015-09-11 12:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2015-09-10.Binaergewitter.Talk.130-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2015-09-10.Binaergewitter.Talk.130.mp3

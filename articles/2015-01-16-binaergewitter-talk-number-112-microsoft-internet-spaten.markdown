@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #112: Microsoft Internet-Spaten"
 date: 2015-01-16 14:00:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2015-01-15.Binaergewitter.Talk.112-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2015-01-15.Binaergewitter.Talk.112.mp3

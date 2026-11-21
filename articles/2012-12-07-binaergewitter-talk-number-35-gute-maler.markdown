@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #35 - Gute Maler"
 date: 2012-12-07 18:00:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2012-12-06.Binaergewitter.Talk.35-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2012-12-06.Binaergewitter.Talk.35.mp3

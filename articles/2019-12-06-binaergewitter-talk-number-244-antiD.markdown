@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #244: antiD"
 date: 2019-12-06 10:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2019-12-05.Binaergewitter.Talk.244-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2019-12-05.Binaergewitter.Talk.244.mp3

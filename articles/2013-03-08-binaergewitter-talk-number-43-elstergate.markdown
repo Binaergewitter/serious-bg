@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #43 - Elstergate"
 date: 2013-03-08 11:00:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2013-03-07.Binaergewitter.Talk.43-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2013-03-07.Binaergewitter.Talk.43.mp3

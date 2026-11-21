@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #108: Der Schnupfen der digitalen Gesellschaft"
 date: 2014-10-31 14:00:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2014-10-30.Binaergewitter.Talk.108-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2014-10-30.Binaergewitter.Talk.108.mp3

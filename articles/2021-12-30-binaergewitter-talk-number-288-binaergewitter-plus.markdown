@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #288: Binärgewitter Plus"
 date: 2021-12-30 15:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 release: 2
 chapters: https://download.binaergewitter.de/2021-12-29.Binaergewitter.Talk.288.chapters.txt
 transcript: https://download.binaergewitter.de/2021-12-29.Binaergewitter.Talk.288-speech.json

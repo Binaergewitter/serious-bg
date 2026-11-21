@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #180: Jugend Cyberfeuerwehr"
 date: 2017-09-08 15:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2017-09-06.Binaergewitter.Talk.180-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2017-09-06.Binaergewitter.Talk.180.mp3

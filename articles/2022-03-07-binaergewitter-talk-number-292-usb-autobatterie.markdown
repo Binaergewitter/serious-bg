@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #292: USB Autobatterie"
 date: 2022-03-07 20:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2022-03-07.Binaergewitter.Talk.292.chapters.txt
 transcript: https://download.binaergewitter.de/2022-03-07.Binaergewitter.Talk.292-speech.json
 audioformats:

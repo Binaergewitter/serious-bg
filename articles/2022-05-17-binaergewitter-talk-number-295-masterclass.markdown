@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #295: Shit talking on the Internet - Masterclass"
 date: 2022-05-17 18:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2022-05-16.Binaergewitter.Talk.295.chapters.txt
 transcript: https://download.binaergewitter.de/2022-05-16.Binaergewitter.Talk.295-speech.json
 audioformats:

@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #303: Pyrolyse im Geschirrspüler"
 date: 2022-10-04 20:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2022-10-03.Binaergewitter.Talk.303.chapters.txt
 transcript: https://download.binaergewitter.de/2022-10-03.Binaergewitter.Talk.303-speech.json
 audioformats:

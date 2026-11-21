@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #197: flickr Klicker"
 date: 2018-04-07 12:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2018-04-05.Binaergewitter.Talk.197-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2018-04-05.Binaergewitter.Talk.197.mp3

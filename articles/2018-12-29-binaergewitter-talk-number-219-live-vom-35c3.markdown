@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #219: Live vom 35C3"
 date: 2018-12-29 18:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2018-12-28.Binaergewitter.Talk.219-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2018-12-28.Binaergewitter.Talk.219.mp3

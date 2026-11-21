@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #345: zu Ingos Studienzeiten"
 date: 2024-10-14 18:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2024-10-13.Binaergewitter.Talk.345.chapters.txt
 transcript: https://download.binaergewitter.de/2024-10-13.Binaergewitter.Talk.345-speech.json
 audioformats:

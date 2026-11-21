@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #348: Nicht mehr ganz Knusper"
 date: 2024-11-20 19:30:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2024-11-19.Binaergewitter.Talk.348.chapters.txt
 transcript: https://download.binaergewitter.de/2024-11-19.Binaergewitter.Talk.348-speech.json
 audioformats:

@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #113: Lügenbrowser"
 date: 2015-01-29 23:59:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2015-01-28.Binaergewitter.Talk.113-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2015-01-28.Binaergewitter.Talk.113.mp3

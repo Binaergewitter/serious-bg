@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #199: Enterprise Bastel Edition"
 date: 2018-04-20 12:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2018-04-19.Binaergewitter.Talk.199-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2018-04-19.Binaergewitter.Talk.199.mp3

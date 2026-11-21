@@ -1,10 +1,6 @@
 ---
-layout: page
 title: "Abonnieren"
 slug: "abonnieren"
-comments: false
-sharing: false
-footer: true
 ---
 Natürlich könnt ihr uns auch abonnieren. Wir sind schließlich ein Podcast. Entweder manuell oder mit den vielen Tools und Verzeichnissen die es da draußen gibt.
 

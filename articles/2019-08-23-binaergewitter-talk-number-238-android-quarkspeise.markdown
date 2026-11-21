@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #238: Android Quarkspeise"
 date: 2019-08-23 14:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2019-08-22.Binaergewitter.Talk.238-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2019-08-22.Binaergewitter.Talk.238.mp3

@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #282: warten auf IPv8"
 date: 2021-08-20 15:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2021-08-18.Binaergewitter.Talk.282-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2021-08-18.Binaergewitter.Talk.282.mp3

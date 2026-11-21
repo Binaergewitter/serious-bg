@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #182: Intranet of Things"
 date: 2017-10-07 20:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2017-10-06.Binaergewitter.Talk.182-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2017-10-06.Binaergewitter.Talk.182.mp3

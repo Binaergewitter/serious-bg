@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #326: AI-lluminaten"
 date: 2023-12-05 20:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2023-12-04.Binaergewitter.Talk.326.chapters.txt
 transcript: https://download.binaergewitter.de/2023-12-04.Binaergewitter.Talk.326-speech.json
 audioformats:

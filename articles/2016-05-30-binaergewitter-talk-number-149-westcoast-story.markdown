@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #149: Westcoast Story"
 date: 2016-05-30 21:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2016-05-29.Binaergewitter.Talk.149-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2016-05-29.Binaergewitter.Talk.149.mp3

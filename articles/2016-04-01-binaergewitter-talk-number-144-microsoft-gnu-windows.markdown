@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #144: Microsoft GNU/Windows"
 date: 2016-04-01
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2016-03-31.Binaergewitter.Talk.144-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2016-03-31.Binaergewitter.Talk.144.mp3

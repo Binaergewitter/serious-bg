@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #157: Unendliche Weiten"
 date: 2016-09-10 12:30:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2016-09-08.Binaergewitter.Talk.157-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2016-09-08.Binaergewitter.Talk.157.mp3

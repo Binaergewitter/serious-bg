@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #98 - Tizen voraus!"
 date: 2014-06-27 12:12:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2014-06-26.Binaergewitter.Talk.98-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2014-06-26.Binaergewitter.Talk.98.mp3

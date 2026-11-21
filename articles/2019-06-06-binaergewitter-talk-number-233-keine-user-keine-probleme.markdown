@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #233: Keine User, keine Probleme"
 date: 2019-06-07 10:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2019-06-06.Binaergewitter.Talk.233-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2019-06-06.Binaergewitter.Talk.233.mp3

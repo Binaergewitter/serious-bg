@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #278: Where in the World is John Mcafee"
 date: 2021-06-08 16:30:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2021-06-07.Binaergewitter.Talk.278.chapters.txt
 transcript: https://download.binaergewitter.de/2021-06-07.Binaergewitter.Talk.278-speech.json
 audioformats:

@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #354: Gyrotwister Power Bank"
 date: 2025-03-01 21:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2025-02-28.Binaergewitter.Talk.354.chapters.txt
 transcript: https://download.binaergewitter.de/2025-02-28.Binaergewitter.Talk.354-speech.json
 audioformats:

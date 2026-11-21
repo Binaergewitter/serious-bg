@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #280: Reproduzierbare Builds gegen den Klimawandel"
 date: 2021-07-08 21:30:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2021-07-06.Binaergewitter.Talk.280.chapters.txt
 transcript: https://download.binaergewitter.de/2021-07-06.Binaergewitter.Talk.280-speech.json
 audioformats:

@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #336: 18 Euro Mediathek"
 date: 2024-05-10 14:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2024-05-09.Binaergewitter.Talk.336.chapters.txt
 transcript: https://download.binaergewitter.de/2024-05-09.Binaergewitter.Talk.336-speech.json
 audioformats:

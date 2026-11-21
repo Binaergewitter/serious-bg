@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #359: Linux subsystem for linux"
 date: 2025-05-20 10:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2025-05-19.Binaergewitter.Talk.359.chapters.txt
 transcript: https://download.binaergewitter.de/2025-05-19.Binaergewitter.Talk.359-speech.json
 audioformats:

@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #175: Take 3"
 date: 2017-07-07 10:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2017-07-06.Binaergewitter.Talk.175-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2017-07-06.Binaergewitter.Talk.175.mp3

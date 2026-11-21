@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #136: UDP wird repariert"
 date: 2015-11-27 18:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2015-11-26.Binaergewitter.Talk.136-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2015-11-26.Binaergewitter.Talk.136.mp3

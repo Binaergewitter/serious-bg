@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #381: Local Opus und Cloud Opus"
 date: 2026-06-05 13:30:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2026-06-05.Binaergewitter.Talk.381.chapters.txt
 transcript: https://download.binaergewitter.de/2026-06-05.Binaergewitter.Talk.381-speech.json
 audioformats:

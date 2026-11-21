@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #300: Minipodcast von deinen Freunden"
 date: 2022-08-04 23:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2022-08-03.Binaergewitter.Talk.300.chapters.txt
 transcript: https://download.binaergewitter.de/2022-08-03.Binaergewitter.Talk.300-speech.json
 audioformats:

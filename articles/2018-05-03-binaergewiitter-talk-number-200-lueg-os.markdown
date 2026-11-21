@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #200: Lüg-OS"
 date: 2018-05-03 12:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2018-05-02.Binaergewitter.Talk.200-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2018-05-02.Binaergewitter.Talk.200.mp3

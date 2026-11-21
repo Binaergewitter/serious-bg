@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #330: OpenSource Plus"
 date: 2024-01-20 18:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2024-01-19.Binaergewitter.Talk.330.chapters.txt
 transcript: https://download.binaergewitter.de/2024-01-19.Binaergewitter.Talk.330-speech.json
 audioformats:

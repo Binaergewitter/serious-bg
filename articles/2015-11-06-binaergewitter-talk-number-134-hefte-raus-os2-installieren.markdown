@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #134: Hefte Raus, OS/2 installieren"
 date: 2015-11-06 16:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2015-11-05.Binaergewitter.Talk.134-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2015-11-05.Binaergewitter.Talk.134.mp3

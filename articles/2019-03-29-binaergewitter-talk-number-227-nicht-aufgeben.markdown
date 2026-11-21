@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #227: nicht aufgeben!"
 date: 2019-03-29 10:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2019-03-28.Binaergewitter.Talk.227-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2019-03-28.Binaergewitter.Talk.227.mp3

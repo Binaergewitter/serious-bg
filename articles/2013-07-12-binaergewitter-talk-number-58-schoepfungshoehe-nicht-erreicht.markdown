@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #58 - Schöpfungshöhe nicht erreicht"
 date: 2013-07-12 10:45:00
 
-comments: true
 categories: talk
-sharing: true
 chapters: https://download.binaergewitter.de/2013-07-04.Binaergewitter.Talk.58.chapters.txt
 transcript: https://download.binaergewitter.de/2013-07-11.Binaergewitter.Talk.58-speech.json
 audioformats:

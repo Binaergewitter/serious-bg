@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #117: E-Postbrief in die Zukunft"
 date: 2015-03-13 17:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2015-03-12.Binaergewitter.Talk.117-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2015-03-12.Binaergewitter.Talk.117.mp3

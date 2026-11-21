@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #174: Man wird so wie der Ingo"
 date: 2017-06-16 10:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 release: 2
 transcript: https://download.binaergewitter.de/2017-06-15.Binaergewitter.Talk.174-speech.json
 audioformats:

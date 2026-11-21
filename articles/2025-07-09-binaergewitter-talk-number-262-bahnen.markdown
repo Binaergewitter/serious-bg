@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #362: Neudeutsche Bahn"
 date: 2025-07-09 16:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2025-07-07.Binaergewitter.Talk.362.chapters.txt
 transcript: https://download.binaergewitter.de/2025-07-07.Binaergewitter.Talk.362-speech.json
 audioformats:

@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #204: Internet of Kaffee"
 date: 2018-06-15 23:30:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2018-06-13.Binaergewitter.Talk.204-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2018-06-13.Binaergewitter.Talk.204.mp3

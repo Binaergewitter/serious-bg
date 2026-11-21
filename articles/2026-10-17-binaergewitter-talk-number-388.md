@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #388: Gremium der Time Lords"
 date: 2026-10-17 18:00:00
 description: "Wir sprechen über die Weiterentwicklung eingestellter Open-Source-Projekte, darunter OpenCourant als Fork von Siemens’ Open Radios und Classic zur Nachbildung von KDE 3. Weitere Themen sind die Geschäftsaufgabe des Elektronikversands Seegor, das Ende der Schaltsekunde und die Insolvenz von Character.AI. Ein Schwerpunkt liegt auf KI-Diensten, Datenschutz und den Risiken unausgereifter KI-Software. Außerdem geht es um lokale Modelle, Libreboot, einen geplanten Fritzbox-Werbefilter, KDE Plasma 6.8, Sicherheitslücken und Ingos Eindrücke vom Open Source Summit in Prag. Zum Abschluss sprechen wir unter anderem über VoxType, Klimapolitik sowie Empfehlungen zu RAW-Bildbearbeitung, Synthesizern und Home-Assistant-Dashboards."
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2026-10-16.Binaergewitter.Talk.388.chapters.txt
 transcript: https://download.binaergewitter.de/2026-10-16.Binaergewitter.Talk.388-speech.json
 audioformats:

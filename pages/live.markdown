@@ -1,10 +1,6 @@
 ---
-layout: page
 title: "Live"
 slug: "live"
-comments: false
-sharing: false
-footer: true
 ---
 ## Live-Sendung
 Binärgewitter Talk läuft ca. alle 2 Wochen. Für aktuelle Infos folgt uns am besten auf [Mastodon](https://jit.social/@binaergewitter).

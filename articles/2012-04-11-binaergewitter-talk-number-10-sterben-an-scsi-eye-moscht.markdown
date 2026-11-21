@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #010 - Sterben an SCSI Eye-Moscht"
 date: 2012-04-12 12:00:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2012-04-11.Binaergewitter.Talk.10-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2012-04-11.Binaergewitter.Talk.10.mp3

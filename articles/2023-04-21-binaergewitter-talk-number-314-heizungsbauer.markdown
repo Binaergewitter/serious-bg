@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #314: Influencer zu Heizungsbauer"
 date: 2023-04-21 15:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2023-04-20.Binaergewitter.Talk.314.chapters.txt
 transcript: https://download.binaergewitter.de/2023-04-20.Binaergewitter.Talk.314-speech.json
 audioformats:

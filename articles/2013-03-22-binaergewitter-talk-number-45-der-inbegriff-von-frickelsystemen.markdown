@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #45 - Der Inbegriff von Frickelsystemen"
 date: 2013-03-22 13:00:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2013-03-21.Binaergewitter.Talk.45-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2013-03-21.Binaergewitter.Talk.45.mp3

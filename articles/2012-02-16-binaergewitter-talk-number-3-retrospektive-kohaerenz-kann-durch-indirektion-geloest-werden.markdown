@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #3 - Retrospektive Kohärenz kann durch Indirektion gelöst werden"
 date: 2012-02-16 11:07:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2012-02-15.Binaergewitter.Talk.3-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2012-02-15.Binaergewitter.Talk.3.mp3

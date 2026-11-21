@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #187: out of the block thinking"
 date: 2017-12-09 16:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2017-12-07.Binaergewitter.Talk.187-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2017-12-07.Binaergewitter.Talk.187.mp3

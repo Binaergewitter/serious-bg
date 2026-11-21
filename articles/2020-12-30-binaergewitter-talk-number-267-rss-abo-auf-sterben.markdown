@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #267: RSS Abo auf Sterben"
 date: 2020-12-30 18:30:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2020-12-29.Binaergewitter.Talk.267.chapters.txt
 transcript: https://download.binaergewitter.de/2020-12-29.Binaergewitter.Talk.267-speech.json
 audioformats:

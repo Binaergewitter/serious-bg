@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #147: Multi Tschennel Support"
 date: 2016-05-14 22:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2016-05-12.Binaergewitter.Talk.147-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2016-05-12.Binaergewitter.Talk.147.mp3

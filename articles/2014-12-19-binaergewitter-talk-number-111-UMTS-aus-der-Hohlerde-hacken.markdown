@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #111: UMTS aus der Hohlerde hacken"
 date: 2014-12-19 17:00:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2014-12-18.Binaergewitter.Talk.111-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2014-12-18.Binaergewitter.Talk.111.mp3

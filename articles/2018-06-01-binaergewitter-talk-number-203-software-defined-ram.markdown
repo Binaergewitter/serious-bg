@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #203: software defined ram"
 date: 2018-06-01 23:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2018-05-31.Binaergewitter.Talk.203-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2018-05-31.Binaergewitter.Talk.203.mp3

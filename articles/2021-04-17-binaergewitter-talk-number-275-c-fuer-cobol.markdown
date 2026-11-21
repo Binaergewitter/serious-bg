@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #275: Das C von Cobol steht für Cloud"
 date: 2021-04-18 10:30:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2021-04-16.Binaergewitter.Talk.275.chapters.txt
 transcript: https://download.binaergewitter.de/2021-04-16.Binaergewitter.Talk.275-speech.json
 audioformats:

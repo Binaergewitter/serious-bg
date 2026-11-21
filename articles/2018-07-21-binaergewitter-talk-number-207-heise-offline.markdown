@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #207: Heise Offline"
 date: 2018-07-21 09:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2018-07-19.Binaergewitter.Talk.207-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2018-07-19.Binaergewitter.Talk.207.mp3

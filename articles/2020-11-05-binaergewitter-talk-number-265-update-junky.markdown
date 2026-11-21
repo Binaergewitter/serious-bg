@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #265: Update Junky"
 date: 2020-11-05 16:30:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2020-11-04.Binaergewitter.Talk.265-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2020-11-04.Binaergewitter.Talk.265.mp3

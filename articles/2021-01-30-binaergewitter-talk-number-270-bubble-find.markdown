@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #270: Bubble find"
 date: 2021-01-30 17:30:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2021-01-29.Binaergewitter.Talk.270.chapters.txt
 transcript: https://download.binaergewitter.de/2021-01-29.Binaergewitter.Talk.270-speech.json
 audioformats:

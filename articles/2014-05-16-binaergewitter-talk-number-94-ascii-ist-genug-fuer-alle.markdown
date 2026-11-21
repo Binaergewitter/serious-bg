@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #94 - ascii ist genug für alle!"
 date: 2014-05-16 09:00:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2014-05-15.Binaergewitter-Talk.94-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2014-05-15.Binaergewitter-Talk.94.mp3

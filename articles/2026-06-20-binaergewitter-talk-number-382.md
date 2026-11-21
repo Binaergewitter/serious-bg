@@ -1,13 +1,9 @@
 ---
-layout: post
 title: "Binärgewitter Talk #382: Skin für VS Code"
 date: 2026-06-21 15:00:00
 description: "In dieser Ausgabe sprechen wir zunächst über Rückmeldungen zur letzten Sendung und über die Frage, wie digitale Souveränität bei Zahlungen, Banken und Finanzbildung praktisch aussehen kann. Außerdem behandeln wir aktuelle technische Themen wie Cursor, alte P2P-Projekte, lokale LLM-Nutzung auf Apple-Hardware sowie Tools zur Analyse großer Codebasen und zum statistischen Testen nicht-deterministischer Systeme. Im weiteren Verlauf geht es um mehrere Sicherheits- und Open-Source-Themen, darunter einen FreeBSD-Exploit, eine Schwachstelle im Arch User Repository, Systemd als CNA für CVE-Nummern und Probleme mit KI-Agenten in Fedora. Wir sprechen außerdem über Public Money, Public Code, den Umstieg auf Linux in Frankreich, Secure Boot und auslaufende Zertifikate sowie über verschiedene Hardware-, Smart-Home- und 3D-Druck-Projekte."
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2026-06-19.Binaergewitter.Talk.382.chapters.txt
 transcript: https://download.binaergewitter.de/2026-06-19.Binaergewitter.Talk.382-speech.json
 audioformats:

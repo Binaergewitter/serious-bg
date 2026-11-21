@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #188: Tuwat"
 date: 2018-01-01 16:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2017-12-29.Binaergewitter.Talk.188-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2017-12-29.Binaergewitter.Talk.188.mp3

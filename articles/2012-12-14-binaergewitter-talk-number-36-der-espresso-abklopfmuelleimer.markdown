@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #36 - Der Espresso-Abklopfmülleimer"
 date: 2012-12-14 12:30:00
 
-comments: true
 categories: talk
-sharing: true
 transcript: https://download.binaergewitter.de/2012-12-13.Binaergewitter.Talk.36-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2012-12-13.Binaergewitter.Talk.36.mp3

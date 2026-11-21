@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #221: Vertieft in die andere Richtung"
 date: 2019-01-18 10:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2019-01-18.Binaergewitter.Talk.221-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2019-01-18.Binaergewitter.Talk.221.mp3

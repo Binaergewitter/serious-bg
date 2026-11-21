@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #232: Ich hab ein Docker"
 date: 2019-05-25 10:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2019-05-23.Binaergewitter.Talk.232-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2019-05-23.Binaergewitter.Talk.232.mp3

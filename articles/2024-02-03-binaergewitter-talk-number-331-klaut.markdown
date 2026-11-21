@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #331: Atlassian Klaut Lebenszeit"
 date: 2024-02-03 19:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2024-02-02.Binaergewitter.Talk.331.chapters.txt
 transcript: https://download.binaergewitter.de/2024-02-02.Binaergewitter.Talk.331-speech.json
 audioformats:

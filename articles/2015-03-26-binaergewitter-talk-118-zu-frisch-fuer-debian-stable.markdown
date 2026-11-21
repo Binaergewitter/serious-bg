@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #118: zu frisch für Debian stable"
 date: 2015-03-28 10:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2015-03-26.Binaergewitter.Talk.118-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2015-03-26.Binaergewitter.Talk.118.mp3

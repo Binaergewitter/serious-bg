@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #376: Hyperscaler oder Messie"
 date: 2026-03-08 09:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2026-03-06.Binaergewitter.Talk.376.chapters.txt
 transcript: https://download.binaergewitter.de/2026-03-06.Binaergewitter.Talk.376-speech.json
 audioformats:

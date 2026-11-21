@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #156: Blitzschutzfilter"
 date: 2016-09-03 12:30:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 release: 2
 transcript: https://download.binaergewitter.de/2016-09-01.Binaergewitter.Talk.156-speech.json
 audioformats:

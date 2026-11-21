@@ -1,13 +1,9 @@
 ---
-layout: post
 title: "Binärgewitter Talk #161: Die Vorfreude streikt"
 date: 2016-12-02 12:30:00
 
-comments: true
 release: 2
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2016-11-30.Binaergewitter.Talk.161-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2016-11-30.Binaergewitter.Talk.161.mp3

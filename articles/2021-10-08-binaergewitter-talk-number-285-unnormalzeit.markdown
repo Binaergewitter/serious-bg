@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #285: Unnormalzeit"
 date: 2021-10-08 22:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2021-10-07.Binaergewitter.Talk.285.chapters.txt
 transcript: https://download.binaergewitter.de/2021-10-07.Binaergewitter.Talk.285-speech.json
 audioformats:

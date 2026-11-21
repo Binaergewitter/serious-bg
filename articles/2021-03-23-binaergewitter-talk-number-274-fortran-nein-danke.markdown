@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #274: Fortran, nein Danke!"
 date: 2021-03-23 14:30:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2021-03-22.Binaergewitter.Talk.274.chapters.txt
 transcript: https://download.binaergewitter.de/2021-03-22.Binaergewitter.Talk.274-speech.json
 audioformats:

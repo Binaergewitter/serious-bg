@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #313: Die SMSAusdrucker"
 date: 2023-03-28 18:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2023-03-27.Binaergewitter.Talk.313.chapters.txt
 transcript: https://download.binaergewitter.de/2023-03-27.Binaergewitter.Talk.313-speech.json
 audioformats:

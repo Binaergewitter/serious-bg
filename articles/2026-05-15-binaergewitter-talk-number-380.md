@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #380: Dörte Fräck"
 date: 2026-05-16 19:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2026-05-14.Binaergewitter.Talk.380.chapters.txt
 transcript: https://download.binaergewitter.de/2026-05-14.Binaergewitter.Talk.380-speech.json
 audioformats:

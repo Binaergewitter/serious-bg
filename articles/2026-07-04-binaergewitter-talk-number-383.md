@@ -1,13 +1,9 @@
 ---
-layout: post
 title: "Binärgewitter Talk #383: second life for facebook"
 date: 2026-07-04 15:00:00
 description: "In dieser Folge sprechen wir zunächst über Rückmeldungen zur letzten Sendung, Probleme mit der Mail-Liste und anschließend ausführlich über Vero, seine Verbreitung bei Banken und die Rolle von Souveränität im Finanzbereich. Danach geht es um KI im Entwicklungsalltag, darunter Werkzeuge zur Analyse größerer Codebasen sowie der Einsatz von Sprachmodellen für NixOS-Setups, Präsentationen und andere Konfigurationen. Außerdem behandeln wir in mehreren Themenblöcken aktuelle und technische Meldungen: den Tod des Ubisoft-Mitgründers, die Schließung des PS3- und PS-Vita-Stores, Plex, wiederbelebte Projekte wie Mageia und Qualcomm Linux, den Dotcom-Fall, Googles EU-Strafe, ein kleines Rechenzentrum aus alten Smartphones, einen Angriff auf FortiGate-Firewalls und Umbauten am CERN. Zum Schluss sprechen wir über NixOS, die Rust Commercial Network-Initiative, 3D-Druck-Projekte, einen Open-Source-Staubsaugroboter, NAS-Adapter, Release-Prozesse, ein Tool für „eingescannte“ PDFs und einen Deep Dive in Widevine."
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2026-07-03.Binaergewitter.Talk.383.chapters.txt
 transcript: https://download.binaergewitter.de/2026-07-03.Binaergewitter.Talk.383-speech.json
 audioformats:

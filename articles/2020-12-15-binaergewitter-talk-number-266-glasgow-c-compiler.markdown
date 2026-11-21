@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #266: Glasgow C Compiler"
 date: 2020-12-15 20:30:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 chapters: https://download.binaergewitter.de/2020-12-15.Binaergewitter.Talk.266.chapters.txt
 transcript: https://download.binaergewitter.de/2020-12-15.Binaergewitter.Talk.266-speech.json
 audioformats:

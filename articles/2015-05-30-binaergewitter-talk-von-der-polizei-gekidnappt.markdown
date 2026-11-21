@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Binärgewitter Talk #121: von der Polizei gekidnappt"
 date: 2015-05-30 20:00:00
 
-comments: true
 categories: talk
-sharing: true
-published: true
 transcript: https://download.binaergewitter.de/2015-05-28.Binaergewitter.Talk.121-speech.json
 audioformats:
   mp3: https://download.binaergewitter.de/2015-05-28.Binaergewitter.Talk.121.mp3
