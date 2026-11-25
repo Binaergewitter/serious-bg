@@ -19,6 +19,17 @@ voices:
 In dieser Folge sprechen wir über neue Geräte zum Wiederfinden verlegter Gegenstände und digitale Bilderrahmen mit verschlüsseltem Bildversand sowie selbst gehosteten Lösungen. Außerdem behandeln wir aktuelle Meldungen, KI-Datenbanken und lokale Modelle, Sicherheitslücken und die Frage, ob selbst gehostete Anwendungen öffentlich erreichbar sein sollten.
 Ein weiterer Schwerpunkt sind die Überwachung von Heimspeichern und die Bestimmung des Ladezustands von LFP-Akkus, einschließlich Sebastians Auslesen von Zellendaten mit Home Assistant und einem CAN-Analysator. Zum 3D-Druck sprechen wir über verschiedene Modelle und Projekte; weitere Themen sind ein selbst gedrucktes 10-Zoll-Rack, Reverse Engineering, schreibgeschützte Linux-Systeme und Generationeneinteilungen.
 
+## Black Friday
+
+- [Motorola Moto Tag 2](https://www.amazon.de/dp/B0G6KW5NM1?tag=trektrip)
+- [Google Pixel Buds Pro 2](https://www.amazon.de/dp/B0D8LHH8CX?tag=trektrip)
+- [SONOFF SNZB-06P](https://www.amazon.de/dp/B0CNGKFG9Y?tag=trektrip)
+- [Aqara FP300](https://www.amazon.de/dp/B0FG2MD3YP?tag=trektrip)
+- [Frameo-Bilderrahmen 15,6 Zoll, 94 % sRGB](https://www.amazon.de/dp/B0FCFMCCD5?tag=trektrip)
+- [Frameo-Bilderrahmen 15,6 Zoll, 64 GB](https://www.amazon.de/dp/B0DQCM2GGT?tag=trektrip)
+- [Chipolo CARD](https://www.amazon.de/dp/B0FLWG1QSK?tag=trektrip)
+- [TRACKCARD One für Android](https://www.amazon.de/dp/B0FLFGB8G2?tag=trektrip)
+
 ## Blast from the Past
 
 - [PaperlessPaper - ePaper Spectre]( https://paperlesspaper.de/ )
@@ -27,19 +38,19 @@ Ein weiterer Schwerpunkt sind die Überwachung von Heimspeichern und die Bestimm
 ## Toter der Woche
 
 - https://www.zeit.de/gesellschaft/zeitgeschehen/2026-11/bombendrohungen-schulen-e-mail-daenemark-gxe
-- [Krimmbrücke](  )
+- [Krimbrücke](https://www.tagesschau.de/ausland/europa/selenskyj-teilzerstoerung-krim-bruecke-100.html)
 - [USA: Alle Flughäfen gesperrt]( https://www.heise.de/news/USA-Alle-Flughaefen-gesperrt-11525181.html )
 
 ## Untoter der Woche
 
 - [Jensen Huang]( https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/ )
-  * []( https://www.nytimes.com/2026/11/20/technology/jensen-huang-nvidia-culture.html )
+  * [Jensen Huangs Nvidia-Kultur](https://www.nytimes.com/2026/11/20/technology/jensen-huang-nvidia-culture.html)
 - [Need for Speed Underground 2 im browser]( https://nfsu2.xyz/ )
 
 ## AI der Woche
 
 - [AI Shit Code bricht alles beim Update]( https://jepsen.io/analyses/particledb-1.1.4 )
-- []( https://openviking.ai/ )
+- [OpenViking](https://openviking.ai/)
 - [Locale KI Beschleunigung](https://thomaswildetech.com/blog/2026-11-11/two-engines-one-model-basalt-versus-strata-on-the-5090/ )
   - [Geht KI ohne GPU und für unter 1000 Euro? - Video]( https://youtu.be/lpsMArIgy4o?si=S7r4ewYac8Y8PT6N )
 
@@ -53,7 +64,7 @@ Ein weiterer Schwerpunkt sind die Überwachung von Heimspeichern und die Bestimm
   - ["engine x"]( https://en.wikipedia.org/wiki/Nginx )
 - https://calif.io/java4shell
 - https://www.golem.de/news/schadcode-attacken-moeglich-ruby2sshell-luecke-gefaehrdet-zahlreiche-anwendungen-2611-215467.html
-- [openssl 4]( )
+- [OpenSSL 4: CVE-2026-121481](https://github.com/advisories/GHSA-83xj-7xh4-4p7x)
 - php
 - https://stadt-bremerhaven.de/optimizely-schadcode-ueber-web-plattform-trifft-178-unternehmen/
 - https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1154119&pow_referer=
@@ -75,7 +86,7 @@ Ein weiterer Schwerpunkt sind die Überwachung von Heimspeichern und die Bestimm
 
 ## Mimimi der Woche
 
-- [rockchip](  )
+- [Rockchip RK3399 in U-Boot](https://docs.u-boot.org/en/latest/board/rockchip/rockchip.html)
 
 ## Lesefoo
 
@@ -85,7 +96,7 @@ Ein weiterer Schwerpunkt sind die Überwachung von Heimspeichern und die Bestimm
 ## Picks
 
 - [PrintableRacks: Kostenloser 3D-Planer für 10-Zoll-Homelab-Racks](https://printableracks.com/)
-- [Generation]( https://www.severint.net /2019/10/21/ueberblick-bezeichnungen-der-generationen/ )
+- [Generationen](https://www.severint.net/2019/10/21/ueberblick-bezeichnungen-der-generationen/)
 - [chimera vocal synth]( https://chimera-vocal-synth.vercel.app/ )
 
 ## Ende
